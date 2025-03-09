@@ -13,6 +13,7 @@
   * [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming)
     * [Refactoring](https://refactoring.com/)
     * [Software rot](https://en.wikipedia.org/wiki/Software_rot)
+    * [Technocal debt](https://en.wikipedia.org/wiki/Technical_debt)
   * [Trunk Based Development](https://trunkbaseddevelopment.com/)
   * [Software prototyping](https://en.wikipedia.org/wiki/Software_prototyping)
   * [Scrum](https://www.scrum.org/learning-series/what-is-scrum/)
@@ -58,8 +59,12 @@
   * [The Four Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/)
     * Latency, Traffic, Errors, Saturation
 
-## 010 - Cultures and ergonomics
+## 010 - Cultures and human sciences
 
+* [Trust](https://en.wikipedia.org/wiki/Trust_(social_science))
+* [Storytelling](https://en.wikipedia.org/wiki/Storytelling)
+* [STEAM education](https://en.wikipedia.org/wiki/STEAM_education)
+  * Science, technology, engineering, art and mathematics
 * Code of Conduct
   * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
   * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles)
@@ -70,8 +75,6 @@
   * [Philosophy of the GNU Project](https://www.gnu.org/philosophy/philosophy.html)
   * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.html)
   * [Contributor Covenant](https://www.contributor-covenant.org/)
-  * [STEAM education](https://en.wikipedia.org/wiki/STEAM_education)
-    * Science, technology, engineering, art and mathematics
 * Social or psychological concerns
   * [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
   * [Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety)
@@ -86,6 +89,8 @@
   * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog)
   * [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out)
   * [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt)
+  * [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network)
+  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition)
 * Usability concerns
   * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action)
     * 1: Forming the target.
@@ -98,6 +103,7 @@
   * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
   * [Affordance](https://en.wikipedia.org/wiki/Affordance)
   * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect)
+  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law)
 * [Instant messaging](https://en.wikipedia.org/wiki/Instant_messaging)
   * [Slack](https://slack.com/)
     * [Python Slack SDK](https://slack.dev/python-slack-sdk/)
@@ -108,7 +114,7 @@
   * [Mastodon](https://joinmastodon.org/)
   * [Lemmy](https://join-lemmy.org/) - A selfhosted social link aggregation and discussion platform
 
-## 020 - Project and service management
+## 020 - Management
 
 * [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle)
   * ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
@@ -218,6 +224,7 @@
 
 * [Domain driven design](https://en.wikipedia.org/wiki/Domain-driven_design)
 * [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design)
+  * [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary)
 * [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science))
   * [WordNet](https://wordnet.princeton.edu/)
   * [Sematic network](https://en.wikipedia.org/wiki/Semantic_network)
@@ -291,6 +298,7 @@
   * [PyPI](https://pypi.org/) - A repository of software for the Python programming language
   * [RubyGems.org](https://rubygems.org/) - The Ruby community’s gem hosting service
   * [npm Registry](https://www.npmjs.com/) - The world's largest software registry
+    * [npm-check-updates](https://github.com/raineorshine/npm-check-updates)
   * [JSR](https://jsr.io/) - The open-source package registry for modern JavaScript and TypeScript
   * [pkg.go.dev](https://pkg.go.dev/) - Your source for information about Go packages and modules
   * [crates.io](https://crates.io/) - The Rust community’s crate registry
@@ -363,15 +371,20 @@
   * [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
   * [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency)
 
-## 080 - Mathematics and statistics
+## 080 - Logic, mathematics and statistics
 
-* [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model)
+* [Logic](https://en.wikipedia.org/wiki/Logic)
+  * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning)
+    * Deductive, Inductive, Abuctive and Analogical
+  * [Fallacy](https://en.wikipedia.org/wiki/Fallacy)
+  * [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus)
+    * conjunction, disjunction, implication, biconditional and negation
+    * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic))
+  * [First order logic](https://en.wikipedia.org/wiki/First-order_logic)
+    * universal quantification and existential quantification
 * [Formal system](https://en.wikipedia.org/wiki/Formal_system)
-* [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus)
-  * conjunction, disjunction, implication, biconditional, and negation
-  * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic))
-* [First order logic](https://en.wikipedia.org/wiki/First-order_logic)
-  * universal quantification and existential quantification
+* [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model)
+* [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
 * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
   * [Equation](https://en.wikipedia.org/wiki/Equation)
 * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
@@ -379,8 +392,10 @@
   * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
   * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
   * [Determinant](https://en.wikipedia.org/wiki/Determinant)
-* [Function](https://en.wikipedia.org/wiki/Function_(mathematics))
-  * [Map](https://en.wikipedia.org/wiki/Map_(mathematics))
+* [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
+* [Function](https://en.wikipedia.org/wiki/Function_(mathematics)) - establishes a relation between the elements of the domain and some (possibly all) elements of the codomain
+  * [Map](https://en.wikipedia.org/wiki/Map_(mathematics)) - A function in its general sense
+  * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
     * [Idempotence](https://en.wikipedia.org/wiki/Idempotence)
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)
     * [Notations](https://dlmf.nist.gov/not/)

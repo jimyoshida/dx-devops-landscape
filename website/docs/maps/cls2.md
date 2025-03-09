@@ -48,6 +48,9 @@
   * [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
     * [MAC address](https://en.wikipedia.org/wiki/MAC_address)
   * [VLAN](https://en.wikipedia.org/wiki/VLAN)
+* [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
+* [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
+  * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
 
 ## 210 - Linux administration
 
@@ -240,8 +243,6 @@
 ## 240 - Kubernetes
 
 * [Kubernetes](https://kubernetes.io/)
-* [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
-  * [consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
 * K8s as a service
   * [GKE](https://cloud.google.com/kubernetes-engine/)
   * [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/)
@@ -443,7 +444,7 @@
   * IaaS-specific
     * [Azure Monitor Agent](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview)
     * [Cloudwatch Agent](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html)
-* Datastore and monitoring
+* Datastore and alerting
   * [Prometheus](https://prometheus.io/)
     * [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/)
     * [promtool](https://prometheus.io/docs/prometheus/latest/command-line/promtool/)
@@ -468,13 +469,12 @@
     * [Kusto Query Language](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/)
     * [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
   * [AWS CloudWatch](https://aws.amazon.com/cloudwatch/)
+  * [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
+  * [OpenObserve](https://openobserve.ai/) - Open-source observability platform designed for modern applications
 * Visualization
   * [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
     * [Grafonnet](https://grafana.github.io/grafonnet/) - Jsonnet library for generating Grafana dashboards
   * [Kibana](https://www.elastic.co/kibana) - Discover, iterate, and resolve with ES|QL
-  * [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
-  * [Azure Dashboard](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
-  * [Datadog](https://www.datadoghq.com/)
 
 ## 290 - DevOps workspace
 

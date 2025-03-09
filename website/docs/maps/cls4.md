@@ -5,9 +5,12 @@
 ## 400 - References for security and privacy
 
 * [Information security](https://en.wikipedia.org/wiki/Information_security)
-* [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computing))
-* [Malware](https://en.wikipedia.org/wiki/Malware)
-  * [Ransomware](https://en.wikipedia.org/wiki/Ransomware)
+* [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security))
+* [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security))
+  * [Malware](https://en.wikipedia.org/wiki/Malware)
+    * [Ransomware](https://en.wikipedia.org/wiki/Ransomware)
+  * [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
+    * [Phishing](https://en.wikipedia.org/wiki/Phishing)
 * Certifications, Regulations and Standards
   * NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
     * AC - Access Control
@@ -206,6 +209,8 @@
   * [Haskell Dockerfile Linter](https://github.com/hadolint/hadolint#readme)
   * [kube-score](https://kube-score.com/)
   * [kubesec](https://kubesec.io/)
+  * [PSRule](https://microsoft.github.io/PSRule/stable/) - Build test and governance controls for Infrastructure as Code (IaC)
+    * [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/)
 * Cloud security posture management (CSPM)
   * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)

@@ -67,7 +67,8 @@
 
 * [NGINX](https://www.nginx.com/)
 * [Apache HTTP Server](https://httpd.apache.org/)
-* [nodejs http-server](https://github.com/http-party/http-server#readme)
+* [Caddy](https://caddyserver.com/) - A powerful, extensible platform to serve your sites, services, and apps, written in Go
+* [nodejs http-server](https://github.com/http-party/http-server#readme) - A simple static HTTP server
 * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 * Forward proxy and caching
   * [Web cache](https://en.wikipedia.org/wiki/Web_cache)

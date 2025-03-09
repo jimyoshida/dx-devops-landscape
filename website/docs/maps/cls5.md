@@ -4,19 +4,20 @@
 
 ## 500 - Data/AI concepts and platforms
 
-* [Data](https://en.wikipedia.org/wiki/Data_(computer_science))
-* [Metadata](https://en.wikipedia.org/wiki/Metadata)
-* [Big data](https://en.wikipedia.org/wiki/Big_data)
+* [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
+* [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
+* [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing software
 * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)
-* [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid)
-* [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
-* [Data lake](https://en.wikipedia.org/wiki/Data_lake)
+* [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - Models of possible structural and functional relationships between a set of components—often four, data, information, knowledge, and wisdom
+* [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) - A system used for reporting and data analysis and is a core component of business intelligence
+* [Data lake](https://en.wikipedia.org/wiki/Data_lake) - A system or repository of data stored in its natural/raw format, usually object blobs or files
 * [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control)
-  * [ACID](https://en.wikipedia.org/wiki/ACID)
-    * Atomicity, Consistency, Isolation, Durability
+  * [ACID](https://en.wikipedia.org/wiki/ACID) - A set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps
+    * Atomicity, Consistency, Isolation, and Durability
 * [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
-* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
-  * Consistency, Availability, Partition tolerance
+* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - states that any distributed data store can provide only two of the following three guarantees:
+  * Consistency, Availability, and Partition tolerance
+* [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
 * Network analysis
   * [Centrality](https://en.wikipedia.org/wiki/Centrality)
 * Interactive computing environment
@@ -24,11 +25,17 @@
   * [Jupiter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
     * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
   * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
-  * [R Markdown](https://rmarkdown.rstudio.com/)
+  * [R Markdown](https://rmarkdown.rstudio.com/) - helps you create dynamic analysis documents that combine code, rendered output (such as figures), and prose
+* Data exchange format
+  * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
 * Platforms for Data/AI/ML
   * [DVC](https://dvc.org/) - Data Version Control
   * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
   * [Vanna.AI](https://vanna.ai/) - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
+* AI kinds
+  * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
+  * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
+  * [Causal AI](https://en.wikipedia.org/wiki/Causal_AI) - A technique in artificial intelligence that builds a causal model and can thereby make inferences using causality rather than just correlation
 
 ## 510 - Basic data science tools
 
@@ -40,10 +47,11 @@
   * [SageMath](https://www.sagemath.org/)
   * [statsmodels](https://www.statsmodels.org/stable/index.html)
   * [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
-* Manipuration
+* Data analysis and manipuration
   * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
   * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
     * dplyr, tidyr, stringr, purrr, readr
+  * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
 * Network analysis
   * [NetworkX](https://networkx.org/)
 * Visualization apps
@@ -75,13 +83,15 @@
     * [Prisma](https://www.prisma.io/)
     * [Hibernate](https://hibernate.org/orm/)
     * [Diesel](https://diesel.rs/) - A Safe, Extensible ORM and Query Builder for Rust
-  * [PostgreSQL](https://www.postgresql.org/)
+    * [GORM](https://gorm.io/) - The fantastic ORM library for Golang aims to be developer friendly
+    * [XORM](https://xorm.io/) - A Simple and Powerful ORM for Go
+  * [PostgreSQL](https://www.postgresql.org/) - An object-relational database management system (ORDBMS) based on POSTGRES, Version 4.2, developed at the University of California at Berkeley Computer Science Department
     * [pgAdmin](https://www.pgadmin.org/)
     * [pgBadger](https://pgbadger.darold.net/)
   * [PGlite](https://pglite.dev/) - A WASM Postgres build packaged into a TypeScript/JavaScript client library, that enables you to run Postgres in the browser, Node.js and Bun
   * [Supabase Database](https://supabase.com/docs/guides/database/overview) - An open source Firebase alternative
-  * [MySQL](https://www.mysql.com/)
-  * [MariaDB](https://mariadb.org/)
+  * [MySQL](https://www.mysql.com/) - The most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation
+  * [MariaDB community Server](https://mariadb.com/products/community-server/)
   * [TiDB](https://www.pingcap.com/tidb/) - An open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads
   * [Amazon RDS](https://aws.amazon.com/rds/)
   * [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
@@ -139,6 +149,8 @@
   * [Amazon RedShift](https://aws.amazon.com/redshift/)
   * [Amazon Athena](https://aws.amazon.com/athena/)
   * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - allows your entire organization to use data and AI
+    * [Lakehouse architecture](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
+    * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
   * [Microsoft Fablic](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
   * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
@@ -161,7 +173,6 @@
 ## 540 - Machine learning
 
 * Paradigms and concepts
-  * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)
   * [Supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)
     * [Decision tree learning](https://en.wikipedia.org/wiki/Decision_tree_learning)
     * [Ensemble learning](https://en.wikipedia.org/wiki/Ensemble_learning)
@@ -204,6 +215,7 @@
   * [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics))
   * [Syntax](https://en.wikipedia.org/wiki/Syntax)
   * [Semantics](https://en.wikipedia.org/wiki/Semantics)
+    * [Symbol grounding problem](https://en.wikipedia.org/wiki/Symbol_grounding_problem)
   * [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
 * [n-gram](https://en.wikipedia.org/wiki/N-gram)
 * [tf-idf (term frequency-inverse document frequency)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
@@ -252,9 +264,10 @@
   * [GPT-4](https://openai.com/research/gpt-4)
   * [Llama](https://www.llama.com/)
   * [Google Gemini](https://gemini.google.com/)
+    * [Gemma](https://ai.google.dev/gemma) - A family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models
   * [Anthropic Claude](https://www.anthropic.com/claude)
-  * [Mistral AI](https://mistral.ai/)
-  * [OLMo](https://allenai.org/blog/olmo2)
+* Formats
+  * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
 * APIs
   * [OpenAI API](https://platform.openai.com/)
     * [Go OpenAI](https://github.com/sashabaranov/go-openai)

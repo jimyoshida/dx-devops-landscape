@@ -179,6 +179,9 @@ Initial release: 10 August 2017
 
 Amazon SageMaker is a cloud machine-learning platform that enables developers to create, train, and deploy machine-learning (ML) models in the cloud. It also enables developers to deploy ML models on embedded systems and edge-devices. SageMaker was launched in 29 November 2017.
 
+Databricks grew out of the AMPLab project at University of California, Berkeley that was involved in making Apache Spark, an open-source distributed computing framework built atop Scala.
+In November 2017, the company was announced as a first-party service on Microsoft Azure via integration Azure Databricks.
+
 A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 Transformers were introduced in 2017 by a team at Google Brain and are increasingly becoming the model of choice for NLP problems, replacing RNN models such as long short-term memory (LSTM).
 
@@ -216,6 +219,9 @@ On February 7, 2023, Microsoft announced a major overhaul to Bing including the 
 Llama (acronym for Large Language Model Meta AI, and formerly stylized as LLaMA) is a family of autoregressive large language models (LLMs) released by Meta AI starting in February 2023.
 
 Bard is a conversational artificial intelligence chatbot developed by Google, based on the LaMDA family of large language models. It was developed as a response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses.
+
+Claude is a family of large language models developed by Anthropic.
+The first model was released in March 2023.
 
 Generative Pre-trained Transformer 4 (GPT-4) is a multimodal large language model created by OpenAI, and the fourth in its series of GPT foundation models. It was launched on March 14, 2023, and made publicly available via the paid chatbot product ChatGPT Plus, via OpenAI's API, and via the free chatbot Microsoft Copilot.
 

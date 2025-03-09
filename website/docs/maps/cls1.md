@@ -17,6 +17,10 @@
 * [Data type](https://en.wikipedia.org/wiki/Data_type)
   * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type)
   * Abstract data types (-> see Class 190)
+  * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system)
+  * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system)
+  * [Union type](https://en.wikipedia.org/wiki/Union_type)
+  * [Type inference](https://en.wikipedia.org/wiki/Type_inference)
 * [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
 * [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science))
   * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer)
@@ -55,6 +59,7 @@
   * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety)
   * [Deadlock](https://en.wikipedia.org/wiki/Deadlock)
 * [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+  * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
   * [First-class function](https://en.wikipedia.org/wiki/First-class_function)
     * [Map](https://en.wikipedia.org/wiki/Map_(higher-order_function))
     * [Filter](https://en.wikipedia.org/wiki/Filter_(higher-order_function))
@@ -65,9 +70,11 @@
   * [Side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
   * [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming))
   * [Currying](https://en.wikipedia.org/wiki/Currying)
-* Program analysys
+* Program analysys (advanced)
   * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic)
   * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence)
+  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving)
+  * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class)
 
 ## 110 - Shell and terminal
 
@@ -253,14 +260,6 @@
   * [special methods](https://docs.python.org/3/reference/datamodel.html#specialnames)
   * [global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
   * [dataclasses](https://docs.python.org/3/library/dataclasses.html)
-* [Javascript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
-  * [CommonJS](https://en.wikipedia.org/wiki/CommonJS)
-  * [ES modules](https://nodejs.org/api/esm.html)
-  * [prototypal inheritance](https://en.wikipedia.org/wiki/Prototype-based_programming)
-  * event-driven
-  * spread and rest operators
-  * generator
-  * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
 * [Go](https://go.dev/)
   * [Go Modules](https://go.dev/wiki/Modules)
   * [defer, panic and recover](https://go.dev/blog/defer-panic-and-recover)
@@ -272,42 +271,44 @@
   * static binary executable
   * [lo](https://pkg.go.dev/github.com/samber/lo) - A Lodash-style Go library
   * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
-* Extra programming languages (advanced)
-  * [Ruby](https://www.ruby-lang.org/en/)
-    * persent notation
-    * block, yield, proc, lambda
-    * dynamic method definition
-    * pattern matching
-    * instance_eval
-  * [Typescript](https://www.typescriptlang.org/index.html)
-    * type inference
-    * interface
-    * union and intersection
-    * type guard
-    * decorator
-    * optional and default parameters
-    * type arias
-    * type assertion
-    * type declaration file
-  * [Rust](https://www.rust-lang.org/)
-    * ownership and borrowing
-    * interior mutability
-    * iterator and closure
-    * trait-based generics
-    * lifetime
-    * pattern matching
-    * pinning
-  * [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
-    * query expression (LINQ)
-    * delegate and event
-    * lambda expression
-  * [F#](https://fsharp.org/)
-    * immutable data structure
-    * type inference
-    * pattern matching
-    * discriminated union
-    * active pattern
-    * computation expression
+* [Javascript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
+  * [CommonJS](https://en.wikipedia.org/wiki/CommonJS)
+  * [ES modules](https://nodejs.org/api/esm.html)
+  * [Prototype-based](https://en.wikipedia.org/wiki/Prototype-based_programming)
+  * event-driven
+  * spread and rest operators
+  * generator
+  * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
+* [Typescript](https://www.typescriptlang.org/index.html)
+  * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types)
+  * [Type Ariases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases)
+  * [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
+  * [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
+  * [Nominal typing techniques](https://michalzalecki.com/nominal-typing-in-typescript/)
+  * [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)
+  * [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
+* [Rust](https://www.rust-lang.org/)
+  * ownership and borrowing
+  * interior mutability
+  * iterator and closure
+  * trait-based generics
+  * lifetime
+  * pinning
+* [Ruby](https://www.ruby-lang.org/en/)
+  * persent notation
+  * block, yield, proc, lambda
+  * dynamic method definition
+  * instance_eval
+* [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+  * query expression (LINQ)
+  * delegate and event
+  * lambda expression
+* [F#](https://fsharp.org/)
+  * immutable data structure
+  * discriminated union
+  * active pattern
+  * computation expression
+* Other languages...
   * [Java](https://www.oracle.com/java/)
   * [Scala (for Gatling)](https://www.scala-lang.org/)
   * [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/)
@@ -385,6 +386,7 @@
   * [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
     * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny)
     * [Python tomllib](https://docs.python.org/3/library/tomllib.html)
+  * [HCL](https://github.com/hashicorp/hcl)
 * [yj](https://github.com/sclevine/yj) - CLI - Convert between YAML, TOML, JSON, and HCL
 * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
 * Time formats
@@ -402,6 +404,7 @@
 * Template processors
   * [gomplate](https://gomplate.ca/) - A fast template renderer supporting many datasources and hundreds of functions
   * [Go template](https://pkg.go.dev/text/template)
+    * [sprig](https://masterminds.github.io/sprig/) - Useful template functions for Go templates
   * [mustache](https://mustache.github.io/) - Logic-less templates
   * [Jinja](https://www.palletsprojects.com/p/jinja/) - A full-featured template engine for Python
   * [Perl Text::Template](https://metacpan.org/pod/Text::Template)
@@ -462,6 +465,7 @@
     * [log4perl](https://metacpan.org/pod/Log::Log4perl) - Log4j implementation for Perl
     * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 * Test frameworks
+  * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
   * [test case](https://en.wikipedia.org/wiki/Test_case)
   * [test double](https://en.wikipedia.org/wiki/Test_double)
   * Bash
@@ -513,6 +517,7 @@
     * [MinGW-w64](https://www.mingw-w64.org/) - An advancement of the original mingw.org project, created to support the GCC compiler on Windows systems
   * [Go build command](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
   * [GopherJS](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript
+  * [Bunster](https://bunster.netlify.app/) - A shell compiler that turns your scripts into a self-contained executable programs
 * [Linker](https://en.wikipedia.org/wiki/Linker_(computing))
   * [LLD](https://lld.llvm.org/) - The LLVM Linker
   * [mold](https://github.com/rui314/mold/) - A Modern Linker 🦠
@@ -578,7 +583,8 @@
   * [Bun package manager](https://bun.sh/package-manager)
   * [pip](https://pip.pypa.io/) - The package installer for Python
   * [poetry](https://python-poetry.org/) - A tool for dependency management and packaging in Python
-  * [PDM](https://pdm-project.org/en/latest/) - A modern Python package and dependency manager supporting the latest PEP standards
+  * [pdm](https://pdm-project.org/en/latest/) - A modern Python package and dependency manager supporting the latest PEP standards
+  * [uv](https://docs.astral.sh/uv/) - An extremely fast Python package and project manager, written in Rust
   * [go mod](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
   * [cpanminus](https://metacpan.org/pod/App::cpanminus) - Get, unpack, build and install modules from CPAN
   * [bpkg](https://bpkg.sh/bpkg/) - A lightweight bash package manager
@@ -659,7 +665,7 @@
   * [JSZip](https://stuk.github.io/jszip/) - A javascript library for creating, reading and editing .zip files
 * Binary file processing
   * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
-  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
+  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
   * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html)
   * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
   * [bed](https://github.com/itchyny/bed) - Binary editor written in Go
@@ -677,10 +683,12 @@
   * [pdfcpu](https://pdfcpu.io/) - A Go PDF processor
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [LibreOffice cli](https://www.libreoffice.org/)
-  * [Excelize](https://xuri.me/excelize/) - a Go library for XLSX files
+  * [Excelize](https://xuri.me/excelize/) - A Go library for XLSX files
   * [xlsx2csv](https://github.com/dilshod/xlsx2csv)
   * [docx2txt](https://github.com/ankushshah89/python-docx2txt)
   * [pptx2md](https://github.com/ssine/pptx2md)
+  * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
+  * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
 * OCR
   * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
   * [gosseract OCR](https://github.com/otiai10/gosseract) - Golang OCR package, by using Tesseract C++ library
