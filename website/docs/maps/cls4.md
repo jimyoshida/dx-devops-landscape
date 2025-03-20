@@ -197,7 +197,7 @@
 ## 440 - Static security check
 
 * Static application security test (SAST)
-  * [SonarQube](https://www.sonarqube.org/)
+  * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platforms
   * [Fluid attacks](https://docs.fluidattacks.com/tech/scanner/plans/foss/)
   * [GitLab SAST](https://docs.gitlab.com/ee/user/application_security/sast/index.html)
   * [Bandit](https://github.com/PyCQA/bandit) - A tool designed to find common security issues in Python code
@@ -221,14 +221,15 @@
   * [Gitleaks](https://gitleaks.io/)
   * [Talisman](https://thoughtworks.github.io/talisman/)
 * Software composition analysis (SCA)
-  * [Syft](https://github.com/anchore/syft)
+  * [Syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
   * [OWASP CycloneDX format](https://cyclonedx.org)
   * [SPDX format](https://spdx.dev/)
+  * [Feluda](https://github.com/anistark/feluda) - A Rust-based command-line tool that analyzes the dependencies of a project, notes down their licenses, and flags any permissions that restrict personal or commercial usage
 * Vulnerability scanning
   * [Trivy](https://aquasecurity.github.io/trivy/)
-  * [Grype](https://github.com/anchore/grype)
+  * [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems. Easily install the binary to try it out
   * [Safety](https://github.com/pyupio/safety/) - A Python dependency vulnerability scanner
-  * [Clair](https://github.com/quay/clair)
+  * [Clair](https://github.com/quay/clair) - An open source project for the static analysis of vulnerabilities in application containers (currently including OCI and docker)
   * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
 
 ## 450 - Runtime security protection

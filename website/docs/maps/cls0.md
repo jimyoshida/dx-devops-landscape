@@ -58,6 +58,12 @@
   * [Dickerson's Hierarchy of Service Reliability](https://sre.google/sre-book/part-III-practices/)
   * [The Four Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/)
     * Latency, Traffic, Errors, Saturation
+  * [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A Framework for Understanding Developer Productivity
+    * Satisfaction and well-being
+    * Performance
+    * Activity
+    * Communication and collaboration
+    * Efficiency and flow
 
 ## 010 - Cultures and human sciences
 
@@ -107,6 +113,7 @@
 * [Instant messaging](https://en.wikipedia.org/wiki/Instant_messaging)
   * [Slack](https://slack.com/)
     * [Python Slack SDK](https://slack.dev/python-slack-sdk/)
+    * [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - The original Slack library for Go
   * [Mattermost](https://mattermost.com/)
   * [Discord](https://discord.com/)
     * [discord.js](https://discord.js.org/) - The most popular way to build Discord bots

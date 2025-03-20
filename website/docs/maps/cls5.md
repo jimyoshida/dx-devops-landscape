@@ -28,6 +28,7 @@
   * [R Markdown](https://rmarkdown.rstudio.com/) - helps you create dynamic analysis documents that combine code, rendered output (such as figures), and prose
 * Data exchange format
   * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
+  * [BSON](https://bsonspec.org/) - A bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments
 * Platforms for Data/AI/ML
   * [DVC](https://dvc.org/) - Data Version Control
   * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
@@ -268,24 +269,28 @@
   * [Anthropic Claude](https://www.anthropic.com/claude)
 * Formats
   * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
-* APIs
+* Cloud APIs
   * [OpenAI API](https://platform.openai.com/)
-    * [Go OpenAI](https://github.com/sashabaranov/go-openai)
-    * [gptcli](https://github.com/evilpan/gptcli)
-  * [Azure OpnAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+    * [Go OpenAI](https://github.com/sashabaranov/go-openai) - provides unofficial Go clients for OpenAI API
+  * [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/)
   * [Vertex AI](https://cloud.google.com/vertex-ai)
   * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index)
-  * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative.
-* Tools and platforms
+* Local deployment
   * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
+  * [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
+  * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative.
+* App development standards
+  * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) - An open protocol that standardizes how applications provide context to LLMs
+* App development platforms
+  * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
   * [Dify](https://dify.ai/) - An open-source LLM app development platform
   * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
-  * [LangGraph](https://langchain-ai.github.io/langgraph/) - A library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
   * [LiteLLM](https://www.litellm.ai/) - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format
+* Evaluation
   * [Chatbot Arena](https://lmarena.ai/) - Free AI Chat to Compare & Test Best AI Chatbots
 * Model visualization
   * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention

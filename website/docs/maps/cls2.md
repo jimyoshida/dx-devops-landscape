@@ -134,8 +134,9 @@
   * [wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer
   * [nmap](https://nmap.org/) - An open source tool for network exploration and security auditing
     * [ncat](https://nmap.org/ncat/) - A feature-packed networking utility which reads and writes data across networks from the command line
+  * [httptap](https://github.com/monasticacademy/httptap) - View the HTTP and HTTPS requests made by any linux program
   * [SOCKS proxy](https://en.wikipedia.org/wiki/SOCKS)
-    * [dante](https://www.inet.no/dante/) - consists of a SOCKS server and a SOCKS client
+    * [Dante](https://www.inet.no/dante/) - consists of a SOCKS server and a SOCKS client
     * [tun2socks](https://github.com/xjasonlyu/tun2socks)
     * [proxychains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy
 * Modern Unix tools
@@ -181,6 +182,7 @@
   * [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
     * [Postfix](https://www.postfix.org/) - A mail server that started life at IBM research as an alternative to the widely-used Sendmail program
     * [swaks](http://www.jetmore.org/john/code/swaks/) - A featureful, flexible, scriptable, transaction-oriented SMTP test tool
+    * [Maddy Mail Server](https://github.com/foxcpp/maddy) - implements all functionality required to run a e-mail server
   * [MIME](https://en.wikipedia.org/wiki/MIME) - A standard that extends the format of email messages to support text in character sets other than ASCII
     * [Quoted-printable encoding](https://en.wikipedia.org/wiki/Quoted-printable)
     * [Base64](https://en.wikipedia.org/wiki/Base64)
@@ -189,6 +191,7 @@
     * [mail command](https://mailutils.org/manual/html_section/mail.html)
   * [Mutt](http://www.mutt.org/) - A small but very powerful text based program for reading and sending electronic mail under unix operating systems
   * [Pop](https://github.com/charmbracelet/pop) - Send emails from your terminal
+  * [go-mail](https://github.com/wneessen/go-mail/wiki) - Easy to use, yet comprehensive library for sending mails with Go
   * Receivers and readers
     * Unix Mbox and Maildir formats
     * [POP](https://en.wikipedia.org/wiki/Post_Office_Protocol)

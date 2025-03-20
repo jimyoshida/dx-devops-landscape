@@ -74,7 +74,8 @@
   * [Web cache](https://en.wikipedia.org/wiki/Web_cache)
     * [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
     * [Point of presence (PoP)](https://en.wikipedia.org/wiki/Point_of_presence)
-  * [Squid](http://www.squid-cache.org/)
+  * [Squid](http://www.squid-cache.org/) - A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more
+  * [GoProxy](https://github.com/elazarl/goproxy) - A library to create a customized HTTP/HTTPS proxy server using Go (aka Golang)
   * CDN providers
     * [Cloudflare](https://www.cloudflare.com/)
     * [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
@@ -107,40 +108,49 @@
 
 ## 330 - Web application interfaces and frameworks
 
-* CGI server
-  * [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html)
-  * [CGI.pm](https://metacpan.org/pod/CGI)
-* Java servlet container
-  * [Jakarta EE](https://jakarta.ee/)
-  * [Apache Tomcat](https://tomcat.apache.org/)
-* Web server gateway interfaces
-  * [WSGI/uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/)
-  * [PSGI/Plack](https://plackperl.org/) (reference)
-  * [Rack](https://rack.github.io/) (reference)
-* Python frameworks
-  * [FastAPI](https://fastapi.tiangolo.com/)
-  * [Flask](https://palletsprojects.com/p/flask/)
-* Javascript/Typescript frameworks
+* JS/TS frameworks for backend
   * [Express.js](https://expressjs.com/) - A minimal and flexible Node.js web application framework
   * [Koa](https://koajs.com/) - A new web framework designed by the team behind Express
+  * [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
   * [Hono](https://hono.dev/) - Fast, lightweight, built on Web Standards
-  * [Next.js](https://nextjs.org/)
-  * [Nuxt.js](https://nuxtjs.org/)
-  * [Nest](https://nestjs.com/) (reference)
-  * [Angular](https://angular.io/) (reference)
+* Full-stack web frameworks
+  * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
+  * [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
+  * [Astro](https://astro.build/) - The web framework for content-driven website
+  * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
 * Go frameworks
   * [Echo](https://echo.labstack.com/) - High performance, extensible, minimalist Go web framework
   * [Gin Web Framework](https://gin-gonic.com/) - A web framework written in Go
   * [Gorilla web toolkit](https://www.gorillatoolkit.org/) - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
+* Python frameworks
+  * [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - The Web Server Gateway Interface
+    * [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
+    * [Flask](https://palletsprojects.com/p/flask/) - A lightweight WSGI web application framework
+  * [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html)
+    * [Uvicorn](https://www.uvicorn.org/) - An ASGI web server implementation for Python
+    * [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI web server based on the sans-io hyper, h11, h2, and wsproto libraries and inspired by Gunicorn
+    * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
+* Perl frameworks (reference)
+  * Classic CGI
+    * [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html)
+    * [CGI.pm](https://metacpan.org/pod/CGI)
+  * Fast CGI
+    * [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - A high performance alternative to mod_cgi or mod_cgid
+    * [FCGI.pm](https://metacpan.org/pod/FCGI)
+  * [PSGI](https://plackperl.org/) - An interface between Perl web applications and web servers
+    * [Plack](https://plackperl.org/) - A Perl module and toolkit that contains PSGI middleware, helpers and adapters to web servers
+    * [Dancer2](https://metacpan.org/pod/Dancer2) - Lightweight yet powerful web application framework
+    * [Mojolicious](https://www.mojolicious.org/) - Perl real-time web framework
+* Ruby frameworks (reference)
+  * [Rack](https://rack.github.io/) - A modular Ruby web server interface
+    * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
 * Rust frameworks (reference)
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
-* Perl frameworks (reference)
-  * [Dancer2](https://metacpan.org/pod/Dancer2) - Lightweight yet powerful web application framework
-  * [Mojolicious](https://www.mojolicious.org/) - Perl real-time web framework
-* Ruby frameworks (reference)
-  * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
 * Java frameworks (reference)
+  * [Jakarta EE](https://jakarta.ee/) - A set of specifications that define Java APIs for enterprise software development
+    * [Apache Tomcat](https://tomcat.apache.org/) - An open-source web server and servlet container
   * [Spring](https://spring.io/)
+    * [Spring Boot](https://spring.io/projects/spring-boot) - makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
 * .NET frameworks (reference)
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet)
 

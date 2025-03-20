@@ -103,12 +103,12 @@
   * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
   * [rlwrap](https://github.com/hanslub42/rlwrap) - A readline wrapper
   * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command
-  * [Mods](https://github.com/charmbracelet/mods) - AI on the command line
 * [Terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator)
-  * [Terminator](https://gnome-terminator.org)
-  * [Kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
-  * [WezTerm](https://wezfurlong.org/wezterm/) - A powerful cross-platform terminal emulator and multiplexer
+  * [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
+    * [kitty keyboard protocol](https://sw.kovidgoyal.net/kitty/keyboard-protocol/)
+  * [Rio Terminal](https://rioterm.com/) - A modern terminal for the 21st century
   * [Alacritty](https://alacritty.org/) - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
+  * [Terminator](https://gnome-terminator.org) - A terminal emulator like xterm, gnome-terminal, konsole, etc.
   * [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host
   * [Mintty](https://mintty.github.io/) - A terminal emulator for Cygwin, MSYS or Msys2, and derived projects, and for WSL
   * [xterm](https://invisible-island.net/xterm/) - A terminal emulator for the X Window System
@@ -133,6 +133,10 @@
   * [grep](https://www.gnu.org/software/grep/)
   * [ripgrep](https://github.com/BurntSushi/ripgrep)
   * [silversearcher-ag](https://geoff.greer.fm/ag/)
+* AI tools
+  * [Mods](https://github.com/charmbracelet/mods) - AI on the command line
+  * [gptcli](https://github.com/evilpan/gptcli) - ChatGPT in command line with OpenAI API
+  * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
 * Console file managers
   * [midnight commander](https://midnight-commander.org/) - A visual file manager
   * [ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
@@ -144,30 +148,8 @@
 * Linux on Windows
   * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
-## 120 - Editor, SCM, IDE, and code quality
+## 120 - SCM, editor/IDE, and code quality
 
-* Editors
-  * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
-    * [vim-plug](https://junegunn.github.io/vim-plug/) - The de-facto standard plugin manager for Vim
-    * [NERDTree](https://github.com/preservim/nerdtree) - A tree explorer plugin for vim
-  * [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor
-    * [LazyVim](https://www.lazyvim.org/) - A Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config
-      * [lazy.nvim](https://lazy.folke.io/) - A modern plugin manager for Neovim
-    * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
-    * [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim)
-    * [mason.nvim](https://github.com/williamboman/mason.nvim) - A Neovim plugin that allows you to easily manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
-    * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
-    * [flash.nvim](https://github.com/folke/flash.nvim) - lets you navigate your code with search labels, enhanced character motions, and Treesitter integration
-  * [Helix](https://helix-editor.com/) - A modal editor, meaning it has different modes for different tasks
-  * [GNU Emacs](https://www.gnu.org/software/emacs/)
-    * [MELPA](https://melpa.org/#/) - Milkypostman's Emacs Lisp Package Archive
-    * [doomemacs](https://github.com/doomemacs/doomemacs) - An Emacs framework for the stubborn martian hacker
-    * [neotree](https://github.com/jaypei/emacs-neotree)
-    * [Treemacs](https://github.com/Alexander-Miller/treemacs)
-    * [Spacemacs](https://www.spacemacs.org/#) - A community-driven Emacs distribution
-* Formatters
-  * [EditorConfig](https://editorconfig.org/)
-  * [Prettier](https://prettier.io/)
 * Source code management
   * [Distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control)
   * [Git](https://git-scm.com/)
@@ -186,35 +168,65 @@
     * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
     * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
   * Git hosting services
-    * [GitLab SCM](https://about.gitlab.com/)
-    * [Gitea](https://about.gitea.com/)
+    * [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/)
+    * [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+    * [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
+    * [Soft Serve](https://github.com/charmbracelet/soft-serve) - a self-hostable Git server
     * [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/)
     * [GitHub](https://github.com/)
-    * [Soft Serve](https://github.com/charmbracelet/soft-serve) - a self-hostable Git server
   * Conventions
     * [keep a changelog](https://keepachangelog.com/)
     * [Conventional Commits](https://www.conventionalcommits.org/)
-* IDEs
+  * AI commit tools
+    * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
+    * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
+* Editors and IDEs
   * [Visual Studio Code](https://code.visualstudio.com/)
     * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
     * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-  * Protocols
-    * [LSP](https://microsoft.github.io/language-server-protocol/)
-    * [DAP](https://microsoft.github.io/debug-adapter-protocol/)
-  * [Eclipse Che](https://eclipse.dev/che/) - A Kubernetes-native IDE and developer collaboration platform
-* AI assistance
-  * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
-  * [GitHub Copilot](https://github.com/features/copilot/)
-  * [Gemini Code Assist](https://cloud.google.com/products/gemini/code-assist)
-    * [gemini.nvim](https://github.com/kiddos/gemini.nvim)
-  * [nvim-llama](https://github.com/jpmcb/nvim-llama)
-  * [Amazon Q Developer](https://aws.amazon.com/q/developer/)
-  * [CodeGPT](https://www.codegpt.co/)
-  * [Cursor](https://cursor.sh/)
-  * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
-* Code linters
-  * [SonarQube](https://www.sonarqube.org/)
-    * [SQALE method](http://sqale.org/)
+    * AI assistance plugins
+      * [GitHub Copilot](https://github.com/features/copilot/)
+      * [Gemini Code Assist](https://cloud.google.com/products/gemini/code-assist)
+      * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - The most capable generative AI-powered assistant for software development
+      * [Cline](https://cline.bot/) - Experience an AI development partner that amplifies your engineering capabilities
+      * [CodeGPT](https://www.codegpt.co/) - AI Agents Platform for Software Development Teams
+    * Protocols
+      * [LSP](https://microsoft.github.io/language-server-protocol/) - defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
+      * [DAP](https://microsoft.github.io/debug-adapter-protocol/) - defines the abstract protocol used between a development tool (e.g. IDE or editor) and a debugger
+  * Terminal-based
+    * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
+      * [vim-plug](https://junegunn.github.io/vim-plug/) - The de-facto standard plugin manager for Vim
+      * [NERDTree](https://github.com/preservim/nerdtree) - A tree explorer plugin for vim
+    * [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor
+      * [LazyVim](https://www.lazyvim.org/) - A Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config
+        * [lazy.nvim](https://lazy.folke.io/) - A modern plugin manager for Neovim
+      * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
+      * [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim)
+      * [mason.nvim](https://github.com/williamboman/mason.nvim) - A Neovim plugin that allows you to easily manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
+      * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
+      * [flash.nvim](https://github.com/folke/flash.nvim) - lets you navigate your code with search labels, enhanced character motions, and Treesitter integration
+      * [nvim-llama](https://github.com/jpmcb/nvim-llama) - Ollama interfaces for Neovim
+    * [Helix](https://helix-editor.com/) - A modal editor, meaning it has different modes for different tasks
+    * [GNU Emacs](https://www.gnu.org/software/emacs/)
+      * [MELPA](https://melpa.org/#/) - Milkypostman's Emacs Lisp Package Archive
+      * [doomemacs](https://github.com/doomemacs/doomemacs) - An Emacs framework for the stubborn martian hacker
+      * [neotree](https://github.com/jaypei/emacs-neotree)
+      * [Treemacs](https://github.com/Alexander-Miller/treemacs)
+      * [Spacemacs](https://www.spacemacs.org/#) - A community-driven Emacs distribution
+  * AI-integrated IDEs
+    * [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
+    * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
+    * [Winfsurf Editor](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
+    * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
+  * Formatters
+    * [EditorConfig](https://editorconfig.org/)
+    * [Prettier](https://prettier.io/)
+* Code quality
+  * [SQALE method](https://en.wikipedia.org/wiki/SQALE)
+  * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+  * [scc](https://github.com/boyter/scc/)
+  * [cloc](https://github.com/AlDanial/cloc)
+  * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
   * [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html)
   * [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
   * [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
@@ -223,14 +235,11 @@
   * [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
   * [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
   * [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
+  * [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
   * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
   * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
   * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
   * [yamllint](https://github.com/adrienverge/yamllint)
-* Code counters
-  * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
-  * [scc](https://github.com/boyter/scc/)
-  * [cloc](https://github.com/AlDanial/cloc)
 
 ## 130 - Programming language features
 
@@ -279,6 +288,7 @@
   * spread and rest operators
   * generator
   * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
+  * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
 * [Typescript](https://www.typescriptlang.org/index.html)
   * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types)
   * [Type Ariases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases)
@@ -489,9 +499,9 @@
   * Go
     * [Go testing](https://pkg.go.dev/testing)
     * [Go cover](https://pkg.go.dev/cmd/cover)
-    * [gocheck](https://labix.org/gocheck)
     * [Ginkgo](https://onsi.github.io/ginkgo/) (BDD style)
       * [Gomega](https://onsi.github.io/gomega/)
+    * [mockery](https://vektra.github.io/mockery/latest/) - A project that creates mock implementations of Golang interfaces
   * Others
     * [Test Anything Protocol](http://testanything.org/)
     * [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html)
