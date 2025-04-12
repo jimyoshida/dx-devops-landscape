@@ -84,37 +84,39 @@
   * [resolved](https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.html#)
   * [timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.html#)
 * Host administration
-  * [util-linux](https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/)
+  * [util-linux](https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/) - A random collection of Linux utilities
     * [lsblk](https://man7.org/linux/man-pages/man8/lsblk.8.html)
     * [lsns](https://man7.org/linux/man-pages/man8/lsns.8.html)
     * [swapon](https://man7.org/linux/man-pages/man8/swapon.8.html)
-  * [rsync](https://rsync.samba.org/)
-  * [Vixie Cron](https://github.com/vixie/cron)
-  * [logrotate](https://github.com/logrotate/logrotate)
+  * [rsync](https://rsync.samba.org/) - An open source utility that provides fast incremental file transfer
+  * [Vixie Cron](https://github.com/vixie/cron) - An open source implementation of POSIX Cron
+  * [logrotate](https://github.com/logrotate/logrotate) - allows for the automatic rotation compression, removal and mailing of log files
   * [Syslog](https://en.wikipedia.org/wiki/Syslog) - A standard for message logging
     * [rsyslog](https://www.rsyslog.com/) - The rocket-fast system for log processing
-  * [procps](https://gitlab.com/procps-ng/procps)
+  * [procps](https://gitlab.com/procps-ng/procps) - A set of command line and full-screen utilities that provide information out of the pseudo-filesystem most commonly located at /proc
     * [ps](https://man7.org/linux/man-pages/man1/ps.1.html)
     * [top](https://www.man7.org/linux/man-pages/man1/top.1.html)
     * [free](https://www.man7.org/linux/man-pages/man1/free.1.html)
     * [vmstat](https://www.man7.org/linux/man-pages/man8/vmstat.8.html)
-  * [psmisc](https://gitlab.com/psmisc/psmisc)
+  * [psmisc](https://gitlab.com/psmisc/psmisc) - A package of small utilities that use the proc file-system
     * [pstree](https://man7.org/linux/man-pages/man1/pstree.1.html)
     * [killall](https://man7.org/linux/man-pages/man1/killall.1.html)
-  * [lsof](https://lsof.readthedocs.io/en/latest/)
-  * [sudo](https://www.sudo.ws/)
-  * [shadow-utils](https://github.com/shadow-maint/shadow)
+  * [lsof](https://lsof.readthedocs.io/en/latest/) - A command for LiSting Open Files
+  * [sudo](https://www.sudo.ws/) - A system administrator to delegate authority to give certain users the ability to run some commands as root or another user
+  * [shadow-utils](https://github.com/shadow-maint/shadow) - includes the necessary programs for converting UNIX password files to the shadow password format, plus programs for managing user and group accounts
     * [useradd](https://man7.org/linux/man-pages/man8/useradd.8.html)
-  * [strace](https://strace.io/)
-  * [dtrace](https://dtrace.org/about/)
-  * [neofetch](https://github.com/dylanaraps/neofetch)
-  * [inxi](https://smxi.org/docs/inxi.htm)
-  * [atop](https://github.com/Atoptool/atop#atop)
-  * [nmon](https://nmon.sourceforge.net/pmwiki.php)
-  * [sysstat](https://sysstat.github.io/)
-    * [iostat](https://man7.org/linux/man-pages/man1/iostat.1.html)
-  * [smem](https://www.selenic.com/smem/)
-  * [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol)
+  * [strace](https://strace.io/) - A diagnostic, debugging and instructional userspace utility for Linux
+  * [dtrace](https://dtrace.org/about/) - A performance analysis and troubleshooting tool
+  * [neofetch](https://github.com/dylanaraps/neofetch) - A command-line system information tool
+  * [inxi](https://smxi.org/docs/inxi.htm) - A full featured system information script
+  * Monitors
+    * [Monit](https://mmonit.com/monit/) - A small Open Source utility for managing and monitoring Unix systems
+    * [atop](https://github.com/Atoptool/atop#atop) - An ASCII full-screen performance monitor for Linux
+    * [sysstat](https://sysstat.github.io/) - A collection of performance monitoring tools for Linux
+      * [iostat](https://man7.org/linux/man-pages/man1/iostat.1.html)
+    * [smem](https://www.selenic.com/smem/) - A tool that can give numerous reports on memory usage on Linux systems
+  * Clock syncing
+    * [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol)
     * [chrony](https://chrony.tuxfamily.org/)
     * [pool.ntp.org](https://www.ntppool.org/en/)
   * [jc](https://kellyjonbrazil.github.io/jc/docs/) - Json adaptor
@@ -212,16 +214,18 @@
 
 ## 230 - Linux container and WebAssembly
 
-* Key Linux kernel features
+* Key Linux kernel features/commands
   * [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
   * [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
   * [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html)
+  * [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html)
 * [The Open Container Initiative (OCI)](https://opencontainers.org/) - An open governance structure for the express purpose of creating open industry standards around container formats and runtimes
 * Container runtimes and tools
   * [Docker Engine](https://docs.docker.com/engine/)
     * [docker-compose](https://docs.docker.com/compose/)
   * [containerd](https://containerd.io/)
     * [nerdctl](https://github.com/containerd/nerdctl)
+    * [ctr](https://manpages.debian.org/experimental/containerd/ctr.1.en.html)
   * [Docker Build](https://docs.docker.com/build/)
   * [podman](https://podman.io/)
   * [buildah](https://buildah.io/)

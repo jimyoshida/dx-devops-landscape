@@ -129,6 +129,10 @@
   * [Access control list (ACL)](https://en.wikipedia.org/wiki/Access-control_list)
   * [Role-based access control (RBAC)](https://en.wikipedia.org/wiki/Role-based_access_control)
   * [OAuth 2.0 Authorization Framework](https://oauth.net/2/)
+    * Resource owner - the user who owns the data or resources that are being accessed
+    * Resource server - the server that hosts the protected resources
+    * Client - an application or service that wants to access the resources on behalf of the resource owner
+    * Authorization server - the server that issues access tokens to the client
   * [Athenz](https://www.athenz.io/) - A set of services and libraries supporting service authentication and role-based authorization (RBAC)
   * [Permify](https://github.com/Permify/permify) - An open-source authorization as a service inspired by Google Zanzibar
   * [Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)

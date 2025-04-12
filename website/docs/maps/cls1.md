@@ -83,6 +83,7 @@
   * [History](https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html)
   * [Shell expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
   * [Pipelines](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html)
+  * [Built-in commands](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
   * [Special variables](https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html)
   * [Built-in job control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
   * [oh-my-bash](https://ohmybash.nntoan.com/) - An open source, community-driven framework for managing your BASH configuration
@@ -383,6 +384,7 @@
     * [DOM](https://dom.spec.whatwg.org/)
     * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
   * [logfmt](https://brandur.org/logfmt) - An important property for any good logging format
+  * [JSON Lines](https://jsonlines.org/) - A convenient format for storing structured data that may be processed one record at a time
 * Configuration languages
   * [Jsonnet](https://jsonnet.org/) - A configuration language for app and tool developers
   * [Hjson](https://hjson.github.io/) - A user interface for JSON
@@ -396,7 +398,8 @@
   * [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
     * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny)
     * [Python tomllib](https://docs.python.org/3/library/tomllib.html)
-  * [HCL](https://github.com/hashicorp/hcl)
+  * [HCL](https://github.com/hashicorp/hcl) - A toolkit for creating structured configuration languages that are both human- and machine-friendly, for use with command-line tools
+  * [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - A superset of JSON which supports comments
 * [yj](https://github.com/sclevine/yj) - CLI - Convert between YAML, TOML, JSON, and HCL
 * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
 * Time formats
@@ -655,7 +658,9 @@
   * [cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
   * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 * Ruby
-  * [TTY](https://ttytoolkit.org/)
+  * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
+  * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
+  * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
 * Rust
   * [Ratatui](https://ratatui.rs/)
   * [R3BL](https://r3bl.com/)
@@ -687,12 +692,12 @@
     * [PDF](https://en.wikipedia.org/wiki/PDF)
     * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)
     * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument)
-  * [Ghostscript](https://www.ghostscript.com/)
-  * [qpdf](https://qpdf.sourceforge.io/)
-  * [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
+  * [Ghostscript](https://www.ghostscript.com/) - offers unmatched PDL conversion, multi-platform support, and customizable modules
+  * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
+  * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
   * [pdfcpu](https://pdfcpu.io/) - A Go PDF processor
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
-  * [LibreOffice cli](https://www.libreoffice.org/)
+  * [libreoffice cli](https://manpages.ubuntu.com/manpages/trusty/man1/libreoffice.1.html) - LibreOffice office suite
   * [Excelize](https://xuri.me/excelize/) - A Go library for XLSX files
   * [xlsx2csv](https://github.com/dilshod/xlsx2csv)
   * [docx2txt](https://github.com/ankushshah89/python-docx2txt)

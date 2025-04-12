@@ -32,7 +32,7 @@
 * Platforms for Data/AI/ML
   * [DVC](https://dvc.org/) - Data Version Control
   * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
-  * [Vanna.AI](https://vanna.ai/) - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
+  * [Streamlit](https://streamlit.io/) - An open-source Python framework for data scientists and AI/ML engineers to deliver dynamic data apps with only a few lines of code
 * AI kinds
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
   * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
@@ -77,6 +77,7 @@
 
 * [Relational model](https://en.wikipedia.org/wiki/Relational_model)
   * [Structured Query Language (SQL)](https://en.wikipedia.org/wiki/SQL)
+  * [Vanna.AI](https://vanna.ai/) - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
   * [Codd's Twelve Rules](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
   * [ODBC](https://en.wikipedia.org/wiki/Open_Database_Connectivity)
   * [JDBC](https://www.oracle.com/java/technologies/javase/javase-tech-database.html)
@@ -87,8 +88,9 @@
     * [GORM](https://gorm.io/) - The fantastic ORM library for Golang aims to be developer friendly
     * [XORM](https://xorm.io/) - A Simple and Powerful ORM for Go
   * [PostgreSQL](https://www.postgresql.org/) - An object-relational database management system (ORDBMS) based on POSTGRES, Version 4.2, developed at the University of California at Berkeley Computer Science Department
-    * [pgAdmin](https://www.pgadmin.org/)
-    * [pgBadger](https://pgbadger.darold.net/)
+    * [Psycopg](https://www.psycopg.org/) - The most popular PostgreSQL adapter for the Python programming language
+    * [pgAdmin](https://www.pgadmin.org/) - The most popular and feature rich Open Source administration and development platform for PostgreSQL
+    * [pgBadger](https://pgbadger.darold.net/) - A PostgreSQL log analyzer built for speed with fully detailed reports and professional rendering
   * [PGlite](https://pglite.dev/) - A WASM Postgres build packaged into a TypeScript/JavaScript client library, that enables you to run Postgres in the browser, Node.js and Bun
   * [Supabase Database](https://supabase.com/docs/guides/database/overview) - An open source Firebase alternative
   * [MySQL](https://www.mysql.com/) - The most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation
@@ -141,6 +143,7 @@
   * [Apache Hadoop](https://hadoop.apache.org/) - A framework that allows for the distributed processing of large data sets
     * [mrjob](https://mrjob.readthedocs.io/en/latest/) - The easiest route to writing Python programs that run on Hadoop
   * [Apache Spark](https://spark.apache.org/) - Unified engine for large-scale data analytics
+    * [pySpark](https://spark.apache.org/docs/latest/api/python/index.html) - The Python API for Apache Spark
   * [RAY](https://www.ray.io/) - An open-source unified compute framework that makes it easy to scale AI and Python workloads
 * Analytics platform
   * [Apache Hive](https://hive.apache.org/) - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
@@ -261,25 +264,25 @@
 
 ## 570 - Large language models
 
-* Models
-  * [GPT-4](https://openai.com/research/gpt-4)
-  * [Llama](https://www.llama.com/)
+* API providers
+  * [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
+  * [Anthropic](https://www.anthropic.com/api)
+  * [OpenAI](https://platform.openai.com/)
+    * [Go OpenAI](https://github.com/sashabaranov/go-openai) - provides unofficial Go clients for OpenAI API
   * [Google Gemini](https://gemini.google.com/)
     * [Gemma](https://ai.google.dev/gemma) - A family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models
-  * [Anthropic Claude](https://www.anthropic.com/claude)
-* Formats
-  * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
-* Cloud APIs
-  * [OpenAI API](https://platform.openai.com/)
-    * [Go OpenAI](https://github.com/sashabaranov/go-openai) - provides unofficial Go clients for OpenAI API
-  * [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/)
-  * [Vertex AI](https://cloud.google.com/vertex-ai)
+  * [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+  * [GCP Vertex AI](https://cloud.google.com/vertex-ai)
+  * [Llama](https://www.llama.com/) - The open-source AI models you can fine-tune, distill and deploy anywhere
   * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index)
 * Local deployment
   * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
   * [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
-  * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative.
+  * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
+* Model formats/tools
+  * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
+  * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
 * App development standards
   * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) - An open protocol that standardizes how applications provide context to LLMs
 * App development platforms

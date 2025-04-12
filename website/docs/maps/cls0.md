@@ -67,36 +67,38 @@
 
 ## 010 - Cultures and human sciences
 
-* [Trust](https://en.wikipedia.org/wiki/Trust_(social_science))
-* [Storytelling](https://en.wikipedia.org/wiki/Storytelling)
-* [STEAM education](https://en.wikipedia.org/wiki/STEAM_education)
-  * Science, technology, engineering, art and mathematics
 * Code of Conduct
-  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
-  * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles)
-  * [GitLab Values](https://about.gitlab.com/handbook/values/)
-  * [Debian Constitution](https://www.debian.org/devel/constitution)
-  * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct)
-  * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
-  * [Philosophy of the GNU Project](https://www.gnu.org/philosophy/philosophy.html)
-  * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.html)
-  * [Contributor Covenant](https://www.contributor-covenant.org/)
+  * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
+  * [STEAM education](https://en.wikipedia.org/wiki/STEAM_education) - An approach to teaching STEM subjects that incorporates artistic skills like creative thinking and design
+    * Science, technology, engineering, art and mathematics
+  * Examples
+    * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
+    * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles)
+    * [GitLab Values](https://about.gitlab.com/handbook/values/)
+    * [Debian Constitution](https://www.debian.org/devel/constitution)
+    * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct)
+    * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
+    * [Philosophy of the GNU Project](https://www.gnu.org/philosophy/philosophy.html)
+    * [The GNU Manifesto](https://www.gnu.org/gnu/manifesto.html)
+    * [Contributor Covenant](https://www.contributor-covenant.org/)
 * Social or psychological concerns
-  * [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
-  * [Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety)
-  * [Situation awareness](https://en.wikipedia.org/wiki/Situation_awareness)
+  * [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory) - states that visible signs of crime, antisocial behavior and civil disorder create an urban environment that encourages further crime and disorder, including serious crimes
+  * [Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety) - The belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes
+  * [Trust](https://en.wikipedia.org/wiki/Trust_(social_science)) - The belief that another person will do what is expected
+  * [Situation awareness](https://en.wikipedia.org/wiki/Situation_awareness) - The understanding of an environment, its elements, and how it changes with respect to time or other factors
     * 1: Perception of the elements in the environment.
     * 2: Comprehension or understanding of the situation.
     * 3: Projection of future status.
-  * [Defence mechanism](https://en.wikipedia.org/wiki/Defence_mechanism)
-  * [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)
-  * [Cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias)
-  * [Stone soup story](https://en.wikipedia.org/wiki/Stone_Soup)
-  * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog)
-  * [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out)
-  * [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt)
-  * [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network)
-  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition)
+  * [Defence mechanism](https://en.wikipedia.org/wiki/Defence_mechanism) - Unconscious psychological processes that protect the self from anxiety-producing thoughts and feelings related to internal conflicts and external stressors
+  * [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) - A conceptualisation of the needs (or goals) that motivate human behaviour
+  * [Cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - A systematic pattern of deviation from norm or rationality in judgment
+  * [Stone soup story](https://en.wikipedia.org/wiki/Stone_Soup) - A European folk story in which hungry strangers convince the people of a town to each share a small amount of their food in order to make a meal
+  * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog) - An apologue describing a frog being slowly boiled alive
+  * [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out) - The feeling of apprehension that one is either not in the know about or missing out on information, events, experiences, or life decisions that could make one's life better
+  * [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) - A manipulative propaganda tactic used in sales, marketing, public relations, politics, polling, and cults
+  * [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network) - A large-scale brain network; known for being active when a person is not focused on the outside world and the brain is at wakeful rest
+  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
+  * [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - An adage often stated as, "When a measure becomes a target, it ceases to be a good measure"
 * Usability concerns
   * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action)
     * 1: Forming the target.

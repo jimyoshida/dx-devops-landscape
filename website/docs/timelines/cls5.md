@@ -132,6 +132,10 @@ Initial release: January 2011
 Apache Flink is an open-source, unified stream-processing and batch-processing framework developed by the Apache Software Foundation. The core of Apache Flink is a distributed streaming data-flow engine written in Java and Scala.
 Initial release: May 2011
 
+Microsoft Power BI is an interactive data visualization software product developed by Microsoft with a primary focus on business intelligence (BI).
+The first release of Power BI was based on the Microsoft Excel-based add-ins: Power Query, Power Pivot and Power View.
+Initial release: 11 July 2011
+
 Apache Storm is a distributed stream processing computation framework written predominantly in the Clojure programming language. Originally created by Nathan Marz and team at BackType, the project was open sourced after being acquired by Twitter.
 The initial release was on 17 September 2011.
 

@@ -55,6 +55,7 @@
   * [Wget](https://www.gnu.org/software/wget/)
   * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
   * [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
+  * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection
 * Libraries
   * [Python Requests](https://docs.python-requests.org/en/latest/)
   * [JS Axios](https://axios-http.com/)
@@ -154,23 +155,33 @@
 * .NET frameworks (reference)
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet)
 
-## 340 - Frontend libraries, tools and frameworks
+## 340 - Frontend frameworks, libraries and tools
 
-* [React](https://reactjs.org/) - The library for web and native user interfaces
-  * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
-    * [MDX](https://mdxjs.com/) - allows you to use JSX in your markdown content
-  * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
-* [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
-* [Bootstrap](https://getbootstrap.com/) - Powerful, extensible, and feature-packed frontend toolkit
-* [GWT](https://www.gwtproject.org/) - A development toolkit for building and optimizing complex browser-based applications
-* [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
-  * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
-* [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
-* [Material Web](https://m3.material.io/develop/web/)
-* [Percel](https://parceljs.org/) - The zero configuration build tool
-* [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
-* [babel](https://babeljs.io/) - A JavaScript compiler
-* [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
+* JS frameworks/libraries for UI
+  * [React](https://reactjs.org/) - The library for web and native user interfaces
+    * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
+      * [MDX](https://mdxjs.com/) - allows you to use JSX in your markdown content
+    * [React-Redux](https://react-redux.js.org/) - Official React bindings for Redux
+    * [Recoil](https://recoiljs.org/) - A state management library for React
+    * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
+    * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
+  * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
+    * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
+  * [GWT](https://www.gwtproject.org/) - A development toolkit for building and optimizing complex browser-based applications
+* State management
+  * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
+* UI component libraries
+  * [Material Web](https://m3.material.io/develop/web/) - Google's component library for building applications that work in any web framework
+* CSS frameworks and libraries
+  * [Bootstrap](https://getbootstrap.com/) - Powerful, extensible, and feature-packed frontend toolkit
+  * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
+    * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
+  * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
+* Build tools
+  * [Percel](https://parceljs.org/) - The zero configuration build tool
+  * [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+  * [babel](https://babeljs.io/) - A JavaScript compiler
+  * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
 * Syntax highlighting libs
   * [highlight.js](https://highlightjs.org/) - The Internet's favorite JavaScript syntax highlighter supporting Node.js and the web
   * [Prism](https://prismjs.com) - A lightweight, extensible syntax highlighter, built with modern web standards in mind
@@ -185,6 +196,9 @@
 
 ## 350 - Web application automation and test tools
 
+* Accessibility standards
+  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
+  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
 * Browser automation and test
   * [Puppeteer](https://developer.chrome.com/docs/puppeteer/)
   * [Playwright](https://playwright.dev/)
@@ -196,6 +210,7 @@
   * [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
   * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - A Python library designed for quick turnaround projects like screen-scraping
   * [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
+  * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
   * [Mechanize](https://metacpan.org/pod/WWW::Mechanize) (for CGI)
 * Testing
@@ -229,6 +244,7 @@
     * [tkinter](https://docs.python.org/3/library/tkinter.html) - The standard Python interface to the Tcl/Tk GUI toolkit
   * [GTK](https://www.gtk.org/)
     * [pygobject](https://pygobject.gnome.org/)
+  * [Gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go
   * [Fyne](https://fyne.io/) - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
   * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
 
