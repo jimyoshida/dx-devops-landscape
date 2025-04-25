@@ -382,7 +382,7 @@
 
 ## 080 - Logic, mathematics and statistics
 
-* [Logic](https://en.wikipedia.org/wiki/Logic)
+* [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
   * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning)
     * Deductive, Inductive, Abuctive and Analogical
   * [Fallacy](https://en.wikipedia.org/wiki/Fallacy)
@@ -391,16 +391,20 @@
     * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic))
   * [First order logic](https://en.wikipedia.org/wiki/First-order_logic)
     * universal quantification and existential quantification
-* [Formal system](https://en.wikipedia.org/wiki/Formal_system)
-* [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model)
-* [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
-* [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
-  * [Equation](https://en.wikipedia.org/wiki/Equation)
-* [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
-  * [Vector space](https://en.wikipedia.org/wiki/Vector_space)
-  * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-  * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
-  * [Determinant](https://en.wikipedia.org/wiki/Determinant)
+* [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
+  * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - consists of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules called a formal grammar
+* [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model) - An abstract description of a concrete system using mathematical concepts and language
+* [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
+  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
+* [Algebra](https://en.wikipedia.org/wiki/Algebra) - A branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems
+  * [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+  * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
+    * [Equation](https://en.wikipedia.org/wiki/Equation)
+  * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+    * [Vector space](https://en.wikipedia.org/wiki/Vector_space)
+    * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+    * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
+    * [Determinant](https://en.wikipedia.org/wiki/Determinant)
 * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
 * [Function](https://en.wikipedia.org/wiki/Function_(mathematics)) - establishes a relation between the elements of the domain and some (possibly all) elements of the codomain
   * [Map](https://en.wikipedia.org/wiki/Map_(mathematics)) - A function in its general sense

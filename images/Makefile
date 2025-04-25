@@ -1,11 +1,11 @@
-name := node-make-extra
+image_name := node-make-extra
 
 build:
-	docker image build -t $(name) .
+	docker image build -t $(image_name) .
 
 run:
-	docker container run -it --rm $(name):latest 
+	docker container run -it --rm $(image_name):latest 
 
 push:
-	docker image tag $(name):latest jimyoshida/$(name):latest
-	docker image push jimyoshida/$(name):latest
+	docker image tag $(image_name):latest jimyoshida/$(image_name):latest
+	docker image push jimyoshida/$(image_name):latest

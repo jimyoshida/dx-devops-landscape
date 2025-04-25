@@ -4,77 +4,78 @@
 
 ## 100 - Programming concepts
 
-* [Code](https://en.wikipedia.org/wiki/Source_code)
-* [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science))
-  * [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-* [Expression](https://en.wikipedia.org/wiki/Expression_(computer_science))
+* [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
+* [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - A syntactic unit of an imperative programming language that expresses some action to be carried out
+  * [Control flow](https://en.wikipedia.org/wiki/Control_flow) - The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated
+* [Expression](https://en.wikipedia.org/wiki/Expression_(computer_science)) - A syntactic entity in a programming language that may be evaluated to determine its value
   * Operator, Operand
-* [Literal](https://en.wikipedia.org/wiki/Literal_(computer_programming))
+* [Literal](https://en.wikipedia.org/wiki/Literal_(computer_programming)) - A notation for representing a fixed value in source code
   * Template string/literal
-* [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming))
-* [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science))
-* [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science))
-* [Data type](https://en.wikipedia.org/wiki/Data_type)
-  * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type)
+* [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - A value that cannot be altered by the program during normal execution
+* [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - An abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value
+* [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - The region of a computer program where the binding of a name to an entity (name binding) is valid
+* [Data type](https://en.wikipedia.org/wiki/Data_type) - A collection or grouping of data values, usually specified by a set of possible values and allowed operations
+  * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
   * Abstract data types (-> see Class 190)
-  * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system)
-  * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system)
-  * [Union type](https://en.wikipedia.org/wiki/Union_type)
-  * [Type inference](https://en.wikipedia.org/wiki/Type_inference)
-* [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
-* [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science))
-  * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer)
-  * [Reference counting](https://en.wikipedia.org/wiki/Reference_counting)
-  * [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
-  * [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
-* [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-* [Function](https://en.wikipedia.org/wiki/Function_(computer_programming))
-  * [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-  * [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-* [State](https://en.wikipedia.org/wiki/State_(computer_science))
-* [Heredoc](https://en.wikipedia.org/wiki/Here_document)
-* [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming))
-* [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science))
-* [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development))
+  * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - A major class of type systems, in which compatibility and equivalence of data types is determined by explicit declarations and/or the names of the types
+  * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system) - A major class of type systems in which type compatibility and equivalence are determined by the type's actual structure or definition
+  * [Union type](https://en.wikipedia.org/wiki/Union_type) - A data type definition that specifies which of a number of permitted primitive types may be stored in its instances
+  * [Type safety](https://en.wikipedia.org/wiki/Type_safety) - The extent to which a programming language discourages or prevents type errors
+* [Generic programming](https://en.wikipedia.org/wiki/Generic_programming) - A style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
+* [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - A value that enables a program to indirectly access a particular datum in the computer's memory or other storage device
+  * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - A value saved for indicating that the pointer or reference does not refer to a valid object
+  * [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - A programming technique of storing the number of references, pointers, or handles to a resource
+  * [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - A form of automatic memory management where the collector attempts to reclaim memory occupied by objects no longer in use
+  * [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - An abstract data type that simulates a pointer while providing added features, such as automatic memory management or bounds checking
+  * [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - The state of being protected from various software bugs and security vulnerabilities when dealing with memory access
+* [Immutable object](https://en.wikipedia.org/wiki/Immutable_object) - An object whose state cannot be modified after it is created
+* [Function](https://en.wikipedia.org/wiki/Function_(computer_programming)) - A sequence of program instructions that performs a specific task, packaged as a unit
+  * [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - A special kind of variable used in a subroutine or function to refer to one of the pieces of data provided as input
+  * [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - A function definition that is not bound to an identifier
+* [State](https://en.wikipedia.org/wiki/State_(computer_science)) - The stored information, at a given instant in time, to which a computer program or system has access
+* [Heredoc](https://en.wikipedia.org/wiki/Here_document) - A file literal or input stream literal representing a section of source code that is treated as if it were a separate file
+* [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - The process of responding to the occurrence of exceptions during the execution of a program
+* [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - The degree to which the elements inside a module belong together
+* [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - A statement that a predicate (a Boolean-valued function) is expected to always be true at that point in the code
 * Object-oriented programming
-  * [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
-  * [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-  * [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-    * [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
-  * [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-  * [Class](https://en.wikipedia.org/wiki/Class_(computer_programming))
-  * [Interface](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-  * [Method](https://en.wikipedia.org/wiki/Method_(computer_programming))
-  * [This keyword](https://en.wikipedia.org/wiki/This_(computer_programming))
-  * [Duck typing](https://en.wikipedia.org/wiki/Duck_typing)
-  * [Covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
-  * [Passive data structure](https://en.wikipedia.org/wiki/Passive_data_structure)
+  * [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) - The process of hiding the complexity of a system by modeling classes appropriate to the problem and working at the most relevant level of detail
+  * [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) - The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components
+  * [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) - The provision of a single interface to entities of different types
+    * [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch) - The process of selecting which implementation of a polymorphic operation (method or function) to call at run time
+  * [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) - The mechanism of basing an object or class upon another object or class, retaining similar implementation
+  * [Class](https://en.wikipedia.org/wiki/Class_(computer_programming)) - An extensible program-code-template for creating objects, providing initial values for state and implementations of behavior
+  * [Interface](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)) - An abstract type that contains no data, but defines behaviors as method signatures
+  * [Method](https://en.wikipedia.org/wiki/Method_(computer_programming)) - A procedure associated with an object, and implicitly acting upon that object
+  * [This keyword](https://en.wikipedia.org/wiki/This_(computer_programming)) - A keyword used in many object-oriented programming languages to refer to the object associated with the current function or method call
+  * [Duck typing](https://en.wikipedia.org/wiki/Duck_typing) - An application of the duck test determining type compatibility based on the presence of certain methods and properties
+  * [Covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) - The ways to describe how a type constructor (like list or function) behaves with respect to subtyping
+  * [Passive data structure](https://en.wikipedia.org/wiki/Passive_data_structure) - A record data structure that contains only public data fields and provides no methods other than implicitly for reading/writing the fields
 * Concurrent programming
-  * [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
-  * [Async/await](https://en.wikipedia.org/wiki/Async/await)
-  * [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises)
-  * [Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming))
-  * [Mutex](https://en.wikipedia.org/wiki/Lock_(computer_science))
-  * [Channel](https://en.wikipedia.org/wiki/Channel_(programming))
-  * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety)
-  * [Deadlock](https://en.wikipedia.org/wiki/Deadlock)
-* [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-  * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
-  * [First-class function](https://en.wikipedia.org/wiki/First-class_function)
-    * [Map](https://en.wikipedia.org/wiki/Map_(higher-order_function))
-    * [Filter](https://en.wikipedia.org/wiki/Filter_(higher-order_function))
-    * [Reduce](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
-  * [Referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)
-  * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
-  * [Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming))
-  * [Side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
-  * [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-  * [Currying](https://en.wikipedia.org/wiki/Currying)
+  * [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - A computer program component that generalizes subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed
+  * [Async/await](https://en.wikipedia.org/wiki/Async/await) - A syntactic feature that allows an asynchronous, non-blocking function to be structured in a way similar to an ordinary synchronous function
+  * [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises) - The constructs used for synchronizing program execution, representing a proxy for a result that is initially unknown
+  * [Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming)) - A variable or abstract data type used to control access to a common resource by multiple threads in a concurrent system
+  * [Mutex](https://en.wikipedia.org/wiki/Lock_(computer_science)) - A synchronization primitive that prevents state from being modified or accessed by multiple threads of execution at the same time
+  * [Channel](https://en.wikipedia.org/wiki/Channel_(programming)) - A model for interprocess communication and synchronization via message passing
+  * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - A property of computer code applicable in multi-threaded environments, ensuring correct manipulation of shared data structures
+  * [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - A situation in concurrent computing where no member of a group of entities can proceed because each waits for another member to take action
+* [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - A programming paradigm where programs are constructed by applying and composing functions
+  * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) - The act of checking a given sequence of tokens for the presence of the constituents of some pattern
+  * [First-class function](https://en.wikipedia.org/wiki/First-class_function) - The property of a programming language that treats functions as first-class citizens (e.g., assignable to variables, passable as arguments)
+    * [Map](https://en.wikipedia.org/wiki/Map_(higher-order_function)) - A higher-order function that applies a given function to each element of a sequence, returning a sequence containing the results
+    * [Filter](https://en.wikipedia.org/wiki/Filter_(higher-order_function)) - A higher-order function that processes a data structure to produce a new data structure containing only those elements for which a given predicate returns true
+    * [Reduce](https://en.wikipedia.org/wiki/Fold_(higher-order_function)) - A higher-order function (also known as fold) that reduces a data structure to a single value by recursively applying a combining operation
+  * [Referential transparency](https://en.wikipedia.org/wiki/Referential_transparency) - A property of expressions such that an expression can be replaced with its corresponding value without changing the program's behavior
+  * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
+  * [Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)) - A function together with a referencing environment for the non-local variables of that function
+  * [Side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) - An observable effect of an operation, function, or expression that modifies state variable values outside its local environment
+  * [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) - A software design pattern with a structure that combines program fragments (functions) and wraps their return values in a type with additional computation
+  * [Currying](https://en.wikipedia.org/wiki/Currying) - The technique of converting a function that takes multiple arguments into a sequence of functions that each takes a single argument
 * Program analysys (advanced)
-  * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic)
-  * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence)
-  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving)
-  * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class)
+  * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
+  * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
+  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
+  * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity
 
 ## 110 - Shell and terminal
 
@@ -240,7 +241,8 @@
   * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
   * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
   * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
-  * [yamllint](https://github.com/adrienverge/yamllint)
+  * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
+  * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
 
 ## 130 - Programming language features
 
@@ -258,18 +260,20 @@
     * diamond oprator
   * autovivification
   * [Moo](https://metacpan.org/pod/Moo)
-* [Python](https://www.python.org/)
-  * [Python import system](https://docs.python.org/3/reference/import.html)
-  * f-string
-  * generator
-  * [with statement](https://docs.python.org/3/reference/compound_stmts.html#with)
-  * context manager
-  * decorator
-  * coroutine function
-  * lambda
-  * [special methods](https://docs.python.org/3/reference/datamodel.html#specialnames)
-  * [global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
-  * [dataclasses](https://docs.python.org/3/library/dataclasses.html)
+* [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
+  * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
+  * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
+    * [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
+  * [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
+  * [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
+    * context manager
+  * [Generators](https://peps.python.org/pep-0255/) - A simple and powerful way to create iterators, defined using a function with the yield statement
+  * [Decorators](https://peps.python.org/pep-0318/) - A syntax using the '@' symbol for transforming functions and methods, often used for modifying or enhancing them non-intrusively
+  * [Coroutine](https://peps.python.org/pep-0492/) - A specialized generator function, defined with `async def`, that can suspend and resume its execution, enabling cooperative multitasking
+  * [Lambda](https://peps.python.org/pep-0312/) - A small anonymous function defined using the `lambda` keyword, restricted to a single expression
+  * [Data Classes](https://peps.python.org/pep-0557/) - A module and decorator providing a concise way to create classes primarily used to store data, automatically generating special methods
+  * [Pattern Matching](https://peps.python.org/pep-0634/) - A feature providing functionality similar to switch statements, allowing matching of values against complex patterns including sequences, mappings, and object structures
 * [Go](https://go.dev/)
   * [Go Modules](https://go.dev/wiki/Modules)
   * [defer, panic and recover](https://go.dev/blog/defer-panic-and-recover)
@@ -290,6 +294,7 @@
   * generator
   * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
   * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
+  * [Bun Shell](https://bun.sh/docs/runtime/shell) - makes shell scripting with JavaScript & TypeScript fun
 * [Typescript](https://www.typescriptlang.org/index.html)
   * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types)
   * [Type Ariases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases)
@@ -332,6 +337,7 @@
   * [Zig](https://ziglang.org/) - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
 * Coding style guides
   * [Google Style Guides](https://google.github.io/styleguide/)
+  * [Style Guide for Python](https://peps.python.org/pep-0008/)
   * [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines)
   * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
   * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts)
@@ -373,7 +379,8 @@
 * Data exchange languages
   * [JSON](https://www.json.org/json-en.html) - A lightweight data-interchange format
     * [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor
-    * [gojq](https://github.com/itchyny/gojq)
+    * [gojq](https://github.com/itchyny/gojq) - Pure Go implementation of jq
+    * [gron](https://github.com/tomnomnom/gron) - transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it
     * [JMESPath](https://jmespath.org/)
     * [JSON::Tiny](https://metacpan.org/pod/JSON::Tiny)
     * [Python json](https://docs.python.org/3/library/json.html)
@@ -449,14 +456,10 @@
 ## 150 - Debugging, logging, and unit testing
 
 * Debuggers and loggers
-  * Bash
-    * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug)
-      * [BASH Debugger](https://bashdb.sourceforge.net/)
-    * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
-    * [logger](https://man7.org/linux/man-pages/man1/logger.1.html) - enter messages into the system log
   * Python
     * [VSCode Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-      * [debugpy](https://github.com/microsoft/debugpy/) - An implementation of the Debug Adapter Protocol for Python 3
+      * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+      * [Python Degugger](https://github.com/microsoft/debugpy/) - An implementation of the Debug Adapter Protocol for Python 3
     * [Python logging](https://docs.python.org/3/library/logging.html)
     * [loguru](https://github.com/Delgan/loguru) - A library which aims to bring enjoyable logging in Python
   * Node.js
@@ -472,9 +475,13 @@
     * [zap](https://github.com/uber-go/zap/) - Blazing fast, structured, leveled logging in Go
     * [Logrus](https://github.com/sirupsen/logrus) - A structured logger for Go (golang), completely API compatible with the standard library logger
   * Others
+    * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug)
+      * [BASH Debugger](https://bashdb.sourceforge.net/)
+    * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
+    * [logger](https://man7.org/linux/man-pages/man1/logger.1.html) - enter messages into the system log
     * [GDB](https://www.gnu.org/software/gdb/) - The GNU Project debugger
-    * [log4j](https://logging.apache.org/log4j/2.x/index.html) - A versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases
     * [Devel::Trepan](https://metacpan.org/pod/Devel::Trepan) - A modular gdb-like Perl debugger
+    * [log4j](https://logging.apache.org/log4j/2.x/index.html) - A versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases
     * [log4perl](https://metacpan.org/pod/Log::Log4perl) - Log4j implementation for Perl
     * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 * Test frameworks
@@ -499,6 +506,9 @@
       * [Chai](https://www.chaijs.com/)
     * [Node-Tap](https://node-tap.org/) - Test Anything Protocol library for JavaScript
     * [Istanbul](https://istanbul.js.org/) - Yet another JS code coverage tool
+  * Typescript
+    * [bun test](https://bun.sh/docs/cli/test)
+    * [deno test](https://docs.deno.com/runtime/fundamentals/testing/)
   * Go
     * [Go testing](https://pkg.go.dev/testing)
     * [Go cover](https://pkg.go.dev/cmd/cover)
@@ -538,6 +548,7 @@
     * [glibc](https://sourceware.org/glibc/)
     * [musl libc](https://musl.libc.org/)
 * [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
+  * [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
   * Javascript
     * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
       * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
@@ -678,6 +689,8 @@
   * [Go compress libs](https://pkg.go.dev/compress)
   * [Go archive libs](https://pkg.go.dev/archive)
   * [JSZip](https://stuk.github.io/jszip/) - A javascript library for creating, reading and editing .zip files
+  * [zlib](https://zlib.net/) - A free, general-purpose, legally unencumbered lossless data-compression library for use on virtually any computer hardware and operating system
+  * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
 * Binary file processing
   * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
   * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps

@@ -55,34 +55,34 @@
 ## 210 - Linux administration
 
 * Linux distros for VMs or containers
-  * [Ubuntu server](https://ubuntu.com/server)
+  * [Ubuntu server](https://ubuntu.com/server) - The standard platform for public clouds, on-premises, and IoT devices
   * [Debian](https://www.debian.org/) - A complete Free Operating System
   * [Arch Linux](https://archlinux.org/) - A simple, lightweight distribution
   * [Alpine linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
-* [The Linux Kernel](https://www.kernel.org/)
-  * [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html)
-  * [signal](https://man7.org/linux/man-pages/man7/signal.7.html)
-  * [pipe](https://man7.org/linux/man-pages/man7/pipe.7.html)
-  * [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html)
-  * [unix domain socket](https://man7.org/linux/man-pages/man7/unix.7.html)
-  * [socket](https://man7.org/linux/man-pages/man7/socket.7.html)
+* [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
+  * [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html) - A process that runs in the background
+  * [signal](https://man7.org/linux/man-pages/man7/signal.7.html) - A limited form of inter-process communication used in Unix and Unix-like operating systems
+  * [pipe](https://man7.org/linux/man-pages/man7/pipe.7.html) - A unidirectional data channel that can be used for interprocess communication
+  * [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html) - A persistent pipe that appears as a file in the file system
+  * [unix domain socket](https://man7.org/linux/man-pages/man7/unix.7.html) - A data communications endpoint for exchanging data between processes executing on the same host operating system
+  * [socket](https://man7.org/linux/man-pages/man7/socket.7.html) - A communication endpoint for exchanging data between processes
   * Filesystems
-    * [ext4](https://en.wikipedia.org/wiki/Ext4)
-    * [xfs](https://en.wikipedia.org/wiki/XFS)
-    * [overlayfs](https://en.wikipedia.org/wiki/OverlayFS)
-    * [proc pseudo-filesystem](https://man7.org/linux/man-pages/man5/proc.5.html)
-    * [sysfs pseudo-filesystem](https://man7.org/linux/man-pages/man5/sysfs.5.html)
-* [linux-pam](https://github.com/linux-pam/linux-pam)
+    * [ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
+    * [xfs](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
+    * [overlayfs](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
+    * [proc pseudo-filesystem](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
+    * [sysfs pseudo-filesystem](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
+* [linux-pam](https://github.com/linux-pam/linux-pam) - A system of libraries that handle the authentication tasks of applications and services in a Linux system
 * [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
 * [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
 * [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
-  * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse)
-* [Systemd](https://www.freedesktop.org/wiki/Software/systemd/)
-  * [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#)
-  * [hostnamed](https://www.freedesktop.org/software/systemd/man/latest/systemd-hostnamed.html#)
-  * [networkd](https://www.freedesktop.org/software/systemd/man/latest/systemd-networkd.html#)
-  * [resolved](https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.html#)
-  * [timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.html#)
+  * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
+* [Systemd](https://www.freedesktop.org/wiki/Software/systemd/) - A system and service manager for Linux operating systems
+  * [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#) - A system service that collects and stores logging data
+  * [hostnamed](https://www.freedesktop.org/software/systemd/man/latest/systemd-hostnamed.html#) - A system service that may be used to control the hostname and related machine metadata from user programs
+  * [networkd](https://www.freedesktop.org/software/systemd/man/latest/systemd-networkd.html#) - A system service that manages networks
+  * [resolved](https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.html#) - A system service that provides network name resolution to local applications
+  * [timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.html#) - A system service that may be used to synchronize the local system clock with a remote Network Time Protocol server
 * Host administration
   * [util-linux](https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/) - A random collection of Linux utilities
     * [lsblk](https://man7.org/linux/man-pages/man8/lsblk.8.html)
@@ -410,27 +410,27 @@
 
 ## 270 - Performance testing, chaos engineering, and FinOps
 
-* [Performance testing](https://en.wikipedia.org/wiki/Software_performance_testing)
-  * [Grafana k6](https://k6.io/)
-  * [Gatling](https://gatling.io/)
-  * [Apache Jmeter](https://jmeter.apache.org/)
+* [Performance testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
+  * [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
+  * [Gatling](https://gatling.io/) - The load testing tool for programmers that helps engineering teams shift performance concerns left
+  * [Apache Jmeter](https://jmeter.apache.org/) - A pure Java application designed to load test functional behavior and measure performance
   * [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) - Apache HTTP server benchmarking tool
-  * [stress-ng](https://github.com/ColinIanKing/stress-ng)
+  * [stress-ng](https://github.com/ColinIanKing/stress-ng) - A tool that imposes configurable amounts of CPU, memory, I/O, and disk stress on the system
   * [sysbench](https://github.com/akopytov/sysbench) - Scriptable database and system performance benchmark
   * [fio](https://github.com/axboe/fio) - Flexible I/O Tester
   * [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
-* [Chaos engineering](https://en.wikipedia.org/wiki/Chaos_engineering)
+* [Chaos engineering](https://en.wikipedia.org/wiki/Chaos_engineering) - The practice of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production
   * [Principles of chaos engineering](https://principlesofchaos.org/)
-  * [Litmus](https://litmuschaos.io/) - an open source Chaos Engineering
-  * [Chaos Mesh](https://chaos-mesh.org/) - an open source cloud-native Chaos Engineering platform
+  * [Litmus](https://litmuschaos.io/) - A cloud-native chaos engineering framework for Kubernetes
+  * [Chaos Mesh](https://chaos-mesh.org/) - A cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments
   * [Toxiproxy](https://github.com/Shopify/toxiproxy) - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
 * FinOps
-  * [FinOps principles](https://www.finops.org/framework/principles/)
-  * [FinOps toolkit](https://microsoft.github.io/finops-toolkit/)
-  * [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
-  * [OpenCost](https://www.opencost.io/)
-  * [Karpenter](https://karpenter.sh/)
-  * [Cloud Custodian](https://cloudcustodian.io/)
+  * [FinOps principles](https://www.finops.org/framework/principles/) - The cultural practice of bringing financial accountability to the variable spend model of cloud
+  * [FinOps toolkit](https://microsoft.github.io/finops-toolkit/) - A collection of tools, resources, and best practices for implementing FinOps in your organization
+  * [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) - A tool that enables you to view and analyze your costs and usage
+  * [OpenCost](https://www.opencost.io/) - The open source solution for monitoring Kubernetes spend
+  * [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
+  * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing cloud resources
 
 ## 280 - Server telemetry ETL and visualization
 
