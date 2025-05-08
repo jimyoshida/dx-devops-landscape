@@ -1,4 +1,4 @@
-# Class 100 - Programming
+# 100 - Programming
 
 ## Timeline
 

@@ -1,4 +1,4 @@
-# Class 400 - Security and privacy
+# 400 - Security and privacy
 
 [Show timeline](../timelines/cls4.md)
 
@@ -236,7 +236,7 @@
   * [Clair](https://github.com/quay/clair) - An open source project for the static analysis of vulnerabilities in application containers (currently including OCI and docker)
   * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
 
-## 450 - Runtime security protection
+## 450 - Runtime protection
 
 * Cloud workload protection
   * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
@@ -289,17 +289,7 @@
     * [iptables](https://man7.org/linux/man-pages/man8/iptables.8.html)
   * [ubuntu ufw](https://help.ubuntu.com/community/UFW)
 
-## 470 - Business continuity
-
-* [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning)
-  * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery)
-* ISO 22301: Security and resilience - Business continuity management systems - Requirements
-* ISO 31000: Risk management
-* [Project risk management](https://en.wikipedia.org/wiki/Project_risk_management)
-* [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management)
-  * [Value at risk](https://en.wikipedia.org/wiki/Value_at_risk)
-
-## 490 - Cryptography
+## 470 - Cryptography
 
 * Unkeyed
   * Hash Function

@@ -1,4 +1,4 @@
-# Class 000 - Agile, management, and general works
+# 000 - Agile, management, and general works
 
 ## Timeline
 

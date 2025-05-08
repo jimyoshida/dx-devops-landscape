@@ -1,4 +1,4 @@
-# Class 400 - Security and privacy
+# 400 - Security and privacy
 
 ## Timeline
 
@@ -130,7 +130,7 @@ Initial release: 2014
 On September 14, 2015, Let's Encrypt issued its first certificate, which was for the domain helloworld.letsencrypt.org. On the same day, ISRG submitted its root program applications to Mozilla, Microsoft, Google and Apple.
 
 Cilium is a cloud native technology for networking, observability, and security. It is based on the kernel technology eBPF, originally for better networking performance, and now leverages many additional features for different use cases.
-Initial release	December 16, 2015
+Initial release: December 16, 2015
 
 The General Data Protection Regulation, abbreviated GDPR, or French RGPD is a European Union regulation on information privacy in the European Union (EU) and the European Economic Area (EEA).
 The European Parliament and Council of the European Union adopted the GDPR on 14 April 2016, to become effective on 25 May 2018.

@@ -1,4 +1,4 @@
-# Class 500 - Data, ML, and LLM
+# 500 - Data, ML, and LLM
 
 [Show timeline](../timelines/cls5.md)
 
@@ -6,29 +6,41 @@
 
 * [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
 * [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
-* [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing software
-* [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)
-* [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - Models of possible structural and functional relationships between a set of components—often four, data, information, knowledge, and wisdom
+* [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing application software
+* [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
+* [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
 * [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) - A system used for reporting and data analysis and is a core component of business intelligence
 * [Data lake](https://en.wikipedia.org/wiki/Data_lake) - A system or repository of data stored in its natural/raw format, usually object blobs or files
-* [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control)
+* [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) - The mechanism ensuring that correct results for concurrent operations are generated efficiently
   * [ACID](https://en.wikipedia.org/wiki/ACID) - A set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps
     * Atomicity, Consistency, Isolation, and Durability
-* [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
-* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - states that any distributed data store can provide only two of the following three guarantees:
-  * Consistency, Availability, and Partition tolerance
+* [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) - The four basic operations of persistent storage: create, read, update, and delete
+* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - A theorem stating that any distributed data store can provide only two of the following three guarantees: Consistency, Availability, and Partition tolerance
 * [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
 * Network analysis
-  * [Centrality](https://en.wikipedia.org/wiki/Centrality)
+  * [Centrality](https://en.wikipedia.org/wiki/Centrality) - A measure of the relative importance of a node or vertex within a graph in graph theory and network analysis
 * Interactive computing environment
-  * [JupyterLab](https://jupyter.org/) - Web-based interactive development environment for notebooks, code, and data
-  * [Jupiter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
-    * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+  * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
+  * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
+    * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in Jupyter Notebooks
   * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
-  * [R Markdown](https://rmarkdown.rstudio.com/) - helps you create dynamic analysis documents that combine code, rendered output (such as figures), and prose
+  * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
 * Data exchange format
   * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
   * [BSON](https://bsonspec.org/) - A bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments
+* [Object storage](https://en.wikipedia.org/wiki/Object_storage) - A computer data storage architecture that manages data as objects
+  * [Amazon S3](https://aws.amazon.com/s3/) - An object storage service offering industry-leading scalability, data availability, security, and performance
+  * [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data
+  * [Google Cloud Storage](https://cloud.google.com/storage/) - A RESTful online file storage web service for storing and accessing data on Google Cloud Platform infrastructure
+  * [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - The service letting you upload and share user generated content, such as images and video
+  * [Supabase Storage](https://supabase.com/docs/guides/storage) - The service making it simple to store and serve large files like photos and videos
+  * Self-hosted (advanced)
+    * [Ceph](https://ceph.com/en/) - An open-source, distributed storage system
+    * [MinIO](https://min.io/) - A high-performance, S3 compatible object store
+  * File transfers
+    * [s5cmd](https://github.com/peak/s5cmd) - A very fast S3 and local filesystem execution tool
+    * [Rclone](https://rclone.org/) - A command-line program to manage files on cloud storage
+    * [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) - A standalone app making it easy to work with Azure Storage data on Windows, macOS, and Linux
 * Platforms for Data/AI/ML
   * [DVC](https://dvc.org/) - Data Version Control
   * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
@@ -142,37 +154,36 @@
 * Frameworks
   * [Apache Hadoop](https://hadoop.apache.org/) - A framework that allows for the distributed processing of large data sets
     * [mrjob](https://mrjob.readthedocs.io/en/latest/) - The easiest route to writing Python programs that run on Hadoop
-  * [Apache Spark](https://spark.apache.org/) - Unified engine for large-scale data analytics
-    * [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
+  * [Apache Spark](https://spark.apache.org/) - The unified engine for large-scale data analytics
+    * [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) - The Python API for Apache Spark, allowing big data processing with Python
   * [RAY](https://www.ray.io/) - An open-source unified compute framework that makes it easy to scale AI and Python workloads
 * Analytics platform
   * [Apache Hive](https://hive.apache.org/) - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
-  * [Presto](https://prestodb.io/) - Fast and Reliable SQL Engine
-  * [Trino](https://trino.io/) - A distributed SQL query engine designed to query large data sets
-  * [Amazon EMR](https://aws.amazon.com/emr/)
-  * [Amazon RedShift](https://aws.amazon.com/redshift/)
-  * [Amazon Athena](https://aws.amazon.com/athena/)
-  * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - allows your entire organization to use data and AI
+  * [Presto](https://prestodb.io/) - A distributed SQL query engine designed for fast, reliable, and efficient analytics at any scale
+  * [Trino](https://trino.io/) - A distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources
+  * [Amazon EMR](https://aws.amazon.com/emr/) - A cloud big data platform for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning applications
+  * [Amazon Redshift](https://aws.amazon.com/redshift/) - A fully managed, petabyte-scale data warehouse service in the cloud
+  * [Amazon Athena](https://aws.amazon.com/athena/) - An interactive query service that makes it easy to analyze data directly in Amazon S3 and other data stores using standard SQL
+  * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - The platform that allows your entire organization to use data and AI
     * [Lakehouse architecture](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
     * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
-  * [Microsoft Fablic](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
+  * [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
   * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
 * Full-fledged ETL
   * [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/) - Azure's cloud ETL service for scale-out serverless data integration and data transformation
-  * [AWS Glue](https://aws.amazon.com/glue/)
-  * [Apache NiFi](https://nifi.apache.org/)
+  * [AWS Glue](https://aws.amazon.com/glue/) - A serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources
+  * [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data
 * Real-time streaming
-  * [Amazon Kinesis](https://aws.amazon.com/kinesis/)
-  * [Azure Event Hubs](https://azure.microsoft.com/en-us/products/event-hubs/)
+  * [Amazon Kinesis](https://aws.amazon.com/kinesis/) - The service making it easy to collect, process, and analyze real-time, streaming data
+  * [Azure Event Hubs](https://azure.microsoft.com/en-us/products/event-hubs/) - A highly scalable and reliable event streaming platform capable of ingesting millions of events per second
   * [Apache Kafka](https://kafka.apache.org/) - An open-source distributed event streaming platform
   * [Apache Storm](https://storm.apache.org/) - A free and open source distributed realtime computation system
   * [Apache Flink](https://flink.apache.org/) - A framework and distributed processing engine for stateful computations over unbounded and bounded data streams
-* Messaging
-  * [Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/)
-  * [Azure Queue Storage](https://azure.microsoft.com/en-us/products/storage/queues/)
-  * [Amazon Simple Queue Service](https://aws.amazon.com/sqs/)
+* [Message broker](https://en.wikipedia.org/wiki/Message_broker) - An intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver
+  * [Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/) - A fully managed enterprise message broker with message queues and publish-subscribe topics
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
+  * [Apache Kafka](https://kafka.apache.org/) - An open-source distributed event streaming platform
 
 ## 540 - Machine learning
 
@@ -261,6 +272,7 @@
 * Textbooks
   * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book explaining the core ideas behind neural networks and deep learning
   * [Deep Learning, MIT Press](https://www.deeplearningbook.org/) - The textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
+
 ## 570 - Large language models
 
 * LLM API providers

@@ -1,4 +1,4 @@
-# Class 500 - Data, ML, and LLM
+# 500 - Data, ML, and LLM
 
 ## Timeline
 

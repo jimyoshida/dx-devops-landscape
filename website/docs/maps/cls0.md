@@ -1,4 +1,4 @@
-# Class 000 - Agile, management, and general works
+# 000 - Agile, management, and general works
 
 [Show timeline](../timelines/cls0.md)
 
@@ -296,7 +296,7 @@
 * [Architectural Decision Records (ADRs)](https://adr.github.io/)
   * [adr-tools](https://github.com/npryce/adr-tools)
 
-## 060 - OSS assets and foundations
+## 050 - OSS assets and foundations
 
 * OSS/data repositories or registries
   * [GitHub](https://github.com/)
@@ -341,46 +341,51 @@
   * [WHATWG](https://whatwg.org/)
   * [Open Geospatial Consortium](https://www.ogc.org/)
 
-## 070 - Finance and business strategy
+## 060 - DevOps workspace
 
-* Strategy
-  * [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling)
-  * [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning)
-  * [Business Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
-  * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle)
-* Finance
-  * [Currency](https://en.wikipedia.org/wiki/Currency)
-  * [Interest](https://en.wikipedia.org/wiki/Interest)
-  * [Central bank](https://en.wikipedia.org/wiki/Central_bank)
-  * Contracts
-    * [Credit](https://en.wikipedia.org/wiki/Credit)
-    * [Debt](https://en.wikipedia.org/wiki/Debt)
-      * [Discounting](https://en.wikipedia.org/wiki/Discounting)
-      * [Bond](https://en.wikipedia.org/wiki/Bond_(finance))
-    * [Spot](https://en.wikipedia.org/wiki/Spot_contract)
-    * [Futures](https://en.wikipedia.org/wiki/Futures_contract)
-    * [Option](https://en.wikipedia.org/wiki/Option_(finance))
-  * [Cryptcurrency](https://en.wikipedia.org/wiki/Cryptocurrency)
-    * [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - A distributed ledger with growing lists of records
-      * [Bitcoin](https://bitcoin.org/)
-* Financial accounting
-  * [Return on investment](https://en.wikipedia.org/wiki/Return_on_investment)
-  * [Cash flow statement](https://en.wikipedia.org/wiki/Cash_flow_statement)
-  * [Income statement](https://en.wikipedia.org/wiki/Income_statement)
-  * [Balance sheet](https://en.wikipedia.org/wiki/Balance_sheet)
-  * [Net present value](https://en.wikipedia.org/wiki/Net_present_value)
-* Economics and game theory
-  * [Market](https://en.wikipedia.org/wiki/Market_(economics))
-  * [Inflation](https://en.wikipedia.org/wiki/Inflation)
-  * [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry)
-  * [Induced demand](https://en.wikipedia.org/wiki/Induced_demand)
-  * [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law)
-    * [Network effect](https://en.wikipedia.org/wiki/Network_effect)
-  * [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox)
-  * [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
-  * [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency)
+* Linux distros for desktop
+  * Debian-based
+    * [Ubuntu desktop](https://ubuntu.com/desktop)
+    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
+  * Arch-based
+    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
+    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
+* GUI systems
+  * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
+  * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
+  * [GNOME](https://www.gnome.org/)
+  * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
+  * [openbox](http://openbox.org) - A highly configurable, next generation window manager
+  * [i3](https://i3wm.org/) - A tiling window manager
+* Type-2 hypervisors
+  * [VirtualBox](https://www.virtualbox.org/)
+  * [QEMU](https://www.qemu.org/)
+  Type-1 hypervisor
+  * [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
+* Remote access
+  * [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
+  * [RFB](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst)
+  * [x11vnc](https://github.com/LibVNC/x11vnc)
+  * [TightVNC](https://www.tightvnc.com/)
+  * [xrdp](https://github.com/neutrinolabs/xrdp)
+  * [Remmina](https://remmina.org/)
+  * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
+  * [Mosh](https://mosh.org/) - A replacement for interactive SSH terminals
+* File sharing
+  * [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)
+    * [Samba](https://www.samba.org/)
+  * [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+    * [vsftpd](https://security.appspot.com/vsftpd.html)
+  * [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
+* Windows administration
+  * [Chocolatey](https://chocolatey.org)
+  * [Scoop](https://scoop.sh/)
+  * [gsudo](https://gerardog.github.io/gsudo/)
+* Windows tools
+  * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
+  * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
 
-## 080 - Logic, mathematics and statistics
+## 070 - Logic, mathematics and statistics
 
 * [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
   * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning)

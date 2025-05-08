@@ -1,0 +1,59 @@
+cls000: Agile, management, and general works
+subcls000: Agile/lean software development
+subcls010: Cultures and human sciences
+subcls020: Management
+subcls030: Documentation and knowledge base
+subcls040: Architecture design and description
+subcls050: OSS assets and foundations
+subcls060: DevOps workspace
+subcls070: Logic, mathematics and statistics
+cls100: Programming
+subcls100: Programming concepts
+subcls110: Shell and terminal
+subcls120: SCM, editor/IDE, and code quality
+subcls130: Programming language features
+subcls140: Text and structured text processing
+subcls150: Debugging, logging, and unit testing
+subcls160: Program execution and SDK
+subcls170: Algorithms and data structures
+cls200: Infrastructure and cloud
+subcls200: OS and IP network basics
+subcls210: Linux administration
+subcls220: Domain name system and Email
+subcls230: Linux container and WebAssembly
+subcls240: Kubernetes
+subcls250: IaC, configuration management, and continuous delivery
+subcls260: Performance testing, chaos engineering, and FinOps
+subcls270: Server telemetry ETL and visualization
+cls300: Web and app development
+subcls300: Web and API style standards
+subcls310: Web servers, web proxies, and service mesh
+subcls320: Web application interfaces and frameworks
+subcls330: Frontend frameworks, libraries and tools
+subcls340: Web application automation and test tools
+subcls350: CLI/TUI development
+subcls360: Binary and image processing
+subcls370: Mobile/Desktop application development (reference)
+cls400: Security and privacy
+subcls400: References for security and privacy
+subcls410: Secure software development
+subcls420: Identity and access management
+subcls430: Secure communications
+subcls440: Static security check
+subcls450: Runtime protection
+subcls460: Other security tools
+subcls470: Cryptography
+cls500: Data, ML, and LLM
+subcls500: Data/AI concepts and platforms
+subcls510: Basic data science tools
+subcls520: Databases
+subcls530: Distributed processing, analytics, and application integration
+subcls540: Machine learning
+subcls550: Natural language processing
+subcls560: Deep neural networks
+subcls570: Large language models
+cls600: Business and marketing (WIP)
+subcls600: Finance and business strategy
+subcls610: Economics and game theory
+subcls620: Business continuity
+subcls630: Web marketing (reference)

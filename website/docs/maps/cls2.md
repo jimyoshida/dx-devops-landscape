@@ -1,4 +1,4 @@
-# Class 200 - Infrastructure and cloud
+# 200 - Infrastructure and cloud
 
 [Show timeline](../timelines/cls2.md)
 
@@ -51,6 +51,21 @@
 * [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
 * [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
   * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
+* Infrastructure services
+  * [Amazon EC2](https://aws.amazon.com/ec2/)
+    * [Amazon EBS](https://aws.amazon.com/ebs/)
+  * [Amazon VPC](https://aws.amazon.com/vpc/)
+  * [Amazon ELB](https://aws.amazon.com/elasticloadbalancing/)
+  * [Azure Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
+    * [Azure Disk Storage](https://azure.microsoft.com/en-us/services/storage/disks/)
+  * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/)
+  * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer)
+  * [Google Cloud Compute Engine](https://cloud.google.com/products/compute)
+  * Internals (advanced)
+    * [OpenStack](https://www.openstack.org/) - A cloud operating system that controls large pools of compute
+    * [Open vSwitch](https://www.openvswitch.org/)
+    * [DPDK](https://www.dpdk.org/)
+    * [FD.io](https://fd.io/)
 
 ## 210 - Linux administration
 
@@ -160,6 +175,7 @@
     * [Yay](https://github.com/Jguer/yay) - An AUR Helper Written in Go
   * [apk-tools](https://gitlab.alpinelinux.org/alpine/apk-tools) - A package manager originally built for Alpine Linux
   * [Homebrew](https://brew.sh/)
+  * [pipx](https://pipx.pypa.io/stable/)
   * [Flatpak](https://flatpak.org/)
   * [Snapcraft](https://snapcraft.io/)
   * [arkade](https://github.com/alexellis/arkade) - Open Source Marketplace For Developer Tools
@@ -376,39 +392,7 @@
   * [Semantic Versioning](https://semver.org/)
     * [semver](https://github.com/npm/node-semver#readme)
 
-## 260 - Infrastructure cloud
-
-* Server and load balancer
-  * [Amazon EC2](https://aws.amazon.com/ec2/)
-    * [Amazon EBS](https://aws.amazon.com/ebs/)
-  * [Amazon VPC](https://aws.amazon.com/vpc/)
-  * [Amazon ELB](https://aws.amazon.com/elasticloadbalancing/)
-  * [Azure Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
-    * [Azure Disk Storage](https://azure.microsoft.com/en-us/services/storage/disks/)
-  * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/)
-  * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer)
-  * [Google Cloud Compute Engine](https://cloud.google.com/products/compute)
-  * Self-hosted (advanced)
-    * [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
-    * [OpenStack](https://www.openstack.org/) - A cloud operating system that controls large pools of compute
-    * [Open vSwitch](https://www.openvswitch.org/)
-    * [DPDK](https://www.dpdk.org/)
-    * [FD.io](https://fd.io/)
-* [Object storage](https://en.wikipedia.org/wiki/Object_storage)
-  * [Amazon S3](https://aws.amazon.com/s3/)
-  * [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
-  * [Google Cloud Storage](https://cloud.google.com/storage/)
-  * [Cloud Storage for Firebase](https://firebase.google.com/docs/storage)
-  * [Supabase Storage](https://supabase.com/docs/guides/storage) - An open source Firebase alternative
-  * Self-hosted (advanced)
-    * [Ceph](https://ceph.com/en/) - An open-source, distributed storage system
-    * [MinIO](https://min.io/) - A high-performance, S3 compatible object store
-  * File transfers
-    * [s5cmd](https://github.com/peak/s5cmd) - A very fast S3 and local filesystem execution tool
-    * [Rclone](https://rclone.org/) - A command-line program to manage files on cloud storage
-    * [Azure Storage Exproler](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) - Manage your Azure cloud storage resources from your desktop
-
-## 270 - Performance testing, chaos engineering, and FinOps
+## 260 - Performance testing, chaos engineering, and FinOps
 
 * [Performance testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
   * [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
@@ -432,7 +416,7 @@
   * [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing cloud resources
 
-## 280 - Server telemetry ETL and visualization
+## 270 - Server telemetry ETL and visualization
 
 * Data shipping
   * [Prometheus exporters](https://prometheus.io/docs/instrumenting/exporters/)
@@ -482,45 +466,3 @@
   * [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
     * [Grafonnet](https://grafana.github.io/grafonnet/) - Jsonnet library for generating Grafana dashboards
   * [Kibana](https://www.elastic.co/kibana) - Discover, iterate, and resolve with ES|QL
-
-## 290 - DevOps workspace
-
-* Linux distros for desktop
-  * Debian-based
-    * [Ubuntu desktop](https://ubuntu.com/desktop)
-    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
-  * Arch-based
-    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
-    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
-* GUI systems
-  * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
-  * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
-  * [GNOME](https://www.gnome.org/)
-  * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
-  * [openbox](http://openbox.org) - A highly configurable, next generation window manager
-  * [i3](https://i3wm.org/) - A tiling window manager
-* Type-2 hypervisors
-  * [VirtualBox](https://www.virtualbox.org/)
-  * [QEMU](https://www.qemu.org/)
-* Remote access
-  * [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
-  * [RFB](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst)
-  * [x11vnc](https://github.com/LibVNC/x11vnc)
-  * [TightVNC](https://www.tightvnc.com/)
-  * [xrdp](https://github.com/neutrinolabs/xrdp)
-  * [Remmina](https://remmina.org/)
-  * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
-  * [Mosh](https://mosh.org/) - A replacement for interactive SSH terminals
-* File sharing
-  * [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)
-    * [Samba](https://www.samba.org/)
-  * [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
-    * [vsftpd](https://security.appspot.com/vsftpd.html)
-  * [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
-* Windows administration
-  * [Chocolatey](https://chocolatey.org)
-  * [Scoop](https://scoop.sh/)
-  * [gsudo](https://gerardog.github.io/gsudo/)
-* Windows tools
-  * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
-  * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts

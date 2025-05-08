@@ -1,4 +1,4 @@
-# Class 300 - Web and app development
+# 300 - Web and app development
 
 [Show timeline](../timelines/cls3.md)
 
@@ -107,7 +107,7 @@
   * [Linkerd](https://linkerd.io/)
   * [traefik mesh](https://traefik.io/traefik-mesh/) - a straight-forward, easy to configure, and non-invasive service mesh
 
-## 330 - Web application interfaces and frameworks
+## 320 - Web application interfaces and frameworks
 
 * JS/TS frameworks for backend
   * [Express.js](https://expressjs.com/) - A minimal and flexible Node.js web application framework
@@ -155,7 +155,7 @@
 * .NET frameworks (reference)
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet)
 
-## 340 - Frontend frameworks, libraries and tools
+## 330 - Frontend frameworks, libraries and tools
 
 * JS frameworks/libraries for UI
   * [React](https://reactjs.org/) - The library for web and native user interfaces
@@ -194,7 +194,7 @@
   * [Apple's](https://developer.apple.com/design/human-interface-guidelines)
   * [GNOME's](https://developer.gnome.org/hig/)
 
-## 350 - Web application automation and test tools
+## 340 - Web application automation and test tools
 
 * Accessibility standards
   * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
@@ -225,7 +225,100 @@
   * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
   * [Fiddler](https://www.telerik.com/fiddler) - Web Debugging Proxy
 
-## 380 - Mobile/Desktop application development (reference)
+## 350 - CLI/TUI development
+
+* Bash
+  * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
+  * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html)
+  * [dialog](https://invisible-island.net/dialog/dialog.html)
+  * [Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
+  * [FIGlet](http://www.figlet.org/)
+  * [lolcat](https://github.com/busyloop/lolcat)
+  * [cfonts](https://github.com/dominikwilkowski/cfonts)
+  * [cowsay](http://cowsay.diamonds/)
+* Perl
+  * [Getopt::Long](https://metacpan.org/pod/Getopt::Long)
+  * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor)
+  * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable)
+* Python
+  * [argparse](https://docs.python.org/3/library/argparse.html)
+  * [click](https://palletsprojects.com/p/click/)
+  * [Colorama](https://github.com/tartley/colorama)
+  * [Typer](https://typer.tiangolo.com/)
+  * [Asciimatics](https://github.com/peterbrittain/asciimatics)
+  * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/)
+* Javascript
+  * [yargs](https://yargs.js.org/)
+  * [minimist](https://github.com/minimistjs/minimist)
+  * [chalk](https://github.com/chalk/chalk)
+  * [cli-progress](https://github.com/npkgz/cli-progress)
+  * [FIGLet.js](https://github.com/patorjk/figlet.js)
+  * [gradient-string](https://github.com/bokub/gradient-string)
+* Go
+  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
+  * [Huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts
+  * [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package
+  * [color](https://github.com/fatih/color)
+  * [cobra](https://cobra.dev/) - A Framework for Modern CLI Apps in Go
+  * [cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
+  * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+* Ruby
+  * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
+  * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
+  * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
+* Rust
+  * [Ratatui](https://ratatui.rs/)
+  * [R3BL](https://r3bl.com/)
+* C
+  * [ncurses](https://invisible-island.net/ncurses/)
+
+## 360 - Binary and image processing
+
+* Compression and archiving
+  * [GNU Gzip](https://www.gnu.org/software/gzip/)
+  * [GNU tar](https://www.gnu.org/software/tar/)
+  * [Info-Zip](https://sourceforge.net/projects/infozip/) - Portable compression/archiver utilities
+  * [P7ZIP](https://p7zip.sourceforge.net/) - A port of 7za.exe for POSIX systems
+  * [Python Data Compression and Archiving libs](https://docs.python.org/3/library/archiving.html)
+  * [Go compress libs](https://pkg.go.dev/compress)
+  * [Go archive libs](https://pkg.go.dev/archive)
+  * [JSZip](https://stuk.github.io/jszip/) - A javascript library for creating, reading and editing .zip files
+  * [zlib](https://zlib.net/) - A free, general-purpose, legally unencumbered lossless data-compression library for use on virtually any computer hardware and operating system
+  * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
+* Binary file processing
+  * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
+  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
+  * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html)
+  * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
+  * [bed](https://github.com/itchyny/bed) - Binary editor written in Go
+  * [fq](https://github.com/wader/fq) - Inspired by the jq tool and language and allows you to work with binary formats in the same way
+  * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - Read and write meta information in files
+  * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
+  * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
+* Office document processing
+  * Formats
+    * [PDF](https://en.wikipedia.org/wiki/PDF)
+    * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)
+    * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument)
+  * [Ghostscript](https://www.ghostscript.com/) - offers unmatched PDL conversion, multi-platform support, and customizable modules
+  * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
+  * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
+  * [pdfcpu](https://pdfcpu.io/) - A Go PDF processor
+  * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
+  * [libreoffice cli](https://manpages.ubuntu.com/manpages/trusty/man1/libreoffice.1.html) - LibreOffice office suite
+  * [Excelize](https://xuri.me/excelize/) - A Go library for XLSX files
+  * [xlsx2csv](https://github.com/dilshod/xlsx2csv)
+  * [docx2txt](https://github.com/ankushshah89/python-docx2txt)
+  * [pptx2md](https://github.com/ssine/pptx2md)
+  * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
+  * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
+* OCR
+  * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+  * [gosseract OCR](https://github.com/otiai10/gosseract) - Golang OCR package, by using Tesseract C++ library
+  * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/)
+  * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+
+## 370 - Mobile/Desktop application development (reference)
 
 * [Android](https://www.android.com/)
 * [iOS](https://www.apple.com/ios/)
@@ -247,27 +340,3 @@
   * [Gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go
   * [Fyne](https://fyne.io/) - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
   * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
-
-## 390 - Web marketing (reference)
-
-* [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
-* Analytics
-  * [Google Analytics](https://developers.google.com/analytics)
-  * [Plausible](https://plausible.io/) - Intuitive, lightweight and open source web analytics
-  * [vince](https://www.vinceanalytics.com/) - A cost effective, self hosted, privacy friendly alternative to Google Analytics
-* [Tag manager](https://en.wikipedia.org/wiki/Tag_management_system)
-  * [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/)
-* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals)
-  * Largest Contentful Paint (LCP)
-  * Interaction to Next Paint (INP)
-  * Cumulative Layout Shift (CLS)
-* Advertising
-  * Indicators
-    * [Click through rate](https://en.wikipedia.org/wiki/Click-through_rate)
-    * [Conversion rate](https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate)
-  * Platforms
-    * [Google Ads](https://ads.google.com/home/)
-    * [Google AdSence](https://adsense.google.com/start/)
-    * [Microsoft Advertising](https://ads.microsoft.com/)
-* Experiment platform
-  * [Optimizely](https://www.optimizely.com/)
