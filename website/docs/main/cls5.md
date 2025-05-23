@@ -4,13 +4,14 @@
 
 ## 500 - Data/AI concepts and platforms
 
-* [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
-* [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
 * [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing application software
 * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
 * [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
+* [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
 * [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) - A system used for reporting and data analysis and is a core component of business intelligence
 * [Data lake](https://en.wikipedia.org/wiki/Data_lake) - A system or repository of data stored in its natural/raw format, usually object blobs or files
+* [Lakehouse architecture](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
+  * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
 * [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) - The mechanism ensuring that correct results for concurrent operations are generated efficiently
   * [ACID](https://en.wikipedia.org/wiki/ACID) - A set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps
     * Atomicity, Consistency, Isolation, and Durability
@@ -19,12 +20,6 @@
 * [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
 * Network analysis
   * [Centrality](https://en.wikipedia.org/wiki/Centrality) - A measure of the relative importance of a node or vertex within a graph in graph theory and network analysis
-* Interactive computing environment
-  * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
-  * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
-    * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in Jupyter Notebooks
-  * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
-  * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
 * Data exchange format
   * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
   * [BSON](https://bsonspec.org/) - A bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments
@@ -41,24 +36,20 @@
     * [s5cmd](https://github.com/peak/s5cmd) - A very fast S3 and local filesystem execution tool
     * [Rclone](https://rclone.org/) - A command-line program to manage files on cloud storage
     * [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) - A standalone app making it easy to work with Azure Storage data on Windows, macOS, and Linux
-* Platforms for Data/AI/ML
-  * [DVC](https://dvc.org/) - Data Version Control
-  * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
-  * [Streamlit](https://streamlit.io/) - An open-source Python framework for data scientists and AI/ML engineers to deliver dynamic data apps with only a few lines of code
 * AI kinds
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
   * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
   * [Causal AI](https://en.wikipedia.org/wiki/Causal_AI) - A technique in artificial intelligence that builds a causal model and can thereby make inferences using causality rather than just correlation
 
-## 510 - Basic data science tools
+## 510 - Data engineering tools
 
-* Computing
-  * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
-  * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
-  * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
-  * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
-  * [SageMath](https://www.sagemath.org/)
-  * [statsmodels](https://www.statsmodels.org/stable/index.html)
+* Interactive computing environment
+  * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
+  * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
+    * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in Jupyter Notebooks
+  * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
+  * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
+* Computation
   * [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
 * Data analysis and manipuration
   * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
@@ -67,12 +58,18 @@
   * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
 * Network analysis
   * [NetworkX](https://networkx.org/)
-* Visualization apps
+* Data visualization
+  * [Histgram](https://en.wikipedia.org/wiki/Histogram)
+  * [Scatter plot](https://en.wikipedia.org/wiki/Scatter_plot)
+  * [Box plot](https://en.wikipedia.org/wiki/Box_plot)
+  * [Error bar](https://en.wikipedia.org/wiki/Error_bar)
+  * [Heat map](https://en.wikipedia.org/wiki/Heat_map)
+  * [Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map)
+  * [Proportional symbol map](https://en.wikipedia.org/wiki/Proportional_symbol_map)
+  * [Tag cloud](https://en.wikipedia.org/wiki/Tag_cloud)
+* Visualization tools and libraries
   * [Kibana](https://www.elastic.co/kibana)
     * [Kibana Query Language](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
-  * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/)
-  * [Amazon QuickSight](https://aws.amazon.com/quicksight/)
-* Visualization tools and libraries
   * [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
   * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
   * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
@@ -84,6 +81,10 @@
   * [Chart.js](https://www.chartjs.org/) - Simple yet flexible JavaScript charting library for the modern web
   * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - Free geolocation data
   * [WordCloud for Python](https://amueller.github.io/word_cloud/)
+* Misc tools for Data/AI/ML
+  * [DVC](https://dvc.org/) - Data Version Control
+  * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
+  * [Streamlit](https://streamlit.io/) - An open-source Python framework for data scientists and AI/ML engineers to deliver dynamic data apps with only a few lines of code
 
 ## 520 - Databases
 
@@ -120,6 +121,7 @@
   * [SQLite](https://www.sqlite.org/index.html)
     * [DB Browser for SQLite](https://sqlitebrowser.org/)
 * NoSQL databases
+  * [Data Orientation](https://en.wikipedia.org/wiki/Data_orientation)
   * Generic
     * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
     * [Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db/)
@@ -165,8 +167,6 @@
   * [Amazon Redshift](https://aws.amazon.com/redshift/) - A fully managed, petabyte-scale data warehouse service in the cloud
   * [Amazon Athena](https://aws.amazon.com/athena/) - An interactive query service that makes it easy to analyze data directly in Amazon S3 and other data stores using standard SQL
   * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - The platform that allows your entire organization to use data and AI
-    * [Lakehouse architecture](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
-    * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
   * [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
   * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
@@ -223,6 +223,8 @@
   * [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
   * [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
   * [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
+* Tools
+  * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
 
 ## 550 - Natural language processing
 
@@ -311,6 +313,7 @@
   * [LiteLLM](https://www.litellm.ai/) - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format
   * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
 * Evaluation and visualization
+  * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
   * [Chatbot Arena](https://lmarena.ai/) - A crowdsourced open platform for evaluating LLMs
   * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
   * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models

@@ -25,6 +25,24 @@
     * [resident set size (RSS)](https://en.wikipedia.org/wiki/Resident_set_size)
     * [working set size (WSS)](https://en.wikipedia.org/wiki/Working_set_size)
   * [shared memory](https://en.wikipedia.org/wiki/Shared_memory)
+  * [cache](https://en.wikipedia.org/wiki/Cache_(computing))
+* [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
+  * [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html) - A process that runs in the background
+  * [signal](https://man7.org/linux/man-pages/man7/signal.7.html) - A limited form of inter-process communication used in Unix and Unix-like operating systems
+  * [pipe](https://man7.org/linux/man-pages/man7/pipe.7.html) - A unidirectional data channel that can be used for interprocess communication
+  * [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html) - A persistent pipe that appears as a file in the file system
+  * [unix domain socket](https://man7.org/linux/man-pages/man7/unix.7.html) - A data communications endpoint for exchanging data between processes executing on the same host operating system
+  * [socket](https://man7.org/linux/man-pages/man7/socket.7.html) - A communication endpoint for exchanging data between processes
+  * Filesystems
+    * [ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
+    * [xfs](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
+    * [overlayfs](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
+    * [proc pseudo-filesystem](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
+    * [sysfs pseudo-filesystem](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
+  * [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
+  * [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
+  * [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
+    * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
 * [The OSI model](https://en.wikipedia.org/wiki/OSI_model)
 * [The Internet](https://en.wikipedia.org/wiki/Internet)
   * [IP](https://en.wikipedia.org/wiki/Internet_Protocol) - The network layer communications protocol in the Internet protocol suite
@@ -48,9 +66,12 @@
   * [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
     * [MAC address](https://en.wikipedia.org/wiki/MAC_address)
   * [VLAN](https://en.wikipedia.org/wiki/VLAN)
-* [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
-* [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
-  * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
+* Distributed computing
+  * [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
+  * [Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+  * [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+  * [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
+    * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
 * Infrastructure services
   * [Amazon EC2](https://aws.amazon.com/ec2/)
     * [Amazon EBS](https://aws.amazon.com/ebs/)
@@ -61,37 +82,19 @@
   * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/)
   * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer)
   * [Google Cloud Compute Engine](https://cloud.google.com/products/compute)
-  * Internals (advanced)
-    * [OpenStack](https://www.openstack.org/) - A cloud operating system that controls large pools of compute
-    * [Open vSwitch](https://www.openvswitch.org/)
-    * [DPDK](https://www.dpdk.org/)
-    * [FD.io](https://fd.io/)
+* Type-2 hypervisors
+  * [VirtualBox](https://www.virtualbox.org/)
+  * [QEMU](https://www.qemu.org/)
+* Type-1 hypervisor
+  * [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
 
 ## 210 - Linux administration
 
-* Linux distros for VMs or containers
+* Linux distros for hosts
   * [Ubuntu server](https://ubuntu.com/server) - The standard platform for public clouds, on-premises, and IoT devices
   * [Debian](https://www.debian.org/) - A complete Free Operating System
   * [Arch Linux](https://archlinux.org/) - A simple, lightweight distribution
-  * [Alpine linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
-* [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
-  * [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html) - A process that runs in the background
-  * [signal](https://man7.org/linux/man-pages/man7/signal.7.html) - A limited form of inter-process communication used in Unix and Unix-like operating systems
-  * [pipe](https://man7.org/linux/man-pages/man7/pipe.7.html) - A unidirectional data channel that can be used for interprocess communication
-  * [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html) - A persistent pipe that appears as a file in the file system
-  * [unix domain socket](https://man7.org/linux/man-pages/man7/unix.7.html) - A data communications endpoint for exchanging data between processes executing on the same host operating system
-  * [socket](https://man7.org/linux/man-pages/man7/socket.7.html) - A communication endpoint for exchanging data between processes
-  * Filesystems
-    * [ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
-    * [xfs](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
-    * [overlayfs](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
-    * [proc pseudo-filesystem](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
-    * [sysfs pseudo-filesystem](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
 * [linux-pam](https://github.com/linux-pam/linux-pam) - A system of libraries that handle the authentication tasks of applications and services in a Linux system
-* [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
-* [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
-* [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
-  * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
 * [Systemd](https://www.freedesktop.org/wiki/Software/systemd/) - A system and service manager for Linux operating systems
   * [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#) - A system service that collects and stores logging data
   * [hostnamed](https://www.freedesktop.org/software/systemd/man/latest/systemd-hostnamed.html#) - A system service that may be used to control the hostname and related machine metadata from user programs
@@ -173,12 +176,24 @@
     * [apt](https://salsa.debian.org/apt-team/apt)
   * [Pacman](https://archlinux.org/pacman/) - A utility which manages software packages in Linux
     * [Yay](https://github.com/Jguer/yay) - An AUR Helper Written in Go
-  * [apk-tools](https://gitlab.alpinelinux.org/alpine/apk-tools) - A package manager originally built for Alpine Linux
   * [Homebrew](https://brew.sh/)
   * [pipx](https://pipx.pypa.io/stable/)
   * [Flatpak](https://flatpak.org/)
   * [Snapcraft](https://snapcraft.io/)
   * [arkade](https://github.com/alexellis/arkade) - Open Source Marketplace For Developer Tools
+* File sharing
+  * [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)
+    * [Samba](https://www.samba.org/)
+  * [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+    * [vsftpd](https://security.appspot.com/vsftpd.html)
+  * [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
+* Remote access
+  * [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
+    * [xrdp](https://github.com/neutrinolabs/xrdp)
+  * [RFB](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst)
+    * [x11vnc](https://github.com/LibVNC/x11vnc)
+    * [TightVNC](https://www.tightvnc.com/)
+  * [Mosh](https://mosh.org/) - A replacement for interactive SSH terminals
 
 ## 220 - Domain name system and Email
 
@@ -230,6 +245,12 @@
 
 ## 230 - Linux container and WebAssembly
 
+* Linux distros for containers
+  * [Alpine Linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
+    * [apk-tools](https://gitlab.alpinelinux.org/alpine/apk-tools) - A package manager originally built for Alpine Linux
+  * [Flatcar Container Linux](https://www.flatcar.org/)
+* Utilities in containers
+  * [busybox](https://busybox.net/about.html) - combines tiny versions of many common UNIX utilities into a single small executable
 * Key Linux kernel features/commands
   * [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
   * [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
@@ -405,6 +426,7 @@
   * [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
 * [Chaos engineering](https://en.wikipedia.org/wiki/Chaos_engineering) - The practice of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production
   * [Principles of chaos engineering](https://principlesofchaos.org/)
+  * [Chaos Monkey](https://netflix.github.io/chaosmonkey/)
   * [Litmus](https://litmuschaos.io/) - A cloud-native chaos engineering framework for Kubernetes
   * [Chaos Mesh](https://chaos-mesh.org/) - A cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments
   * [Toxiproxy](https://github.com/Shopify/toxiproxy) - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
@@ -416,8 +438,9 @@
   * [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing cloud resources
 
-## 270 - Server telemetry ETL and visualization
+## 270 - System observability
 
+* [Observability](https://en.wikipedia.org/wiki/Observability_(software))
 * Data shipping
   * [Prometheus exporters](https://prometheus.io/docs/instrumenting/exporters/)
     * [node-exporter](https://prometheus.io/docs/guides/node-exporter/) - exposes a wide variety of hardware- and kernel-related metrics

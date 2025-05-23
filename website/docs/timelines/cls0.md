@@ -1,4 +1,4 @@
-# 000 - Agile, management, and general works
+# 000 - Agile development and general works
 
 ## Timeline
 
@@ -55,6 +55,9 @@ Formation: 1 October 1994
 CPAN was conceived in 1993 and has been active online since October 1995. It is based on the CTAN model and began as a place to unify the structure of scattered Perl archives.
 On October 26, 1995, the Comprehensive Perl Archive Network (CPAN) was established as a repository for the Perl language and Perl modules.
 
+The predecessor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers.
+Initial release: 1995
+
 The Open Group is a global consortium that seeks to "enable the achievement of business objectives" by developing "open, vendor-neutral technology standards and certifications." It was established in 1996 when X/Open merged with the Open Software Foundation.
 
 The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary (abbreviated CatB) is an essay, and later a book, by Eric S. Raymond on software engineering methods.
@@ -93,6 +96,10 @@ reStructuredText (RST, ReST, or reST) is a file format for textual data used pri
 It is part of the Docutils project of the Python Doc-SIG (Documentation Special Interest Group), aimed at creating a set of tools for Python similar to Javadoc for Java or Plain Old Documentation (POD) for Perl.
 Initial release: June 1, 2001
 
+SciPy is a free and open-source Python library used for scientific computing and technical computing.
+As of 2000, there was a growing number of extension modules and increasing interest in creating a complete environment for scientific and technical computing. In 2001, Travis Oliphant, Eric Jones, and Pearu Peterson merged code they had written and called the resulting package SciPy.
+Initial release: Around 2001
+
 AsciiDoc is a human-readable document format, semantically equivalent to DocBook XML, but using plain-text mark-up conventions.
 AsciiDoc was created in 2002 by Stuart Rackham, who published tools (‘asciidoc’ and ‘a2x’), written in the Python programming language to convert plain-text, ‘human readable’ files to commonly used published document formats.
 
@@ -114,6 +121,9 @@ Formation: 4 June 2004
 
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is intended to be easy to read in its source code form.
 
+NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+In early 2005, NumPy developer Travis Oliphant wanted to unify the community around a single array package and ported Numarray's features to Numeric, releasing the result as NumPy 1.0 in 2006. This new project was part of SciPy.
+
 RSpec is a computer domain-specific language (DSL) (particular application domain) testing tool written in the programming language Ruby to test Ruby code. It is a behavior-driven development (BDD) framework which is extensively used in production applications.
 Initial release: May 18, 2007
 
@@ -131,8 +141,6 @@ The domain name bitcoin.org was registered on 18 August 2008.
 On 31 October 2008, a link to a white paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list.
 
 In 2008, Microsoft joined the Apache Software Foundation and co-founded the Open Web Foundation with Google, Facebook, Sun, IBM, Apache, and others.
-
-Nakamoto implemented the bitcoin software as open-source code and released it in January 2009.
 
 DevOps as a term originated in 2009 following a talk at the O’Reilly Velocity Conference titled “10+ Deploys per Day: Dev and Ops Cooperation at Flickr.” John Allspaw and Paul Hammond walked through some of the pains in the current software development lifecycle.
 

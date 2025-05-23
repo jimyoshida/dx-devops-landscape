@@ -14,6 +14,8 @@
 * [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - A value that cannot be altered by the program during normal execution
 * [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - An abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value
 * [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - The region of a computer program where the binding of a name to an entity (name binding) is valid
+* [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
+  * [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
 * [Data type](https://en.wikipedia.org/wiki/Data_type) - A collection or grouping of data values, usually specified by a set of possible values and allowed operations
   * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
   * Abstract data types (-> see Class 190)
@@ -99,7 +101,6 @@
   * [nushell](https://www.nushell.sh/) - A new type of shell
 * Shell utilities
   * [coreutils](https://www.gnu.org/software/coreutils/) = fileutils+textutils+shellutils
-  * [busybox](https://busybox.net/about.html) - combines tiny versions of many common UNIX utilities into a single small executable
   * [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   * [bash-completion](https://github.com/scop/bash-completion)
   * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
@@ -172,6 +173,7 @@
   * Git hosting services
     * [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/)
     * [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+    * [Codeberg](https://codeberg.org/) - A community-led effort that provides Git hosting and other services for free and open source projects
     * [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
     * [Soft Serve](https://github.com/charmbracelet/soft-serve) - a self-hostable Git server
     * [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/)
@@ -330,6 +332,8 @@
   * [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/)
   * [C](https://www.open-std.org/jtc1/sc22/wg14/)
   * [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/)
+    * [S-expression](https://en.wikipedia.org/wiki/S-expression)
+    * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity)
   * [Lua (for NGINX/Neovim)](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
   * [Haskell](https://www.haskell.org/) - An advanced, purely functional programming language
   * [Elm](https://elm-lang.org/) - A delightful language for reliable web applications
@@ -346,68 +350,68 @@
 
 ## 140 - Text and structured text processing
 
-* [ASCII](https://en.wikipedia.org/wiki/ASCII)
-* [Unicode](https://home.unicode.org/)
-  * [ICU](https://icu.unicode.org/) - a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
-  * [Unicode Emoji](https://home.unicode.org/emoji/)
-    * [Python emoji](https://github.com/carpedm20/emoji/)
-    * [Go emoji](https://github.com/kyokomi/emoji)
-* [Regex](https://en.wikipedia.org/wiki/Regular_expression)
-  * [PCRE](https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions)
-  * [Oniguruma](https://github.com/kkos/oniguruma) - A regular expression library
+* [ASCII](https://en.wikipedia.org/wiki/ASCII) - A character encoding standard for electronic communication
+* [Unicode](https://home.unicode.org/) - The universal character encoding standard
+  * [ICU](https://icu.unicode.org/) - A mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
+  * [Unicode Emoji](https://home.unicode.org/emoji/) - A standardized set of characters that are used like emoticons
+    * [Python emoji](https://github.com/carpedm20/emoji/) - An emoji library for Python
+    * [Go emoji](https://github.com/kyokomi/emoji) - A minimalistic emoji package for Go
+* [Regex](https://en.wikipedia.org/wiki/Regular_expression) - A sequence of characters that specifies a search pattern in text
+  * [PCRE](https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions) - A library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
   * [Onigmo](https://github.com/k-takata/Onigmo) - A regular expressions library forked from Oniguruma
-  * [Python re](https://docs.python.org/3/library/re.html)
-  * [Go regexp](https://pkg.go.dev/regexp)
+  * [Python re](https://docs.python.org/3/library/re.html) - The module provides regular expression matching operations similar to those found in Perl
+  * [Go regexp](https://pkg.go.dev/regexp) - The package that implements regular expression search
+    * [RE2](https://github.com/google/re2) - A fast, safe, thread-friendly alternative to backtracking regular expression engines
 * [PRegEx](https://github.com/manoss96/pregex) - Programmable Regular Expressions
-* [GNU sed](https://www.gnu.org/software/sed/)
-* [sd](https://github.com/chmln/sd) - sed alternative
-* [GNU diffutils](https://www.gnu.org/software/diffutils/)
-* [colordiff](https://www.colordiff.org/)
+* [GNU sed](https://www.gnu.org/software/sed/) - A stream editor used to perform basic text transformations on an input stream
+* [sd](https://github.com/chmln/sd) - A sed alternative
+* [GNU diffutils](https://www.gnu.org/software/diffutils/) - A package of several programs for finding the differences between files
+* [colordiff](https://www.colordiff.org/) - A tool that produces the same output as diff but with coloured syntax highlighting to improve readability
 * Tabular data
-  * [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
+  * [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) - A text file format that uses commas to separate values, and newlines to separate records
     * [csvkit](https://csvkit.readthedocs.io/en/latest/) - A suite of command-line tools for converting to and working with CSV
     * [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust
-    * [qsv](https://github.com/jqnatividad/qsv) - Blazing-fast Data-Wrangling toolkit
-    * [Text::CSV](https://metacpan.org/pod/Text::CSV)
-    * [Python csv](https://docs.python.org/3/library/csv.html)
-    * [Go csv](https://pkg.go.dev/encoding/csv)
+    * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
+    * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
+    * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
+    * [Go csv](https://pkg.go.dev/encoding/csv) - A package that reads and writes comma-separated values (CSV) files
     * [js Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser
-  * [TSV](https://en.wikipedia.org/wiki/Tab-separated_values)
-  * [GNU awk](https://www.gnu.org/software/gawk/)
-  * [Python tabulate](https://github.com/astanin/python-tabulate) - Pretty-print tabular data in Python, a library and a command-line utility
-  * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable)
+  * [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) - A delimited text file format that uses a tab character to separate values in a table
+  * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
+  * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format
+  * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable) - A module that can be used to write data in tabular form, formatted in MultiMarkdown syntax
 * Data exchange languages
   * [JSON](https://www.json.org/json-en.html) - A lightweight data-interchange format
     * [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor
-    * [gojq](https://github.com/itchyny/gojq) - Pure Go implementation of jq
-    * [gron](https://github.com/tomnomnom/gron) - transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it
-    * [JMESPath](https://jmespath.org/)
-    * [JSON::Tiny](https://metacpan.org/pod/JSON::Tiny)
-    * [Python json](https://docs.python.org/3/library/json.html)
-    * [fx](https://fx.wtf/) - Terminal JSON viewer & processor
-    * [jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using jq
+    * [gojq](https://github.com/itchyny/gojq) - A Pure Go implementation of jq
+    * [gron](https://github.com/tomnomnom/gron) - A tool that transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it
+    * [JMESPath](https://jmespath.org/) - A query language for JSON
+    * [JSON::Tiny](https://metacpan.org/pod/JSON::Tiny) - A minimalistic JSON module with no dependencies
+    * [Python json](https://docs.python.org/3/library/json.html) - A module that implements a JSON encoder and decoder
+    * [fx](https://fx.wtf/) - A terminal JSON viewer and processor that allows interactive visualization and exploration of JSON data
+    * [jnv](https://github.com/ynqa/jnv) - An interactive JSON viewer and jq filter editor designed for navigating JSON
   * [XML](https://www.w3.org/XML/) - A simple, very flexible text format derived from SGML (ISO 8879)
-    * [XPath](https://www.w3.org/TR/xpath/)
-    * [DOM](https://dom.spec.whatwg.org/)
-    * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
-  * [logfmt](https://brandur.org/logfmt) - An important property for any good logging format
+    * [XPath](https://www.w3.org/TR/xpath/) - An expression language that allows the processing of values conforming to the XQuery and XPath Data Model, providing a means of hierarchic addressing of the nodes in an XML tree
+    * [DOM](https://dom.spec.whatwg.org/) - A platform-neutral model for events, aborting activities, and node trees
+    * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) - A module that implements a simple and efficient API for parsing and creating XML data
+  * [logfmt](https://brandur.org/logfmt) - A log format that is simple, fast, and easy for humans and machines to parse
   * [JSON Lines](https://jsonlines.org/) - A convenient format for storing structured data that may be processed one record at a time
 * Configuration languages
   * [Jsonnet](https://jsonnet.org/) - A configuration language for app and tool developers
   * [Hjson](https://hjson.github.io/) - A user interface for JSON
   * [YAML](https://yaml.org/) - A human-friendly data serialization language for all programming languages
-    * [yq (python)](https://github.com/kislyuk/yq)
-    * [yq (go)](https://github.com/mikefarah/yq)
-    * [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny)
-    * [PyYAML](https://github.com/yaml/pyyaml)
+    * [yq (python)](https://github.com/kislyuk/yq) - A command-line YAML, XML, TOML processor and jq wrapper for YAML, XML, TOML documents
+    * [yq (go)](https://github.com/mikefarah/yq) - A portable command-line YAML, JSON, XML, CSV, TOML and properties processor that uses jq-like syntax
+    * [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny) - A Perl class for reading and writing YAML-style files, written with as little code as possible to reduce load time and memory overhead
+    * [PyYAML](https://github.com/yaml/pyyaml) - A YAML parser and emitter for Python
   * [StrictYAML](https://hitchdev.com/strictyaml/) - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
-    * [The Norway Problem](https://hitchdev.com/strictyaml/why/implicit-typing-removed/) - why StrictYAML refuses to do implicit typing and so should you
+    * [The Norway Problem](https://hitchdev.com/strictyaml/why/implicit-typing-removed/) - A common issue in YAML where strings that look like booleans (e.g., 'NO' for Norway) are implicitly typed as boolean false
   * [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
-    * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny)
-    * [Python tomllib](https://docs.python.org/3/library/tomllib.html)
+    * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny) - A minimal, pure perl TOML parser and serializer
+    * [Python tomllib](https://docs.python.org/3/library/tomllib.html) - A module that provides an interface for parsing TOML 1.0.0
   * [HCL](https://github.com/hashicorp/hcl) - A toolkit for creating structured configuration languages that are both human- and machine-friendly, for use with command-line tools
-  * [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - A superset of JSON which supports comments
-* [yj](https://github.com/sclevine/yj) - CLI - Convert between YAML, TOML, JSON, and HCL
+  * [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - A JS library to parse and stringify JSONC (JSON with comments)
+* [yj](https://github.com/sclevine/yj) - A command-line interface tool to convert between YAML, TOML, JSON, and HCL
 * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
 * Time formats
   * ISO 8601: Date and time — Representations for information interchange
@@ -444,7 +448,6 @@
 * Language processing (advanced)
   * [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
   * [Automata theory](https://en.wikipedia.org/wiki/Automata_theory)
-  * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity)
   * [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
   * [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
   * [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
@@ -501,6 +504,7 @@
     * [nose](https://nose.readthedocs.io/en/latest/)
     * [tappy](https://tappy.readthedocs.io/en/latest/)
   * Javascript
+    * [Vitest](https://vitest.dev)
     * [Jest](https://jestjs.io/) (BDD style)
     * [Mocha](https://mochajs.org/) (BDD style)
       * [Chai](https://www.chaijs.com/)
@@ -633,7 +637,7 @@
 
 ## 170 - Algorithms and data structures
 
-* Algorithm
+* [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
   * [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
   * [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
   * [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)

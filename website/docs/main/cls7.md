@@ -1,8 +1,8 @@
-# 400 - Security and privacy
+# 700 - Security and privacy
 
-[Show timeline](../timelines/cls4.md)
+[Show timeline](../timelines/cls7.md)
 
-## 400 - References for security and privacy
+## 700 - References for security and privacy
 
 * [Information security](https://en.wikipedia.org/wiki/Information_security)
 * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security))
@@ -62,7 +62,7 @@
   * [SSVC (Stakeholder-Specific Vulnerability Categorization)](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc)
   * [KEV (Known Exploited Vulnerabilities)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
-## 410 - Secure software development
+## 710 - Secure software development
 
 * [NIST SP 800-207: Zero trust architecture (ZTA)](https://en.wikipedia.org/wiki/Zero_trust_security_model)
   * All data sources and computing services are considered resources.
@@ -96,7 +96,7 @@
 * Threat demonstration
   * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 
-## 420 - Identity and access management
+## 720 - Identity and access management
 
 * [Integrated IAM](https://en.wikipedia.org/wiki/Identity_management)
   * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token)
@@ -114,6 +114,9 @@
   * [SAML (Security Assertion Markup Language)](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html)
   * [WS-Federation](http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html)
   * [FIDO2 (Fast Identity Online 2)](https://fidoalliance.org/specifications/)
+    * Relying party - The website or online service that wants to verify a user's identity (e.g., your bank's website)
+    * Authenticator - The device or software that securely stores cryptographic keys and performs authentication for the user.
+    * Client - The software on the user's device, typically a web browser or operating system component, that communicates between the Relying Party and the Authenticator.
     * [WebAuthn](https://www.w3.org/TR/webauthn-1/)
     * [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html)
     * [Passkeys](https://fidoalliance.org/passkeys/)
@@ -141,7 +144,7 @@
   * [OpenLDAP](https://www.openldap.org/)
   * [389 Directory Server](https://directory.fedoraproject.org/)
 
-## 430 - Secure communications
+## 730 - Secure communications
 
 * [Public key infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure)
   * Certificate authority (CA)
@@ -158,6 +161,7 @@
     * [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)
   * [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 * [TLS (Transport Layer Security)](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+  * [testssl.sh](https://testssl.sh/) - A free command line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as recent cryptographic flaws and more
   * [OpenSSL library](https://openssl-library.org/) - A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
   * [stunnnel](https://www.stunnel.org/) - A proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code
 * [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell)
@@ -198,7 +202,7 @@
   * [OpenPGP/GPG](https://gnupg.org/)
 * [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
 
-## 440 - Static security check
+## 740 - Static security check
 
 * Static application security test (SAST)
   * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platforms
@@ -236,7 +240,7 @@
   * [Clair](https://github.com/quay/clair) - An open source project for the static analysis of vulnerabilities in application containers (currently including OCI and docker)
   * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
 
-## 450 - Runtime protection
+## 750 - Runtime protection
 
 * Cloud workload protection
   * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
@@ -262,7 +266,7 @@
 * [Extended detection and response (XDR)](https://en.wikipedia.org/wiki/Extended_detection_and_response)
 * [Endpoint detection and response (EDR)](https://en.wikipedia.org/wiki/Endpoint_detection_and_response)
 
-## 460 - Other security tools
+## 760 - Other security tools
 
 * Secret management
   * [Hashicorp Vault](https://www.vaultproject.io/)
@@ -289,7 +293,7 @@
     * [iptables](https://man7.org/linux/man-pages/man8/iptables.8.html)
   * [ubuntu ufw](https://help.ubuntu.com/community/UFW)
 
-## 470 - Cryptography
+## 770 - Cryptography
 
 * Unkeyed
   * Hash Function

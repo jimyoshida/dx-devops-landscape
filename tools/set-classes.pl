@@ -2,35 +2,35 @@
 use strict;
 use warnings;
 use YAML::Tiny;
+use File::Temp qw(tempfile);
+use File::Copy qw(move);
 
 # Check if filenames are provided as command-line arguments
 if ( @ARGV < 2 ) {
-    print STDERR "Usage: $0 <input_markdown_file> <class_dict_yaml_file>\n";
+    print STDERR "Usage: $0 <markdown_file> <class_dict_yaml_file>\n";
     exit 1;
 }
 
-my $input_file = $ARGV[0];
+my $contents_file = $ARGV[0];
 my $classes_file = $ARGV[1];
-my $output_file = $input_file . ".new"; # tentatively
 
 # Load Class Dictionary from YAML
 my %class_dict;
 
-eval {
-    my $yaml = YAML::Tiny->read($classes_file);
-    if ($yaml && ref $yaml->[0] eq 'HASH') {
-        %class_dict = %{ $yaml->[0] };
-    } else {
-        die "Could not parse YAML or YAML content is not a hash in '$classes_file'";
-    }
-};
-if ($@) die "Error loading or parsing YAML file '$classes_file': $@";
-if (!%class_dict) die "Class dictionary loaded from '$classes_file' is empty.";
+my $yaml = YAML::Tiny->read($classes_file);
+unless ($yaml && ref $yaml->[0] eq 'HASH') {
+    die "Could not parse YAML or YAML content is not a hash in '$classes_file'";
+}
+%class_dict = %{ $yaml->[0] };
+unless (%class_dict) {
+    die "Class dictionary loaded from '$classes_file' is empty.";
+}
 
-open my $fh_in, '<', $input_file or die "Could not open file '$input_file' for reading: $!";
-open my $fh_out, '>', $output_file or die "Could not open file '$output_file' for writing: $!";
+open my $fh_in, '<', $contents_file or die "Could not open file '$contents_file' for reading: $!";
+print "Processing '$contents_file'...\n";
 
-print "Processing '$input_file' using hash from '$classes_file'...\n";
+# Generate a temporary file for output; It returns an empty list on failure
+my ($fh_out, $temp_file) = tempfile(SUFFIX => '.tmp') or die "Could not create a temporary file: $!";
 
 while ( my $line = <$fh_in> ) {
     # Regex to match lines starting with '#' (markdown header)
@@ -49,11 +49,11 @@ while ( my $line = <$fh_in> ) {
         # Check if the key exists in the hash
         if ( exists $class_dict{$key} ) {
             print $fh_out "$hashes $number - $class_dict{$key}\n";
-            print "Replaced header for '$key' on line $.\n";
+            print "Rewrote header $hashes $number on line $.\n";
         } else {
             # If the key is not in the hash, write the original line
             print $fh_out $line;
-            print "Skipped header for '$key' on line $.\n";
+            print "Skipped header $hashes $number on line $.\n";
         }
     } else {
         # If the line is not a header starting with a 3-digit number,
@@ -62,10 +62,11 @@ while ( my $line = <$fh_in> ) {
     }
 }
 
-# Close the filehandles
 close $fh_in;
 close $fh_out;
 
-print "Processing complete. Output written to '$output_file'\n";
+move($temp_file, $contents_file) or die "Could not replace '$contents_file': $!";
+
+print "Done.\n";
 
 exit 0;

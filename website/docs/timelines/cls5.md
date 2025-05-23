@@ -55,9 +55,6 @@ MySQL is an open-source relational database management system (RDBMS).
 MySQL is free and open-source software under the terms of the GNU General Public License, and is also available under a variety of proprietary licenses.
 Initial release: 23 May 1995
 
-The predecessor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers.
-Initial release: 1995
-
 PostgreSQL also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
 In 1996, the project was renamed to PostgreSQL to reflect its support for SQL.
 Initial release: 8 July 1996
@@ -72,10 +69,6 @@ Initial release: 17 August 2000
 
 IPython (Interactive Python) is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers introspection, rich media, shell syntax, tab completion, and history.
 Initial release: 2001
-
-SciPy is a free and open-source Python library used for scientific computing and technical computing.
-As of 2000, there was a growing number of extension modules and increasing interest in creating a complete environment for scientific and technical computing. In 2001, Travis Oliphant, Eric Jones, and Pearu Peterson merged code they had written and called the resulting package SciPy.
-Initial release: Around 2001
 
 Torch is an open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.
 Initial release: October 2002
@@ -93,9 +86,6 @@ Apache Hadoop is a collection of open-source software utilities that facilitates
 The genesis of Hadoop was the Google File System paper that was published in October 2003.
 The core of Apache Hadoop consists of a storage part, known as Hadoop Distributed File System (HDFS), and a processing part which is a MapReduce programming model.
 Initial release: April 1, 2006
-
-NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-In early 2005, NumPy developer Travis Oliphant wanted to unify the community around a single array package and ported Numarray's features to Numeric, releasing the result as NumPy 1.0 in 2006. This new project was part of SciPy.
 
 In 2006, Geoffrey Hinton developed the deep belief network technique for training many-layered deep autoencoders.
 
@@ -131,10 +121,6 @@ Initial release: January 2011
 
 Apache Flink is an open-source, unified stream-processing and batch-processing framework developed by the Apache Software Foundation. The core of Apache Flink is a distributed streaming data-flow engine written in Java and Scala.
 Initial release: May 2011
-
-Microsoft Power BI is an interactive data visualization software product developed by Microsoft with a primary focus on business intelligence (BI).
-The first release of Power BI was based on the Microsoft Excel-based add-ins: Power Query, Power Pivot and Power View.
-Initial release: 11 July 2011
 
 Apache Storm is a distributed stream processing computation framework written predominantly in the Clojure programming language. Originally created by Nathan Marz and team at BackType, the project was open sourced after being acquired by Twitter.
 The initial release was on 17 September 2011.

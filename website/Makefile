@@ -7,11 +7,19 @@ clean:
 	rm -fr build/ .docusaurus/
 	rm -fr static/usr/
 
-# For Mindmap
-MAPPAGES := $(shell ls docs/maps/*.md)
-MAPHTMLS := $(addprefix static/usr/,$(MAPPAGES:.md=.html))
+# For Main/Mindmap
+MAINPAGES := $(shell ls docs/main/*.md)
+MAINHTMLS := $(addprefix static/usr/,$(MAINPAGES:.md=.html))
+MAPHTMLS := $(addprefix static/usr/,$(MAINPAGES:.md=.map.html))
 
-static/usr/docs/maps/%.html: docs/maps/%.md Makefile
+static/usr/docs/main/%.html: docs/main/%.md Makefile
+	mkdir -p $(@D)
+	pandoc -o $@ --from markdown --standalone -M title="Landscape" \
+	-V mainfont='"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif' \
+	-V maxwidth=64em $<
+# TODO: call ../tools/hide-local-links.sed 
+
+static/usr/docs/main/%.map.html: docs/main/%.md Makefile
 	mkdir -p $(@D)
 	npx markmap --no-open -o $@ $<
 
@@ -26,4 +34,4 @@ static/usr/docs/timelines/%.html: docs/timelines/%.md Makefile
 	-V maxwidth=64em $<
 
 .PHONY: usr
-usr: $(MAPHTMLS) $(TLHTMLS)
+usr: $(MAINHTMLS) $(MAPHTMLS) $(TLHTMLS)

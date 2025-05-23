@@ -33,6 +33,7 @@
   * [json-rpc](https://www.jsonrpc.org/)
   * [MQTT](https://mqtt.org/)
   * [AMQP](https://www.amqp.org/)
+  * [SSE](https://en.wikipedia.org/wiki/Server-sent_events)
 * Browsers
   * [Chrome](https://www.google.com/chrome/)
   * [Chromium](https://www.chromium.org/Home/)
@@ -50,19 +51,8 @@
 * Scripting engines
   * [V8](https://v8.dev/)
   * [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore)
-* CLIs
-  * [cURL](https://curl.haxx.se/)
-  * [Wget](https://www.gnu.org/software/wget/)
-  * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
-  * [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
-  * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection
-* Libraries
-  * [Python Requests](https://docs.python-requests.org/en/latest/)
-  * [JS Axios](https://axios-http.com/)
-  * [Go Resty](https://github.com/go-resty/resty)
-  * [Go FastHTTP](https://github.com/valyala/fasthttp)
-  * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/)
-  * [Perl LWP](https://metacpan.org/pod/LWP) (reference)
+* Profiler
+  * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
 ## 310 - Web servers, web proxies, and service mesh
 
@@ -73,16 +63,16 @@
 * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 * Forward proxy and caching
   * [Web cache](https://en.wikipedia.org/wiki/Web_cache)
-    * [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
-    * [Point of presence (PoP)](https://en.wikipedia.org/wiki/Point_of_presence)
+    * [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network)
+    * [Point of presence](https://en.wikipedia.org/wiki/Point_of_presence)
   * [Squid](http://www.squid-cache.org/) - A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more
   * [GoProxy](https://github.com/elazarl/goproxy) - A library to create a customized HTTP/HTTPS proxy server using Go (aka Golang)
-  * CDN providers
-    * [Cloudflare](https://www.cloudflare.com/)
-    * [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
-      * [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
-    * [Google Cloud CDN](https://cloud.google.com/cdn)
-    * [Azure Content Delivery Network](https://azure.microsoft.com/en-us/services/cdn/)
+* CDN providers
+  * [Cloudflare](https://www.cloudflare.com/)
+  * [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+    * [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
+  * [Google Cloud CDN](https://cloud.google.com/cdn)
+  * [Azure Content Delivery Network](https://azure.microsoft.com/en-us/services/cdn/)
 * Reverse proxy
   * [NGINX](https://www.nginx.com/)
   * [HAProxy](https://www.haproxy.org/)
@@ -97,9 +87,10 @@
   * [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
   * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
   * [Google Cloud App Engine](https://cloud.google.com/appengine/)
-* Function as a service
-  * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+* [Serverless computing](https://en.wikipedia.org/wiki/Serverless_computing)
   * [AWS Lambda](https://aws.amazon.com/lambda/)
+  * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+  * [Google Cloud Run Functions](https://cloud.google.com/functions)
 * Service mesh
   * [Hashicorp Consul](https://www.consul.io/)
   * [Istio](https://istio.io/)
@@ -107,8 +98,9 @@
   * [Linkerd](https://linkerd.io/)
   * [traefik mesh](https://traefik.io/traefik-mesh/) - a straight-forward, easy to configure, and non-invasive service mesh
 
-## 320 - Web application interfaces and frameworks
+## 320 - Web application standards and frameworks
 
+* [Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
 * JS/TS frameworks for backend
   * [Express.js](https://expressjs.com/) - A minimal and flexible Node.js web application framework
   * [Koa](https://koajs.com/) - A new web framework designed by the team behind Express
@@ -154,15 +146,10 @@
     * [Spring Boot](https://spring.io/projects/spring-boot) - makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
 * .NET frameworks (reference)
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet)
-
-## 330 - Frontend frameworks, libraries and tools
-
-* JS frameworks/libraries for UI
+* JS/TS frameworks for frontend
   * [React](https://reactjs.org/) - The library for web and native user interfaces
     * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
       * [MDX](https://mdxjs.com/) - allows you to use JSX in your markdown content
-    * [React-Redux](https://react-redux.js.org/) - Official React bindings for Redux
-    * [Recoil](https://recoiljs.org/) - A state management library for React
     * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
     * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
@@ -170,35 +157,34 @@
   * [GWT](https://www.gwtproject.org/) - A development toolkit for building and optimizing complex browser-based applications
 * State management
   * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
-* UI component libraries
-  * [Material Web](https://m3.material.io/develop/web/) - Google's component library for building applications that work in any web framework
+    * [React-Redux](https://react-redux.js.org/) - Official React bindings for Redux
+  * [Recoil](https://recoiljs.org/) - A state management library for React
 * CSS frameworks and libraries
   * [Bootstrap](https://getbootstrap.com/) - Powerful, extensible, and feature-packed frontend toolkit
   * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
     * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
   * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
-* Build tools
+* Fontend build tools
   * [Percel](https://parceljs.org/) - The zero configuration build tool
   * [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
   * [babel](https://babeljs.io/) - A JavaScript compiler
   * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
-* Syntax highlighting libs
-  * [highlight.js](https://highlightjs.org/) - The Internet's favorite JavaScript syntax highlighter supporting Node.js and the web
-  * [Prism](https://prismjs.com) - A lightweight, extensible syntax highlighter, built with modern web standards in mind
-  * [Pygments](https://pygments.org/) - A generic syntax highlighter suitable for use in code hosting, forums, wikis or other applications that need to prettify source code
-  * [Rouge](https://rouge.jneen.net/) - An elegant, extendable code highlighter written in pure Ruby
-* UI/UX design tools
-  * [Figma Design](https://www.figma.com/) -  A powerful, collaborative design tool for teams
-  * [Locofi.ai](https://www.locofy.ai/) - Design to \{code\} in a flash
-* Human interface guidelines
-  * [Apple's](https://developer.apple.com/design/human-interface-guidelines)
-  * [GNOME's](https://developer.gnome.org/hig/)
 
-## 340 - Web application automation and test tools
+## 340 - Web automation and test tools
 
-* Accessibility standards
-  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
-  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
+* CLIs
+  * [cURL](https://curl.haxx.se/)
+  * [Wget](https://www.gnu.org/software/wget/)
+  * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
+  * [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
+  * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection
+* Libraries
+  * [Python Requests](https://docs.python-requests.org/en/latest/)
+  * [JS Axios](https://axios-http.com/)
+  * [Go Resty](https://github.com/go-resty/resty)
+  * [Go FastHTTP](https://github.com/valyala/fasthttp)
+  * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/)
+  * [Perl LWP](https://metacpan.org/pod/LWP) (reference)
 * Browser automation and test
   * [Puppeteer](https://developer.chrome.com/docs/puppeteer/)
   * [Playwright](https://playwright.dev/)
@@ -235,7 +221,6 @@
   * [FIGlet](http://www.figlet.org/)
   * [lolcat](https://github.com/busyloop/lolcat)
   * [cfonts](https://github.com/dominikwilkowski/cfonts)
-  * [cowsay](http://cowsay.diamonds/)
 * Perl
   * [Getopt::Long](https://metacpan.org/pod/Getopt::Long)
   * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor)
@@ -318,7 +303,7 @@
   * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/)
   * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
-## 370 - Mobile/Desktop application development (reference)
+## 370 - Mobile/Desktop application development (WIP)
 
 * [Android](https://www.android.com/)
 * [iOS](https://www.apple.com/ios/)
@@ -340,3 +325,24 @@
   * [Gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go
   * [Fyne](https://fyne.io/) - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
   * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
+* Linux distros for desktop
+  * Debian-based
+    * [Ubuntu desktop](https://ubuntu.com/desktop)
+    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
+  * Arch-based
+    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
+    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
+* Linux GUI systems
+  * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
+  * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
+  * [GNOME](https://www.gnome.org/)
+  * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
+  * [openbox](http://openbox.org) - A highly configurable, next generation window manager
+* Windows administration
+  * [Chocolatey](https://chocolatey.org)
+  * [Scoop](https://scoop.sh/)
+  * [gsudo](https://gerardog.github.io/gsudo/)
+* Windows tools
+  * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
+  * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
+  * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv

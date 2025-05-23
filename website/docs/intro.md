@@ -47,14 +47,27 @@ The descriptions are mainly quoted from the [Wikipedia English version](https://
 
 These links provide stand-alone HTML pages.
 
+**Main pages:**
+
+- [Class 0](pathname:///usr/docs/main/cls0.html)
+- [Class 1](pathname:///usr/docs/main/cls1.html)
+- [Class 2](pathname:///usr/docs/main/cls2.html)
+- [Class 3](pathname:///usr/docs/main/cls3.html)
+- [Class 4](pathname:///usr/docs/main/cls4.html)
+- [Class 5](pathname:///usr/docs/main/cls5.html)
+- [Class 6](pathname:///usr/docs/main/cls6.html)
+- [Class 7](pathname:///usr/docs/main/cls7.html)
+
 **Mind maps of the elements:**
 
-- [Class 0](pathname:///usr/docs/maps/cls0.html)
-- [Class 1](pathname:///usr/docs/maps/cls1.html)
-- [Class 2](pathname:///usr/docs/maps/cls2.html)
-- [Class 3](pathname:///usr/docs/maps/cls3.html)
-- [Class 4](pathname:///usr/docs/maps/cls4.html)
-- [Class 5](pathname:///usr/docs/maps/cls5.html)
+- [Class 0](pathname:///usr/docs/main/cls0.map.html)
+- [Class 1](pathname:///usr/docs/main/cls1.map.html)
+- [Class 2](pathname:///usr/docs/main/cls2.map.html)
+- [Class 3](pathname:///usr/docs/main/cls3.map.html)
+- [Class 4](pathname:///usr/docs/main/cls4.map.html)
+- [Class 5](pathname:///usr/docs/main/cls5.map.html)
+- [Class 6](pathname:///usr/docs/main/cls6.map.html)
+- [Class 7](pathname:///usr/docs/main/cls7.map.html)
 
 **Timeline pages:**
 
@@ -64,3 +77,5 @@ These links provide stand-alone HTML pages.
 - [Class 3](pathname:///usr/docs/timelines/cls3.html)
 - [Class 4](pathname:///usr/docs/timelines/cls4.html)
 - [Class 5](pathname:///usr/docs/timelines/cls5.html)
+- [Class 6](pathname:///usr/docs/timelines/cls6.html)
+- [Class 7](pathname:///usr/docs/timelines/cls7.html)
