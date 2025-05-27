@@ -3,42 +3,45 @@
 ## 600 - Business administration
 
 * Strategic management
-  * [Business ecosystem](https://en.wikipedia.org/wiki/Business_ecosystem)
-  * [Mergers and acquisitions](https://en.wikipedia.org/wiki/Mergers_and_acquisitions)
+  * [Business ecosystem](https://en.wikipedia.org/wiki/Business_ecosystem) - An economic community supported by a foundation of interacting organizations and individuals—the organisms of the business world
+  * [Mergers and acquisitions](https://en.wikipedia.org/wiki/Mergers_and_acquisitions) - The transactions in which the ownership of companies, other business organizations, or their operating units are transferred or consolidated with other entities
   * Tools
-    * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle)
-    * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis)
-    * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis)
-* [EA](https://en.wikipedia.org/wiki/Enterprise_architecture)
-  * [TOGAF standard](https://www.opengroup.org/togaf)
-  * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework)
-  * [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview)
-  * [Archi](https://www.archimatetool.com/)
-* [ERP](https://en.wikipedia.org/wiki/Enterprise_resource_planning)
-* [CRM](https://en.wikipedia.org/wiki/Customer_relationship_management)
-  * [Salesforce](https://www.salesforce.com/)
-* [SCM](https://en.wikipedia.org/wiki/Supply_chain_management)
-* [Contract management](https://en.wikipedia.org/wiki/Contract_management)
-* [Business model](https://en.wikipedia.org/wiki/Business_model)
-  * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas)
-* [Product management](https://en.wikipedia.org/wiki/Product_management)
-  * [Aha!](https://www.aha.io/)
-* [Risk management](https://en.wikipedia.org/wiki/Risk_management)
-  * [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning)
-    * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery)
+    * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - A grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
+    * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A strategic planning and strategic management technique used to help a person or organization identify Strengths, Weaknesses, Opportunities, and Threats related to business competition or project planning
+    * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
+* [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture) - A well-defined practice for conducting enterprise analysis, design, planning, and implementation, using a comprehensive approach at all times, for the successful development and execution of strategy
+  * [TOGAF standard](https://www.opengroup.org/togaf) - A proven Enterprise Architecture methodology and framework used by the world’s leading organizations to improve business efficiency
+  * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework) - An ontology – a theory of the existence of a structured set of essential components of an object
+  * [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview) - An open and independent modelling language for Enterprise Architecture that is supported by different tool vendors and consulting firms
+    * [Archi](https://www.archimatetool.com/) - A free, open source, cross-platform tool and editor to create ArchiMate models
+* [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
+  * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
+    * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
+  * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
+  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of people in a company or organization such that they help their business gain a competitive advantage
+  * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
+  * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
+  * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution
+* [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
+  * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
+* [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
+  * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+* [Risk management](https://en.wikipedia.org/wiki/Risk_management) - The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities
+  * [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning) - The process an organization undergoes to create a prevention and recovery system from potential threats such as natural disasters or cyber-attacks
+    * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery) - The process of resuming normal IT operations after a disruptive event, such as a natural disaster, cyberattack, or equipment failure
     * ISO 22301: Security and resilience - Business continuity management systems - Requirements
-  * [Project risk management](https://en.wikipedia.org/wiki/Project_risk_management)
-  * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management)
+  * [Project risk management](https://en.wikipedia.org/wiki/Project_risk_management) - The process of identifying, analyzing, and then responding to any risk that arises over the life cycle of a project to help the project remain on track and meet its goal
+  * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
   * ISO 31000: Risk management
-* [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management)
+* [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
 * Business process change management
-  * [Organizational structure](https://en.wikipedia.org/wiki/Organizational_structure)
-  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management)
-  * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/)
-  * [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar)
-* [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling)
-  * [SysML](https://sysml.org/)
-  * [Eclipse Capella](https://mbse-capella.org/)
+  * [Organizational structure](https://en.wikipedia.org/wiki/Organizational_structure) - A system that outlines how certain activities are directed in order to achieve the goals of an organization
+  * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
+  * [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar) - A goal-oriented change management model that guides individual and organizational change
+* [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling) - The process of building models of whole or part of an enterprise with process models, data models, resource models and or new ontologies
+  * [BPMN](https://www.omg.org/bpmn/)- A graphical notation for specifying business processes in a Business Process Diagram
+  * [SysML](https://sysml.org/) - A general-purpose graphical modeling language for specifying, analyzing, designing, and verifying complex systems that may include hardware, software, information, personnel, procedures, and facilities
+  * [Eclipse Capella](https://mbse-capella.org/) - An open-source Model-Based Systems Engineering (MBSE) solution that provides a process and tooling to graphically design systems and master their architectural complexity
 
 ## 610 - User analysis and marketing
 
@@ -54,6 +57,7 @@
   * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming)
   * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking)
   * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram)
+  * [Ishikawa diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram)
 * [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)
   * [Google Search Central](https://developers.google.com/search)
 * [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix)
@@ -96,7 +100,7 @@
 * [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
 * [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency)
 
-## 640 - Finance
+## 640 - Finance and accounting
 
 * [Currency](https://en.wikipedia.org/wiki/Currency)
 * [Interest](https://en.wikipedia.org/wiki/Interest)
@@ -139,6 +143,7 @@
     * 1: Perception of the elements in the environment.
     * 2: Comprehension or understanding of the situation.
     * 3: Projection of future status.
+  * [Psychological resilience](https://en.wikipedia.org/wiki/Psychological_resilience) - The ability to cope mentally and emotionally with a crisis, or to return to pre-crisis status quickly
 * Social networking (federated)
   * [Mastodon](https://joinmastodon.org/) - A free, open-source decentralized social media platform
   * [Lemmy](https://join-lemmy.org/) - A selfhosted social link aggregation and discussion platform

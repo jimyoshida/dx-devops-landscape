@@ -8,3 +8,5 @@ md:
 	for file in website/docs/timelines/cls*.md; do \
 		perl tools/set-classes.pl $$file classes.yml; \
 	done
+	perl tools/set-classes.pl website/docs/intro.md classes.yml
+	perl tools/set-classes.pl README.md classes.yml

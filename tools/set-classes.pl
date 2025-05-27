@@ -33,9 +33,9 @@ print "Processing '$contents_file'...\n";
 my ($fh_out, $temp_file) = tempfile(SUFFIX => '.tmp') or die "Could not create a temporary file: $!";
 
 while ( my $line = <$fh_in> ) {
-    # Regex to match lines starting with '#' (markdown header)
-    # followed by optional spaces, then a 3-digit number, a ' - ', and then the rest of the header.
-    if ( $line =~ /^(#+)\s*(\d{3})\s\-\s(.*)$/ ) {
+    if ( $line =~ /^(#{1,2})\s*(\d{3})\s.*$/ ) {
+        # Regex to match lines starting with '#' (markdown header)
+        # followed by optional spaces, then a 3-digit number, a space, and then the rest of the header.
         my $hashes = $1; # The '#', '##', etc.
         my $number = $2; # The 3-digit number
         
@@ -54,6 +54,24 @@ while ( my $line = <$fh_in> ) {
             # If the key is not in the hash, write the original line
             print $fh_out $line;
             print "Skipped header $hashes $number on line $.\n";
+        }
+    } elsif ( $line =~ /^\-\s\[Class\s(\d{3}).*](.*)$/ ) {
+        # Regex to match lines starting with '-' (list item)
+        # followed by a space, '[', then a 3-digit number, optional string, ']', then the rest of the line.
+        my $number = $1; # The 3-digit number
+        my $rest = $2; # The rest of the line
+    
+        my $key; # The key to be used for lookup in the hash
+        $key = "cls" . $number;
+        
+        # Check if the key exists in the hash
+        if ( exists $class_dict{$key} ) {
+            print $fh_out "- [Class $number - $class_dict{$key}]$rest\n";
+            print "Rewrote Class $number on line $.\n";
+        } else {
+            # If the key is not in the hash, write the original line
+            print $fh_out $line;
+            print "Skipped Class $number on line $.\n";
         }
     } else {
         # If the line is not a header starting with a 3-digit number,
