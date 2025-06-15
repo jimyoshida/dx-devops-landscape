@@ -45,37 +45,20 @@ The descriptions are mainly quoted from the [Wikipedia English version](https://
 
 ## Extra contents
 
-These links provide stand-alone HTML pages.
-
-**Main pages:**
-
-- [Class 000 - Agile development and general works](pathname:///usr/docs/main/cls0.html)
-- [Class 100 - Programming](pathname:///usr/docs/main/cls1.html)
-- [Class 200 - Infrastructure and cloud](pathname:///usr/docs/main/cls2.html)
-- [Class 300 - Web and app development](pathname:///usr/docs/main/cls3.html)
-- [Class 400 - Unused](pathname:///usr/docs/main/cls4.html)
-- [Class 500 - Data, ML, and LLM](pathname:///usr/docs/main/cls5.html)
-- [Class 600 - Business and human (WIP)](pathname:///usr/docs/main/cls6.html)
-- [Class 700 - Security and privacy](pathname:///usr/docs/main/cls7.html)
+These links provide stand-alone HTML/PDF files.
 
 **Mind maps of the elements:**
 
 - [Class 000 - Agile development and general works](pathname:///usr/docs/main/cls0.map.html)
 - [Class 100 - Programming](pathname:///usr/docs/main/cls1.map.html)
-- [Class 200 - Infrastructure and cloud](pathname:///usr/docs/main/cls2.map.html)
-- [Class 300 - Web and app development](pathname:///usr/docs/main/cls3.map.html)
+- [Class 200 - Infrastructure and delivery](pathname:///usr/docs/main/cls2.map.html)
+- [Class 300 - Web and application](pathname:///usr/docs/main/cls3.map.html)
 - [Class 400 - Unused](pathname:///usr/docs/main/cls4.map.html)
 - [Class 500 - Data, ML, and LLM](pathname:///usr/docs/main/cls5.map.html)
 - [Class 600 - Business and human (WIP)](pathname:///usr/docs/main/cls6.map.html)
 - [Class 700 - Security and privacy](pathname:///usr/docs/main/cls7.map.html)
 
-**Timeline pages:**
+**Assembled PDF version:**
 
-- [Class 000 - Agile development and general works](pathname:///usr/docs/timelines/cls0.html)
-- [Class 100 - Programming](pathname:///usr/docs/timelines/cls1.html)
-- [Class 200 - Infrastructure and cloud](pathname:///usr/docs/timelines/cls2.html)
-- [Class 300 - Web and app development](pathname:///usr/docs/timelines/cls3.html)
-- [Class 400 - Unused](pathname:///usr/docs/timelines/cls4.html)
-- [Class 500 - Data, ML, and LLM](pathname:///usr/docs/timelines/cls5.html)
-- [Class 600 - Business and human (WIP)](pathname:///usr/docs/timelines/cls6.html)
-- [Class 700 - Security and privacy](pathname:///usr/docs/timelines/cls7.html)
+- [Main](pathname:///usr/docs/main.pdf)
+- [Timelines](pathname:///usr/docs/timelines.pdf)

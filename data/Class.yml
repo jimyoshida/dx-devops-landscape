@@ -14,16 +14,16 @@ subcls140: Text and structured text processing
 subcls150: Debugging, logging, and unit testing
 subcls160: Program execution and SDK
 subcls170: Algorithms and data structures
-cls200: Infrastructure and cloud
+cls200: Infrastructure and delivery
 subcls200: OS and IP network basics
 subcls210: Linux administration
 subcls220: Domain name system and Email
 subcls230: Linux container and WebAssembly
-subcls240: Kubernetes
+subcls240: Kubernetes administration
 subcls250: IaC, configuration management, and continuous delivery
 subcls260: Performance testing, chaos engineering, and FinOps
 subcls270: System observability
-cls300: Web and app development
+cls300: Web and application
 subcls300: Web and API style standards
 subcls310: Web servers, web proxies, and service mesh
 subcls320: Web application standards and frameworks
@@ -45,7 +45,7 @@ cls600: Business and human (WIP)
 subcls600: Business administration
 subcls610: User analysis and marketing
 subcls620: Economics and game theory
-subcls640: Finance
+subcls640: Finance and accounting
 subcls650: Psychology and sociology
 subcls660: Human interface design
 cls700: Security and privacy

@@ -1,0 +1,10 @@
+For each markdown item provided, please add the definition string just after the hyperlink element. 
+If the item does not have the hyperlink, please skip it. 
+The definition string should be quoted from the linked site as much as possible. 
+The definition string should start with "A" or "The". 
+Don't repeat the item name in the definition string.
+Omit the trailing period.
+Keep the original indentation characters (ASCII 0x20) for each line.
+
+Here is an example output: 
+* [IP](https://en.wikipedia.org/wiki/Internet_Protocol) - The network layer communications protocol in the Internet protocol suite

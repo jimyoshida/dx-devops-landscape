@@ -1,37 +1,48 @@
-.PHONY: site
-site:
+# Docusaurus site build
+.PHONY: all
+all: markmap pdf
 	yarn build
 
+# Cleanup
 .PHONY: clean
 clean:
 	rm -fr build/ .docusaurus/
 	rm -fr static/usr/
 
-# For Main/Mindmap
+########################
+# Custom Files Creation
+
+# Source Files
 MAINPAGES := $(shell ls docs/main/*.md)
-MAINHTMLS := $(addprefix static/usr/,$(MAINPAGES:.md=.html))
+TLPAGES := $(shell ls docs/timelines/*.md)
+
+# Markmap Dest Files
 MAPHTMLS := $(addprefix static/usr/,$(MAINPAGES:.md=.map.html))
 
-static/usr/docs/main/%.html: docs/main/%.md Makefile
-	mkdir -p $(@D)
-	pandoc -o $@ --from markdown --standalone -M title="Landscape" \
-	-V mainfont='"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif' \
-	-V maxwidth=64em $<
-# TODO: call ../tools/hide-local-links.sed 
+.PHONY: markmap
+markmap: $(MAPHTMLS)
 
-static/usr/docs/main/%.map.html: docs/main/%.md Makefile
+static/usr/%.map.html: %.md Makefile
 	mkdir -p $(@D)
 	npx markmap --no-open -o $@ $<
 
-# For Timeline
-TLPAGES := $(shell ls docs/timelines/*.md)
-TLHTMLS := $(addprefix static/usr/,$(TLPAGES:.md=.html))
+# Asciidoc Sections Dest Files 
+MAINADOCS := $(addprefix static/usr/,$(MAINPAGES:.md=.adoc))
+TLADOCS := $(addprefix static/usr/,$(TLPAGES:.md=.adoc))
 
-static/usr/docs/timelines/%.html: docs/timelines/%.md Makefile
+static/usr/%.adoc: %.md Makefile
 	mkdir -p $(@D)
-	pandoc -o $@ --from markdown --standalone -M title="Timeline" \
-	-V mainfont='"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif' \
-	-V maxwidth=64em $<
+	pandoc --from=markdown-smart --to=asciidoc $< | sed -Ef hide-local-links.sed > $@
 
-.PHONY: usr
-usr: $(MAINHTMLS) $(MAPHTMLS) $(TLHTMLS)
+# PDF Dest Files 
+MAINPDF := static/usr/docs/main.pdf
+TLPDF := static/usr/docs/timelines.pdf
+
+.PHONY: pdf
+pdf: $(MAINPDF) $(TLPDF)
+
+$(MAINPDF): main.adoc $(MAINADOCS) Makefile
+	asciidoctor-pdf -v -o $@ -a pdf-theme=pdf-theme.yml $<
+
+$(TLPDF): timelines.adoc $(TLADOCS) Makefile
+	asciidoctor-pdf -v -o $@ -a pdf-theme=pdf-theme.yml $<

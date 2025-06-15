@@ -276,6 +276,7 @@
   * [Lambda](https://peps.python.org/pep-0312/) - A small anonymous function defined using the `lambda` keyword, restricted to a single expression
   * [Data Classes](https://peps.python.org/pep-0557/) - A module and decorator providing a concise way to create classes primarily used to store data, automatically generating special methods
   * [Pattern Matching](https://peps.python.org/pep-0634/) - A feature providing functionality similar to switch statements, allowing matching of values against complex patterns including sequences, mappings, and object structures
+  * [Unpacking Operator](https://peps.python.org/pep-0448/) - The extended usages of the `*` iterable unpacking operator and `**` dictionary unpacking operators to allow unpacking in more positions, an arbitrary number of times, and in additional circumstances
 * [Go](https://go.dev/)
   * [Go Modules](https://go.dev/wiki/Modules)
   * [defer, panic and recover](https://go.dev/blog/defer-panic-and-recover)
@@ -556,17 +557,17 @@
   * Javascript
     * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
       * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
-      * [PM2](https://pm2.keymetrics.io/) - a daemon process manager that will help you manage and keep your application online
-    * [Deno](https://deno.land/) - The open-source runtime for TypeScript and JavaScript
-    * [Bun](https://bun.sh/) - An all-in-one toolkit for JavaScript and TypeScript apps
-    * [WinterJS](https://github.com/wasmerio/winterjs) - Blazing-fast JavaScript server that runs Service Workers scripts
-  * Python
+      * [PM2](https://pm2.keymetrics.io/) - A daemon process manager that will help you manage and keep your application online
+    * [Deno](https://deno.land/) - A modern runtime for TypeScript and JavaScript
+    * [Bun](https://bun.sh/) - A fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript
+    * [WinterJS](https://github.com/wasmerio/winterjs) - A blazingly fast JavaScript runtime built on Rust, using the SpiderMonkey engine and the Tokio runtime
     * CPython (default)
-    * [pypy](https://www.pypy.org/)
+    * [pypy](https://www.pypy.org/) - A fast, compliant alternative implementation of Python
+    * [Pyodide](https://pyodide.org/en/stable/) - A Python distribution for the browser and Node.js based on WebAssembly
   * Ruby
     * CRuby (default)
-    * [JRuby](https://www.jruby.org/)
-    * [PyCall](https://github.com/mrkn/pycall.rb) - Calling Python functions from the Ruby language
+    * [JRuby](https://www.jruby.org/) - An implementation of the Ruby programming language atop the Java Virtual Machine
+    * [PyCall](https://github.com/mrkn/pycall.rb) - A Ruby library that allows you to call Python functions from Ruby
   * [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html)
     * [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html)
     * [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html)

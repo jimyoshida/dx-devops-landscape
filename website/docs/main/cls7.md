@@ -98,51 +98,53 @@
 
 ## 720 - Identity and access management
 
-* [Integrated IAM](https://en.wikipedia.org/wiki/Identity_management)
-  * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token)
-  * [FusionAuth CE](https://fusionauth.io/) - adds login, registration, SSO, MFA, and a bazillion other features to your app in days - not months
-  * [KeyCloak](https://www.keycloak.org/) - provides user federation, strong authentication, user management, fine-grained authorization, and more
+* [Integrated IAM](https://en.wikipedia.org/wiki/Identity_management) - The organizational and technical processes for first registering and authorising the identity and the access rights associated with it
+  * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token) - A proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims
+  * [FusionAuth CE](https://fusionauth.io/) - A free, self-hosted version of FusionAuth that you can deploy anywhere
+  * [KeyCloak](https://www.keycloak.org/) - An open source Identity and Access Management solution aimed at modern applications and services
   * [FreeIPA](https://www.freeipa.org/) - An integrated security information management solution combining Linux (Fedora), 389 Directory Server, MIT Kerberos, NTP, DNS, Dogtag (Certificate System)
-  * [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)
-  * [AWS IAM](https://aws.amazon.com/iam/)
-    * AWS Security Token Service (STS)
-  * [Amazon Cognito](https://aws.amazon.com/cognito/)
-  * [Auth0](https://auth0.com/)
-* [Authenticarion](https://en.wikipedia.org/wiki/Authentication)
-  * [Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
-  * [OpenID Connect](https://openid.net/connect/)
-  * [SAML (Security Assertion Markup Language)](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html)
-  * [WS-Federation](http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html)
-  * [FIDO2 (Fast Identity Online 2)](https://fidoalliance.org/specifications/)
+  * [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) - A cloud-based identity and access management service that helps your employees sign in and access apps and resources
+  * [AWS IAM](https://aws.amazon.com/iam/) - A service that helps you securely control access to AWS resources
+    * [AWS Security Token Service (STS)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html) - A web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users)
+  * [Amazon Cognito](https://aws.amazon.com/cognito/) - A service that lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily
+  * [Auth0](https://auth0.com/) - A flexible, drop-in solution to add authentication and authorization services to your applications
+  * [Athenz](https://www.athenz.io/) - An open source platform for X.509 certificate-based service authentication and fine-grained access control in dynamic infrastructures
+* [Directory service](https://en.wikipedia.org/wiki/Directory_service) - A software system that stores, organizes, and provides access to directory information
+  * [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) - An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network
+  * [OpenLDAP](https://www.openldap.org/) - A free, open source implementation of the Lightweight Directory Access Protocol (LDAP)
+  * [389 Directory Server](https://directory.fedoraproject.org/) - A full-featured, open source LDAPv3 compliant server
+* [Authenticarion](https://en.wikipedia.org/wiki/Authentication) - The act of proving an assertion, such as the identity of a computer system user
+  * [Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) - A method for an HTTP user agent (e.g. a web browser) to provide a user name and password when making a request
+  * [OpenID Connect](https://openid.net/connect/) - A simple identity layer on top of the OAuth 2.0 protocol
+    * [Dex](https://dexidp.io/) - A Federated OpenID Connect Provider
+  * [SAML (Security Assertion Markup Language)](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html) - An XML-based framework for communicating user authentication, entitlement, and attribute information
+  * [WS-Federation](http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html) - A specification that defines how to request and receive security tokens from web services, and how to manage trust relationships
+  * [FIDO2 (Fast Identity Online 2)](https://fidoalliance.org/specifications/) - The overarching term for a set of specifications that enables users to leverage common devices to easily authenticate to online services in both mobile and desktop environments
     * Relying party - The website or online service that wants to verify a user's identity (e.g., your bank's website)
     * Authenticator - The device or software that securely stores cryptographic keys and performs authentication for the user.
     * Client - The software on the user's device, typically a web browser or operating system component, that communicates between the Relying Party and the Authenticator.
-    * [WebAuthn](https://www.w3.org/TR/webauthn-1/)
-    * [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html)
-    * [Passkeys](https://fidoalliance.org/passkeys/)
-  * [Dex](https://dexidp.io/) - A Federated OpenID Connect Provider
-  * [SPIFFE (Secure Production Identity Framework For Everyone)](https://spiffe.io/)
+    * [WebAuthn](https://www.w3.org/TR/webauthn-1/) - An API for accessing Public Key Credentials
+    * [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html) - A protocol that enables an external authenticator to communicate with a client platform
+    * [Passkeys](https://fidoalliance.org/passkeys/) - A phishing-resistant replacement for passwords
+  * [SPIFFE (Secure Production Identity Framework For Everyone)](https://spiffe.io/) - A set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments
     * [SPIRE (SPIFFE Runtime Environment)](https://spiffe.io/docs/latest/spire-about/) - A production-ready implementation of the SPIFFE APIs that performs node and workload attestation in order to securely issue SVIDs to workloads
-  * [Kerberos](https://web.mit.edu/kerberos/)
+  * [Kerberos](https://web.mit.edu/kerberos/) - A network authentication protocol
     * [MIT Kerberos](https://web.mit.edu/kerberos/new/index.html) - An implementation of the Kerberos network authentication protocol
-  * [Azure Shared Access Signature (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
-  * [Firebase Authentication](https://firebase.google.com/docs/auth)
+  * [Firebase Authentication](https://firebase.google.com/docs/auth) - A service that provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app
   * [Supabase Auth](https://supabase.com/docs/guides/database/overview) - An open source Firebase alternative
-* [Authorization](https://en.wikipedia.org/wiki/Authorization)
-  * [Access control list (ACL)](https://en.wikipedia.org/wiki/Access-control_list)
-  * [Role-based access control (RBAC)](https://en.wikipedia.org/wiki/Role-based_access_control)
-  * [OAuth 2.0 Authorization Framework](https://oauth.net/2/)
+* [Authorization](https://en.wikipedia.org/wiki/Authorization) - The function of specifying access rights/privileges to resources related to information security and computer security in general and to access control in particular
+  * [Access control list (ACL)](https://en.wikipedia.org/wiki/Access-control_list) - A list of permissions associated with a system resource (object)
+  * [Role-based access control (RBAC)](https://en.wikipedia.org/wiki/Role-based_access_control) - A policy-neutral access-control mechanism defined around roles and privileges
+    * [Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) - A system that enables fine-grained access management of Azure resources
+      * Security principal kinds: User, Group, Service Principal, Managed Identity
+    * [Entra ID RBAC](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/) - A system that provides fine-grained access management of Microsoft Entra resources
+  * [OAuth 2.0 Authorization Framework](https://oauth.net/2/) - The industry-standard protocol for authorization
     * Resource owner - the user who owns the data or resources that are being accessed
     * Resource server - the server that hosts the protected resources
     * Client - an application or service that wants to access the resources on behalf of the resource owner
     * Authorization server - the server that issues access tokens to the client
-  * [Athenz](https://www.athenz.io/) - A set of services and libraries supporting service authentication and role-based authorization (RBAC)
-  * [Permify](https://github.com/Permify/permify) - An open-source authorization as a service inspired by Google Zanzibar
-  * [Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
-* [Directory service](https://en.wikipedia.org/wiki/Directory_service)
-  * [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
-  * [OpenLDAP](https://www.openldap.org/)
-  * [389 Directory Server](https://directory.fedoraproject.org/)
+  * [Permify](https://github.com/Permify/permify) - An open-source authorization service that helps you to create any kind of authorization system easily with its panel and API
+  * [Azure Shared Access Signature (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) - A signed URI that points to one or more storage resources and includes a token that contains a special set of query parameters
 
 ## 730 - Secure communications
 

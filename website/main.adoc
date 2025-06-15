@@ -1,0 +1,33 @@
+= DX and DevOps Landscape - Main
+Hajime Yoshida <jimyoshida@dummy.com>
+1, 2025-06-10: Dummy
+:description: This document defines (TBD).
+:doctype: article
+:toc: macro
+:toclevels: 3
+:sectanchors:
+
+[abstract]
+== Abstract
+
+{description}
+
+toc::[]
+
+<<<
+
+include::static/usr/docs/main/cls0.adoc[]
+
+include::static/usr/docs/main/cls1.adoc[]
+
+include::static/usr/docs/main/cls2.adoc[]
+
+include::static/usr/docs/main/cls3.adoc[]
+
+include::static/usr/docs/main/cls4.adoc[]
+
+include::static/usr/docs/main/cls5.adoc[]
+
+include::static/usr/docs/main/cls6.adoc[]
+
+include::static/usr/docs/main/cls7.adoc[]

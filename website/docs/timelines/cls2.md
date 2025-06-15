@@ -1,4 +1,4 @@
-# 200 - Infrastructure and cloud
+# 200 - Infrastructure and delivery
 
 ## Timeline
 

@@ -1,0 +1,50 @@
+extends: default
+
+page:
+  layout: portrait # portrait or landscape
+  margin: [1in, 1in, 1in, 1in] # [top, right, bottom, left] - can use pt, mm, cm, in
+  size: A4 # Letter, Legal, A4, A5, etc.
+
+header:
+  height: 0.75in
+  vertical_align: bottom # top, middle, bottom
+  border_width: 0.5
+  border_color: CCCCCCC
+  border_style: solid # solid, dashed, dotted
+  font_size: 9
+  font_family: Helvetica
+  font_color: "666666"
+
+  # Content for right-hand pages (recto)
+  recto:
+    left:
+      content: '{document-title}' # Built-in Asciidoctor attributes
+    right:
+      content: '{section-title}'
+
+  # Content for left-hand pages (verso)
+  verso:
+    left:
+      content: '{document-title}' # Built-in Asciidoctor attributes
+    right:
+      content: '{section-title}'
+
+base:
+  font_family: Helvetica
+  font_size: 11 # Default font size in points (pt)
+  font_color: "333333" # Hex color for default text
+  line_height_length: 16 # Absolute line height in points
+
+heading:
+  h1_font_size: 16
+  h2_font_size: 14
+  h3_font_size: 13
+  h4_font_size: 12
+  h5_font_size: 12
+  font_color: "000000"
+  font_style: bold # normal, italic, bold, bold_italic
+  line_height: 1.2
+
+quote:
+  font_size: 11
+  font_color: "555555"

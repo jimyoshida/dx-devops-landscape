@@ -2,6 +2,11 @@
 
 ## Timeline
 
+### 1970s
+
+In June 1972, five IBM engineers from the AI department founded the SAP Systemanalyse und Programmentwicklung ("System Analysis and Program Development" / "SAPD") company, as a private partnership under the German Civil Code.
+In 1973, SAP launched its first commercial product, the RF financial accounting system.
+
 ### 1990s
 
 Salesforce, Inc. is an American cloud-based software company headquartered in San Francisco, California. It provides applications focused on sales, customer service, marketing automation, e-commerce, analytics, artificial intelligence, and application development.

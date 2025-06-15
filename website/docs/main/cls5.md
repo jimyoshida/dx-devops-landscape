@@ -11,7 +11,6 @@
 * [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) - A system used for reporting and data analysis and is a core component of business intelligence
 * [Data lake](https://en.wikipedia.org/wiki/Data_lake) - A system or repository of data stored in its natural/raw format, usually object blobs or files
 * [Lakehouse architecture](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
-  * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
 * [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) - The mechanism ensuring that correct results for concurrent operations are generated efficiently
   * [ACID](https://en.wikipedia.org/wiki/ACID) - A set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps
     * Atomicity, Consistency, Isolation, and Durability
@@ -20,9 +19,12 @@
 * [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
 * Network analysis
   * [Centrality](https://en.wikipedia.org/wiki/Centrality) - A measure of the relative importance of a node or vertex within a graph in graph theory and network analysis
-* Data exchange format
+* Data exchange standard
+  * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
   * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
+  * [Apache ORC](https://orc.apache.org/) - The smallest, fastest columnar storage for Hadoop workloads
   * [BSON](https://bsonspec.org/) - A bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments
+  * [Apache Avro](https://avro.apache.org/) - the leading serialization format for record data, and first choice for streaming data pipelines
 * [Object storage](https://en.wikipedia.org/wiki/Object_storage) - A computer data storage architecture that manages data as objects
   * [Amazon S3](https://aws.amazon.com/s3/) - An object storage service offering industry-leading scalability, data availability, security, and performance
   * [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data

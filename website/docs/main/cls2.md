@@ -1,4 +1,4 @@
-# 200 - Infrastructure and cloud
+# 200 - Infrastructure and delivery
 
 [Show timeline](../timelines/cls2.md)
 
@@ -284,7 +284,7 @@
   * [Wasmtime](https://wasmtime.dev/) - A fast and secure runtime for WebAssembly
   * [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
 
-## 240 - Kubernetes
+## 240 - Kubernetes administration
 
 * [Kubernetes](https://kubernetes.io/)
 * K8s as a service

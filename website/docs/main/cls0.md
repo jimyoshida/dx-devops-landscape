@@ -167,23 +167,6 @@
     * Dev/prod parity: Keep development, staging, and production as similar as possible.
     * Logs: Treat logs as event streams.
     * Admin processes: Run admin/management tasks as one-off processes.
-* Architecture description
-  * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
-  * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
-  * [The C4 model](https://c4model.com/)
-  * [UML](https://www.omg.org/spec/UML/About-UML/)
-  * Diagramming tools
-    * [draw.io](https://www.drawio.com/)
-  * Diagramming as code
-    * [D2: Declarative Diagramming](https://d2lang.com/) - A modern diagram scripting language that turns text to diagrams
-    * [Diagrams](https://diagrams.mingrammer.com/) - A Python package for drawing cloud system architectures in Python code
-    * [PlantUML](https://plantuml.com/) - A tool that allows you to create diagrams from a simple textual description
-    * [Mermaid](https://mermaidjs.github.io/) - A Javascript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically
-    * [Kroki](https://kroki.io/) - A free and open source service that converts plain text diagrams to images
-    * [Graphviz](https://graphviz.org/) - An open source graph visualization software
-      * [DOT language](https://graphviz.org/doc/info/lang.html) - A plain text graph description language
-      * [haphviz](https://hackage.haskell.org/package/haphviz) - A Haskell library for representing, manipulating, and pretty-printing graphs in the DOT format
-    * [ditaa](https://github.com/stathissideris/ditaa) - A small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
 * [Architectural Decision Records (ADRs)](https://adr.github.io/)
   * [adr-tools](https://github.com/npryce/adr-tools)
 
@@ -278,43 +261,59 @@
   * [Org Mode](https://orgmode.org/) - Your life in plain text
     * [nvim-orgmode](https://github.com/nvim-orgmode/orgmode)
 * Writing styles
-  * [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
-  * [Google documentation style guide](https://developers.google.com/style/)
-  * [Red Hat documentation style guide](https://redhat-documentation.github.io/supplementary-style-guide/)
-  * [Microsoft Terminology](https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology)
-  * [List of English words](https://github.com/dwyl/english-words)
+  * [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) - A guide for writers creating a variety of content types, including apps and websites
+  * [Google documentation style guide](https://developers.google.com/style/) - The editorial guidelines for writing clear and consistent technical documentation for an audience of software developers and other technical practitioners
+  * [Red Hat documentation style guide](https://redhat-documentation.github.io/supplementary-style-guide/) - The guide that provides style guidelines for Red Hat product and cross-product solution documentation
+  * [Microsoft Terminology](https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology) - A collection of rules that define language and style conventions for specific languages
+  * [List of English words](https://github.com/dwyl/english-words) - A text file containing over 466k English words
 * Prose linters
   * [vale](https://vale.sh/) - A linter for natural language/prose
-  * [retext](https://github.com/retextjs/retext) - natural language processor (with plugins)
-  * [alex](https://alexjs.com/) - Catch insensitive, inconsiderate writing
-  * [write-good](https://github.com/btford/write-good) - Naive linter for English prose
+  * [retext](https://github.com/retextjs/retext) - An extensible natural language processor
+  * [alex](https://alexjs.com/) - A tool that helps you find gender favoring, polarizing, race related, religion inconsiderate, or other unequal phrasing in text
+  * [write-good](https://github.com/btford/write-good) - A naive linter for English prose
   * [textlint](https://textlint.github.io/) - The pluggable linting tool for text and markdown
   * [lychee](https://lychee.cli.rs/) - A fast, async link checker written in Rust
 * Document site generators
   * [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
-  * [VuePress](https://v2.vuepress.vuejs.org/) - Vue-powered Static Site Generator
-  * [Hugo](https://gohugo.io/) - The world’s fastest framework for building websites
-    * [Docsy](https://www.docsy.dev/)
-  * [Sphinx](http://www.sphinx-doc.org/en/master/)
+  * [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
+  * [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
+    * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
+  * [Sphinx](http://www.sphinx-doc.org/en/master/) - A tool that makes it easy to create intelligent and beautiful documentation
   * [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
-    * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+    * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
   * [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
 * Typesetting systems
-  * [Troff/Groff](https://www.gnu.org/software/groff/)
-  * [Asciidoc](https://asciidoc.org/)
-    * [Asciidoctor](https://asciidoctor.org/)
-  * [LaTeX](https://www.latex-project.org/) - A document preparation system
+  * [Troff/Groff](https://www.gnu.org/software/groff/) - A typesetting system that reads plain text mixed with formatting commands and produces formatted output
+  * [Asciidoc](https://asciidoc.org/) - A lightweight markup language for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs
+    * [Asciidoctor](https://asciidoctor.org/) - A fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats
+  * [LaTeX](https://www.latex-project.org/) - A high-quality typesetting system; it includes features designed for the production of technical and scientific documentation
     * [TexLive](https://tug.org/texlive/) - A cross-platform, free software distribution for the TeX typesetting system
     * [PGF/TikZ](https://github.com/pgf-tikz/pgf) - A TeX macro package for generating graphics
   * [KaTeX](https://katex.org/) - The fastest math typesetting library for the web
-    * [sphinxcontrib-katex](https://sphinxcontrib-katex.readthedocs.io/en/)
-* [Wiki software](https://en.wikipedia.org/wiki/Wiki_software)
-  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)
+    * [sphinxcontrib-katex](https://sphinxcontrib-katex.readthedocs.io/en/) - A Sphinx extension which allows you to use KaTeX to render math in your Sphinx documentation
+* [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
+  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
   * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
-* Content collaboration platform
-  * [Nextcloud](https://nextcloud.com/)
-* [Content management system](https://en.wikipedia.org/wiki/Content_management_system)
-  * [WordPress](https://wordpress.org/)
+* Architecture description
+  * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
+  * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
+  * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
+  * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
+  * Diagramming tools
+    * [draw.io](https://www.drawio.com/) - A technology stack for building diagramming applications, and the world's most widely used browser-based end-user diagramming software
+  * Diagramming as code
+    * [D2: Declarative Diagramming](https://d2lang.com/) - A modern diagram scripting language that turns text to diagrams
+    * [Diagrams](https://diagrams.mingrammer.com/) - A Python package for drawing cloud system architectures in Python code
+    * [PlantUML](https://plantuml.com/) - A tool that allows you to create diagrams from a simple textual description
+    * [Mermaid](https://mermaidjs.github.io/) - A Javascript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically
+    * [Kroki](https://kroki.io/) - A free and open source service that converts plain text diagrams to images
+    * [Graphviz](https://graphviz.org/) - An open source graph visualization software
+      * [DOT language](https://graphviz.org/doc/info/lang.html) - A plain text graph description language
+      * [haphviz](https://hackage.haskell.org/package/haphviz) - A Haskell library for representing, manipulating, and pretty-printing graphs in the DOT format
+    * [ditaa](https://github.com/stathissideris/ditaa) - A small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
+* [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
+  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
+  * [WordPress](https://wordpress.org/)- A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
 
 ## 050 - OSS assets and open data
 
