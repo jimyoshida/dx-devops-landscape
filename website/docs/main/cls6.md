@@ -9,6 +9,7 @@
     * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - A grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
     * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A strategic planning and strategic management technique used to help a person or organization identify Strengths, Weaknesses, Opportunities, and Threats related to business competition or project planning
     * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
+    * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis)
 * [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture) - A well-defined practice for conducting enterprise analysis, design, planning, and implementation, using a comprehensive approach at all times, for the successful development and execution of strategy
   * [TOGAF standard](https://www.opengroup.org/togaf) - A proven Enterprise Architecture methodology and framework used by the world’s leading organizations to improve business efficiency
   * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework) - An ontology – a theory of the existence of a structured set of essential components of an object
@@ -27,6 +28,7 @@
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
 * [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
   * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+* [Lean startup](https://en.wikipedia.org/wiki/Lean_startup)
 * [Risk management](https://en.wikipedia.org/wiki/Risk_management) - The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities
   * [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning) - The process an organization undergoes to create a prevention and recovery system from potential threats such as natural disasters or cyber-attacks
     * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery) - The process of resuming normal IT operations after a disruptive event, such as a natural disaster, cyberattack, or equipment failure
@@ -53,6 +55,7 @@
 * Business inteligence and analysis
   * [Tableau](https://www.tableau.com/)
   * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/)
+    * [DAX](https://learn.microsoft.com/en-us/dax/)
   * [Amazon QuickSight](https://aws.amazon.com/quicksight/)
 * Ideation
   * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming)
@@ -92,6 +95,7 @@
 
 * [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
 * [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
+* [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory)
 * [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
 * [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
 * [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
@@ -105,6 +109,9 @@
 * [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
 * [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate
 * [Central bank](https://en.wikipedia.org/wiki/Central_bank) - An institution that manages the monetary policy of a country or monetary union
+* [Revenue model](https://en.wikipedia.org/wiki/Revenue_model)
+* [Financial capital](https://en.wikipedia.org/wiki/Financial_capital)
+  * [Venture capital](https://en.wikipedia.org/wiki/Venture_capital)
 * Contracts
   * [Credit](https://en.wikipedia.org/wiki/Credit) - The trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately
   * [Debt](https://en.wikipedia.org/wiki/Debt) - An obligation that requires one party, the debtor, to pay money or otherwise return value to another party, the creditor
@@ -147,6 +154,8 @@
 * Social networking (federated)
   * [Mastodon](https://joinmastodon.org/) - A free, open-source decentralized social media platform
   * [Lemmy](https://join-lemmy.org/) - A selfhosted social link aggregation and discussion platform
+* Related books
+  * [*Thinking, Fast and Slow*](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 
 ## 660 - Human interface design
 

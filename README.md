@@ -8,8 +8,8 @@ Here is the link list of the source markdown files.
 - [Class 100 - Programming](website/docs/main/cls1.md)
 - [Class 200 - Infrastructure and delivery](website/docs/main/cls2.md)
 - [Class 300 - Web and application](website/docs/main/cls3.md)
-- [Class 400 - Unused](website/docs/main/cls4.md)
-- [Class 500 - Data, ML, and LLM](website/docs/main/cls5.md)
+- [Class 400 - Data science](website/docs/main/cls4.md)
+- [Class 500 - AI, ML, and LLM](website/docs/main/cls5.md)
 - [Class 600 - Business and human (WIP)](website/docs/main/cls6.md)
 - [Class 700 - Security and privacy](website/docs/main/cls7.md)
 

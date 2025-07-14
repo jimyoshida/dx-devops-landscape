@@ -12,6 +12,7 @@
     * [Technocal debt](https://en.wikipedia.org/wiki/Technical_debt) - A concept in software development that reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer
   * [Trunk Based Development](https://trunkbaseddevelopment.com/) - A source-control branching model, where developers collaborate on code in a single branch called 'trunk', resist any pressure to create other long-lived development branches by employing documented techniques
   * [Software prototyping](https://en.wikipedia.org/wiki/Software_prototyping) - The activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed
+  * [Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product)
   * [Scrum](https://www.scrum.org/learning-series/what-is-scrum/) - A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value
   * [User story](https://en.wikipedia.org/wiki/User_story) - An informal, natural language description of features of a software system
   * [INVEST of PBI](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) - A mnemonic created by Bill Wake as a reminder of the characteristics of a good quality Product Backlog Item (PBI)
@@ -26,6 +27,8 @@
     * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
   * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
 * [Lean software development](https://en.wikipedia.org/wiki/Lean_software_development) - A translation of lean manufacturing principles and practices to the software development domain
+  * [Continual improvement process](https://en.wikipedia.org/wiki/Continual_improvement_process)
+  * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop)
   * [Lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) - A production method aimed primarily at reducing times within the production system as well as response times from suppliers and to customers
   * [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
     * Kaizen: Continuous improvement through small, incremental changes.
@@ -50,6 +53,7 @@
   * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
   * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
     * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
+  * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
 * [Behavior driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) - An agile software development process that encourages collaboration among developers, quality assurance testers, and customer representatives in a software project
   * [Specification by example](https://en.wikipedia.org/wiki/Specification_by_example) - A collaborative approach to defining requirements and business-oriented functional tests for software products based on capturing and illustrating requirements using realistic examples instead of abstract statements
   * Tools
@@ -69,11 +73,14 @@
     * Assignable: Defining responsibility clearly
     * Realistic: Outlining attainable results with available resources
     * Time-related: Including a timeline for expected results
+  * [GROW model](https://en.wikipedia.org/wiki/GROW_model)
   * [OKRs](https://en.wikipedia.org/wiki/Objectives_and_key_results) - A goal-setting framework used by individuals, teams, and organizations to define measurable goals and track their outcomes
   * [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) - A type of performance measurement used to evaluate the success of an organization or of a particular activity (such as projects, programs, products and other initiatives) in which it engages
     * [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
   * [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - An adage often stated as, "When a measure becomes a target, it ceases to be a good measure"
 * [Time management](https://en.wikipedia.org/wiki/Time_management) - The process of planning and exercising conscious control of time spent on specific activities—especially to increase effectiveness, efficiency and productivity
+* [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational))
+* [Active listening](https://en.wikipedia.org/wiki/Active_listening)
 * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
 * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
 * [Prioritization](https://en.wikipedia.org/wiki/Prioritization) - The activity that arranges items or activities in order of urgency
@@ -207,6 +214,7 @@
     * [Idempotence](https://en.wikipedia.org/wiki/Idempotence)
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)
     * [Notations](https://dlmf.nist.gov/not/)
+* [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
 * [Differential calculus](https://en.wikipedia.org/wiki/Differential_calculus)
 * [Differential equation](https://en.wikipedia.org/wiki/Differential_equation)
 * [Logarithm](https://en.wikipedia.org/wiki/Logarithm)
@@ -296,6 +304,7 @@
   * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
 * Architecture description
   * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
+  * [Flowchart](https://en.wikipedia.org/wiki/Flowchart)
   * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
   * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
   * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
@@ -365,3 +374,5 @@
   * [Registry of Open Data on AWS](https://registry.opendata.aws/)
   * [OpenML](https://www.openml.org/)
   * [OpenStreetMap](https://www.openstreetmap.org/about)
+* Data search engine
+  * [Google Dataset search](https://datasetsearch.research.google.com/)

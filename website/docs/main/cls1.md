@@ -288,6 +288,7 @@
   * static binary executable
   * [lo](https://pkg.go.dev/github.com/samber/lo) - A Lodash-style Go library
   * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
+  * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
 * [Javascript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
   * [CommonJS](https://en.wikipedia.org/wiki/CommonJS)
   * [ES modules](https://nodejs.org/api/esm.html)
@@ -381,6 +382,7 @@
   * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
   * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format
   * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable) - A module that can be used to write data in tabular form, formatted in MultiMarkdown syntax
+  * [Terminal Table](https://github.com/tj/terminal-table) - A simple, feature-rich ascii table generation library for ruby
 * Data exchange languages
   * [JSON](https://www.json.org/json-en.html) - A lightweight data-interchange format
     * [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor
@@ -452,6 +454,7 @@
   * [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
   * [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
   * [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
+  * [Lox](https://dcaiafa.github.io/lox/) - A lexer and parser generator for Go
   * [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
   * [Ragel](https://www.colm.net/open-source/ragel/) - compiles executable finite state machines from regular languages
   * [Bison](https://www.gnu.org/software/bison/)
@@ -478,15 +481,18 @@
     * [Go log](https://pkg.go.dev/log)
     * [zap](https://github.com/uber-go/zap/) - Blazing fast, structured, leveled logging in Go
     * [Logrus](https://github.com/sirupsen/logrus) - A structured logger for Go (golang), completely API compatible with the standard library logger
+    * [Zero Allocation JSON Logger](https://github.com/rs/zerolog) - The package that provides a fast and simple logger dedicated to JSON output
   * Others
-    * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug)
-      * [BASH Debugger](https://bashdb.sourceforge.net/)
-    * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
-    * [logger](https://man7.org/linux/man-pages/man1/logger.1.html) - enter messages into the system log
-    * [GDB](https://www.gnu.org/software/gdb/) - The GNU Project debugger
+    * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) - A bash debugger GUI frontend based on bashdb
+      * [BASH Debugger](https://bashdb.sourceforge.net/) - A bash shell command-line debugger
+    * [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) - A Ruby debugger extension that is based on debug.gem
+      * [debug.rb](https://github.com/ruby/debug) - The debugging functionality for Ruby
     * [Devel::Trepan](https://metacpan.org/pod/Devel::Trepan) - A modular gdb-like Perl debugger
+    * [logger](https://man7.org/linux/man-pages/man1/logger.1.html) - A tool to enter messages into the system log
+    * [GDB](https://www.gnu.org/software/gdb/) - The GNU Project debugger
     * [log4j](https://logging.apache.org/log4j/2.x/index.html) - A versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases
-    * [log4perl](https://metacpan.org/pod/Log::Log4perl) - Log4j implementation for Perl
+    * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
+    * [log4perl](https://metacpan.org/pod/Log::Log4perl) - A log4j implementation for Perl
     * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 * Test frameworks
   * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)

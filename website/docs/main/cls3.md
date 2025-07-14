@@ -4,36 +4,36 @@
 
 ## 300 - Web and API style standards
 
-* [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web)
-  * [Hypertext](https://en.wikipedia.org/wiki/Hypertext)
-  * [URL](https://url.spec.whatwg.org/)
-  * [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
-    * [Perl URI](https://metacpan.org/pod/URI)
-  * [HTML](https://html.spec.whatwg.org/)
-    * [Perl Html::Entities](https://metacpan.org/pod/HTML::Entities)
-  * [CSS](https://www.w3.org/Style/CSS/)
-  * [Sass language](https://sass-lang.com/)
-* [HTTP](https://en.wikipedia.org/wiki/HTTP)
-  * [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie)
-  * [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396)
-* [OpenAPI spec](https://www.openapis.org/)
-  * [Redocly CLI](https://redocly.com/) - Your all-in-one OpenAPI utility
+* [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - An information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet
+  * [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - A text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access
+  * [URL](https://url.spec.whatwg.org/) - A standard that defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API
+  * [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) - A unique sequence of characters that identifies a logical or physical resource
+    * [Perl URI](https://metacpan.org/pod/URI) - A class whose objects represent "Uniform Resource Identifier references" as specified in RFC 2396
+  * [HTML](https://html.spec.whatwg.org/) - The World Wide Web's core markup language
+    * [Server-sent events](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) - A technology to enable servers to push data to web pages over HTTP or using dedicated server-push protocols
+    * [Perl Html::Entities](https://metacpan.org/pod/HTML::Entities) - A module that deals with encoding and decoding of strings with HTML character entities
+  * [CSS](https://www.w3.org/Style/CSS/) - A simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents
+  * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
+* [HTTP](https://en.wikipedia.org/wiki/HTTP) - An application protocol for distributed, collaborative, hypermedia information systems
+  * [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie) - A small piece of data that a server sends to a user's web browser
+  * [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
+* [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
+  * [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
 * [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
 * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
 * [WebRTC](https://webrtc.org/) - A free and open-source project providing web browsers and mobile applications with real-time communication (RTC)
 * API styles
-  * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
-  * [SOAP](https://en.wikipedia.org/wiki/SOAP)
-  * [GraphQL](https://graphql.org/)
+  * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) - A software architectural style that was created to guide the design and development of the architecture for the World Wide Web
+  * [SOAP](https://en.wikipedia.org/wiki/SOAP) - A messaging protocol specification for exchanging structured information in the implementation of web services
+  * [GraphQL](https://graphql.org/) - A query language for APIs and a runtime for fulfilling those queries with your existing data
     * [URQL](https://commerce.nearform.com/open-source/urql/) - The highly customizable and versatile GraphQL client
     * [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
-  * [gRPC](https://grpc.io/)
-  * [WebSockets](https://websockets.spec.whatwg.org/)
-  * [Webhook](https://en.wikipedia.org/wiki/Webhook)
-  * [json-rpc](https://www.jsonrpc.org/)
-  * [MQTT](https://mqtt.org/)
-  * [AMQP](https://www.amqp.org/)
-  * [SSE](https://en.wikipedia.org/wiki/Server-sent_events)
+  * [gRPC](https://grpc.io/) - A modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment
+  * [WebSockets](https://websockets.spec.whatwg.org/) - A technology that makes it possible to open a two-way interactive communication session between the user's browser and a server
+  * [Webhook](https://en.wikipedia.org/wiki/Webhook) - A method of augmenting or altering the behavior of a web page or web application with custom callbacks
+  * [json-rpc](https://www.jsonrpc.org/) - A stateless, light-weight remote procedure call (RPC) protocol
+  * [MQTT](https://mqtt.org/) - A lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service
+  * [AMQP](https://www.amqp.org/) - An open standard application layer protocol for message-oriented middleware
 * Browsers
   * [Chrome](https://www.google.com/chrome/)
   * [Chromium](https://www.chromium.org/Home/)
@@ -56,11 +56,12 @@
 
 ## 310 - Web servers, web proxies, and service mesh
 
-* [NGINX](https://www.nginx.com/)
-* [Apache HTTP Server](https://httpd.apache.org/)
+* [NGINX](https://www.nginx.com/) - A high-performance, scalable, and reliable web server, reverse proxy, and load balancer
+* [Apache HTTP Server](https://httpd.apache.org/) - A project to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows
 * [Caddy](https://caddyserver.com/) - A powerful, extensible platform to serve your sites, services, and apps, written in Go
 * [nodejs http-server](https://github.com/http-party/http-server#readme) - A simple static HTTP server
-* [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+* [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
+* [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 * Forward proxy and caching
   * [Web cache](https://en.wikipedia.org/wiki/Web_cache)
     * [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network)
@@ -83,6 +84,7 @@
   * [Kong API gateway](https://konghq.com/products/kong-gateway)
   * [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/)
   * [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
+  * [Google Cloud Apigee](https://cloud.google.com/apigee)
 * Application hosting services
   * [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
   * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
@@ -106,6 +108,7 @@
   * [Koa](https://koajs.com/) - A new web framework designed by the team behind Express
   * [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
   * [Hono](https://hono.dev/) - Fast, lightweight, built on Web Standards
+  * [tRPC](https://trpc.io/) - A tool that allows you to easily build & consume fully typesafe APIs without schemas or code generation
 * Full-stack web frameworks
   * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
   * [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
@@ -115,6 +118,7 @@
   * [Echo](https://echo.labstack.com/) - High performance, extensible, minimalist Go web framework
   * [Gin Web Framework](https://gin-gonic.com/) - A web framework written in Go
   * [Gorilla web toolkit](https://www.gorillatoolkit.org/) - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
+  * [Yokai](https://ankorstore.github.io/yokai/) - A simple, modular and observable Go framework for backend applications
 * Python frameworks
   * [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - The Web Server Gateway Interface
     * [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
@@ -125,15 +129,14 @@
     * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
 * Perl frameworks (reference)
   * Classic CGI
-    * [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html)
-    * [CGI.pm](https://metacpan.org/pod/CGI)
+    * [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - A module for the execution of CGI scripts
+    * [CGI.pm](https://metacpan.org/pod/CGI) - A module to handle Common Gateway Interface requests and responses
   * Fast CGI
     * [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - A high performance alternative to mod_cgi or mod_cgid
     * [FCGI.pm](https://metacpan.org/pod/FCGI)
-  * [PSGI](https://plackperl.org/) - An interface between Perl web applications and web servers
-    * [Plack](https://plackperl.org/) - A Perl module and toolkit that contains PSGI middleware, helpers and adapters to web servers
-    * [Dancer2](https://metacpan.org/pod/Dancer2) - Lightweight yet powerful web application framework
-    * [Mojolicious](https://www.mojolicious.org/) - Perl real-time web framework
+  * [PSGI/Plack](https://plackperl.org/) - An interface between Perl web applications and web servers
+    * [Dancer2](https://metacpan.org/pod/Dancer2) - A lightweight yet powerful web application framework
+    * [Mojolicious](https://www.mojolicious.org/) - A fresh take on Perl web development
 * Ruby frameworks (reference)
   * [Rack](https://rack.github.io/) - A modular Ruby web server interface
     * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
@@ -155,6 +158,8 @@
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
     * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
   * [GWT](https://www.gwtproject.org/) - A development toolkit for building and optimizing complex browser-based applications
+  * [Require.js](https://requirejs.org/) - A JavaScript file and module loader which is optimized for in-browser use
+  * [Tabulator](https://tabulator.info/) - An easy to use, simple to code, fully featured, interactive JavaScript library for creating tables and data grids
 * State management
   * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
     * [React-Redux](https://react-redux.js.org/) - Official React bindings for Redux
@@ -164,13 +169,14 @@
   * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
     * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
   * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
+  * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
 * Fontend build tools
   * [Percel](https://parceljs.org/) - The zero configuration build tool
   * [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
   * [babel](https://babeljs.io/) - A JavaScript compiler
   * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
 
-## 340 - Web automation and test tools
+## 330 - Web automation and test tools
 
 * CLIs
   * [cURL](https://curl.haxx.se/)
@@ -198,7 +204,9 @@
   * [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
   * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
-  * [Mechanize](https://metacpan.org/pod/WWW::Mechanize) (for CGI)
+* Classic web automation
+  * [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
+  * [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy
 * Testing
   * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/)
   * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
@@ -210,54 +218,64 @@
 * Debug
   * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
   * [Fiddler](https://www.telerik.com/fiddler) - Web Debugging Proxy
+* Test data generation
+  * [Databricks Labs Data Generator](https://github.com/databrickslabs/dbldatagen) - A Python library for generating synthetic data within the Databricks environment using Spark
+  * [generatedata.com](https://github.com/benkeen/generatedata) - A powerful, feature-rich, random test data generator
+  * [gofakeit](https://github.com/brianvoe/gofakeit) - A random data generator written in go
+  * [Fake-rs](https://github.com/cksac/fake-rs) - A library for generating fake data in Rust
 
-## 350 - CLI/TUI development
+## 340 - CLI/TUI app development
 
 * Bash
-  * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
-  * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html)
-  * [dialog](https://invisible-island.net/dialog/dialog.html)
+  * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
+  * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html) - A command to initialize a terminal or query the terminfo database
+  * [dialog](https://invisible-island.net/dialog/dialog.html) - A program that can be used to create nice user interfaces for shell scripts
   * [Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
-  * [FIGlet](http://www.figlet.org/)
-  * [lolcat](https://github.com/busyloop/lolcat)
-  * [cfonts](https://github.com/dominikwilkowski/cfonts)
+  * [FIGlet](http://www.figlet.org/) - A program for making large letters out of ordinary text
+  * [lolcat](https://github.com/busyloop/lolcat) - A program that concatenates files, or standard input, to standard output and adds rainbow coloring
+  * [cfonts](https://github.com/dominikwilkowski/cfonts) - A tool to print sexy fonts in your console
 * Perl
-  * [Getopt::Long](https://metacpan.org/pod/Getopt::Long)
-  * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor)
-  * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable)
+  * [Getopt::Long](https://metacpan.org/pod/Getopt::Long) - A module that implements an extended getopt function called GetOptions()
+  * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor) - A module to colorize text using ANSI escape sequences
+  * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable) - A module to create a formatted table using ASCII characters and ANSI colors
 * Python
-  * [argparse](https://docs.python.org/3/library/argparse.html)
-  * [click](https://palletsprojects.com/p/click/)
-  * [Colorama](https://github.com/tartley/colorama)
-  * [Typer](https://typer.tiangolo.com/)
-  * [Asciimatics](https://github.com/peterbrittain/asciimatics)
-  * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/)
+  * [argparse](https://docs.python.org/3/library/argparse.html) - The module for parsing command-line arguments
+  * [click](https://palletsprojects.com/p/click/) - A Python package for creating beautiful command line interfaces in a composable way with as little code as necessary
+  * [Colorama](https://github.com/tartley/colorama) - A simple cross-platform API for printing colored terminal text from Python
+  * [Typer](https://typer.tiangolo.com/) - A library for building CLI applications that users will love using and developers will love creating
+  * [Asciimatics](https://github.com/peterbrittain/asciimatics) - A package that provides a cross-platform, full-screen terminal API for building text-based user interfaces
+  * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/) - A library for building powerful interactive command line and terminal applications in Python
+  * [Urwid](https://urwid.org/) - A console user interface library for Python
+  * [Textual](https://textual.textualize.io/) - A Rapid Application Development framework for Python, built by Textualize.io
+    * [Rich](https://github.com/Textualize/rich) - A Python library for rich text and beautiful formatting in the terminal
 * Javascript
-  * [yargs](https://yargs.js.org/)
-  * [minimist](https://github.com/minimistjs/minimist)
-  * [chalk](https://github.com/chalk/chalk)
-  * [cli-progress](https://github.com/npkgz/cli-progress)
-  * [FIGLet.js](https://github.com/patorjk/figlet.js)
-  * [gradient-string](https://github.com/bokub/gradient-string)
+  * [yargs](https://yargs.js.org/) - A library for building interactive command line tools by parsing arguments and generating an elegant user interface
+  * [minimist](https://github.com/minimistjs/minimist) - A tool to parse argument options
+  * [chalk](https://github.com/chalk/chalk) - A terminal string styling tool
+  * [cli-progress](https://github.com/npkgz/cli-progress) - An easy to use progress-bar for command-line/terminal applications
+  * [FIGLet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec
+  * [gradient-string](https://github.com/bokub/gradient-string) - A library for creating beautiful gradients in terminal output
 * Go
+  * [Fang](https://github.com/charmbracelet/fang) - The CLI starter kit. A small, experimental library for batteries-included Cobra applications
   * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
-  * [Huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts
-  * [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package
-  * [color](https://github.com/fatih/color)
-  * [cobra](https://cobra.dev/) - A Framework for Modern CLI Apps in Go
+  * [Huh](https://github.com/charmbracelet/huh) - A simple, powerful, and elegant TUI library for building terminal forms and prompts
+  * [pflag](https://github.com/spf13/pflag) - A drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
+  * [color](https://github.com/fatih/color) - A package for Go that lets you use colorized outputs in terms of ANSI escape sequences
+  * [Cobra](https://cobra.dev/) - A framework for creating powerful modern CLI applications
   * [cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
-  * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+  * [viper](https://github.com/spf13/viper) - A complete configuration solution for Go applications
 * Ruby
   * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
   * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
   * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
 * Rust
-  * [Ratatui](https://ratatui.rs/)
-  * [R3BL](https://r3bl.com/)
+  * [Ratatui](https://ratatui.rs/) - A Rust library for cooking up delicious terminal user interfaces
+  * [R3BL](https://r3bl.com/) - A suite of libraries for building modern terminal apps with Rust
+  * [Ansic](https://github.com/zeonzip/ansic) - A modern, efficient and compile time ansi macro and utilities crate for Rust
 * C
-  * [ncurses](https://invisible-island.net/ncurses/)
+  * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
 
-## 360 - Binary and image processing
+## 350 - Binary and image processing
 
 * Compression and archiving
   * [GNU Gzip](https://www.gnu.org/software/gzip/)
@@ -280,34 +298,42 @@
   * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - Read and write meta information in files
   * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
   * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
-* Office document processing
-  * Formats
-    * [PDF](https://en.wikipedia.org/wiki/PDF)
-    * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)
-    * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument)
+  * [Native WebP for Go](https://github.com/HugoSmits86/nativewebp) - A native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries
+* PDF document processing
+  * [PDF](https://en.wikipedia.org/wiki/PDF)
   * [Ghostscript](https://www.ghostscript.com/) - offers unmatched PDL conversion, multi-platform support, and customizable modules
   * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
   * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
   * [pdfcpu](https://pdfcpu.io/) - A Go PDF processor
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
+  * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
+  * [Prawn PDF](https://prawnpdf.org/) - A fast, nimble PDF generator for Ruby
+* Office document processing
+  * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)
+  * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument)
   * [libreoffice cli](https://manpages.ubuntu.com/manpages/trusty/man1/libreoffice.1.html) - LibreOffice office suite
   * [Excelize](https://xuri.me/excelize/) - A Go library for XLSX files
+* Convert to text
+  * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
+  * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
+  * OCR
+    * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+      * [gosseract OCR](https://github.com/otiai10/gosseract) - Golang OCR package, by using Tesseract C++ library
+    * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/)
+    * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
   * [xlsx2csv](https://github.com/dilshod/xlsx2csv)
   * [docx2txt](https://github.com/ankushshah89/python-docx2txt)
   * [pptx2md](https://github.com/ssine/pptx2md)
-  * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
-  * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
-* OCR
-  * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
-  * [gosseract OCR](https://github.com/otiai10/gosseract) - Golang OCR package, by using Tesseract C++ library
-  * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/)
-  * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
-## 370 - Mobile/Desktop application development (WIP)
+## 360 - Mobile/Desktop app development (WIP)
 
 * [Android](https://www.android.com/)
+  * [Android Studio](https://developer.android.com/studio)
 * [iOS](https://www.apple.com/ios/)
+* [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System)
 * [QR code](https://en.wikipedia.org/wiki/QR_code)
+  * [libqrencode](https://github.com/fukuchi/libqrencode) - A fast and compact QR Code encoding library
+  * [Pure python QR Code generator](https://github.com/lincolnloop/python-qrcode)
   * [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment)
 * Web-based UI
   * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
@@ -338,6 +364,8 @@
   * [GNOME](https://www.gnome.org/)
   * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
   * [openbox](http://openbox.org) - A highly configurable, next generation window manager
+* Android on Linux
+  * [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments
 * Windows administration
   * [Chocolatey](https://chocolatey.org)
   * [Scoop](https://scoop.sh/)
@@ -346,3 +374,16 @@
   * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
   * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
   * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
+
+## 370 - Internet of Things (WIP)
+
+* Concepts
+  * [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things)
+  * [Edge computing](https://en.wikipedia.org/wiki/Edge_computing)
+* Standards
+  * [Bluetooth LE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)
+  * [Zigbee](https://en.wikipedia.org/wiki/Zigbee)
+* Devices
+  * [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
+* PaaS
+  * [Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub) - A managed cloud-based service that serves as a central message hub for communication between an IoT application and its connected devices

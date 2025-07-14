@@ -294,6 +294,8 @@
   * [netfilter](https://www.netfilter.org/index.html)
     * [iptables](https://man7.org/linux/man-pages/man8/iptables.8.html)
   * [ubuntu ufw](https://help.ubuntu.com/community/UFW)
+* Password generator
+  * [go-generate-password](https://github.com/m1/go-generate-password)
 
 ## 770 - Cryptography
 

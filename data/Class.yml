@@ -27,20 +27,24 @@ cls300: Web and application
 subcls300: Web and API style standards
 subcls310: Web servers, web proxies, and service mesh
 subcls320: Web application standards and frameworks
-subcls340: Web automation and test tools
-subcls350: CLI/TUI development
-subcls360: Binary and image processing
-subcls370: Mobile/Desktop application development (WIP)
-cls400: Unused
-cls500: Data, ML, and LLM
-subcls500: Data/AI concepts and platforms
-subcls510: Data engineering tools
-subcls520: Databases
-subcls530: Distributed processing, analytics, and application integration
-subcls540: Machine learning
-subcls550: Natural language processing
-subcls560: Deep neural networks
-subcls570: Large language models
+subcls330: Web automation and test tools
+subcls340: CLI/TUI app development
+subcls350: Binary and image processing
+subcls360: Mobile/Desktop app development (WIP)
+subcls370: Internet of Things (WIP)
+cls400: Data science
+subcls400: Data science concepts and platforms
+subcls410: Data engineering tools
+subcls420: Databases
+subcls430: Distributed processing, analytics, and application integration
+subcls440: Search and analytics (WIP)
+cls500: AI, ML, and LLM
+subcls500: AI concepts and common tools
+subcls520: Natural language processing
+subcls530: Machine learning
+subcls540: Deep neural networks
+subcls550: Large Language Models and Agents
+subcls570: Computer Vision (WIP)
 cls600: Business and human (WIP)
 subcls600: Business administration
 subcls610: User analysis and marketing

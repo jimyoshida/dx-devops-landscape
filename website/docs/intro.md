@@ -53,8 +53,8 @@ These links provide stand-alone HTML/PDF files.
 - [Class 100 - Programming](pathname:///usr/docs/main/cls1.map.html)
 - [Class 200 - Infrastructure and delivery](pathname:///usr/docs/main/cls2.map.html)
 - [Class 300 - Web and application](pathname:///usr/docs/main/cls3.map.html)
-- [Class 400 - Unused](pathname:///usr/docs/main/cls4.map.html)
-- [Class 500 - Data, ML, and LLM](pathname:///usr/docs/main/cls5.map.html)
+- [Class 400 - Data science](pathname:///usr/docs/main/cls4.map.html)
+- [Class 500 - AI, ML, and LLM](pathname:///usr/docs/main/cls5.map.html)
 - [Class 600 - Business and human (WIP)](pathname:///usr/docs/main/cls6.map.html)
 - [Class 700 - Security and privacy](pathname:///usr/docs/main/cls7.map.html)
 

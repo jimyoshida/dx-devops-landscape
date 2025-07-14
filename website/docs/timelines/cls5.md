@@ -1,4 +1,4 @@
-# 500 - Data, ML, and LLM
+# 500 - AI, ML, and LLM
 
 ## Timeline
 
