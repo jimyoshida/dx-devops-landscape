@@ -1,4 +1,4 @@
-# 600 - Business and human (WIP)
+# 600 - Business Administration and Human Science
 
 ## 600 - Business administration
 

@@ -1,4 +1,4 @@
-cls000: Agile development and general works
+cls000: Agile Development and General Works
 subcls000: Agile system development
 subcls010: Management and leadership
 subcls020: Systems architecture design
@@ -14,7 +14,7 @@ subcls140: Text and structured text processing
 subcls150: Debugging, logging, and unit testing
 subcls160: Program execution and SDK
 subcls170: Algorithms and data structures
-cls200: Infrastructure and delivery
+cls200: System Administartion, DevOps, and SRE
 subcls200: OS and IP network basics
 subcls210: Linux administration
 subcls220: Domain name system and Email
@@ -23,7 +23,7 @@ subcls240: Kubernetes administration
 subcls250: IaC, configuration management, and continuous delivery
 subcls260: Performance testing, chaos engineering, and FinOps
 subcls270: System observability
-cls300: Web and application
+cls300: Web and Application
 subcls300: Web and API style standards
 subcls310: Web servers, web proxies, and service mesh
 subcls320: Web application standards and frameworks
@@ -32,7 +32,7 @@ subcls340: CLI/TUI app development
 subcls350: Binary and image processing
 subcls360: Mobile/Desktop app development (WIP)
 subcls370: Internet of Things (WIP)
-cls400: Data science
+cls400: Database and Data Science
 subcls400: Data science concepts and platforms
 subcls410: Data engineering tools
 subcls420: Databases
@@ -45,14 +45,14 @@ subcls530: Machine learning
 subcls540: Deep neural networks
 subcls550: Large Language Models and Agents
 subcls570: Computer Vision (WIP)
-cls600: Business and human (WIP)
+cls600: Business Administration and Human Science
 subcls600: Business administration
 subcls610: User analysis and marketing
 subcls620: Economics and game theory
 subcls640: Finance and accounting
 subcls650: Psychology and sociology
 subcls660: Human interface design
-cls700: Security and privacy
+cls700: Security and Privacy
 subcls700: References for security and privacy
 subcls710: Secure software development
 subcls720: Identity and access management

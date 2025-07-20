@@ -1,7 +1,5 @@
 # 100 - Programming
 
-[Show timeline](../timelines/cls1.md)
-
 ## 100 - Programming concepts
 
 * [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text

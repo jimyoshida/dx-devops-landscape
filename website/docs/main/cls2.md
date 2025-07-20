@@ -1,6 +1,4 @@
-# 200 - Infrastructure and delivery
-
-[Show timeline](../timelines/cls2.md)
+# 200 - System Administartion, DevOps, and SRE
 
 ## 200 - OS and IP network basics
 

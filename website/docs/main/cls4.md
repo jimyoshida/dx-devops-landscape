@@ -1,6 +1,4 @@
-# 400 - Data science
-
-[Show timeline](../timelines/cls4.md)
+# 400 - Database and Data Science
 
 ## 400 - Data science concepts and platforms
 

@@ -1,6 +1,4 @@
-# 300 - Web and application
-
-[Show timeline](../timelines/cls3.md)
+# 300 - Web and Application
 
 ## 300 - Web and API style standards
 
@@ -316,11 +314,6 @@
 * Convert to text
   * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
   * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
-  * OCR
-    * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
-      * [gosseract OCR](https://github.com/otiai10/gosseract) - Golang OCR package, by using Tesseract C++ library
-    * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/)
-    * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
   * [xlsx2csv](https://github.com/dilshod/xlsx2csv)
   * [docx2txt](https://github.com/ankushshah89/python-docx2txt)
   * [pptx2md](https://github.com/ssine/pptx2md)

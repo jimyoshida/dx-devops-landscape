@@ -1,33 +1,21 @@
 = DX and DevOps Landscape - Timelines
 Hajime Yoshida <jimyoshida@dummy.com>
-1, 2025-06-10: Dummy
-:description: This document defines (TBD).
+2, 2025-07-21: Restructured
 :doctype: article
 :toc: macro
 :toclevels: 3
 :sectanchors:
 
-[abstract]
-== Abstract
-
-{description}
-
 toc::[]
 
 <<<
 
-include::static/usr/docs/timelines/cls0.adoc[]
+include::static/usr/docs/timelines/1930-79.adoc[]
 
-include::static/usr/docs/timelines/cls1.adoc[]
+include::static/usr/docs/timelines/1980-99.adoc[]
 
-include::static/usr/docs/timelines/cls2.adoc[]
+include::static/usr/docs/timelines/2000-09.adoc[]
 
-include::static/usr/docs/timelines/cls3.adoc[]
+include::static/usr/docs/timelines/2010-19.adoc[]
 
-include::static/usr/docs/timelines/cls4.adoc[]
-
-include::static/usr/docs/timelines/cls5.adoc[]
-
-include::static/usr/docs/timelines/cls6.adoc[]
-
-include::static/usr/docs/timelines/cls7.adoc[]
+include::static/usr/docs/timelines/2020-.adoc[]

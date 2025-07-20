@@ -1,6 +1,4 @@
-# 700 - Security and privacy
-
-[Show timeline](../timelines/cls7.md)
+# 700 - Security and Privacy
 
 ## 700 - References for security and privacy
 

@@ -1,6 +1,4 @@
-# 000 - Agile development and general works
-
-[Show timeline](../timelines/cls0.md)
+# 000 - Agile Development and General Works
 
 ## 000 - Agile system development
 

@@ -1,7 +1,5 @@
 # 500 - AI, ML, and LLM
 
-[Show timeline](../timelines/cls5.md)
-
 ## 500 - AI concepts and common tools
 
 * AI kinds
@@ -161,3 +159,8 @@
 * [Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 * [OpenCV](https://opencv.org/)
 * [GoCV](https://gocv.io/)
+* Traditional OCR
+  * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+    * [gosseract OCR](https://github.com/otiai10/gosseract) - Golang OCR package, by using Tesseract C++ library
+  * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/)
+  * [EasyOCR](https://github.com/JaidedAI/EasyOCR)

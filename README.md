@@ -4,14 +4,14 @@ Please visit the website build with Docusaurus. There is the link in the project
 
 Here is the link list of the source markdown files.  
 
-- [Class 000 - Agile development and general works](website/docs/main/cls0.md)
+- [Class 000 - Agile Development and General Works](website/docs/main/cls0.md)
 - [Class 100 - Programming](website/docs/main/cls1.md)
-- [Class 200 - Infrastructure and delivery](website/docs/main/cls2.md)
-- [Class 300 - Web and application](website/docs/main/cls3.md)
-- [Class 400 - Data science](website/docs/main/cls4.md)
+- [Class 200 - System Administartion, DevOps, and SRE](website/docs/main/cls2.md)
+- [Class 300 - Web and Application](website/docs/main/cls3.md)
+- [Class 400 - Database and Data Science](website/docs/main/cls4.md)
 - [Class 500 - AI, ML, and LLM](website/docs/main/cls5.md)
-- [Class 600 - Business and human (WIP)](website/docs/main/cls6.md)
-- [Class 700 - Security and privacy](website/docs/main/cls7.md)
+- [Class 600 - Business Administration and Human Science](website/docs/main/cls6.md)
+- [Class 700 - Security and Privacy](website/docs/main/cls7.md)
 
 ## License
 

@@ -1,16 +1,10 @@
 = DX and DevOps Landscape - Main
 Hajime Yoshida <jimyoshida@dummy.com>
-1, 2025-06-10: Dummy
-:description: This document defines (TBD).
+1, 2025-06-10: Initial version
 :doctype: article
 :toc: macro
 :toclevels: 3
 :sectanchors:
-
-[abstract]
-== Abstract
-
-{description}
 
 toc::[]
 

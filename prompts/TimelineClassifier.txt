@@ -1,0 +1,18 @@
+For each paragraph in the markdown below, please classify the timeline event into the following classes and put the corresponding emoji at the beginning of the paragraph. 
+The paragraph is one or more statement lines delimited by a blank line. The existing emoji can be replaced.
+
+📜: Programming
+
+⚙️: System Administration, DevOps/SRE
+
+🌐: Web Technology
+
+📊: Data Science and Database
+
+🧠: AI, ML and LLM
+
+🏢: ERP, Business Administration and Human Science
+
+🔐: Security and Privacy
+
+🩷: Others
