@@ -1,6 +1,6 @@
 # Docusaurus site build
 .PHONY: all
-all: markmap pdf
+all: pdf markmap
 	yarn build
 
 # Cleanup
@@ -13,8 +13,8 @@ clean:
 # Custom Files Creation
 
 # Source Files
-MAINPAGES := $(shell ls docs/main/*.md)
-TLPAGES := $(shell ls docs/timelines/*.md)
+MAINPAGES := $(wildcard docs/main/*.md)
+TLPAGES := $(wildcard docs/timelines/*.md)
 
 # Markmap Dest Files
 MAPHTMLS := $(addprefix static/usr/,$(MAINPAGES:.md=.map.html))
@@ -32,7 +32,7 @@ TLADOCS := $(addprefix static/usr/,$(TLPAGES:.md=.adoc))
 
 static/usr/%.adoc: %.md Makefile
 	mkdir -p $(@D)
-	pandoc --from=markdown-smart --to=asciidoc $< | sed -Ef hide-local-links.sed > $@
+	perl editmd.pl < $< | pandoc --from=markdown-smart --to=asciidoc --wrap=none > $@
 
 # PDF Dest Files 
 MAINPDF := static/usr/docs/main.pdf

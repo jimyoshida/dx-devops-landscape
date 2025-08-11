@@ -155,7 +155,7 @@
   * [Mastodon](https://joinmastodon.org/) - A free, open-source decentralized social media platform
   * [Lemmy](https://join-lemmy.org/) - A selfhosted social link aggregation and discussion platform
 * Related books
-  * [*Thinking, Fast and Slow*](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+  * [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 
 ## 660 - Human interface design
 

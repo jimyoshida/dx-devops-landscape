@@ -541,6 +541,7 @@
 ## 160 - Program execution and SDK
 
 * [Compiler](https://en.wikipedia.org/wiki/Compiler)
+  * [Machine code](https://en.wikipedia.org/wiki/Machine_code)
   * [gcc](https://www.gnu.org/software/gcc/)
   * [rustc](https://doc.rust-lang.org/rustc/what-is-rustc.html) - The compiler for the Rust programming language
   * [LLVM Compiler Infrastructure](https://llvm.org/)
@@ -557,6 +558,8 @@
     * [glibc](https://sourceware.org/glibc/)
     * [musl libc](https://musl.libc.org/)
 * [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
+  * [Bytecode](https://en.wikipedia.org/wiki/Bytecode)
+  * [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
   * [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
   * Javascript
     * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
@@ -565,6 +568,7 @@
     * [Deno](https://deno.land/) - A modern runtime for TypeScript and JavaScript
     * [Bun](https://bun.sh/) - A fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript
     * [WinterJS](https://github.com/wasmerio/winterjs) - A blazingly fast JavaScript runtime built on Rust, using the SpiderMonkey engine and the Tokio runtime
+  * Python
     * CPython (default)
     * [pypy](https://www.pypy.org/) - A fast, compliant alternative implementation of Python
     * [Pyodide](https://pyodide.org/en/stable/) - A Python distribution for the browser and Node.js based on WebAssembly

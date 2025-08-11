@@ -2,102 +2,103 @@
 
 ## 700 - References for security and privacy
 
-* [Information security](https://en.wikipedia.org/wiki/Information_security)
-* [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security))
-* [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security))
-  * [Malware](https://en.wikipedia.org/wiki/Malware)
-    * [Ransomware](https://en.wikipedia.org/wiki/Ransomware)
-  * [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
-    * [Phishing](https://en.wikipedia.org/wiki/Phishing)
-* Certifications, Regulations and Standards
-  * NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
-    * AC - Access Control
-    * AT - Awareness and Training
-    * AU - Audit and Accountability
-    * CA - Assessment, Authorization and Monitoring
-    * CM - Configuration Management
-    * CP - Contingency Planning
-    * IA - Identification and Authentication
-    * IR - Incident Response
-    * MA - Maintenance
-    * MP - Media Protection
-    * PE - Physical and Environmental Protection
-    * PL - Planning
-    * PM - Program Management
-    * PS - Personnel Security
-    * PT - Personally Identifiable Information Processing and Transparency
-    * RA - Risk Assessment
-    * SA - System and Services Acquisition
-    * SC - System and Communications Protection
-    * SI - System and Information Integrity
-    * SR - Supply Chain Risk Management
-  * NIST SP 800-171: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations
-  * [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
-    * Data subject requests (DSR)
-    * Breach notification
-    * Data protection impact assessment (DPIA)
-  * [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
-  * ISO/IEC 27001: Information security, cybersecurity and privacy protection — Information security management systems (ISMS)
-  * ISO/IEC 27002: Information security, cybersecurity and privacy protection — Information security controls
-  * ISO/IEC 27018: Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors
-  * [Security Technical Implementation Guides (STIGs)](https://public.cyber.mil/stigs/)
-  * [CIS Controls and Benchmarks](https://www.cisecurity.org/)
-  * [PCI-DSS](https://www.pcisecuritystandards.org/document_library/) - An information security standard used to handle credit cards from major card brands
-  * [SOC 2 (System and Organization Controls)](https://soc2.co.uk/)
-  * [FIPS 140-2 (Security Requirements for Cryptographic Modules)](https://en.wikipedia.org/wiki/FIPS_140-2)
-* [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol/)
-  * [CVE (Common Vulnerabilities and Exposures)](https://cve.mitre.org/cve/)
-  * [OVAL (Open Vulnerability and Assessment Language)](https://oval.mitre.org/)
-  * [CVSS (Common Vulnerability Scoring System)](https://www.first.org/cvss/)
-  * [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/)
-  * [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/)
-* Other references
-  * [CWE/SANS TOP 25](https://www.sans.org/top25-software-errors/)
-  * [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-  * [OWASP Top 10 for LLM](https://genai.owasp.org/llm-top-10/)
-  * [OSV (Open Source Vulnerability)](https://osv.dev/)
-    * [OSV-scanner](https://google.github.io/osv-scanner/)
-  * [SSVC (Stakeholder-Specific Vulnerability Categorization)](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc)
-  * [KEV (Known Exploited Vulnerabilities)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+* Foundational Concepts
+  * [Information security](https://en.wikipedia.org/wiki/Information_security) - The practice of protecting information by mitigating information risks
+  * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - A weakness which can be exploited by a threat actor
+  * [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security)) - A potential negative action or event facilitated by a vulnerability
+    * [Malware](https://en.wikipedia.org/wiki/Malware) - Any software intentionally designed to cause disruption to a computer, server, client, or computer network
+      * [Ransomware](https://en.wikipedia.org/wiki/Ransomware) - A type of malware from cryptovirology that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid
+    * [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) - The psychological manipulation of people into performing actions or divulging confidential information
+      * [Phishing](https://en.wikipedia.org/wiki/Phishing) - A type of social engineering where an attacker sends a fraudulent message designed to trick a person into revealing sensitive information
+      * [Business email compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - A type of phishing attack in which an attacker impersonates a high-level executive and attempts to trick an employee or customer into transferring money or sensitive data
+* Key Regulations and Standards
+  * Laws & Regulations
+    * [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - The toughest privacy and security law in the world
+      * Data subject requests (DSR)
+      * Breach notification
+      * Data protection impact assessment (DPIA)
+    * [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa) - A law that gives consumers more control over the personal information that businesses collect about them
+  * Security & Privacy Frameworks
+    * NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
+      * AC - Access Control
+      * AT - Awareness and Training
+      * AU - Audit and Accountability
+      * CA - Assessment, Authorization and Monitoring
+      * CM - Configuration Management
+      * CP - Contingency Planning
+      * IA - Identification and Authentication
+      * IR - Incident Response
+      * MA - Maintenance
+      * MP - Media Protection
+      * PE - Physical and Environmental Protection
+      * PL - Planning
+      * PM - Program Management
+      * PS - Personnel Security
+      * PT - Personally Identifiable Information Processing and Transparency
+      * RA - Risk Assessment
+      * SA - System and Services Acquisition
+      * SC - System and Communications Protection
+      * SI - System and Information Integrity
+      * SR - Supply Chain Risk Management
+    * NIST SP 800-171: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations
+    * ISO/IEC 27001: Information security, cybersecurity and privacy protection — Information security management systems (ISMS)
+    * ISO/IEC 27002: Information security, cybersecurity and privacy protection — Information security controls
+    * ISO/IEC 27018: Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors
+  * Industry & Audit Standards
+    * [PCI-DSS](https://www.pcisecuritystandards.org/document_library/) - A global standard that provides a baseline of technical and operational requirements designed to protect account data
+    * [SOC 2 (System and Organization Controls)](https://soc2.co.uk/) - A type of audit report that attests to the trustworthiness of a service organization's services and controls
+    * [FIPS 140-2 (Security Requirements for Cryptographic Modules)](https://en.wikipedia.org/wiki/FIPS_140-2) - A U.S. government computer security standard used to approve cryptographic modules
+  * Hardening & Implementation Guides
+    * [Security Technical Implementation Guides (STIGs)](https://www.cyber.mil/stigs/) - The configuration standards for DOD IA and IA-enabled devices/systems
+    * [CIS Controls and Benchmarks](https://www.cisecurity.org/) - A provider of consensus-developed security configuration resources to help you secure your systems
+* Vulnerability Management & Reporting
+  * Identifiers & Enumerations
+    * [CVE (Common Vulnerabilities and Exposures)](https://cve.mitre.org/cve/) - A program to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities
+    * [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/) - A community-developed list of common software and hardware weakness types
+    * [OSV (Open Source Vulnerability)](https://osv.dev/) - An open, precise, and distributed vulnerability database for open source
+      * [OSV-scanner](https://google.github.io/osv-scanner/) - A free, open source vulnerability scanner that provides an officially supported frontend for the OSV.dev database
+  * Scoring & Prioritization
+    * [CVSS (Common Vulnerability Scoring System)](https://www.first.org/cvss/) - An open framework for communicating the characteristics and severity of software vulnerabilities
+    * [SSVC (Stakeholder-Specific Vulnerability Categorization)](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc) - A customized decision-making system for vulnerability management
+    * [KEV (Known Exploited Vulnerabilities)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) - The authoritative source of vulnerabilities that have been exploited in the wild
+  * Protocols & Databases
+    * [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol/) - A suite of specifications used to enable automated vulnerability management, measurement, and policy compliance evaluation of systems
+    * [OVAL (Open Vulnerability and Assessment Language)](https://oval.mitre.org/) - A community-developed information security standard to promote open and publicly available security content
+    * [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/) - The U.S. government repository of standards based vulnerability management data
 
 ## 710 - Secure software development
 
-* [NIST SP 800-207: Zero trust architecture (ZTA)](https://en.wikipedia.org/wiki/Zero_trust_security_model)
-  * All data sources and computing services are considered resources.
-  * All communication is secured regardless of network location.
-  * Access to individual enterprise resources is granted on a per-session basis.
-  * Access to resources is determined by dynamic policy and may include other behavioral and environmental attributes.
-  * The enterprise monitors and measures the integrity and security posture of all owned and associated assets.
-  * All resource authentication and authorization are dynamic and strictly enforced before access is allowed.
-  * The enterprise collects as much information as possible about the current state of assets, network infrastructure and communications and uses it to improve its security posture.
-* [NIST CSF](https://www.nist.gov/cyberframework) - Helping organizations to better understand and improve their management of cybersecurity risk
-* [MITRE ATT&CK](https://attack.mitre.org/) - A globally-accessible knowledge base of adversary tactics and techniques
-  * Tactics: The high-level objectives or goals that an adversary aims to achieve during an attack.
-  * Techniques: The specific methods or ways adversaries achieve their tactical objectives.
-  * Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations.
-* [SLSA framework](https://slsa.dev/) - A specification for describing and incrementally improving supply chain security
-* [in-toto](https://in-toto.io/) - A framework to secure the integrity of software supply chains
-* [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf) - A set of fundamental, sound, and secure software development practices based on established secure software development practice documents
-* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
-* [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
-* [Threat modeling](https://en.wikipedia.org/wiki/Threat_model)
-  * [STRIDE model](https://en.wikipedia.org/wiki/STRIDE_%28security%29)
-    * Spoofing
-    * Tampering
-    * Repudiation
-    * Information disclosure
-    * Denial of service
-    * Elevation of privilege
-  * [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
-* [STIX (Structured Threat Information Expression)](https://oasis-open.github.io/cti-documentation/stix/intro) - A language and serialization format used to exchange cyber threat intelligence (CTI)
-* [Business email compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec)
-* Threat demonstration
+* Foundational Principles & Frameworks
+  * [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) - A set of fundamental, sound, and secure software development practices based on established secure software development practice documents
+  * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+  * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
+  * [NIST SP 800-207: Zero trust architecture (ZTA)](https://en.wikipedia.org/wiki/Zero_trust_security_model)
+    * All data sources and computing services are considered resources.
+    * All communication is secured regardless of network location.
+    * Access to individual enterprise resources is granted on a per-session basis.
+    * Access to resources is determined by dynamic policy and may include other behavioral and environmental attributes.
+    * The enterprise monitors and measures the integrity and security posture of all owned and associated assets.
+    * All resource authentication and authorization are dynamic and strictly enforced before access is allowed.
+    * The enterprise collects as much information as possible about the current state of assets, network infrastructure and communications and uses it to improve its security posture.
+* Software Supply Chain Security
+  * [SLSA framework](https://slsa.dev/) - A specification for describing and incrementally improving supply chain security
+  * [in-toto](https://in-toto.io/) - A framework to secure the integrity of software supply chains
+* [Threat modeling](https://en.wikipedia.org/wiki/Threat_model) - A process by which potential threats can be identified, enumerated, and prioritized from a hypothetical attacker's point of view
+  * [STRIDE model](https://en.wikipedia.org/wiki/STRIDE_%28security%29) - A mnemonic for categorizing computer security threats into six categories
+    * Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege
+  * [MITRE ATT&CK](https://attack.mitre.org/) - A globally-accessible knowledge base of adversary tactics and techniques
+    * Tactics: The high-level objectives or goals that an adversary aims to achieve during an attack.
+    * Techniques: The specific methods or ways adversaries achieve their tactical objectives.
+    * Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations.
+  * Tools
+    * [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - A free, open-source, cross-platform threat modeling application
+    * [threatspec](https://threatspec.org/) - An open source project that helps you to add threat modeling to your software development lifecycle
+* Attack Simulation Tools
   * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 
 ## 720 - Identity and access management
 
 * [Integrated IAM](https://en.wikipedia.org/wiki/Identity_management) - The organizational and technical processes for first registering and authorising the identity and the access rights associated with it
-  * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token) - A proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims
   * [FusionAuth CE](https://fusionauth.io/) - A free, self-hosted version of FusionAuth that you can deploy anywhere
   * [KeyCloak](https://www.keycloak.org/) - An open source Identity and Access Management solution aimed at modern applications and services
   * [FreeIPA](https://www.freeipa.org/) - An integrated security information management solution combining Linux (Fedora), 389 Directory Server, MIT Kerberos, NTP, DNS, Dogtag (Certificate System)
@@ -111,8 +112,11 @@
   * [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) - An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network
   * [OpenLDAP](https://www.openldap.org/) - A free, open source implementation of the Lightweight Directory Access Protocol (LDAP)
   * [389 Directory Server](https://directory.fedoraproject.org/) - A full-featured, open source LDAPv3 compliant server
-* [Authenticarion](https://en.wikipedia.org/wiki/Authentication) - The act of proving an assertion, such as the identity of a computer system user
+* [Authentication](https://en.wikipedia.org/wiki/Authentication) - The act of proving an assertion, such as the identity of a computer system user
   * [Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) - A method for an HTTP user agent (e.g. a web browser) to provide a user name and password when making a request
+  * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token) - A proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims
+  * [TOTP (Time-Based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password)
+    * [PyOTP](https://pyauth.github.io/pyotp/) - The Python One-Time Password Library
   * [OpenID Connect](https://openid.net/connect/) - A simple identity layer on top of the OAuth 2.0 protocol
     * [Dex](https://dexidp.io/) - A Federated OpenID Connect Provider
   * [SAML (Security Assertion Markup Language)](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html) - An XML-based framework for communicating user authentication, entitlement, and attribute information
@@ -143,24 +147,38 @@
     * Authorization server - the server that issues access tokens to the client
   * [Permify](https://github.com/Permify/permify) - An open-source authorization service that helps you to create any kind of authorization system easily with its panel and API
   * [Azure Shared Access Signature (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) - A signed URI that points to one or more storage resources and includes a token that contains a special set of query parameters
+  * Linux Fine-grained Access Control
+    * [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - The distinct units into which the privileges traditionally associated with the superuser are divided
+  * Linux Mandatory Access Control
+    * [SELinux](https://selinuxproject.org/page/Main_Page) - A mandatory access control (MAC) security system for the Linux operating system
+    * [AppArmor](https://apparmor.net/) - An effective and easy-to-use Linux application security system
 
-## 730 - Secure communications
+## 730 - PKI and Secure communications
 
 * [Public key infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure)
-  * Certificate authority (CA)
+  * [Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
+  * [Certificate authority (CA)](https://en.wikipedia.org/wiki/Certificate_authority)
   * Registration authority (RA)
   * Validation authority (VA)
   * [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate)
     * Domain Validated (DV)
     * Organization Validated (OV)
     * Extended Validation (EV)
-  * [cfssl](https://github.com/cloudflare/cfssl#readme) - CloudFlare's PKI/TLS swiss army knife
-  * [cert-manager](https://cert-manager.io) - X.509 certificate management for Kubernetes and OpenShift
   * [Let's Encrypt](https://letsencrypt.org/) - A nonprofit Certificate Authority providing TLS certificates
     * [certbot](https://certbot.eff.org/) - A free, open source software tool for automatically using Let's Encrypt certificates
     * [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)
+  * [mkcert.org](https://mkcert.org/) - A simple zero-config tool to make locally trusted development certificates with any names you'd like
+  * [Certifi](https://certifi.io/) - A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts
+  * [cfssl](https://github.com/cloudflare/cfssl#readme) - CloudFlare's PKI/TLS swiss army knife
+  * [cert-manager](https://cert-manager.io) - X.509 certificate management for Kubernetes and OpenShift
   * [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
+* Code signing
+  * [Sigstore](https://www.sigstore.dev/)
+    * [Fulcio](https://github.com/sigstore/fulcio)
+    * [Rekor](https://github.com/sigstore/rekor)
+    * [Cosign](https://github.com/sigstore/cosign)
 * [TLS (Transport Layer Security)](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+  * [SNI (Server Name Indication)](https://en.wikipedia.org/wiki/Server_Name_Indication)
   * [testssl.sh](https://testssl.sh/) - A free command line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as recent cryptographic flaws and more
   * [OpenSSL library](https://openssl-library.org/) - A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
   * [stunnnel](https://www.stunnel.org/) - A proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code
@@ -169,7 +187,7 @@
   * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - A free implementation of SSH and Telnet for Windows and Unix platforms
   * [keychain](https://www.funtoo.org/Funtoo:Keychain) - helps you to manage SSH and GPG keys in a convenient and secure manner
   * [Python Fablic](https://www.fabfile.org/) - A high level Python library designed to execute shell commands remotely over SSH
-    * [Python Paramiko](https://www.paramiko.org/) - A pure-Python implementation of the SSHv2 protocol
+  * [Python Paramiko](https://www.paramiko.org/) - A pure-Python implementation of the SSHv2 protocol
   * [Go gliderlabs/ssh](https://pkg.go.dev/github.com/gliderlabs/ssh) - wraps the crypto/ssh package with a higher-level API for building SSH servers
   * [Wish](https://github.com/charmbracelet/wish) - An ssh app library
   * [Wishlist](https://github.com/charmbracelet/wishlist) - The ssh directory
@@ -178,9 +196,6 @@
     * [keys.openpgp.org](https://keys.openpgp.org/about) - A public service for the distribution and discovery of OpenPGP-compatible keys
   * [GnuPG](https://gnupg.org/) - A complete and free implementation of the OpenPGP standard
   * [Gpg4win](https://www.gpg4win.org/)
-* [TOTP (Time-Based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password)
-  * [PyOTP](https://pyauth.github.io/pyotp/) - The Python One-Time Password Library
-  * [Botan](https://botan.randombit.net/) - A C++ cryptography library
 * Web security
   * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy)
   * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
@@ -189,7 +204,6 @@
   * [Privacy sandbox](https://developers.google.com/privacy-sandbox)
   * [CSP (Content Security Policy)](https://content-security-policy.com/)
   * [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-  * [SNI (Server Name Indication)](https://en.wikipedia.org/wiki/Server_Name_Indication)
   * [security.txt](https://securitytxt.org/)
 * Email security
   * [STARTTLS](https://en.wikipedia.org/wiki/Opportunistic_TLS)
@@ -199,7 +213,6 @@
     * [OpenDKIM](http://www.opendkim.org/)
   * [DMARC (Domain-based Message Authentication, Reporting & Conformance)](https://dmarc.org/)
   * [S/MIME](https://en.wikipedia.org/wiki/S/MIME)
-  * [OpenPGP/GPG](https://gnupg.org/)
 * [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
 
 ## 740 - Static security check
@@ -220,7 +233,6 @@
   * [PSRule](https://microsoft.github.io/PSRule/stable/) - Build test and governance controls for Infrastructure as Code (IaC)
     * [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/)
 * Cloud security posture management (CSPM)
-  * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
 * Secret detection
   * [Trivy](https://aquasecurity.github.io/trivy/)
@@ -242,11 +254,13 @@
 
 ## 750 - Runtime protection
 
-* Cloud workload protection
+* [Cloud-native application protection platform (CNAPP)](https://www.microsoft.com/en-us/security/business/security-101/what-is-cnapp)
   * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
+* Cloud workload protection platform (CWPP)
   * [Amazon Inspector](https://aws.amazon.com/inspector/)
   * [Falco](https://falco.org/) - A cloud native security tool that provides runtime security across hosts, containers, Kubernetes, and cloud environments
   * [Tracee](https://aquasecurity.github.io/tracee/latest/) - A runtime security and observability tool that helps you understand how your system and applications behave
+  * [ClamAV](https://www.clamav.net/) - An open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats
   * [YARA](https://virustotal.github.io/yara/) - A tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples
 * Security Information and Event Management (SIEM)
   * [Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)
@@ -265,6 +279,7 @@
   * [Snort](https://www.snort.org/) - The foremost Open Source Intrusion Prevention System (IPS) in the world
 * [Extended detection and response (XDR)](https://en.wikipedia.org/wiki/Extended_detection_and_response)
 * [Endpoint detection and response (EDR)](https://en.wikipedia.org/wiki/Endpoint_detection_and_response)
+* [Security orchestration, automation and response (SOAR)](https://en.wikipedia.org/wiki/Security_orchestration)
 
 ## 760 - Other security tools
 
@@ -285,9 +300,6 @@
   * [Open Policy Agent](https://www.openpolicyagent.org/)
     * [Rego Policy Language](https://www.openpolicyagent.org/docs/latest/policy-language/)
     * [Conftest](https://www.conftest.dev/)
-* Linux kernel security
-  * [SELinux](https://selinuxproject.org/page/Main_Page)
-  * [AppArmor](https://apparmor.net/)
 * Network firewall
   * [netfilter](https://www.netfilter.org/index.html)
     * [iptables](https://man7.org/linux/man-pages/man8/iptables.8.html)
