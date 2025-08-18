@@ -35,14 +35,14 @@ These links provide stand-alone HTML/PDF files.
 
 **Mind maps of the elements:**
 
-- [Class 000 - Agile Development and General Works](pathname:///usr/docs/main/cls0.map.html)
+- [Class 000 - Team and Personal Performance](pathname:///usr/docs/main/cls0.map.html)
 - [Class 100 - Programming](pathname:///usr/docs/main/cls1.map.html)
-- [Class 200 - System Administartion, DevOps, and SRE](pathname:///usr/docs/main/cls2.map.html)
+- [Class 200 - System Administartion and SRE](pathname:///usr/docs/main/cls2.map.html)
 - [Class 300 - Web and Application](pathname:///usr/docs/main/cls3.map.html)
-- [Class 400 - Database and Data Science](pathname:///usr/docs/main/cls4.map.html)
-- [Class 500 - AI, ML, and LLM](pathname:///usr/docs/main/cls5.map.html)
-- [Class 600 - Business Administration and Human Science](pathname:///usr/docs/main/cls6.map.html)
-- [Class 700 - Security and Privacy](pathname:///usr/docs/main/cls7.map.html)
+- [Class 400 - Data Science and Engineering](pathname:///usr/docs/main/cls4.map.html)
+- [Class 500 - AI, Machine Learning, and LLM](pathname:///usr/docs/main/cls5.map.html)
+- [Class 600 - Security and Privacy](pathname:///usr/docs/main/cls6.map.html)
+- [Class 700 - Business Strategy and UX Design](pathname:///usr/docs/main/cls7.map.html)
 
 **Assembled PDF version:**
 

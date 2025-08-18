@@ -1,6 +1,6 @@
 # 300 - Web and Application
 
-## 300 - Web and API style standards
+## 300 - Web and API Style Standards
 
 * [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - An information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet
   * [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - A text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access
@@ -52,7 +52,7 @@
 * Profiler
   * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
-## 310 - Web servers, web proxies, and service mesh
+## 310 - Web Servers, Web Proxies, and Service Mesh
 
 * [NGINX](https://www.nginx.com/) - A high-performance, scalable, and reliable web server, reverse proxy, and load balancer
 * [Apache HTTP Server](https://httpd.apache.org/) - A project to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows
@@ -98,7 +98,7 @@
   * [Linkerd](https://linkerd.io/)
   * [traefik mesh](https://traefik.io/traefik-mesh/) - a straight-forward, easy to configure, and non-invasive service mesh
 
-## 320 - Web application standards and frameworks
+## 320 - Web Application Standards and Frameworks
 
 * [Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
 * JS/TS frameworks for backend
@@ -174,7 +174,7 @@
   * [babel](https://babeljs.io/) - A JavaScript compiler
   * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
 
-## 330 - Web automation and test tools
+## 330 - Web Automation and Test Tools
 
 * CLIs
   * [cURL](https://curl.haxx.se/)
@@ -222,7 +222,7 @@
   * [gofakeit](https://github.com/brianvoe/gofakeit) - A random data generator written in go
   * [Fake-rs](https://github.com/cksac/fake-rs) - A library for generating fake data in Rust
 
-## 340 - CLI/TUI app development
+## 340 - CLI/TUI App Development
 
 * Bash
   * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
@@ -273,7 +273,7 @@
 * C
   * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
 
-## 350 - Binary and image processing
+## 350 - Binary and Image Processing
 
 * Compression and archiving
   * [GNU Gzip](https://www.gnu.org/software/gzip/)
@@ -318,7 +318,7 @@
   * [docx2txt](https://github.com/ankushshah89/python-docx2txt)
   * [pptx2md](https://github.com/ssine/pptx2md)
 
-## 360 - Mobile/Desktop app development (WIP)
+## 360 - Mobile/Desktop App Development (WIP)
 
 * [Android](https://www.android.com/)
   * [Android Studio](https://developer.android.com/studio)

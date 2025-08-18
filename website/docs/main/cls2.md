@@ -1,6 +1,6 @@
-# 200 - System Administartion, DevOps, and SRE
+# 200 - System Administartion and SRE
 
-## 200 - OS and IP network basics
+## 200 - OS and IP Network Basics
 
 * [Operating system](https://en.wikipedia.org/wiki/Operating_system)
   * [POSIX](https://en.wikipedia.org/wiki/POSIX)
@@ -86,7 +86,7 @@
 * Type-1 hypervisor
   * [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
 
-## 210 - Linux administration
+## 210 - Linux Administration
 
 * Linux distros for hosts
   * [Ubuntu server](https://ubuntu.com/server) - The standard platform for public clouds, on-premises, and IoT devices
@@ -193,7 +193,7 @@
     * [TightVNC](https://www.tightvnc.com/)
   * [Mosh](https://mosh.org/) - A replacement for interactive SSH terminals
 
-## 220 - Domain name system and Email
+## 220 - Domain Name System and Email
 
 * [DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
   * [IANA WHOIS Service](https://www.iana.org/whois)
@@ -241,7 +241,7 @@
   * [Amazon SES](https://aws.amazon.com/ses/)
   * [Twilio SendGrid](https://www.twilio.com/sendgrid/email-api)
 
-## 230 - Linux container and WebAssembly
+## 230 - Linux Container and WebAssembly
 
 * Linux distros for containers
   * [Alpine Linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
@@ -282,7 +282,7 @@
   * [Wasmtime](https://wasmtime.dev/) - A fast and secure runtime for WebAssembly
   * [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
 
-## 240 - Kubernetes administration
+## 240 - Kubernetes Administration
 
 * [Kubernetes](https://kubernetes.io/)
 * K8s as a service
@@ -361,7 +361,7 @@
   * [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes)
   * [Rook](https://rook.io/) - Storage Operators for Kubernetes
 
-## 250 - IaC, configuration management, and continuous delivery
+## 250 - IaC, Configuration Management, and Continuous Delivery
 
 * Configuration management and infrastructure as code
   * [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
@@ -411,7 +411,7 @@
   * [Semantic Versioning](https://semver.org/)
     * [semver](https://github.com/npm/node-semver#readme)
 
-## 260 - Performance testing, chaos engineering, and FinOps
+## 260 - System Testing, Chaos Engineering, and FinOps
 
 * [Performance testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
   * [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
@@ -436,7 +436,7 @@
   * [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing cloud resources
 
-## 270 - System observability
+## 270 - System Observability
 
 * [Observability](https://en.wikipedia.org/wiki/Observability_(software))
 * Data shipping

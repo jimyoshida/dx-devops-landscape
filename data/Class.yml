@@ -1,63 +1,64 @@
-cls000: Agile Development and General Works
-subcls000: Agile system development
-subcls010: Management and leadership
-subcls020: Systems architecture design
-subcls030: Logic, mathematics and statistics
+cls000: Team and Personal Performance
+subcls000: Agile System Development
+subcls010: Management and Leadership
+subcls020: Systems Architecture Design
+subcls030: Logic and Set Theory
 subcls040: Documentation
-subcls050: OSS assets and open data
+subcls050: OSS Community and Open Data
+subcls060: Psychology and Sociology
 cls100: Programming
-subcls100: Programming concepts
-subcls110: Shell and terminal
-subcls120: SCM, editor/IDE, and code quality
-subcls130: Programming language features
-subcls140: Text and structured text processing
-subcls150: Debugging, logging, and unit testing
-subcls160: Program execution and SDK
-subcls170: Algorithms and data structures
-cls200: System Administartion, DevOps, and SRE
-subcls200: OS and IP network basics
-subcls210: Linux administration
-subcls220: Domain name system and Email
-subcls230: Linux container and WebAssembly
-subcls240: Kubernetes administration
-subcls250: IaC, configuration management, and continuous delivery
-subcls260: Performance testing, chaos engineering, and FinOps
-subcls270: System observability
+subcls100: Programming Concepts
+subcls110: Shell and Terminal
+subcls120: SCM, Editor/IDE, and Code Quality
+subcls130: Programming Language Features
+subcls140: Text and Structured Text Processing
+subcls150: Debugging, Logging, and Unit Testing
+subcls160: Program Execution and SDK
+subcls170: Algorithms and Data Structures
+cls200: System Administartion and SRE
+subcls200: OS and IP Network Basics
+subcls210: Linux Administration
+subcls220: Domain Name System and Email
+subcls230: Linux Container and WebAssembly
+subcls240: Kubernetes Administration
+subcls250: IaC, Configuration Management, and Continuous Delivery
+subcls260: System Testing, Chaos Engineering, and FinOps
+subcls270: System Observability
 cls300: Web and Application
-subcls300: Web and API style standards
-subcls310: Web servers, web proxies, and service mesh
-subcls320: Web application standards and frameworks
-subcls330: Web automation and test tools
-subcls340: CLI/TUI app development
-subcls350: Binary and image processing
-subcls360: Mobile/Desktop app development (WIP)
+subcls300: Web and API Style Standards
+subcls310: Web Servers, Web Proxies, and Service Mesh
+subcls320: Web Application Standards and Frameworks
+subcls330: Web Automation and Test Tools
+subcls340: CLI/TUI App Development
+subcls350: Binary and Image Processing
+subcls360: Mobile/Desktop App Development (WIP)
 subcls370: Internet of Things (WIP)
-cls400: Database and Data Science
-subcls400: Data science concepts and platforms
-subcls410: Data engineering tools
-subcls420: Databases
-subcls430: Distributed processing, analytics, and application integration
-subcls440: Search and analytics (WIP)
-cls500: AI, ML, and LLM
-subcls500: AI concepts and common tools
-subcls520: Natural language processing
-subcls530: Machine learning
-subcls540: Deep neural networks
+cls400: Data Science and Engineering
+subcls400: Data Science Concepts and Platforms
+subcls410: Data Engineering Tools
+subcls420: SQL and NoSQL Databases
+subcls430: Distributed Processing and Application Integration
+subcls440: Search and Analytics (WIP)
+subcls450: Mathematics and Statistics
+cls500: AI, Machine Learning, and LLM
+subcls500: AI Concepts and Common Tools
+subcls520: Natural Language Processing
+subcls530: Machine Learning
+subcls540: Deep Neural Networks
 subcls550: Large Language Models and Agents
 subcls570: Computer Vision (WIP)
-cls600: Business Administration and Human Science
-subcls600: Business administration
-subcls610: User analysis and marketing
-subcls620: Economics and game theory
-subcls640: Finance and accounting
-subcls650: Psychology and sociology
-subcls660: Human interface design
-cls700: Security and Privacy
-subcls700: References for security and privacy
-subcls710: Secure software development
-subcls720: Identity and access management
-subcls730: Secure communications
-subcls740: Static security check
-subcls750: Runtime protection
-subcls760: Other security tools
-subcls770: Cryptography
+cls600: Security and Privacy
+subcls600: References for Security and Privacy
+subcls610: Secure Software Development
+subcls620: Identity and Access Management
+subcls630: PKI and Secure Communications
+subcls640: Static Security Check
+subcls650: Runtime Protection
+subcls660: Other Security Tools
+subcls670: Cryptography
+cls700: Business Strategy and UX Design
+subcls700: Business Administration
+subcls710: User Analysis and Marketing
+subcls720: Economics and Game Theory
+subcls740: Finance and Accounting
+subcls760: Human Interface Design

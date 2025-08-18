@@ -1,6 +1,6 @@
-# 400 - Database and Data Science
+# 400 - Data Science and Engineering
 
-## 400 - Data science concepts and platforms
+## 400 - Data Science Concepts and Platforms
 
 * [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing application software
 * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
@@ -40,7 +40,7 @@
     * [Rclone](https://rclone.org/) - A command-line program to manage files on cloud storage
     * [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) - A standalone app making it easy to work with Azure Storage data on Windows, macOS, and Linux
 
-## 410 - Data engineering tools
+## 410 - Data Engineering Tools
 
 * Interactive computing environment
   * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
@@ -79,7 +79,7 @@
   * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - Free geolocation data
   * [WordCloud for Python](https://amueller.github.io/word_cloud/)
 
-## 420 - Databases
+## 420 - SQL and NoSQL Databases
 
 * [Relational model](https://en.wikipedia.org/wiki/Relational_model)
   * [Structured Query Language (SQL)](https://en.wikipedia.org/wiki/SQL)
@@ -146,7 +146,7 @@
     * [Milvus](https://zilliz.com/what-is-milvus) - A high-performance open-source vector database built to handle billions of vectors
     * [Chroma](https://www.trychroma.com/) - The AI-native open-source embedding database
 
-## 430 - Distributed processing, analytics, and application integration
+## 430 - Distributed Processing and Application Integration
 
 * Frameworks
   * [Apache Hadoop](https://hadoop.apache.org/) - A framework that allows for the distributed processing of large data sets
@@ -181,7 +181,7 @@
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
   * [Apache Kafka](https://kafka.apache.org/) - An open-source distributed event streaming platform
 
-## 440 - Search and analytics (WIP)
+## 440 - Search and Analytics (WIP)
 
 * [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
   * [Apache Lucene](https://lucene.apache.org/) - A Java library providing powerful indexing and search features
@@ -192,3 +192,49 @@
   * [ElasticSearch vector database](https://www.elastic.co/elasticsearch/vector-database)
 * [Apache Solr](https://solr.apache.org/)
 * [Faiss](https://faiss.ai/) - A library for efficient similarity search and clustering of dense vectors
+
+## 450 - Mathematics and Statistics
+
+* [Algebra](https://en.wikipedia.org/wiki/Algebra) - A branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems
+  * [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+  * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
+    * [Equation](https://en.wikipedia.org/wiki/Equation)
+    * [Logarithm](https://en.wikipedia.org/wiki/Logarithm)
+  * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+    * [Vector space](https://en.wikipedia.org/wiki/Vector_space)
+    * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+    * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
+    * [Determinant](https://en.wikipedia.org/wiki/Determinant)
+* [Calculus](https://en.wikipedia.org/wiki/Calculus)
+  * [Differential calculus](https://en.wikipedia.org/wiki/Differential_calculus)
+  * [Integral calculus](https://en.wikipedia.org/wiki/Integral)
+  * [Differential equation](https://en.wikipedia.org/wiki/Differential_equation)
+* [Geometry](https://en.wikipedia.org/wiki/Geometry)
+  * [Trigonometry](https://en.wikipedia.org/wiki/Trigonometry)
+  * [Coordinate system](https://en.wikipedia.org/wiki/Coordinate_system)
+  * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
+* [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
+  * [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+  * [Central limit theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem)
+* [Statistics](https://en.wikipedia.org/wiki/Statistics)
+  * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics))
+  * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals)
+  * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)
+  * [Correlation](https://en.wikipedia.org/wiki/Correlation)
+    * [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+  * [Hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
+    * [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis)
+    * [Confidence interval (CI)](https://en.wikipedia.org/wiki/Confidence_interval)
+    * [P-value](https://en.wikipedia.org/wiki/P-value)
+* Numerical methods
+  * [Significant figures](https://en.wikipedia.org/wiki/Significant_figures)
+* Resources
+  * [Openstax Introductory Statistics](https://openstax.org/details/books/introductory-statistics/)
+  * [OpenIntro Statistics](https://www.openintro.org/book/os/)
+* Libraries
+  * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
+  * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
+  * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
+  * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
+  * [SageMath](https://www.sagemath.org/)
+  * [statsmodels](https://www.statsmodels.org/stable/index.html)

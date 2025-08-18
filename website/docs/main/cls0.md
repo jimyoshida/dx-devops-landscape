@@ -1,6 +1,6 @@
-# 000 - Agile Development and General Works
+# 000 - Team and Personal Performance
 
-## 000 - Agile system development
+## 000 - Agile System Development
 
 * [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) - An umbrella term for approaches to developing software that reflect the values and principles agreed upon by The Agile Alliance
   * [Agile Manifesto](https://agilemanifesto.org/) - A document that proclaims better ways of developing software by valuing individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan
@@ -60,7 +60,7 @@
     * [RSpec](https://rspec.info/) - A testing tool for the Ruby programming language, created for behavior-driven development (BDD)
     * [Behave](https://behave.readthedocs.io/en/latest/) - A tool for behaviour-driven development (BDD) in Python, using tests written in a natural language style, backed up by Python code
 
-## 010 - Management and leadership
+## 010 - Management and Leadership
 
 * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
 * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
@@ -115,7 +115,7 @@
   * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
 * [STEAM education](https://en.wikipedia.org/wiki/STEAM_education) - An approach to teaching STEM subjects that incorporates artistic skills like creative thinking and design
 
-## 020 - Systems architecture design
+## 020 - Systems Architecture Design
 
 * [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
   * [Systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) - The conceptual model that defines the structure, behavior, and more views of a system
@@ -175,7 +175,7 @@
 * [Architectural Decision Records (ADRs)](https://adr.github.io/)
   * [adr-tools](https://github.com/npryce/adr-tools)
 
-## 030 - Logic, mathematics and statistics
+## 030 - Logic and Set Theory
 
 * [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
   * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
@@ -186,62 +186,24 @@
     * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
   * [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
     * universal quantification and existential quantification
-* [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
-* [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model) - An abstract description of a concrete system using mathematical concepts and language
-* [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-* [Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)
-* [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
-  * [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
-  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
-    * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
-  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
-    * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
-* [Algebra](https://en.wikipedia.org/wiki/Algebra) - A branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems
-  * [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
-  * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
-    * [Equation](https://en.wikipedia.org/wiki/Equation)
-  * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
-    * [Vector space](https://en.wikipedia.org/wiki/Vector_space)
-    * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-    * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
-    * [Determinant](https://en.wikipedia.org/wiki/Determinant)
-* [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
-* [Function](https://en.wikipedia.org/wiki/Function_(mathematics)) - establishes a relation between the elements of the domain and some (possibly all) elements of the codomain
+  * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
+    * [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
+* [Set Theory](https://en.wikipedia.org/wiki/Set_theory)
+  * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
+  * [Function](https://en.wikipedia.org/wiki/Function_(mathematics)) - establishes a relation between the elements of the domain and some (possibly all) elements of the codomain
   * [Map](https://en.wikipedia.org/wiki/Map_(mathematics)) - A function in its general sense
   * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
     * [Idempotence](https://en.wikipedia.org/wiki/Idempotence)
+* Related Fields
+  * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
+  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
+  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
+  * [Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)
+* Resources
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)
     * [Notations](https://dlmf.nist.gov/not/)
-* [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
-* [Differential calculus](https://en.wikipedia.org/wiki/Differential_calculus)
-* [Differential equation](https://en.wikipedia.org/wiki/Differential_equation)
-* [Logarithm](https://en.wikipedia.org/wiki/Logarithm)
-* [Statistics](https://en.wikipedia.org/wiki/Statistics)
-  * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics))
-  * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals)
-  * [Significant figures](https://en.wikipedia.org/wiki/Significant_figures)
-  * [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
-    * [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
-    * [Naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
-    * [Central limit theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem)
-  * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)
-  * [Correlation](https://en.wikipedia.org/wiki/Correlation)
-    * [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
-  * [Hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
-    * [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
-    * [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis)
-    * [Confidence interval (CI)](https://en.wikipedia.org/wiki/Confidence_interval)
-    * [P-value](https://en.wikipedia.org/wiki/P-value)
-  * Textbooks
-    * [Openstax Introductory Statistics](https://openstax.org/details/books/introductory-statistics/)
-    * [OpenIntro Statistics](https://www.openintro.org/book/os/)
-* Math/stats tools
-  * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
-  * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
-  * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
-  * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
-  * [SageMath](https://www.sagemath.org/)
-  * [statsmodels](https://www.statsmodels.org/stable/index.html)
+  * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
+  * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
 
 ## 040 - Documentation
 
@@ -322,7 +284,7 @@
   * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
   * [WordPress](https://wordpress.org/)- A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
 
-## 050 - OSS assets and open data
+## 050 - OSS Community and Open Data
 
 * OSS repositories or registries
   * [GitHub](https://github.com/)
@@ -374,3 +336,29 @@
   * [OpenStreetMap](https://www.openstreetmap.org/about)
 * Data search engine
   * [Google Dataset search](https://datasetsearch.research.google.com/)
+
+## 060 - Psychology and Sociology
+
+* Personal performance
+  * [Mindfullness](https://en.wikipedia.org/wiki/Mindfulness) - The basic human ability to be fully present, aware of where we are and what we're doing, and not overly reactive or overwhelmed by what's going on around us
+    * [Zen](https://en.wikipedia.org/wiki/Zen) - A school of Mahayana Buddhism that originated in China during the Tang dynasty
+  * [Flow](https://en.wikipedia.org/wiki/Flow_(psychology)) - The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity
+  * [Defence mechanism](https://en.wikipedia.org/wiki/Defence_mechanism) - Unconscious psychological processes that protect the self from anxiety-producing thoughts and feelings related to internal conflicts and external stressors
+  * [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) - A conceptualisation of the needs (or goals) that motivate human behaviour
+  * [Cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - A systematic pattern of deviation from norm or rationality in judgment
+  * [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network) - A large-scale brain network; known for being active when a person is not focused on the outside world and the brain is at wakeful rest
+  * [Psychological resilience](https://en.wikipedia.org/wiki/Psychological_resilience) - The ability to cope mentally and emotionally with a crisis, or to return to pre-crisis status quickly
+  * [Situation awareness](https://en.wikipedia.org/wiki/Situation_awareness) - The understanding of an environment, its elements, and how it changes with respect to time or other factors
+    * 1: Perception of the elements in the environment.
+    * 2: Comprehension or understanding of the situation.
+    * 3: Projection of future status.
+* Team performance
+  * [Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety) - The belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes
+  * [Trust](https://en.wikipedia.org/wiki/Trust_(social_science)) - The belief that another person will do what is expected
+  * [Collective intelligence](https://en.wikipedia.org/wiki/Collective_intelligence) - The shared or group intelligence that emerges from the collaboration, collective efforts, and competition of many individuals and appears in consensus decision making
+* Related Books
+  * [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+* Related Fields
+  * [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory) - A criminological theory that states that visible signs of crime, anti-social behavior, and civil disorder create an urban environment that encourages further crime and disorder, including serious crimes
+  * [Stone soup story](https://en.wikipedia.org/wiki/Stone_Soup) - A European folk story in which hungry strangers convince the people of a town to each share a small amount of their food in order to make a meal
+  * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog) - An apologue describing a frog being slowly boiled alive

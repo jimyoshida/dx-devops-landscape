@@ -1,6 +1,6 @@
 # 100 - Programming
 
-## 100 - Programming concepts
+## 100 - Programming Concepts
 
 * [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
 * [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - A syntactic unit of an imperative programming language that expresses some action to be carried out
@@ -77,7 +77,7 @@
   * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
   * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity
 
-## 110 - Shell and terminal
+## 110 - Shell and Terminal
 
 * [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
   * [Line editing](https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html)
@@ -149,7 +149,7 @@
 * Linux on Windows
   * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
-## 120 - SCM, editor/IDE, and code quality
+## 120 - SCM, Editor/IDE, and Code Quality
 
 * Source code management
   * [Distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control)
@@ -244,7 +244,7 @@
   * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
   * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
 
-## 130 - Programming language features
+## 130 - Programming Language Features
 
 * Bash (-> see Class 110)
 * [Perl](https://www.perl.org/)
@@ -348,7 +348,7 @@
   * [Callback Hell](http://callbackhell.com/)
   * [Effective Go](https://golang.org/doc/effective_go.html)
 
-## 140 - Text and structured text processing
+## 140 - Text and Structured Text Processing
 
 * [ASCII](https://en.wikipedia.org/wiki/ASCII) - A character encoding standard for electronic communication
 * [Unicode](https://home.unicode.org/) - The universal character encoding standard
@@ -458,7 +458,7 @@
   * [Bison](https://www.gnu.org/software/bison/)
   * [Flex](https://github.com/westes/flex)
 
-## 150 - Debugging, logging, and unit testing
+## 150 - Debugging, Logging, and Unit Testing
 
 * Debuggers and loggers
   * Python
@@ -538,7 +538,7 @@
   * [Unit testing best practices with .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
   * [JS Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 
-## 160 - Program execution and SDK
+## 160 - Program Execution and SDK
 
 * [Compiler](https://en.wikipedia.org/wiki/Compiler)
   * [Machine code](https://en.wikipedia.org/wiki/Machine_code)
@@ -644,7 +644,7 @@
   * [asdf](https://asdf-vm.com/) - A tool version manager
   * [tenv](https://github.com/tofuutils/tenv) - A versatile version manager for OpenTofu, Terraform, Terragrunt and Atmos
 
-## 170 - Algorithms and data structures
+## 170 - Algorithms and Data Structures
 
 * [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
   * [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
