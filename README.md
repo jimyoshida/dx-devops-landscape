@@ -4,6 +4,7 @@ Please visit the website build with Docusaurus. There is the link in the project
 
 Here is the link list of the source markdown files.  
 
+- [Introduction](website/docs/intro.md)
 - [Class 000 - Team and Personal Performance](website/docs/main/cls0.md)
 - [Class 100 - Programming](website/docs/main/cls1.md)
 - [Class 200 - System Administartion and SRE](website/docs/main/cls2.md)

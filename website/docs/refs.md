@@ -12,5 +12,6 @@ sidebar_position: 4
   - [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
   - [Developer Roadmaps](https://roadmap.sh)
   - [Golang Weekly](https://golangweekly.com/)
-  - [This Week in Rust](https://this-week-in-rust.org/)
+  - [Ruby Weekly](https://rubyweekly.com/)
+  - [Postgres Weekly](https://postgresweekly.com/)
   - and so on

@@ -55,18 +55,17 @@ while ( my $line = <$fh_in> ) {
             print $fh_out $line;
             print "Skipped header $hashes $number on line $.\n";
         }
-    } elsif ( $line =~ /^\-\s\[Class\s(\d{3}).*](.*)$/ ) {
-        # Regex to match lines starting with '-' (list item)
-        # followed by a space, '[', then a 3-digit number, optional string, ']', then the rest of the line.
-        my $number = $1; # The 3-digit number
-        my $rest = $2; # The rest of the line
+    } elsif ( $line =~ /^(.*)Class\s(\d{3})\s-\s\w[\w\s,]*([\]|\|].*)$/ ) {
+        my $head = $1;
+        my $number = $2; # The 3-digit number
+        my $tail = $3;
     
         my $key; # The key to be used for lookup in the hash
         $key = "cls" . $number;
         
         # Check if the key exists in the hash
         if ( exists $class_dict{$key} ) {
-            print $fh_out "- [Class $number - $class_dict{$key}]$rest\n";
+            print $fh_out "${head}Class $number - $class_dict{$key}$tail\n";
             print "Rewrote Class $number on line $.\n";
         } else {
             # If the key is not in the hash, write the original line
