@@ -6,10 +6,9 @@
   * [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - A text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access
   * [URL](https://url.spec.whatwg.org/) - A standard that defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API
   * [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) - A unique sequence of characters that identifies a logical or physical resource
-    * [Perl URI](https://metacpan.org/pod/URI) - A class whose objects represent "Uniform Resource Identifier references" as specified in RFC 2396
+    * [Ruby module URI](https://docs.ruby-lang.org/en/master/URI.html) - A module providing classes to handle Uniform Resource Identifiers (RFC2396)
   * [HTML](https://html.spec.whatwg.org/) - The World Wide Web's core markup language
     * [Server-sent events](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) - A technology to enable servers to push data to web pages over HTTP or using dedicated server-push protocols
-    * [Perl Html::Entities](https://metacpan.org/pod/HTML::Entities) - A module that deals with encoding and decoding of strings with HTML character entities
   * [CSS](https://www.w3.org/Style/CSS/) - A simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents
   * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
 * [HTTP](https://en.wikipedia.org/wiki/HTTP) - An application protocol for distributed, collaborative, hypermedia information systems
@@ -177,24 +176,24 @@
 ## 330 - Web Automation and Test Tools
 
 * CLIs
-  * [cURL](https://curl.haxx.se/)
-  * [Wget](https://www.gnu.org/software/wget/)
+  * [cURL](https://curl.haxx.se/) - A command line tool and library for transferring data with URLs
+  * [Wget](https://www.gnu.org/software/wget/) - A free software package for retrieving files using HTTP, HTTPS, FTP and FTPS
   * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
   * [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
-  * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection
+  * [wuzz](https://github.com/asciimoo/wuzz) - An interactive cli tool for HTTP inspection
 * Libraries
-  * [Python Requests](https://docs.python-requests.org/en/latest/)
-  * [JS Axios](https://axios-http.com/)
-  * [Go Resty](https://github.com/go-resty/resty)
-  * [Go FastHTTP](https://github.com/valyala/fasthttp)
-  * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/)
-  * [Perl LWP](https://metacpan.org/pod/LWP) (reference)
+  * [Ruby module Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
+  * [Python Requests](https://docs.python-requests.org/en/latest/) - An elegant and simple HTTP library for Python, built for human beings
+  * [JS Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
+  * [Go Resty](https://github.com/go-resty/resty) - A simple HTTP and REST client library for Go
+  * [Go FastHTTP](https://github.com/valyala/fasthttp) - A fast HTTP package for Go
+  * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - An ergonomic, async HTTP client
 * Browser automation and test
-  * [Puppeteer](https://developer.chrome.com/docs/puppeteer/)
-  * [Playwright](https://playwright.dev/)
+  * [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - A Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol
+  * [Playwright](https://playwright.dev/) - A framework for Web Testing and Automation
   * [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
-    * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
-    * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - Open source record and playback test automation for the web
+    * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
+    * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
     * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
 * Web scraping
   * [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
@@ -238,6 +237,7 @@
   * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable) - A module to create a formatted table using ASCII characters and ANSI colors
 * Python
   * [argparse](https://docs.python.org/3/library/argparse.html) - The module for parsing command-line arguments
+  * [getopt](https://docs.python.org/3/library/getopt.html) - The C-style parser for command line options
   * [click](https://palletsprojects.com/p/click/) - A Python package for creating beautiful command line interfaces in a composable way with as little code as necessary
   * [Colorama](https://github.com/tartley/colorama) - A simple cross-platform API for printing colored terminal text from Python
   * [Typer](https://typer.tiangolo.com/) - A library for building CLI applications that users will love using and developers will love creating
@@ -276,33 +276,34 @@
 ## 350 - Binary and Image Processing
 
 * Compression and archiving
-  * [GNU Gzip](https://www.gnu.org/software/gzip/)
-  * [GNU tar](https://www.gnu.org/software/tar/)
-  * [Info-Zip](https://sourceforge.net/projects/infozip/) - Portable compression/archiver utilities
+  * [GNU Gzip](https://www.gnu.org/software/gzip/) - A popular data compression program
+  * [GNU tar](https://www.gnu.org/software/tar/) - A program that provides the ability to create tar archives, as well as various other kinds of manipulation
+  * [Info-Zip](https://sourceforge.net/projects/infozip/) - A set of open-source software for handling ZIP archives
   * [P7ZIP](https://p7zip.sourceforge.net/) - A port of 7za.exe for POSIX systems
-  * [Python Data Compression and Archiving libs](https://docs.python.org/3/library/archiving.html)
-  * [Go compress libs](https://pkg.go.dev/compress)
-  * [Go archive libs](https://pkg.go.dev/archive)
+  * [Python Data Compression and Archiving libs](https://docs.python.org/3/library/archiving.html) - The modules that support data compression and the creation and reading of archives
+  * [Go compress libs](https://pkg.go.dev/compress) - A package that defines a common interface to compression and decompression algorithms
+  * [Go archive libs](https://pkg.go.dev/archive) - A package that defines a common interface for accessing archived file formats
   * [JSZip](https://stuk.github.io/jszip/) - A javascript library for creating, reading and editing .zip files
+  * [Ruby module Zlib](https://docs.ruby-lang.org/en/master/Zlib.html) - A module that contains classes for compressing and decompressing streams, and for working with gzip-format files
   * [zlib](https://zlib.net/) - A free, general-purpose, legally unencumbered lossless data-compression library for use on virtually any computer hardware and operating system
   * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
 * Binary file processing
   * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
   * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
-  * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html)
+  * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html) - A filter which displays the specified files, or the standard input, in a user specified format
   * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
-  * [bed](https://github.com/itchyny/bed) - Binary editor written in Go
-  * [fq](https://github.com/wader/fq) - Inspired by the jq tool and language and allows you to work with binary formats in the same way
-  * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - Read and write meta information in files
+  * [bed](https://github.com/itchyny/bed) - A binary editor written in Go
+  * [fq](https://github.com/wader/fq) - A tool inspired by jq that lets you poke at binary formats
+  * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - A command-line application and Perl library for reading and writing meta information in files
   * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
   * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
   * [Native WebP for Go](https://github.com/HugoSmits86/nativewebp) - A native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries
 * PDF document processing
-  * [PDF](https://en.wikipedia.org/wiki/PDF)
-  * [Ghostscript](https://www.ghostscript.com/) - offers unmatched PDL conversion, multi-platform support, and customizable modules
+  * [PDF](https://en.wikipedia.org/wiki/PDF) - A file format developed by Adobe to present documents in a manner independent of application software, hardware, and operating systems
+  * [Ghostscript](https://www.ghostscript.com/) - A suite of software based on an interpreter for Adobe Systems' PostScript and Portable Document Format page description languages
   * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
   * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
-  * [pdfcpu](https://pdfcpu.io/) - A Go PDF processor
+  * [pdfcpu](https://pdfcpu.io/) - A PDF processor written in Go
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
   * [Prawn PDF](https://prawnpdf.org/) - A fast, nimble PDF generator for Ruby

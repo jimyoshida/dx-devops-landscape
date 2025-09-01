@@ -22,16 +22,16 @@ While the DSS provides useful guidelines, frankly speaking, there are problems w
 
 Taking the above into consideration, the classification of this site corresponds to the DSS as follows:
 
-| Class in this site | Category in DSS-P v1.2      |
-| ------------------ | --------------------------- |
-| Class 000 - Team and Personal Performance| Personal skills, Technology |
-| Class 100 - Programming| Technology |
-| Class 200 - System Administartion and SRE| Technology |
-| Class 300 - Web and Application| Technology |
-| Class 400 - Data Science and Engineering| Data utilization |
-| Class 500 - AI, Machine Learning, and LLM| Data utilization |
-| Class 600 - Security and Privacy| Security |
-| Class 700 - Business Strategy and UX Design| Business transformation |
+| Class in this site                                          | Category in DSS-P v1.2      |
+| ----------------------------------------------------------- | --------------------------- |
+| [Class 000 - Team and Personal Performance](main/cls0.md)   | Personal skills, Technology |
+| [Class 100 - Programming](main/cls1.md)                     | Technology                  |
+| [Class 200 - System Administartion and SRE](main/cls2.md)   | Technology                  |
+| [Class 300 - Web and Application](main/cls3.md)             | Technology                  |
+| [Class 400 - Data Science and Engineering](main/cls4.md)    | Data utilization            |
+| [Class 500 - AI, Machine Learning, and LLM](main/cls5.md)   | Data utilization            |
+| [Class 600 - Security and Privacy](main/cls6.md)            | Security                    |
+| [Class 700 - Business Strategy and UX Design](main/cls7.md) | Business transformation     |
 
 ## Principles
 

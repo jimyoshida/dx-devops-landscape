@@ -65,6 +65,8 @@
     * [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol/) - A suite of specifications used to enable automated vulnerability management, measurement, and policy compliance evaluation of systems
     * [OVAL (Open Vulnerability and Assessment Language)](https://oval.mitre.org/) - A community-developed information security standard to promote open and publicly available security content
     * [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/) - The U.S. government repository of standards based vulnerability management data
+* Security Hardware
+  * [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - An international standard for a secure cryptoprocessor, a dedicated microcontroller designed to secure hardware through integrated cryptographic keys
 
 ## 610 - Secure Software Development
 
@@ -108,6 +110,7 @@
   * [Amazon Cognito](https://aws.amazon.com/cognito/) - A service that lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily
   * [Auth0](https://auth0.com/) - A flexible, drop-in solution to add authentication and authorization services to your applications
   * [Athenz](https://www.athenz.io/) - An open source platform for X.509 certificate-based service authentication and fine-grained access control in dynamic infrastructures
+  * [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) - A standard for automating the exchange of user identity information between identity domains, or IT systems
 * [Directory service](https://en.wikipedia.org/wiki/Directory_service) - A software system that stores, organizes, and provides access to directory information
   * [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) - An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network
   * [OpenLDAP](https://www.openldap.org/) - A free, open source implementation of the Lightweight Directory Access Protocol (LDAP)
@@ -115,6 +118,7 @@
 * [Authentication](https://en.wikipedia.org/wiki/Authentication) - The act of proving an assertion, such as the identity of a computer system user
   * [Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) - A method for an HTTP user agent (e.g. a web browser) to provide a user name and password when making a request
   * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token) - A proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims
+    * [nodejs jsonwebtoken](https://github.com/auth0/node-jsonwebtoken#readme) - The JsonWebToken implementation for node.js
   * [TOTP (Time-Based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password)
     * [PyOTP](https://pyauth.github.io/pyotp/) - The Python One-Time Password Library
   * [OpenID Connect](https://openid.net/connect/) - A simple identity layer on top of the OAuth 2.0 protocol

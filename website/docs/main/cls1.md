@@ -120,23 +120,27 @@
   * [zellij](https://zellij.dev/) - A terminal workspace with batteries included
   * [asciinema](https://asciinema.org/) - recording terminal sessions and sharing them on the web
 * Terminal interfaces
-  * [pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal)
-  * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
-  * [iTerm2 image protocol](https://iterm2.com/documentation-images.html)
+  * [pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal) - A pair of pseudo-devices that provides a terminal-like interface used by programs to emulate a terminal
+  * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - A standard for in-band signaling to control the cursor location, color, font styling, and other options on video text terminals
+  * [iTerm2 image protocol](https://iterm2.com/documentation-images.html) - A custom escape code to display images inline in the terminal
 * Terminal fonts
-  * [Noto Fonts](https://fonts.google.com/noto)
-  * [Nerd Fonts](https://www.nerdfonts.com/)
-  * [Cascadia Code](https://github.com/microsoft/cascadia-code)
+  * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+  * [Nerd Fonts](https://www.nerdfonts.com/) - A project that patches developer targeted fonts with a high number of glyphs
+  * [Cascadia Code](https://github.com/microsoft/cascadia-code) - A fun, new monospaced font that includes programming ligatures
 * Search tools
-  * [findutils](https://www.gnu.org/software/findutils/)
-  * [fzf](https://github.com/junegunn/fzf)
-  * [fd](https://github.com/sharkdp/fd)
-  * [grep](https://www.gnu.org/software/grep/)
-  * [ripgrep](https://github.com/BurntSushi/ripgrep)
-  * [silversearcher-ag](https://geoff.greer.fm/ag/)
-* AI tools
-  * [Mods](https://github.com/charmbracelet/mods) - AI on the command line
-  * [gptcli](https://github.com/evilpan/gptcli) - ChatGPT in command line with OpenAI API
+  * [findutils](https://www.gnu.org/software/findutils/) - The basic directory searching utilities of the GNU operating system
+  * [fzf](https://github.com/junegunn/fzf) - A general-purpose command-line fuzzy finder
+  * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to find
+  * [grep](https://www.gnu.org/software/grep/) - A command-line utility for searching plain-text data sets for lines that match a regular expression
+  * [ripgrep](https://github.com/BurntSushi/ripgrep) - A line-oriented search tool that recursively searches the current directory for a regex pattern
+  * [silversearcher-ag](https://geoff.greer.fm/ag/) - A code-searching tool similar to ack, but faster
+* Coding agents/tools
+  * [Claude Code](https://www.anthropic.com/claude-code) - An AI model that excels at complex reasoning, nuance, and coding tasks
+  * [OpenAI Codex CLI](https://github.com/openai/codex) - A command-line interface for a model that translates natural language to code
+  * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
+  * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
+  * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
+  * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
   * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
 * Console file managers
   * [midnight commander](https://midnight-commander.org/) - A visual file manager
@@ -169,34 +173,34 @@
     * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
     * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
   * Git hosting services
-    * [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/)
+    * [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - The single source of truth for collaborating on code and projects
     * [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
     * [Codeberg](https://codeberg.org/) - A community-led effort that provides Git hosting and other services for free and open source projects
     * [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
-    * [Soft Serve](https://github.com/charmbracelet/soft-serve) - a self-hostable Git server
-    * [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/)
-    * [GitHub](https://github.com/)
+    * [Soft Serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line
+    * [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/) - A set of version control tools that you can use to manage your code
+    * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
   * Conventions
-    * [keep a changelog](https://keepachangelog.com/)
-    * [Conventional Commits](https://www.conventionalcommits.org/)
+    * [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
+    * [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages
   * AI commit tools
     * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
     * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
 * Editors and IDEs
-  * [Visual Studio Code](https://code.visualstudio.com/)
-    * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-    * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  * [Visual Studio Code](https://code.visualstudio.com/) - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux
+    * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - An extension that supercharges the Git capabilities built into Visual Studio Code
+    * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - An extension to view a Git Graph of your repository, and perform Git actions from the graph
     * AI assistance plugins
-      * [GitHub Copilot](https://github.com/features/copilot/)
-      * [Gemini Code Assist](https://cloud.google.com/products/gemini/code-assist)
+      * [GitHub Copilot](https://github.com/features/copilot/) - The AI pair programmer that helps you write code faster and with less work
+      * [Gemini Code Assist](https://cloud.google.com/products/gemini/code-assist) - An AI-powered assistant for the entire development lifecycle
       * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - The most capable generative AI-powered assistant for software development
-      * [Cline](https://cline.bot/) - Experience an AI development partner that amplifies your engineering capabilities
-      * [CodeGPT](https://www.codegpt.co/) - AI Agents Platform for Software Development Teams
-    * Protocols
-      * [LSP](https://microsoft.github.io/language-server-protocol/) - defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
-      * [DAP](https://microsoft.github.io/debug-adapter-protocol/) - defines the abstract protocol used between a development tool (e.g. IDE or editor) and a debugger
+      * [Cline](https://cline.bot/) - An open source AI coding agent that brings frontier AI models directly to your VS Code editor
   * Terminal-based
     * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
+      * [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - The commands that move the cursor and the commands used to delete or change text
+      * Tutorials
+        * [OpenVim](https://openvim.com/) - An interactive Vim tutorial
+        * [Vim Adventures](https://vim-adventures.com/) - An online game based on VIM's keyboard shortcuts
       * [vim-plug](https://junegunn.github.io/vim-plug/) - The de-facto standard plugin manager for Vim
       * [NERDTree](https://github.com/preservim/nerdtree) - A tree explorer plugin for vim
     * [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor
@@ -220,29 +224,42 @@
     * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
     * [Winfsurf Editor](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
     * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
+* Language servers
+  * [LSP](https://microsoft.github.io/language-server-protocol/) - The protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
+  * [pyright](https://github.com/microsoft/pyright) - A static type checker and language server for Python
+    * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - An extension that works alongside the Python extension in Visual Studio Code to provide performant language support
+  * [Ruby LSP](https://shopify.github.io/ruby-lsp/) - An opinionated language server for Ruby
+  * [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server) - A standalone TypeScript and JavaScript language server
+  * [Gopls](https://go.dev/gopls/) - The official language server for the Go language
+  * [rust-analyzer](https://rust-analyzer.github.io/) - A language server for the Rust programming language
+  * [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) - A Java language server based on the Eclipse JDT
+* Code quality
+  * Concepts and platforms
+    * [SQALE method](https://en.wikipedia.org/wiki/SQALE)
+    * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+    * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
+    * [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html)
+    * [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html)
   * Formatters
     * [EditorConfig](https://editorconfig.org/)
     * [Prettier](https://prettier.io/)
-* Code quality
-  * [SQALE method](https://en.wikipedia.org/wiki/SQALE)
-  * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
-  * [scc](https://github.com/boyter/scc/)
-  * [cloc](https://github.com/AlDanial/cloc)
-  * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
-  * [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html)
-  * [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
-  * [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
-  * [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
-  * [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
-  * [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
-  * [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
-  * [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
-  * [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
-  * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
-  * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
-  * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
-  * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
-  * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
+  * Code metrics
+    * [scc](https://github.com/boyter/scc/)
+    * [cloc](https://github.com/AlDanial/cloc)
+  * Linters
+    * [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
+    * [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
+    * [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
+    * [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
+    * [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
+    * [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
+    * [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
+    * [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
+    * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
+    * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
+    * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
+    * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
+    * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
 
 ## 130 - Programming Language Features
 
@@ -416,28 +433,28 @@
 * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
 * Time formats
   * ISO 8601: Date and time — Representations for information interchange
-  * [Unix time](https://en.wikipedia.org/wiki/Unix_time)
+  * [Unix time](https://en.wikipedia.org/wiki/Unix_time) - A system for describing a point in time
   * Libraries
-    * [Perl DateTime](https://metacpan.org/pod/DateTime)
-    * [Python delorean](https://delorean.readthedocs.io/en/latest/index.html)
-    * [Python arrow](https://arrow.readthedocs.io/en/latest/)
-    * [Moment.js](https://momentjs.com/) - Parse, validate, manipulate, and display dates and times in JavaScript
-      * [Moment Timezone](https://momentjs.com/timezone/) - Parse and display dates in any timezone
+    * [Ruby Time](https://docs.ruby-lang.org/en/master/Time.html) - An abstraction of dates and times
+    * [Python delorean](https://delorean.readthedocs.io/en/latest/index.html) - A library for clearing up the inconvenient truths that arise dealing with datetimes in Python
+    * [Python arrow](https://arrow.readthedocs.io/en/latest/) - A Python library that offers a sensible and human-friendly approach to creating, manipulating, formatting and converting dates, times and timestamps
+    * [Moment.js](https://momentjs.com/) - A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates
+      * [Moment Timezone](https://momentjs.com/timezone/) - A Moment.js plugin for IANA time zone support
       * [Luson](https://moment.github.io/luxon/#/) - A powerful, modern, and friendly wrapper for JavaScript dates and times
-    * [Go time](https://pkg.go.dev/time)
-  * [iCalendar](https://en.wikipedia.org/wiki/ICalendar)
+    * [Go time](https://pkg.go.dev/time) - A package that provides functionality for measuring and displaying time
+  * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) - A media type which allows users to store and exchange calendaring and scheduling information
 * Template processors
   * [gomplate](https://gomplate.ca/) - A fast template renderer supporting many datasources and hundreds of functions
-  * [Go template](https://pkg.go.dev/text/template)
-    * [sprig](https://masterminds.github.io/sprig/) - Useful template functions for Go templates
-  * [mustache](https://mustache.github.io/) - Logic-less templates
+  * [Go template](https://pkg.go.dev/text/template) - A package that implements data-driven templates for generating textual output
+    * [sprig](https://masterminds.github.io/sprig/) - A library that provides template functions for Go's template language
+  * [mustache](https://mustache.github.io/) - A logic-less template syntax
   * [Jinja](https://www.palletsprojects.com/p/jinja/) - A full-featured template engine for Python
-  * [Perl Text::Template](https://metacpan.org/pod/Text::Template)
-  * [Perl HTML::Template](https://metacpan.org/pod/HTML::Template)
+  * [Perl Text::Template](https://metacpan.org/pod/Text::Template) - A library for generating form letters, building HTML pages, or whatever you can imagine
+  * [Perl HTML::Template](https://metacpan.org/pod/HTML::Template) - A system for creating HTML templates
   * [Template Toolkit](https://template-toolkit.org/) - A fast, flexible and highly extensible template processing system
   * [ERB](https://github.com/ruby/erb) - An easy to use but powerful templating system for Ruby
-  * [Liquid](https://shopify.github.io/liquid/) - Safe, customer-facing template language for flexible web apps
-  * [envsubst in gettext](https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation)
+  * [Liquid](https://shopify.github.io/liquid/) - A safe, customer-facing template language for flexible web apps
+  * [envsubst in gettext](https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation) - A program that substitutes the values of environment variables
 * [CEL](https://cel.dev/) - A general-purpose expression language designed to be fast, portable, and safe to execute
 * [CUE](https://cuelang.org/) - An open-source data validation language and inference engine with its roots in logic programming
 * [unified](https://unifiedjs.com/) - A friendly interface backed by an ecosystem of plugins built for creating and manipulating content
@@ -460,81 +477,86 @@
 
 ## 150 - Debugging, Logging, and Unit Testing
 
-* Debuggers and loggers
+* Debuggers
   * Python
     * [VSCode Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-      * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-      * [Python Degugger](https://github.com/microsoft/debugpy/) - An implementation of the Debug Adapter Protocol for Python 3
-    * [Python logging](https://docs.python.org/3/library/logging.html)
-    * [loguru](https://github.com/Delgan/loguru) - A library which aims to bring enjoyable logging in Python
+    * [debugpy](https://github.com/microsoft/debugpy/) - An implementation of the Debug Adapter Protocol for Python 3
   * Node.js
     * [VSCode built-in debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
-      * [Node.js built-in inspector](https://nodejs.org/en/learn/getting-started/debugging)
+    * [Node.js built-in inspector](https://nodejs.org/en/learn/getting-started/debugging)
+  * Go
+    * [VSCode Go extension](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+    * [Delve](https://github.com/go-delve/delve) - A debugger for the Go programming language
+  * Ruby
+    * [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) - A Ruby debugger extension that is based on debug.gem
+    * [debug.rb](https://github.com/ruby/debug) - The debugging functionality for Ruby
+  * Others
+    * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) - A bash debugger GUI frontend based on bashdb
+    * [BASH Debugger](https://bashdb.sourceforge.net/) - A bash shell command-line debugger
+    * [GDB](https://www.gnu.org/software/gdb/) - The GNU Project debugger
+* Debugger protocols
+  * [DAP](https://microsoft.github.io/debug-adapter-protocol/) - defines the abstract protocol used between a development tool (e.g. IDE or editor) and a debugger
+  * [V8 V8 Inspector Protocol](https://v8.dev/docs/inspector)
+* Loggers
+  * Python
+    * [Python logging](https://docs.python.org/3/library/logging.html)
+    * [loguru](https://github.com/Delgan/loguru) - A library which aims to bring enjoyable logging in Python
+  * Javascript/Typescript
     * [bunyan](https://github.com/trentm/node-bunyan) - A simple and fast JSON logging library for node.js services
     * [winston](https://github.com/winstonjs/winston) - A logger for just about everything
     * [debug](https://github.com/debug-js/debug) - A tiny JavaScript debugging utility modelled after Node.js core's debugging technique
   * Go
-    * [VSCode Go extension](https://marketplace.visualstudio.com/items?itemName=golang.Go)
-      * [Delve](https://github.com/go-delve/delve) - A debugger for the Go programming language
     * [Go log](https://pkg.go.dev/log)
     * [zap](https://github.com/uber-go/zap/) - Blazing fast, structured, leveled logging in Go
     * [Logrus](https://github.com/sirupsen/logrus) - A structured logger for Go (golang), completely API compatible with the standard library logger
     * [Zero Allocation JSON Logger](https://github.com/rs/zerolog) - The package that provides a fast and simple logger dedicated to JSON output
   * Others
-    * [VSCode Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) - A bash debugger GUI frontend based on bashdb
-      * [BASH Debugger](https://bashdb.sourceforge.net/) - A bash shell command-line debugger
-    * [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) - A Ruby debugger extension that is based on debug.gem
-      * [debug.rb](https://github.com/ruby/debug) - The debugging functionality for Ruby
-    * [Devel::Trepan](https://metacpan.org/pod/Devel::Trepan) - A modular gdb-like Perl debugger
     * [logger](https://man7.org/linux/man-pages/man1/logger.1.html) - A tool to enter messages into the system log
-    * [GDB](https://www.gnu.org/software/gdb/) - The GNU Project debugger
     * [log4j](https://logging.apache.org/log4j/2.x/index.html) - A versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases
     * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
-    * [log4perl](https://metacpan.org/pod/Log::Log4perl) - A log4j implementation for Perl
     * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 * Test frameworks
-  * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-  * [test case](https://en.wikipedia.org/wiki/Test_case)
-  * [test double](https://en.wikipedia.org/wiki/Test_double)
   * Bash
-    * [Bats-core](https://bats-core.readthedocs.io/en/stable/) (BDD style)
+    * [Bats-core](https://bats-core.readthedocs.io/en/stable/)
     * [shUnit2](https://github.com/kward/shunit2)
-    * [shellspec](https://shellspec.info/) (BDD style)
-  * Perl
-    * [Test2](https://metacpan.org/pod/Test2)
-    * [prove](https://metacpan.org/pod/prove)
+    * [shellspec](https://shellspec.info/)
+  * Ruby
+    * [Minitest](https://github.com/minitest/minitest)
+    * [RSpec](https://rspec.info/)
   * Python
     * [Python unittest](https://docs.python.org/3/library/unittest.html)
     * [pytest](https://docs.pytest.org/en/latest/)
-    * [nose](https://nose.readthedocs.io/en/latest/)
-    * [tappy](https://tappy.readthedocs.io/en/latest/)
-  * Javascript
+  * Javascript/Typescript
     * [Vitest](https://vitest.dev)
-    * [Jest](https://jestjs.io/) (BDD style)
-    * [Mocha](https://mochajs.org/) (BDD style)
+    * [Jest](https://jestjs.io/)
+    * [Mocha](https://mochajs.org/)
       * [Chai](https://www.chaijs.com/)
-    * [Node-Tap](https://node-tap.org/) - Test Anything Protocol library for JavaScript
-    * [Istanbul](https://istanbul.js.org/) - Yet another JS code coverage tool
-  * Typescript
-    * [bun test](https://bun.sh/docs/cli/test)
-    * [deno test](https://docs.deno.com/runtime/fundamentals/testing/)
+    * Runtime-integrated
+      * [bun test](https://bun.sh/docs/cli/test)
+      * [deno test](https://docs.deno.com/runtime/fundamentals/testing/)
   * Go
     * [Go testing](https://pkg.go.dev/testing)
-    * [Go cover](https://pkg.go.dev/cmd/cover)
-    * [Ginkgo](https://onsi.github.io/ginkgo/) (BDD style)
+    * [Ginkgo](https://onsi.github.io/ginkgo/)
       * [Gomega](https://onsi.github.io/gomega/)
-    * [mockery](https://vektra.github.io/mockery/latest/) - A project that creates mock implementations of Golang interfaces
   * Others
-    * [Test Anything Protocol](http://testanything.org/)
-    * [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html)
     * [JUnit](https://junit.org/junit5/) - The 5th major version of the programmer-friendly testing framework for Java and the JVM
     * [xUnit.net](https://xunit.net/) - A free, open source, community-focused unit testing tool for the .NET Framework
-    * [cobertura](https://cobertura.github.io/cobertura/) - A free Java tool that calculates the percentage of code accessed by tests
-    * [LCOV](https://github.com/linux-test-project/lcov) - An extension of GCOV, a GNU tool which provides information about
-  what parts of a program are actually executed (i.e. "covered")
-    * [kcov](https://simonkagstrom.github.io/kcov/) - A code coverage tester for compiled programs
-* Test best practices
+* Test protocols
+  * [Test Anything Protocol](http://testanything.org/)
+    * [tappy](https://tappy.readthedocs.io/en/latest/)
+    * [Node-Tap](https://node-tap.org/) - Test Anything Protocol library for JavaScript
+* Mocking libraries
+  * [mockery](https://vektra.github.io/mockery/latest/) - A project that creates mock implementations of Golang interfaces
+* Code coverage tools
+  * [Go cover](https://pkg.go.dev/cmd/cover)
+  * [Istanbul](https://istanbul.js.org/) - Yet another JS code coverage tool
+  * [cobertura](https://cobertura.github.io/cobertura/) - A free Java tool that calculates the percentage of code accessed by tests
+  * [LCOV](https://github.com/linux-test-project/lcov) - An extension of GCOV, a GNU tool which provides information about what parts of a program are actually executed (i.e. "covered")
+  * [kcov](https://simonkagstrom.github.io/kcov/) - A code coverage tester for compiled programs
+* Test concepts and best practices
   * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+  * [Test case](https://en.wikipedia.org/wiki/Test_case)
+  * [Test double](https://en.wikipedia.org/wiki/Test_double)
   * [Unit testing best practices with .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
   * [JS Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 

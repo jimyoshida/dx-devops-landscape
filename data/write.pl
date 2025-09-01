@@ -14,14 +14,14 @@ if ( @ARGV < 2 ) {
 my $contents_file = $ARGV[0];
 my $classes_file = $ARGV[1];
 
-# Load Class Dictionary from YAML
-my %class_dict;
 
 my $yaml = YAML::Tiny->read($classes_file);
 unless ($yaml && ref $yaml->[0] eq 'HASH') {
     die "Could not parse YAML or YAML content is not a hash in '$classes_file'";
 }
-%class_dict = %{ $yaml->[0] };
+
+# Load Class Dictionary from YAML
+my %class_dict = %{ $yaml->[0] };
 unless (%class_dict) {
     die "Class dictionary loaded from '$classes_file' is empty.";
 }
@@ -55,7 +55,7 @@ while ( my $line = <$fh_in> ) {
             print $fh_out $line;
             print "Skipped header $hashes $number on line $.\n";
         }
-    } elsif ( $line =~ /^(.*)Class\s(\d{3})\s-\s\w[\w\s,]*([\]|\|].*)$/ ) {
+    } elsif ( $line =~ /^(.*\[)Class\s(\d{3})\s-\s.*(\].*)$/ ) {
         my $head = $1;
         my $number = $2; # The 3-digit number
         my $tail = $3;
