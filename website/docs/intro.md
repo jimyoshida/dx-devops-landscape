@@ -57,13 +57,7 @@ The descriptions are mainly quoted from the [Wikipedia English version](https://
 
 ## Extra
 
-Experimental mind maps are created, but they are hard to read.
+An experimental mind map is created from the **Main** contents.
+The 3rd level of classification needs to be sophisticated for a better map.
 
-* [Class 000 - Team and Personal Performance](pathname:///usr/docs/main/cls0.map.html)
-* [Class 100 - Programming](pathname:///usr/docs/main/cls1.map.html)
-* [Class 200 - System Administartion and SRE](pathname:///usr/docs/main/cls2.map.html)
-* [Class 300 - Web and Application](pathname:///usr/docs/main/cls3.map.html)
-* [Class 400 - Data Science and Engineering](pathname:///usr/docs/main/cls4.map.html)
-* [Class 500 - AI, Machine Learning, and LLM](pathname:///usr/docs/main/cls5.map.html)
-* [Class 600 - Security and Privacy](pathname:///usr/docs/main/cls6.map.html)
-* [Class 700 - Business Strategy and UX Design](pathname:///usr/docs/main/cls7.map.html)
+* [Experimental Map](pathname:///usr/docs/map.html)

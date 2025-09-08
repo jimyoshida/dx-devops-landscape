@@ -60,42 +60,42 @@
 * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
 * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 * Forward proxy and caching
-  * [Web cache](https://en.wikipedia.org/wiki/Web_cache)
-    * [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network)
-    * [Point of presence](https://en.wikipedia.org/wiki/Point_of_presence)
+  * [Web cache](https://en.wikipedia.org/wiki/Web_cache) - An information technology for the temporary storage (caching) of web documents, such as HTML pages and images, to reduce bandwidth usage, server load, and perceived lag
+    * [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) - A geographically distributed network of proxy servers and their data centers
+    * [Point of presence](https://en.wikipedia.org/wiki/Point_of_presence) - An artificial demarcation point or interface point between communicating entities
   * [Squid](http://www.squid-cache.org/) - A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more
   * [GoProxy](https://github.com/elazarl/goproxy) - A library to create a customized HTTP/HTTPS proxy server using Go (aka Golang)
 * CDN providers
-  * [Cloudflare](https://www.cloudflare.com/)
-  * [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+  * [Cloudflare](https://www.cloudflare.com/) - A global network designed to make everything you connect to the Internet secure, private, fast, and reliable
+  * [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - A content delivery network (CDN) service built for high performance, security, and developer convenience
     * [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
-  * [Google Cloud CDN](https://cloud.google.com/cdn)
-  * [Azure Content Delivery Network](https://azure.microsoft.com/en-us/services/cdn/)
+  * [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content
+  * [Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/) - A modern cloud content delivery network (CDN) that provides a secure and scalable entry point for fast delivery of your global web applications and content
 * Reverse proxy
-  * [NGINX](https://www.nginx.com/)
-  * [HAProxy](https://www.haproxy.org/)
+  * [NGINX](https://www.nginx.com/) - An open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more
+  * [HAProxy](https://www.haproxy.org/) - A free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications
   * [envoy](https://www.envoyproxy.io/) - An open source edge and service proxy
   * [traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
-  * [Amazon ALB](https://aws.amazon.com/elasticloadbalancing/application-load-balancer/)
+  * [Amazon ALB](https://aws.amazon.com/elasticloadbalancing/application-load-balancer/) - A load balancing option for the Elastic Load Balancing service that operates at the application layer
 * API gateways
-  * [Kong API gateway](https://konghq.com/products/kong-gateway)
-  * [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/)
-  * [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
-  * [Google Cloud Apigee](https://cloud.google.com/apigee)
+  * [Kong API gateway](https://konghq.com/products/kong-gateway) - A lightweight, fast, and flexible cloud-native API gateway
+  * [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments
+  * [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
+  * [Google Cloud Apigee](https://cloud.google.com/apigee) - The platform for developing and managing API services
 * Application hosting services
-  * [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
-  * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
-  * [Google Cloud App Engine](https://cloud.google.com/appengine/)
-* [Serverless computing](https://en.wikipedia.org/wiki/Serverless_computing)
-  * [AWS Lambda](https://aws.amazon.com/lambda/)
-  * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
-  * [Google Cloud Run Functions](https://cloud.google.com/functions)
+  * [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/) - An HTTP-based service for hosting web applications, REST APIs, and mobile back ends
+  * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services
+  * [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
+* [Serverless computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
+  * [AWS Lambda](https://aws.amazon.com/lambda/) - A serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
+  * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - An event-driven, serverless compute platform that helps you develop more efficiently using the programming language of your choice
+  * [Google Cloud Run Functions](https://cloud.google.com/functions) - A serverless execution environment for building and connecting cloud services
 * Service mesh
-  * [Hashicorp Consul](https://www.consul.io/)
-  * [Istio](https://istio.io/)
-    * [Kiali](https://kiali.io/)
-  * [Linkerd](https://linkerd.io/)
-  * [traefik mesh](https://traefik.io/traefik-mesh/) - a straight-forward, easy to configure, and non-invasive service mesh
+  * [Hashicorp Consul](https://www.consul.io/) - A service networking solution to connect and secure services across any runtime platform and public or private cloud
+  * [Istio](https://istio.io/) - An open source service mesh that layers transparently onto existing distributed applications
+    * [Kiali](https://kiali.io/) - The service mesh observability and configuration tool for Istio
+  * [Linkerd](https://linkerd.io/) - An ultralight, security-first service mesh for Kubernetes
+  * [traefik mesh](https://traefik.io/traefik-mesh/) - A straight-forward, easy to configure, and non-invasive service mesh
 
 ## 320 - Web Application Standards and Frameworks
 
@@ -116,7 +116,7 @@
   * [Gin Web Framework](https://gin-gonic.com/) - A web framework written in Go
   * [Gorilla web toolkit](https://www.gorillatoolkit.org/) - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
   * [Yokai](https://ankorstore.github.io/yokai/) - A simple, modular and observable Go framework for backend applications
-* Python frameworks
+* Python frameworks/servers
   * [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - The Web Server Gateway Interface
     * [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
     * [Flask](https://palletsprojects.com/p/flask/) - A lightweight WSGI web application framework
@@ -124,6 +124,10 @@
     * [Uvicorn](https://www.uvicorn.org/) - An ASGI web server implementation for Python
     * [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI web server based on the sans-io hyper, h11, h2, and wsproto libraries and inspired by Gunicorn
     * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
+* Ruby frameworks/servers
+  * [Rack](https://rack.github.io/) - A modular Ruby web server interface
+    * [Puma](https://puma.io/) - A fact, concurrent web server for Ruby & Rack
+    * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
 * Perl frameworks (reference)
   * Classic CGI
     * [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - A module for the execution of CGI scripts
@@ -131,12 +135,6 @@
   * Fast CGI
     * [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - A high performance alternative to mod_cgi or mod_cgid
     * [FCGI.pm](https://metacpan.org/pod/FCGI)
-  * [PSGI/Plack](https://plackperl.org/) - An interface between Perl web applications and web servers
-    * [Dancer2](https://metacpan.org/pod/Dancer2) - A lightweight yet powerful web application framework
-    * [Mojolicious](https://www.mojolicious.org/) - A fresh take on Perl web development
-* Ruby frameworks (reference)
-  * [Rack](https://rack.github.io/) - A modular Ruby web server interface
-    * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
 * Rust frameworks (reference)
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
 * Java frameworks (reference)

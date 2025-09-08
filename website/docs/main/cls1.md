@@ -275,9 +275,9 @@
     * backtick operator
   * [i/o operators](https://metacpan.org/dist/perl/view/pod/perlop.pod)
     * diamond oprator
-  * autovivification
-  * [Moo](https://metacpan.org/pod/Moo)
+  * [Autovivification](https://en.wikipedia.org/wiki/Autovivification)
 * [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * [pathlib](https://docs.python.org/3/library/pathlib.html) - The module offering classes representing filesystem paths with semantics appropriate for different operating systems
   * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
   * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
   * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
