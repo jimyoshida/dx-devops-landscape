@@ -36,10 +36,11 @@ subcls370: Internet of Things (WIP)
 cls400: Data Science and Engineering
 subcls400: Data Science Concepts and Platforms
 subcls410: Data Engineering Tools
-subcls420: SQL and NoSQL Databases
-subcls430: Distributed Processing and Application Integration
-subcls440: Search and Analytics (WIP)
-subcls450: Mathematics and Statistics
+subcls420: Relational Databases
+subcls430: NoSQL Databases
+subcls440: Distributed Processing and Application Integration
+subcls450: Search and Analytics (WIP)
+subcls460: Mathematics and Statistics
 cls500: AI, Machine Learning, and LLM
 subcls500: AI Concepts and Common Tools
 subcls520: Natural Language Processing

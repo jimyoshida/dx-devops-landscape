@@ -13,6 +13,7 @@
   * [Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product)
   * [Scrum](https://www.scrum.org/learning-series/what-is-scrum/) - A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value
   * [User story](https://en.wikipedia.org/wiki/User_story) - An informal, natural language description of features of a software system
+    * [Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
   * [INVEST of PBI](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) - A mnemonic created by Bill Wake as a reminder of the characteristics of a good quality Product Backlog Item (PBI)
     * Independent: The PBI should be self-contained
     * Negotiable: Draft PBIs are not explicit contracts and should leave space for discussion
@@ -208,6 +209,7 @@
 ## 040 - Documentation
 
 * [Technical writing](https://en.wikipedia.org/wiki/Technical_writing)
+* [Divio Documentation System](https://docs.divio.com/documentation-system/)
 * Lightweight markup
   * [Markdown](https://en.wikipedia.org/wiki/Markdown)
     * [CommonMark](https://commonmark.org/)
@@ -222,6 +224,8 @@
       * [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown)
       * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
       * [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim)
+    * Guides
+      * [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown
   * [DocUtils](https://docutils.sourceforge.io/)
     * [reStructuredText](https://docutils.sourceforge.io/rst.html)
   * [Pandoc](https://pandoc.org/) - A universal document converter
@@ -352,6 +356,7 @@
     * 1: Perception of the elements in the environment.
     * 2: Comprehension or understanding of the situation.
     * 3: Projection of future status.
+  * [Occupational burnout](https://en.wikipedia.org/wiki/Occupational_burnout) - A work-related phenomenon resulting from chronic workplace stress that has not been successfully managed
 * Team performance
   * [Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety) - The belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes
   * [Trust](https://en.wikipedia.org/wiki/Trust_(social_science)) - The belief that another person will do what is expected

@@ -9,7 +9,7 @@
     * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - A grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
     * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A strategic planning and strategic management technique used to help a person or organization identify Strengths, Weaknesses, Opportunities, and Threats related to business competition or project planning
     * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
-    * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis)
+    * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A model that identifies and analyzes five competitive forces that shape every industry and helps determine an industry's weaknesses and strengths
 * [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture) - A well-defined practice for conducting enterprise analysis, design, planning, and implementation, using a comprehensive approach at all times, for the successful development and execution of strategy
   * [TOGAF standard](https://www.opengroup.org/togaf) - A proven Enterprise Architecture methodology and framework used by the world’s leading organizations to improve business efficiency
   * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework) - An ontology – a theory of the existence of a structured set of essential components of an object
@@ -19,7 +19,7 @@
   * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
-  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of people in a company or organization such that they help their business gain a competitive advantage
+  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
   * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
   * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
   * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
@@ -28,7 +28,7 @@
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
 * [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
   * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
-* [Lean startup](https://en.wikipedia.org/wiki/Lean_startup)
+* [Lean startup](https://en.wikipedia.org/wiki/Lean_startup) - A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable
 * [Risk management](https://en.wikipedia.org/wiki/Risk_management) - The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities
   * [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning) - The process an organization undergoes to create a prevention and recovery system from potential threats such as natural disasters or cyber-attacks
     * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery) - The process of resuming normal IT operations after a disruptive event, such as a natural disaster, cyberattack, or equipment failure
@@ -48,24 +48,24 @@
 
 ## 710 - User Analysis and Marketing
 
-* [User experience](https://en.wikipedia.org/wiki/User_experience)
-* [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas)
-* [Persona](https://en.wikipedia.org/wiki/Persona_(user_experience))
-* [Customer experience](https://en.wikipedia.org/wiki/Customer_experience)
+* [User experience](https://en.wikipedia.org/wiki/User_experience) - A person's emotions and attitudes about using a particular product, system or service
+* [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas) - A tool to help you create products and services customers want
+* [Persona](https://en.wikipedia.org/wiki/Persona_(user_experience)) - A fictional character created to represent a user type
+* [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - The product of an interaction between an organization and a customer over the duration of their relationship
 * Business inteligence and analysis
-  * [Tableau](https://www.tableau.com/)
-  * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/)
-    * [DAX](https://learn.microsoft.com/en-us/dax/)
-  * [Amazon QuickSight](https://aws.amazon.com/quicksight/)
+  * [Tableau](https://www.tableau.com/) - The world’s leading analytics platform
+  * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
+    * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
+  * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - A scalable, serverless, embeddable, machine learning (ML)-powered business intelligence (BI) service built for the cloud
 * Ideation
-  * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming)
-  * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking)
-  * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram)
-  * [Ishikawa diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram)
-* [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)
-  * [Google Search Central](https://developers.google.com/search)
-* [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix)
-* [Card sorting](https://en.wikipedia.org/wiki/Card_sorting)
+  * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
+  * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking) - The set of cognitive, strategic and practical processes by which design concepts are developed
+  * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
+  * [Ishikawa diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram) - A causal diagram created by Kaoru Ishikawa that shows the potential causes of a specific event
+* [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
+  * [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
+* [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
+* [Card sorting](https://en.wikipedia.org/wiki/Card_sorting) - A method used to help design or evaluate the information architecture of a site
 * [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out) - The feeling of apprehension that one is either not in the know about or missing out on information, events, experiences, or life decisions that could make one's life better
 * [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) - A manipulative propaganda tactic used in sales, marketing, public relations, politics, polling, and cults
 * User experience research
@@ -95,7 +95,7 @@
 
 * [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
 * [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
-* [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory)
+* [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
 * [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
 * [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
 * [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
@@ -109,9 +109,9 @@
 * [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
 * [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate
 * [Central bank](https://en.wikipedia.org/wiki/Central_bank) - An institution that manages the monetary policy of a country or monetary union
-* [Revenue model](https://en.wikipedia.org/wiki/Revenue_model)
-* [Financial capital](https://en.wikipedia.org/wiki/Financial_capital)
-  * [Venture capital](https://en.wikipedia.org/wiki/Venture_capital)
+* [Revenue model](https://en.wikipedia.org/wiki/Revenue_model) - A framework for generating financial income
+* [Financial capital](https://en.wikipedia.org/wiki/Financial_capital) - An economic resource measured in terms of money used by entrepreneurs and businesses to buy what they need to make their products or to provide their services
+  * [Venture capital](https://en.wikipedia.org/wiki/Venture_capital) - A form of private equity financing that is provided by venture capital firms or funds to startups, early-stage, and emerging companies that have been deemed to have high growth potential
 * Contracts
   * [Credit](https://en.wikipedia.org/wiki/Credit) - The trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately
   * [Debt](https://en.wikipedia.org/wiki/Debt) - An obligation that requires one party, the debtor, to pay money or otherwise return value to another party, the creditor
