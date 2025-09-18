@@ -285,6 +285,7 @@
   * [Ruby module Zlib](https://docs.ruby-lang.org/en/master/Zlib.html) - A module that contains classes for compressing and decompressing streams, and for working with gzip-format files
   * [zlib](https://zlib.net/) - A free, general-purpose, legally unencumbered lossless data-compression library for use on virtually any computer hardware and operating system
   * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
+  * [snappy](https://google.github.io/snappy/) - A compression/decompression library that aims for very high speeds and reasonable compression
 * Binary file processing
   * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
   * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps

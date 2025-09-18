@@ -1,11 +1,28 @@
 cls000: Team and Personal Performance
-subcls000: Agile System Development
+subcls000: Agile/Lean System Development
+subsubcls000: Agile
+subsubcls001: Lean
+subsubcls002: DevOps
 subcls010: Management and Leadership
+subsubcls010: People & Communication Skills
+subsubcls011: Strategy & Goal Setting
+subsubcls012: Project & Work Management
+subsubcls013: Tools and Platforms
+subsubcls014: Principles, Standards, & Governance
 subcls020: Systems Architecture Design
-subcls030: Logic and Set Theory
+subsubcls020: Foundations
+subsubcls021: Modeling Methodologies
+subsubcls022: Design Patterns
+subsubcls023: Principles & Best Practices
 subcls040: Documentation
+subsubcls040: Concepts & Methodologies
+subsubcls041: Lightweight Markup
+subsubcls042: Writing Styles
+subsubcls043: Common Tools
+subsubcls044: Architecture Description
 subcls050: OSS Community and Open Data
 subcls060: Psychology and Sociology
+subcls070: Logic and Base Mathematics
 cls100: Programming
 subcls100: Programming Concepts
 subcls110: Shell and Terminal
@@ -34,11 +51,11 @@ subcls350: Binary and Image Processing
 subcls360: Mobile/Desktop App Development (WIP)
 subcls370: Internet of Things (WIP)
 cls400: Data Science and Engineering
-subcls400: Data Science Concepts and Platforms
-subcls410: Data Engineering Tools
+subcls400: Concepts and Platforms
+subcls410: Data Science Toolkit
 subcls420: Relational Databases
 subcls430: NoSQL Databases
-subcls440: Distributed Processing and Application Integration
+subcls440: Distributed Processing and Application Integration (WIP)
 subcls450: Search and Analytics (WIP)
 subcls460: Mathematics and Statistics
 cls500: AI, Machine Learning, and LLM

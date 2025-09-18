@@ -9,4 +9,4 @@ write:
 	perl write.pl ../README.md Class.yml
 
 test:
-	ruby test_write.rb --verbose
+	ruby write_test.rb --verbose

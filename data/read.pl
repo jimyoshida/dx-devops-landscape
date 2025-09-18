@@ -9,4 +9,7 @@ while (my $line = <>) {
     elsif ($line =~ s/^## (\d{3}) - (.*)/subcls$1: $2/) {
         print $line;
     }
+    elsif ($line =~ s/^### (\d{3}) - (.*)/subsubcls$1: $2/) {
+        print $line;
+    }
 }

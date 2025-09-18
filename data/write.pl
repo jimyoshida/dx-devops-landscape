@@ -33,7 +33,7 @@ print "Processing '$contents_file'...\n";
 my ($fh_out, $temp_file) = tempfile(SUFFIX => '.tmp') or die "Could not create a temporary file: $!";
 
 while ( my $line = <$fh_in> ) {
-    if ( $line =~ /^(#{1,2})\s*(\d{3})\s.*$/ ) {
+    if ( $line =~ /^(#{1,3})\s*(\d{3})\s.*$/ ) {
         # Regex to match lines starting with '#' (markdown header)
         # followed by optional spaces, then a 3-digit number, a space, and then the rest of the header.
         my $hashes = $1; # The '#', '##', etc.
@@ -44,16 +44,18 @@ while ( my $line = <$fh_in> ) {
             $key = "cls" . $number;
         } elsif ($hashes eq "##") {
             $key = "subcls" . $number;
+        } elsif ($hashes eq "###") {
+            $key = "subsubcls" . $number;
         }
 
         # Check if the key exists in the hash
         if ( exists $class_dict{$key} ) {
             print $fh_out "$hashes $number - $class_dict{$key}\n";
-            print "Rewrote header $hashes $number on line $.\n";
+            print "Rewrote $hashes $number on line $.\n";
         } else {
             # If the key is not in the hash, write the original line
             print $fh_out $line;
-            print "Skipped header $hashes $number on line $.\n";
+            print "Skipped $hashes $number on line $.\n";
         }
     } elsif ( $line =~ /^(.*\[)Class\s(\d{3})\s-\s.*(\].*)$/ ) {
         my $head = $1;

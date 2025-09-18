@@ -2,14 +2,17 @@
 
 ## 100 - Programming Concepts
 
+Note: Please see also Class 170 for abstract data types.
+
 * Core Concepts
   * [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
   * [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - A syntactic unit of an imperative programming language that expresses some action to be carried out
     * [Control flow](https://en.wikipedia.org/wiki/Control_flow) - The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated
   * [Expression](https://en.wikipedia.org/wiki/Expression_(computer_science)) - A syntactic entity in a programming language that may be evaluated to determine its value
-    * Operator, Operand
+    * Operator and Operand
   * [Literal](https://en.wikipedia.org/wiki/Literal_(computer_programming)) - A notation for representing a fixed value in source code
-    * Template string/literal
+    * Template string or literal
+    * [Heredoc](https://en.wikipedia.org/wiki/Here_document) - A file literal or input stream literal representing a section of source code that is treated as if it were a separate file
   * [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - A value that cannot be altered by the program during normal execution
   * [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - An abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value
   * [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - The region of a computer program where the binding of a name to an entity (name binding) is valid
@@ -17,7 +20,6 @@
     * [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
   * [Data type](https://en.wikipedia.org/wiki/Data_type) - A collection or grouping of data values, usually specified by a set of possible values and allowed operations
     * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
-    * Abstract data types (-> see Class 190)
     * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - A major class of type systems, in which compatibility and equivalence of data types is determined by explicit declarations and/or the names of the types
     * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system) - A major class of type systems in which type compatibility and equivalence are determined by the type's actual structure or definition
     * [Union type](https://en.wikipedia.org/wiki/Union_type) - A data type definition that specifies which of a number of permitted primitive types may be stored in its instances
@@ -33,12 +35,11 @@
     * [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - A special kind of variable used in a subroutine or function to refer to one of the pieces of data provided as input
     * [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - A function definition that is not bound to an identifier
   * [State](https://en.wikipedia.org/wiki/State_(computer_science)) - The stored information, at a given instant in time, to which a computer program or system has access
-  * [Heredoc](https://en.wikipedia.org/wiki/Here_document) - A file literal or input stream literal representing a section of source code that is treated as if it were a separate file
   * [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - The process of responding to the occurrence of exceptions during the execution of a program
   * [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - The degree to which the elements inside a module belong together
   * [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - A statement that a predicate (a Boolean-valued function) is expected to always be true at that point in the code
-* [Generic programming](https://en.wikipedia.org/wiki/Generic_programming) - A style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
-* [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) - A programming paradigm based on the object - a software entity that encapsulates data and function(s)
+* [Generic Programming](https://en.wikipedia.org/wiki/Generic_programming) - A style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
+* [Object-oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) - A programming paradigm based on the object - a software entity that encapsulates data and function(s)
   * [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) - The process of hiding the complexity of a system by modeling classes appropriate to the problem and working at the most relevant level of detail
   * [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) - The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components
   * [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) - The provision of a single interface to entities of different types
@@ -51,9 +52,9 @@
   * [Duck typing](https://en.wikipedia.org/wiki/Duck_typing) - An application of the duck test determining type compatibility based on the presence of certain methods and properties
   * [Covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) - The ways to describe how a type constructor (like list or function) behaves with respect to subtyping
   * [Passive data structure](https://en.wikipedia.org/wiki/Passive_data_structure) - A record data structure that contains only public data fields and provides no methods other than implicitly for reading/writing the fields
-* [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) - A programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns
+* [Aspect-oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) - A programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns
   * [Cross-cutting concern](https://en.wikipedia.org/wiki/Cross-cutting_concern) - An aspect of a program that affect several modules, without the possibility of being encapsulated in any of them
-* [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing) - A form of computing in which several computations are executed concurrently instead of sequentially
+* [Concurrent Computing](https://en.wikipedia.org/wiki/Concurrent_computing) - A form of computing in which several computations are executed concurrently instead of sequentially
   * [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - A computer program component that generalizes subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed
   * [Async/await](https://en.wikipedia.org/wiki/Async/await) - A syntactic feature that allows an asynchronous, non-blocking function to be structured in a way similar to an ordinary synchronous function
   * [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises) - The constructs used for synchronizing program execution, representing a proxy for a result that is initially unknown
@@ -62,7 +63,7 @@
   * [Channel](https://en.wikipedia.org/wiki/Channel_(programming)) - A model for interprocess communication and synchronization via message passing
   * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - A property of computer code applicable in multi-threaded environments, ensuring correct manipulation of shared data structures
   * [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - A situation in concurrent computing where no member of a group of entities can proceed because each waits for another member to take action
-* [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - A programming paradigm where programs are constructed by applying and composing functions
+* [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) - A programming paradigm where programs are constructed by applying and composing functions
   * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) - The act of checking a given sequence of tokens for the presence of the constituents of some pattern
   * [First-class function](https://en.wikipedia.org/wiki/First-class_function) - The property of a programming language that treats functions as first-class citizens (e.g., assignable to variables, passable as arguments)
     * [Map](https://en.wikipedia.org/wiki/Map_(higher-order_function)) - A higher-order function that applies a given function to each element of a sequence, returning a sequence containing the results
@@ -74,7 +75,7 @@
   * [Side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) - An observable effect of an operation, function, or expression that modifies state variable values outside its local environment
   * [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) - A software design pattern with a structure that combines program fragments (functions) and wraps their return values in a type with additional computation
   * [Currying](https://en.wikipedia.org/wiki/Currying) - The technique of converting a function that takes multiple arguments into a sequence of functions that each takes a single argument
-* Program analysys (advanced)
+* Program Analysis (advanced)
   * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
   * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
   * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
@@ -82,62 +83,75 @@
 
 ## 110 - Shell and Terminal
 
-* [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
-  * [Line editing](https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html)
-  * [History](https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html)
-  * [Shell expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
-  * [Pipelines](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html)
-  * [Built-in commands](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
-  * [Special variables](https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html)
-  * [Built-in job control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
-  * [oh-my-bash](https://ohmybash.nntoan.com/) - An open source, community-driven framework for managing your BASH configuration
-* [Zsh](https://www.zsh.org/) - A shell designed for interactive use, although it is also a powerful scripting language
-  * [Zim Framework](https://zimfw.sh/) - The Zsh configuration framework with blazing speed and modular extensions
-  * [oh-my-zsh](https://ohmyz.sh/) - A delightful, open source, community-driven framework for managing your Zsh configuration
-  * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - A theme for Zsh
-  * [Pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
-* Other Shells
+* Major Shell
+  * [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
+    * [Line editing](https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html)
+    * [History](https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html)
+    * [Shell expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
+    * [Pipelines](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html)
+    * [Built-in commands](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
+    * [Special variables](https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html)
+    * [Built-in job control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
+  * [Zsh](https://www.zsh.org/) - A shell designed for interactive use, although it is also a powerful scripting language
   * [fish-shell](https://fishshell.com/) - A smart and user-friendly command line shell for Linux, macOS, and the rest of the family
   * [PowerShell](https://docs.microsoft.com/en-us/powershell/) - A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework
   * [nushell](https://www.nushell.sh/) - A new type of shell
-* Shell utilities
-  * [coreutils](https://www.gnu.org/software/coreutils/) = fileutils+textutils+shellutils
+* Shell Frameworks & Customization
   * [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+  * [oh-my-bash](https://ohmybash.nntoan.com/) - An open source, community-driven framework for managing your BASH configuration
+  * [oh-my-zsh](https://ohmyz.sh/) - A delightful, open source, community-driven framework for managing your Zsh configuration
+  * [Zim Framework](https://zimfw.sh/) - The Zsh configuration framework with blazing speed and modular extensions
+  * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - A theme for Zsh
+  * [Pure](https://github.com/sindresorhus/pure) - A pretty, minimal and fast ZSH prompt
+* Terminal
+  * [Terminal Emulators](https://en.wikipedia.org/wiki/Terminal_emulator)
+    * [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
+      * [kitty keyboard protocol](https://sw.kovidgoyal.net/kitty/keyboard-protocol/)
+    * [Rio Terminal](https://rioterm.com/) - A modern terminal for the 21st century
+    * [Alacritty](https://alacritty.org/) - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
+    * [Terminator](https://gnome-terminator.org) - A terminal emulator like xterm, gnome-terminal, konsole, etc.
+    * [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host
+    * [Mintty](https://mintty.github.io/) - A terminal emulator for Cygwin, MSYS or Msys2, and derived projects, and for WSL
+    * [xterm](https://invisible-island.net/xterm/) - A terminal emulator for the X Window System
+  * Interfaces
+    * [pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal) - A pair of pseudo-devices that provides a terminal-like interface used by programs to emulate a terminal
+    * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - A standard for in-band signaling to control the cursor location, color, font styling, and other options on video text terminals
+    * [iTerm2 image protocol](https://iterm2.com/documentation-images.html) - A custom escape code to display images inline in the terminal
+  * Fonts
+    * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+    * [Nerd Fonts](https://www.nerdfonts.com/) - A project that patches developer targeted fonts with a high number of glyphs
+    * [Cascadia Code](https://github.com/microsoft/cascadia-code) - A fun, new monospaced font that includes programming ligatures
+* Core Shell Utilities
+  * [coreutils](https://www.gnu.org/software/coreutils/) = A package of GNU software containing many of the basic tools, such as cat, ls, and rm, needed for Unix-like operating systems
   * [bash-completion](https://github.com/scop/bash-completion)
+  * [direnv](https://direnv.net/) - An extension for your shell that can load and unload environment variables depending on the current directory
   * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
   * [rlwrap](https://github.com/hanslub42/rlwrap) - A readline wrapper
   * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command
-* [Terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator)
-  * [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
-    * [kitty keyboard protocol](https://sw.kovidgoyal.net/kitty/keyboard-protocol/)
-  * [Rio Terminal](https://rioterm.com/) - A modern terminal for the 21st century
-  * [Alacritty](https://alacritty.org/) - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
-  * [Terminator](https://gnome-terminator.org) - A terminal emulator like xterm, gnome-terminal, konsole, etc.
-  * [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host
-  * [Mintty](https://mintty.github.io/) - A terminal emulator for Cygwin, MSYS or Msys2, and derived projects, and for WSL
-  * [xterm](https://invisible-island.net/xterm/) - A terminal emulator for the X Window System
-* Terminal utilities
+* Terminal Utilities
   * [screen](https://www.gnu.org/software/screen/) - A full-screen window manager that multiplexes a physical terminal between several processes
   * [tmux](https://github.com/tmux/tmux/wiki) - A terminal multiplexer
   * [byobu](https://www.byobu.org/) - A GPLv3 open source text-based window manager and terminal multiplexer
   * [zellij](https://zellij.dev/) - A terminal workspace with batteries included
-  * [asciinema](https://asciinema.org/) - recording terminal sessions and sharing them on the web
-* Terminal interfaces
-  * [pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal) - A pair of pseudo-devices that provides a terminal-like interface used by programs to emulate a terminal
-  * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - A standard for in-band signaling to control the cursor location, color, font styling, and other options on video text terminals
-  * [iTerm2 image protocol](https://iterm2.com/documentation-images.html) - A custom escape code to display images inline in the terminal
-* Terminal fonts
-  * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
-  * [Nerd Fonts](https://www.nerdfonts.com/) - A project that patches developer targeted fonts with a high number of glyphs
-  * [Cascadia Code](https://github.com/microsoft/cascadia-code) - A fun, new monospaced font that includes programming ligatures
-* Search tools
+  * [asciinema](https://asciinema.org/) - A free and open source solution for recording terminal sessions and sharing them on the web
+* Console File Managers
+  * [midnight commander](https://midnight-commander.org/) - A visual file manager
+  * [ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
+  * [superfile](https://superfile.netlify.app/) - A very fancy and modern terminal file manager
+* Search Tools
   * [findutils](https://www.gnu.org/software/findutils/) - The basic directory searching utilities of the GNU operating system
   * [fzf](https://github.com/junegunn/fzf) - A general-purpose command-line fuzzy finder
   * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to find
   * [grep](https://www.gnu.org/software/grep/) - A command-line utility for searching plain-text data sets for lines that match a regular expression
   * [ripgrep](https://github.com/BurntSushi/ripgrep) - A line-oriented search tool that recursively searches the current directory for a regex pattern
   * [silversearcher-ag](https://geoff.greer.fm/ag/) - A code-searching tool similar to ack, but faster
-* Coding agents/tools
+* Linux or Unix-like environments on Windows
+  * [Git for Windows](https://gitforwindows.org/) - A lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
+  * [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
+  * [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - A feature of Windows that enables you to run a GNU/Linux environment on your Windows machine without the need for a separate virtual machine or dual booting
+* Shell Tutorials
+  * [LinuxCommand.com](https://www.linuxcommand.org/) - A site containing a book and other material designed to help you learn how to use the Linux command line
+* Coding Agents/Tools
   * [Claude Code](https://www.anthropic.com/claude-code) - An AI model that excels at complex reasoning, nuance, and coding tasks
   * [OpenAI Codex CLI](https://github.com/openai/codex) - A command-line interface for a model that translates natural language to code
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
@@ -145,16 +159,8 @@
   * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
   * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
   * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
-* Console file managers
-  * [midnight commander](https://midnight-commander.org/) - A visual file manager
-  * [ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
-  * [superfile](https://superfile.netlify.app/) - A very fancy and modern terminal file manager
-* Unix-like environments on Windows
-  * [Git for Windows](https://gitforwindows.org/) - focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
-  * [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
-  * [Cygwin](https://www.cygwin.com/)
-* Linux on Windows
-  * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
+  * Standards for Agent Instructions
+    * [Agents.md](https://agents.md/)
 
 ## 120 - SCM, Editor/IDE, and Code Quality
 
@@ -201,22 +207,23 @@
   * Terminal-based
     * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
       * [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - The commands that move the cursor and the commands used to delete or change text
-      * Tutorials
+      * Tutorials and Cheet Sheets
         * [OpenVim](https://openvim.com/) - An interactive Vim tutorial
         * [Vim Adventures](https://vim-adventures.com/) - An online game based on VIM's keyboard shortcuts
+        * [Vim Cheet Sheet](https://vim.rtorr.com/)
       * [vim-plug](https://junegunn.github.io/vim-plug/) - The de-facto standard plugin manager for Vim
       * [NERDTree](https://github.com/preservim/nerdtree) - A tree explorer plugin for vim
     * [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor
       * [LazyVim](https://www.lazyvim.org/) - A Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config
         * [lazy.nvim](https://lazy.folke.io/) - A modern plugin manager for Neovim
-      * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
-      * [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim)
+      * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - A Neovim plugin to manage the file system and other tree like structures
+      * [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) - A colorful window separator for Neovim
       * [mason.nvim](https://github.com/williamboman/mason.nvim) - A Neovim plugin that allows you to easily manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
       * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
-      * [flash.nvim](https://github.com/folke/flash.nvim) - lets you navigate your code with search labels, enhanced character motions, and Treesitter integration
-      * [nvim-llama](https://github.com/jpmcb/nvim-llama) - Ollama interfaces for Neovim
+      * [flash.nvim](https://github.com/folke/flash.nvim) - A plugin that helps you navigate your code with search labels, enhanced character motions and Treesitter integration
+      * [nvim-llama](https://github.com/jpmcb/nvim-llama) - A simple interface to Ollama for Neovim
     * [Helix](https://helix-editor.com/) - A modal editor, meaning it has different modes for different tasks
-    * [GNU Emacs](https://www.gnu.org/software/emacs/)
+    * [GNU Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor — and more
       * [MELPA](https://melpa.org/#/) - Milkypostman's Emacs Lisp Package Archive
       * [doomemacs](https://github.com/doomemacs/doomemacs) - An Emacs framework for the stubborn martian hacker
       * [neotree](https://github.com/jaypei/emacs-neotree)
@@ -266,7 +273,8 @@
 
 ## 130 - Programming Language Features
 
-* Bash (-> see Class 110)
+Note: For shell scripting, please refer to Class 110.
+
 * [Perl](https://www.perl.org/)
   * [special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod)
   * [built-in regex](https://metacpan.org/dist/perl/view/pod/perlre.pod)
@@ -308,8 +316,10 @@
   * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
   * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
 * [Javascript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
-  * [CommonJS](https://en.wikipedia.org/wiki/CommonJS)
-  * [ES modules](https://nodejs.org/api/esm.html)
+  * Module System
+    * [CommonJS](http://commonjs.org/)
+    * [ES modules](https://nodejs.org/api/esm.html)
+    * [UMD](https://github.com/umdjs/umd/)
   * [Prototype-based](https://en.wikipedia.org/wiki/Prototype-based_programming)
   * event-driven
   * spread and rest operators
@@ -337,6 +347,8 @@
   * block, yield, proc, lambda
   * dynamic method definition
   * instance_eval
+  * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
+  * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
 * [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
   * query expression (LINQ)
   * delegate and event
@@ -615,6 +627,7 @@
 * Build automation tools
   * [GNU Make](https://www.gnu.org/software/make/)
     * [Remake](https://bashdb.sourceforge.net/remake/) - An enahanced version of GNU Make that adds improved error reporting, better tracing, profiling and a debugger
+    * [makefile-graph](https://github.com/dnaeon/makefile-graph) - A Go module and CLI application, which parses GNU Make's internal database and generates a graph representing the relationships between the discovered Makefile targets
   * [Gradle](https://gradle.org/)
   * [Maven](https://maven.apache.org/)
   * [Task](https://taskfile.dev/)
@@ -672,34 +685,68 @@
 
 ## 170 - Algorithms and Data Structures
 
-* [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-  * [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
-  * [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-  * [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
-  * [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-  * [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
-  * [Tarjan's strongly connected components algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm)
-  * [Cuckoo hashing](https://en.wikipedia.org/wiki/Cuckoo_hashing)
-* [Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)
+* [Algorithms](https://en.wikipedia.org/wiki/Algorithm)
+  * Analysis Techniques
+    * [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
+    * [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
+  * Algorithmic Paradigms
+    * [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+    * [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
+    * [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
+    * [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+    * [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
+  * Sorting Algorithms
+    * [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+    * [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+    * [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
+  * Searching Algorithms
+    * [Binary search](https://en.wikipedia.org/wiki/Binary_search)
+    * [Interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
+  * String Algorithms
+    * [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
+    * [Boyer–Moore algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
+    * [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
+  * Graph Algorithms
+    * Traversal
+      * [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search)
+      * [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)
+    * Shortest Path
+      * [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+      * [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
+    * [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)
+      * [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm)
+      * [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal's_algorithm)
+    * Other
+      * [Tarjan's strongly connected components algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm)
+      * [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
+  * Hashing Algorithms
+    * [Cuckoo hashing](https://en.wikipedia.org/wiki/Cuckoo_hashing)
+* [Abstract Data Types](https://en.wikipedia.org/wiki/Abstract_data_type)
   * [String](https://en.wikipedia.org/wiki/String_(computer_science))
   * [List](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-  * [Array](https://en.wikipedia.org/wiki/Array_(data_type))
-    * [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
   * [Associative array](https://en.wikipedia.org/wiki/Associative_array)
   * [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
   * [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+  * [Priority queue](https://en.wikipedia.org/wiki/Priority_queue)
   * [Tree](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
   * [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-* [Data structure](https://en.wikipedia.org/wiki/Data_structure)
+* [Data Structures](https://en.wikipedia.org/wiki/Data_structure)
+  * [Array](https://en.wikipedia.org/wiki/Array_(data_type))
+    * [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
   * [Hash table](https://en.wikipedia.org/wiki/Hash_table)
   * [Linked data structure](https://en.wikipedia.org/wiki/Linked_data_structure)
   * [Persistent structure](https://en.wikipedia.org/wiki/Persistent_data_structure)
+  * [Disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
   * Tree-based
     * [Search tree](https://en.wikipedia.org/wiki/Search_tree)
+      * [Binary search tree (BST)](https://en.wikipedia.org/wiki/Binary_search_tree)
     * [Markle tree](https://en.wikipedia.org/wiki/Merkle_tree)
     * [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     * [Trie](https://en.wikipedia.org/wiki/Trie)
     * [Fenwick tree](https://en.wikipedia.org/wiki/Fenwick_tree)
   * Graph-based
     * [Directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-* [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
+    * [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix)
+    * [Adjacency list](https://en.wikipedia.org/wiki/Adjacency_list)
+* External Resources
+  * [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
