@@ -1,4 +1,4 @@
-= DX and DevOps Landscape - Timelines
+= Greater DevOps Landscape - Timelines
 Hajime Yoshida <jimyoshida@dummy.com>
 2, 2025-07-21: Restructured
 :doctype: article

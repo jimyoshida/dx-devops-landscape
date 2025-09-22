@@ -1,14 +1,14 @@
-cls000: Team and Personal Performance
+cls000: Software Engineering Foundations
 subcls000: Agile/Lean System Development
-subsubcls000: Agile
-subsubcls001: Lean
-subsubcls002: DevOps
+subsubcls001: Agile
+subsubcls002: Lean
+subsubcls003: DevOps
 subcls010: Management and Leadership
-subsubcls010: People & Communication Skills
-subsubcls011: Strategy & Goal Setting
-subsubcls012: Project & Work Management
-subsubcls013: Tools and Platforms
-subsubcls014: Principles, Standards, & Governance
+subsubcls010: Principles & Governance
+subsubcls011: People & Communication Skills
+subsubcls012: Strategy & Goal Setting
+subsubcls013: Project & Work Management
+subsubcls014: Tools & Platforms
 subcls020: Systems Architecture Design
 subsubcls020: Foundations
 subsubcls021: Modeling Methodologies
@@ -20,9 +20,17 @@ subsubcls041: Lightweight Markup
 subsubcls042: Writing Styles
 subsubcls043: Common Tools
 subsubcls044: Architecture Description
-subcls050: OSS Community and Open Data
+subcls050: OSS Ecosystem and Open Data
+subsubcls050: Open Source Licenses
+subsubcls051: OSS Repositories or Registries
+subsubcls052: Related Organizations
+subsubcls053: Open Data
 subcls060: Psychology and Sociology
-subcls070: Logic and Base Mathematics
+subsubcls061: Personal Performance
+subsubcls062: Social Performance
+subcls070: Logic
+subsubcls070: Concepts
+subsubcls071: Formal Logic
 cls100: Programming
 subcls100: Programming Concepts
 subcls110: Shell and Terminal
@@ -32,7 +40,7 @@ subcls140: Text and Structured Text Processing
 subcls150: Debugging, Logging, and Unit Testing
 subcls160: Program Execution and SDK
 subcls170: Algorithms and Data Structures
-cls200: System Administartion and SRE
+cls200: System Administration and SRE
 subcls200: OS and IP Network Basics
 subcls210: Linux Administration
 subcls220: Domain Name System and Email

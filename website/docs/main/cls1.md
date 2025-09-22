@@ -653,6 +653,8 @@ Note: For shell scripting, please refer to Class 110.
   * [Javadoc](https://www.oracle.com/java/technologies/javase/javadoc-tool.html)
 * Package dependency management
   * [npm CLI](https://www.npmjs.com/)
+    * [npm-check-updates](https://github.com/raineorshine/npm-check-updates)
+    * [npmgraph](https://npmgraph.js.org/)
   * [yarn](https://yarnpkg.com/) - A package manager that doubles down as project manager
   * [pNPm](https://pnpm.io) - Fast, disk space efficient package manager
   * [dpmland](https://dpmland.deno.dev/) - Simple, modern and easy way to manage the Deno modules and dependencies

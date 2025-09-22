@@ -1,4 +1,4 @@
-= DX and DevOps Landscape - Main
+= Greater DevOps Landscape - Main
 Hajime Yoshida <jimyoshida@dummy.com>
 1, 2025-06-10: Initial version
 :doctype: article

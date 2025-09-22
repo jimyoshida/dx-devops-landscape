@@ -255,6 +255,8 @@
 * [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
   * [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
   * [Central limit theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem)
+* [Information theory](https://en.wikipedia.org/wiki/Information_theory) - A scientific study of the quantification, storage, and communication of digital information
+  * [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) - The average level of 'information', 'surprise', or 'uncertainty' inherent in a random variable's possible outcomes
 * [Statistics](https://en.wikipedia.org/wiki/Statistics)
   * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics))
   * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals)

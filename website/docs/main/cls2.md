@@ -1,4 +1,4 @@
-# 200 - System Administartion and SRE
+# 200 - System Administration and SRE
 
 ## 200 - OS and IP Network Basics
 

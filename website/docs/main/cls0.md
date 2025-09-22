@@ -1,17 +1,19 @@
-# 000 - Team and Personal Performance
+# 000 - Software Engineering Foundations
+
+This is comprehensive, logically consistent, and demonstrates a deep understanding of the relationships between different domains of knowledge in software development and management, according to Gemini.
 
 ## 000 - Agile/Lean System Development
 
-### 000 - Agile
+### 001 - Agile
 
 * [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) - An umbrella term for approaches to developing software that reflect the values and principles agreed upon by The Agile Alliance
   * [Agile Manifesto](https://agilemanifesto.org/) - A document that proclaims better ways of developing software by valuing individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan
   * [Trunk Based Development](https://trunkbaseddevelopment.com/) - A source-control branching model, where developers collaborate on code in a single branch called 'trunk', resist any pressure to create other long-lived development branches by employing documented techniques
   * [Software prototyping](https://en.wikipedia.org/wiki/Software_prototyping) - The activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed
-  * [Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product)
+  * [Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product) - A version of a product with just enough features to be usable by early customers who can then provide feedback for future product development
   * [Scrum](https://www.scrum.org/learning-series/what-is-scrum/) - A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value
   * [User story](https://en.wikipedia.org/wiki/User_story) - An informal, natural language description of features of a software system
-    * [Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
+    * [Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/) - A practice where the Card is a token representing the requirement, the Conversation is where details are teased out, and the Confirmation is the acceptance test for the story
   * [INVEST of PBI](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) - A mnemonic created by Bill Wake as a reminder of the characteristics of a good quality Product Backlog Item (PBI)
     * Independent: The PBI should be self-contained
     * Negotiable: Draft PBIs are not explicit contracts and should leave space for discussion
@@ -32,11 +34,11 @@
     * [RSpec](https://rspec.info/) - A testing tool for the Ruby programming language, created for behavior-driven development (BDD)
     * [Behave](https://behave.readthedocs.io/en/latest/) - A tool for behaviour-driven development (BDD) in Python, using tests written in a natural language style, backed up by Python code
 
-### 001 - Lean
+### 002 - Lean
 
 * [Lean software development](https://en.wikipedia.org/wiki/Lean_software_development) - A translation of lean manufacturing principles and practices to the software development domain
-  * [Continual improvement process](https://en.wikipedia.org/wiki/Continual_improvement_process)
-  * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop)
+  * [Continual improvement process](https://en.wikipedia.org/wiki/Continual_improvement_process) - An ongoing effort to improve products, services, or processes
+  * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop) - A four-step approach to decision-making that focuses on filtering available information, putting it in context and quickly making the most appropriate decision while also understanding that changes can be made as more data becomes available
   * [Lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) - A production method aimed primarily at reducing times within the production system as well as response times from suppliers and to customers
   * [Kanban method](https://en.wikipedia.org/wiki/Kanban_(development)) - A lean method to manage and improve work across human systems
 * [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
@@ -50,9 +52,9 @@
   * Muri Muda Mura: Identifying and eliminating waste, unevenness, and overburden.
 * [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) - A management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints
 
-### 002 - DevOps
+### 003 - DevOps
 
-* [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework)
+* [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - A conceptual model for approaching DevOps that stands for Culture, Automation, Lean, Measurement, and Sharing
 * [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) - A powerful technique, allowing teams to modify system behavior without changing code
 * [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - A technique that reduces downtime and risk by running two identical production environments called Blue and Green
 * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
@@ -64,14 +66,27 @@
 
 ## 010 - Management and Leadership
 
-### 010 - People & Communication Skills
+### 010 - Principles & Governance
+
+* Corporate Principles & Values
+  * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles) - The set of core tenets Amazonians use daily to guide their discussions, decisions, and actions
+  * [GitLab Values](https://about.gitlab.com/handbook/values/) - The key principles that form GitLab's identity and culture, guiding how team members work together
+* Community Governance & Codes of Conduct
+  * [Debian Constitution](https://www.debian.org/devel/constitution) - A document that describes the structure of organisation for decision-making in the Debian Project
+  * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - A set of guidelines that covers behavior as a member of the Ubuntu Community
+  * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) - A set of guidelines that outline expectations for participants within the Mozilla community
+  * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
+* Professional Manifestos
+  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft
+
+### 011 - People & Communication Skills
 
 * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
 * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
-* [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational))
-* [Active listening](https://en.wikipedia.org/wiki/Active_listening)
+* [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop
+* [Active listening](https://en.wikipedia.org/wiki/Active_listening) - The practice of preparing to listen, observing what verbal and non-verbal messages are being sent, and then providing appropriate feedback for the sake of showing attentiveness to the message being presented
 
-### 011 - Strategy & Goal Setting
+### 012 - Strategy & Goal Setting
 
 * [Goal setting](https://en.wikipedia.org/wiki/Goal_setting) - The process of developing an action plan designed to motivate and guide a person or group toward a goal
   * [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) - A mnemonic acronym, used to guide in the setting of objectives or goals, for example in project management, employee-performance management and personal development
@@ -91,9 +106,9 @@
   * [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
   * [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
 
-### 012 - Project & Work Management
+### 013 - Project & Work Management
 
-* [Project management](https://en.wikipedia.org/wiki/Project_management)
+* [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
   * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
   * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
   * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix (RAM)... describes the participation by various roles in completing tasks or deliverables for a project or business process
@@ -104,10 +119,13 @@
 * [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
   * ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
   * ISO/IEC/IEEE 15288: Systems and software engineering — System life cycle processes
+* Related Standards
+  * ISO/IEC 15504: Information technology — Process assessment
+  * ISO/IEC 20000: Information technology — Service management
 
-### 013 - Tools and Platforms
+### 014 - Tools & Platforms
 
-* Issue tracking systems
+* Issue Tracking Systems
   * [JIRA](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
     * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
     * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
@@ -116,7 +134,7 @@
   * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
   * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
   * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
-* [Instant messaging](https://en.wikipedia.org/wiki/Instant_messaging) - A type of online chat that offers real-time text transmission over the Internet
+* Chat Systems
   * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
     * [Python Slack SDK](https://slack.dev/python-slack-sdk/) - A software development kit that helps Python developers build apps that integrate with Slack
     * [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - A Go library for the Slack API
@@ -124,21 +142,6 @@
   * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
     * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
   * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
-
-### 014 - Principles, Standards, & Governance
-
-* Code of Conduct examples
-  * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles) - The set of core tenets Amazonians use daily to guide their discussions, decisions, and actions
-  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft
-  * [GitLab Values](https://about.gitlab.com/handbook/values/) - The key principles that form GitLab's identity and culture, guiding how team members work together
-  * [Debian Constitution](https://www.debian.org/devel/constitution) - A document that describes the structure of organisation for decision-making in the Debian Project
-  * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - A set of guidelines that covers behavior as a member of the Ubuntu Community
-  * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) - A set of guidelines that outline expectations for participants within the Mozilla community
-  * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
-* Related Standards
-  * ISO/IEC 15504: Information technology — Process assessment
-  * ISO/IEC 20000: Information technology — Service management
-  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
 
 ## 020 - Systems Architecture Design
 
@@ -152,6 +155,8 @@
     * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
 * [Architectural Decision Records (ADRs)](https://adr.github.io/) - A document that captures an important architectural decision made along with its context and consequences
   * [adr-tools](https://github.com/npryce/adr-tools) - A command-line tool to help you manage your architectural decision records
+* Related Standards
+  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
 
 ### 021 - Modeling Methodologies
 
@@ -217,32 +222,31 @@
 
 ### 040 - Concepts & Methodologies
 
-* [Technical writing](https://en.wikipedia.org/wiki/Technical_writing)
-* [Divio Documentation System](https://docs.divio.com/documentation-system/)
+* [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
+* [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
 
 ### 041 - Lightweight Markup
 
-* [Markdown](https://en.wikipedia.org/wiki/Markdown)
-  * [CommonMark](https://commonmark.org/)
-  * [GFM (GitHub Flavored Markdown)](https://github.github.com/gfm/)
-    * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
-  * [markdownlint](https://github.com/DavidAnson/markdownlint)
+* [Markdown](https://en.wikipedia.org/wiki/Markdown) - A lightweight markup language for creating formatted text using a plain-text editor
+  * [CommonMark](https://commonmark.org/) - A rationalized version of Markdown syntax, with a spec and BSD-licensed reference implementations in C and JavaScript
+  * [GFM (GitHub Flavored Markdown)](https://github.github.com/gfm/) - A formal specification, based on the CommonMark Spec, that defines the syntax and semantics of GitHub's dialect of Markdown
+    * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The CSS that styles markdown rendered on GitHub
+  * [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files
   * [Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
-  * [Grip](https://github.com/joeyespo/grip) - GitHub Readme Instant Preview
+  * [Grip](https://github.com/joeyespo/grip) - A command-line server application that renders local README files before you push them to GitHub
   * [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
-  * [Marp](https://marp.app/) - Markdown Presentation Ecosystem
-  * Editor plugins
-    * [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown)
+  * [Marp](https://marp.app/) - The simplest Markdown presentation writer with plain Markdown
+    * [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more)
     * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
-    * [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim)
+    * [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - A markdown preview plugin for (neo)vim
   * Guides
     * [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown
-* [DocUtils](https://docutils.sourceforge.io/)
-  * [reStructuredText](https://docutils.sourceforge.io/rst.html)
+* [DocUtils](https://docutils.sourceforge.io/) - An open-source text processing system for processing plaintext documentation into useful formats, such as HTML, LaTeX, man-pages, open-document, or XML
+  * [reStructuredText](https://docutils.sourceforge.io/rst.html) - An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system
 * [Asciidoc](https://asciidoc.org/) - A lightweight markup language for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs
   * [Asciidoctor](https://asciidoctor.org/) - A fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats
 * [Org Mode](https://orgmode.org/) - Your life in plain text
-  * [nvim-orgmode](https://github.com/nvim-orgmode/orgmode)
+  * [nvim-orgmode](https://github.com/nvim-orgmode/orgmode) - An Orgmode clone for Neovim written in Lua
 
 ### 042 - Writing Styles
 
@@ -286,7 +290,7 @@
 * Converters
   * [Pandoc](https://pandoc.org/) - A universal document converter
     * [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
-* Other tools
+* Content Management Tools
   * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
   * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
   * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
@@ -295,13 +299,13 @@
 
 * Models and Languages
   * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
-  * [Flowchart](https://en.wikipedia.org/wiki/Flowchart)
+  * [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
   * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
   * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
   * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
-* Diagramming tools
+* Diagramming Tools
   * [draw.io](https://www.drawio.com/) - A technology stack for building diagramming applications, and the world's most widely used browser-based end-user diagramming software
-* Diagramming as code
+* Diagramming as Code
   * [D2: Declarative Diagramming](https://d2lang.com/) - A modern diagram scripting language that turns text to diagrams
   * [Diagrams](https://diagrams.mingrammer.com/) - A Python package for drawing cloud system architectures in Python code
   * [PlantUML](https://plantuml.com/) - A tool that allows you to create diagrams from a simple textual description
@@ -312,21 +316,31 @@
     * [haphviz](https://hackage.haskell.org/package/haphviz) - A Haskell library for representing, manipulating, and pretty-printing graphs in the DOT format
   * [ditaa](https://github.com/stathissideris/ditaa) - A small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
 
-## 050 - OSS Community and Open Data
+## 050 - OSS Ecosystem and Open Data
 
-* OSS repositories or registries
+### 050 - Open Source Licenses
+
+* [Opensource license](https://en.wikipedia.org/wiki/Open-source_license) - A type of license for computer software and other products that allows the source code, blueprint or design to be used, modified and/or shared under defined terms and conditions
+* [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
+* [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - A family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software
+* [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF)
+* [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses that guarantee end users the four freedoms to run, study, share, and modify the software
+* [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF)
+
+### 051 - OSS Repositories or Registries
+
+* Source Repositories
   * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
   * [GitLab.com](https://about.gitlab.com/) - The DevSecOps Platform that empowers organizations to maximize the overall return on software development
+* Package Registries
   * [CTAN](https://ctan.org/) - The Comprehensive TEX Archive Network
   * [CPAN](https://www.cpan.org/) - The Comprehensive Perl Archive Network
   * [CRAN](https://cran.r-project.org/) - The Comprehensive R Archive Network
   * [PyPI](https://pypi.org/) - A repository of software for the Python programming language
   * [RubyGems.org](https://rubygems.org/) - The Ruby community’s gem hosting service
   * [npm Registry](https://www.npmjs.com/) - The world's largest software registry
-    * [npm-check-updates](https://github.com/raineorshine/npm-check-updates)
   * [JSR](https://jsr.io/) - The open-source package registry for modern JavaScript and TypeScript
   * [pkg.go.dev](https://pkg.go.dev/) - Your source for information about Go packages and modules
-    * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software. Inspired by awesome-python.
   * [crates.io](https://crates.io/) - The Rust community’s crate registry
   * [LuaRocks](https://luarocks.org/) - The package manager for Lua modules
   * [Hackage](https://hackage.haskell.org/) - The Haskell community's central package archive of open source software
@@ -334,72 +348,97 @@
   * [NuGet Gallery](https://www.nuget.org/) - The package manager for .NET
   * [Maven Central](https://central.sonatype.com/) - The World's Largest and Oldest Component Repository
   * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
+  * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
+* Container Related
   * [Docker Hub](https://docs.docker.com/docker-hub/) - A service provided by Docker for finding and sharing container images
   * [Artifact Hub](https://artifacthub.io/) - A web-based application that enables finding, installing, and publishing Cloud Native packages
-  * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
-* [Opensource license](https://en.wikipedia.org/wiki/Open-source_license)
-  * [MIT](https://en.wikipedia.org/wiki/MIT_License)
-  * [BSD](https://en.wikipedia.org/wiki/BSD_licenses)
-  * [Apache](https://en.wikipedia.org/wiki/Apache_License)
-  * [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-  * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
-* Major non-profit organizations
-  * [Creative Commons](https://creativecommons.org/)
-  * [Open Source Initiative](https://opensource.org/)
-  * [Free Software Foundation](https://www.fsf.org/)
+* Community Curations
+  * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software. Inspired by awesome-python
+  * [Awesome Ruby](https://awesome-ruby.com/) - A curated list of awesome Ruby frameworks, libraries and software
+  * [Awesome Python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
+
+### 052 - Related Organizations
+
+* OSS Foundations
+  * [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom
     * [Philosophy of the GNU Project](https://www.gnu.org/philosophy/philosophy.html) - The idea that everyone shall have the granted right to use a program, to copy it, and to change it to make it fit his or her needs
-  * [Apache Software Foundation](https://www.apache.org/)
-  * [The Open Group](https://www.opengroup.org/)
-  * [Cloud Native Computing Foundation](https://www.cncf.io/)
-  * [Linux Foundation](https://www.linuxfoundation.org/)
-  * [OpenJS Foundation](https://openjsf.org/)
-  * [Rust Foundation](https://foundation.rust-lang.org/)
-  * [World Wide Web Consortium](https://www.w3.org/)
-  * [WHATWG](https://whatwg.org/)
-* Open data registries
+  * [Apache Software Foundation](https://www.apache.org/) - A nonprofit corporation to support Apache software projects, including the Apache HTTP Server
+  * [Cloud Native Computing Foundation](https://www.cncf.io/) - An open source software foundation dedicated to making cloud native computing universal and sustainable
+  * [Linux Foundation](https://www.linuxfoundation.org/) - A non-profit organization that supports, protects, and standardizes Linux by providing a neutral, trusted hub for developers to code, manage, and scale open technology projects
+  * [OpenJS Foundation](https://openjsf.org/) - The neutral home for more than 40 open source projects, including Appium, Dojo, jQuery, Node.js, and webpack
+  * [Rust Foundation](https://foundation.rust-lang.org/) - An independent non-profit organization dedicated to stewarding and growing the Rust programming language and ecosystem
+* Open Standards Organizations
+  * [World Wide Web Consortium](https://www.w3.org/) - An international community that develops open standards to ensure the long-term growth of the Web
+  * [WHATWG](https://whatwg.org/) - A community of people interested in evolving HTML and related technologies
+  * [The Open Group](https://www.opengroup.org/) - A global consortium that enables the achievement of business objectives through technology standards
+* Advocacy and Stewardship Organizations
+  * [Creative Commons](https://creativecommons.org/) - A nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges
+  * [Open Source Initiative](https://opensource.org/) - A non-profit organization dedicated to promoting and protecting open source software and communities
+
+### 053 - Open Data
+
+* Open Data Registries
   * [Hugging Face Hub](https://huggingface.co/docs/hub/index) - A platform with over 900k models, 200k datasets, and 300k demos in which people can easily collaborate in their ML workflows
-  * [Data.gov](https://data.gov/)
-  * [Kaggle](https://www.kaggle.com/)
-  * [Registry of Open Data on AWS](https://registry.opendata.aws/)
-  * [OpenML](https://www.openml.org/)
-  * [OpenStreetMap](https://www.openstreetmap.org/about)
-* Data search engine
-  * [Google Dataset search](https://datasetsearch.research.google.com/)
+  * [Data.gov](https://data.gov/) - The home of the U.S. Government’s open data
+  * [Kaggle](https://www.kaggle.com/) - The world's largest data science community with powerful tools and resources to help you achieve your data science goals
+  * [Registry of Open Data on AWS](https://registry.opendata.aws/) - A service that makes it easy for people to find datasets that are publicly available through AWS services
+  * [OpenML](https://www.openml.org/) - An open, collaborative, frictionless, and automated machine learning environment
+  * [OpenStreetMap](https://www.openstreetmap.org/about) - A map of the world, created by people like you and free to use under an open license
+* Data Search Engines
+  * [Google Dataset search](https://datasetsearch.research.google.com/) - A search engine that enables users to find datasets stored across thousands of repositories on the Web
 
 ## 060 - Psychology and Sociology
 
-* Personal performance
-  * [Three Virtues](https://threevirtues.dev/) - The qualities of a great programmer: Laziness, Impatience, and Hubris
+### 061 - Personal Performance
+
+* Mental Health
   * [Mindfullness](https://en.wikipedia.org/wiki/Mindfulness) - The basic human ability to be fully present, aware of where we are and what we're doing, and not overly reactive or overwhelmed by what's going on around us
     * [Zen](https://en.wikipedia.org/wiki/Zen) - A school of Mahayana Buddhism that originated in China during the Tang dynasty
   * [Flow](https://en.wikipedia.org/wiki/Flow_(psychology)) - The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity
   * [Defence mechanism](https://en.wikipedia.org/wiki/Defence_mechanism) - Unconscious psychological processes that protect the self from anxiety-producing thoughts and feelings related to internal conflicts and external stressors
+  * [Psychological resilience](https://en.wikipedia.org/wiki/Psychological_resilience) - The ability to cope mentally and emotionally with a crisis, or to return to pre-crisis status quickly
+  * [Occupational burnout](https://en.wikipedia.org/wiki/Occupational_burnout) - A work-related phenomenon resulting from chronic workplace stress that has not been successfully managed
+* Cognitive Performance / Decision Making
   * [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) - A conceptualisation of the needs (or goals) that motivate human behaviour
   * [Cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - A systematic pattern of deviation from norm or rationality in judgment
   * [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network) - A large-scale brain network; known for being active when a person is not focused on the outside world and the brain is at wakeful rest
-  * [Psychological resilience](https://en.wikipedia.org/wiki/Psychological_resilience) - The ability to cope mentally and emotionally with a crisis, or to return to pre-crisis status quickly
   * [Situation awareness](https://en.wikipedia.org/wiki/Situation_awareness) - The understanding of an environment, its elements, and how it changes with respect to time or other factors
     * 1: Perception of the elements in the environment.
     * 2: Comprehension or understanding of the situation.
     * 3: Projection of future status.
-  * [Occupational burnout](https://en.wikipedia.org/wiki/Occupational_burnout) - A work-related phenomenon resulting from chronic workplace stress that has not been successfully managed
-* Team performance
+* Related Philosophies
+  * [Three Virtues](https://threevirtues.dev/) - The qualities of a great programmer: Laziness, Impatience, and Hubris
+* Related Books
+  * [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) - A 2011 book by psychologist Daniel Kahneman
+
+### 062 - Social Performance
+
+* Social Psychology
   * [Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety) - The belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes
   * [Trust](https://en.wikipedia.org/wiki/Trust_(social_science)) - The belief that another person will do what is expected
   * [Collective intelligence](https://en.wikipedia.org/wiki/Collective_intelligence) - The shared or group intelligence that emerges from the collaboration, collective efforts, and competition of many individuals and appears in consensus decision making
-* Related Books
-  * [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
-* Related Fields
+  * [Groupthink](https://en.wikipedia.org/wiki/Groupthink) - A psychological phenomenon that occurs within a group of people in which the desire for harmony or conformity in the group results in an irrational or dysfunctional decision-making outcome
+  * [Bystander effect](https://en.wikipedia.org/wiki/Bystander_effect) - A social psychological theory that states that individuals are less likely to offer help to a victim when there are other people present
+  * [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) - A suggested cognitive limit to the number of people with whom one can maintain stable social relationships
+* Illustrative Concepts
   * [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory) - A criminological theory that states that visible signs of crime, anti-social behavior, and civil disorder create an urban environment that encourages further crime and disorder, including serious crimes
   * [Stone soup story](https://en.wikipedia.org/wiki/Stone_Soup) - A European folk story in which hungry strangers convince the people of a town to each share a small amount of their food in order to make a meal
   * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog) - An apologue describing a frog being slowly boiled alive
 
-## 070 - Logic and Base Mathematics
+## 070 - Logic
+
+### 070 - Concepts
 
 * [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
+* [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
   * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
-    * Deductive, Inductive, Abuctive and Analogical
+    * Deductive, Inductive, Abductive and Analogical
   * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
+  * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
+
+### 071 - Formal Logic
+
+* [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
   * [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
     * conjunction, disjunction, implication, biconditional and negation
     * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
@@ -407,21 +446,19 @@
     * universal quantification and existential quantification
   * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
     * [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
-* [Set Theory](https://en.wikipedia.org/wiki/Set_theory)
+* [Set Theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
   * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
-  * [Function](https://en.wikipedia.org/wiki/Function_(mathematics)) - establishes a relation between the elements of the domain and some (possibly all) elements of the codomain
-  * [Map](https://en.wikipedia.org/wiki/Map_(mathematics)) - A function in its general sense
+  * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
   * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
     * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
-* [Information Theory](https://en.wikipedia.org/wiki/Information_theory) - A scientific study of the quantification, storage, and communication of digital information
-  * [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) - The average level of 'information', 'surprise', or 'uncertainty' inherent in a random variable's possible outcomes
+* [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
+  * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
 * Related Fields
-  * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
   * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
   * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
   * [Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation) - The branch that deals with what problems can be solved on a model of computation, using an algorithm, how efficiently they can be solved or to what degree
-* Resources
-  * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)
-    * [Notations](https://dlmf.nist.gov/not/)
+* Related Resources
+  * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - The definitive reference for the special functions of applied mathematics
+    * [Notations](https://dlmf.nist.gov/not/) - A list of notations used in the library
   * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
   * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
