@@ -10,7 +10,7 @@ subsubcls012: Strategy & Goal Setting
 subsubcls013: Project & Work Management
 subsubcls014: Tools & Platforms
 subcls020: Systems Architecture Design
-subsubcls020: Foundations
+subsubcls020: Core Design Concepts
 subsubcls021: Modeling Methodologies
 subsubcls022: Design Patterns
 subsubcls023: Principles & Best Practices
@@ -33,15 +33,60 @@ subsubcls070: Concepts
 subsubcls071: Formal Logic
 cls100: Programming
 subcls100: Programming Concepts
+subsubcls100: Core Programming Concepts
+subsubcls101: Object-oriented Programming
+subsubcls102: Functional Programming
+subsubcls103: Concurrency and Parallelism
+subsubcls105: Advanced Topics
 subcls110: Shell and Terminal
+subsubcls110: Major Shell
+subsubcls111: Shell Utilities
+subsubcls112: Terminal Emulators
+subsubcls113: Terminal Utilities
+subsubcls114: Linux or Unix-like environments on Windows
+subsubcls116: Coding Agents & Tools
+subsubcls117: Learning Resources
 subcls120: SCM, Editor/IDE, and Code Quality
+subsubcls121: Source Code Management
+subsubcls122: Editors and IDEs
+subsubcls123: Coding Assistance
+subsubcls124: Source Code Quality
 subcls130: Programming Language Features
+subsubcls130: Python Language
+subsubcls131: Javascript and TypeScript
+subsubcls132: Languages for Scripting and Automation
+subsubcls133: Languages for Systems and Application Development
+subsubcls135: Date and Time
 subcls140: Text and Structured Text Processing
+subsubcls140: Text Basics
+subsubcls141: Regular Expression
+subsubcls142: Basic Text Manipulation
+subsubcls143: Data Exchange Languages
+subsubcls144: Configuration Languages
+subsubcls145: Template Engines
+subsubcls146: Markup & Document Processing
 subcls150: Debugging, Logging, and Unit Testing
+subsubcls151: Debugging
+subsubcls152: Logging
+subsubcls153: Basic Test Concepts
+subsubcls154: Test Frameworks and Tools
 subcls160: Program Execution and SDK
+subsubcls161: Compiler
+subsubcls162: Runtime System
+subsubcls163: Build Automation
+subsubcls164: Program Documentation
+subsubcls165: Package Dependency
+subsubcls166: Virtual Environment
 subcls170: Algorithms and Data Structures
+subsubcls170: References
+subsubcls171: Algorithms
+subsubcls172: Data Structures
 cls200: System Administration and SRE
-subcls200: OS and IP Network Basics
+subcls200: Operating Systems, Networking, and Modern Infrastructure
+subsubcls200: Core OS Concepts
+subsubcls201: Base Network Concepts & Protocols
+subsubcls202: Linux Kernel Features
+subsubcls203: Applied & Distributed Systems
 subcls210: Linux Administration
 subcls220: Domain Name System and Email
 subcls230: Linux Container and WebAssembly

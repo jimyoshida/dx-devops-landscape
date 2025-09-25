@@ -170,6 +170,7 @@
   * [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
   * [babel](https://babeljs.io/) - A JavaScript compiler
   * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
+  * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
 
 ## 330 - Web Automation and Test Tools
 

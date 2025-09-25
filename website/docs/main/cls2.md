@@ -1,47 +1,63 @@
 # 200 - System Administration and SRE
 
-## 200 - OS and IP Network Basics
+## 200 - Operating Systems, Networking, and Modern Infrastructure
 
-* [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-  * [POSIX](https://en.wikipedia.org/wiki/POSIX)
-  * [process](https://en.wikipedia.org/wiki/Process_(computing))
-    * [pthreads](https://en.wikipedia.org/wiki/Pthreads)
-  * [environment variable](https://en.wikipedia.org/wiki/Environment_variable)
-  * [pipeline](https://en.wikipedia.org/wiki/Pipeline_(Unix))
-  * [file system](https://en.wikipedia.org/wiki/File_system)
-    * [path](https://en.wikipedia.org/wiki/Path_(computing))
-    * [glob pattern](https://en.wikipedia.org/wiki/Glob_(programming))
-    * [file handle/descriptor](https://en.wikipedia.org/wiki/File_descriptor)
-    * [symbolic link](https://en.wikipedia.org/wiki/Symbolic_link)
-    * [permission](https://en.wikipedia.org/wiki/File-system_permissions)
-    * [setuid](https://en.wikipedia.org/wiki/Setuid)
-      * [sticky bit](https://en.wikipedia.org/wiki/Sticky_bit)
-  * [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning)
-  * [loop device](https://en.wikipedia.org/wiki/Loop_device)
-  * [virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
-    * [memory paging](https://en.wikipedia.org/wiki/Memory_paging)
-    * [resident set size (RSS)](https://en.wikipedia.org/wiki/Resident_set_size)
-    * [working set size (WSS)](https://en.wikipedia.org/wiki/Working_set_size)
-  * [shared memory](https://en.wikipedia.org/wiki/Shared_memory)
-  * [cache](https://en.wikipedia.org/wiki/Cache_(computing))
-* [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
-  * [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html) - A process that runs in the background
-  * [signal](https://man7.org/linux/man-pages/man7/signal.7.html) - A limited form of inter-process communication used in Unix and Unix-like operating systems
-  * [pipe](https://man7.org/linux/man-pages/man7/pipe.7.html) - A unidirectional data channel that can be used for interprocess communication
-  * [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html) - A persistent pipe that appears as a file in the file system
-  * [unix domain socket](https://man7.org/linux/man-pages/man7/unix.7.html) - A data communications endpoint for exchanging data between processes executing on the same host operating system
-  * [socket](https://man7.org/linux/man-pages/man7/socket.7.html) - A communication endpoint for exchanging data between processes
-  * Filesystems
-    * [ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
-    * [xfs](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
-    * [overlayfs](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
-    * [proc pseudo-filesystem](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
-    * [sysfs pseudo-filesystem](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
-  * [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
-  * [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
-  * [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
-    * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
-* [The OSI model](https://en.wikipedia.org/wiki/OSI_model)
+Note: Please see also Class 103 - Concurrency and Parallelism.
+
+### 200 - Core OS Concepts
+
+* Core Concepts
+  * [System call](https://en.wikipedia.org/wiki/System_call)
+  * [Protection ring](https://en.wikipedia.org/wiki/Protection_ring)
+  * [Daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
+  * [POSIX standard](https://en.wikipedia.org/wiki/POSIX)
+  * [Virtualization](https://en.wikipedia.org/wiki/Virtualization)
+  * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing))
+* Process Management
+  * [Process](https://en.wikipedia.org/wiki/Process_(computing))
+    * [Thread](https://en.wikipedia.org/wiki/Thread_(computing))
+      * [Pthreads](https://en.wikipedia.org/wiki/Pthreads)
+    * [Scheduling](https://en.wikipedia.org/wiki/Scheduling_(computing))
+    * [Context switch](https://en.wikipedia.org/wiki/Context_switch)
+    * [Interrupt](https://en.wikipedia.org/wiki/Interrupt)
+  * [Environment variable](https://en.wikipedia.org/wiki/Environment_variable)
+* Inter-Process Communication (IPC)
+  * Pipes
+    * [Anonymous pipe](https://en.wikipedia.org/wiki/Anonymous_pipe)
+    * [Named pipe](https://en.wikipedia.org/wiki/Named_pipe)
+  * [Shared memory](https://en.wikipedia.org/wiki/Shared_memory)
+  * [Signal](https://en.wikipedia.org/wiki/Signal_(IPC))
+  * [Unix domain socket](https://en.wikipedia.org/wiki/Unix_domain_socket)
+* Memory Management
+  * [Virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
+    * [Memory paging](https://en.wikipedia.org/wiki/Memory_paging)
+    * [Page fault](https://en.wikipedia.org/wiki/Page_fault)
+    * [Resident set size (RSS)](https://en.wikipedia.org/wiki/Resident_set_size)
+    * [Working set size (WSS)](https://en.wikipedia.org/wiki/Working_set_size)
+  * [Page cache](https://en.wikipedia.org/wiki/Cache_(computing))
+* Storage Management
+  * [Disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning)
+  * [Loop device](https://en.wikipedia.org/wiki/Loop_device)
+  * [File system](https://en.wikipedia.org/wiki/File_system)
+    * [Journaling file system](https://en.wikipedia.org/wiki/Journaling_file_system)
+    * [Path](https://en.wikipedia.org/wiki/Path_(computing))
+    * [Glob pattern](https://en.wikipedia.org/wiki/Glob_(programming))
+    * [File handle/descriptor](https://en.wikipedia.org/wiki/File_descriptor)
+    * [Symbolic link](https://en.wikipedia.org/wiki/Symbolic_link)
+    * [Permissions](https://en.wikipedia.org/wiki/File-system_permissions)
+      * [Setuid](https://en.wikipedia.org/wiki/Setuid)
+      * [Sticky bit](https://en.wikipedia.org/wiki/Sticky_bit)
+    * [Inode](https://en.wikipedia.org/wiki/Inode)
+  * [RAID](https://en.wikipedia.org/wiki/RAID)
+* CPU Architectures
+  * [x86-64](https://en.m.wikipedia.org/wiki/X86-64)
+  * [ARM64](https://en.m.wikipedia.org/wiki/AArch64)
+
+### 201 - Base Network Concepts & Protocols
+
+Note: Please see also 220 - Domain Name System and Email, 300 - Web and API Style Standards, and 630 - PKI and Secure Communications
+
+* [The OSI Model](https://en.wikipedia.org/wiki/OSI_model)
 * [The Internet](https://en.wikipedia.org/wiki/Internet)
   * [IP](https://en.wikipedia.org/wiki/Internet_Protocol) - The network layer communications protocol in the Internet protocol suite
     * [Link-local address](https://en.wikipedia.org/wiki/Link-local_address)
@@ -57,6 +73,7 @@
       * [NDP](https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol)
   * [Routing table](https://en.wikipedia.org/wiki/Routing_table)
     * [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
+  * [Network socket](https://en.wikipedia.org/wiki/Network_socket)
   * [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
   * [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
   * [QUIC](https://quicwg.org/) - A UDP-based, stream-multiplexing, encrypted transport protocol
@@ -64,13 +81,37 @@
   * [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
     * [MAC address](https://en.wikipedia.org/wiki/MAC_address)
   * [VLAN](https://en.wikipedia.org/wiki/VLAN)
-* Distributed computing
+
+### 202 - Linux Kernel Features
+
+Note: Please see also 210 - Linux Administration
+
+* [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
+  * Filesystems
+    * [ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
+    * [xfs](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
+    * [overlayfs](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
+    * [proc.5](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
+    * [sysfs.5](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
+  * Container Support
+    * [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
+    * [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
+    * [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html)
+    * [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html)
+  * [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
+  * [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
+    * [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
+  * [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
+
+### 203 - Applied & Distributed Systems
+
+* Distributed Computing
   * [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
   * [Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
   * [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
   * [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
     * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
-* Infrastructure services
+* Cloud Computing Services
   * [Amazon EC2](https://aws.amazon.com/ec2/)
     * [Amazon EBS](https://aws.amazon.com/ebs/)
   * [Amazon VPC](https://aws.amazon.com/vpc/)
@@ -80,11 +121,13 @@
   * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/)
   * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer)
   * [Google Cloud Compute Engine](https://cloud.google.com/products/compute)
-* Type-2 hypervisors
+* Type-1 Hypervisors
+  * [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
+* Type-2 Hypervisors
   * [VirtualBox](https://www.virtualbox.org/)
   * [QEMU](https://www.qemu.org/)
-* Type-1 hypervisor
-  * [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
+* Libraries
+  * [libvert](https://libvirt.org/)
 
 ## 210 - Linux Administration
 
@@ -249,11 +292,6 @@
   * [Flatcar Container Linux](https://www.flatcar.org/)
 * Utilities in containers
   * [busybox](https://busybox.net/about.html) - combines tiny versions of many common UNIX utilities into a single small executable
-* Key Linux kernel features/commands
-  * [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
-  * [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
-  * [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html)
-  * [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html)
 * [The Open Container Initiative (OCI)](https://opencontainers.org/) - An open governance structure for the express purpose of creating open industry standards around container formats and runtimes
 * Container runtimes and tools
   * [Docker Engine](https://docs.docker.com/engine/)
