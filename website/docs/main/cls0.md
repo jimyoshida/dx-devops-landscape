@@ -1,6 +1,6 @@
 # 000 - Software Engineering Foundations
 
-This is comprehensive, logically consistent, and demonstrates a deep understanding of the relationships between different domains of knowledge in software development and management, according to Gemini.
+Gemini says "This is comprehensive, logically consistent, and demonstrates a deep understanding of the relationships between different domains of knowledge in software development and management."
 
 ## 000 - Agile/Lean System Development
 

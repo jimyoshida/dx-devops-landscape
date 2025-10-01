@@ -1,5 +1,7 @@
 # 100 - Programming
 
+Gemini says "The structure is logical, comprehensive, and follows a clear hierarchical pattern. It effectively separates high-level concepts from specific tools, languages, and frameworks. The inclusion of modern topics like AI coding agents, monorepo tools, and up-to-date frameworks makes it highly relevant."
+
 ## 100 - Programming Concepts
 
 Note: Please see also Class 170 for abstract data types.
@@ -25,10 +27,11 @@ Note: Please see also Class 170 for abstract data types.
     * [Type safety](https://en.wikipedia.org/wiki/Type_safety) - The extent to which a programming language discourages or prevents type errors
   * [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - A value that enables a program to indirectly access a particular datum in the computer's memory or other storage device
     * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - A value saved for indicating that the pointer or reference does not refer to a valid object
-    * [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - A programming technique of storing the number of references, pointers, or handles to a resource
-    * [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - A form of automatic memory management where the collector attempts to reclaim memory occupied by objects no longer in use
-    * [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - An abstract data type that simulates a pointer while providing added features, such as automatic memory management or bounds checking
-    * [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - The state of being protected from various software bugs and security vulnerabilities when dealing with memory access
+* Memory Management
+  * [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - A programming technique of storing the number of references, pointers, or handles to a resource
+  * [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - A form of automatic memory management where the collector attempts to reclaim memory occupied by objects no longer in use
+  * [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - An abstract data type that simulates a pointer while providing added features, such as automatic memory management or bounds checking
+  * [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - The state of being protected from various software bugs and security vulnerabilities when dealing with memory access
 * Control Flow Structures
   * [Control flow](https://en.wikipedia.org/wiki/Control_flow) - The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated
   * [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - The process of responding to the occurrence of exceptions during the execution of a program
@@ -135,7 +138,7 @@ Note: Please see also Class 170 for abstract data types.
 
 ### 111 - Shell Utilities
 
-* Core Shell Utilities
+* General Shell Utilities
   * [coreutils](https://www.gnu.org/software/coreutils/) = A package of GNU software containing many of the basic tools, such as cat, ls, and rm, needed for Unix-like operating systems
   * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
   * [rlwrap](https://github.com/hanslub42/rlwrap) - A readline wrapper
@@ -397,7 +400,7 @@ Note: For shell scripting, please refer to Class 110.
   * [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
   * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
 
-### 132 - Languages for Scripting and Automation
+### 132 - Languages mainly for Scripting and Automation
 
 * [Go](https://go.dev/) - An open-source programming language supported by Google
   * Core Features
@@ -411,7 +414,6 @@ Note: For shell scripting, please refer to Class 110.
     * [lo](https://github.com/samber/lo) - A Lodash-style Go library
     * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
     * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
-    * [when](https://github.com/olebedev/when) - A natural language date/time parser with no dependencies
 * [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
   * Core Features
     * Percent notation
@@ -484,9 +486,9 @@ Note: For shell scripting, please refer to Class 110.
   * [Ruby Time](https://docs.ruby-lang.org/en/master/Time.html) - An abstraction of dates and times
   * [Python delorean](https://delorean.readthedocs.io/en/latest/index.html) - A library for clearing up the inconvenient truths that arise dealing with datetimes in Python
   * [Python arrow](https://arrow.readthedocs.io/en/latest/) - A Python library that offers a sensible and human-friendly approach to creating, manipulating, formatting and converting dates, times and timestamps
-  * [Moment Timezone](https://momentjs.com/timezone/) - A Moment.js plugin for IANA time zone support
   * [Luxon](https://moment.github.io/luxon/#/) - A powerful, modern, and friendly wrapper for JavaScript dates and times
   * [Go time](https://pkg.go.dev/time) - A package that provides functionality for measuring and displaying time
+  * [Go when](https://github.com/olebedev/when) - A natural language date/time parser with no dependencies
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) - A media type which allows users to store and exchange calendaring and scheduling information
 
 ## 140 - Text and Structured Text Processing
@@ -495,10 +497,13 @@ Note: For shell scripting, please refer to Class 110.
 
 * [ASCII](https://en.wikipedia.org/wiki/ASCII) - A character encoding standard for electronic communication
 * [Unicode](https://home.unicode.org/) - The universal character encoding standard
-  * [ICU](https://icu.unicode.org/) - A mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
+support
+  * [UTF-8](https://en.wikipedia.org/wiki/UTF-8) - A variable-width character encoding used for electronic communication
   * [Unicode Emoji](https://home.unicode.org/emoji/) - A standardized set of characters that are used like emoticons
-    * [Python emoji](https://github.com/carpedm20/emoji/) - An emoji library for Python
-    * [Go emoji](https://github.com/kyokomi/emoji) - A minimalistic emoji package for Go
+* Libraries
+  * [ICU](https://icu.unicode.org/) - A mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization
+  * [Python emoji](https://github.com/carpedm20/emoji/) - An emoji library for Python
+  * [Go emoji](https://github.com/kyokomi/emoji) - A minimalistic emoji package for Go
 
 ### 141 - Regular Expression
 
@@ -507,7 +512,7 @@ Note: For shell scripting, please refer to Class 110.
   * [Onigmo](https://github.com/k-takata/Onigmo) - A regular expressions library forked from Oniguruma
   * [Python re](https://docs.python.org/3/library/re.html) - The module provides regular expression matching operations similar to those found in Perl
   * [Go regexp](https://pkg.go.dev/regexp) - The package that implements regular expression search
-    * [RE2](https://github.com/google/re2) - A fast, safe, thread-friendly alternative to backtracking regular expression engines
+  * [RE2](https://github.com/google/re2) - A fast, safe, thread-friendly alternative to backtracking regular expression engines
 * [PRegEx](https://github.com/manoss96/pregex) - A Python library that allows for the programmatic creation of regular expressions
 * Regex Tools
   * [Rubular](https://rubular.com/) - A Ruby-based regular expression editor
@@ -527,8 +532,9 @@ Note: For shell scripting, please refer to Class 110.
     * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
     * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
     * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
+    * [Ruby csv](https://ruby.github.io/csv/) - A complete interface to CSV files and data
     * [Go csv](https://pkg.go.dev/encoding/csv) - A package that reads and writes comma-separated values (CSV) files
-    * [js Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser for JavaScript
+    * [Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser for JavaScript
   * [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) - A delimited text file format that uses a tab character to separate values in a table
   * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
   * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format

@@ -1,6 +1,8 @@
 # 400 - Data Science and Engineering
 
-## 400 - Concepts and Platforms
+## 400 - Concepts and Math
+
+### 400 - Core Concepts
 
 * General Data Concepts & Principles
   * [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing application software
@@ -13,8 +15,109 @@
   * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
   * [Online transaction processing (OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing)
   * [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing)
+  * [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing)
 * Network science
   * [Centrality](https://en.wikipedia.org/wiki/Centrality) - A measure of the relative importance of a node or vertex within a graph in graph theory and network analysis
+
+### 401 - Base Mathematics
+
+* [Algebra](https://en.wikipedia.org/wiki/Algebra) - A branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems
+  * [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+  * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
+    * [Equation](https://en.wikipedia.org/wiki/Equation)
+    * [Logarithm](https://en.wikipedia.org/wiki/Logarithm)
+  * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+    * [Vector space](https://en.wikipedia.org/wiki/Vector_space)
+    * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+    * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
+    * [Determinant](https://en.wikipedia.org/wiki/Determinant)
+* [Calculus](https://en.wikipedia.org/wiki/Calculus)
+  * [Differential calculus](https://en.wikipedia.org/wiki/Differential_calculus)
+  * [Integral calculus](https://en.wikipedia.org/wiki/Integral)
+  * [Differential equation](https://en.wikipedia.org/wiki/Differential_equation)
+* [Geometry](https://en.wikipedia.org/wiki/Geometry)
+  * [Trigonometry](https://en.wikipedia.org/wiki/Trigonometry)
+  * [Coordinate system](https://en.wikipedia.org/wiki/Coordinate_system)
+  * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
+* [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
+  * [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+  * [Central limit theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem)
+* [Information theory](https://en.wikipedia.org/wiki/Information_theory) - A scientific study of the quantification, storage, and communication of digital information
+  * [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) - The average level of 'information', 'surprise', or 'uncertainty' inherent in a random variable's possible outcomes
+
+### 402 - Statistics
+
+* [Statistics](https://en.wikipedia.org/wiki/Statistics)
+  * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics))
+  * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals)
+  * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)
+  * [Correlation](https://en.wikipedia.org/wiki/Correlation)
+    * [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+  * [Hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
+    * [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis)
+    * [Confidence interval (CI)](https://en.wikipedia.org/wiki/Confidence_interval)
+    * [P-value](https://en.wikipedia.org/wiki/P-value)
+* Numerical methods
+  * [Significant figures](https://en.wikipedia.org/wiki/Significant_figures)
+* Resources
+  * [Openstax Introductory Statistics](https://openstax.org/details/books/introductory-statistics/)
+  * [OpenIntro Statistics](https://www.openintro.org/book/os/)
+
+## 410 - Data Science Toolkit
+
+* Languages & Core Libraries
+  * Python
+    * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+    * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
+    * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
+    * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
+    * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
+    * [SageMath](https://www.sagemath.org/)
+    * [statsmodels](https://www.statsmodels.org/stable/index.html)
+    * [Pydantic](https://docs.pydantic.dev/)
+  * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
+    * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
+      * dplyr, tidyr, stringr, purrr, readr
+  * [Wolfram Language](https://www.wolfram.com/language/)
+* Interactive Computing Environments
+  * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
+  * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
+    * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in Jupyter Notebooks
+  * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
+  * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
+  * [Wolfram Notebooks](https://www.wolfram.com/notebooks/)
+* Expression Generators
+  * [latexify](https://github.com/google/latexify_py)
+  * [handcalcs](https://github.com/connorferster/handcalcs)
+* Network Analysis
+  * [NetworkX](https://networkx.org/) - A Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
+* Data Visualization
+  * Common Chart Types
+    * [Histgram](https://en.wikipedia.org/wiki/Histogram) - An approximate representation of the distribution of numerical data
+    * [Scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) - A type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data
+    * [Box plot](https://en.wikipedia.org/wiki/Box_plot) - A method for graphically demonstrating the locality, spread and skewness groups of numerical data through their quartiles
+    * [Error bar](https://en.wikipedia.org/wiki/Error_bar) - A graphical representation of the variability of data and used on graphs to indicate the error or uncertainty in a reported measurement
+    * [Heat map](https://en.wikipedia.org/wiki/Heat_map) - A data visualization technique that shows magnitude of a phenomenon as color in two dimensions
+    * [Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) - A type of thematic map in which a set of pre-defined areas is colored or patterned in proportion to a statistical variable
+    * [Proportional symbol map](https://en.wikipedia.org/wiki/Proportional_symbol_map) - A type of thematic map that uses map symbols that vary in size to represent a quantitative variable
+    * [Tag cloud](https://en.wikipedia.org/wiki/Tag_cloud) - A novelty visual representation of text data
+  * Tools and Libraries
+    * [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
+    * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
+    * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
+    * [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
+    * [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
+    * [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
+    * [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
+    * [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
+    * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
+    * [Recharts](https://recharts.org/)
+    * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
+* Data Sources
+  * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - A free IP geolocation database
+
+## 420 - Data Formats and Storage
+
 * Data Formats
   * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
   * [Apache ORC](https://orc.apache.org/) - The smallest, fastest columnar storage for Hadoop workloads
@@ -37,49 +140,7 @@
   * Distributed File Systems
     * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware
 
-## 410 - Data Science Toolkit
-
-* Interactive Computing Environments
-  * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
-  * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
-    * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in Jupyter Notebooks
-  * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
-  * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
-* Data Analysis & Manipulation
-  * Core Libraries
-    * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
-    * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
-      * dplyr, tidyr, stringr, purrr, readr
-    * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
-  * Numerical & Scientific Computing
-    * [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
-  * Network Analysis
-    * [NetworkX](https://networkx.org/) - A Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
-* Data Visualization
-  * Common Chart Types
-    * [Histgram](https://en.wikipedia.org/wiki/Histogram) - An approximate representation of the distribution of numerical data
-    * [Scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) - A type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data
-    * [Box plot](https://en.wikipedia.org/wiki/Box_plot) - A method for graphically demonstrating the locality, spread and skewness groups of numerical data through their quartiles
-    * [Error bar](https://en.wikipedia.org/wiki/Error_bar) - A graphical representation of the variability of data and used on graphs to indicate the error or uncertainty in a reported measurement
-    * [Heat map](https://en.wikipedia.org/wiki/Heat_map) - A data visualization technique that shows magnitude of a phenomenon as color in two dimensions
-    * [Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) - A type of thematic map in which a set of pre-defined areas is colored or patterned in proportion to a statistical variable
-    * [Proportional symbol map](https://en.wikipedia.org/wiki/Proportional_symbol_map) - A type of thematic map that uses map symbols that vary in size to represent a quantitative variable
-    * [Tag cloud](https://en.wikipedia.org/wiki/Tag_cloud) - A novelty visual representation of text data
-  * Tools and Libraries
-    * [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
-    * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
-    * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
-    * [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
-    * [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
-    * [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
-    * [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
-    * [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
-    * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
-    * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
-* Data Sources
-  * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - A free IP geolocation database
-
-## 420 - Relational Databases
+## 430 - Relational Databases
 
 * Fundational Concepts
   * [Relational model](https://en.wikipedia.org/wiki/Relational_model) - An approach to managing data using a structure and language consistent with first-order predicate logic
@@ -117,6 +178,7 @@
   * Connectivity APIs
     * [ODBC](https://en.wikipedia.org/wiki/Open_Database_Connectivity) - A standard application programming interface for accessing database management systems
     * [JDBC](https://www.oracle.com/java/technologies/javase/javase-tech-database.html) - An API that allows access to virtually any tabular data source from the Java programming language
+      * [Jdbi](https://jdbi.org/)
   * [Object-Relational Mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) - A programming technique for converting data between incompatible type systems using object-oriented programming languages
     * [Prisma](https://www.prisma.io/) - A next-generation ORM that makes it easy to build reliable and scalable applications with databases
     * [Hibernate](https://hibernate.org/orm/) - An object-relational mapping tool for the Java programming language
@@ -140,7 +202,7 @@
   * Monitoring & Analysis
     * [pgBadger](https://pgbadger.darold.net/) - A PostgreSQL log analyzer built for speed with fully detailed reports and professional rendering
 
-## 430 - NoSQL Databases
+## 440 - NoSQL Databases
 
 * Fundational Concepts
   * [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - A theorem stating that any distributed data store can provide only two of the following three guarantees: Consistency, Availability, and Partition tolerance
@@ -172,7 +234,7 @@
   * [Milvus](https://zilliz.com/what-is-milvus) - A high-performance open-source vector database built to handle billions of vectors
   * [Chroma](https://www.trychroma.com/) - The AI-native open-source embedding database
 
-## 440 - Distributed Processing and Application Integration (WIP)
+## 450 - Distributed Processing and Application Integration (WIP)
 
 * Base Frameworks
   * [Apache Hadoop](https://hadoop.apache.org/) - A framework that allows for the distributed processing of large data sets
@@ -185,6 +247,8 @@
   * [AWS Glue](https://aws.amazon.com/glue/) - A serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources
   * [Google Cloud Data Fusion](https://cloud.google.com/data-fusion) - A fully managed, cloud-native data integration service that helps users efficiently build and manage ETL/ELT data pipelines
   * [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data
+* Numerical & Scientific Computing
+  * [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
 * Stream Processing Engines
   * [Spark Structured Streaming](https://spark.apache.org/streaming/) - A scalable and fault-tolerant stream processing engine built on the Spark SQL engine
   * [Apache Storm](https://storm.apache.org/) - A free and open source distributed realtime computation system
@@ -198,8 +262,13 @@
   * [Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/) - A fully managed enterprise message broker with message queues and publish-subscribe topics
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
 
-## 450 - Search and Analytics (WIP)
+## 460 - Search and Analytics (WIP)
 
+* Web Search Engines
+  * [Google Search](https://www.google.com/)
+  * [DuckDuckGo](https://duckduckgo.com/)
+* Answer Engines
+  * [Wolfram|Alpha](https://www.wolframalpha.com/)
 * Data Analytics Methodologies and Architectures
   * [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) - A system used for reporting and data analysis and is a core component of business intelligence
   * [Data lake](https://en.wikipedia.org/wiki/Data_lake) - A system or repository of data stored in its natural/raw format, usually object blobs or files
@@ -231,51 +300,3 @@
   * [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
   * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
-
-## 460 - Mathematics and Statistics
-
-* [Algebra](https://en.wikipedia.org/wiki/Algebra) - A branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems
-  * [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
-  * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra)
-    * [Equation](https://en.wikipedia.org/wiki/Equation)
-    * [Logarithm](https://en.wikipedia.org/wiki/Logarithm)
-  * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
-    * [Vector space](https://en.wikipedia.org/wiki/Vector_space)
-    * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-    * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
-    * [Determinant](https://en.wikipedia.org/wiki/Determinant)
-* [Calculus](https://en.wikipedia.org/wiki/Calculus)
-  * [Differential calculus](https://en.wikipedia.org/wiki/Differential_calculus)
-  * [Integral calculus](https://en.wikipedia.org/wiki/Integral)
-  * [Differential equation](https://en.wikipedia.org/wiki/Differential_equation)
-* [Geometry](https://en.wikipedia.org/wiki/Geometry)
-  * [Trigonometry](https://en.wikipedia.org/wiki/Trigonometry)
-  * [Coordinate system](https://en.wikipedia.org/wiki/Coordinate_system)
-  * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
-* [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
-  * [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
-  * [Central limit theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem)
-* [Information theory](https://en.wikipedia.org/wiki/Information_theory) - A scientific study of the quantification, storage, and communication of digital information
-  * [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) - The average level of 'information', 'surprise', or 'uncertainty' inherent in a random variable's possible outcomes
-* [Statistics](https://en.wikipedia.org/wiki/Statistics)
-  * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics))
-  * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals)
-  * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)
-  * [Correlation](https://en.wikipedia.org/wiki/Correlation)
-    * [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
-  * [Hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
-    * [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis)
-    * [Confidence interval (CI)](https://en.wikipedia.org/wiki/Confidence_interval)
-    * [P-value](https://en.wikipedia.org/wiki/P-value)
-* Numerical methods
-  * [Significant figures](https://en.wikipedia.org/wiki/Significant_figures)
-* Resources
-  * [Openstax Introductory Statistics](https://openstax.org/details/books/introductory-statistics/)
-  * [OpenIntro Statistics](https://www.openintro.org/book/os/)
-* Libraries
-  * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
-  * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
-  * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
-  * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
-  * [SageMath](https://www.sagemath.org/)
-  * [statsmodels](https://www.statsmodels.org/stable/index.html)

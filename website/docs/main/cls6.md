@@ -159,7 +159,7 @@
 
 ## 630 - PKI and Secure Communications
 
-* [Public key infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure)
+* [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure)
   * [Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
   * [Certificate authority (CA)](https://en.wikipedia.org/wiki/Certificate_authority)
   * Registration authority (RA)
@@ -176,7 +176,7 @@
   * [cfssl](https://github.com/cloudflare/cfssl#readme) - CloudFlare's PKI/TLS swiss army knife
   * [cert-manager](https://cert-manager.io) - X.509 certificate management for Kubernetes and OpenShift
   * [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
-* Code signing
+* Code Signing
   * [Sigstore](https://www.sigstore.dev/)
     * [Fulcio](https://github.com/sigstore/fulcio)
     * [Rekor](https://github.com/sigstore/rekor)
@@ -200,7 +200,7 @@
     * [keys.openpgp.org](https://keys.openpgp.org/about) - A public service for the distribution and discovery of OpenPGP-compatible keys
   * [GnuPG](https://gnupg.org/) - A complete and free implementation of the OpenPGP standard
   * [Gpg4win](https://www.gpg4win.org/)
-* Web security
+* Web Security
   * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy)
   * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
   * [Fetch Standard](https://fetch.spec.whatwg.org/)
@@ -209,7 +209,7 @@
   * [CSP (Content Security Policy)](https://content-security-policy.com/)
   * [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
   * [security.txt](https://securitytxt.org/)
-* Email security
+* Email Security
   * [STARTTLS](https://en.wikipedia.org/wiki/Opportunistic_TLS)
   * [SASL (Simple Authentication and Security Layer)](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer)
   * [SPF (Sender Policy Framework)](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
@@ -217,7 +217,10 @@
     * [OpenDKIM](http://www.opendkim.org/)
   * [DMARC (Domain-based Message Authentication, Reporting & Conformance)](https://dmarc.org/)
   * [S/MIME](https://en.wikipedia.org/wiki/S/MIME)
-* [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
+* DNS Security
+  * [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
+  * [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS)
+  * [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS)
 
 ## 640 - Static Security Check
 
@@ -229,6 +232,7 @@
   * [Semgrep OSS](https://github.com/semgrep/semgrep) - A fast, open-source, static analysis tool
 * System configuration check
   * [OpenSCAP](https://www.open-scap.org/) - A collection of open source tools for implementing and enforcing this standard
+  * [Lynis](https://cisofy.com/lynis/) - A battle-tested security tool for systems running Linux, macOS, or Unix-based operating system
   * [Trivy](https://aquasecurity.github.io/trivy/) - A comprehensive and versatile security scanner
   * [checkov](https://www.checkov.io/) - A static code analysis tool for scanning infrastructure as code (IaC) files for misconfigurations
   * [Haskell Dockerfile Linter](https://github.com/hadolint/hadolint#readme)

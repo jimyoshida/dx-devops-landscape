@@ -90,6 +90,9 @@
     * [Google AdSence](https://adsense.google.com/start/) - A program run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience
 * Experiment platform
   * [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
+* Email Distribution
+  * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
+  * [BillionMail](https://www.billionmail.com/)
 
 ## 720 - Economics and Game Theory
 

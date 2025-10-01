@@ -180,6 +180,7 @@
   * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
   * [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
   * [wuzz](https://github.com/asciimoo/wuzz) - An interactive cli tool for HTTP inspection
+  * [httptap](https://github.com/monasticacademy/httptap) - View the HTTP and HTTPS requests made by any linux program
 * Libraries
   * [Ruby module Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
   * [Python Requests](https://docs.python-requests.org/en/latest/) - An elegant and simple HTTP library for Python, built for human beings

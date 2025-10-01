@@ -54,7 +54,7 @@ subsubcls124: Source Code Quality
 subcls130: Programming Language Features
 subsubcls130: Python Language
 subsubcls131: Javascript and TypeScript
-subsubcls132: Languages for Scripting and Automation
+subsubcls132: Languages mainly for Scripting and Automation
 subsubcls133: Languages for Systems and Application Development
 subsubcls135: Date and Time
 subcls140: Text and Structured Text Processing
@@ -86,14 +86,38 @@ subcls200: Operating Systems, Networking, and Modern Infrastructure
 subsubcls200: Core OS Concepts
 subsubcls201: Base Network Concepts & Protocols
 subsubcls202: Linux Kernel Features
-subsubcls203: Applied & Distributed Systems
+subsubcls203: Virtualization
+subsubcls204: Applied & Distributed Systems
+subsubcls205: Computer Hardware
 subcls210: Linux Administration
+subsubcls210: Linux Core Components
+subsubcls211: Host Administration
+subsubcls212: Network Administration
+subsubcls213: OS Package Management
+subsubcls214: File Sharing and Remote Access
 subcls220: Domain Name System and Email
+subsubcls221: Domain Name System
+subsubcls222: Email System
 subcls230: Linux Container and WebAssembly
+subsubcls230: Container Standards and Utilities
+subsubcls231: Container Runtimes and Tools
+subsubcls232: Container Registries
+subsubcls234: WebAssembly
 subcls240: Kubernetes Administration
-subcls250: IaC, Configuration Management, and Continuous Delivery
+subsubcls240: Core Kubernetes
+subsubcls241: Kubernetes Ecosystem
+subcls250: IaC, Continuous Delivery, and Operations
+subsubcls251: Infrastructure and Configuration as Code
+subsubcls252: Continuous Delivery
+subsubcls253: Fleet Management & Operations
 subcls260: System Testing, Chaos Engineering, and FinOps
+subsubcls261: Performance & Load Testing
+subsubcls262: Chaos Engineering
+subsubcls263: FinOps
 subcls270: System Observability
+subsubcls270: Common Concepts and Software
+subsubcls271: Telemetry Shipment
+subsubcls272: Telemetry Collection
 cls300: Web and Application
 subcls300: Web and API Style Standards
 subcls310: Web Servers, Web Proxies, and Service Mesh
@@ -104,13 +128,16 @@ subcls350: Binary and Image Processing
 subcls360: Mobile/Desktop App Development (WIP)
 subcls370: Internet of Things (WIP)
 cls400: Data Science and Engineering
-subcls400: Concepts and Platforms
+subcls400: Concepts and Math
+subsubcls400: Core Concepts
+subsubcls401: Base Mathematics
+subsubcls402: Statistics
 subcls410: Data Science Toolkit
-subcls420: Relational Databases
-subcls430: NoSQL Databases
-subcls440: Distributed Processing and Application Integration (WIP)
-subcls450: Search and Analytics (WIP)
-subcls460: Mathematics and Statistics
+subcls420: Data Formats and Storage
+subcls430: Relational Databases
+subcls440: NoSQL Databases
+subcls450: Distributed Processing and Application Integration (WIP)
+subcls460: Search and Analytics (WIP)
 cls500: AI, Machine Learning, and LLM
 subcls500: AI Concepts and Common Tools
 subcls520: Natural Language Processing
