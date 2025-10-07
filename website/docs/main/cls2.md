@@ -71,6 +71,7 @@ Note: Please see also 220 - Domain Name System and Email, 300 - Web and API Styl
     * [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) - A method for allocating IP addresses and for IP routing
   * [Network socket](https://en.wikipedia.org/wiki/Network_socket) - A software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network
   * [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) - A main protocol of the Internet protocol suite
+    * [TCP window scale option](https://en.wikipedia.org/wiki/TCP_window_scale_option) - An option to increase the receive window size allowed in Transmission Control Protocol above its former maximum value of 65,535 bytes
   * [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) - A core member of the Internet protocol suite
   * [QUIC](https://quicwg.org/) - A UDP-based, stream-multiplexing, encrypted transport protocol
 * [Ethernet](https://en.wikipedia.org/wiki/Ethernet) - A family of wired computer networking technologies

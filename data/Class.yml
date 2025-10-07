@@ -1,8 +1,8 @@
 cls000: Software Engineering Foundations
 subcls000: Agile/Lean System Development
-subsubcls001: Agile
-subsubcls002: Lean
-subsubcls003: DevOps
+subsubcls001: Agile Development
+subsubcls002: Lean Development
+subsubcls003: DevOps and Engineering Productivity
 subcls010: Management and Leadership
 subsubcls010: Principles & Governance
 subsubcls011: People & Communication Skills
@@ -70,6 +70,7 @@ subsubcls151: Debugging
 subsubcls152: Logging
 subsubcls153: Basic Test Concepts
 subsubcls154: Test Frameworks and Tools
+subsubcls155: Test Supporting Tools
 subcls160: Program Execution and SDK
 subsubcls161: Compiler
 subsubcls162: Runtime System
@@ -119,11 +120,29 @@ subsubcls270: Common Concepts and Software
 subsubcls271: Telemetry Shipment
 subsubcls272: Telemetry Collection
 cls300: Web and Application
-subcls300: Web and API Style Standards
-subcls310: Web Servers, Web Proxies, and Service Mesh
+subcls300: Web Technologies and Concepts
+subsubcls300: Foundational Concepts
+subsubcls301: Architectural Styles & Patterns
+subsubcls302: Browser Technologies & Tooling
+subcls310: Web & Network Infrastructure
+subsubcls311: Web Servers
+subsubcls312: Caching & Content Delivery
+subsubcls313: API & Application Gateways
+subsubcls315: Application Hosting & Compute
+subsubcls316: Service Mesh
 subcls320: Web Application Standards and Frameworks
+subsubcls321: Full-stack Web Frameworks
+subsubcls322: JS/TS/Go/Python Backend Web Frameworks
+subsubcls323: Other Backend Web Frameworks
+subsubcls324: Frontend Web Frameworks
+subsubcls325: UI Libraries
 subcls330: Web Automation and Test Tools
+subsubcls331: Web/HTTP Clients
+subsubcls332: Browser Automation
+subsubcls335: Web Debugging Tools
 subcls340: CLI/TUI App Development
+subsubcls341: Bash/Perl/Python/Ruby
+subsubcls342: JS/Go/Rust/C
 subcls350: Binary and Image Processing
 subcls360: Mobile/Desktop App Development (WIP)
 subcls370: Internet of Things (WIP)

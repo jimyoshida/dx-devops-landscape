@@ -6,6 +6,8 @@
 
 * General Data Concepts & Principles
   * [Big data](https://en.wikipedia.org/wiki/Big_data) - Data sets that are too large or complex to be dealt with by traditional data-processing application software
+  * [Data model](https://en.wikipedia.org/wiki/Data_model) -  An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
+  * [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
   * [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
   * [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) - A concept in computer science and information and communications technology that the quality of the output is determined by the quality of the input
 * Core Data Engineering & Database Concepts
@@ -13,9 +15,9 @@
   * [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) - The four basic operations of persistent storage: create, read, update, and delete
   * [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
   * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
-  * [Online transaction processing (OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing)
-  * [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing)
-  * [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing)
+  * [Online transaction processing (OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing) - A type of data processing that consists of executing a number of transactions occurring concurrently
+  * [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing) - An approach to answering multi-dimensional analytical queries swiftly in computing
+  * [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing) - The collecting, parsing, and storing of data to facilitate fast and accurate information retrieval
 * Network science
   * [Centrality](https://en.wikipedia.org/wiki/Centrality) - A measure of the relative importance of a node or vertex within a graph in graph theory and network analysis
 
@@ -207,8 +209,6 @@
 * Fundational Concepts
   * [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - A theorem stating that any distributed data store can provide only two of the following three guarantees: Consistency, Availability, and Partition tolerance
   * [BASE properties](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/) - A database model that prioritizes availability over consistency
-  * [Data model](https://en.wikipedia.org/wiki/Data_model) - An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
-  * [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
   * [Object-relational impedance mismatch](https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mismatch) - A set of conceptual and technical difficulties that are often encountered when a relational database management system (RDBMS) is being used by a program written in an object-oriented programming language or style
 * Multi-model Databases
   * [Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db/) - A fully managed, serverless distributed database for modern app development

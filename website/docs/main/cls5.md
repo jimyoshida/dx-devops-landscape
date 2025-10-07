@@ -164,6 +164,7 @@
     * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
   * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
+  * [FastMCP v2](https://github.com/jlowin/fastmcp)
 * Evaluation and Visualization
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
   * [Chatbot Arena](https://lmarena.ai/) - A crowdsourced open platform for evaluating LLMs
