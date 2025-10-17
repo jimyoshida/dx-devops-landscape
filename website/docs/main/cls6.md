@@ -273,7 +273,7 @@
 * Security Information and Event Management (SIEM)
   * [Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)
   * [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
-  * [Sigma Detection Format](https://sigmahq.io/) - A way to share detections of malicious or dangerous behaviour among security professionals
+  * [Sigma Detection Format](https://sigmahq.io/) - A way to share detections of malicious or dangerous behavior among security professionals
     * [chainsaw](https://github.com/cyb3rpeace/chainsaw) - Rapidly Search and Hunt through Windows Event Logs
   * Auditing
     * [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)

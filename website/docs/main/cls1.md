@@ -76,7 +76,6 @@ Note: Please see also Class 170 for abstract data types.
     * [Filter](https://en.wikipedia.org/wiki/Filter_(higher-order_function)) - A higher-order function that processes a data structure to produce a new data structure containing only those elements for which a given predicate returns true
     * [Reduce](https://en.wikipedia.org/wiki/Fold_(higher-order_function)) - A higher-order function (also known as fold) that reduces a data structure to a single value by recursively applying a combining operation
   * [Referential transparency](https://en.wikipedia.org/wiki/Referential_transparency) - A property of expressions such that an expression can be replaced with its corresponding value without changing the program's behavior
-  * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
   * [Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)) - A function together with a referencing environment for the non-local variables of that function
   * [Side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) - An observable effect of an operation, function, or expression that modifies state variable values outside its local environment
   * [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) - A software design pattern with a structure that combines program fragments (functions) and wraps their return values in a type with additional computation
@@ -212,6 +211,9 @@ Note: Please see also Class 170 for abstract data types.
   * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
 * Standards & Specifications
   * [Agents.md](https://agents.md/) - An open standard for defining and running AI agents
+* Spec-Driven Development Support
+  * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
+  * [kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
 
 ### 117 - Learning Resources
 
@@ -469,6 +471,7 @@ Note: For shell scripting, please refer to Class 110.
 * [Haskell](https://www.haskell.org/) - An advanced, purely functional programming language
   * Purely functional
   * [Lazy evaluation](https://wiki.haskell.org/Lazy_evaluation) - An evaluation strategy which delays the evaluation of an expression until its value is needed
+* [Elixir](https://elixir-lang.org/) - A dynamic, functional language for building scalable and maintainable applications
 * [Elm](https://elm-lang.org/) - A delightful language for reliable web applications
   * [The Elm Architecture (TEA)](https://guide.elm-lang.org/architecture/) - A simple pattern for infinitely nestable components
 * [Zig](https://ziglang.org/) - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
@@ -480,6 +483,7 @@ Note: For shell scripting, please refer to Class 110.
 
 ### 135 - Date and Time
 
+* [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) - The primary time standard globally used to regulate clocks and time
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - An international standard covering the worldwide exchange and communication of date- and time-related data
 * [Unix time](https://en.wikipedia.org/wiki/Unix_time) - A system for describing a point in time
 * Libraries

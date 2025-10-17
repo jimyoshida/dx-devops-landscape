@@ -143,9 +143,20 @@ subsubcls335: Web Debugging Tools
 subcls340: CLI/TUI App Development
 subsubcls341: Bash/Perl/Python/Ruby
 subsubcls342: JS/Go/Rust/C
-subcls350: Binary and Image Processing
-subcls360: Mobile/Desktop App Development (WIP)
-subcls370: Internet of Things (WIP)
+subcls350: Binary and Media Processing
+subsubcls350: General Binary Tools
+subsubcls351: Image & Media Processing
+subsubcls352: Compression & Archiving
+subsubcls353: PDF Document Processing
+subsubcls354: Office Document Processing
+subcls360: Mobile & Desktop App Development
+subsubcls360: Platforms & Native SDKs
+subsubcls361: Cross-Platform Frameworks
+subsubcls362: GUI Toolkits & Libraries
+subsubcls363: Application Services & Features
+subcls370: Others
+subsubcls371: Development Environment & OS Tooling
+subsubcls372: Internet of Things (WIP)
 cls400: Data Science and Engineering
 subcls400: Concepts and Math
 subsubcls400: Core Concepts

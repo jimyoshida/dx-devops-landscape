@@ -30,7 +30,7 @@
 ### 301 - Architectural Styles & Patterns
 
 * Web Application Architectures
-  * [Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
+  * [Single-page application](https://en.wikipedia.org/wiki/Single-page_application) - A web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server
   * [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
 * API Architectures, Styles & Patterns
   * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) - A software architectural style that was created to guide the design and development of the architecture for the World Wide Web
@@ -43,22 +43,22 @@
 ### 302 - Browser Technologies & Tooling
 
 * Browsers
-  * [Chrome](https://www.google.com/chrome/)
-  * [Chromium](https://www.chromium.org/Home/)
-  * [Firefox](https://www.mozilla.org/en-US/firefox/)
-  * [w3m](https://w3m.sourceforge.net/)
-  * [EWW](https://www.gnu.org/software/emacs/manual/html_mono/eww.html) (reference)
+  * [Chrome](https://www.google.com/chrome/) - A freeware, cross-platform web browser developed by Google
+  * [Chromium](https://www.chromium.org/Home/) - An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web
+  * [Firefox](https://www.mozilla.org/en-US/firefox/) - A free and open-source web browser developed by the Mozilla Foundation
+  * [w3m](https://w3m.sourceforge.net/) - A text-based web browser as well as a pager
+  * [EWW](https://www.gnu.org/software/emacs/manual/html_mono/eww.html) - The Emacs Web Wowser, a web browser for Emacs
 * Rendering Engines
-  * [WebKit](https://developer.apple.com/documentation/webkit)
-  * [Gecko](https://developer.mozilla.org/en-US/docs/Glossary/Gecko)
-  * [Blink](https://www.chromium.org/blink/)
-  * [Servo](https://servo.org/)
+  * [WebKit](https://developer.apple.com/documentation/webkit) - The framework for displaying rich, interactive web content in your apps
+  * [Gecko](https://developer.mozilla.org/en-US/docs/Glossary/Gecko) - The web browser engine developed by Mozilla
+  * [Blink](https://www.chromium.org/blink/) - The rendering engine used by Chromium
+  * [Servo](https://servo.org/) - A modern, high-performance browser engine designed for both application and embedded use
 * Scripting Engines
-  * [V8](https://v8.dev/)
-  * [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore)
+  * [V8](https://v8.dev/) - Google’s open source high-performance JavaScript and WebAssembly engine, written in C++
+  * [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore) - The JavaScript engine that powers Safari and other apps on Apple platforms
 * Client Scripting APIs
-  * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/)
-  * [Fetch Standard](https://fetch.spec.whatwg.org/) (also for security)
+  * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
+  * [Fetch Standard](https://fetch.spec.whatwg.org/) - A living standard that defines requests, responses, and the process that binds them: fetching
 * Site Analyzers
   * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
@@ -142,11 +142,11 @@
   * [Express.js](https://expressjs.com/) - A minimal and flexible Node.js web application framework
   * [Koa](https://koajs.com/) - A new web framework designed by the team behind Express
   * [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
-  * [Hono](https://hono.dev/) -
+  * [Hono](https://hono.dev/) - A small, simple, and ultrafast web framework for the Edges
 * API Tools
   * [tRPC](https://trpc.io/) - A tool that allows you to easily build & consume fully typesafe APIs without schemas or code generation
 * Go Backend Frameworks
-  * [Echo](https://echo.labstack.com/) -
+  * [Echo](https://echo.labstack.com/) - A high performance, extensible, minimalist Go web framework
   * [Gin Web Framework](https://gin-gonic.com/) - A web framework written in Go
   * [Gorilla web toolkit](https://www.gorillatoolkit.org/) - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
   * [Yokai](https://ankorstore.github.io/yokai/) - A simple, modular and observable Go framework for backend applications
@@ -154,7 +154,7 @@
   * [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - The Web Server Gateway Interface
     * [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
     * [Flask](https://palletsprojects.com/p/flask/) - A lightweight WSGI web application framework
-  * [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html)
+  * [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html) - A spiritual successor to WSGI, the long-standing Python standard for compatibility between web servers, frameworks, and applications
     * [Uvicorn](https://www.uvicorn.org/) - An ASGI web server implementation for Python
     * [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI web server based on the sans-io hyper, h11, h2, and wsproto libraries and inspired by Gunicorn
     * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
@@ -171,14 +171,14 @@
     * [CGI.pm](https://metacpan.org/pod/CGI) - A module to handle Common Gateway Interface requests and responses
   * Fast CGI
     * [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - A high performance alternative to mod_cgi or mod_cgid
-    * [FCGI.pm](https://metacpan.org/pod/FCGI)
+    * [FCGI.pm](https://metacpan.org/pod/FCGI) - A module for FastCGI applications
 * Java Backend Frameworks
   * [Jakarta EE](https://jakarta.ee/) - A set of specifications that define Java APIs for enterprise software development
     * [Apache Tomcat](https://tomcat.apache.org/) - An open-source web server and servlet container
-  * [Spring](https://spring.io/)
-    * [Spring Boot](https://spring.io/projects/spring-boot) -
+  * [Spring](https://spring.io/) - A project that makes Java simple, modern, productive, reactive, and cloud-ready
+    * [Spring Boot](https://spring.io/projects/spring-boot) - A tool that takes an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss
 * .NET Backend Frameworks
-  * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet)
+  * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - A free, cross-platform, open source framework for building web apps and services with .NET and C#
 
 ### 324 - Frontend Web Frameworks
 
@@ -186,22 +186,22 @@
   * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
   * [React](https://reactjs.org/) - The library for web and native user interfaces
     * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
-    * [MDX](https://mdxjs.com/) -
+    * [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
 * State Management
   * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
-    * [React-Redux](https://react-redux.js.org/) -
+    * [React-Redux](https://react-redux.js.org/) - The official React binding for Redux
   * [Recoil](https://recoiljs.org/) - A state management library for React
-  * [XState](https://stately.ai/docs)
+  * [XState](https://stately.ai/docs) - A library for creating, interpreting, and executing finite state machines and statecharts
 * CSS Frameworks & Libraries
-  * [Bootstrap](https://getbootstrap.com/) -
+  * [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit
   * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
   * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
   * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
 * Frontend Build Tools
   * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
   * [Parcel](https://parceljs.org/) - The zero configuration build tool
-  * [Vite](https://vitejs.dev/) -
+  * [Vite](https://vitejs.dev/) - A build tool that aims to provide a faster and leaner development experience for modern web projects
   * [webpack](https://webpack.js.org/) - A static module bundler for modern JavaScript applications
   * [babel](https://babeljs.io/) - A JavaScript compiler
   * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
@@ -218,8 +218,8 @@
   * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
 * Framework-agnostic Libraries
   * [Tabulator](https://tabulator.info/) - An easy to use, simple to code, fully featured, interactive JavaScript library for creating tables and data grids
-  * [Chart.js](https://www.chartjs.org/)
-  * [Swiper.js](https://swiperjs.com/)
+  * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for designers & developers
+  * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
 
 ## 330 - Web Automation and Test Tools
 
@@ -244,7 +244,7 @@
   * [URQL](https://commerce.nearform.com/open-source/urql/) - The highly customizable and versatile GraphQL client for React, Svelte, Vue, or plain JavaScript
 * API Testing Platforms
   * [Bruno](https://www.usebruno.com/) - A Git-integrated, fully offline, and open-source API client
-  * [Postman/Newman](https://www.postman.com/)
+  * [Postman/Newman](https://www.postman.com/) - An API platform for building and using APIs
 * Classic Web Automation
   * [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
   * [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy
@@ -260,7 +260,7 @@
   * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
   * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
   * Dependencies
-    * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/)
+    * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
 * Web Scraping
   * [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
   * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - A Python library designed for quick turnaround projects like screen-scraping
@@ -271,8 +271,8 @@
 ### 335 - Web Debugging Tools
 
 * Web Debugging
-  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  * [Fiddler](https://www.telerik.com/fiddler) - Web Debugging Proxy
+  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
+  * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
 
 ## 340 - CLI/TUI App Development
 
@@ -332,13 +332,44 @@
 * C
   * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
 
-## 350 - Binary and Image Processing
+## 350 - Binary and Media Processing
 
-* Compression and archiving
+### 350 - General Binary Tools
+
+* Serialization Formats
+  * [Protobuf](https://protobuf.dev/) - A language-neutral, platform-neutral, extensible mechanism for serializing structured data
+  * [MessagePack](https://msgpack.org/) - An efficient binary serialization format
+* File Formats
+  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
+* Tools
+  * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
+  * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html) - A filter which displays the specified files, or the standard input, in a user specified format
+  * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
+  * [bed](https://github.com/itchyny/bed) - A binary editor written in Go
+  * [fq](https://github.com/wader/fq) - A tool inspired by jq that lets you poke at binary formats
+
+### 351 - Image & Media Processing
+
+* Formats
+  * [JPEG](https://en.wikipedia.org/wiki/JPEG) - A commonly used method of lossy compression for digital images
+  * [PNG](https://en.wikipedia.org/wiki/PNG) - A raster-graphics file format that supports lossless data compression
+  * [Webp](https://en.wikipedia.org/wiki/WebP) - A raster graphics file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats
+  * [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) - A method of defining compression of audio and visual digital data
+* Tools
+  * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - A command-line application and Perl library for reading and writing meta information in files
+  * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
+  * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
+* Libraries
+  * [Native WebP for Go](https://github.com/HugoSmits86/nativewebp) - A native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries
+
+### 352 - Compression & Archiving
+
+* Tools
   * [GNU Gzip](https://www.gnu.org/software/gzip/) - A popular data compression program
   * [GNU tar](https://www.gnu.org/software/tar/) - A program that provides the ability to create tar archives, as well as various other kinds of manipulation
   * [Info-Zip](https://sourceforge.net/projects/infozip/) - A set of open-source software for handling ZIP archives
   * [P7ZIP](https://p7zip.sourceforge.net/) - A port of 7za.exe for POSIX systems
+* Libraries
   * [Python Data Compression and Archiving libs](https://docs.python.org/3/library/archiving.html) - The modules that support data compression and the creation and reading of archives
   * [Go compress libs](https://pkg.go.dev/compress) - A package that defines a common interface to compression and decompression algorithms
   * [Go archive libs](https://pkg.go.dev/archive) - A package that defines a common interface for accessing archived file formats
@@ -347,96 +378,120 @@
   * [zlib](https://zlib.net/) - A free, general-purpose, legally unencumbered lossless data-compression library for use on virtually any computer hardware and operating system
   * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
   * [snappy](https://google.github.io/snappy/) - A compression/decompression library that aims for very high speeds and reasonable compression
-* Binary file processing
-  * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
-  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
-  * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html) - A filter which displays the specified files, or the standard input, in a user specified format
-  * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
-  * [bed](https://github.com/itchyny/bed) - A binary editor written in Go
-  * [fq](https://github.com/wader/fq) - A tool inspired by jq that lets you poke at binary formats
-  * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - A command-line application and Perl library for reading and writing meta information in files
-  * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
-  * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
-  * [Native WebP for Go](https://github.com/HugoSmits86/nativewebp) - A native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries
-* PDF document processing
+
+### 353 - PDF Document Processing
+
+* Formats
   * [PDF](https://en.wikipedia.org/wiki/PDF) - A file format developed by Adobe to present documents in a manner independent of application software, hardware, and operating systems
+* Tools
   * [Ghostscript](https://www.ghostscript.com/) - A suite of software based on an interpreter for Adobe Systems' PostScript and Portable Document Format page description languages
   * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
   * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
   * [pdfcpu](https://pdfcpu.io/) - A PDF processor written in Go
+  * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
+* Libraries
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
   * [Prawn PDF](https://prawnpdf.org/) - A fast, nimble PDF generator for Ruby
-* Office document processing
-  * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)
-  * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument)
-  * [libreoffice cli](https://manpages.ubuntu.com/manpages/trusty/man1/libreoffice.1.html) - LibreOffice office suite
-  * [Excelize](https://xuri.me/excelize/) - A Go library for XLSX files
-* Convert to text
-  * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
+
+### 354 - Office Document Processing
+
+* Formats
+  * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) - A zip-based XML-based file format for representing spreadsheets, charts, presentations and word processing documents
+  * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument) - A zip-compressed, XML-based file format for spreadsheets, charts, presentations and word-processing documents
+* Tools
+  * [libreoffice cli](https://manpages.ubuntu.com/manpages/trusty/man1/libreoffice.1.html) - The command-line interface for the LibreOffice office suite
   * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
-  * [xlsx2csv](https://github.com/dilshod/xlsx2csv)
-  * [docx2txt](https://github.com/ankushshah89/python-docx2txt)
-  * [pptx2md](https://github.com/ssine/pptx2md)
+  * [xlsx2csv](https://github.com/dilshod/xlsx2csv) - A fast and easy way to convert XLSX files to CSV
+  * [docx2txt](https://github.com/ankushshah89/python-docx2txt) - A pure python-based command line tool to extract text from docx files
+  * [pptx2md](https://github.com/ssine/pptx2md) - A simple tool for converting pptx to markdown
+* Libraries
+  * [Excelize](https://xuri.me/excelize/) - A Go library for reading and writing XLSX/XLSM/XLTM files
 
-## 360 - Mobile/Desktop App Development (WIP)
+## 360 - Mobile & Desktop App Development
 
-* [Android](https://www.android.com/)
-  * [Android Studio](https://developer.android.com/studio)
-* [iOS](https://www.apple.com/ios/)
-* [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System)
-* [QR code](https://en.wikipedia.org/wiki/QR_code)
-  * [libqrencode](https://github.com/fukuchi/libqrencode) - A fast and compact QR Code encoding library
-  * [Pure python QR Code generator](https://github.com/lincolnloop/python-qrcode)
-  * [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment)
-* Web-based UI
-  * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
-  * [React Native](https://reactnative.dev) - allows developers who know React to create native apps
+### 360 - Platforms & Native SDKs
+
+* [Android](https://www.android.com/) - A mobile operating system based on a modified version of the Linux kernel and other open-source software
+  * [Android Studio](https://developer.android.com/studio) - The official integrated development environment for Google's Android operating system
+* [iOS](https://www.apple.com/ios/) - A mobile operating system created and developed by Apple Inc. exclusively for its hardware
+
+### 361 - Cross-Platform Frameworks
+
+* For Mobile & Desktop (using web tech)
+  * [React Native](https://reactnative.dev) - A framework for building native apps with React
     * [Expo](https://expo.dev/) - A production-grade React Native Framework
+* For Desktop (using web tech)
+  * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
   * [Tauri](https://tauri.app/) - A toolkit that helps developers make applications for the major desktop platforms
-* Notification service
-  * [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging/)
-  * [Apple Push Notification service](https://developer.apple.com/notifications/)
-* GUI/Widget toolkit
+
+### 362 - GUI Toolkits & Libraries
+
+* Toolkits
   * [Tk](http://www.tcl.tk/) - A graphical user interface toolkit
     * [tkinter](https://docs.python.org/3/library/tkinter.html) - The standard Python interface to the Tcl/Tk GUI toolkit
-  * [GTK](https://www.gtk.org/)
-    * [pygobject](https://pygobject.gnome.org/)
+  * [GTK](https://www.gtk.org/) - A free and open-source cross-platform widget toolkit for creating graphical user interfaces
+    * [pygobject](https://pygobject.gnome.org/) - A set of Python bindings for the GLib, GObject, GIO and GTK object-oriented C libraries
   * [Gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go
   * [Fyne](https://fyne.io/) - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
   * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
-* Linux distros for desktop
+
+### 363 - Application Services & Features
+
+* Notifications
+  * [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging/) - A cross-platform messaging solution that lets you reliably send messages at no cost
+  * [Apple Push Notification service](https://developer.apple.com/notifications/) - The service for propagating push notifications from a developer’s server to their apps on Apple devices
+* Device Hardware/OS Integration
+  * [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) - A satellite-based radionavigation system owned by the United States government and operated by the United States Space Force
+  * [QR code](https://en.wikipedia.org/wiki/QR_code) - A type of matrix barcode invented in 1994 by the Japanese company Denso Wave
+    * [libqrencode](https://github.com/fukuchi/libqrencode) - A fast and compact QR Code encoding library
+    * [Pure python QR Code generator](https://github.com/lincolnloop/python-qrcode) - A library that provides a simple way to create QR codes in Python
+    * [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment) - A contactless payment method where a payment is performed by scanning a QR code from a mobile app
+
+## 370 - Others
+
+### 371 - Development Environment & OS Tooling
+
+* Linux Desktop Environment
   * Debian-based
-    * [Ubuntu desktop](https://ubuntu.com/desktop)
+    * [Ubuntu desktop](https://ubuntu.com/desktop) - The Linux-based operating system that runs from the desktop, to the cloud, to all your internet connected things
     * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
   * Arch-based
     * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
     * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
-* Linux GUI systems
-  * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
-  * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
-  * [GNOME](https://www.gnome.org/)
-  * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
-  * [openbox](http://openbox.org) - A highly configurable, next generation window manager
+* GUI systems
+  * Display Servers
+    * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
+    * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
+  * Desktop Environments
+    * [GNOME](https://www.gnome.org/) - An easy and elegant way to use your computer, designed to put you in control and get things done
+    * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
+  * Window Managers
+    * [openbox](http://openbox.org) - A highly configurable, next generation window manager
+* Windows Environment
+  * Package Management & Administration
+    * [Chocolatey](https://chocolatey.org) - The package manager for Windows
+    * [Scoop](https://scoop.sh/) - A command-line installer for Windows
+    * [gsudo](https://gerardog.github.io/gsudo/) - A Sudo for Windows, with a similar user-experience to the original Sudo
+  * Productivity & Automation
+    * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
+    * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
+    * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
 * Android on Linux
   * [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments
-* Windows administration
-  * [Chocolatey](https://chocolatey.org)
-  * [Scoop](https://scoop.sh/)
-  * [gsudo](https://gerardog.github.io/gsudo/)
-* Windows tools
-  * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
-  * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
-  * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
 
-## 370 - Internet of Things (WIP)
+### 372 - Internet of Things (WIP)
 
 * Concepts
-  * [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things)
-  * [Edge computing](https://en.wikipedia.org/wiki/Edge_computing)
-* Standards
-  * [Bluetooth LE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)
-  * [Zigbee](https://en.wikipedia.org/wiki/Zigbee)
+  * [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things) - The network of physical objects—'things'—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet
+  * [Edge computing](https://en.wikipedia.org/wiki/Edge_computing) - A distributed computing paradigm that brings computation and data storage closer to the sources of data
+  * [Machine to machine](https://en.wikipedia.org/wiki/Machine_to_machine) - The direct communication between devices using any communications channel, including wired and wireless
+  * [Firmware](https://en.wikipedia.org/wiki/Firmware) - A specific class of computer software that provides the low-level control for a device's specific hardware
+  * [Over-the-air update](https://en.wikipedia.org/wiki/Over-the-air_update) - The wireless delivery of new software, firmware, or other data to mobile devices
+* Communication Standards
+  * [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi) - A family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access
+  * [Bluetooth LE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) - A wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group aimed at novel applications in the healthcare, fitness, beacons, security, and home entertainment industries
+  * [Zigbee](https://en.wikipedia.org/wiki/Zigbee) - An IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios
 * Devices
   * [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
 * PaaS

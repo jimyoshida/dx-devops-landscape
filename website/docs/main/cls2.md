@@ -589,6 +589,7 @@ Please see also the Security class.
   * [Litmus](https://litmuschaos.io/) - A cloud-native chaos engineering framework for Kubernetes
   * [Chaos Mesh](https://chaos-mesh.org/) - A cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments
   * [Toxiproxy](https://github.com/Shopify/toxiproxy) - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
+  * [kubeinvaders](https://github.com/lucky-sideburn/kubeinvaders) - A gamified chaos engineering tool for Kubernetes
 
 ### 263 - FinOps
 
