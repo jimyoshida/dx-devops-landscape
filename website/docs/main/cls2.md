@@ -1,7 +1,5 @@
 # 200 - System Administration and SRE
 
-Gemini says "This is an exceptionally well-classified and comprehensive list. The structure is logical, progressing from fundamental concepts to specialized and modern operational practices. It's clear, detailed, and reflects a current understanding of the System Administration and SRE landscape."
-
 ## 200 - Operating Systems, Networking, and Modern Infrastructure
 
 Note: Please see also Class 103 - Concurrency and Parallelism.
@@ -143,6 +141,9 @@ Note: Please see also 210 - Linux Administration
 * CPU Architectures
   * [x86-64](https://en.m.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
   * [ARM64](https://en.m.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
+* Extensions
+  * [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
+  * [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
 
 ## 210 - Linux Administration
 

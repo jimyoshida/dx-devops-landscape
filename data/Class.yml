@@ -29,8 +29,9 @@ subcls060: Psychology and Sociology
 subsubcls061: Personal Performance
 subsubcls062: Social Performance
 subcls070: Logic
-subsubcls070: Concepts
-subsubcls071: Formal Logic
+subsubcls070: Basics
+subsubcls071: Informal Logic
+subsubcls072: Formal Logic
 cls100: Programming
 subcls100: Programming Concepts
 subsubcls100: Core Programming Concepts

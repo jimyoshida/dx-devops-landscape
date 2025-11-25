@@ -1,7 +1,5 @@
 # 100 - Programming
 
-Gemini says "The structure is logical, comprehensive, and follows a clear hierarchical pattern. It effectively separates high-level concepts from specific tools, languages, and frameworks. The inclusion of modern topics like AI coding agents, monorepo tools, and up-to-date frameworks makes it highly relevant."
-
 ## 100 - Programming Concepts
 
 Note: Please see also Class 170 for abstract data types.
@@ -100,7 +98,6 @@ Note: Please see also Class 170 for abstract data types.
   * [Cross-cutting concern](https://en.wikipedia.org/wiki/Cross-cutting_concern) - An aspect of a program that affect several modules, without the possibility of being encapsulated in any of them
 * Program Analysis
   * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
-  * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
   * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
   * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity
 * Language Parsing
@@ -115,6 +112,7 @@ Note: Please see also Class 170 for abstract data types.
     * [Lox](https://dcaiafa.github.io/lox/) - A lexer and parser generator for Go
     * [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
     * [Ragel](https://www.colm.net/open-source/ragel/) - A state machine compiler
+    * [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
     * [Bison](https://www.gnu.org/software/bison/) - A general-purpose parser generator that converts a grammar description for a context-free grammar into a C program to parse that grammar
     * [Flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator
 
@@ -205,6 +203,10 @@ Note: Please see also Class 170 for abstract data types.
   * [OpenAI Codex CLI](https://github.com/openai/codex) - A command-line interface for a model that translates natural language to code
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
+* Autonomous Coding Agents
+  * [Devin](https://devin.ai/) - The AI Software Engineer
+  * [Jules](https://jules.google/) - An Autonomous Coding Agent
+  * [replit agent](https://replit.com/products/agent)
 * CLI Assistants
   * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
   * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
@@ -213,7 +215,6 @@ Note: Please see also Class 170 for abstract data types.
   * [Agents.md](https://agents.md/) - An open standard for defining and running AI agents
 * Spec-Driven Development Support
   * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
-  * [kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
 
 ### 117 - Learning Resources
 
@@ -237,8 +238,9 @@ Note: Please see also Class 170 for abstract data types.
   * [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
   * [git filter-repo](https://github.com/newren/git-filter-repo) - A versatile tool for rewriting history
   * [degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
-  * [git lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
+  * [Git Lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
   * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
+  * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
   * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
 * Git hosting services
   * [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - The single source of truth for collaborating on code and projects
@@ -305,8 +307,10 @@ Note: Please see also Class 170 for abstract data types.
   * [Cline](https://cline.bot/) - An open source AI coding agent that brings frontier AI models directly to your VS Code editor
 * AI-integrated IDEs
   * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
-  * [Winfsurf Editor](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
+  * [Winfsurf](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
   * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
+  * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
+  * [Antigravity](https://antigravity.google/) - An agentic development platform
 * Semantic Code Retreival
   * [Serena](https://github.com/oraios/serena) - A tool for semantic code retrieval
 
@@ -338,6 +342,7 @@ Note: Please see also Class 170 for abstract data types.
   * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
   * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
   * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
+  * [vacuum](https://quobix.com/vacuum/) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool
   * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
   * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
 * Coding style guides
@@ -395,6 +400,9 @@ Note: For shell scripting, please refer to Class 110.
     * [Nominal typing techniques](https://michalzalecki.com/nominal-typing-in-typescript/) - A way to simulate nominal types in TypeScript, which by default has a structural type system
     * [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) - The files where you define the types for a library
     * [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) - A special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter
+  * TS Type Utilities
+    * [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - A tool to compile JSONSchema to TypeScript type declarations
+    * [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - The FromSchema method lets you infer TS types directly from JSON schemas
 * Tutorials & Practices
   * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
   * [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
@@ -412,17 +420,23 @@ Note: For shell scripting, please refer to Class 110.
     * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
     * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
     * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
-  * Key Libraries
+  * Libraries
     * [lo](https://github.com/samber/lo) - A Lodash-style Go library
     * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
     * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
+  * Tools
+    * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
+  * Tutorials
+    * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
+    * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
+    * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
 * [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
   * Core Features
     * Percent notation
     * block, yield, proc, lambda
     * Dynamic method definition
     * instance_eval
-  * Key Libraries
+  * Libraries
     * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
     * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
 * [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
@@ -439,10 +453,6 @@ Note: For shell scripting, please refer to Class 110.
 * [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
   * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
   * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
-* Tutorials
-  * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
-  * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
-  * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
 
 ### 133 - Languages for Systems and Application Development
 
@@ -453,6 +463,8 @@ Note: For shell scripting, please refer to Class 110.
   * [Trait-based generics](https://doc.rust-lang.org/book/ch10-02-traits.html) - A way to define behavior that a type must provide, allowing for generic code that can operate on any type that implements the specified behavior
   * [Lifetime](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) - A construct the compiler uses to ensure all borrows are valid
   * [Module Pin](https://doc.rust-lang.org/std/pin/index.html) - A module that provides types which pin data to its location in memory
+  * Tools
+    * [C2Rust](https://c2rust.com/) - A tool that is able to translate most C modules into semantically equivalent Rust code
   * Tutorials
     * [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - A collection of runnable examples that illustrate various Rust concepts and standard libraries
 * [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) - A modern, object-oriented, and type-safe programming language
@@ -521,6 +533,7 @@ support
 * Regex Tools
   * [Rubular](https://rubular.com/) - A Ruby-based regular expression editor
   * [Wubular](https://rubyelders.github.io/wubular/) - A Javascript-based regular expression editor, inspired by Rubular
+  * [RegEx101](https://regex101.com/) - An online regular expression editor and debugger
 
 ### 142 - Basic Text Manipulation
 
@@ -678,6 +691,7 @@ support
   * Ruby
     * [Minitest](https://github.com/minitest/minitest) - A complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking
     * [RSpec](https://rspec.info/) - A testing tool for the Ruby programming language
+    * [aruba](https://github.com/cucumber/aruba) - A tool to test command-line applications with Cucumber-Ruby, RSpec or Minitest
   * Python
     * [Python unittest](https://docs.python.org/3/library/unittest.html) - A unit testing framework, sometimes referred to as 'PyUnit', which is a Python language version of JUnit
     * [pytest](https://docs.pytest.org/) - A framework that makes it easy to write small, readable tests, and can scale to support complex functional testing

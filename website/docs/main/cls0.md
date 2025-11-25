@@ -1,7 +1,5 @@
 # 000 - Software Engineering Foundations
 
-Gemini says "This is comprehensive, logically consistent, and demonstrates a deep understanding of the relationships between different domains of knowledge in software development and management."
-
 ## 000 - Agile/Lean System Development
 
 ### 001 - Agile Development
@@ -36,6 +34,7 @@ Gemini says "This is comprehensive, logically consistent, and demonstrates a dee
   * [Gauge](https://gauge.org/index.html) - A free and open source test automation framework that takes the pain out of writing and maintaining acceptance tests
   * [Cucumber](https://cucumber.io/) - A tool that supports Behaviour-Driven Development (BDD) by reading executable specifications written in plain text and validating that the software does what those specifications say
     * [Gherkin Syntax](https://cucumber.io/docs/gherkin/) - A set of grammar rules that makes plain text structured enough for Cucumber to understand
+    * [cucumber-ruby](https://github.com/cucumber/cucumber-ruby) - The Ruby implementation of Cucumber
   * [RSpec](https://rspec.info/) - A testing tool for the Ruby programming language, created for behavior-driven development (BDD)
   * [Behave](https://behave.readthedocs.io/en/latest/) - A tool for behavior-driven development (BDD) in Python, using tests written in a natural language style, backed up by Python code
 
@@ -377,6 +376,8 @@ Gemini says "This is comprehensive, logically consistent, and demonstrates a dee
   * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software. Inspired by awesome-python
   * [Awesome Ruby](https://awesome-ruby.com/) - A curated list of awesome Ruby frameworks, libraries and software
   * [Awesome Python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
+  * [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins
+  * [Awesome VSCode](https://github.com/viatsko/awesome-vscode) - A curated list of delightful VS Code packages and resources
 
 ### 052 - Related Organizations
 
@@ -448,16 +449,27 @@ Gemini says "This is comprehensive, logically consistent, and demonstrates a dee
 
 ## 070 - Logic
 
-### 070 - Concepts
+### 070 - Basics
 
 * [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
-* [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
   * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
     * Deductive, Inductive, Abductive and Analogical
-  * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
-  * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
+* Branches of Logic
+  * [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
+  * [Formal logic](https://en.wikipedia.org/wiki/Logic#Formal_logic)
 
-### 071 - Formal Logic
+### 071 - Informal Logic
+
+* [Argument](https://en.wikipedia.org/wiki/Argument) - The central object of study in informal logic; a series of statements (premises) intended to determine the degree of truth of another statement (the conclusion)
+  * [Enthymeme](https://en.wikipedia.org/wiki/Enthymeme) - An argument in which one premise is not explicitly stated, a common feature of real-world reasoning
+* Criteria for Argument Evaluation
+  * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
+  * [Category mistake](https://en.wikipedia.org/wiki/Category_mistake) - The broader application of informal logic and other skills (like analysis and self-reflection) to decide what to believe or do
+* Related Fields
+  * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
+  * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
+
+### 072 - Formal Logic
 
 * Foundational Concepts
   * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
@@ -481,18 +493,22 @@ Gemini says "This is comprehensive, logically consistent, and demonstrates a dee
     * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
     * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
       * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
+    * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
+    * [Equivalence reltion](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
+    * Ordinal number, Cardinal number
+  * [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
+    * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
   * [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
     * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
     * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
   * [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
     * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
     * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
+  * [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
 * Applications
   * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
   * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
 * Tools and Resources
   * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
-  * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - The definitive reference for the special functions of applied mathematics
-    * [Notations](https://dlmf.nist.gov/not/) - A list of notations used in the library
   * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
   * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language

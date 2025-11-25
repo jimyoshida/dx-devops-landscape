@@ -46,6 +46,10 @@
   * [Central limit theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem)
 * [Information theory](https://en.wikipedia.org/wiki/Information_theory) - A scientific study of the quantification, storage, and communication of digital information
   * [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) - The average level of 'information', 'surprise', or 'uncertainty' inherent in a random variable's possible outcomes
+* Related Resources
+  * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - The definitive reference for the special functions of applied mathematics
+    * [Notations](https://dlmf.nist.gov/not/) - A list of notations used in the library
+
 
 ### 402 - Statistics
 
@@ -85,6 +89,7 @@
   * [JupyterLab](https://jupyter.org/) - A web-based interactive development environment for notebooks, code, and data
   * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
     * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in Jupyter Notebooks
+  * [nbviewer](https://nbviewer.org/) - A simple way to share Jupyter Notebooks
   * [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
   * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
   * [Wolfram Notebooks](https://www.wolfram.com/notebooks/)

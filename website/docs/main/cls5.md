@@ -15,6 +15,7 @@
 * Data/AI Platforms
   * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
   * [Dify](https://dify.ai/) - An open-source LLM app development platform
+  * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
 * Supporting Services
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
@@ -75,6 +76,7 @@
   * [Embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)) - A representation learning technique that maps complex, high-dimensional data into a lower-dimensional vector space of numerical vectors
   * [Early stopping](https://en.wikipedia.org/wiki/Early_stopping) - A form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent
   * [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) - Any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set
+  * [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
 * Applications & Problem Domains
   * [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) - The identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data
     * [One-class classification](https://en.wikipedia.org/wiki/One-class_classification) - The technique trying to identify objects of a specific class amongst all objects, by primarily learning from a training set containing only the objects of that class
@@ -149,37 +151,49 @@
     * [Safetensors](https://huggingface.co/docs/safetensors/index) - A simple format for storing tensors safely
   * Protocols
     * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) - An open protocol that standardizes how applications provide context to LLMs
+      * [Elicitation](https://modelcontextprotocol.io/specification/2025-06-18/client/elicitation)
     * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 * Techniques
   * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+  * [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
+  * Prompt Engineering
+    * [Prompt Engineering Guide](https://www.promptingguide.ai/)
+    * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/)
+  * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
+    * Reason, Act, Thought, Observation
 * SDKs
   * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
   * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
   * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
   * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
   * [LiteLLM](https://www.litellm.ai/) - A Python SDK and Proxy Server to call over 100 LLM APIs using the OpenAI format
+  * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
+  * [RedCandle](https://github.com/scientist-labs/red-candle)
 * Platforms and Tools
+  * [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
   * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
     * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
   * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
+  * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
+  * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
   * [FastMCP v2](https://github.com/jlowin/fastmcp)
+  * [Fantasy](https://github.com/charmbracelet/fantasy)
 * Evaluation and Visualization
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
   * [Chatbot Arena](https://lmarena.ai/) - A crowdsourced open platform for evaluating LLMs
   * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
   * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
-* Prompt Engineering
-  * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
-  * [Zero-shot and Few-shot Prompting](https://learn.microsoft.com/en-us/dotnet/ai/conceptual/zero-shot-learning)
-  * [Chain-of-Thought (CoT) Prompting](https://learn.microsoft.com/en-us/dotnet/ai/conceptual/chain-of-thought-prompting)
+
 
 ## 570 - Computer Vision (WIP)
 
 * Core Concepts
   * [Vision Language Models (VLM)](https://huggingface.co/blog/vlms) - An exciting class of models that can understand images and text
   * [Convolutional neural network (CNN)](https://en.wikipedia.org/wiki/Convolutional_neural_network) - A class of artificial neural network, most commonly applied to analyze visual imagery
+  * [Diffusion model](https://en.wikipedia.org/wiki/Diffusion_model)
+  * [Multimodal learning](https://en.wikipedia.org/wiki/Multimodal_learning)
 * Software, Libraries and Tools
   * General computer vision
     * [OpenCV](https://opencv.org/) - An open source computer vision and machine learning software library

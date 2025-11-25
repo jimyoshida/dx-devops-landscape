@@ -305,6 +305,7 @@
   * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
   * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
   * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
+  * [thor](https://github.com/rails/thor) - A toolkit for building powerful command-line interfaces
 
 ### 342 - JS/Go/Rust/C
 
