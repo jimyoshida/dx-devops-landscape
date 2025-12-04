@@ -10,18 +10,26 @@ toc::[]
 
 <<<
 
-include::static/usr/docs/main/cls0.adoc[]
+include::static/usr/docs/main/section01.adoc[]
 
-include::static/usr/docs/main/cls1.adoc[]
+include::static/usr/docs/main/section02.adoc[]
 
-include::static/usr/docs/main/cls2.adoc[]
+include::static/usr/docs/main/section03.adoc[]
 
-include::static/usr/docs/main/cls3.adoc[]
+include::static/usr/docs/main/section04.adoc[]
 
-include::static/usr/docs/main/cls4.adoc[]
+include::static/usr/docs/main/section05.adoc[]
 
-include::static/usr/docs/main/cls5.adoc[]
+include::static/usr/docs/main/section06.adoc[]
 
-include::static/usr/docs/main/cls6.adoc[]
+include::static/usr/docs/main/section07.adoc[]
 
-include::static/usr/docs/main/cls7.adoc[]
+include::static/usr/docs/main/section08.adoc[]
+
+include::static/usr/docs/main/section09.adoc[]
+
+include::static/usr/docs/main/section10.adoc[]
+
+include::static/usr/docs/main/section11.adoc[]
+
+include::static/usr/docs/main/section12.adoc[]

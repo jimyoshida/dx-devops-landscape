@@ -3,13 +3,7 @@ use strict;
 use warnings;
 
 while (my $line = <>) {
-    if ($line =~ s/^# (\d{3}) - (.*)/cls$1: $2/) {
-        print $line;
-    }
-    elsif ($line =~ s/^## (\d{3}) - (.*)/subcls$1: $2/) {
-        print $line;
-    }
-    elsif ($line =~ s/^### (\d{3}) - (.*)/subsubcls$1: $2/) {
+    if ($line =~ s/^# (\d{2}) - (.*)/section$1: $2/) {
         print $line;
     }
 }

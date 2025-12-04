@@ -33,19 +33,15 @@ print "Processing '$contents_file'...\n";
 my ($fh_out, $temp_file) = tempfile(SUFFIX => '.tmp') or die "Could not create a temporary file: $!";
 
 while ( my $line = <$fh_in> ) {
-    if ( $line =~ /^(#{1,3})\s*(\d{3})\s.*$/ ) {
+    if ( $line =~ /^(#)\s*(\d{2})\s.*$/ ) {
         # Regex to match lines starting with '#' (markdown header)
-        # followed by optional spaces, then a 3-digit number, a space, and then the rest of the header.
+        # followed by optional spaces, then a 2-digit number, a space, and then the rest of the header.
         my $hashes = $1; # The '#', '##', etc.
         my $number = $2; # The 3-digit number
         
         my $key; # The key to be used for lookup in the hash
         if ($hashes eq "#") {
-            $key = "cls" . $number;
-        } elsif ($hashes eq "##") {
-            $key = "subcls" . $number;
-        } elsif ($hashes eq "###") {
-            $key = "subsubcls" . $number;
+            $key = "section" . $number;
         }
 
         # Check if the key exists in the hash
@@ -57,17 +53,17 @@ while ( my $line = <$fh_in> ) {
             print $fh_out $line;
             print "Skipped $hashes $number on line $.\n";
         }
-    } elsif ( $line =~ /^(.*\[)Class\s(\d{3})\s-\s.*(\].*)$/ ) {
+    } elsif ( $line =~ /^(.*\[)Section\s(\d{2})\s-\s.*(\].*)$/ ) {
         my $head = $1;
         my $number = $2; # The 3-digit number
         my $tail = $3;
     
         my $key; # The key to be used for lookup in the hash
-        $key = "cls" . $number;
+        $key = "section" . $number;
         
         # Check if the key exists in the hash
         if ( exists $class_dict{$key} ) {
-            print $fh_out "${head}Class $number - $class_dict{$key}$tail\n";
+            print $fh_out "${head}Section $number - $class_dict{$key}$tail\n";
             print "Rewrote Class $number on line $.\n";
         } else {
             # If the key is not in the hash, write the original line

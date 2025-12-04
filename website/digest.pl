@@ -14,9 +14,9 @@ while (<>) {
     # If a line starts with one or more '#', add another one to level-down the header.
     s/^(#+)/#$1/;
 
-    # Remove list items that are indented (level 2 or higher).
-    # This matches lines starting with at least two spaces, followed by '*' or '-', then a space.
-    next if /^\s{2,}[*-]\s/;
+    # Remove all list items.
+    # This matches lines starting with multiple spaces following by '*' or '-', then a space.
+    next if /^\s*[*-]\s/;
 
     print;
 }

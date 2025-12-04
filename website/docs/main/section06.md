@@ -1,6 +1,6 @@
-# 500 - AI, Machine Learning, and LLM
+# 06 - AI, Machine Learning & LLM
 
-## 500 - AI Concepts and Common Tools
+## Core Concepts and Common Tools
 
 * AI kinds
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
@@ -20,7 +20,7 @@
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
 
-## 520 - Natural Language Processing
+## Natural Language Processing
 
 * Foundational Linguistics Fields
   * [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics))
@@ -48,7 +48,7 @@
     * [mecab-python3](https://github.com/SamuraiT/mecab-python3) - A Python wrapper for the MeCab morphological analyzer for Japanese text
     * [jieba](https://github.com/fxsjy/jieba) - A Python module for Chinese text segmentation
 
-## 530 - Machine Learning
+## Machine Learning
 
 * Paradigms
   * [Supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) - A paradigm in machine learning where algorithms learn from labeled data
@@ -93,12 +93,14 @@
   * Cloud Platforms
     * [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
     * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows
-  * MLOps
-    * [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
-    * [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
-    * [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
 
-## 540 - Deep Neural Networks
+## MLOps
+
+* [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
+* [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
+* [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
+
+## Deep Neural Networks
 
 * [Neural network](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)) - The computational models used in machine learning for finding patterns in data
   * [Tensor](https://en.wikipedia.org/wiki/Tensor_(machine_learning)) - The mathematical objects represented as multidimensional arrays used in machine learning
@@ -123,7 +125,7 @@
   * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book explaining the core ideas behind neural networks and deep learning
   * [Deep Learning, MIT Press](https://www.deeplearningbook.org/) - The textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
 
-## 550 - Large Language Models and Agents
+## Large Language Models & Agents
 
 * Model Providers
   * [Anthropic](https://www.anthropic.com/api) - The API providing access to Anthropic's Claude models
@@ -186,8 +188,7 @@
   * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
   * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
 
-
-## 570 - Computer Vision (WIP)
+## Computer Vision
 
 * Core Concepts
   * [Vision Language Models (VLM)](https://huggingface.co/blog/vlms) - An exciting class of models that can understand images and text
