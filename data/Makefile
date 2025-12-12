@@ -1,8 +1,8 @@
 read:
-	cat ../website/docs/main/*.md | perl read.pl > Class.yml
+	cat ../website/docs/skills/*.md | perl read.pl > Class.yml
 
 write:
-	for file in ../website/docs/main/section*.md; do \
+	for file in ../website/docs/skills/section*.md; do \
 		perl write.pl $$file Class.yml; \
 	done
 	perl write.pl ../README.md Class.yml

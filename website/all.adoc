@@ -1,0 +1,49 @@
+= DX and DevOps Landscape - PDF Edition
+Hajime Yoshida <jimyoshida@dummy.com>
+2, 2025-12-06: Merge all articles into one single file for easier distribution
+:doctype: article
+:toc: macro
+:toclevels: 3
+:sectanchors:
+
+toc::[]
+
+<<<
+
+include::static/usr/docs/intro.adoc[]
+
+include::static/usr/docs/dss-p.adoc[]
+
+include::static/usr/docs/skills/section01.adoc[]
+
+include::static/usr/docs/skills/section02.adoc[]
+
+include::static/usr/docs/skills/section03.adoc[]
+
+include::static/usr/docs/skills/section04.adoc[]
+
+include::static/usr/docs/skills/section05.adoc[]
+
+include::static/usr/docs/skills/section06.adoc[]
+
+include::static/usr/docs/skills/section07.adoc[]
+
+include::static/usr/docs/skills/section08.adoc[]
+
+include::static/usr/docs/skills/section09.adoc[]
+
+include::static/usr/docs/skills/section10.adoc[]
+
+include::static/usr/docs/skills/section11.adoc[]
+
+include::static/usr/docs/skills/section12.adoc[]
+
+include::static/usr/docs/timelines/1930-79.adoc[]
+
+include::static/usr/docs/timelines/1980-99.adoc[]
+
+include::static/usr/docs/timelines/2000-09.adoc[]
+
+include::static/usr/docs/timelines/2010-19.adoc[]
+
+include::static/usr/docs/timelines/2020-.adoc[]

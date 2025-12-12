@@ -92,7 +92,7 @@
 
 ## Containerization
 
-### Container Standards and Utilities
+### Container Standards & Utilities
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
 * Linux Distros for Containers
@@ -105,7 +105,7 @@
 * Containers for Development
   * [Development Containers](https://containers.dev/) - An open specification for enriching containers with development-specific settings, tools, and configuration
 
-### Container Runtimes and Tools
+### Container Runtimes & Tools
 
 * Container Engines
   * [Docker Engine](https://docs.docker.com/engine/) - An open source containerization technology for building and containerizing your applications

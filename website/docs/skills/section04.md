@@ -227,7 +227,7 @@
   * [OpenSSL library](https://openssl-library.org/) - A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
   * [stunnnel](https://www.stunnel.org/) - A proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code
 
-## Secure Shell (SSH) and Pretty Good Privacy (PGP)
+## Secure Shell (SSH) & Pretty Good Privacy (PGP)
 
 * [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell)
   * [OpenSSH](https://www.openssh.com/) - The premier connectivity tool for remote login with the SSH protocol

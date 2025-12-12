@@ -1,6 +1,6 @@
 # 11 - Advanced Programming 2
 
-## Desdktop Environment
+## Desktop Environment
 
 * Linux Desktop Environment
   * Debian-based
@@ -30,7 +30,7 @@
 * Android on Linux
   * [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments
 
-## Binary and Media Processing
+## Binary & Media Processing
 
 ### General Binary Tools
 

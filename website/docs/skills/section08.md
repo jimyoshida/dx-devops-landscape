@@ -1,111 +1,8 @@
 # 08 - Terminal & IDE
 
-## Scripting Languages
+## Shell & Terminal
 
-### Python
-
-* [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
-  * Core Features
-    * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
-    * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
-    * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
-      * [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
-    * [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
-    * [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
-      * [contextlib](https://docs.python.org/3/library/contextlib.html) - A module that provides utilities for common tasks involving the with statement
-    * [Generators](https://peps.python.org/pep-0255/) - A simple and powerful way to create iterators, defined using a function with the yield statement
-    * [Decorators](https://peps.python.org/pep-0318/) - A syntax using the '@' symbol for transforming functions and methods, often used for modifying or enhancing them non-intrusively
-    * [Coroutine](https://peps.python.org/pep-0492/) - A specialized generator function, defined with `async def`, that can suspend and resume its execution, enabling cooperative multitasking
-    * [Lambda](https://peps.python.org/pep-0312/) - A small anonymous function defined using the `lambda` keyword, restricted to a single expression
-    * [Data Classes](https://peps.python.org/pep-0557/) - A module and decorator providing a concise way to create classes primarily used to store data, automatically generating special methods
-    * [Pattern Matching](https://docs.python.org/3/reference/compound_stmts.html#match) - A feature providing functionality similar to switch statements, allowing matching of values against complex patterns including sequences, mappings, and object structures
-    * [Unpacking Operator](https://peps.python.org/pep-0448/) - The extended usages of the `*` iterable unpacking operator and `**` dictionary unpacking operators to allow unpacking in more positions, an arbitrary number of times, and in additional circumstances
-  * Key Libraries
-    * [pathlib](https://docs.python.org/3/library/pathlib.html) - The module offering classes representing filesystem paths with semantics appropriate for different operating systems
-    * [dotenv](https://github.com/theskumar/python-dotenv) - A library that reads key-value pairs from a .env file and can set them as environment variables
-    * [Pydantic](https://docs.pydantic.dev/) - A data validation and settings management library for Python
-
-### Javascript & TypeScript
-
-* [Javascript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - The standard that defines the ECMAScript Language
-  * Module System
-    * [CommonJS](http://commonjs.org/) - A project with the goal of specifying an ecosystem for JavaScript outside the browser
-    * [ES modules](https://nodejs.org/api/esm.html) - The official standard format to package JavaScript code for reuse
-    * [UMD](https://github.com/umdjs/umd/) - The patterns for Universal Module Definition for use in the browser, and in AMD and CommonJS-based systems
-  * Core Features
-    * [Event-driven](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events) - A programming paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs
-    * [Spread and rest operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - The syntax that allows an iterable such as an array expression or string to be expanded in places where zero or more arguments or elements are expected
-    * [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) - An object returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
-  * Key Libraries
-    * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
-    * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
-    * [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
-    * [zx](https://google.github.io/zx/) - A tool for writing better scripts
-  * [Typescript](https://www.typescriptlang.org/index.html) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
-    * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - A way to combine multiple types into one
-    * [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - A name for any type
-    * [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) - A way to tell the compiler 'trust me, I know what I’m doing'
-    * [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) - A generic type which uses a union of PropertyKeys to iterate through keys of another type to create a new one
-    * [Nominal typing techniques](https://michalzalecki.com/nominal-typing-in-typescript/) - A way to simulate nominal types in TypeScript, which by default has a structural type system
-    * [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) - The files where you define the types for a library
-    * [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) - A special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter
-  * TS Type Utilities
-    * [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - A tool to compile JSONSchema to TypeScript type declarations
-    * [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - The FromSchema method lets you infer TS types directly from JSON schemas
-* Tutorials & Practices
-  * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
-  * [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
-  * [Callback Hell](http://callbackhell.com/) - The nesting of callback functions when dealing with asynchronous logic
-  * [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
-  * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
-
-### Others
-
-* [Go](https://go.dev/) - An open-source programming language supported by Google
-  * Core Features
-    * [Go Modules](https://go.dev/wiki/Modules) - The dependency management system for the Go programming language
-    * [Defer, panic and recover](https://go.dev/blog/defer-panic-and-recover) - The powerful but unusual control-flow mechanisms in Go
-    * [Pointer receiver](https://go.dev/tour/methods/4) - A method that operates on a pointer to the type, allowing it to modify the value to which the receiver points
-    * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
-    * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
-    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
-  * Libraries
-    * [lo](https://github.com/samber/lo) - A Lodash-style Go library
-    * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
-    * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
-  * Tools
-    * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
-  * Tutorials
-    * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
-    * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
-    * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
-* [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
-  * Core Features
-    * Percent notation
-    * block, yield, proc, lambda
-    * Dynamic method definition
-    * instance_eval
-  * Libraries
-    * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
-    * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
-* [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
-  * Core Features
-    * [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl
-    * [Built-in regex](https://metacpan.org/dist/perl/view/pod/perlre.pod) - The syntax of regular expressions in Perl
-    * [Context](https://perldoc.perl.org/perldata#Context) - A property of expressions that determines how they behave when evaluated
-    * [Scalar values](https://perldoc.perl.org/perldata#Scalar-values) - A single item of data
-      * [Reference](https://perldoc.perl.org/perlreftut#Making-References) - A scalar data type that 'points' to another piece of data
-    * [Quote-like operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#Simpler-Quote-Like-Operators) - A set of generic quoting operators
-    * [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - The operators used for input and output operations, such as reading from a filehandle
-* [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
-* [Lua (for NGINX/Neovim)](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
-* [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
-  * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
-  * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
-
-## Shell and Terminal
-
-### Major Shell
+### Bash & Other Shells
 
 * [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
   * [Line editing](https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html) - The basic features of the GNU command line editing interface
@@ -185,6 +82,109 @@
 * [Git for Windows](https://gitforwindows.org/) - A lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
 * [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
 
+## Scripting Languages
+
+### Python
+
+* [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * Core Features
+    * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
+    * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
+    * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
+      * [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
+    * [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
+    * [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
+      * [contextlib](https://docs.python.org/3/library/contextlib.html) - A module that provides utilities for common tasks involving the with statement
+    * [Generators](https://peps.python.org/pep-0255/) - A simple and powerful way to create iterators, defined using a function with the yield statement
+    * [Decorators](https://peps.python.org/pep-0318/) - A syntax using the '@' symbol for transforming functions and methods, often used for modifying or enhancing them non-intrusively
+    * [Coroutine](https://peps.python.org/pep-0492/) - A specialized generator function, defined with `async def`, that can suspend and resume its execution, enabling cooperative multitasking
+    * [Lambda](https://peps.python.org/pep-0312/) - A small anonymous function defined using the `lambda` keyword, restricted to a single expression
+    * [Data Classes](https://peps.python.org/pep-0557/) - A module and decorator providing a concise way to create classes primarily used to store data, automatically generating special methods
+    * [Pattern Matching](https://docs.python.org/3/reference/compound_stmts.html#match) - A feature providing functionality similar to switch statements, allowing matching of values against complex patterns including sequences, mappings, and object structures
+    * [Unpacking Operator](https://peps.python.org/pep-0448/) - The extended usages of the `*` iterable unpacking operator and `**` dictionary unpacking operators to allow unpacking in more positions, an arbitrary number of times, and in additional circumstances
+  * Key Libraries
+    * [pathlib](https://docs.python.org/3/library/pathlib.html) - The module offering classes representing filesystem paths with semantics appropriate for different operating systems
+    * [dotenv](https://github.com/theskumar/python-dotenv) - A library that reads key-value pairs from a .env file and can set them as environment variables
+    * [Pydantic](https://docs.pydantic.dev/) - A data validation and settings management library for Python
+
+### JavaScript & TypeScript
+
+* [JavaScript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - The standard that defines the ECMAScript Language
+  * Module System
+    * [CommonJS](http://commonjs.org/) - A project with the goal of specifying an ecosystem for JavaScript outside the browser
+    * [ES modules](https://nodejs.org/api/esm.html) - The official standard format to package JavaScript code for reuse
+    * [UMD](https://github.com/umdjs/umd/) - The patterns for Universal Module Definition for use in the browser, and in AMD and CommonJS-based systems
+  * Core Features
+    * [Event-driven](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events) - A programming paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs
+    * [Spread and rest operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - The syntax that allows an iterable such as an array expression or string to be expanded in places where zero or more arguments or elements are expected
+    * [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) - An object returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
+  * Key Libraries
+    * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
+    * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
+    * [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
+    * [zx](https://google.github.io/zx/) - A tool for writing better scripts
+  * [Typescript](https://www.typescriptlang.org/index.html) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
+    * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - A way to combine multiple types into one
+    * [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - A name for any type
+    * [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) - A way to tell the compiler 'trust me, I know what I’m doing'
+    * [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) - A generic type which uses a union of PropertyKeys to iterate through keys of another type to create a new one
+    * [Nominal typing techniques](https://michalzalecki.com/nominal-typing-in-typescript/) - A way to simulate nominal types in TypeScript, which by default has a structural type system
+    * [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) - The files where you define the types for a library
+    * [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) - A special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter
+  * TS Type Utilities
+    * [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - A tool to compile JSONSchema to TypeScript type declarations
+    * [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - The FromSchema method lets you infer TS types directly from JSON schemas
+* Tutorials & Practices
+  * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
+  * [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
+  * [Callback Hell](http://callbackhell.com/) - The nesting of callback functions when dealing with asynchronous logic
+  * [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
+  * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
+
+### Go, Ruby & Others
+
+* [Go](https://go.dev/) - An open-source programming language supported by Google
+  * Core Features
+    * [Go Modules](https://go.dev/wiki/Modules) - The dependency management system for the Go programming language
+    * [Defer, panic and recover](https://go.dev/blog/defer-panic-and-recover) - The powerful but unusual control-flow mechanisms in Go
+    * [Pointer receiver](https://go.dev/tour/methods/4) - A method that operates on a pointer to the type, allowing it to modify the value to which the receiver points
+    * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
+    * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
+    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
+  * Libraries
+    * [lo](https://github.com/samber/lo) - A Lodash-style Go library
+    * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
+    * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
+  * Tools
+    * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
+  * Tutorials
+    * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
+    * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
+    * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
+* [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
+  * Core Features
+    * Percent notation
+    * block, yield, proc, lambda
+    * Dynamic method definition
+    * instance_eval
+  * Libraries
+    * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
+    * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
+* [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
+  * Core Features
+    * [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl
+    * [Built-in regex](https://metacpan.org/dist/perl/view/pod/perlre.pod) - The syntax of regular expressions in Perl
+    * [Context](https://perldoc.perl.org/perldata#Context) - A property of expressions that determines how they behave when evaluated
+    * [Scalar values](https://perldoc.perl.org/perldata#Scalar-values) - A single item of data
+      * [Reference](https://perldoc.perl.org/perlreftut#Making-References) - A scalar data type that 'points' to another piece of data
+    * [Quote-like operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#Simpler-Quote-Like-Operators) - A set of generic quoting operators
+    * [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - The operators used for input and output operations, such as reading from a filehandle
+* [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
+* [Lua (for NGINX/Neovim)](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
+* [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
+  * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
+  * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
+
 ## CLI/TUI Development
 
 * Bash
@@ -254,8 +254,6 @@
     * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
     * [Winfsurf](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
     * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
-    * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
-    * [Antigravity](https://antigravity.google/) - An agentic development platform
 * Terminal-based
   * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
     * [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - The commands that move the cursor and the commands used to delete or change text
@@ -282,7 +280,7 @@
     * [Vim Adventures](https://vim-adventures.com/) - An online game based on VIM's keyboard shortcuts
     * [Vim Cheet Sheet](https://vim.rtorr.com/) - A quick reference guide for Vim commands
 
-## Coding Assistance
+## CLI/Coding Assistance
 
 * Language Servers
   * [LSP](https://microsoft.github.io/language-server-protocol/) - The protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
@@ -295,8 +293,12 @@
   * [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) - A Java language server based on the Eclipse JDT
 * Semantic Code Retreival
   * [Serena](https://github.com/oraios/serena) - A tool for semantic code retrieval
+* CLI Assistants
+  * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
+  * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
+  * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
 
-## Coding Agents & Tools
+## Coding Agents
 
 * CLI Coding Agents
   * [Claude Code](https://www.anthropic.com/claude-code) - A tool that allows developers to use Anthropic's AI models, Opus 4.1 and Sonnet 4, directly in their terminal
@@ -306,14 +308,16 @@
 * Autonomous Coding Agents
   * [Devin](https://devin.ai/) - The AI Software Engineer
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
+  * [Antigravity](https://antigravity.google/) - An agentic development platform
   * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
-* CLI Assistants
-  * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
-  * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
-  * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
-* Standards & Specifications
+* Standards
   * [Agents.md](https://agents.md/) - An open standard for defining and running AI agents
 * Methodologies
   * [Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md) - A development methodology where you start with a specification that acts as a contract for how your code should behave
-* Spec-Driven Development Support
-  * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
+  * SDD Tools
+    * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
+    * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
+* Platforms
+  * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
+* Benchmarks
+  * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub

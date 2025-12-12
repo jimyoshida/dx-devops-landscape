@@ -1,24 +1,13 @@
 # 06 - AI, Machine Learning & LLM
 
-## Core Concepts and Common Tools
+## Core Concepts & Common Tools
 
 * AI kinds
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
   * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
   * [Causal AI](https://en.wikipedia.org/wiki/Causal_AI) - A technique in artificial intelligence that builds a causal model and can thereby make inferences using causality rather than just correlation
-* Data/AI tools
-  * [DVC](https://dvc.org/) - Data Version Control
+* AI Programming Languages
   * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
-* Data/AI frameworks
-  * [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
-  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
-* Data/AI Platforms
-  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
-  * [Dify](https://dify.ai/) - An open-source LLM app development platform
-  * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-* Supporting Services
-  * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
-  * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
 
 ## Natural Language Processing
 
@@ -94,8 +83,9 @@
     * [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
     * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows
 
-## MLOps
+## MLOps & Data Infrastructure
 
+* [DVC](https://dvc.org/) - Open-source Data Version Control for machine learning projects
 * [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
 * [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
 * [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
@@ -124,17 +114,21 @@
 * Textbooks
   * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book explaining the core ideas behind neural networks and deep learning
   * [Deep Learning, MIT Press](https://www.deeplearningbook.org/) - The textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
+* Visualization
+  * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
+  * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
 
-## Large Language Models & Agents
+## Large Language Models
 
-* Model Providers
-  * [Anthropic](https://www.anthropic.com/api) - The API providing access to Anthropic's Claude models
-  * [OpenAI](https://platform.openai.com/) - The platform for building applications with OpenAI's models
-  * [Gemini Developer APs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
-* Hosting Platforms & Aggregators
+* Cloud Infrastructure (Hyperscalers)
   * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
   * [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service) - The service providing REST API access to OpenAI's powerful language models
+* Model Providers
+  * [Anthropic](https://www.anthropic.com/api) - The API providing access to Anthropic's Claude models
+  * [OpenAI](https://platform.openai.com/) - The platform for building applications with OpenAI's models
+  * [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
+* Aggregators
   * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
   * [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
 * Local LLM Deployment
@@ -154,7 +148,6 @@
   * Protocols
     * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) - An open protocol that standardizes how applications provide context to LLMs
       * [Elicitation](https://modelcontextprotocol.io/specification/2025-06-18/client/elicitation)
-    * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 * Techniques
   * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
   * [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
@@ -163,30 +156,41 @@
     * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/)
   * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
     * Reason, Act, Thought, Observation
-* SDKs
-  * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
-  * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
-  * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
+* Unified SDKs
   * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
   * [LiteLLM](https://www.litellm.ai/) - A Python SDK and Proxy Server to call over 100 LLM APIs using the OpenAI format
   * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
-  * [RedCandle](https://github.com/scientist-labs/red-candle)
-* Platforms and Tools
+* Single-Provider SDKs
+  * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
+  * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
+  * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
+  * [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
+* Application Frameworks
   * [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
-  * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
-    * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
-  * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
+  * [FastMCP v2](https://github.com/jlowin/fastmcp) - The standard framework for building MCP applications
+* Dev Tools
   * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
   * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
-  * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
-  * [FastMCP v2](https://github.com/jlowin/fastmcp)
-  * [Fantasy](https://github.com/charmbracelet/fantasy)
-* Evaluation and Visualization
-  * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
+* Evaluation
   * [Chatbot Arena](https://lmarena.ai/) - A crowdsourced open platform for evaluating LLMs
-  * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
-  * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
+
+## Agentic AI
+
+* Agent Frameworks
+  * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
+  * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
+  * [Fantasy](https://github.com/charmbracelet/fantasy) - A unified interface for interacting with various AI language models
+  * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
+* LLM App Platforms
+  * [Dify](https://dify.ai/) - An open-source LLM app development platform
+* Workflow Automation
+  * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
+* Protocols
+  * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
+* Supporting Services
+  * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
+  * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
 
 ## Computer Vision
 

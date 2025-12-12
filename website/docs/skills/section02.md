@@ -120,6 +120,14 @@
 * Rust Full-Stack Frameworks
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
 
+## Data/AI Platforms & Frameworks
+
+* Platforms
+  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
+* Frameworks
+  * [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
+  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
+
 ## Web Server & Proxy
 
 * Web Servers & Reverse Proxy Servers
@@ -137,7 +145,7 @@
   * [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
   * [Google Cloud Apigee](https://cloud.google.com/apigee) - The platform for developing and managing API services
 
-## CDN and Edge Computing
+## CDN & Edge Computing
 
 * Concepts
   * [Web cache](https://en.wikipedia.org/wiki/Web_cache) - An information technology for the temporary storage (caching) of web documents, such as HTML pages and images, to reduce bandwidth usage, server load, and perceived lag

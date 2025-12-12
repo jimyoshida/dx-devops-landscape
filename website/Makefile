@@ -13,29 +13,26 @@ clean:
 # Custom Files Creation
 
 # Source Files
-MAINPAGES := $(wildcard docs/main/*.md)
-TLPAGES := $(wildcard docs/timelines/*.md)
+ALLPAGES := $(wildcard docs/*.md docs/skills/*.md docs/timelines/*.md)
 
 # Asciidoc Sections Dest Files 
-MAINADOCS := $(addprefix static/usr/,$(MAINPAGES:.md=.adoc))
-TLADOCS := $(addprefix static/usr/,$(TLPAGES:.md=.adoc))
+ALLADOCS := $(addprefix static/usr/,$(ALLPAGES:.md=.adoc))
 
 static/usr/%.adoc: %.md
 	mkdir -p $(@D)
 	perl rmemojis.pl < $< | pandoc --from=markdown-smart --to=asciidoc --wrap=none > $@
 
 # PDF Dest Files 
-MAINPDF := static/usr/docs/main.pdf
-TLPDF := static/usr/docs/timelines.pdf
+ALLPDF := static/usr/docs/all.pdf
 
 .PHONY: pdf
-pdf: $(MAINPDF) $(TLPDF)
+pdf: $(ALLPDF)
 
-$(MAINPDF): main.adoc $(MAINADOCS)
+$(ALLPDF): all.adoc $(ALLADOCS)
 	asciidoctor-pdf -v -o $@ -a pdf-theme=pdf-theme.yml $<
 
-$(TLPDF): timelines.adoc $(TLADOCS)
-	asciidoctor-pdf -v -o $@ -a pdf-theme=pdf-theme.yml $<
+# Markmap Source Files
+SKILLPAGES := $(wildcard docs/skills/*.md)
 
 # Markmap Dest File
 MAPHTML := static/usr/docs/map.html
@@ -48,6 +45,6 @@ $(MAPHTML): $(MAPMD)
 	mkdir -p $(@D)
 	npx markmap --no-open -o $@ $<
 
-$(MAPMD): $(MAINPAGES)
+$(MAPMD): $(SKILLPAGES)
 	mkdir -p $(@D)
 	cat $^ | perl digest.pl > $@

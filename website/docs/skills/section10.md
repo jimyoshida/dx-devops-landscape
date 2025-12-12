@@ -1,6 +1,8 @@
 # 10 - Advanced Programming
 
-## Languages for Systems and Application Development
+## Languages for Systems & Application Development
+
+### Rust Language
 
 * [Rust](https://www.rust-lang.org/) - A programming language that empowers everyone to build reliable and efficient software
   * [Ownership and borrowing](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html) - A set of rules that govern how a Rust program manages memory
@@ -13,6 +15,9 @@
     * [C2Rust](https://c2rust.com/) - A tool that is able to translate most C modules into semantically equivalent Rust code
   * Tutorials
     * [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - A collection of runnable examples that illustrate various Rust concepts and standard libraries
+
+### C# and F# Languages
+
 * [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) - A modern, object-oriented, and type-safe programming language
   * [Language-Integrated Query (LINQ)](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) - The name for a set of technologies based on the direct integration of query capabilities into the C# language
   * [Delegate](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/) - A type that represents references to methods with a particular parameter list and return type
@@ -22,22 +27,26 @@
   * [Discriminated union](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/discriminated-unions) - A type that can store a value of one of several different, but fixed, types
   * [Active pattern](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns) - A feature that lets you define named partitions that subdivide input data, so that you can use these names in a pattern matching expression
   * [Computation expression](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions) - A feature that provides a convenient syntax for writing computations that can be sequenced and combined using control flow constructs and bindings
+
+### Java Family Languages
+
 * [Java](https://www.oracle.com/java/) - The #1 programming language and development platform
   * [Built-in concurrency support](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) - The features of the Java platform designed from the ground up to support concurrent programming
-* [Scala (for Gatling)](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
+* [Scala](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
   * [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - A characteristic of a language that fuses object-oriented and functional programming in a statically typed setting
+
+### C & Other Languages
+
+* [C](https://www.open-std.org/jtc1/sc22/wg14/) - A general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system
+  * Manual memory management
+  * [Macros](https://gcc.gnu.org/onlinedocs/cpp/Macros.html) - A fragment of code which has been given a name
+* [Zig](https://ziglang.org/) - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
+  * Manual memory management
+  * [Comptime](https://zig.guide/language-basics/comptime/) - The mechanism that allows you to execute code at compile-time
 * [Haskell](https://www.haskell.org/) - An advanced, purely functional programming language
   * Purely functional
   * [Lazy evaluation](https://wiki.haskell.org/Lazy_evaluation) - An evaluation strategy which delays the evaluation of an expression until its value is needed
 * [Elixir](https://elixir-lang.org/) - A dynamic, functional language for building scalable and maintainable applications
-* [Elm](https://elm-lang.org/) - A delightful language for reliable web applications
-  * [The Elm Architecture (TEA)](https://guide.elm-lang.org/architecture/) - A simple pattern for infinitely nestable components
-* [Zig](https://ziglang.org/) - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
-  * Manual memory management
-  * [Comptime](https://zig.guide/language-basics/comptime/) - The mechanism that allows you to execute code at compile-time
-* [C](https://www.open-std.org/jtc1/sc22/wg14/) - A general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system
-  * Manual memory management
-  * [Macros](https://gcc.gnu.org/onlinedocs/cpp/Macros.html) - A fragment of code which has been given a name
 
 ## Text, Date & Time Standards
 
@@ -212,7 +221,7 @@ support
     * [log4sh](https://github.com/kward/log4sh) - An advanced logging framework for shell scripts
     * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 
-## Test Frameworks and Tools
+## Test Frameworks & Tools
 
 * Test Concepts and Best Practices
   * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - A way of thinking about how different kinds of tests should be used to create a balanced portfolio

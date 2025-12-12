@@ -121,12 +121,12 @@
     * [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
     * [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
     * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
-    * [Recharts](https://recharts.org/)
+    * [Recharts](https://recharts.org/) - A composable charting library built on React components
     * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
 * Data Sources
   * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - A free IP geolocation database
 
-## Data Formats and Storage
+## Data Formats & Storage
 
 * Data Formats
   * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
@@ -252,7 +252,7 @@
 * [Milvus](https://zilliz.com/what-is-milvus) - A high-performance open-source vector database built to handle billions of vectors
 * [Chroma](https://www.trychroma.com/) - The AI-native open-source embedding database
 
-## Data Pipelines and ETL/ELT
+## Data Pipelines & ETL/ELT
 
 * Base Frameworks
   * [Apache Hadoop](https://hadoop.apache.org/) - A framework that allows for the distributed processing of large data sets
@@ -283,13 +283,13 @@
   * [Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/) - A fully managed enterprise message broker with message queues and publish-subscribe topics
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
 
-## Search and Analytics
+## Search & Analytics
 
 * Web Search Engines
-  * [Google Search](https://www.google.com/)
-  * [DuckDuckGo](https://duckduckgo.com/)
+  * [Google Search](https://www.google.com/) - The search engine that allows you to search the world's information, including webpages, images, videos and more
+  * [DuckDuckGo](https://duckduckgo.com/) - The search engine that doesn't track you
 * Answer Engines
-  * [Wolfram|Alpha](https://www.wolframalpha.com/)
+  * [Wolfram|Alpha](https://www.wolframalpha.com/) - A computational knowledge engine that computes expert-level answers using breakthrough algorithms, knowledgebase and AI technology
 * Data Analytics Methodologies and Architectures
   * [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) - A system used for reporting and data analysis and is a core component of business intelligence
   * [Data lake](https://en.wikipedia.org/wiki/Data_lake) - A system or repository of data stored in its natural/raw format, usually object blobs or files
@@ -307,8 +307,8 @@
     * [Kibana](https://www.elastic.co/kibana)
     * [Kibana Query Language](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
     * [ElasticSearch vector database](https://www.elastic.co/elasticsearch/vector-database)
-  * [Apache Solr](https://solr.apache.org/)
-  * [Apache Lucene](https://lucene.apache.org/) - A Java library providing powerful indexing and search features
+  * [Apache Solr](https://solr.apache.org/) - The popular, blazing-fast, open source enterprise search platform built on Apache Lucene
+    * [Apache Lucene](https://lucene.apache.org/) - A Java library providing powerful indexing and search features
   * [Faiss](https://faiss.ai/) - A library for efficient similarity search and clustering of dense vectors
 * Analytics Platforms
   * [Apache Hive](https://hive.apache.org/) - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale

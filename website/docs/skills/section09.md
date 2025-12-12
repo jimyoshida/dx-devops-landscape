@@ -1,4 +1,4 @@
-# 09 - OS and Network Basics
+# 09 - OS & Network Basics
 
 ## Core OS Concepts
 
@@ -279,7 +279,7 @@ Note: Please see also 210 - Linux Administration
     * [tun2socks](https://github.com/xjasonlyu/tun2socks) - A SOCKS proxy for TCP and UDP, that handles all connections from a TUN device
     * [proxychains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy
 
-## File Sharing and Remote Access
+## File Sharing & Remote Access
 
 * File Servers and Protocols
   * [SMB](https://en.wikipedia.org/wiki/Server_Message_Block) - A network communication protocol for providing shared access to files, printers, and serial ports between nodes on a network

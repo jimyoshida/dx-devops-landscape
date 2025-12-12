@@ -4,9 +4,9 @@ use warnings;
 
 print <<'EOF';
 ---
-title: markmap (experimental)
+title: Skills
 markmap:
-  colorFreezeLevel: 3
+  colorFreezeLevel: 2
 ---
 EOF
 

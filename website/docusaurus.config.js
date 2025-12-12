@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Greater DevOps Landscape (Beta)',
+  title: 'DX and DevOps Landscape (Beta)',
   tagline: 'Construction of this site is on the way.',
   favicon: 'img/favicon.ico',
 

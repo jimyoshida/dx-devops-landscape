@@ -9,12 +9,15 @@ This site aims to provide a curated classification of well-known keywords, conce
 
 ## Contents
 
-Pages in the **Main** section contain the curated classification, including concepts, de facto standards, useful techniques, and OSS implementations.
-The list is also available in [PDF format](pathname:///usr/docs/main.pdf), and the outline is visualized as an [experimental mind map](pathname:///usr/docs/map.html).
+Pages in the **Skills** category contain the curated classification, including concepts, de facto standards, useful techniques, and OSS implementations.
+The outline is visualized as a [mind map](pathname:///usr/docs/map.html), too.
 
-Pages in the **Timelines** section contain major historical events related to the curated items.
+Pages in the **Timelines** category contain major historical events related to the curated items.
 The descriptions are primarily quoted from the [English version of Wikipedia](https://en.wikipedia.org/wiki/Main_Page) unless other sources are cited.
-The timeline is also available in [PDF format](pathname:///usr/docs/timelines.pdf).
+
+## PDF Edition
+
+The contents are also available in [PDF format](pathname:///usr/docs/all.pdf).
 
 ## Principles
 
