@@ -1,328 +1,323 @@
-# 07 - Programming Concepts & Paradims
+# 07 - Terminal & IDE
 
-## Core Programming Concepts
+## Shell & Terminal
 
-* Language Mechanics & Execution
-  * [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
-  * [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - A syntactic unit of an imperative programming language that expresses some action to be carried out
-  * [Expression](https://en.wikipedia.org/wiki/Expression_(computer_science)) - A syntactic entity in a programming language that may be evaluated to determine its value
-    * Operator and Operand
-  * [Literal](https://en.wikipedia.org/wiki/Literal_(computer_programming)) - A notation for representing a fixed value in source code
-    * Template string or literal
-    * [Heredoc](https://en.wikipedia.org/wiki/Here_document) - A file literal or input stream literal representing a section of source code that is treated as if it were a separate file
-  * [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - A value that cannot be altered by the program during normal execution
-  * [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - An abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value
-  * [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - The region of a computer program where the binding of a name to an entity (name binding) is valid
-  * [Data type](https://en.wikipedia.org/wiki/Data_type) - A collection or grouping of data values, usually specified by a set of possible values and allowed operations
-    * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
-    * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - A major class of type systems, in which compatibility and equivalence of data types is determined by explicit declarations and/or the names of the types
-    * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system) - A major class of type systems in which type compatibility and equivalence are determined by the type's actual structure or definition
-    * [Union type](https://en.wikipedia.org/wiki/Union_type) - A data type definition that specifies which of a number of permitted primitive types may be stored in its instances
-    * [Type safety](https://en.wikipedia.org/wiki/Type_safety) - The extent to which a programming language discourages or prevents type errors
-  * [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - A value that enables a program to indirectly access a particular datum in the computer's memory or other storage device
-    * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - A value saved for indicating that the pointer or reference does not refer to a valid object
-* Memory Management
-  * [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - A programming technique of storing the number of references, pointers, or handles to a resource
-  * [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - A form of automatic memory management where the collector attempts to reclaim memory occupied by objects no longer in use
-  * [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - An abstract data type that simulates a pointer while providing added features, such as automatic memory management or bounds checking
-  * [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - The state of being protected from various software bugs and security vulnerabilities when dealing with memory access
-* Control Flow Structures
-  * [Control flow](https://en.wikipedia.org/wiki/Control_flow) - The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated
-  * [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - The process of responding to the occurrence of exceptions during the execution of a program
-* Foundational Techniques & Properties
-  * [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
-    * [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
-  * [State](https://en.wikipedia.org/wiki/State_(computer_science)) - The stored information, at a given instant in time, to which a computer program or system has access
-  * [Function](https://en.wikipedia.org/wiki/Function_(computer_programming)) - A sequence of program instructions that performs a specific task, packaged as a unit
-    * [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - A special kind of variable used in a subroutine or function to refer to one of the pieces of data provided as input
-    * [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - A function definition that is not bound to an identifier
-  * [Immutable object](https://en.wikipedia.org/wiki/Immutable_object) - An object whose state cannot be modified after it is created
-  * [Generic Programming](https://en.wikipedia.org/wiki/Generic_programming) - A style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
-  * [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - A statement that a predicate (a Boolean-valued function) is expected to always be true at that point in the code
-  * [Autovivification](https://en.wikipedia.org/wiki/Autovivification) - The automatic creation of a new variable or data structure as required when it is first used
-* Module Structure & Organization
-  * [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - The degree to which the elements inside a module belong together
-  * [Coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) - The degree of interdependence between software modules, a measure of how closely connected two routines or modules are, and the strength of the relationships between modules
+### Bash & Other Shells
 
-## Object-oriented Programming
+* [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
+  * [Line editing](https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html) - The basic features of the GNU command line editing interface
+  * [History](https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html) - The history expansion features of Bash
+  * [Shell expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html) - The process performed on the command line after it has been split into words
+  * [Pipelines](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html) - A sequence of one or more commands separated by one of the control operators ‘|’ or ‘|&’
+  * [Built-in commands](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - The commands that are executed within the shell process itself, without forking a new process
+  * [Special variables](https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html) - A list of shell variables that are set or used by the shell
+  * [Built-in job control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html) - The ability to selectively stop (suspend) the execution of processes and continue (resume) their execution at a later time
+* [Zsh](https://www.zsh.org/) - A shell designed for interactive use, although it is also a powerful scripting language
+* [fish-shell](https://fishshell.com/) - A smart and user-friendly command line shell for Linux, macOS, and the rest of the family
+* [PowerShell](https://docs.microsoft.com/en-us/powershell/) - A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework
+* [nushell](https://www.nushell.sh/) - A new type of shell
 
-* [Object-oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) - A programming paradigm based on the object - a software entity that encapsulates data and function(s)
-  * [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) - The process of hiding the complexity of a system by modeling classes appropriate to the problem and working at the most relevant level of detail
-  * [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) - The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components
-  * [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) - The provision of a single interface to entities of different types
-    * [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch) - The process of selecting which implementation of a polymorphic operation (method or function) to call at run time
-  * [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) - The mechanism of basing an object or class upon another object or class, retaining similar implementation
-  * [Class](https://en.wikipedia.org/wiki/Class_(computer_programming)) - An extensible program-code-template for creating objects, providing initial values for state and implementations of behavior
-  * [Interface](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)) - An abstract type that contains no data, but defines behaviors as method signatures
-  * [Method](https://en.wikipedia.org/wiki/Method_(computer_programming)) - A procedure associated with an object, and implicitly acting upon that object
-  * [This keyword](https://en.wikipedia.org/wiki/This_(computer_programming)) - A keyword used in many object-oriented programming languages to refer to the object associated with the current function or method call
-  * [Duck typing](https://en.wikipedia.org/wiki/Duck_typing) - An application of the duck test determining type compatibility based on the presence of certain methods and properties
-  * [Covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) - The ways to describe how a type constructor (like list or function) behaves with respect to subtyping
-  * [Passive data structure](https://en.wikipedia.org/wiki/Passive_data_structure) - A record data structure that contains only public data fields and provides no methods other than implicitly for reading/writing the fields
-  * [Prototype-based programming](https://en.wikipedia.org/wiki/Prototype-based_programming) - A style of object-oriented programming in which behavior reuse is performed via a process of reusing existing objects that serve as prototypes
+### Shell Utilities
 
-## Functional Programming
+* General Shell Utilities
+  * [coreutils](https://www.gnu.org/software/coreutils/) = A package of GNU software containing many of the basic tools, such as cat, ls, and rm, needed for Unix-like operating systems
+  * [GNU parallel](https://www.gnu.org/software/parallel/) - A shell tool for executing jobs in parallel using one or more computers
+  * [rlwrap](https://github.com/hanslub42/rlwrap) - A readline wrapper
+  * [bash-completion](https://github.com/scop/bash-completion) - A collection of programmable completion functions for bash
+  * [direnv](https://direnv.net/) - An extension for your shell that can load and unload environment variables depending on the current directory
+  * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command
+* Search Tools
+  * [findutils](https://www.gnu.org/software/findutils/) - The basic directory searching utilities of the GNU operating system
+  * [fzf](https://github.com/junegunn/fzf) - A general-purpose command-line fuzzy finder
+  * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to find
+  * [grep](https://www.gnu.org/software/grep/) - A command-line utility for searching plain-text data sets for lines that match a regular expression
+  * [ripgrep](https://github.com/BurntSushi/ripgrep) - A line-oriented search tool that recursively searches the current directory for a regex pattern
+  * [silversearcher-ag](https://geoff.greer.fm/ag/) - A code-searching tool similar to ack, but faster
+* Shell Frameworks & Customization
+  * [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+  * [oh-my-bash](https://ohmybash.nntoan.com/) - An open source, community-driven framework for managing your BASH configuration
+  * [oh-my-zsh](https://ohmyz.sh/) - A delightful, open source, community-driven framework for managing your Zsh configuration
+  * [Zim Framework](https://zimfw.sh/) - The Zsh configuration framework with blazing speed and modular extensions
+  * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - A theme for Zsh
+  * [Pure](https://github.com/sindreshorhus/pure) - A pretty, minimal and fast ZSH prompt
+* Shell Tutorials
+  * [LinuxCommand.com](https://www.linuxcommand.org/) - A site containing a book and other material designed to help you learn how to use the Linux command line
 
-* [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) - A programming paradigm where programs are constructed by applying and composing functions
-  * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) - The act of checking a given sequence of tokens for the presence of the constituents of some pattern
-  * [First-class function](https://en.wikipedia.org/wiki/First-class_function) - The property of a programming language that treats functions as first-class citizens (e.g., assignable to variables, passable as arguments)
-    * [Map](https://en.wikipedia.org/wiki/Map_(higher-order_function)) - A higher-order function that applies a given function to each element of a sequence, returning a sequence containing the results
-    * [Filter](https://en.wikipedia.org/wiki/Filter_(higher-order_function)) - A higher-order function that processes a data structure to produce a new data structure containing only those elements for which a given predicate returns true
-    * [Reduce](https://en.wikipedia.org/wiki/Fold_(higher-order_function)) - A higher-order function (also known as fold) that reduces a data structure to a single value by recursively applying a combining operation
-  * [Referential transparency](https://en.wikipedia.org/wiki/Referential_transparency) - A property of expressions such that an expression can be replaced with its corresponding value without changing the program's behavior
-  * [Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)) - A function together with a referencing environment for the non-local variables of that function
-  * [Side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) - An observable effect of an operation, function, or expression that modifies state variable values outside its local environment
-  * [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) - A software design pattern with a structure that combines program fragments (functions) and wraps their return values in a type with additional computation
-  * [Currying](https://en.wikipedia.org/wiki/Currying) - The technique of converting a function that takes multiple arguments into a sequence of functions that each takes a single argument
+### Terminal Emulators
 
-## Reactive Programming & Advanced Topics
+* [Terminal Emulators](https://en.wikipedia.org/wiki/Terminal_emulator) - A computer program that emulates a video terminal within some other display architecture
+  * [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
+  * [Rio Terminal](https://rioterm.com/) - A modern terminal for the 21st century
+  * [Alacritty](https://alacritty.org/) - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
+  * [Terminator](https://gnome-terminator.org) - A terminal emulator like xterm, gnome-terminal, konsole, etc.
+  * [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host
+  * [Mintty](https://mintty.github.io/) - A terminal emulator for Cygwin, MSYS or Msys2, and derived projects, and for WSL
+  * [xterm](https://invisible-island.net/xterm/) - A terminal emulator for the X Window System
+* Technologies & Protocols
+  * [Pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal) - A pair of pseudo-devices that provides a terminal-like interface used by programs to emulate a terminal
+  * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - A standard for in-band signaling to control the cursor location, color, font styling, and other options on video text terminals
+  * [kitty keyboard protocol](https://sw.kovidgoyal.net/kitty/keyboard-protocol/) - A protocol for terminals to send keyboard events to applications running in them
+  * [iTerm2 image protocol](https://iterm2.com/documentation-images.html) - A custom escape code to display images inline in the terminal
+* Fonts
+  * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+  * [Nerd Fonts](https://www.nerdfonts.com/) - A project that patches developer targeted fonts with a high number of glyphs
+  * [Cascadia Code](https://github.com/microsoft/cascadia-code) - A fun, new monospaced font that includes programming ligatures
 
-* [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - A declarative programming paradigm concerned with data streams and the propagation of change
-  * [Functional Reactive Programming (FRP)](https://en.wikipedia.org/wiki/Functional_reactive_programming) - A programming paradigm for reactive programming using the building blocks of functional programming
-  * Languages & Frameworks
-    * [ReactiveX](https://reactivex.io/) - An API for asynchronous programming with observable streams
-    * [Elm](https://elm-lang.org/) - A delightful language for reliable web applications
-* [Aspect-oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) - A programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns
-  * [Cross-cutting concern](https://en.wikipedia.org/wiki/Cross-cutting_concern) - An aspect of a program that affect several modules, without the possibility of being encapsulated in any of them
-* Program Analysis
-  * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
-  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
-  * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity
-* Language Parsing
-  * [Formal Grammar](https://en.wikipedia.org/wiki/Formal_grammar) - A set of formation rules for strings in a formal language
-  * [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) - A containment hierarchy of classes of formal grammars
-  * [Automata theory](https://en.wikipedia.org/wiki/Automata_theory) - The study of abstract machines and automata, as well as the computational problems that can be solved using them
-  * [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) - A notation technique for context-free grammars, often used to describe the syntax of languages used in computing
-  * [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - A tree representation of the abstract syntactic structure of source code written in a programming language
+### Terminal Utilities
+
+* Multiplexers & Session Management
+  * [screen](https://www.gnu.org/software/screen/) - A full-screen window manager that multiplexes a physical terminal between several processes
+  * [tmux](https://github.com/tmux/tmux/wiki) - A terminal multiplexer
+  * [byobu](https://www.byobu.org/) - A GPLv3 open source text-based window manager and terminal multiplexer
+  * [zellij](https://zellij.dev/) - A terminal workspace with batteries included
+  * [asciinema](https://asciinema.org/) - A free and open source solution for recording terminal sessions and sharing them on the web
+* Console File Managers
+  * [midnight commander](https://midnight-commander.org/) - A visual file manager
+  * [ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
+  * [superfile](https://superfile.netlify.app/) - A very fancy and modern terminal file manager
+
+### Linux or Unix-like environments on Windows
+
+* [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - A feature of Windows that enables you to run a GNU/Linux environment on your Windows machine without the need for a separate virtual machine or dual booting
+* [Git for Windows](https://gitforwindows.org/) - A lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
+* [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
+
+## Scripting Languages
+
+### Python
+
+* [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * Core Features
+    * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
+    * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
+    * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
+      * [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
+    * [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
+    * [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
+      * [contextlib](https://docs.python.org/3/library/contextlib.html) - A module that provides utilities for common tasks involving the with statement
+    * [Generators](https://peps.python.org/pep-0255/) - A simple and powerful way to create iterators, defined using a function with the yield statement
+    * [Decorators](https://peps.python.org/pep-0318/) - A syntax using the '@' symbol for transforming functions and methods, often used for modifying or enhancing them non-intrusively
+    * [Coroutine](https://peps.python.org/pep-0492/) - A specialized generator function, defined with `async def`, that can suspend and resume its execution, enabling cooperative multitasking
+    * [Lambda](https://peps.python.org/pep-0312/) - A small anonymous function defined using the `lambda` keyword, restricted to a single expression
+    * [Data Classes](https://peps.python.org/pep-0557/) - A module and decorator providing a concise way to create classes primarily used to store data, automatically generating special methods
+    * [Pattern Matching](https://docs.python.org/3/reference/compound_stmts.html#match) - A feature providing functionality similar to switch statements, allowing matching of values against complex patterns including sequences, mappings, and object structures
+    * [Unpacking Operator](https://peps.python.org/pep-0448/) - The extended usages of the `*` iterable unpacking operator and `**` dictionary unpacking operators to allow unpacking in more positions, an arbitrary number of times, and in additional circumstances
+  * Key Libraries
+    * [pathlib](https://docs.python.org/3/library/pathlib.html) - The module offering classes representing filesystem paths with semantics appropriate for different operating systems
+    * [dotenv](https://github.com/theskumar/python-dotenv) - A library that reads key-value pairs from a .env file and can set them as environment variables
+    * [Pydantic](https://docs.pydantic.dev/) - A data validation and settings management library for Python
+
+### JavaScript & TypeScript
+
+* [JavaScript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - The standard that defines the ECMAScript Language
+  * Module System
+    * [CommonJS](http://commonjs.org/) - A project with the goal of specifying an ecosystem for JavaScript outside the browser
+    * [ES modules](https://nodejs.org/api/esm.html) - The official standard format to package JavaScript code for reuse
+    * [UMD](https://github.com/umdjs/umd/) - The patterns for Universal Module Definition for use in the browser, and in AMD and CommonJS-based systems
+  * Core Features
+    * [Event-driven](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events) - A programming paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs
+    * [Spread and rest operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - The syntax that allows an iterable such as an array expression or string to be expanded in places where zero or more arguments or elements are expected
+    * [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) - An object returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
+  * Key Libraries
+    * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
+    * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
+    * [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
+    * [zx](https://google.github.io/zx/) - A tool for writing better scripts
+  * [Typescript](https://www.typescriptlang.org/index.html) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
+    * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - A way to combine multiple types into one
+    * [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - A name for any type
+    * [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) - A way to tell the compiler 'trust me, I know what I’m doing'
+    * [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) - A generic type which uses a union of PropertyKeys to iterate through keys of another type to create a new one
+    * [Nominal typing techniques](https://michalzalecki.com/nominal-typing-in-typescript/) - A way to simulate nominal types in TypeScript, which by default has a structural type system
+    * [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) - The files where you define the types for a library
+    * [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) - A special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter
+  * TS Type Utilities
+    * [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - A tool to compile JSONSchema to TypeScript type declarations
+    * [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - The FromSchema method lets you infer TS types directly from JSON schemas
+* Tutorials & Practices
+  * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
+  * [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
+  * [Callback Hell](http://callbackhell.com/) - The nesting of callback functions when dealing with asynchronous logic
+  * [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
+  * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
+
+### Go, Ruby, Perl & Others
+
+* [Go](https://go.dev/) - An open-source programming language supported by Google
+  * Core Features
+    * [Go Modules](https://go.dev/wiki/Modules) - The dependency management system for the Go programming language
+    * [Defer, panic and recover](https://go.dev/blog/defer-panic-and-recover) - The powerful but unusual control-flow mechanisms in Go
+    * [Pointer receiver](https://go.dev/tour/methods/4) - A method that operates on a pointer to the type, allowing it to modify the value to which the receiver points
+    * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
+    * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
+    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
+  * Libraries
+    * [lo](https://github.com/samber/lo) - A Lodash-style Go library
+    * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
+    * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
   * Tools
-    * [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
-    * [Lox](https://dcaiafa.github.io/lox/) - A lexer and parser generator for Go
-    * [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
-    * [Ragel](https://www.colm.net/open-source/ragel/) - A state machine compiler
-    * [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
-    * [Bison](https://www.gnu.org/software/bison/) - A general-purpose parser generator that converts a grammar description for a context-free grammar into a C program to parse that grammar
-    * [Flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator
+    * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
+  * Tutorials
+    * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
+    * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
+    * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
+* [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
+  * Core Features
+    * Percent notation
+    * block, yield, proc, lambda
+    * Dynamic method definition
+    * instance_eval
+  * Libraries
+    * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
+    * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
+* [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
+  * Core Features
+    * [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl
+    * [Built-in regex](https://metacpan.org/dist/perl/view/pod/perlre.pod) - The syntax of regular expressions in Perl
+    * [Context](https://perldoc.perl.org/perldata#Context) - A property of expressions that determines how they behave when evaluated
+    * [Scalar values](https://perldoc.perl.org/perldata#Scalar-values) - A single item of data
+      * [Reference](https://perldoc.perl.org/perlreftut#Making-References) - A scalar data type that 'points' to another piece of data
+    * [Quote-like operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#Simpler-Quote-Like-Operators) - A set of generic quoting operators
+    * [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - The operators used for input and output operations, such as reading from a filehandle
+* [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
+* [Lua (for NGINX/Neovim)](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
+* [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
+  * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
+  * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
 
-## Asynchronous & Concurrency
+## CLI/TUI Development
 
-* [Concurrent Computing](https://en.wikipedia.org/wiki/Concurrent_computing) - A form of computing in which several computations are executed concurrently instead of sequentially
-  * [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - A computer program component that generalizes subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed
-  * [Async/await](https://en.wikipedia.org/wiki/Async/await) - A syntactic feature that allows an asynchronous, non-blocking function to be structured in a way similar to an ordinary synchronous function
-  * [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises) - The constructs used for synchronizing program execution, representing a proxy for a result that is initially unknown
-  * [Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming)) - A variable or abstract data type used to control access to a common resource by multiple threads in a concurrent system
-  * [Mutex](https://en.wikipedia.org/wiki/Lock_(computer_science)) - A synchronization primitive that prevents state from being modified or accessed by multiple threads of execution at the same time
-  * [Channel](https://en.wikipedia.org/wiki/Channel_(programming)) - A model for interprocess communication and synchronization via message passing
-  * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - A property of computer code applicable in multi-threaded environments, ensuring correct manipulation of shared data structures
-  * [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - A situation in concurrent computing where no member of a group of entities can proceed because each waits for another member to take action
+* Bash
+  * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
+  * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html) - A command to initialize a terminal or query the terminfo database
+  * [dialog](https://invisible-island.net/dialog/dialog.html) - A program that can be used to create nice user interfaces for shell scripts
+  * [Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
+  * [FIGlet](http://www.figlet.org/) - A program for making large letters out of ordinary text
+  * [lolcat](https://github.com/busyloop/lolcat) - A program that concatenates files, or standard input, to standard output and adds rainbow coloring
+  * [cfonts](https://github.com/dominikwilkowski/cfonts) - A tool to print sexy fonts in your console
+* Perl
+  * [Getopt::Long](https://metacpan.org/pod/Getopt::Long) - A module that implements an extended getopt function called GetOptions()
+  * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor) - A module to colorize text using ANSI escape sequences
+  * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable) - A module to create a formatted table using ASCII characters and ANSI colors
+* Python
+  * [argparse](https://docs.python.org/3/library/argparse.html) - The module for parsing command-line arguments
+  * [getopt](https://docs.python.org/3/library/getopt.html) - The C-style parser for command line options
+  * [click](https://palletsprojects.com/p/click/) - A Python package for creating beautiful command line interfaces in a composable way with as little code as necessary
+  * [Colorama](https://github.com/tartley/colorama) - A simple cross-platform API for printing colored terminal text from Python
+  * [Typer](https://typer.tiangolo.com/) - A library for building CLI applications that users will love using and developers will love creating
+  * [Asciimatics](https://github.com/peterbrittain/asciimatics) - A package that provides a cross-platform, full-screen terminal API for building text-based user interfaces
+  * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/) - A library for building powerful interactive command line and terminal applications in Python
+  * [Urwid](https://urwid.org/) - A console user interface library for Python
+  * [Textual](https://textual.textualize.io/) - A Rapid Application Development framework for Python, built by Textualize.io
+    * [Rich](https://github.com/Textualize/rich) - A Python library for rich text and beautiful formatting in the terminal
+* Ruby
+  * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
+  * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
+  * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
+  * [thor](https://github.com/rails/thor) - A toolkit for building powerful command-line interfaces
+* Javascript
+  * [yargs](https://yargs.js.org/) - A library for building interactive command line tools by parsing arguments and generating an elegant user interface
+  * [minimist](https://github.com/minimistjs/minimist) - A tool to parse argument options
+  * [chalk](https://github.com/chalk/chalk) - A terminal string styling tool
+  * [cli-progress](https://github.com/npkgz/cli-progress) - An easy to use progress-bar for command-line/terminal applications
+  * [FIGLet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec
+  * [gradient-string](https://github.com/bokub/gradient-string) - A library for creating beautiful gradients in terminal output
+* Go
+  * [Fang](https://github.com/charmbracelet/fang) - The CLI starter kit. A small, experimental library for batteries-included Cobra applications
+  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
+  * [Huh](https://github.com/charmbracelet/huh) - A simple, powerful, and elegant TUI library for building terminal forms and prompts
+  * [pflag](https://github.com/spf13/pflag) - A drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
+  * [color](https://github.com/fatih/color) - A package for Go that lets you use colorized outputs in terms of ANSI escape sequences
+  * [Cobra](https://cobra.dev/) - A framework for creating powerful modern CLI applications
+  * [cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
+  * [viper](https://github.com/spf13/viper) - A complete configuration solution for Go applications
+* Rust
+  * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
+  * [Ratatui](https://ratatui.rs/) - A Rust library for cooking up delicious terminal user interfaces
+  * [R3BL](https://r3bl.com/) - A suite of libraries for building modern terminal apps with Rust
+  * [Ansic](https://github.com/zeonzip/ansic) - A modern, efficient and compile time ansi macro and utilities crate for Rust
+* C
+  * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
 
-## Design Principles & Best Practices
+## Integrated Development Environment (IDE)
 
-* Design Principles
-  * [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
-  * [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - A design principle for separating a computer program into distinct sections
-  * [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - An approach for designing software that prescribes formal, precise and verifiable interface specifications for software components
-  * [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - A design guideline for developing software, particularly object-oriented programs
-  * [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - A mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable
-    * Single responsibility
-    * Open–closed
-    * Liskov substitution
-    * Interface segregation
-    * Dependency inversion
-  * [The Reactive Manifesto](https://www.reactivemanifesto.org/) - A coherent approach to systems architecture where applications are responsive, resilient, elastic and message driven
-  * [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - A set of cultural norms and philosophical approaches to software development
-  * [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) - The practice of structuring information models and associated data schema such that every data element is stored exactly once
-  * [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - A design principle which states that most systems work best if they are kept simple rather than made complicated
-* Design Best Practices
-  * [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - A programming idiom where the life cycle of a resource is bound to the lifetime of an object
-  * [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
-  * [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
-  * [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
-    * Codebase: One codebase tracked in revision control, many deploys.
-    * Dependencies: Explicitly declare and isolate dependencies.
-    * Config: Store config in the environment.
-    * Backing services: Treat backing services as attached resources.
-    * Build, release, run: Strictly separate build and run stages.
-    * Processes: Execute the app as one or more stateless processes.
-    * Port binding: Export services via port binding.
-    * Concurrency: Scale out via the process model.
-    * Disposability: Maximize robustness with fast startup and graceful shutdown.
-    * Dev/prod parity: Keep development, staging, and production as similar as possible.
-    * Logs: Treat logs as event streams.
-    * Admin processes: Run admin/management tasks as one-off processes.
+* GUI-based
+  * [Visual Studio Code](https://code.visualstudio.com/) - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux
+    * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - An extension that supercharges the Git capabilities built into Visual Studio Code
+    * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - An extension to view a Git Graph of your repository, and perform Git actions from the graph
+  * AI Assistance Plugins
+    * [GitHub Copilot](https://github.com/features/copilot/) - The AI pair programmer that helps you write code faster and with less work
+    * [Gemini Code Assist](https://cloud.google.com/products/gemini/code-assist) - An AI-powered assistant for the entire development lifecycle
+    * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - The most capable generative AI-powered assistant for software development
+    * [Cline](https://cline.bot/) - An open source AI coding agent that brings frontier AI models directly to your VS Code editor
+  * AI-integrated IDEs
+    * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
+    * [Winfsurf](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
+    * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
+* Terminal-based
+  * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
+    * [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - The commands that move the cursor and the commands used to delete or change text
+    * [vim-plug](https://junegunn.github.io/vim-plug/) - The de-facto standard plugin manager for Vim
+    * [NERDTree](https://github.com/preservim/nerdtree) - A tree explorer plugin for vim
+  * [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor
+    * [LazyVim](https://www.lazyvim.org/) - A Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config
+      * [lazy.nvim](https://lazy.folke.io/) - A modern plugin manager for Neovim
+    * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - A Neovim plugin to manage the file system and other tree like structures
+    * [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) - A colorful window separator for Neovim
+    * [mason.nvim](https://github.com/williamboman/mason.nvim) - A Neovim plugin that allows you to easily manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
+    * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
+    * [flash.nvim](https://github.com/folke/flash.nvim) - A plugin that helps you navigate your code with search labels, enhanced character motions and Treesitter integration
+    * [nvim-llama](https://github.com/jpmcb/nvim-llama) - A simple interface to Ollama for Neovim
+  * [Helix](https://helix-editor.com/) - A modal editor, meaning it has different modes for different tasks
+  * [GNU Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor — and more
+    * [MELPA](https://melpa.org/#/) - Milkypostman's Emacs Lisp Package Archive
+    * [doomemacs](https://github.com/doomemacs/doomemacs) - An Emacs framework for the stubborn martian hacker
+    * [neotree](https://github.com/jaypei/emacs-neotree) - A tree explorer for Emacs
+    * [Treemacs](https://github.com/Alexander-Miller/treemacs) - A tree layout file explorer for Emacs
+    * [Spacemacs](https://www.spacemacs.org/#) - A community-driven Emacs distribution
+  * Tutorials and Cheet Sheets
+    * [OpenVim](https://openvim.com/) - An interactive Vim tutorial
+    * [Vim Adventures](https://vim-adventures.com/) - An online game based on VIM's keyboard shortcuts
+    * [Vim Cheet Sheet](https://vim.rtorr.com/) - A quick reference guide for Vim commands
 
-## Software Design Patterns
+## CLI/Coding Assistance
 
-* Software Design Patterns
-  * [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - A general, reusable solution to a commonly occurring problem within a given context in software design
-  * [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - An architectural pattern used in software design and analysis that helps in structuring the responsibilities of classes in an object-oriented system
-  * [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - A pattern that separates read and update operations for a data store
-  * [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - A method for designing object-oriented APIs based on method chaining with the goal of making the readability of the source code close to that of ordinary written prose
-  * [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
-  * [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
+* Language Servers
+  * [LSP](https://microsoft.github.io/language-server-protocol/) - The protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
+  * [pyright](https://github.com/microsoft/pyright) - A static type checker and language server for Python
+    * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - An extension that works alongside the Python extension in Visual Studio Code to provide performant language support
+  * [Ruby LSP](https://shopify.github.io/ruby-lsp/) - An opinionated language server for Ruby
+  * [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server) - A standalone TypeScript and JavaScript language server
+  * [Gopls](https://go.dev/gopls/) - The official language server for the Go language
+  * [rust-analyzer](https://rust-analyzer.github.io/) - A language server for the Rust programming language
+  * [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) - A Java language server based on the Eclipse JDT
+* Semantic Code Retreival
+  * [Serena](https://github.com/oraios/serena) - A tool for semantic code retrieval
+* CLI Assistants
+  * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
+  * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
+  * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
 
-## Refactoring & Clean Code
+## Coding Agents
 
-* Concepts
-  * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
-  * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - A software metric used to indicate the complexity of a program
-* Analysis Platform
-  * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
-  * [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html) - A report that shows the percentage of your code that is covered by tests
-  * [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) - A feature that uses CodeClimate Engines to provide code quality analysis for your projects
-* Formatters
-  * [EditorConfig](https://editorconfig.org/) - A file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles
-  * [Prettier](https://prettier.io/) - An opinionated code formatter
-* Code metrics
-  * [scc](https://github.com/boyter/scc/) - A tool that counts lines of code in many programming languages
-  * [cloc](https://github.com/AlDanial/cloc) - A tool that counts blank lines, comment lines, and physical lines of source code in many programming languages
-* Linters
-  * [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
-  * [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
-  * [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
-  * [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
-  * [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
-  * [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
-  * [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
-  * [RuboCop](https://github.com/rubocop/rubocop) - A Ruby static code analyzer (a.k.a linter) and code formatter
-  * [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
-  * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
-  * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
-  * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
-  * [vacuum](https://quobix.com/vacuum/) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool
-  * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
-  * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
-* Coding style guides
-  * [Google Style Guides](https://google.github.io/styleguide/) - A collection of documents that provide a set of conventions for writing source code in various programming languages
-  * [Style Guide for Python](https://peps.python.org/pep-0008/) - A document that gives coding conventions for the Python code comprising the standard library in the main Python distribution
-  * [Ruby Style Guide](https://rubystyle.guide/) - A community-driven style guide for the Ruby programming language
-
-## Compiler
-
-* [Compiler](https://en.wikipedia.org/wiki/Compiler) - A computer program that translates computer code written in one programming language into another language
-  * [Machine code](https://en.wikipedia.org/wiki/Machine_code) - A computer program written in machine language instructions that can be executed directly by a computer's central processing unit (CPU)
-  * [gcc](https://www.gnu.org/software/gcc/) - The GNU Compiler Collection which includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D
-  * [rustc](https://doc.rust-lang.org/rustc/what-is-rustc.html) - The compiler for the Rust programming language
-  * [LLVM Compiler Infrastructure](https://llvm.org/) - A collection of modular and reusable compiler and toolchain technologies
-    * [Clang](https://clang.llvm.org/) - A C language family frontend for LLVM
-  * [Cross compiler](https://en.wikipedia.org/wiki/Cross_compiler) - A compiler capable of creating executable code for a platform other than the one on which the compiler is running
-    * [MinGW-w64](https://www.mingw-w64.org/) - An advancement of the original mingw.org project, created to support the GCC compiler on Windows systems
-  * [Go build command](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
-    * Static binary executable
-  * [GopherJS](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript
-  * [Bunster](https://bunster.netlify.app/) - A shell compiler that turns your scripts into a self-contained executable programs
-* [Linker](https://en.wikipedia.org/wiki/Linker_(computing)) - A computer system program that takes one or more object files and combines them into a single executable file
-  * [LLD](https://lld.llvm.org/) - The LLVM Linker
-  * [mold](https://github.com/rui314/mold/) - A Modern Linker
-* C Standard Library
-  * [glibc](https://sourceware.org/glibc/) - The GNU C Library project which provides the core libraries for the GNU system and GNU/Linux systems
-  * [musl libc](https://musl.libc.org/) - A C standard library intended for operating systems based on the Linux kernel
-
-## Runtime System
-
-* [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - The part of a program that runs on a computer, for the language in which the program was written
-  * [Bytecode](https://en.wikipedia.org/wiki/Bytecode) - A form of instruction set designed for efficient execution by a software interpreter
-  * [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation) - A way of executing computer code that involves compilation during execution of a program
-  * [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock) - A mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at the same time
-  * Javascript
-    * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
-      * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
-    * [Deno](https://deno.land/) - A modern runtime for TypeScript and JavaScript
-    * [Bun](https://bun.sh/) - A fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript
-    * [WinterJS](https://github.com/wasmerio/winterjs) - A blazingly fast JavaScript runtime built on Rust, using the SpiderMonkey engine and the Tokio runtime
-  * Python
-    * CPython (default)
-    * [pypy](https://www.pypy.org/) - A fast, compliant alternative implementation of Python
-    * [Pyodide](https://pyodide.org/en/stable/) - A Python distribution for the browser and Node.js based on WebAssembly
-  * Ruby
-    * CRuby (default)
-    * [JRuby](https://www.jruby.org/) - An implementation of the Ruby programming language atop the Java Virtual Machine
-  * [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html) - The most proven, trusted, and secure development platform for modern application development
-    * [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html) - The primary Java Virtual Machine for desktops and servers, produced by Oracle Corporation
-    * [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html) - The Java Management Extensions technology which is a standard part of the Java Platform
-    * [JDK tools](https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html) - The command-line tools to create and build applications
-    * [GraalVM](https://oracle.com/java/graalvm/) - An advanced JDK with ahead-of-time Native Image compilation
-    * [OpenJDK](https://openjdk.org/) - The place to collaborate on an open-source implementation of the Java Platform, Standard Edition
-    * [Eclipse Temurin](https://adoptium.net/temurin/) - The open-source, enterprise-ready, and TCK-certified builds of OpenJDK
-  * [.NET](https://dotnet.microsoft.com/en-us/) - The free, open-source, cross-platform framework for building modern apps and powerful cloud services
-    * [CLR](https://learn.microsoft.com/en-us/dotnet/standard/clr) - The virtual machine component of .NET Framework
-* Related Tools
-  * [PM2](https://pm2.keymetrics.io/) - A daemon process manager that will help you manage and keep your application online
-  * [PyCall](https://github.com/mrkn/pycall.rb) - A Ruby library that allows you to call Python functions from Ruby
-  * [VisualVM](https://visualvm.github.io/) - An All-in-One Java Troubleshooting Tool
-
-## Algorithm & Computational Complexity
-
-* External Resources
-  * [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/) - A dictionary of algorithms, algorithmic techniques, data structures, archetypal problems, and related definitions
-
-### Algorithm
-
-* [Algorithm](https://en.wikipedia.org/wiki/Algorithm) - A finite sequence of rigorous instructions, typically used to solve a class of specific problems or to perform a computation
-  * Analysis Techniques
-    * [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis) - A method for analyzing a given algorithm's complexity
-    * [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) - A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity
-  * Algorithmic Paradigms
-    * [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)) - A method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem
-    * [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) - An algorithm design paradigm
-    * [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) - A method for solving a complex problem by breaking it down into a collection of simpler subproblems
-    * [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - A class of algorithms for finding solutions to some computational problems
-    * [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) - An algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage
-  * Sorting Algorithms
-    * [Quicksort](https://en.wikipedia.org/wiki/Quicksort) - An in-place sorting algorithm
-    * [Merge sort](https://en.wikipedia.org/wiki/Merge_sort) - An efficient, general-purpose, and comparison-based sorting algorithm
-    * [Heapsort](https://en.wikipedia.org/wiki/Heapsort) - A comparison-based sorting algorithm
-  * Searching Algorithms
-    * [Binary search](https://en.wikipedia.org/wiki/Binary_search) - A search algorithm that finds the position of a target value within a sorted array
-    * [Interpolation search](https://en.wikipedia.org/wiki/Interpolation_search) - An algorithm for searching for a key in a sorted array that has been ordered by numerical values assigned to the keys
-  * String Algorithms
-    * [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) - A string-searching algorithm that searches for occurrences of a "word" W within a main text string T
-    * [Boyer–Moore algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm) - A string-searching algorithm that is the standard benchmark for practical string-search literature
-    * [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence) - The problem of finding the longest subsequence common to all sequences in a set of sequences
-  * Graph Algorithms
-    * Traversal
-      * [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) - An algorithm for traversing or searching tree or graph data structures
-      * [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) - An algorithm for traversing or searching tree or graph data structures
-    * Shortest Path
-      * [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - An algorithm for finding the shortest paths between nodes in a weighted graph
-      * [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm) - An algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph
-    * [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree) - A subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together
-      * [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm) - A greedy algorithm that finds a minimum spanning tree for a weighted undirected graph
-      * [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal's_algorithm) - A minimum-spanning-tree algorithm which finds an edge of the least possible weight that connects any two trees in the forest
-    * Other
-      * [Tarjan's strongly connected components algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm) - An algorithm in graph theory for finding the strongly connected components (SCCs) of a directed graph
-      * [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting) - A linear ordering of the vertices of a directed acyclic graph (DAG)
-  * Hashing Algorithms
-    * [Hash function](https://en.wikipedia.org/wiki/Hash_function) - Any function that can be used to map data of arbitrary size to fixed-size values
-
-### Data Structures
-
-* [Abstract Data Types](https://en.wikipedia.org/wiki/Abstract_data_type) - A mathematical model for data types
-  * [String](https://en.wikipedia.org/wiki/String_(computer_science)) - A finite sequence of symbols that are chosen from a set called an alphabet
-  * [List](https://en.wikipedia.org/wiki/List_(abstract_data_type)) - An abstract data type that represents a finite number of ordered values
-  * [Associative array](https://en.wikipedia.org/wiki/Associative_array) - An abstract data type that can hold a collection of (key, value) pairs
-  * [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) - An abstract data type that serves as a collection of elements, with two main operations: push and pop
-  * [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) - An abstract data type that serves as a collection of elements, with two main operations: enqueue and dequeue
-    * [Priority queue](https://en.wikipedia.org/wiki/Priority_queue) - An abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it
-  * [Tree](https://en.wikipedia.org/wiki/Tree_(abstract_data_type)) - An abstract data type that represents a hierarchical tree structure with a set of connected nodes
-  * [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)) - An abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics
-    * [Directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - A directed graph with no directed cycles
-* [Data Structures](https://en.wikipedia.org/wiki/Data_structure) - A data organization, management, and storage format that is designed to enable efficient access and modification
-  * [Array](https://en.wikipedia.org/wiki/Array_(data_type)) - A data structure consisting of a collection of elements (values or variables)
-    * [Array slicing](https://en.wikipedia.org/wiki/Array_slicing) - An operation that extracts a subset of elements from an array and packages them as another array
-  * [Hash table](https://en.wikipedia.org/wiki/Hash_table) - A data structure that implements an associative array abstract data type
-    * Collision Resolution
-      * [Cuckoo hashing](https://en.wikipedia.org/wiki/Cuckoo_hashing) - A scheme in computer programming for resolving hash collisions of keys in a hash table
-      * [Linear probing](https://en.wikipedia.org/wiki/Linear_probing) - A scheme in computer programming for resolving collisions in hash tables
-  * [Linked data structure](https://en.wikipedia.org/wiki/Linked_data_structure) - A data structure which consists of a set of data records (nodes) linked together and organized by references
-  * [Persistent structure](https://en.wikipedia.org/wiki/Persistent_data_structure) - A data structure that always preserves the previous version of itself when it is modified
-  * [Disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) - A data structure that stores a collection of disjoint (non-overlapping) sets
-  * Tree-based
-    * [Search tree](https://en.wikipedia.org/wiki/Search_tree) - A tree data structure used for locating specific keys from within a set
-      * [Binary search tree (BST)](https://en.wikipedia.org/wiki/Binary_search_tree) - A rooted binary tree data structure with the key of each internal node being greater than all keys in the respective node's left subtree and less than the ones in its right subtree
-    * [Markle tree](https://en.wikipedia.org/wiki/Merkle_tree) - A tree in which every leaf node is labelled with the cryptographic hash of a data block
-    * [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure)) - A tree-based data structure that satisfies the heap property
-    * [Trie](https://en.wikipedia.org/wiki/Trie) - A search tree data structure used to locate specific keys from within a set
-    * [Fenwick tree](https://en.wikipedia.org/wiki/Fenwick_tree) - A data structure that can efficiently update elements and calculate prefix sums in a table of numbers
-  * Graph-based
-    * [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix) - A square matrix used to represent a finite graph
-    * [Adjacency list](https://en.wikipedia.org/wiki/Adjacency_list) - A collection of unordered lists used to represent a finite graph
+* CLI Coding Agents
+  * [Claude Code](https://www.anthropic.com/claude-code) - A tool that allows developers to use Anthropic's AI models, Opus 4.1 and Sonnet 4, directly in their terminal
+  * [OpenAI Codex CLI](https://github.com/openai/codex) - A command-line interface for a model that translates natural language to code
+  * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
+  * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
+* Autonomous Coding Agents
+  * [Devin](https://devin.ai/) - The AI Software Engineer
+  * [Jules](https://jules.google/) - An Autonomous Coding Agent
+  * [Antigravity](https://antigravity.google/) - An agentic development platform
+  * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
+* Standards
+  * [Agents.md](https://agents.md/) - An open standard for defining and running AI agents
+* Methodologies
+  * [Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md) - A development methodology where you start with a specification that acts as a contract for how your code should behave
+  * SDD Tools
+    * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
+    * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
+* Platforms
+  * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
+* Benchmarks
+  * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub

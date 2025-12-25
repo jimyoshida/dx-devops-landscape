@@ -48,9 +48,9 @@
   * [Lazy evaluation](https://wiki.haskell.org/Lazy_evaluation) - An evaluation strategy which delays the evaluation of an expression until its value is needed
 * [Elixir](https://elixir-lang.org/) - A dynamic, functional language for building scalable and maintainable applications
 
-## Text, Date & Time Standards
+## Text & Time Format Standards
 
-### Text File
+### Text Format & Character Code
 
 * [ASCII](https://en.wikipedia.org/wiki/ASCII) - A character encoding standard for electronic communication
 * [Unicode](https://home.unicode.org/) - The universal character encoding standard
@@ -64,7 +64,7 @@ support
   * [Python emoji](https://github.com/carpedm20/emoji/) - An emoji library for Python
   * [Go emoji](https://github.com/kyokomi/emoji) - A minimalistic emoji package for Go
 
-### DateTime
+### DateTime Format
 
 * [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) - The primary time standard globally used to regulate clocks and time
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - An international standard covering the worldwide exchange and communication of date- and time-related data

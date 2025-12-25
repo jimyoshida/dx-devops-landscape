@@ -1,6 +1,6 @@
-# 01 - Development Method, Culture, OSS & Logic
+# 01 - Development Method, Management & Business
 
-## Agile/Lean System Development
+## Agile/Lean Development
 
 ### Agile Development
 
@@ -71,109 +71,6 @@
 * Performance Measurement
   * [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A framework that provides a way to think about developer productivity in a more holistic way, encompassing Satisfaction and well-being, Performance, Activity, Communication and collaboration, and Efficiency and flow
   * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
-
-## Requirement Analysis
-
-* [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
-  * [Systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) - The conceptual model that defines the structure, behavior, and more views of a system
-  * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - An adage stating that organizations design systems that mirror their own communication structure
-* [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
-  * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
-    * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
-* Related Standards
-  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
-
-### Domain-Driven Design (DDD)
-
-* [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) - A major software design approach, focusing on modeling software to match a domain according to input from that domain's experts
-* [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) - A technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process
-  * [Use case](https://en.wikipedia.org/wiki/Use_case) - A list of actions or event steps typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system to achieve a goal
-* [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
-  * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
-    * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
-* [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
-
-## Documentation
-
-* [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
-* [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
-
-### Architecture Description
-
-* Models and Languages
-  * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
-  * [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
-  * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
-  * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
-  * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
-* Diagramming Tools
-  * [draw.io](https://www.drawio.com/) - A technology stack for building diagramming applications, and the world's most widely used browser-based end-user diagramming software
-* Diagramming as Code
-  * [D2: Declarative Diagramming](https://d2lang.com/) - A modern diagram scripting language that turns text to diagrams
-  * [Diagrams](https://diagrams.mingrammer.com/) - A Python package for drawing cloud system architectures in Python code
-  * [PlantUML](https://plantuml.com/) - A tool that allows you to create diagrams from a simple textual description
-  * [Mermaid](https://mermaidjs.github.io/) - A Javascript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically
-  * [Kroki](https://kroki.io/) - A free and open source service that converts plain text diagrams to images
-  * [Graphviz](https://graphviz.org/) - An open source graph visualization software
-    * [DOT language](https://graphviz.org/doc/info/lang.html) - A plain text graph description language
-    * [haphviz](https://hackage.haskell.org/package/haphviz) - A Haskell library for representing, manipulating, and pretty-printing graphs in the DOT format
-  * [ditaa](https://github.com/stathissideris/ditaa) - A small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
-* [Architectural Decision Records (ADRs)](https://adr.github.io/) - A document that captures an important architectural decision made along with its context and consequences
-  * [adr-tools](https://github.com/npryce/adr-tools) - A command-line tool to help you manage your architectural decision records
-
-### Lightweight Markup
-
-* [Markdown](https://en.wikipedia.org/wiki/Markdown) - A lightweight markup language for creating formatted text using a plain-text editor
-  * [CommonMark](https://commonmark.org/) - A rationalized version of Markdown syntax, with a spec and BSD-licensed reference implementations in C and JavaScript
-  * [GFM (GitHub Flavored Markdown)](https://github.github.com/gfm/) - A formal specification, based on the CommonMark Spec, that defines the syntax and semantics of GitHub's dialect of Markdown
-    * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The CSS that styles markdown rendered on GitHub
-  * [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files
-  * [Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
-  * [Grip](https://github.com/joeyespo/grip) - A command-line server application that renders local README files before you push them to GitHub
-  * [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
-  * [Marp](https://marp.app/) - The simplest Markdown presentation writer with plain Markdown
-    * [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - An all-in-one tool for Markdown (keyboard shortcuts, table of contents, auto preview, and more)
-    * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
-    * [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - A markdown preview plugin for (neo)vim
-  * Guides
-    * [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown
-* [DocUtils](https://docutils.sourceforge.io/) - An open-source text processing system for processing plaintext documentation into useful formats, such as HTML, LaTeX, man-pages, open-document, or XML
-  * [reStructuredText](https://docutils.sourceforge.io/rst.html) - An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system
-* [Asciidoc](https://asciidoc.org/) - A lightweight markup language for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs
-  * [Asciidoctor](https://asciidoctor.org/) - A fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats
-* [Org Mode](https://orgmode.org/) - An authoring tool and a TODO lists manager for GNU Emacs
-  * [nvim-orgmode](https://github.com/nvim-orgmode/orgmode) - An Orgmode clone for Neovim written in Lua
-* [Wikitext](https://www.mediawiki.org/wiki/Wikitext) - The markup language that consists of the syntax and keywords used by the MediaWiki software to format a page
-
-### Writing Styles
-
-* Style Guides
-  * [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) - A guide for writers creating a variety of content types, including apps and websites
-  * [Google documentation style guide](https://developers.google.com/style/) - The editorial guidelines for writing clear and consistent technical documentation for an audience of software developers and other technical practitioners
-  * [Red Hat documentation style guide](https://redhat-documentation.github.io/supplementary-style-guide/) - The guide that provides style guidelines for Red Hat product and cross-product solution documentation
-  * [Microsoft Terminology](https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology) - A collection of rules that define language and style conventions for specific languages
-  * [List of English words](https://github.com/dwyl/english-words) - A text file containing over 466k English words
-* Prose Linters
-  * [vale](https://vale.sh/) - A linter for natural language/prose
-  * [retext](https://github.com/retextjs/retext) - An extensible natural language processor
-  * [alex](https://alexjs.com/) - A tool that helps you find gender favoring, polarizing, race related, religion inconsiderate, or other unequal phrasing in text
-  * [write-good](https://github.com/btford/write-good) - A naive linter for English prose
-  * [textlint](https://textlint.github.io/) - The pluggable linting tool for text and markdown
-
-### Other Tools
-
-* Typesetting Systems
-  * [Troff/Groff](https://www.gnu.org/software/groff/) - A typesetting system that reads plain text mixed with formatting commands and produces formatted output
-  * [LaTeX](https://www.latex-project.org/) - A high-quality typesetting system; it includes features designed for the production of technical and scientific documentation
-    * [TexLive](https://tug.org/texlive/) - A cross-platform, free software distribution for the TeX typesetting system
-    * [PGF/TikZ](https://github.com/pgf-tikz/pgf) - A TeX macro package for generating graphics
-  * [KaTeX](https://katex.org/) - The fastest math typesetting library for the web
-    * [sphinxcontrib-katex](https://sphinxcontrib-katex.readthedocs.io/en/) - A Sphinx extension which allows you to use KaTeX to render math in your Sphinx documentation
-* Validation & Maintenance
-  * [lychee](https://lychee.cli.rs/) - A fast, async link checker written in Rust
-* Converters
-  * [Pandoc](https://pandoc.org/) - A universal document converter
-    * [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
 
 ## Open Source
 
@@ -246,66 +143,195 @@
 * Data Search Engines
   * [Google Dataset search](https://datasetsearch.research.google.com/) - A search engine that enables users to find datasets stored across thousands of repositories on the Web
 
-## Logic
+## Requirement Engineering
 
-* [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
-  * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
-    * Deductive, Inductive, Abductive and Analogical
-* Branches of Logic
-  * [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
-  * [Formal logic](https://en.wikipedia.org/wiki/Logic#Formal_logic)
+* [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
+  * [Systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) - The conceptual model that defines the structure, behavior, and more views of a system
+  * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - An adage stating that organizations design systems that mirror their own communication structure
+* [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
+  * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
+    * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
+* Related Standards
+  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
 
-### Informal Logic
+### Domain-Driven Design (DDD)
 
-* [Argument](https://en.wikipedia.org/wiki/Argument) - The central object of study in informal logic; a series of statements (premises) intended to determine the degree of truth of another statement (the conclusion)
-  * [Enthymeme](https://en.wikipedia.org/wiki/Enthymeme) - An argument in which one premise is not explicitly stated, a common feature of real-world reasoning
-* Criteria for Argument Evaluation
-  * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
-  * [Category mistake](https://en.wikipedia.org/wiki/Category_mistake) - The broader application of informal logic and other skills (like analysis and self-reflection) to decide what to believe or do
-* Related Fields
-  * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
-  * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
+* [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) - A major software design approach, focusing on modeling software to match a domain according to input from that domain's experts
+* [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) - A technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process
+  * [Use case](https://en.wikipedia.org/wiki/Use_case) - A list of actions or event steps typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system to achieve a goal
+* [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
+  * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
+    * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
+* [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
-### Formal Logic
+## Project & Work Management
 
-* Foundational Concepts
-  * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
-  * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
-    * [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
-  * [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - The two theorems of mathematical logic that demonstrate the inherent limitations of every formal axiomatic system capable of modelling basic arithmetic
-  * Logic Principles
-    * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - A pair of transformation rules that are both valid rules of inference
-    * [Law of noncontradiction](https://en.wikipedia.org/wiki/Law_of_noncontradiction) - The law that states that for any given proposition, the proposition and its negation cannot both be simultaneously true
-    * [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle) - The principle that for every proposition, either this proposition or its negation is true
-* Logical Systems
-  * [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
-    * conjunction, disjunction, implication, biconditional and negation
-    * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
-  * [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
-    * universal quantification and existential quantification
-  * [Modal logic](https://en.wikipedia.org/wiki/Modal_logic) - A type of logic that is used to represent statements about possibility and necessity
-* Branches of Mathematical Logic
-  * [Set Theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
-    * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
-    * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
-    * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
-      * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
-    * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
-    * [Equivalence reltion](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
-    * Ordinal number, Cardinal number
-  * [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
-    * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
-  * [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
-    * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
-    * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
-  * [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
-    * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
-    * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
-  * [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
-* Applications
-  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
-  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
-* Tools and Resources
-  * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
-  * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
-  * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
+* [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
+  * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
+  * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
+  * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix (RAM)... describes the participation by various roles in completing tasks or deliverables for a project or business process
+    * Responsible, Accountable, Consulted, Informed
+  * [Software development effort estimation](https://en.wikipedia.org/wiki/Software_development_effort_estimation) - The process of predicting the most realistic amount of effort (expressed in terms of person-hours or money) required to develop or maintain software based on incomplete, uncertain and noisy input
+    * [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation) - A technique used in project management to estimate the likely duration or cost of an activity
+    * [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) - A consensus-based, gamified technique for estimating, mostly used for timeboxing in Agile principles
+* [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
+  * ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
+  * ISO/IEC/IEEE 15288: Systems and software engineering — System life cycle processes
+* [Prioritization](https://en.wikipedia.org/wiki/Prioritization) - The activity that arranges items or activities in order of urgency
+  * [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) - A simple scoring system for product prioritization that stands for Reach, Impact, Confidence, and Effort
+  * [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
+  * [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
+* [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
+* [Goal setting](https://en.wikipedia.org/wiki/Goal_setting) - The process of developing an action plan designed to motivate and guide a person or group toward a goal
+  * [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) - A mnemonic acronym, used to guide in the setting of objectives or goals, for example in project management, employee-performance management and personal development
+    * Specific: Targeting a particular area for improvement
+    * Measurable: Quantifying, or at least suggesting, an indicator of progress
+    * Assignable: Defining responsibility clearly
+    * Realistic: Outlining attainable results with available resources
+    * Time-related: Including a timeline for expected results
+  * [FAST goals](https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/) - A framework for goals that are Frequently discussed, Ambitious in scope, Specific in metrics, and Transparent for everyone to see
+  * [GROW model](https://en.wikipedia.org/wiki/GROW_model) - A simple method for goal setting and problem solving
+  * [OKRs](https://en.wikipedia.org/wiki/Objectives_and_key_results) - A goal-setting framework used by individuals, teams, and organizations to define measurable goals and track their outcomes
+  * [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) - A type of performance measurement used to evaluate the success of an organization or of a particular activity (such as projects, programs, products and other initiatives) in which it engages
+    * [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
+  * [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - An adage often stated as, "When a measure becomes a target, it ceases to be a good measure"
+
+### Tools & Platforms
+
+* Issue Tracking Systems
+  * [JIRA](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
+    * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
+    * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
+  * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
+  * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
+  * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
+  * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
+  * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
+* Chat Systems
+  * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
+    * [Python Slack SDK](https://slack.dev/python-slack-sdk/) - A software development kit that helps Python developers build apps that integrate with Slack
+    * [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - A Go library for the Slack API
+  * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
+  * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
+    * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
+  * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
+
+## Product Management
+
+* [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
+  * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+* [Lean startup](https://en.wikipedia.org/wiki/Lean_startup) - A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable
+* Related Standards
+  * ISO/IEC 15504: Information technology — Process assessment
+  * ISO/IEC 20000: Information technology — Service management
+* Strategic management tools
+  * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - A grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
+  * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A strategic planning and strategic management technique used to help a person or organization identify Strengths, Weaknesses, Opportunities, and Threats related to business competition or project planning
+  * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
+  * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A model that identifies and analyzes five competitive forces that shape every industry and helps determine an industry's weaknesses and strengths
+* [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
+  * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
+* Business inteligence and analysis tools
+  * [Tableau](https://www.tableau.com/) - The world’s leading analytics platform
+  * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
+    * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
+  * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - A scalable, serverless, embeddable, machine learning (ML)-powered business intelligence (BI) service built for the cloud
+
+## Marketing
+
+* [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
+  * [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
+* [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
+* [Card sorting](https://en.wikipedia.org/wiki/Card_sorting) - A method used to help design or evaluate the information architecture of a site
+* [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out) - The feeling of apprehension that one is either not in the know about or missing out on information, events, experiences, or life decisions that could make one's life better
+* [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) - A manipulative propaganda tactic used in sales, marketing, public relations, politics, polling, and cults
+* Tag management
+  * [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) - A tag management system that allows you to quickly and easily update measurement codes and related code fragments known as tags on your website or mobile app
+* Analytics tools
+  * [Google Analytics](https://developers.google.com/analytics) - The go-to platform for millions of website and app owners seeking to gain a deeper understanding of their website and app performance
+  * [Plausible](https://plausible.io/) - Intuitive, lightweight and open source web analytics
+  * [vince](https://www.vinceanalytics.com/) - A cost effective, self hosted, privacy friendly alternative to Google Analytics
+* User experience research
+  * [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) - A way to compare multiple versions of a single variable, for example by testing a subject's response to variant A against variant B, and determining which of the variants is more effective
+  * [Diary studies](https://www.nngroup.com/articles/diary-studies/) - A research method in which people record their experiences and activities over time
+* Advertising
+  * Indicators
+    * [Click through rate](https://en.wikipedia.org/wiki/Click-through_rate) - The ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement
+    * [Conversion rate](https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate) - The percentage of users who take a desired action
+  * Platforms
+    * [Google Ads](https://ads.google.com/home/) - An online advertising platform where advertisers bid to display brief advertisements, service offerings, product listings, or videos to web users
+    * [Google AdSence](https://adsense.google.com/start/) - A program run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience
+* Experiment platform
+  * [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
+* Email Distribution
+  * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
+  * [BillionMail](https://www.billionmail.com/)
+* Concepts and Frameworks
+  * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking) - The set of cognitive, strategic and practical processes by which design concepts are developed
+  * [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - The product of an interaction between an organization and a customer over the duration of their 
+  * [User experience](https://en.wikipedia.org/wiki/User_experience) - A person's emotions and attitudes about using a particular product, system or service
+* Tools for Strategy
+  * [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas) - A tool to help you create products and services customers want
+  * [Persona](https://en.wikipedia.org/wiki/Persona_(user_experience)) - A fictional character created to represent a user type relationship
+* Tools for Ideation
+  * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
+  * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
+
+## Enterprise Administration
+
+* [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture) - A well-defined practice for conducting enterprise analysis, design, planning, and implementation, using a comprehensive approach at all times, for the successful development and execution of strategy
+  * [TOGAF standard](https://www.opengroup.org/togaf) - A proven Enterprise Architecture methodology and framework used by the world’s leading organizations to improve business efficiency
+  * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework) - An ontology – a theory of the existence of a structured set of essential components of an object
+  * [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview) - An open and independent modelling language for Enterprise Architecture that is supported by different tool vendors and consulting firms
+    * [Archi](https://www.archimatetool.com/) - A free, open source, cross-platform tool and editor to create ArchiMate models
+* [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
+  * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
+    * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
+  * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
+  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
+  * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
+  * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
+  * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
+  * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution
+* [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling) - The process of building models of whole or part of an enterprise with process models, data models, resource models and or new ontologies
+  * [BPMN](https://www.omg.org/bpmn/)- A graphical notation for specifying business processes in a Business Process Diagram
+  * [SysML](https://sysml.org/) - A general-purpose graphical modeling language for specifying, analyzing, designing, and verifying complex systems that may include hardware, software, information, personnel, procedures, and facilities
+  * [Eclipse Capella](https://mbse-capella.org/) - An open-source Model-Based Systems Engineering (MBSE) solution that provides a process and tooling to graphically design systems and master their architectural complexity
+* Business process change management
+  * [Organizational structure](https://en.wikipedia.org/wiki/Organizational_structure) - A system that outlines how certain activities are directed in order to achieve the goals of an organization
+  * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
+  * [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar) - A goal-oriented change management model that guides individual and organizational change
+
+### Risk Management
+
+* [Risk management](https://en.wikipedia.org/wiki/Risk_management) - The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities
+  * [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning) - The process an organization undergoes to create a prevention and recovery system from potential threats such as natural disasters or cyber-attacks
+    * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery) - The process of resuming normal IT operations after a disruptive event, such as a natural disaster, cyberattack, or equipment failure
+    * ISO 22301: Security and resilience - Business continuity management systems - Requirements
+  * [Project risk management](https://en.wikipedia.org/wiki/Project_risk_management) - The process of identifying, analyzing, and then responding to any risk that arises over the life cycle of a project to help the project remain on track and meet its goal
+  * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
+  * ISO 31000: Risk management
+
+## People & Communication Skills
+
+* Team Dynamics
+  * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
+    * [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - A model of group development that was first proposed by Bruce Tuckman in 1965
+* Interpersonal Communication Techniques
+  * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
+  * [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop
+  * [Active listening](https://en.wikipedia.org/wiki/Active_listening) - The practice of preparing to listen, observing what verbal and non-verbal messages are being sent, and then providing appropriate feedback for the sake of showing attentiveness to the message being presented
+  * [Negotiation](https://en.wikipedia.org/wiki/Negotiation) - A dialogue between two or more parties to resolve points of difference, gain an advantage for an individual or collective, or craft outcomes to satisfy various interests
+
+### Principles & Governance Examples
+
+* Corporate Principles & Values
+  * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles) - The set of core tenets Amazonians use daily to guide their discussions, decisions, and actions
+  * [GitLab Values](https://about.gitlab.com/handbook/values/) - The key principles that form GitLab's identity and culture, guiding how team members work together
+* Community Governance & Codes of Conduct
+  * [Debian Constitution](https://www.debian.org/devel/constitution) - A document that describes the structure of organisation for decision-making in the Debian Project
+  * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - A set of guidelines that covers behavior as a member of the Ubuntu Community
+  * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) - A set of guidelines that outline expectations for participants within the Mozilla community
+  * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
+* Professional Manifestos
+  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft

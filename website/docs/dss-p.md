@@ -15,13 +15,13 @@ This document maps this technical skill classification (12 Chapters) to the 5 ta
 
 ## Skill Mapping by Category
 
-### 01. Development Method, Culture, OSS & Logic
-*(Agile, Lean, DevOps, DDD, Logic)*
+### 01. Development Method, Management & Business
+*(Agile, DevOps, Project Management, Business Administration)*
 
-* **Rationale**: Agile and Lean concepts are essential for BAs as well. DDD and DevOps are core skills for SEs, but ideally should be a common language across all roles.
+* **Rationale**: This section covers the foundational methods and business-related knowledge for software development. Agile, DevOps, and project management are essential for all roles to collaborate effectively. Business administration topics are particularly important for BAs.
 * **Role Relevance**:
-  * **Must Have (\*\*\*)**: Software Engineer (SE)
-  * **Nice to Have (\*\*)**: Business Architect (BA), Designer (Des), Data Scientist (DS), Cyber Security (Sec)
+  * **Must Have (\*\*\*)**: Software Engineer (SE), Business Architect (BA)
+  * **Nice to Have (\*\*)**: Designer (Des), Data Scientist (DS), Cyber Security (Sec)
 
 ### 02. Web Application Development
 *(Frontend, Backend, DOM, UI Libs)*
@@ -68,17 +68,7 @@ This document maps this technical skill classification (12 Chapters) to the 5 ta
   * **Nice to Have (\*\*)**: Business Architect (BA)
   * **Low Relevance (-)**: Designer (Des), Cyber Security (Sec)
 
-### 07. Programming Concepts & Paradigms
-*(OOP, FP, Algorithms, Clean Code)*
-
-* **Rationale**: Fundamental programming proficiency. Absolutely essential for SEs. Important for DS to ensure code quality.
-* **Role Relevance**:
-  * **Must Have (\*\*\*)**: Software Engineer (SE)
-  * **Nice to Have (\*\*)**: Data Scientist (DS)
-  * **Partially Relevant (\*)**: Cyber Security (Sec)
-  * **Low Relevance (-)**: Business Architect (BA), Designer (Des)
-
-### 08. Terminal & IDE
+### 07. Terminal & IDE
 *(Python, JS/TS, Shell, Vim/Emacs)*
 
 * **Rationale**: Basic tools for developers and engineers. Python is essential for DS, and Shell skills are essential for Sec investigations.
@@ -86,13 +76,23 @@ This document maps this technical skill classification (12 Chapters) to the 5 ta
   * **Must Have (\*\*\*)**: Data Scientist (DS), Software Engineer (SE), Cyber Security (Sec)
   * **Low Relevance (-)**: Business Architect (BA), Designer (Des)
 
-### 09. OS & Network Basics
+### 08. OS & Network Basics
 *(Linux, TCP/IP, DNS, Virtualization)*
 
 * **Rationale**: Infrastructure basics. One of the most important items for Sec as it is the stage for both attack and defense.
 * **Role Relevance**:
   * **Must Have (\*\*\*)**: Software Engineer (SE), Cyber Security (Sec)
   * **Nice to Have (\*\*)**: Data Scientist (DS)
+  * **Low Relevance (-)**: Business Architect (BA), Designer (Des)
+
+### 09. Programming Concepts & Paradigms
+*(OOP, FP, Algorithms, Clean Code)*
+
+* **Rationale**: Fundamental programming proficiency. Absolutely essential for SEs. Important for DS to ensure code quality.
+* **Role Relevance**:
+  * **Must Have (\*\*\*)**: Software Engineer (SE)
+  * **Nice to Have (\*\*)**: Data Scientist (DS)
+  * **Partially Relevant (\*)**: Cyber Security (Sec)
   * **Low Relevance (-)**: Business Architect (BA), Designer (Des)
 
 ### 10. Advanced Programming
@@ -115,23 +115,23 @@ This document maps this technical skill classification (12 Chapters) to the 5 ta
   * **Partially Relevant (\*)**: Data Scientist (DS), Cyber Security (Sec)
   * **Low Relevance (-)**: Business Architect (BA)
 
-### 12. Management & Business Admin
-*(Project Mgmt, Team Building, Strategy)*
+### 12. Related Fields for Software Engineering
+*(Documentation, Psychology, Economics, Finance, Logic)*
 
-* **Rationale**: The primary domain for BAs. However, "People Skills" are important for SEs aiming for Lead/PM roles and all roles leading teams.
+* **Rationale**: This category covers a broad range of topics that are not strictly software engineering but are highly relevant for building a well-rounded understanding of the context in which software is built and used. They are beneficial for all roles to foster a wider perspective.
 * **Role Relevance**:
-  * **Must Have (\*\*\*)**: Business Architect (BA)
-  * **Nice to Have (\*\*)**: Designer (Des), Data Scientist (DS), Software Engineer (SE), Cyber Security (Sec)
+  * **Nice to Have (**) **: Software Engineer (SE), Business Architect (BA), Designer (Des)
+  * **Partially Relevant (*)**: Data Scientist (DS), Cyber Security (Sec)
 
 ## Advice for Usage
 
 ### 1. Identifying Common Skills
-Categories **01 (Dev Method)** and **12 (Management)** can be positioned as "Common Literacy" that should be broadly educated regardless of the role to foster an organizational culture for promoting DX.
+Category **01 (Development Method, Management & Business)** can be positioned as "Common Literacy" that should be broadly educated regardless of the role to foster an organizational culture for promoting DX.
 
 ### 2. Deepening Expertise
-* **Software Engineer (SE)**: Focus evaluation on Categories 02, 03, 07, 09, and 10.
-* **Data Scientist (DS)**: Focus evaluation on Categories 05, 06, and 08.
-* **Business Architect (BA)**: Centered on Category 12, evaluate understanding of Categories 01, 05, and 06 at a "Utilization/Planning level".
+* **Software Engineer (SE)**: Focus evaluation on Categories 02, 03, 07, 08, 09, and 10.
+* **Data Scientist (DS)**: Focus evaluation on Categories 05, 06, and 07.
+* **Business Architect (BA)**: Centered on the Management & Business aspects of Category 01, evaluate understanding of Categories 05, and 06 at a "Utilization/Planning level".
 
 ## Supplementary Note: About IPA
 
