@@ -74,15 +74,13 @@
 
 ## Open Source
 
-* [Opensource license](https://en.wikipedia.org/wiki/Open-source_license) - A type of license for computer software and other products that allows the source code, blueprint or design to be used, modified and/or shared under defined terms and conditions
-* [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
-* [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - A family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software
-* [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF)
-* [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses that guarantee end users the four freedoms to run, study, share, and modify the software
-* [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF)
-
-### OSS Repositories or Registries
-
+* [Open Source Initiative](https://opensource.org/) - A non-profit organization dedicated to promoting and protecting open source software and communities
+* Major Licenses
+  * [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
+  * [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - A family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software
+  * [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF)
+  * [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses that guarantee end users the four freedoms to run, study, share, and modify the software
+  * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF)
 * Source Repositories
   * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
   * [GitLab.com](https://about.gitlab.com/) - The DevSecOps Platform that empowers organizations to maximize the overall return on software development
@@ -115,24 +113,30 @@
 
 ### Related Organizations
 
-* OSS Foundations
-  * [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom
-    * [Philosophy of the GNU Project](https://www.gnu.org/philosophy/philosophy.html) - The idea that everyone shall have the granted right to use a program, to copy it, and to change it to make it fit his or her needs
-  * [Apache Software Foundation](https://www.apache.org/) - A nonprofit corporation to support Apache software projects, including the Apache HTTP Server
-  * [Cloud Native Computing Foundation](https://www.cncf.io/) - An open source software foundation dedicated to making cloud native computing universal and sustainable
+* Umbrella Open Source Foundations
   * [Linux Foundation](https://www.linuxfoundation.org/) - A non-profit organization that supports, protects, and standardizes Linux by providing a neutral, trusted hub for developers to code, manage, and scale open technology projects
+  * [Apache Software Foundation](https://www.apache.org/) - A nonprofit corporation to support Apache software projects, including the Apache HTTP Server
+  * [Eclipse Foundation]
+* Technology-Specific Foundations
   * [OpenJS Foundation](https://openjsf.org/) - The neutral home for more than 40 open source projects, including Appium, Dojo, jQuery, Node.js, and webpack
   * [Rust Foundation](https://foundation.rust-lang.org/) - An independent non-profit organization dedicated to stewarding and growing the Rust programming language and ecosystem
-* Open Standards Organizations
+  * [Python Software Foundation]
+  * [PyTorch Foundation]
+* Cloud & AI
+  * [Cloud Native Computing Foundation](https://www.cncf.io/) - An open source software foundation dedicated to making cloud native computing universal and sustainable
+  * [Agentic AI Foundation (AAIF)](https://aaif.io/) - A neutral, open foundation to ensure this critical capability evolves transparently, collaboratively, and in ways that advance the adoption of leading open source AI projects
+* Web & Data Standards
   * [World Wide Web Consortium](https://www.w3.org/) - An international community that develops open standards to ensure the long-term growth of the Web
   * [WHATWG](https://whatwg.org/) - A community of people interested in evolving HTML and related technologies
   * [The Open Group](https://www.opengroup.org/) - A global consortium that enables the achievement of business objectives through technology standards
-* Advocacy and Stewardship Organizations
+* Ethical & Digital Rights
+  * [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom
+
+## Open Data
+
+* Tools and Licenses
   * [Creative Commons](https://creativecommons.org/) - A nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges
-  * [Open Source Initiative](https://opensource.org/) - A non-profit organization dedicated to promoting and protecting open source software and communities
-
-### Open Data
-
+  * [Open Data Commons](https://opendatacommons.org/) - The home of a set of legal tools and licenses to help you publish, provide and use open data
 * Open Data Registries
   * [Hugging Face Hub](https://huggingface.co/docs/hub/index) - A platform with over 900k models, 200k datasets, and 300k demos in which people can easily collaborate in their ML workflows
   * [Data.gov](https://data.gov/) - The home of the U.S. Government’s open data

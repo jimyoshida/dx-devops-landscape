@@ -135,7 +135,6 @@
   * [Apache HTTP Server](https://httpd.apache.org/) - A project to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows
   * [Caddy](https://caddyserver.com/) - A powerful, extensible platform to serve your sites, services, and apps, written in Go
   * [HAProxy](https://www.haproxy.org/) - A free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications
-  * [traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
   * [nodejs http-server](https://github.com/http-party/http-server#readme) - A simple static HTTP server
 * GraphQL Servers
   * [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client

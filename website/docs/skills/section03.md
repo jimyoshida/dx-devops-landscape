@@ -2,27 +2,42 @@
 
 ## Cloud Computing
 
-* Cloud Computing Services
+* Computing & Storage (IaaS)
   * [Amazon EC2](https://aws.amazon.com/ec2/) - A web service that provides secure, resizable compute capacity in the cloud
-    * [Amazon EBS](https://aws.amazon.com/ebs/) - An easy-to-use, high-performance block storage service designed for use with Amazon Elastic Compute Cloud
-  * [Amazon VPC](https://aws.amazon.com/vpc/) - A service that lets you launch AWS resources in a logically isolated virtual network that you define
+  * [Amazon EBS](https://aws.amazon.com/ebs/) - An easy-to-use, high-performance block storage service designed for use with Amazon Elastic Compute Cloud
   * [Azure Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/) - A service to provision Windows and Linux virtual machines in seconds
-    * [Azure Disk Storage](https://azure.microsoft.com/en-us/services/storage/disks/) - A high-performance, durable block storage for Azure Virtual Machines
-  * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/) - The fundamental building block for your private network in Azure
-  * [Google Cloud Compute Engine](https://cloud.google.com/products/compute) - A service that delivers configurable virtual machines running in Google’s data centers with access to high-performance networking
-* Load Balancers
-  * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer) - A service that allows you to distribute traffic to your backend virtual machines
+  * [Azure Disk Storage](https://azure.microsoft.com/en-us/services/storage/disks/) - A high-performance, durable block storage for Azure Virtual Machines
+  * [Google Cloud Compute Engine](https://cloud.google.com/products/compute) - A customizable compute service that lets you create and run virtual machines on Google's infrastructure
+* Networking
+  * [Amazon VPC](https://aws.amazon.com/vpc/) - A service that lets you launch AWS resources in a logically isolated virtual network that you define
   * [Amazon ELB](https://aws.amazon.com/elasticloadbalancing/) - A service that automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions
-* Cloud Emulators
-  * [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
-
-### Serverless Computing
-
-* Application Hosting (PaaS)
+  * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/) - The fundamental building block for your private network in Azure
+access to high-performance networking
+  * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer) - A service that allows you to distribute traffic to your backend virtual machines
+  * [Google Cloud VPC](https://cloud.google.com/vpc/docs/vpc) - A virtual version of a physical network that is implemented inside of Google's production network by using Andromeda
+  * [Cloud Load Balancing](https://cloud.google.com/load-balancing/docs/load-balancing-overview) - A fully distributed, software-defined, managed service for all your traffic
+* Application Hosting Platform (PaaS)
   * [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/) - An HTTP-based service for hosting web applications, REST APIs, and mobile back ends
   * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services
   * [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
-* [Serverless Computing (FaaS)](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
+* Cloud Emulators
+  * [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
+
+### Cloud-Native Computing
+
+* Concepts
+  * [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
+* Container as a Service (CaaS)
+  * Managed Kubernetes
+    * [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) - A managed, production-ready environment for running containerized applications
+    * [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/) - A managed service that makes it easy to run Kubernetes on AWS and on-premises
+    * [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/) - A fully managed Kubernetes service for deploying and managing containerized applications
+  * Simplified Container Hosting
+    * [Amazon Elastic Container Service](https://aws.amazon.com/ecs/) - A fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications
+    * [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both ECS and EKS
+    * [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) - A fully managed serverless container service built on Kubernetes
+    * [Google Cloud Run](https://cloud.google.com/run) - A managed compute platform that lets you run containers that are automatically scaled
+* Function as a Service (FaaS)
   * [AWS Lambda](https://aws.amazon.com/lambda/) - A serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
   * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - An event-driven, serverless compute platform that helps you develop more efficiently using the programming language of your choice
   * [Google Cloud Run Functions](https://cloud.google.com/functions) - A serverless execution environment for building and connecting cloud services
@@ -54,7 +69,7 @@
   * [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
     * [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
 
-## Version Control Strategy
+## Version Control System
 
 * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
   * [Git](https://git-scm.com/) - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
@@ -149,10 +164,6 @@
 ## Kubernetes
 
 * [Kubernetes](https://kubernetes.io/) - An open-source system for automating deployment, scaling, and management of containerized applications
-* Managed K8s Services
-  * [GKE](https://cloud.google.com/kubernetes-engine/) - A managed, production-ready environment for deploying containerized applications
-  * [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/) - A managed container orchestration service based on the open source Kubernetes system
-  * [AWS EKS](https://aws.amazon.com/eks/) - A managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers
 * Architecture
   * Master node
     * kube-apiserver - Responsible for API services
@@ -229,9 +240,6 @@
 * Local K8s
   * [Minikube](https://minikube.sigs.k8s.io/docs/) - A tool that lets you run Kubernetes locally
   * [Kind](https://kind.sigs.k8s.io/) - A tool for running local Kubernetes clusters using Docker container “nodes”
-* FaaS on K8s
-  * [OpenFaaS](https://www.openfaas.com/) - A framework that makes it easy for developers to deploy event-driven functions and microservices to Kubernetes
-  * [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
 * K8s Operators
   * [Prometheus Operator](https://prometheus-operator.dev/) - The operator that creates/configures/manages Prometheus clusters atop Kubernetes
     * [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) - A collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring
@@ -239,15 +247,23 @@
   * [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes) - The official operator for the Elastic Stack on Kubernetes
   * [Rook](https://rook.io/) - An open source cloud-native storage orchestrator for Kubernetes
 
-## Service Mesh
+## Cloud-Native Infrastructure
 
-* Service Mesh Servers
-  * [Hashicorp Consul](https://www.consul.io/) - A service networking solution to connect and secure services across any runtime platform and public or private cloud
+* App Runtimes & Scaling
+  * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
+  * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks
+* Serverless Computing
+  * [OpenFaaS](https://www.openfaas.com/) - A framework that makes it easy for developers to deploy event-driven functions and microservices to Kubernetes
+  * [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
+* Service Mesh & Discovery
   * [Istio](https://istio.io/) - An open source service mesh that layers transparently onto existing distributed applications
     * [Kiali](https://kiali.io/) - The service mesh observability and configuration tool for Istio
-  * [envoy](https://www.envoyproxy.io/) - An open source edge and service proxy
   * [Linkerd](https://linkerd.io/) - An ultralight, security-first service mesh for Kubernetes
-  * [traefik mesh](https://traefik.io/traefik-mesh/) - A straight-forward, easy to configure, and non-invasive service mesh
+  * [Hashicorp Consul](https://www.consul.io/) - A service networking solution to connect and secure services across any runtime platform and public or private cloud
+  * [Traefik Mesh](https://traefik.io/traefik-mesh/) - A straight-forward, easy to configure, and non-invasive service mesh
+* Edge Proxies & Ingress
+  * [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
+  * [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
 
 ## CI/CD Pipelines
 
@@ -270,12 +286,12 @@
   * [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
     * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
 
-## GitOps & Cloud Native Delivery
+## GitOps & Cloud-Native Delivery
 
 * GitOps Style CD
   * [ArgoCD](https://argo-cd.readthedocs.io/) - A declarative, GitOps continuous delivery tool for Kubernetes
   * [FluxCD](https://fluxcd.io/) - A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy
-* Cloud Native Application Delivery
+* Cloud-Native Application Delivery
   * [Open Application Model](https://oam.dev/) - A specification for describing applications so that they can be deployed and managed across any platform
   * [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
   * [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes

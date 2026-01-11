@@ -10,11 +10,21 @@ def init():
     load_dotenv()
     just_fix_windows_console()
 
-    api_key = os.getenv("GOOGLE_API_KEY")
-    if not api_key:
-        raise ValueError(Fore.RED + "GOOGLE_API_KEY not found in .env file or environment variables.")
+    google_api_key = os.getenv("GOOGLE_API_KEY")
+    vertex_api_key = os.getenv("VERTEX_AI_API_KEY")
+
+    if vertex_api_key:
+        api_key = vertex_api_key
+        is_vertex = True
+    elif google_api_key:
+        api_key = google_api_key
+        is_vertex = False
+    else:
+        raise ValueError(Fore.RED + "Neither GOOGLE_API_KEY nor VERTEX_AI_API_KEY found in .env file or environment variables.")
+
     model_id = 'gemini-2.5-pro'
-    return api_key, model_id
+
+    return api_key, model_id, is_vertex
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -31,7 +41,7 @@ def parse_args():
     return parser.parse_args()
 
 def main():
-    api_key, model_id = init()
+    api_key, model_id, is_vertex = init()
     args = parse_args()
 
     prompt_text = args.prompt_file.read_text(encoding="utf-8")
@@ -40,7 +50,7 @@ def main():
     contents_box = [full_prompt]
 
     client = genai.Client(
-        vertexai=False, api_key=api_key,
+        vertexai=is_vertex, api_key=api_key,
         http_options=HttpOptions(api_version="v1", timeout=600000)
     )
 
