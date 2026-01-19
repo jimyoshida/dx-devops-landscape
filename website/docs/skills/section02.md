@@ -1,6 +1,6 @@
 # 02 - Web Application Development
 
-## Core Web Concepts
+## Web Concepts
 
 * [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - An information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet
   * [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - A text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access
@@ -24,6 +24,8 @@
   * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
   * API Tooling
     * [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
+* Performance
+  * [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - A mechanism to resolve domain names before a user tries to follow a link
 
 ## Architectural Styles & Patterns
 
@@ -45,30 +47,63 @@
 
 ## Frontend Web Frameworks
 
-* JS/TS Frameworks for Frontend
+* Core SPA Frameworks
   * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
   * [React](https://reactjs.org/) - The library for web and native user interfaces
-    * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
-    * [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
+  * [Ember.js](https://emberjs.com/) - A framework for ambitious web developers
+* HTML-First Frameworks
+  * [htmx](https://htmx.org/) - A library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes
+* Syntax & Templating
+  * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
+  * [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
 * State Management
   * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
     * [React-Redux](https://react-redux.js.org/) - The official React binding for Redux
   * [Recoil](https://recoiljs.org/) - A state management library for React
   * [XState](https://stately.ai/docs) - A library for creating, interpreting, and executing finite state machines and statecharts
-* CSS Frameworks & Libraries
+* WASM Runtimes
+  * [PyScript](https://pyscript.net/) - A free Open Source Software (OSS) that facilitates the creation, deployment, and sharing of Python applications
+
+### CSS Ecosystem
+
+* Frameworks and UI Kits
   * [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit
   * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
+* CSS-in-JS
   * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
   * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
-* Frontend Build Tools
+* Preprocessors
   * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
-  * [Parcel](https://parceljs.org/) - The zero configuration build tool
+
+### Frongend Build Tooling
+
+* Bundlers
   * [Vite](https://vitejs.dev/) - A build tool that aims to provide a faster and leaner development experience for modern web projects
+  * [Parcel](https://parceljs.org/) - The zero configuration build tool
   * [webpack](https://webpack.js.org/) - A static module bundler for modern JavaScript applications
-  * [babel](https://babeljs.io/) - A JavaScript compiler
   * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
+* Transpilers
+  * [babel](https://babeljs.io/) - A JavaScript compiler
+* Minifiers
   * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
+
+### UI Widgets & Interaction
+
+* Tailwind Component Libraries
+  * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
+* React Component Libraries
+  * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
+  * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
+* Vue UI Libraries
+  * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
+* Framework-agnostic Libraries
+  * Data & Visuals
+    * [Tabulator](https://tabulator.info/) - An easy to use, simple to code, fully featured, interactive JavaScript library for creating tables and data grids
+    * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for designers & developers
+  * Interaction & Media
+    * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
+    * [Hammer.js](https://hammerjs.github.io/) - A javascript library for multi-touch gestures
 
 ## Backend Web Frameworks
 
@@ -186,6 +221,7 @@
 * Browser Automation & Testing
   * [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - A Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol
   * [Playwright](https://playwright.dev/) - A framework for Web Testing and Automation
+  * [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
   * [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
     * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
     * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
@@ -206,19 +242,6 @@
   * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
   * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
 
-## UI Libraries
-
-* Tailwind Component Libraries
-  * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
-* React Component Libraries
-  * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
-  * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
-* Vue UI Libraries
-  * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
-* Framework-agnostic Libraries
-  * [Tabulator](https://tabulator.info/) - An easy to use, simple to code, fully featured, interactive JavaScript library for creating tables and data grids
-  * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for designers & developers
-  * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
 
 ## Web/HTTP Clients
 
@@ -231,11 +254,13 @@
   * [wuzz](https://github.com/asciimoo/wuzz) - An interactive cli tool for HTTP inspection
   * [httptap](https://github.com/monasticacademy/httptap) - View the HTTP and HTTPS requests made by any linux program
 * Libraries
-  * [Ruby module Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
   * [Python Requests](https://docs.python-requests.org/en/latest/) - An elegant and simple HTTP library for Python, built for human beings
   * [JS Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
   * [Go Resty](https://github.com/go-resty/resty) - A simple HTTP and REST client library for Go
   * [Go FastHTTP](https://github.com/valyala/fasthttp) - A fast HTTP package for Go
+  * [Surf](https://github.com/enetx/surf) - An advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass
+  * [Ruby Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
+  * [httpx](https://gitlab.com/os85/httpx) - An HTTP client library for the Ruby programming language
   * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - An ergonomic, async HTTP client
 * GraphQL Libraries
   * [URQL](https://commerce.nearform.com/open-source/urql/) - The highly customizable and versatile GraphQL client for React, Svelte, Vue, or plain JavaScript

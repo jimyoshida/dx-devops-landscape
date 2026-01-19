@@ -7,26 +7,19 @@ class TestWriteScript < Minitest::Test
     # 1. Create a dummy YAML file for our test
     @yaml_file = 'test_class_dict.yml'
     @class_dict = {
-      'cls100' => 'Introduction to Programming',
-      'subcls110' => 'Advanced Data Structures',
-      'subsubcls111' => 'More Advanced Data Structures',
-      'cls200' => 'Special Security'
+      'section01' => 'Introduction to Programming',
+      'section02' => 'Special Security'
     }
     File.write(@yaml_file, @class_dict.to_yaml)
 
     # 2. Create a dummy Markdown file to be processed
     @markdown_file = 'test_contents.md'
     @original_content = <<~MARKDOWN
-      # 100 - Old Title
+      # 01 - Development Method, Management & Business
       Some introductory text.
-      ## 110 - Old Sub-Title
-      Some advanced text.
-      ### 111 - Old Sub-Sub-Title
-      Some more advanced text.
-      # 900 - Unchanged Title
-      - [Class 100 - X](Link to intro)
-      - [Class 200 - Y, and Z](Link to intro)
-      - [Class 900 - FooBar](Link to intro)
+      - [Section 01 - X](https://foobar.dummy)
+      - [Section 02 - Y & Z](https://foobar.dummy)
+      - [Section 03 - FooBar](https://foobar.dummy)
       Just a regular line of text.
     MARKDOWN
     File.write(@markdown_file, @original_content)
@@ -49,16 +42,11 @@ class TestWriteScript < Minitest::Test
 
     # Define what we expect the content to be after the script runs
     expected_content = <<~MARKDOWN
-      # 100 - Introduction to Programming
+      # 01 - Introduction to Programming
       Some introductory text.
-      ## 110 - Advanced Data Structures
-      Some advanced text.
-      ### 111 - More Advanced Data Structures
-      Some more advanced text.
-      # 900 - Unchanged Title
-      - [Class 100 - Introduction to Programming](Link to intro)
-      - [Class 200 - Special Security](Link to intro)
-      - [Class 900 - FooBar](Link to intro)
+      - [Section 01 - Introduction to Programming](https://foobar.dummy)
+      - [Section 02 - Special Security](https://foobar.dummy)
+      - [Section 03 - FooBar](https://foobar.dummy)
       Just a regular line of text.
     MARKDOWN
 

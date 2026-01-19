@@ -287,6 +287,7 @@ Note: Please see also 210 - Linux Administration
   * [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) - A standard communication protocol used for the transfer of computer files from a server to a client on a computer network
     * [vsftpd](https://security.appspot.com/vsftpd.html) - A GPL licensed FTP server for UNIX-like systems, including Linux
   * [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) - A network protocol that provides file access, file transfer, and file management over any reliable data stream
+    * [SFTPGo](https://sftpgo.com/) - A fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support
 * Remote Access Servers and Protocols
   * [SSH](https://en.wikipedia.org/wiki/Secure_Shell) - A cryptographic network protocol for operating network services securely over an unsecured network
     * [openssh](https://openssh.com/) - The premier connectivity tool for remote login with the SSH protocol

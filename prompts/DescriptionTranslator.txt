@@ -1,2 +1,4 @@
 For each markdown item provided, please translate only the description parts into Japanese.
 Each description part follows " - " of each item. Don't change other characters.
+
+Input:

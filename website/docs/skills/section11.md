@@ -32,27 +32,25 @@
 
 ## Binary & Media Processing
 
-### General Binary Tools
-
-* Serialization Formats
-  * [Protobuf](https://protobuf.dev/) - A language-neutral, platform-neutral, extensible mechanism for serializing structured data
-  * [MessagePack](https://msgpack.org/) - An efficient binary serialization format
-* File Formats
-  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
-* Tools
+* General Tools
   * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
   * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html) - A filter which displays the specified files, or the standard input, in a user specified format
   * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
   * [bed](https://github.com/itchyny/bed) - A binary editor written in Go
   * [fq](https://github.com/wader/fq) - A tool inspired by jq that lets you poke at binary formats
-
-### Image & Media Processing
-
-* Formats
+* Serialization Formats
+  * [Protobuf](https://protobuf.dev/) - A language-neutral, platform-neutral, extensible mechanism for serializing structured data
+  * [MessagePack](https://msgpack.org/) - An efficient binary serialization format
+* Executable Formats
+  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
+* Media Formats
   * [JPEG](https://en.wikipedia.org/wiki/JPEG) - A commonly used method of lossy compression for digital images
   * [PNG](https://en.wikipedia.org/wiki/PNG) - A raster-graphics file format that supports lossless data compression
   * [Webp](https://en.wikipedia.org/wiki/WebP) - A raster graphics file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats
   * [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) - A method of defining compression of audio and visual digital data
+
+### Image & Media Processing
+
 * Tools
   * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - A command-line application and Perl library for reading and writing meta information in files
   * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
@@ -77,10 +75,18 @@
   * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
   * [snappy](https://google.github.io/snappy/) - A compression/decompression library that aims for very high speeds and reasonable compression
 
-### PDF Document Processing
+## Document Processing
 
+* Universal Tools
+  * [Docling](https://github.com/docling-project/docling) - A powerful library which simplifies document processing, parsing diverse formats
 * Formats
   * [PDF](https://en.wikipedia.org/wiki/PDF) - A file format developed by Adobe to present documents in a manner independent of application software, hardware, and operating systems
+  * [PDF/A](https://en.wikipedia.org/wiki/PDF/A) - An ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents
+  * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) - A zip-based XML-based file format for representing spreadsheets, charts, presentations and word processing documents
+  * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument) - A zip-compressed, XML-based file format for spreadsheets, charts, presentations and word-processing documents
+
+### PDF Processing
+
 * Tools
   * [Ghostscript](https://www.ghostscript.com/) - A suite of software based on an interpreter for Adobe Systems' PostScript and Portable Document Format page description languages
   * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
@@ -91,12 +97,10 @@
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
   * [Prawn PDF](https://prawnpdf.org/) - A fast, nimble PDF generator for Ruby
+  * [ReportLab](https://www.reportlab.com/) - The Open Source Python library for generating PDFs and graphics
 
 ### Office Document Processing
 
-* Formats
-  * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) - A zip-based XML-based file format for representing spreadsheets, charts, presentations and word processing documents
-  * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument) - A zip-compressed, XML-based file format for spreadsheets, charts, presentations and word-processing documents
 * Tools
   * [libreoffice cli](https://manpages.ubuntu.com/manpages/trusty/man1/libreoffice.1.html) - The command-line interface for the LibreOffice office suite
   * [markitdown](https://github.com/microsoft/markitdown) - A lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines
@@ -105,46 +109,61 @@
   * [pptx2md](https://github.com/ssine/pptx2md) - A simple tool for converting pptx to markdown
 * Libraries
   * [Excelize](https://xuri.me/excelize/) - A Go library for reading and writing XLSX/XLSM/XLTM files
+  * [Roo](https://github.com/roo-rb/roo) - A library that can access the contents of various spreadsheet files
 
 ## Mobile & Desktop App Development
 
-### Platforms & Native SDKs
+### Mobile Platforms & Native SDKs
 
 * [Android](https://www.android.com/) - A mobile operating system based on a modified version of the Linux kernel and other open-source software
   * [Android Studio](https://developer.android.com/studio) - The official integrated development environment for Google's Android operating system
 * [iOS](https://www.apple.com/ios/) - A mobile operating system created and developed by Apple Inc. exclusively for its hardware
 
-### Cross-Platform Frameworks
-
-* For Mobile & Desktop (using web tech)
-  * [React Native](https://reactnative.dev) - A framework for building native apps with React
-    * [Expo](https://expo.dev/) - A production-grade React Native Framework
-* For Desktop (using web tech)
-  * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
-  * [Tauri](https://tauri.app/) - A toolkit that helps developers make applications for the major desktop platforms
-
 ### GUI Toolkits & Libraries
 
-* Toolkits
+* Standard Toolkits
   * [Tk](http://www.tcl.tk/) - A graphical user interface toolkit
     * [tkinter](https://docs.python.org/3/library/tkinter.html) - The standard Python interface to the Tcl/Tk GUI toolkit
+    * [CustomTkInter](https://customtkinter.tomschimansky.com/) - A python UI-library based on Tkinter, which provides new, modern and fully customizable widgets
   * [GTK](https://www.gtk.org/) - A free and open-source cross-platform widget toolkit for creating graphical user interfaces
     * [pygobject](https://pygobject.gnome.org/) - A set of Python bindings for the GLib, GObject, GIO and GTK object-oriented C libraries
+* Compiled & Canvas-Based (Custom Rendering)
+  * [Flutter](https://flutter.dev/) - An open-source UI software development kit created by Google
+  * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
   * [Gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go
   * [Fyne](https://fyne.io/) - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
-  * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
+* Web-Technology Based
+  * Native Widget Brigde
+    * [React Native](https://reactnative.dev) - A framework for building native apps with React
+      * [Expo](https://expo.dev/) - A production-grade React Native Framework
+  * Chromium Bundling
+    * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
+  * System WebView (Hybrid)
+    * [Tauri](https://tauri.app/) - A toolkit that helps developers make applications for the major desktop platforms
+
+### Installation & Packaging
+
+* [NSIS](https://nsis.sourceforge.io/Main_Page) - A professional open source system to create Windows installers
+* [PyInstaller](https://pyinstaller.org/) - A tool that bundles a Python application and all its dependencies into a single package
 
 ### Application Services & Features
 
 * Notifications
   * [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging/) - A cross-platform messaging solution that lets you reliably send messages at no cost
-  * [Apple Push Notification service](https://developer.apple.com/notifications/) - The service for propagating push notifications from a developer’s server to their apps on Apple devices
+  * [Apple Push Notification service](https://developer.apple.com/notifications/) - The service for propagating push notifications from a developer's server to their apps on Apple devices
 * Device Hardware/OS Integration
   * [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) - A satellite-based radionavigation system owned by the United States government and operated by the United States Space Force
   * [QR code](https://en.wikipedia.org/wiki/QR_code) - A type of matrix barcode invented in 1994 by the Japanese company Denso Wave
     * [libqrencode](https://github.com/fukuchi/libqrencode) - A fast and compact QR Code encoding library
     * [Pure python QR Code generator](https://github.com/lincolnloop/python-qrcode) - A library that provides a simple way to create QR codes in Python
     * [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment) - A contactless payment method where a payment is performed by scanning a QR code from a mobile app
+
+## Ecosystem Tools
+
+* M365 Tools
+  * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
+  * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
+  * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
 
 ## Internet of Things (IoT)
 

@@ -1,18 +1,18 @@
 For each paragraph in the markdown below, please classify the timeline event into the following classes and put the corresponding emoji at the beginning of the paragraph. 
-The paragraph is one or more statement lines delimited by a blank line. The existing emoji can be replaced.
+The paragraph is one or more statement lines delimited by a blank line. The existing emoji can be replaced if it is not proper.
 
-📜: Programming
+Classes:
 
-⚙️: System Administration, DevOps/SRE
-
-🌐: Web Technology
-
-📊: Data Science and Database
-
-🧠: AI, ML and LLM
-
-🏢: ERP, Business Administration and Human Science
-
-🔐: Security and Privacy
-
+🏢: Business Administration, ERP, Methodology, Management
+🌐: Web Technology incl. Frameworks
+☁️: Cloud, Cloud Native, Container, DevOps/SRE
+🔐: Security, Privacy
+🐛: Malware, Virus, Security Incident
+📊: Data Science, Databases, Data Platforms
+🧠: AI, Machine Learning, Large Language Models
+🖥️: Shell, Termial, IDE, Developer Productivity
+⚙️: System Administration, OS, VM, Network
+📜: Programming Paradigms, Advanced Programming Concepts, Libraries
 🩷: Others
+
+Input:

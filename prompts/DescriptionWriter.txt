@@ -1,0 +1,13 @@
+For each markdown item provided, add the description string just after the hyperlink element. 
+If the item does not have the hyperlink or already has a description, please skip it. 
+The description string should be quoted from the linked site as much as possible. 
+The description string should start with "A" or "The".
+Don't repeat the item name in the description string.
+Omit the trailing period.
+Keep the original indentation whitespace characters as-is for each line.
+
+Example output: 
+
+* [IP](https://en.wikipedia.org/wiki/Internet_Protocol) - The network layer communications protocol in the Internet protocol suite
+
+Input:

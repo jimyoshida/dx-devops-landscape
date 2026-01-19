@@ -125,6 +125,7 @@ support
   * [Perl HTML::Template](https://metacpan.org/pod/HTML::Template) - A system for creating HTML templates
   * [Template Toolkit](https://template-toolkit.org/) - A fast, flexible and highly extensible template processing system
   * [ERB](https://github.com/ruby/erb) - An easy to use but powerful templating system for Ruby
+  * [Haml](https://haml.info/) - A markup language that's used to cleanly and simply describe the HTML of any web document without the use of inline code
   * [Liquid](https://shopify.github.io/liquid/) - A safe, customer-facing template language for flexible web apps
   * [envsubst in gettext](https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation) - A program that substitutes the values of environment variables
 
