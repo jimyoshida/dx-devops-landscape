@@ -1,6 +1,6 @@
-# 04 - Secutiry & Privacy
+# 04 - Security & Privacy
 
-## InfoSec Fundamentals
+## Foundations of Security
 
 ### Core Security Concepts
 
@@ -31,11 +31,6 @@
   * The enterprise collects as much information as possible about the current state of assets, network infrastructure and communications and uses it to improve its security posture.
 * [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication) - A process in which both parties in a communications link authenticate each other
 
-### Information Hiding
-
-* [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of representing information within another message or physical object in such a manner that the presence of the concealed information would not be evident
-* [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - The process of hiding digital information in a carrier signal that may be used to verify the authenticity or integrity of the carrier signal or to show the identity of its owners
-
 ### Security Mechanisms
 
 * [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
@@ -47,23 +42,7 @@
 * [Managed detection and response (MDR)](https://en.wikipedia.org/wiki/Managed_detection_and_response) - A cybersecurity service that combines technology and human expertise to perform threat hunting, monitoring, and response
 * [Security orchestration, automation and response (SOAR)](https://en.wikipedia.org/wiki/Security_orchestration) - A stack of compatible software programs that allow an organization to collect data about security threats and respond to low-level security events without human assistance
 
-## Secure Software Development
-
-* [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) - A set of fundamental, sound, and secure software development practices based on established secure software development practice documents
-* [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
-* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
-
-### Software Supply Chain Security
-
-* [SLSA framework](https://slsa.dev/) - A specification for describing and incrementally improving supply chain security
-* [in-toto](https://in-toto.io/) - A framework to secure the integrity of software supply chains
-* Code Signing
-* [Sigstore](https://www.sigstore.dev/)
-  * [Fulcio](https://github.com/sigstore/fulcio)
-  * [Rekor](https://github.com/sigstore/rekor)
-  * [Cosign](https://github.com/sigstore/cosign)
-
-## Threat Modeling
+### Threat Modeling
 
 * [Threat modeling](https://en.wikipedia.org/wiki/Threat_model) - A process by which potential threats can be identified, enumerated, and prioritized from a hypothetical attacker's point of view
 * [STRIDE model](https://en.wikipedia.org/wiki/STRIDE_%28security%29) - A mnemonic for categorizing computer security threats into six categories
@@ -78,35 +57,35 @@
 * Attack Simulation Tools
   * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 
-## Cryptography
+## Cryptography & Data Protection
 
-### Unkeyed
+### Hashing
 
 * Hash Function
-  * [MD5](https://en.wikipedia.org/wiki/MD5)
-  * [SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512)](https://en.wikipedia.org/wiki/SHA-2)
+  * [MD5](https://en.wikipedia.org/wiki/MD5) - The message-digest algorithm is a widely used hash function that produces a 128-bit hash value, historically used for cryptographic purposes but now primarily for data integrity verification due to significant vulnerabilities
+  * [SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512)](https://en.wikipedia.org/wiki/SHA-2) - A set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001, it includes six hash functions with digests of varying bit lengths
   * [Bcrypt](https://en.wikipedia.org/wiki/Bcrypt) - A password-hashing function designed by Niels Provos and David Mazières, based on the Blowfish cipher
   * [Scrypt](https://en.wikipedia.org/wiki/Scrypt) - A password-based key derivation function created by Colin Percival
 
 ### Common Key / Shard Key / Symmetric Key
 
-* [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
+* [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) - A cryptographic algorithm that uses the same key for both encrypting plaintext and decrypting ciphertext
 * Block Cipher
-  * [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-  * [Salsa20 ChaCha](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant)
+  * [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) - A specification for the encryption of electronic data, it was established by the US National Institute of Standards and Technology (NIST) in 2001 and is also known by its original name Rijndael
+  * [Salsa20 ChaCha](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant) - A variant of Salsa20, published in 2008, introduces a new round function that enhances diffusion and improves performance on certain architectures
 * MAC (Message Authentication Code)
-  * [HMAC](https://en.wikipedia.org/wiki/HMAC)
+  * [HMAC](https://en.wikipedia.org/wiki/HMAC) - A specific type of message authentication code involving a cryptographic hash function and a secret cryptographic key
 * Modes of Operation
-  * [CBC (Cipher block chaining)](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC)
+  * [CBC (Cipher block chaining)](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC) - A mode of operation where each plaintext block is XORed with the previous ciphertext block before encryption, ensuring that each ciphertext block is dependent on all preceding plaintext blocks and requiring an initialization vector for the first block to ensure uniqueness
     * IV (Initialization Vector)
   * [GCM (Galois/Counter Mode)](https://en.wikipedia.org/wiki/Galois/Counter_Mode)
-  * [CCM](https://en.wikipedia.org/wiki/CCM_mode)
+  * [CCM](https://en.wikipedia.org/wiki/CCM_mode) - A mode of operation for cryptographic block ciphers, it is an authenticated encryption algorithm designed to provide both authentication and confidentiality by combining counter mode for confidentiality with cipher block chaining message authentication code for authentication
 
 ### Public Key / Asymmetric Key
 
-* [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
-  * [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-  * [EdDSA](https://en.wikipedia.org/wiki/EdDSA)
+* [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) - A cryptographic system, also known as asymmetric cryptography, utilizes pairs of related keys, a public key for open distribution, and a private key that must remain secret, to secure electronic communications and data storage
+  * [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) - A public-key cryptosystem, one of the oldest and most widely used for secure data transmission, relies on the computational difficulty of factoring large numbers into their prime components
+  * [EdDSA](https://en.wikipedia.org/wiki/EdDSA) - A digital signature scheme that uses a variant of Schnorr signature based on twisted Edwards curves and is designed for faster and more secure digital signatures than existing methods
 * Key Agreement
   * [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
   * [Elliptic-curve Diffie-Hellman](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman)
@@ -121,16 +100,54 @@
 
 ### Libraries
 
-* [PyCryptodome](https://www.pycryptodome.org/)
-* [Python cryptography](https://cryptography.io/en/latest/)
-* [Go Cryptography](https://pkg.go.dev/golang.org/x/crypto)
+* [PyCryptodome](https://www.pycryptodome.org/) - A self-contained Python package of low-level cryptographic primitives
+* [Python cryptography](https://cryptography.io/en/latest/) - A Python library which exposes cryptographic recipes and primitives
+* [Go Cryptography](https://pkg.go.dev/golang.org/x/crypto) - A collection of cryptography-related packages for Go
 * [Botan](https://botan.randombit.net/) - A C++ cryptography library
 
 ### Concepts
 
 * [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - The development of cryptographic algorithms that are currently thought to be secure against a cryptanalytic attack by a quantum computer
 
-## Identity & Access Management
+### Public Key Infrastructure (PKI)
+
+* [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure)
+* [Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
+* [Certificate authority (CA)](https://en.wikipedia.org/wiki/Certificate_authority)
+* Registration authority (RA)
+* Validation authority (VA)
+* [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate)
+  * Domain Validated (DV)
+  * Organization Validated (OV)
+  * Extended Validation (EV)
+* [Let's Encrypt](https://letsencrypt.org/) - A nonprofit Certificate Authority providing TLS certificates
+  * [certbot](https://certbot.eff.org/) - A free, open source software tool for automatically using Let's Encrypt certificates
+  * [lego](https://go-acme.github.io/lego/) - A Let's Encrypt client and ACME library written in Go
+* [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)
+* [Simple Certificate Enrollment Protocol](https://en.wikipedia.org/wiki/Simple_Certificate_Enrollment_Protocol) - A protocol that automates PKI certificate issuance by streamlining the process of communicating with a Certificate Authority
+* [mkcert.org](https://mkcert.org/) - A simple zero-config tool to make locally trusted development certificates with any names you'd like
+* [Certifi](https://certifi.io/) - A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts
+* [cfssl](https://github.com/cloudflare/cfssl#readme) - CloudFlare's PKI/TLS swiss army knife
+* [cert-manager](https://cert-manager.io) - A powerful and extensible X.509 certificate controller for Kubernetes and OpenShift
+* [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) - A service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and your internal connected resources
+
+### Secrets Management
+
+* [Vault](https://www.vaultproject.io/) - A tool for securely accessing secrets
+* [SOPS](https://github.com/mozilla/sops) - A simple and flexible tool for managing secrets
+* [git-secret](https://git-secret.io/) - A bash-tool to store your private data inside a git repo
+* [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
+* [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) - A cloud service for securely storing and accessing secrets
+* [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - A secure and convenient storage system, it manages API keys, passwords, certificates, and other sensitive data
+* [AWS Key Management Service](https://aws.amazon.com/kms/) - A managed service that makes it easy for you to create and control the cryptographic keys that are used to protect your data
+* [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) - A service that helps you protect secrets for your applications, services, and IT resources
+
+### Information Hiding
+
+* [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of representing information within another message or physical object in such a manner that the presence of the concealed information would not be evident
+* [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - The process of hiding digital information in a carrier signal that may be used to verify the authenticity or integrity of the carrier signal or to show the identity of its owners
+
+## Identity & Access Management (IAM)
 
 ### Integrated IAM
 
@@ -199,7 +216,184 @@
   * [Permify](https://github.com/Permify/permify) - An open-source authorization service that helps you to create any kind of authorization system easily with its panel and API
   * [Azure Shared Access Signature (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) - A signed URI that points to one or more storage resources and includes a token that contains a special set of query parameters
 
-## Regulations & Standards
+## Secure Development & Operations (DevSecOps)
+
+### Secure Software Development
+
+* [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) - A set of fundamental, sound, and secure software development practices based on established secure software development practice documents
+* [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) - A standard for testing web application technical security controls, it also provides developers with a list of requirements for secure development
+* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - A collection of high-value information on specific application security topics, created by security professionals to provide guidance in an easy-to-read format
+
+### Software Supply Chain Security
+
+* [SLSA framework](https://slsa.dev/) - A specification for describing and incrementally improving supply chain security
+* [in-toto](https://in-toto.io/) - A framework to secure the integrity of software supply chains
+* Code Signing
+* [Sigstore](https://www.sigstore.dev/) - A free-to-use open source project, it aims to improve supply chain technology for anyone using open source projects by automating digital signing and checking components for a safer chain of custody
+  * [Fulcio](https://github.com/sigstore/fulcio) - A free-to-use certificate authority for issuing code signing certificates for an OpenID Connect (OIDC) identity, such as an email address
+  * [Rekor](https://github.com/sigstore/rekor) - A software supply chain transparency log, it provides an immutable tamper-resistant ledger of metadata generated within a software project's supply chain
+  * [Cosign](https://github.com/sigstore/cosign) - A tool for code signing and transparency, it provides features for containers and binaries, including "keyless signing" with Sigstore's public good Fulcio certificate authority and Rekor transparency log
+
+### Static Application Security Test (SAST)
+
+* [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platforms
+* [Fluid attacks](https://docs.fluidattacks.com/tech/scanner/plans/foss/) - A Fluid Attacks FOSS plan offers a free, open-source software vulnerability scanner for continuous security in DevOps
+* [GitLab SAST](https://docs.gitlab.com/ee/user/application_security/sast/index.html) - Static application security testing (SAST) discovers vulnerabilities in source code before they reach production, integrating directly into the CI/CD pipeline
+* [Bandit](https://github.com/PyCQA/bandit) - A tool designed to find common security issues in Python code
+* [Semgrep OSS](https://github.com/semgrep/semgrep) - A fast, open-source, static analysis tool
+
+### Software Composition Analysis (SCA)
+
+* [Syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
+* [OWASP CycloneDX format](https://cyclonedx.org) - A Bill of Materials (BOM) standard, CycloneDX provides advanced supply chain capabilities for cyber risk reduction, compatible with numerous tools and trusted by various organizations
+* [SPDX format](https://spdx.dev/) - The System Package Data Exchange (SPDX) is an open standard for representing software components in SBOMs and other AI, data, and security references to support risk management
+* [Feluda](https://github.com/anistark/feluda) - A Rust-based command-line tool that analyzes the dependencies of a project, notes down their licenses, and flags any permissions that restrict personal or commercial usage
+
+### Cloud Security Posture Management (CSPM)
+
+* [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - A unified cloud security platform, Defender for Cloud helps protect hybrid and multicloud environments across the full application lifecycle, from code to runtime
+* [AWS Security Hub](https://aws.amazon.com/security-hub/) - A cloud security posture management service, Security Hub prioritizes critical security issues and helps users respond at scale by centralizing visibility across their cloud environment
+
+### Security Scanning Tools
+
+* [OpenSCAP](https://www.open-scap.org/) - A collection of open-source tools assists administrators and auditors with security assessment, measurement, and enforcement of security baselines and standards compliance
+* [Lynis](https://cisofy.com/lynis/) - A battle-tested security tool for systems running Linux, macOS, or Unix-based operating system
+* [Trivy](https://aquasecurity.github.io/trivy/) - A comprehensive and versatile security scanner
+* [checkov](https://www.checkov.io/) - A static code analysis tool for scanning infrastructure as code (IaC) files for misconfigurations
+* [Haskell Dockerfile Linter](https://github.com/hadolint/hadolint#readme)
+* [kube-score](https://kube-score.com/) - A tool performs static code analysis of Kubernetes object definitions, offering recommendations for improved reliability and security
+* [kubesec](https://kubesec.io/) - A platform provides security risk analysis for Kubernetes resources
+* [PSRule](https://microsoft.github.io/PSRule/stable/) - Build test and governance controls for Infrastructure as Code (IaC)
+  * [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/) - A set of ready-to-use rules for testing Azure Infrastructure as Code (IaC) and Azure resources
+* Vulnerability Scanners
+  * [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems. Easily install the binary to try it out
+  * [Safety](https://github.com/pyupio/safety/) - A Python dependency vulnerability scanner
+  * [Clair](https://github.com/quay/clair) - An open source project for the static analysis of vulnerabilities in application containers (currently including OCI and docker)
+  * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - A feature detects security vulnerabilities in container images early in the application lifecycle, providing remediation paths
+
+### Secret Detection Tools
+
+* [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A secret detection feature monitors activity to prevent and respond to leaks of sensitive information in repositories and other areas
+* [Whispers](https://github.com/Skyscanner/whispers) - A static code analysis tool identifies hardcoded credentials and dangerous functions in various common data formats
+* [Gitleaks](https://gitleaks.io/) - An open-source secret scanner is designed for git repositories, files, directories, and stdin, helping security professionals and developers find exposed secrets
+* [Talisman](https://thoughtworks.github.io/talisman/) - A tool installs a hook to a repository to ensure that potential secrets or sensitive information do not leave the developer's workstation
+* [TruffleHog](https://github.com/trufflesecurity/trufflehog) - A tool that searches through git repositories for secrets, digging deep into commit history and branches
+
+### Integrated Runtime Protection
+
+* [Cloud-native application protection platform (CNAPP)](https://www.microsoft.com/en-us/security/business/security-101/what-is-cnapp) - A unified platform simplifies securing cloud applications throughout their lifecycle by integrating multiple security solutions
+* [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - A unified cloud security platform, Defender for Cloud helps protect hybrid and multicloud environments across the full application lifecycle, from code to runtime
+
+### Cloud Workload Protection Platform (CWPP)
+
+* [Amazon Inspector](https://aws.amazon.com/inspector/) - A service that provides automated and continual vulnerability management at scale by discovering and scanning workloads for software vulnerabilities and unintended network exposure
+* [Falco](https://falco.org/) - A cloud native security tool that provides runtime security across hosts, containers, Kubernetes, and cloud environments
+* [Tracee](https://aquasecurity.github.io/tracee/latest/) - A runtime security and observability tool that helps you understand how your system and applications behave
+* [ClamAV](https://www.clamav.net/) - An open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats
+* [YARA](https://virustotal.github.io/yara/) - A tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples
+* Security Information and Event Management (SIEM)
+* [Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel) - A platform that offers an AI-ready security information and event management (SIEM) solution for multicloud and multiplatform environments
+* [Amazon GuardDuty](https://aws.amazon.com/guardduty/) - A service that provides intelligent threat detection by continuously monitoring AWS accounts and workloads for malicious activity
+* [Sigma Detection Format](https://sigmahq.io/) - A way to share detections of malicious or dangerous behavior among security professionals
+  * [chainsaw](https://github.com/cyb3rpeace/chainsaw) - Rapidly Search and Hunt through Windows Event Logs
+* Auditing
+  * [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - A service that enables governance, compliance, and operational auditing by tracking user activity and API usage across AWS and hybrid environments
+  * [AWS Config](https://aws.amazon.com/config/) - A service that enables you to assess, audit, and evaluate the configurations of your AWS resources
+
+### Policy Management
+
+* [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - A customizable admission webhook for Kubernetes that enforces policies executed by the Open Policy Agent
+* [Kyverno](https://kyverno.io/) - A policy engine designed for Kubernetes
+* [Open Policy Agent](https://www.openpolicyagent.org/) - An open source, general-purpose policy engine that unifies policy enforcement across the stack
+  * [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/) - A high-level declarative language built for describing policy
+  * [Conftest](https://www.conftest.dev/) - A utility to help you write tests against structured configuration data
+
+## Secure Communications & Networking
+
+### Transport Layer Security (TLS)
+
+* [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+* [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication)
+* [testssl.sh](https://testssl.sh/) - A free command line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as recent cryptographic flaws and more
+* [OpenSSL library](https://openssl-library.org/) - A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
+* [stunnnel](https://www.stunnel.org/) - A proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code
+* [Squid SSL Bump](https://www.squid-cache.org/Doc/config/ssl_bump/) - A configuration directive that allows a proxy server to establish a secure connection with both the client and the server to decrypt and inspect encrypted traffic
+* [Lucky Thirteen attack](https://en.wikipedia.org/wiki/Lucky_Thirteen_attack) - A timing attack against implementations of the Transport Layer Security (TLS) protocol
+
+### Secure Shell (SSH)
+
+* [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell)
+* [OpenSSH](https://www.openssh.com/) - The premier connectivity tool for remote login with the SSH protocol
+* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - A free implementation of SSH and Telnet for Windows and Unix platforms
+* [keychain](https://www.funtoo.org/Funtoo:Keychain) - helps you to manage SSH and GPG keys in a convenient and secure manner
+* [Python Fablic](https://www.fabfile.org/) - A high level Python library designed to execute shell commands remotely over SSH
+* [Python Paramiko](https://www.paramiko.org/) - A pure-Python implementation of the SSHv2 protocol
+* [Go gliderlabs/ssh](https://pkg.go.dev/github.com/gliderlabs/ssh) - wraps the crypto/ssh package with a higher-level API for building SSH servers
+* [Wish](https://github.com/charmbracelet/wish) - An ssh app library
+* [Wishlist](https://github.com/charmbracelet/wishlist) - The ssh directory
+* [ssh-audit](https://github.com/jtesta/ssh-audit) - A tool for ssh server & client auditing
+
+### Pretty Good Privacy (PGP)
+
+* [Pretty Good Privacy (PGP))](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)
+* [OpenPGP](https://www.openpgp.org/) - A non-proprietary format for authenticating or encrypting data, using public key cryptography
+  * [keys.openpgp.org](https://keys.openpgp.org/about) - A public service for the distribution and discovery of OpenPGP-compatible keys
+* [GnuPG](https://gnupg.org/) - A complete and free implementation of the OpenPGP standard
+* [Gpg4win](https://www.gpg4win.org/)
+
+### Web Application Security
+
+* [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy)
+* [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+* [Fetch Standard](https://fetch.spec.whatwg.org/) - The standard defines requests, responses, and the process that binds them for unifying resource retrieval across the web platform
+* [Cross-origin isolation](https://web.dev/articles/cross-origin-isolation-guide) - A guide explains how to enable a web page to use powerful features such as SharedArrayBuffer by requiring specific HTTP headers
+* [Privacy sandbox](https://developers.google.com/privacy-sandbox) - A collection of technologies is being developed to create a more private web, allowing for advertising use cases without third-party identifiers
+* [CSP (Content Security Policy)](https://content-security-policy.com/) - A HTTP response header helps reduce XSS risks by declaring which dynamic resources are allowed to load
+* [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+* [security.txt](https://securitytxt.org/) - A proposed standard allows websites to define security policies, making it easier for security researchers to report vulnerabilities
+
+### Email & DNS Security
+
+* Email Security
+  * [STARTTLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) - A mechanism allows plain text communication protocols to upgrade to an encrypted connection
+  * [SASL (Simple Authentication and Security Layer)](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer)
+  * [SPF (Sender Policy Framework)](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
+  * [DKIM (DomainKeys Identified Mail)](http://dkim.org/)
+    * [OpenDKIM](http://www.opendkim.org/) - A community effort develops and maintains a C library for producing DomainKeys Identified Mail-aware applications and an open-source milter for providing the service
+  * [DMARC (Domain-based Message Authentication, Reporting & Conformance)](https://dmarc.org/)
+  * [S/MIME](https://en.wikipedia.org/wiki/S/MIME) - A standard provides cryptographic security services like authentication, message integrity, non-repudiation, privacy, and data security for electronic messaging applications
+* DNS Security
+  * [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
+  * [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS)
+  * [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS)
+  * [Domain Control Validation](https://github.com/digicert/domain-control-validation) - A library that represents DigiCert's domain control validation (DCV) process
+
+### Web Application Firewall
+
+* [AWS WAF](https://aws.amazon.com/waf/) - A web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources
+* [Azure Web Application Firewall](https://azure.microsoft.com/en-us/products/web-application-firewall/) - A cloud-native service that provides powerful protection for web apps, defending against common web-based attacks like SQL injection, cross-site scripting, and other exploits
+
+### Network & DDoS Protection
+
+* [AWS Shield](https://aws.amazon.com/shield/) - A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS
+* [Azure DDoS Protection](https://azure.microsoft.com/en-us/products/ddos-protection) - A service that provides countermeasures against the most sophisticated DDoS threats, offering 24/7 protection and automatic mitigation
+* [Fail2ban](https://github.com/fail2ban/fail2ban) - A daemon to ban hosts that cause multiple authentication errors
+* [Snort](https://www.snort.org/) - The foremost Open Source Intrusion Prevention System (IPS) in the world
+
+### Network Firewall
+
+* [netfilter](https://www.netfilter.org/) - A community-driven collaborative FOSS project, it provides packet filtering software for the Linux kernel
+* [iptables](https://netfilter.org/projects/iptables/) - The userspace command line program used to configure the Linux 2.4.x and later packet filtering ruleset
+* [nftables](https://netfilter.org/projects/nftables/) - A subsystem of the Linux kernel providing filtering and classification of network packets/datagrams/frames
+* [Uncomplicated Firewall](https://launchpad.net/ufw) - A program for managing a firewall, it provides a command-line interface and aims to be uncomplicated and easy to use
+
+### Transaction Security
+
+* [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A protocol designed to be an additional security layer for online credit and debit card transactions
+
+## Governance, Risk, and Compliance (GRC)
+
+### Regulations & Standards
 
 * Laws & Regulations
   * [General Data Protection Regulation (GDPR)](https://gdpr.eu/) - The toughest privacy and security law in the world
@@ -262,209 +456,19 @@
   * [OVAL (Open Vulnerability and Assessment Language)](https://oval.mitre.org/) - A community-developed information security standard to promote open and publicly available security content
   * [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/) - The U.S. government repository of standards based vulnerability management data
 
-## Public Key Infrastructure (PKI)
+## System & Endpoint Security
 
-* [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure)
-* [Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
-* [Certificate authority (CA)](https://en.wikipedia.org/wiki/Certificate_authority)
-* Registration authority (RA)
-* Validation authority (VA)
-* [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate)
-  * Domain Validated (DV)
-  * Organization Validated (OV)
-  * Extended Validation (EV)
-* [Let's Encrypt](https://letsencrypt.org/) - A nonprofit Certificate Authority providing TLS certificates
-  * [certbot](https://certbot.eff.org/) - A free, open source software tool for automatically using Let's Encrypt certificates
-  * [lego](https://go-acme.github.io/lego/) - A Let's Encrypt client and ACME library written in Go
-* [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)
-* [Simple Certificate Enrollment Protocol](https://en.wikipedia.org/wiki/Simple_Certificate_Enrollment_Protocol) - A protocol that automates PKI certificate issuance by streamlining the process of communicating with a Certificate Authority
-* [mkcert.org](https://mkcert.org/) - A simple zero-config tool to make locally trusted development certificates with any names you'd like
-* [Certifi](https://certifi.io/) - A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts
-* [cfssl](https://github.com/cloudflare/cfssl#readme) - CloudFlare's PKI/TLS swiss army knife
-* [cert-manager](https://cert-manager.io) - X.509 certificate management for Kubernetes and OpenShift
-* [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
-
-## Transport Layer Security (TLS)
-
-* [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-* [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication)
-* [testssl.sh](https://testssl.sh/) - A free command line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as recent cryptographic flaws and more
-* [OpenSSL library](https://openssl-library.org/) - A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
-* [stunnnel](https://www.stunnel.org/) - A proxy designed to add TLS encryption functionality to existing clients and servers without any changes in the programs' code
-* [Squid SSL Bump](https://www.squid-cache.org/Doc/config/ssl_bump/) - A configuration directive that allows a proxy server to establish a secure connection with both the client and the server to decrypt and inspect encrypted traffic
-* [Lucky Thirteen attack](https://en.wikipedia.org/wiki/Lucky_Thirteen_attack) - A timing attack against implementations of the Transport Layer Security (TLS) protocol
-
-## Secure Shell (SSH)
-
-* [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell)
-* [OpenSSH](https://www.openssh.com/) - The premier connectivity tool for remote login with the SSH protocol
-* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - A free implementation of SSH and Telnet for Windows and Unix platforms
-* [keychain](https://www.funtoo.org/Funtoo:Keychain) - helps you to manage SSH and GPG keys in a convenient and secure manner
-* [Python Fablic](https://www.fabfile.org/) - A high level Python library designed to execute shell commands remotely over SSH
-* [Python Paramiko](https://www.paramiko.org/) - A pure-Python implementation of the SSHv2 protocol
-* [Go gliderlabs/ssh](https://pkg.go.dev/github.com/gliderlabs/ssh) - wraps the crypto/ssh package with a higher-level API for building SSH servers
-* [Wish](https://github.com/charmbracelet/wish) - An ssh app library
-* [Wishlist](https://github.com/charmbracelet/wishlist) - The ssh directory
-* [ssh-audit](https://github.com/jtesta/ssh-audit) - A tool for ssh server & client auditing
-
-## Pretty Good Privacy (PGP)
-
-* [Pretty Good Privacy (PGP))](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)
-* [OpenPGP](https://www.openpgp.org/) - A non-proprietary format for authenticating or encrypting data, using public key cryptography
-  * [keys.openpgp.org](https://keys.openpgp.org/about) - A public service for the distribution and discovery of OpenPGP-compatible keys
-* [GnuPG](https://gnupg.org/) - A complete and free implementation of the OpenPGP standard
-* [Gpg4win](https://www.gpg4win.org/)
-
-## Web Application Security
-
-* [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy)
-* [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
-* [Fetch Standard](https://fetch.spec.whatwg.org/)
-* [Cross-origin isolation](https://web.dev/articles/cross-origin-isolation-guide)
-* [Privacy sandbox](https://developers.google.com/privacy-sandbox)
-* [CSP (Content Security Policy)](https://content-security-policy.com/)
-* [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-* [security.txt](https://securitytxt.org/)
-
-### Email & DNS Security
-
-* Email Security
-  * [STARTTLS](https://en.wikipedia.org/wiki/Opportunistic_TLS)
-  * [SASL (Simple Authentication and Security Layer)](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer)
-  * [SPF (Sender Policy Framework)](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
-  * [DKIM (DomainKeys Identified Mail)](http://dkim.org/)
-    * [OpenDKIM](http://www.opendkim.org/)
-  * [DMARC (Domain-based Message Authentication, Reporting & Conformance)](https://dmarc.org/)
-  * [S/MIME](https://en.wikipedia.org/wiki/S/MIME)
-* DNS Security
-  * [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
-  * [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS)
-  * [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS)
-  * [Domain Control Validation](https://github.com/digicert/domain-control-validation) - A library that represents DigiCert's domain control validation (DCV) process
-
-### Transaction Security
-
-* [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A protocol designed to be an additional security layer for online credit and debit card transactions
-
-## Static Security Check
-
-### Static Application Security Test (SAST)
-
-* [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platforms
-* [Fluid attacks](https://docs.fluidattacks.com/tech/scanner/plans/foss/)
-* [GitLab SAST](https://docs.gitlab.com/ee/user/application_security/sast/index.html)
-* [Bandit](https://github.com/PyCQA/bandit) - A tool designed to find common security issues in Python code
-* [Semgrep OSS](https://github.com/semgrep/semgrep) - A fast, open-source, static analysis tool
-
-### Software Composition Analysis (SCA)
-
-* [Syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
-* [OWASP CycloneDX format](https://cyclonedx.org)
-* [SPDX format](https://spdx.dev/)
-* [Feluda](https://github.com/anistark/feluda) - A Rust-based command-line tool that analyzes the dependencies of a project, notes down their licenses, and flags any permissions that restrict personal or commercial usage
-
-### Cloud Security Posture Management (CSPM)
-
-* [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
-* [AWS Security Hub](https://aws.amazon.com/security-hub/)
-
-### Security Scanning Tools
-
-* [OpenSCAP](https://www.open-scap.org/) - A collection of open source tools for implementing and enforcing this standard
-* [Lynis](https://cisofy.com/lynis/) - A battle-tested security tool for systems running Linux, macOS, or Unix-based operating system
-* [Trivy](https://aquasecurity.github.io/trivy/) - A comprehensive and versatile security scanner
-* [checkov](https://www.checkov.io/) - A static code analysis tool for scanning infrastructure as code (IaC) files for misconfigurations
-* [Haskell Dockerfile Linter](https://github.com/hadolint/hadolint#readme)
-* [kube-score](https://kube-score.com/)
-* [kubesec](https://kubesec.io/)
-* [PSRule](https://microsoft.github.io/PSRule/stable/) - Build test and governance controls for Infrastructure as Code (IaC)
-  * [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/)
-* Vulnerability Scanners
-  * [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems. Easily install the binary to try it out
-  * [Safety](https://github.com/pyupio/safety/) - A Python dependency vulnerability scanner
-  * [Clair](https://github.com/quay/clair) - An open source project for the static analysis of vulnerabilities in application containers (currently including OCI and docker)
-  * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
-
-### Secret Detection Tools
-
-* [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)
-* [Whispers](https://github.com/Skyscanner/whispers)
-* [Gitleaks](https://gitleaks.io/)
-* [Talisman](https://thoughtworks.github.io/talisman/)
-* [TruffleHog](https://github.com/trufflesecurity/trufflehog) - A tool that searches through git repositories for secrets, digging deep into commit history and branches
-
-## Runtime Protection
-
-### Integrated Platform
-
-* [Cloud-native application protection platform (CNAPP)](https://www.microsoft.com/en-us/security/business/security-101/what-is-cnapp)
-* [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
-
-### Cloud Workload Protection Platform (CWPP)
-
-* [Amazon Inspector](https://aws.amazon.com/inspector/)
-* [Falco](https://falco.org/) - A cloud native security tool that provides runtime security across hosts, containers, Kubernetes, and cloud environments
-* [Tracee](https://aquasecurity.github.io/tracee/latest/) - A runtime security and observability tool that helps you understand how your system and applications behave
-* [ClamAV](https://www.clamav.net/) - An open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats
-* [YARA](https://virustotal.github.io/yara/) - A tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples
-* Security Information and Event Management (SIEM)
-* [Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)
-* [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
-* [Sigma Detection Format](https://sigmahq.io/) - A way to share detections of malicious or dangerous behavior among security professionals
-  * [chainsaw](https://github.com/cyb3rpeace/chainsaw) - Rapidly Search and Hunt through Windows Event Logs
-* Auditing
-  * [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
-  * [AWS Config](https://aws.amazon.com/config/)
-
-### Web Application Firewall
-
-* [AWS WAF](https://aws.amazon.com/waf/) - A web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources
-* [Azure Web Application Firewall](https://azure.microsoft.com/en-us/products/web-application-firewall/) - A cloud-native service that provides powerful protection for web apps, defending against common web-based attacks like SQL injection, cross-site scripting, and other exploits
-
-### Network & DDoS Protection
-
-* [AWS Shield](https://aws.amazon.com/shield/) - A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS
-* [Azure DDoS Protection](https://azure.microsoft.com/en-us/products/ddos-protection) - A service that provides countermeasures against the most sophisticated DDoS threats, offering 24/7 protection and automatic mitigation
-* [Fail2ban](https://github.com/fail2ban/fail2ban) - A daemon to ban hosts that cause multiple authentication errors
-* [Snort](https://www.snort.org/) - The foremost Open Source Intrusion Prevention System (IPS) in the world
-
-### Network Firewall
-
-* [netfilter](https://www.netfilter.org/) - A framework inside the Linux kernel that enables packet filtering, network address translation and other packet mangling
-* [iptables](https://netfilter.org/projects/iptables/) - The userspace command line program used to configure the Linux 2.4.x and later packet filtering ruleset
-* [nftables](https://netfilter.org/projects/nftables/) - A subsystem of the Linux kernel providing filtering and classification of network packets/datagrams/frames
-* [Uncomplicated Firewall](https://launchpad.net/ufw) - A program for managing a netfilter firewall
-
-### Policy Management
-
-* [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - A customizable admission webhook for Kubernetes that enforces policies executed by the Open Policy Agent
-* [Kyverno](https://kyverno.io/) - A policy engine designed for Kubernetes
-* [Open Policy Agent](https://www.openpolicyagent.org/) - An open source, general-purpose policy engine that unifies policy enforcement across the stack
-  * [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/) - A high-level declarative language built for describing policy
-  * [Conftest](https://www.conftest.dev/) - A utility to help you write tests against structured configuration data
-
-## Secrets Management
-
-* [Vault](https://www.vaultproject.io/) - A tool for securely accessing secrets
-* [SOPS](https://github.com/mozilla/sops) - A simple and flexible tool for managing secrets
-* [git-secret](https://git-secret.io/) - A bash-tool to store your private data inside a git repo
-* [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
-* [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) - A cloud service for securely storing and accessing secrets
-* [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - A secure and convenient storage system for API keys, passwords, certificates, and other sensitive data
-* [AWS Key Management Service](https://aws.amazon.com/kms/) - A managed service that makes it easy for you to create and control the cryptographic keys that are used to protect your data
-* [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) - A service that helps you protect secrets for your applications, services, and IT resources
-
-## Password Manager & Generator
-
-* [pass](https://www.passwordstore.org/) - The standard unix password manager
-* [gokey](https://github.com/cloudflare/gokey) - A simple vaultless password manager in Go
-* [go-generate-password](https://github.com/m1/go-generate-password) - A tool to generate passwords
-* [Buttercup](https://buttercup.pw/) - An open-source password manager, available on all major platforms
-
-## OS Security
+### OS Security
 
 * Linux Fine-grained Access Control
   * [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - The distinct units into which the privileges traditionally associated with the superuser are divided
 * Linux Mandatory Access Control
   * [SELinux](https://selinuxproject.org/page/Main_Page) - A mandatory access control (MAC) security system for the Linux operating system
   * [AppArmor](https://apparmor.net/) - An effective and easy-to-use Linux application security system
+
+### Password Manager & Generator
+
+* [pass](https://www.passwordstore.org/) - The standard unix password manager
+* [gokey](https://github.com/cloudflare/gokey) - A simple vaultless password manager in Go
+* [go-generate-password](https://github.com/m1/go-generate-password) - A tool to generate passwords
+* [Buttercup](https://buttercup.pw/) - An open-source password manager, available on all major platforms

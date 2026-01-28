@@ -1,4 +1,4 @@
-# 03 - Cloud, Container, Delivery & SRE
+# 03 - Cloud & Cloud-Native Engineering
 
 ## Cloud Computing
 
@@ -22,25 +22,6 @@ access to high-performance networking
   * [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
 * Cloud Emulators
   * [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
-
-### Cloud-Native Computing
-
-* Concepts
-  * [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
-* Container as a Service (CaaS)
-  * Managed Kubernetes
-    * [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) - A managed, production-ready environment for running containerized applications
-    * [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/) - A managed service that makes it easy to run Kubernetes on AWS and on-premises
-    * [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/) - A fully managed Kubernetes service for deploying and managing containerized applications
-  * Simplified Container Hosting
-    * [Amazon Elastic Container Service](https://aws.amazon.com/ecs/) - A fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications
-    * [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both ECS and EKS
-    * [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) - A fully managed serverless container service built on Kubernetes
-    * [Google Cloud Run](https://cloud.google.com/run) - A managed compute platform that lets you run containers that are automatically scaled
-* Function as a Service (FaaS)
-  * [AWS Lambda](https://aws.amazon.com/lambda/) - A serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
-  * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - An event-driven, serverless compute platform that helps you develop more efficiently using the programming language of your choice
-  * [Google Cloud Run Functions](https://cloud.google.com/functions) - A serverless execution environment for building and connecting cloud services
 
 ## Infrastructure as Code (IaC)
 
@@ -101,13 +82,15 @@ access to high-performance networking
 * Conventions
   * [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
   * [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages
+  * [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
+    * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
 * AI commit tools
   * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
   * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
 
 ## Containerization
 
-### Container Standards & Utilities
+### Standards & Utilities
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
 * Linux Distros for Containers
@@ -120,7 +103,7 @@ access to high-performance networking
 * Containers for Development
   * [Development Containers](https://containers.dev/) - An open specification for enriching containers with development-specific settings, tools, and configuration
 
-### Container Runtimes & Tools
+### Runtimes & Tools
 
 * Container Engines
   * [Docker Engine](https://docs.docker.com/engine/) - An open source containerization technology for building and containerizing your applications
@@ -141,7 +124,7 @@ access to high-performance networking
 * Local Environment Provisioners
   * [Colima](https://github.com/abiosoft/colima) - A tool that provides container runtimes on macOS (and Linux) with minimal setup
 
-### Container Registries
+### Registries
 
 * Container Registries
   * [GitLab Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html) - A secure and private registry for Docker images
@@ -247,7 +230,28 @@ access to high-performance networking
   * [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes) - The official operator for the Elastic Stack on Kubernetes
   * [Rook](https://rook.io/) - An open source cloud-native storage orchestrator for Kubernetes
 
-## Cloud-Native Infrastructure
+## Cloud-Native Runtimes & Patterns
+
+### Cloud-Native Computing
+
+* Concepts
+  * [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
+* Container as a Service (CaaS)
+  * Managed Kubernetes
+    * [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) - A managed, production-ready environment for running containerized applications
+    * [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/) - A managed service that makes it easy to run Kubernetes on AWS and on-premises
+    * [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/) - A fully managed Kubernetes service for deploying and managing containerized applications
+  * Simplified Container Hosting
+    * [Amazon Elastic Container Service](https://aws.amazon.com/ecs/) - A fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications
+    * [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both ECS and EKS
+    * [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) - A fully managed serverless container service built on Kubernetes
+    * [Google Cloud Run](https://cloud.google.com/run) - A managed compute platform that lets you run containers that are automatically scaled
+* Function as a Service (FaaS)
+  * [AWS Lambda](https://aws.amazon.com/lambda/) - A serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
+  * [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - An event-driven, serverless compute platform that helps you develop more efficiently using the programming language of your choice
+  * [Google Cloud Run Functions](https://cloud.google.com/functions) - A serverless execution environment for building and connecting cloud services
+
+### Cloud-Native Infrastructure
 
 * App Runtimes & Scaling
   * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
@@ -265,7 +269,7 @@ access to high-performance networking
   * [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
   * [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
 
-## CI/CD Pipelines
+## CI/CD & GitOps
 
 * Continuous Delivery Tools
   * [Jenkins](https://www.jenkins.io/) - An open source automation server which enables developers around the world to reliably build, test, and deploy their software
@@ -282,12 +286,6 @@ access to high-performance networking
   * [GitHub Packages](https://github.com/features/packages) - A software package hosting service that allows you to host your software packages privately or publicly
   * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
   * [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - A service that enables you to create and share Maven, npm, NuGet, and Python package feeds from public and private sources
-* Version Conventions
-  * [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
-    * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
-
-## GitOps & Cloud-Native Delivery
-
 * GitOps Style CD
   * [ArgoCD](https://argo-cd.readthedocs.io/) - A declarative, GitOps continuous delivery tool for Kubernetes
   * [FluxCD](https://fluxcd.io/) - A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy
@@ -384,7 +382,7 @@ access to high-performance networking
     * [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
   * [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
 
-## Chaos Engineering
+### Chaos Engineering
 
 * Concepts
   * [Chaos Engineering](https://en.wikipedia.org/wiki/Chaos_engineering) - The practice of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production
@@ -396,7 +394,7 @@ access to high-performance networking
   * [Toxiproxy](https://github.com/Shopify/toxiproxy) - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
   * [kubeinvaders](https://github.com/lucky-sideburn/kubeinvaders) - A gamified chaos engineering tool for Kubernetes
 
-## FinOps
+### FinOps
 
 * Concepts
   * [FinOps principles](https://www.finops.org/framework/principles/) - The cultural practice of bringing financial accountability to the variable spend model of cloud

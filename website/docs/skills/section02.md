@@ -1,6 +1,8 @@
 # 02 - Web Application Development
 
-## Web Concepts
+## Fundamentals
+
+### Web Concepts
 
 * [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - An information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet
   * [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - A text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access
@@ -27,7 +29,72 @@
 * Performance
   * [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - A mechanism to resolve domain names before a user tries to follow a link
 
-## Architectural Styles & Patterns
+### Browser Technologies & DOM
+
+* Browsers
+  * [Chrome](https://www.google.com/chrome/) - A freeware, cross-platform web browser developed by Google
+  * [Chromium](https://www.chromium.org/Home/) - An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web
+  * [Firefox](https://www.mozilla.org/en-US/firefox/) - A free and open-source web browser developed by the Mozilla Foundation
+  * [w3m](https://w3m.sourceforge.net/) - A text-based web browser as well as a pager
+  * [EWW](https://www.gnu.org/software/emacs/manual/html_mono/eww.html) - The Emacs Web Wowser, a web browser for Emacs
+* Rendering Engines
+  * [WebKit](https://developer.apple.com/documentation/webkit) - The framework for displaying rich, interactive web content in your apps
+  * [Gecko](https://developer.mozilla.org/en-US/docs/Glossary/Gecko) - The web browser engine developed by Mozilla
+  * [Blink](https://www.chromium.org/blink/) - The rendering engine used by Chromium
+  * [Servo](https://servo.org/) - A modern, high-performance browser engine designed for both application and embedded use
+* Scripting Engines
+  * [V8](https://v8.dev/) - Google’s open source high-performance JavaScript and WebAssembly engine, written in C++
+  * [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore) - The JavaScript engine that powers Safari and other apps on Apple platforms
+* Client Scripting APIs
+  * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
+  * [Fetch Standard](https://fetch.spec.whatwg.org/) - A living standard that defines requests, responses, and the process that binds them: fetching
+* Site Analyzers
+  * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
+
+## Design & Architecture
+
+### Human Interface Design
+
+* [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
+* [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
+* [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
+* [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
+* [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
+  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
+  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
+* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
+* [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
+  * [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
+    * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
+    * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
+* UI design tools
+  * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
+  * [Locofi.ai](https://www.locofy.ai/) - Design to code in a flash
+  * [Material Design](https://m3.material.io/) - Google’s open-source design system for building beautiful, usable products
+* Human interface guidelines
+  * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
+  * [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
+* Psychological concerns
+  * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action) - An idealized description of the cognitive and physical steps an individual takes to achieve a goal
+    * 1: Forming the target.
+    * 2: Forming the intention.
+    * 3: Specifying an action.
+    * 4: Executing the action.
+    * 5: Perceiving the state of the world.
+    * 6: Interpreting the state of the world.
+    * 7: Evaluating the outcome.
+  * [Attention](https://en.wikipedia.org/wiki/Attention) - The cognitive process of selectively concentrating on one aspect of the environment while ignoring other things
+  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
+  * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - A general principle that states that the result of performing some operation should be obvious, consistent, and predictable, based upon the name of the operation and other context
+  * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
+  * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
+  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
+* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
+  * Largest Contentful Paint (LCP)
+  * Interaction to Next Paint (INP)
+  * Cumulative Layout Shift (CLS)
+
+### Architectural Styles & Patterns
 
 * Architecture Styles and Patterns
   * [Three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - A client–server architecture in which presentation, application processing, and data management functions are logically separated
@@ -45,7 +112,9 @@
   * [json-rpc](https://www.jsonrpc.org/) - A stateless, light-weight remote procedure call (RPC) protocol
   * [Webhook](https://en.wikipedia.org/wiki/Webhook) - A method of augmenting or altering the behavior of a web page or web application with custom callbacks
 
-## Frontend Web Frameworks
+## Frontend Development
+
+### Frontend Frameworks
 
 * Core SPA Frameworks
   * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
@@ -76,7 +145,7 @@
 * Preprocessors
   * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
 
-### Frongend Build Tooling
+### Frontend Build Tooling
 
 * Bundlers
   * [Vite](https://vitejs.dev/) - A build tool that aims to provide a faster and leaner development experience for modern web projects
@@ -105,7 +174,9 @@
     * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
     * [Hammer.js](https://hammerjs.github.io/) - A javascript library for multi-touch gestures
 
-## Backend Web Frameworks
+## Backend Development
+
+### Backend Frameworks
 
 * JS/TS Backend Frameworks
   * [Express.js](https://expressjs.com/) - A minimal and flexible Node.js web application framework
@@ -146,7 +217,7 @@
 * .NET Backend Frameworks
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - A free, cross-platform, open source framework for building web apps and services with .NET and C#
 
-## Full-stack Web Frameworks
+### Full-stack Development
 
 * JS/TS Full-stack Frameworks
   * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
@@ -155,15 +226,9 @@
 * Rust Full-Stack Frameworks
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
 
-## Data/AI Platforms & Frameworks
+## Web Infrastructure
 
-* Platforms
-  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
-* Frameworks
-  * [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
-  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
-
-## Web Server & Proxy
+### Web Server & Proxy
 
 * Web Servers & Reverse Proxy Servers
   * [NGINX](https://www.nginx.com/) - An open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more
@@ -179,7 +244,7 @@
   * [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
   * [Google Cloud Apigee](https://cloud.google.com/apigee) - The platform for developing and managing API services
 
-## CDN & Edge Computing
+### CDN & Edge Computing
 
 * Concepts
   * [Web cache](https://en.wikipedia.org/wiki/Web_cache) - An information technology for the temporary storage (caching) of web documents, such as HTML pages and images, to reduce bandwidth usage, server load, and perceived lag
@@ -194,54 +259,7 @@
   * [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content
   * [Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/) - A modern cloud content delivery network (CDN) that provides a secure and scalable entry point for fast delivery of your global web applications and content
 
-## Browser Technologies & DOM
-
-* Browsers
-  * [Chrome](https://www.google.com/chrome/) - A freeware, cross-platform web browser developed by Google
-  * [Chromium](https://www.chromium.org/Home/) - An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web
-  * [Firefox](https://www.mozilla.org/en-US/firefox/) - A free and open-source web browser developed by the Mozilla Foundation
-  * [w3m](https://w3m.sourceforge.net/) - A text-based web browser as well as a pager
-  * [EWW](https://www.gnu.org/software/emacs/manual/html_mono/eww.html) - The Emacs Web Wowser, a web browser for Emacs
-* Rendering Engines
-  * [WebKit](https://developer.apple.com/documentation/webkit) - The framework for displaying rich, interactive web content in your apps
-  * [Gecko](https://developer.mozilla.org/en-US/docs/Glossary/Gecko) - The web browser engine developed by Mozilla
-  * [Blink](https://www.chromium.org/blink/) - The rendering engine used by Chromium
-  * [Servo](https://servo.org/) - A modern, high-performance browser engine designed for both application and embedded use
-* Scripting Engines
-  * [V8](https://v8.dev/) - Google’s open source high-performance JavaScript and WebAssembly engine, written in C++
-  * [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore) - The JavaScript engine that powers Safari and other apps on Apple platforms
-* Client Scripting APIs
-  * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
-  * [Fetch Standard](https://fetch.spec.whatwg.org/) - A living standard that defines requests, responses, and the process that binds them: fetching
-* Site Analyzers
-  * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
-
-## Web Test Automation Frameworks
-
-* Browser Automation & Testing
-  * [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - A Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol
-  * [Playwright](https://playwright.dev/) - A framework for Web Testing and Automation
-  * [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
-  * [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
-    * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
-    * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
-  * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
-  * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
-  * Dependencies
-    * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
-* Web Scraping
-  * [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
-  * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - A Python library designed for quick turnaround projects like screen-scraping
-  * [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
-  * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
-  * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
-
-## Web Debugging Tools
-
-* Web Debugging
-  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
-  * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
-
+## Development & Testing Tools
 
 ## Web/HTTP Clients
 
@@ -271,7 +289,35 @@
   * [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
   * [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy
 
-## Document Site Generation
+## Web Debugging Tools
+
+* Web Debugging
+  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
+  * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
+
+## Web Test Automation Frameworks
+
+* Browser Automation & Testing
+  * [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - A Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol
+  * [Playwright](https://playwright.dev/) - A framework for Web Testing and Automation
+  * [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
+  * [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
+    * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
+    * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
+  * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
+  * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
+  * Dependencies
+    * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
+* Web Scraping
+  * [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
+  * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - A Python library designed for quick turnaround projects like screen-scraping
+  * [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
+  * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
+  * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
+
+## Specialized Topics
+
+### Document Site Generation
 
 * Static Site Generators
   * [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
@@ -294,43 +340,10 @@
   * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
   * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 
-## Human Interface Design
+### Data/AI Platforms & Frameworks
 
-* [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
-* [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
-* [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
-* [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
-* [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
-  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
-  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
-* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
-* [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
-  * [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
-    * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
-    * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
-* UI design tools
-  * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
-  * [Locofi.ai](https://www.locofy.ai/) - Design to code in a flash
-  * [Material Design](https://m3.material.io/) - Google’s open-source design system for building beautiful, usable products
-* Human interface guidelines
-  * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
-  * [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
-* Psychological concerns
-  * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action) - An idealized description of the cognitive and physical steps an individual takes to achieve a goal
-    * 1: Forming the target.
-    * 2: Forming the intention.
-    * 3: Specifying an action.
-    * 4: Executing the action.
-    * 5: Perceiving the state of the world.
-    * 6: Interpreting the state of the world.
-    * 7: Evaluating the outcome.
-  * [Attention](https://en.wikipedia.org/wiki/Attention) - The cognitive process of selectively concentrating on one aspect of the environment while ignoring other things
-  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
-  * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - A general principle that states that the result of performing some operation should be obvious, consistent, and predictable, based upon the name of the operation and other context
-  * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
-  * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
-  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
-* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
-  * Largest Contentful Paint (LCP)
-  * Interaction to Next Paint (INP)
-  * Cumulative Layout Shift (CLS)
+* Platforms
+  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
+* Frameworks
+  * [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
+  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI

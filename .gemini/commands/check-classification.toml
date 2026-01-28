@@ -1,0 +1,12 @@
+# Description shown in /help
+description = "Check the classification issues and suggest an improved one"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+Check if the provided skill/concept/tool list is logically classified.
+If there are any suggestions on the classification, please show the suggested structure.
+
+Input:
+{{args}}
+"""
