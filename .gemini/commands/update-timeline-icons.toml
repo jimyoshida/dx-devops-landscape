@@ -1,0 +1,29 @@
+# Description shown in /help
+description = "Update timeline classification"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+For each paragraph in the markdown provided, classify the timeline event into the following classes and put the corresponding emoji at the beginning of the paragraph. 
+The paragraph is one or more statement lines delimited by a blank line. The existing emoji can be replaced if it is not proper.
+
+Classes:
+
+🏢: Business Administration, Development Methodology, Management
+🌐: Web Technology incl. Web Frameworks
+☁️: Cloud, Cloud Native, Container, DevOps/SRE
+🔐: Security, Privacy
+🐛: Malware, Virus, Security Incident
+📊: Data Science, Databases, Data Platforms
+🧠: AI, Machine Learning, Large Language Models
+🖥️: Shell, Scripting, Termial, IDE, Developer Productivity
+⚙️: System Administration, OS, VM, Network Infraatructure
+📜: Programming Paradigms, Programming Concepts, Libraries
+🩷: Others
+
+Overwrite the original markdown.
+The newline character must exist at the end of the file.
+
+Input File:
+{{args}}
+"""

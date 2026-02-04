@@ -231,6 +231,8 @@
   * [Cobra](https://cobra.dev/) - A framework for creating powerful modern CLI applications
   * [cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
   * [viper](https://github.com/spf13/viper) - A complete configuration solution for Go applications
+  * [Wish](https://github.com/charmbracelet/wish) - A tiny SSH server for your programs
+  * [Wishlist](https://github.com/charmbracelet/wishlist) - An SSH directory for your private hostkeys and favorite SSH commands
 * Rust
   * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
   * [Ratatui](https://ratatui.rs/) - A Rust library for cooking up delicious terminal user interfaces

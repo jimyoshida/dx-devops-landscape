@@ -45,15 +45,16 @@
   * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop) - A four-step approach to decision-making that focuses on filtering available information, putting it in context and quickly making the most appropriate decision while also understanding that changes can be made as more data becomes available
 * [Lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) - A production method aimed primarily at reducing times within the production system as well as response times from suppliers and to customers
   * The 7 Wastes: The activities that add no value for the customer
+  * [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping)
 * [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
   * [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) - A lean method to manage and improve work across human systems
-  * Kaizen: Continuous improvement through small, incremental changes.
-  * Just-in-Time (JIT): Producing and delivering parts and products only when needed, minimizing waste and inventory.
-  * Jidoka: Automation with a human touch, where machines detect defects and allow workers to address quality issues.
-  * Heijunka: Leveling the production schedule to achieve a balanced, consistent workflow.
-  * Genchi Genbutsu: Going to the source to understand the actual situation.
-  * Andon: A visual management system that allows workers to signal problems and request assistance.
-  * Muri Muda Mura: Identifying and eliminating waste, unevenness, and overburden.
+  * [Kaizen](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A concept of continuous improvement through small, incremental changes
+  * [Just-in-Time (JIT)](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A system for producing and delivering parts and products only when needed, minimizing waste and inventory
+  * [Jidoka](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - The concept of automation with a human touch, where machines detect defects and allow workers to address quality issues
+  * [Heijunka](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A method for leveling the production schedule to achieve a balanced, consistent workflow
+  * [Genchi Genbutsu](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - The principle of going to the source to understand the actual situation
+  * [Andon](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A visual management system that allows workers to signal problems and request assistance
+  * [Muri, Muda, Mura](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - The three types of waste that should be eliminated: overburden, uselessness, and unevenness
 * [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) - A management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints
 
 ### DevOps & Engineering Productivity
@@ -62,6 +63,7 @@
   * [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - A conceptual model for approaching DevOps that stands for Culture, Automation, Lean, Measurement, and Sharing
 * Cultural & Organizational Foundations
   * [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/) - A type of culture characterized by a high degree of trust and cooperation, a shared sense of responsibility for the mission, and a focus on learning and continuous improvement
+  * [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)
   * [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
 * Technical Practices
   * [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) - A powerful technique, allowing teams to modify system behavior without changing code
@@ -96,6 +98,7 @@
 
 * [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
   * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
+  * [Gantt Chart](https://www.vertex42.com/ExcelTemplates/simple-gantt-chart.html)
   * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
   * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix (RAM)... describes the participation by various roles in completing tasks or deliverables for a project or business process
     * Responsible, Accountable, Consulted, Informed
@@ -139,6 +142,7 @@
   * ISO/IEC 20000: Information technology — Service management
 * [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
+  * [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas)
 
 ### Goal Setting & Performance
 
@@ -170,9 +174,12 @@
     * [Archi](https://www.archimatetool.com/) - A free, open source, cross-platform tool and editor to create ArchiMate models
 * [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
   * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
+    * [EspoCRM](https://www.espocrm.com/)
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
+    * [SuiteCRM](https://suitecrm.com/)
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
   * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
+    * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources))
   * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
   * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
   * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
@@ -225,17 +232,22 @@
     * [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
   * Email Distribution
     * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
-    * [BillionMail](https://www.billionmail.com/)
+    * [BillionMail](https://www.billionmail.com/) - An open-source MailServer and email marketing solution that is fully self-hosted and dev-friendly
   * Concepts and Frameworks
-    * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking) - The set of cognitive, strategic and practical processes by which design concepts are developed
+    * [Brand](https://en.wikipedia.org/wiki/Brand)
     * [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - The product of an interaction between an organization and a customer over the duration of their relationship
+    * [Customer service](https://en.wikipedia.org/wiki/Customer_service)
+    * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking) - The set of cognitive, strategic and practical processes by which design concepts are developed
     * [User experience](https://en.wikipedia.org/wiki/User_experience) - A person's emotions and attitudes about using a particular product, system or service
+    * [User journey](https://en.wikipedia.org/wiki/User_journey)
+    * [Value chain](https://en.wikipedia.org/wiki/Value_chain)
   * Tools for Strategy
     * [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas) - A tool to help you create products and services customers want
     * [Persona](https://en.wikipedia.org/wiki/Persona_(user_experience)) - A fictional character created to represent a user type relationship
   * Tools for Ideation
-    * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
     * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
+    * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
+    * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER)
 
 ### Risk Management
 
@@ -308,12 +320,12 @@
 * Umbrella Open Source Foundations
   * [Linux Foundation](https://www.linuxfoundation.org/) - A non-profit organization that supports, protects, and standardizes Linux by providing a neutral, trusted hub for developers to code, manage, and scale open technology projects
   * [Apache Software Foundation](https://www.apache.org/) - A nonprofit corporation to support Apache software projects, including the Apache HTTP Server
-  * [Eclipse Foundation]
+  * [Eclipse Foundation](https://www.eclipse.org/) - A provider of a business-friendly environment for open source software collaboration and innovation for a global community of individuals and organizations
 * Technology-Specific Foundations
   * [OpenJS Foundation](https://openjsf.org/) - The neutral home for more than 40 open source projects, including Appium, Dojo, jQuery, Node.js, and webpack
   * [Rust Foundation](https://foundation.rust-lang.org/) - An independent non-profit organization dedicated to stewarding and growing the Rust programming language and ecosystem
-  * [Python Software Foundation]
-  * [PyTorch Foundation]
+  * [Python Software Foundation](https://www.python.org/psf/) - The charitable organization behind the Python programming language
+  * [PyTorch Foundation](https://pytorch.org/foundation) - A community-driven hub for open-source AI
 * Cloud & AI
   * [Cloud Native Computing Foundation](https://www.cncf.io/) - An open source software foundation dedicated to making cloud native computing universal and sustainable
   * [Agentic AI Foundation (AAIF)](https://aaif.io/) - A neutral, open foundation to ensure this critical capability evolves transparently, collaboratively, and in ways that advance the adoption of leading open source AI projects
@@ -336,6 +348,8 @@
 * Team Dynamics
   * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
     * [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - A model of group development that was first proposed by Bruce Tuckman in 1965
+  * Research & Models
+    * [Google Rework: Understand team effectiveness](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness)
 * Interpersonal Communication Techniques
   * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
   * [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop

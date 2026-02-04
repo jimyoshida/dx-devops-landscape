@@ -10,6 +10,7 @@
   * [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
   * [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
   * [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) - A concept in computer science and information and communications technology that the quality of the output is determined by the quality of the input
+  * [Data cleansing](https://en.wikipedia.org/wiki/Data_cleansing) - The process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database
 
 ### Core Data Engineering
 
@@ -18,6 +19,7 @@
   * [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) - The four basic operations of persistent storage: create, read, update, and delete
   * [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
   * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
+  * [ELT](https://www.ibm.com/think/topics/elt) - A data integration process where raw data is moved from a source system to a destination resource, such as a data warehouse, and then transformed for use
   * [Online transaction processing (OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing) - A type of data processing that consists of executing a number of transactions occurring concurrently
   * [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing) - An approach to answering multi-dimensional analytical queries swiftly in computing
   * [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing) - The collecting, parsing, and storing of data to facilitate fast and accurate information retrieval
@@ -76,6 +78,7 @@
   * [Trigonometry](https://en.wikipedia.org/wiki/Trigonometry)
   * [Coordinate system](https://en.wikipedia.org/wiki/Coordinate_system)
   * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
+* [Root mean square](https://en.wikipedia.org/wiki/Root_mean_square) - The square root of the mean of the squares of a set of numbers
 * Related Resources
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - The definitive reference for the special functions of applied mathematics
     * [Notations](https://dlmf.nist.gov/not/) - A list of notations used in the library
@@ -94,6 +97,7 @@
   * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics))
   * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals)
   * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)
+  * [Root mean square deviation](https://en.wikipedia.org/wiki/Root_mean_square_deviation) - The square root of the average of the squared differences between the predicted values and the actual values
   * [Correlation](https://en.wikipedia.org/wiki/Correlation)
     * [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
   * [Hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
@@ -130,6 +134,7 @@
   * [ACID properties](https://en.wikipedia.org/wiki/ACID) - A set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps
     * Atomicity, Consistency, Isolation, and Durability
   * [Codd's Twelve Rules](https://en.wikipedia.org/wiki/Codd%27s_12_rules) - A set of thirteen rules proposed by Edgar F. Codd to define what is required from a database management system in order for it to be considered relational
+  * [Database normalization](https://en.wikipedia.org/wiki/Database_normalization) - The process of organizing columns (attributes) and tables (relations) of a relational database to minimize data redundancy
 * Languages & Dialects
   * [Structured Query Language (SQL)](https://en.wikipedia.org/wiki/SQL) - A domain-specific language used for managing data held in a relational database management system
     * Command Categories
@@ -139,6 +144,7 @@
       * DCL - Data Control Language
       * TCL - Transaction Control Language
     * [SQL Join](https://en.wikipedia.org/wiki/Join_(SQL)) - A clause that combines columns from one or more tables in a relational database
+    * [Aggregate function](https://en.wikipedia.org/wiki/Aggregate_function) - A function where the values of multiple rows are grouped together to form a single summary value
   * [Transact-SQL](https://docs.microsoft.com/en-us/sql/t-sql/language-reference) - The proprietary extension to SQL used to program and manage SQL Server
 * Database Management Systems (DBMS)
   * Client-Server RDBMS
@@ -155,6 +161,8 @@
     * [Amazon RDS](https://aws.amazon.com/rds/) - A collection of managed services that makes it simple to set up, operate, and scale databases in the cloud
     * [Amazon Aurora](https://aws.amazon.com/rds/aurora/) - A modern relational database service built for the cloud, with MySQL and PostgreSQL compatibility
     * [Azure SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/) - An intelligent, scalable, relational database service built for the cloud
+    * [Google Cloud SQL](https://cloud.google.com/sql?hl=en) - A fully-managed database service that helps you set up, maintain, manage, and administer your relational databases on Google Cloud
+    * [Neon](https://neon.tech/) - A serverless, fault-tolerant, and scalable Postgres with a generous free tier
   * Backend-as-a-Service (BaaS)
     * [Supabase Database](https://supabase.com/docs/guides/database/overview) - An open source Firebase alternative
 * Connectivity & Abstraction
@@ -165,6 +173,7 @@
   * [Object-Relational Mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) - A programming technique for converting data between incompatible type systems using object-oriented programming languages
     * [Prisma](https://www.prisma.io/) - A next-generation ORM that makes it easy to build reliable and scalable applications with databases
     * [Hibernate](https://hibernate.org/orm/) - An object-relational mapping tool for the Java programming language
+    * [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL Toolkit and Object Relational Mapper
     * [GORM](https://gorm.io/) - The fantastic ORM library for Golang aims to be developer friendly
     * [XORM](https://xorm.io/) - A Simple and Powerful ORM for Go
     * [Diesel](https://diesel.rs/) - A Safe, Extensible ORM and Query Builder for Rust
@@ -182,6 +191,7 @@
     * [sqlcmd utility](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility) - A command-line utility for ad hoc, interactive execution of Transact-SQL statements and scripts and for automating T-SQL scripting tasks
     * [sqlpackage](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage) - A command-line utility that automates several database development tasks
     * [DAC (Data-tier Applications)](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications) - A logical database management concept that defines all of the SQL Server objects associated with a user's database
+    * [pgroll](https://pgroll.com/) - A zero-downtime, reversible, schema migration tool for PostgreSQL
   * Monitoring & Analysis
     * [pgBadger](https://pgbadger.darold.net/) - A PostgreSQL log analyzer built for speed with fully detailed reports and professional rendering
 
@@ -228,6 +238,7 @@
   * [AWS Glue](https://aws.amazon.com/glue/) - A serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources
   * [Google Cloud Data Fusion](https://cloud.google.com/data-fusion) - A fully managed, cloud-native data integration service that helps users efficiently build and manage ETL/ELT data pipelines
   * [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data
+  * [Apache Airflow](https://airflow.apache.org/) - A platform to programmatically author, schedule, and monitor workflows
 
 ### Stream Processing
 
@@ -272,6 +283,8 @@
   * [Apache Solr](https://solr.apache.org/) - The popular, blazing-fast, open source enterprise search platform built on Apache Lucene
     * [Apache Lucene](https://lucene.apache.org/) - A Java library providing powerful indexing and search features
   * [Faiss](https://faiss.ai/) - A library for efficient similarity search and clustering of dense vectors
+  * [Meilisearch](https://www.meilisearch.com/) - A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow
+  * [TypeSense](https://typesense.org/) - A lightning-fast, open source, search-as-you-type engine for building delightful search experiences
 * Analytics Platforms
   * [Apache Hive](https://hive.apache.org/) - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
   * [Presto](https://prestodb.io/) - A distributed SQL query engine designed for fast, reliable, and efficient analytics at any scale
@@ -290,6 +303,7 @@
   * Python
     * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
     * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
+    * [Narwhals](https://narwhals-dev.github.io/narwhals/) - A lazy-first, type-agnostic, and framework-agnostic dataframe library in Python
     * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
     * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
     * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
@@ -337,6 +351,7 @@
   * [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
   * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
   * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
+  * [Plotly](https://plotly.com/python/) - The interactive graphing library for Python (includes Plotly Express)
   * [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
   * [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
   * [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
@@ -345,3 +360,9 @@
   * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
   * [Recharts](https://recharts.org/) - A composable charting library built on React components
   * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
+
+### Dashboarding & Web Apps
+
+* [Dash](https://dash.plotly.com/) - The original low-code framework for rapidly building data apps in Python, R, Julia, and F#
+* [Panel](https://panel.holoviz.org/) - A powerful Python library that lets you create interactive web apps and dashboards
+* [Voila](https://voila.readthedocs.io/en/stable/) - A tool that turns Jupyter notebooks into standalone web applications

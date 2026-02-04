@@ -1,0 +1,25 @@
+# Description shown in /help
+description = "Insert new items into the proper sections"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+For each skill/concept/tool/platform item provided, find the most proper website URL.
+The website should be its own project/product home or its article on Wikipedia.
+
+Then for the item provided, find its most proper section in the markdown files under the "website/docs/skills/" directory.
+(e.g., section03.md -> Cloud-Native Runtimes & Patterns > Cloud-Native Infrastructure).
+You may create a new section if there is no proper section for the item.
+
+Create and insert the Markdown hyperlink element which label is a consice website title in the selected section.
+
+Example output:
+(Target File: section03.md)
+## Cloud-Native Runtimes & Patterns
+### Cloud Native Infrastructure
+* [KEDA](https://keda.sh/)
+* [Dapr](https://dapr.io/)
+
+Input:
+{{args}}
+"""

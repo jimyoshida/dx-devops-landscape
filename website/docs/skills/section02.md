@@ -20,10 +20,12 @@
   * [MQTT](https://mqtt.org/) - A lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service
   * [AMQP](https://www.amqp.org/) - An open standard application layer protocol for message-oriented middleware
 * Data & Event Specifications
+  * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
+  * [Bluesky](https://en.wikipedia.org/wiki/Bluesky)
+  * [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
+  * [Fediverse](https://en.wikipedia.org/wiki/Fediverse)
   * [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
   * [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
-  * [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
-  * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
   * API Tooling
     * [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
 * Performance
@@ -89,6 +91,8 @@
   * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
   * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
   * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
+* Visual Design
+  * [Microsoft Typography](https://learn.microsoft.com/en-us/typography/)
 * [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
   * Largest Contentful Paint (LCP)
   * Interaction to Next Paint (INP)
@@ -144,6 +148,9 @@
   * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
 * Preprocessors
   * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
+* Transforms
+  * [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/)
+  * [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/)
 
 ### Frontend Build Tooling
 
@@ -198,6 +205,7 @@
     * [Uvicorn](https://www.uvicorn.org/) - An ASGI web server implementation for Python
     * [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI web server based on the sans-io hyper, h11, h2, and wsproto libraries and inspired by Gunicorn
     * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
+    * [SlowAPI](https://github.com/laurents/slowapi) - A small library to rate limit your ASGI applications
 * Ruby Backend Frameworks & Servers
   * [Rack](https://rack.github.io/) - A modular Ruby web server interface
     * [Puma](https://puma.io/) - A fact, concurrent web server for Ruby & Rack

@@ -48,6 +48,7 @@
   * [PNG](https://en.wikipedia.org/wiki/PNG) - A raster-graphics file format that supports lossless data compression
   * [Webp](https://en.wikipedia.org/wiki/WebP) - A raster graphics file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats
   * [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) - A method of defining compression of audio and visual digital data
+  * [High Efficiency Video Coding](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) - A video compression standard, designed as a successor to the widely used Advanced Video Coding (AVC)
 
 ### Image & Media Processing
 
@@ -164,6 +165,10 @@
   * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
   * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
   * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
+* Power Platform
+  * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps)
+  * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate)
+  * [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages)
 
 ## Internet of Things (IoT)
 
@@ -181,3 +186,17 @@
   * [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
 * PaaS
   * [Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub) - A managed cloud-based service that serves as a central message hub for communication between an IoT application and its connected devices
+
+## Computer Graphics & Game Development
+
+### 3D Graphics
+
+* [Three.js](https://threejs.org/) - A cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser
+* [GSAP](https://gsap.com/) - A robust JavaScript toolset that turns developers into animation superheroes
+
+### Graphics APIs
+
+* [WebGL](https://www.khronos.org/webgl/) - A cross-platform, royalty-free web standard for a low-level 3D graphics API based on OpenGL ES
+* [OpenGL](https://www.opengl.org/) - A cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics
+* [Vulkan](https://www.vulkan.org/) - A low-overhead, cross-platform, 3D graphics and computing API
+  * [nvk](https://github.com/maierfelix/nvk) - Vulkan headers for the Go programming language
