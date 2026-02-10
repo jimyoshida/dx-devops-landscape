@@ -17,9 +17,9 @@ class TestWriteScript < Minitest::Test
     @original_content = <<~MARKDOWN
       # 01 - Development Method, Management & Business
       Some introductory text.
-      - [Section 01 - X](https://foobar.dummy)
-      - [Section 02 - Y & Z](https://foobar.dummy)
-      - [Section 03 - FooBar](https://foobar.dummy)
+      - [01 - X](https://foobar.dummy)
+      - [02 - Y & Z](https://foobar.dummy)
+      - [03 - FooBar](https://foobar.dummy)
       Just a regular line of text.
     MARKDOWN
     File.write(@markdown_file, @original_content)
@@ -44,9 +44,9 @@ class TestWriteScript < Minitest::Test
     expected_content = <<~MARKDOWN
       # 01 - Introduction to Programming
       Some introductory text.
-      - [Section 01 - Introduction to Programming](https://foobar.dummy)
-      - [Section 02 - Special Security](https://foobar.dummy)
-      - [Section 03 - FooBar](https://foobar.dummy)
+      - [01 - Introduction to Programming](https://foobar.dummy)
+      - [02 - Special Security](https://foobar.dummy)
+      - [03 - FooBar](https://foobar.dummy)
       Just a regular line of text.
     MARKDOWN
 

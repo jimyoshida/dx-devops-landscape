@@ -89,6 +89,7 @@ support
 * [PRegEx](https://github.com/manoss96/pregex) - A Python library that allows for the programmatic creation of regular expressions
 * Regex Tools
   * [Rubular](https://rubular.com/) - A Ruby-based regular expression editor
+  * [rubree](https://aim2bpg.github.io/rubree/) - A Ruby regular expression editor inspired by Rubular
   * [Wubular](https://rubyelders.github.io/wubular/) - A Javascript-based regular expression editor, inspired by Rubular
   * [RegEx101](https://regex101.com/) - An online regular expression editor and debugger
 
@@ -278,7 +279,8 @@ support
 ### Test Supporting Tools
 
 * Mocking Libraries
-  * Jest / Vitest built-in
+  * Jest / Vitest built-in ones
+  * [mock](https://dhuan.github.io/mock/) - A command-line tool for mocking HTTP responses
   * [unittest.mock](https://docs.python.org/3/library/unittest.mock.html) - A library for testing in Python that allows you to replace parts of your system under test with mock objects
   * [sinon.js](https://sinonjs.org/) - A standalone and test framework agnostic JavaScript test spies, stubs and mocks
   * [mockery](https://vektra.github.io/mockery/latest/) - A project that creates mock implementations of Golang interfaces

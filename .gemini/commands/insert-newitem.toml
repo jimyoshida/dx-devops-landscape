@@ -11,14 +11,20 @@ Then for the item provided, find its most proper section in the markdown files u
 (e.g., section03.md -> Cloud-Native Runtimes & Patterns > Cloud-Native Infrastructure).
 You may create a new section if there is no proper section for the item.
 
-Create and insert the Markdown hyperlink element which label is a consice website title in the selected section.
+Create and insert the Markdown hyperlink element which label is the concise website title in the selected section.
+Then add the descriptions for the item just after the hyperlink element.
 
-Example output:
-(Target File: section03.md)
+The description string should be quoted from the linked site as much as possible. 
+The description string should start with "A" or "The".
+Don't repeat the item name in the description string.
+Omit the trailing period.
+
+Example output (Target File: section03.md):
 ## Cloud-Native Runtimes & Patterns
 ### Cloud Native Infrastructure
-* [KEDA](https://keda.sh/)
-* [Dapr](https://dapr.io/)
+* App Runtimes & Scaling
+  * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
+  * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any
 
 Input:
 {{args}}

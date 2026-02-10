@@ -59,20 +59,25 @@
 
 ### Public-key Cryptography
 
+* [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - A mathematical scheme for verifying the authenticity of digital messages or documents
 * [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) - A cryptographic system that uses pairs of keys
   * [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) - A public-key cryptosystem that is widely used for secure data transmission
   * [EdDSA](https://en.wikipedia.org/wiki/EdDSA) - A digital signature scheme using a variant of Schnorr signature based on twisted Edwards curves
 * Key Agreement
   * [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) - A method of securely exchanging cryptographic keys over a public channel
   * [Elliptic-curve Diffie-Hellman](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman) - A key agreement protocol that allows two parties to establish a shared secret over an insecure channel
-* Encryption Scheme
-  * RSAES-PKCS1-v1_5, RSAES-OAEP
-* Signature Scheme
-  * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
-* Key format
+* Encryption Schemes
+  * [RSAES-PKCS1-v1_5](https://en.wikipedia.org/wiki/PKCS_1) - An older Encryption/decryption Scheme (ES) was first standardized in version 1.5 of PKCS #1 and is known to be vulnerable
+  * [RSAES-OAEP](https://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding) - A padding scheme that enhances RSA encryption by adding randomness and preventing partial decryption, it was standardized in PKCS#1 v2 and RFC 2437
+* Signature Schemes
+  * [RSASSA-PKCS1-v1_5](https://en.wikipedia.org/wiki/PKCS_1) - A Signature Scheme with Appendix (SSA) was first standardized in version 1.5 of PKCS #1 and is considered unforgeable according to Jager et al. (2018)
+  * [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm) - A public-key cryptosystem and Federal Information Processing Standard for digital signatures, it is based on the mathematical concept of modular exponentiation and the discrete logarithm problem
+  * [ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) - A variant of the Digital Signature Algorithm (DSA) that utilizes elliptic-curve cryptography
+* Key formats
   * [PKCS #1: RSA Cryptography Specifications](https://en.wikipedia.org/wiki/PKCS_1) - A standard that provides the basic definitions of and recommendations for implementing the RSA algorithm for public-key cryptography
   * [PKCS #12: Personal Information Exchange Syntax](https://en.wikipedia.org/wiki/PKCS_12) - A file format for storing multiple cryptographic objects in a single file
-* [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - A mathematical scheme for verifying the authenticity of digital messages or documents
+* Cryptographic Standards & Formats
+  * [Cryptographic Message Syntax](https://en.wikipedia.org/wiki/Cryptographic_Message_Syntax) - The IETF's standard for cryptographically protected messages, used by cryptographic schemes and protocols to digitally sign, digest, authenticate, or encrypt any form of digital data
 
 ### Public Key Infrastructure (PKI)
 
@@ -171,7 +176,7 @@
     * Client - The software on the user's device, typically a web browser or operating system component, that communicates between the Relying Party and the Authenticator.
     * [WebAuthn](https://www.w3.org/TR/webauthn-1/) - An API for accessing Public Key Credentials
     * [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html) - A protocol that enables an external authenticator to communicate with a client platform
-    * [Passkeys](https://fidoalliance.org/passkeys/) - A phishing-resistant replacement for passwords
+    * [Passkeys](https://passkey.org/) - A phishing-resistant replacement for passwords
   * [SPIFFE](https://spiffe.io/) - The Secure Production Identity Framework for Everyone
   * [Kerberos](https://web.mit.edu/kerberos/) - A computer network authentication protocol that works on the basis of tickets
 * Credentials & Tokens
@@ -184,6 +189,7 @@
   * [Firebase Authentication](https://firebase.google.com/docs/auth) - A service that provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app
   * [Supabase Auth](https://supabase.com/docs/guides/database/overview) - A service that provides user management and access control for Supabase projects
   * [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - A CAPTCHA system that enables web hosts to distinguish between human and automated access to websites
+  * [Microsoft Authentication Library (MSAL)](https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-overview) - A library that helps developers integrate authentication and authorization into applications
 
 ### Authorization (AuthZ)
 
@@ -263,6 +269,8 @@
 * [kubesec](https://kubesec.io/) - A security risk analysis for Kubernetes resources
 * [PSRule](https://microsoft.github.io/PSRule/stable/) - A cross-platform PowerShell module with commands to test and verify infrastructure as code (IaC)
   * [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/) - A suite of rules to validate Azure resources and infrastructure as code (IaC) using PSRule
+* [ComplianceAsCode](https://github.com/ComplianceAsCode/content) - A project that provides security automation content in various formats like SCAP, Bash, and Ansible
+* [complyctl](https://github.com/complytime/complyctl) - A command-line tool that uses OSCAL to streamline compliance assessment activities
 
 ### Software Supply Chain Security
 
@@ -309,6 +317,10 @@
 * Kubernetes Policy Engines
   * [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - A customizable validating webhook that enforces policies executed by the Open Policy Agent (OPA)
   * [Kyverno](https://kyverno.io/) - A policy engine designed for Kubernetes
+
+### Digital Forensics & Incident Response
+
+* [Digital forensics](https://en.wikipedia.org/wiki/Digital_forensics) - A branch of forensic science that involves the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to mobile devices and computer crime
 
 ## Secure Communications & Networking
 
@@ -375,6 +387,10 @@
 
 ## Governance, Risk, and Compliance (GRC)
 
+### Data Governance
+
+* [Unity Catalog](https://unitycatalog.io/) - A universal catalog for data and AI that provides interoperability, openness, and unified governance across various formats and platforms
+
 ### Regulations & Standards
 
 * Laws & Regulations
@@ -405,6 +421,7 @@
     * SC - System and Communications Protection
     * SI - System and Information Integrity
     * SR - Supply Chain Risk Management
+  * [OSCAL](https://pages.nist.gov/OSCAL/) - The Open Security Controls Assessment Language, a NIST-led initiative that provides open, machine-readable formats (XML, JSON, YAML) to automate security and compliance processes
   * ISO/IEC 27001 / 27002
 * Industry & Audit Standards
   * [PCI-DSS](https://www.pcisecuritystandards.org/document_library/) - The global standard for payment card data security
@@ -427,6 +444,7 @@
 * Protocols & Databases
   * [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol/) - A multi-purpose framework of specifications that supports automated configuration, vulnerability and patch checking
   * [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/) - The U.S. government repository of standards based vulnerability management data
+  * [SARIF](https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html) - A standard format for the output of static analysis tools
 
 ## System & Personal Security
 

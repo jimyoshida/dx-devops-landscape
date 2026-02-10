@@ -90,6 +90,7 @@
 * [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
   * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
     * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
+* [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
 * [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
 ## Management & Measurement

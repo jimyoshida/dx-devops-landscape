@@ -1,4 +1,4 @@
-﻿# 05 - Data Science & Engineering
+# 05 - Data Science & Engineering
 
 ## Foundational Concepts
 
@@ -41,20 +41,23 @@
 ### Distributed File Systems & Storage
 
 * Distributed File Systems
-    * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware
+  * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware
+  * [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) - A peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open
+    * [Kubo](https://github.com/ipfs/kubo) - A Go implementation of IPFS
 * [Object storage](https://en.wikipedia.org/wiki/Object_storage) - A computer data storage architecture that manages data as objects
-    * [Amazon S3](https://aws.amazon.com/s3/) - An object storage service offering industry-leading scalability, data availability, security, and performance
-    * [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - The Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data
-    * [Google Cloud Storage](https://cloud.google.com/storage/) - A RESTful online file storage web service for storing and accessing data on Google Cloud Platform infrastructure
-    * [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - The service letting you upload and share user generated content, such as images and video
-    * [Supabase Storage](https://supabase.com/docs/guides/storage) - The service making it simple to store and serve large files like photos and videos
-    * Self-hosted (advanced)
-      * [Ceph](https://ceph.com/en/) - An open-source, distributed storage system
-      * [MinIO](https://min.io/) - A high-performance, S3 compatible object store
-    * Tooling
-      * [s5cmd](https://github.com/peak/s5cmd) - A very fast S3 and local filesystem execution tool
-      * [Rclone](https://rclone.org/) - A command-line program to manage files on cloud storage
-      * [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) - A standalone app making it easy to work with Azure Storage data on Windows, macOS, and Linux
+  * [Amazon S3](https://aws.amazon.com/s3/) - An object storage service offering industry-leading scalability, data availability, security, and performance
+  * [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - The Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data
+  * [Google Cloud Storage](https://cloud.google.com/storage/) - A RESTful online file storage web service for storing and accessing data on Google Cloud Platform infrastructure
+  * [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - The service letting you upload and share user generated content, such as images and video
+  * [Supabase Storage](https://supabase.com/docs/guides/storage) - The service making it simple to store and serve large files like photos and videos
+  * Self-hosted (advanced)
+    * [Ceph](https://ceph.com/en/) - An open-source, distributed storage system
+    * [MinIO](https://min.io/) - A high-performance, S3 compatible object store
+  * Tooling
+    * [s5cmd](https://github.com/peak/s5cmd) - A very fast S3 and local filesystem execution tool
+    * [Rclone](https://rclone.org/) - A command-line program to manage files on cloud storage
+    * [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) - A standalone app making it easy to work with Azure Storage data on Windows, macOS, and Linux
+    * [Azurite](https://github.com/Azure/Azurite) - An open-source Azure Storage emulator
 
 ## Mathematics & Statistics
 
@@ -233,6 +236,7 @@
   * [Apache Spark](https://spark.apache.org/) - The unified engine for large-scale data analytics
     * [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) - The Python API for Apache Spark, allowing big data processing with Python
   * [RAY](https://www.ray.io/) - An open-source unified compute framework that makes it easy to scale AI and Python workloads
+  * [Joblib](https://joblib.readthedocs.io/en/stable/) - A set of tools to provide lightweight pipelining in Python
 * Full-fledged ETL
   * [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/) - Azure's cloud ETL service for scale-out serverless data integration and data transformation
   * [AWS Glue](https://aws.amazon.com/glue/) - A serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources
@@ -254,6 +258,8 @@
 * [Message Brokers](https://en.wikipedia.org/wiki/Message_broker) - An intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver
   * [Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus/) - A fully managed enterprise message broker with message queues and publish-subscribe topics
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
+* Concepts
+  * [Dead-letter queue](https://en.wikipedia.org/wiki/Dead_letter_queue) - A specialized queue used in message queuing systems to store messages that could not be delivered or processed successfully
 
 ## Data Analytics & Science
 

@@ -46,6 +46,7 @@
 ### Terminal Emulators
 
 * [Terminal Emulators](https://en.wikipedia.org/wiki/Terminal_emulator) - A computer program that emulates a video terminal within some other display architecture
+  * [WaveTerm](https://www.waveterm.dev/) - An open-source, cross-platform, AI-integrated terminal
   * [kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator
   * [Rio Terminal](https://rioterm.com/) - A modern terminal for the 21st century
   * [Alacritty](https://alacritty.org/) - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
@@ -91,6 +92,7 @@
     * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
     * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
     * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
+      * [typing module](https://docs.python.org/3/library/typing.html) - The standard library module providing runtime support for type hints
       * [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
     * [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
     * [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
@@ -106,6 +108,7 @@
     * [pathlib](https://docs.python.org/3/library/pathlib.html) - The module offering classes representing filesystem paths with semantics appropriate for different operating systems
     * [dotenv](https://github.com/theskumar/python-dotenv) - A library that reads key-value pairs from a .env file and can set them as environment variables
     * [Pydantic](https://docs.pydantic.dev/) - A data validation and settings management library for Python
+    * [Tenacity](https://github.com/jd/tenacity) - A general-purpose retrying library for Python
 
 ### JavaScript & TypeScript
 
@@ -306,8 +309,11 @@
   * [Claude Code](https://www.anthropic.com/claude-code) - A tool that allows developers to use Anthropic's AI models, Opus 4.1 and Sonnet 4, directly in their terminal
   * [OpenAI Codex CLI](https://github.com/openai/codex) - A command-line interface for a model that translates natural language to code
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
+    * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
 * Autonomous Coding Agents
+  * [SWE-agent](https://swe-agent.com/latest/) - A tool for fixing bugs and issues in GitHub repositories, powered by a family of language models
+  * [mini-swe-agent](https://mini-swe-agent.com/latest/) - A smaller, more accessible version of SWE-agent
   * [Devin](https://devin.ai/) - The AI Software Engineer
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
   * [Antigravity](https://antigravity.google/) - An agentic development platform
@@ -323,3 +329,5 @@
   * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
 * Benchmarks
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
+* Context Providers
+  * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors

@@ -1,0 +1,49 @@
+= DX and DevOps Landscape - PDF Edition
+Hajime Yoshida <jimyoshida@dummy.com>
+2, 2025-12-06: Merge all articles into one single file for easier distribution
+:doctype: article
+:toc: macro
+:toclevels: 3
+:sectanchors:
+
+toc::[]
+
+<<<
+
+include::tmp/docs/intro.adoc[]
+
+include::tmp/docs/dss-p.adoc[]
+
+include::tmp/docs/skills/section01.adoc[]
+
+include::tmp/docs/skills/section02.adoc[]
+
+include::tmp/docs/skills/section03.adoc[]
+
+include::tmp/docs/skills/section04.adoc[]
+
+include::tmp/docs/skills/section05.adoc[]
+
+include::tmp/docs/skills/section06.adoc[]
+
+include::tmp/docs/skills/section07.adoc[]
+
+include::tmp/docs/skills/section08.adoc[]
+
+include::tmp/docs/skills/section09.adoc[]
+
+include::tmp/docs/skills/section10.adoc[]
+
+include::tmp/docs/skills/section11.adoc[]
+
+include::tmp/docs/skills/section12.adoc[]
+
+include::tmp/docs/timelines/1930-79.adoc[]
+
+include::tmp/docs/timelines/1980-99.adoc[]
+
+include::tmp/docs/timelines/2000-09.adoc[]
+
+include::tmp/docs/timelines/2010-19.adoc[]
+
+include::tmp/docs/timelines/2020-.adoc[]

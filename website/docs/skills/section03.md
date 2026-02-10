@@ -83,6 +83,7 @@ access to high-performance networking
   * [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
   * [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages
   * [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
+    * [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
     * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
 * AI commit tools
   * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
@@ -244,6 +245,7 @@ access to high-performance networking
   * Simplified Container Hosting
     * [Amazon Elastic Container Service](https://aws.amazon.com/ecs/) - A fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications
     * [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both ECS and EKS
+    * [AWS App Runner](https://aws.amazon.com/apprunner/) - A fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required
     * [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) - A fully managed serverless container service built on Kubernetes
     * [Google Cloud Run](https://cloud.google.com/run) - A managed compute platform that lets you run containers that are automatically scaled
 * Function as a Service (FaaS)
@@ -293,6 +295,8 @@ access to high-performance networking
   * [Open Application Model](https://oam.dev/) - A specification for describing applications so that they can be deployed and managed across any platform
   * [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
   * [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes
+* Application Deployment
+  * [Kamal](https://kamal-deploy.org/) - A tool to deploy web apps anywhere
 
 ## SRE (Site Reliability Engineering)
 

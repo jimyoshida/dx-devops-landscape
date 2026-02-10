@@ -118,15 +118,21 @@
 
 ## Frontend Development
 
+### Web Application Types
+
+* [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
+
 ### Frontend Frameworks
 
 * Core SPA Frameworks
   * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
   * [React](https://reactjs.org/) - The library for web and native user interfaces
+  * [Preact](https://preactjs.com/) - A fast 3kB alternative to React with the same modern API
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
   * [Ember.js](https://emberjs.com/) - A framework for ambitious web developers
 * HTML-First Frameworks
   * [htmx](https://htmx.org/) - A library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes
+  * [htm](https://github.com/developit/htm) - A JSX alternative using standard tagged templates, with no transpiler necessary
 * Syntax & Templating
   * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
   * [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
@@ -158,7 +164,8 @@
   * [Vite](https://vitejs.dev/) - A build tool that aims to provide a faster and leaner development experience for modern web projects
   * [Parcel](https://parceljs.org/) - The zero configuration build tool
   * [webpack](https://webpack.js.org/) - A static module bundler for modern JavaScript applications
-  * [Rspack](https://rspack.dev/) - A high performance JavaScript bundler written in Rust
+  * [Rspack](https://rspack.rs/) - A high performance JavaScript bundler written in Rust
+  * [Rsbuild](https://rsbuild.rs/) - The Rspack-based web build tool
 * Transpilers
   * [babel](https://babeljs.io/) - A JavaScript compiler
 * Minifiers
@@ -329,6 +336,7 @@
 
 * Static Site Generators
   * [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
+  * [mdBook](https://github.com/rust-lang/mdBook) - A utility to create modern online books from Markdown files
   * [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
   * [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
     * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
@@ -336,6 +344,7 @@
   * [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
     * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
   * [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
+  * [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
 * Wiki Systems
   * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
   * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software

@@ -30,7 +30,9 @@
   * [Unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning) - A type of machine learning in which models are trained using unlabeled dataset and are allowed to act on that data without previous training
     * [K-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) - A method of vector quantization that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean
   * [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) - An area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward
+    * [Markov chain](https://en.wikipedia.org/wiki/Markov_chain) - A stochastic process that describes a sequence of events where the probability of each event depends only on the state attained in the previous event
     * [Markov decision process](https://en.wikipedia.org/wiki/Markov_decision_process) - The mathematical framework for modeling decision making in situations where outcomes are partly random and partly under the control of a decision maker
+    * [Hidden Markov model](https://en.wikipedia.org/wiki/Hidden_Markov_model) - A statistical Markov model where the system being modeled is assumed to be a Markov process with unobserved (hidden) states
     * [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) - A problem in which a fixed limited set of resources must be allocated between competing (alternative) choices in a way that maximizes their expected gain
     * [Value function](https://en.wikipedia.org/wiki/Value_function) - A function used in mathematical optimization and reinforcement learning that assigns a measure of desirability to states or actions
 * Concepts & Techniques
@@ -76,6 +78,7 @@
     * [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) - An artificial neural network used in the fields of artificial intelligence and deep learning, distinguished by feedback connections
   * [Convolutional neural network (CNN)](https://en.wikipedia.org/wiki/Convolutional_neural_network) - A class of artificial neural network, most commonly applied to analyze visual imagery
   * [Attention](https://en.wikipedia.org/wiki/Attention_(machine_learning)) - A technique in the context of neural networks that mimics cognitive attention, enhancing the important parts of the input data and fading out the rest
+    * [FlashAttention](https://github.com/Dao-AILab/flash-attention) - A fast and memory-efficient exact attention mechanism
     * [Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) - A deep learning architecture based on the multi-head attention mechanism
 * Core Frameworks
   * [TensorFlow](https://www.tensorflow.org/) - An end-to-end open source platform for machine learning
@@ -133,16 +136,20 @@
   * [OLMo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
 * Techniques & Methods
   * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+    * [dsRAG](https://github.com/D-Star-AI/dsRAG) - A high-performance retrieval engine for unstructured data
   * [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
   * Prompt Engineering
     * [Prompt Engineering Guide](https://www.promptingguide.ai/)
     * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/)
-  * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
-    * Reason, Act, Thought, Observation
+    * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
+      * Reason, Act, Thought, Observation
+  * Inference Techniques
+    * [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - An inference strategy where language models (LMs) can decompose and recursively interact with input context of unbounded length
+  * [Unsloth AI](https://unsloth.ai/) - A platform providing tools and services for easily fine-tuning and training Large Language Models (LLMs) to achieve faster and more efficient AI training
 * Application Frameworks & SDKs
   * Unified SDKs
     * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
-    * [LiteLLM](https://www.litellm.ai/) - A Python SDK and Proxy Server to call over 100 LLM APIs using the OpenAI format
+    * [LiteLLM](https://docs.litellm.ai) - A Python SDK and AI Gateway (Proxy) that allows users to call over 100 Large Language Models (LLMs) using a unified OpenAI input/output format
     * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
   * Single-Provider SDKs
     * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
@@ -156,9 +163,9 @@
 * Dev Tools & Evaluation
   * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
   * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
-  * [Chatbot Arena](https://lmarena.ai/) - A crowdsourced open platform for evaluating LLMs
-* Chatbot Services
-  * [Character.ai](https://en.wikipedia.org/wiki/Character.ai)
+* Benchmarking
+  * [Artificial Analysis](https://artificialanalysis.ai/) - An independent analysis of AI models and API providers, helping users understand the AI landscape to select the most suitable model and provider based on factors like intelligence, speed, and cost
+  * [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs), to help users evaluate their intelligence, speed, and cost
 
 ### Agentic AI
 
@@ -167,6 +174,8 @@
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
   * [Fantasy](https://github.com/charmbracelet/fantasy) - A unified interface for interacting with various AI language models
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
+  * [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
+  * [crewAI](https://www.crewai.com/) - A platform that enables enterprises to operate teams of AI agents for complex tasks autonomously and reliably
 * LLM App Platforms
   * [Dify](https://dify.ai/) - An open-source LLM app development platform
 * Workflow Automation
@@ -174,15 +183,22 @@
 * Protocols
   * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 * Supporting Services
+  * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
+
+### Speech Recognition
+
+* [Whisper](https://github.com/openai/whisper) - A robust speech recognition model trained via large-scale weak supervision
 
 ### Computer Vision
 
 * Core Concepts
   * [Vision Language Models (VLM)](https://huggingface.co/blog/vlms) - An exciting class of models that can understand images and text
-  * [Diffusion model](https://en.wikipedia.org/wiki/Diffusion_model)
-  * [Multimodal learning](https://en.wikipedia.org/wiki/Multimodal_learning)
+  * [Diffusion model](https://en.wikipedia.org/wiki/Diffusion_model) - A class of latent variable generative models in machine learning that learn to generate new data by reversing a gradual noising process
+  * [Multimodal learning](https://en.wikipedia.org/wiki/Multimodal_learning) - A deep learning approach that combines and processes diverse data types such as text, audio, images, or video for a more holistic understanding of complex information
+* Open Models
+  * [LLaVA](https://llava-vl.github.io/) - A novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding, achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on Science QA
 * Software, Libraries and Tools
   * General computer vision
     * [OpenCV](https://opencv.org/) - An open source computer vision and machine learning software library
@@ -205,9 +221,9 @@
 ### Model Deployment & Serving
 
 * Cloud Platforms
+  * [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
   * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
-  * [Microsoft Foundry](https://ai.azure.com/) - A platform for building and deploying AI applications, with a portfolio of services and models
   * [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service) - The service providing REST API access to OpenAI's powerful language models
   * [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
   * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows

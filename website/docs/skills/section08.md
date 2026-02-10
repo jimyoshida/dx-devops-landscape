@@ -163,6 +163,7 @@ Note: Please see also 210 - Linux Administration
   * [Ubuntu server](https://ubuntu.com/server) - The standard platform for public clouds, on-premises, and IoT devices
   * [Debian](https://www.debian.org/) - A complete Free Operating System
   * [Arch Linux](https://archlinux.org/) - A simple, lightweight distribution
+  * [NixOS](https://nixos.org/) - A Linux distribution with a unique approach to package and configuration management
 * [linux-pam](https://github.com/linux-pam/linux-pam) - A system of libraries that handle the authentication tasks of applications and services in a Linux system
 * [Systemd](https://www.freedesktop.org/wiki/Software/systemd/) - A system and service manager for Linux operating systems
   * [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#) - A system service that collects and stores logging data
@@ -181,6 +182,11 @@ Note: Please see also 210 - Linux Administration
 * Type-2 Hypervisors
   * [VirtualBox](https://www.virtualbox.org/) - A powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use
   * [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
+* Micro VM
+  * [Firecracker](https://firecracker-microvm.github.io/) - An open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services
+  * [Kata Containers](https://katacontainers.io/) - An open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs
+  * [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
+    * [QEMU-microvm](https://www.qemu.org/docs/master/system/machines/microvm.html) - A platform for QEMU that is optimized for booting a Linux kernel in a minimal amount of time
 * Vitrualization Management
   * [libvert](https://libvirt.org/) - A toolkit to manage virtualization platforms
 * CPU Emulators
@@ -303,6 +309,8 @@ Note: Please see also 210 - Linux Administration
 * Concepts
   * [Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
 * Performance Testing Tools
+  * [Hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+  * [Locust](https://locust.io/) - An easy-to-use, distributed, user load testing tool
   * [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
   * [Gatling](https://gatling.io/) - The load testing tool for programmers that helps engineering teams shift performance concerns left
   * [Apache Jmeter](https://jmeter.apache.org/) - A pure Java application designed to load test functional behavior and measure performance

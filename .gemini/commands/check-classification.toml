@@ -7,6 +7,6 @@ prompt = """
 Check if the provided skill/concept/tool list is logically classified.
 If there are any suggestions on the classification, please show the suggested structure.
 
-Input:
+Input File:
 {{args}}
 """

@@ -53,9 +53,9 @@ while ( my $line = <$fh_in> ) {
             print $fh_out $line;
             print "Skipped $hashes $number on line $.\n";
         }
-    } elsif ( $line =~ /^(.*\[)Section\s(\d{2})\s-\s.*(\].*)$/ ) {
+    } elsif ( $line =~ /^(.*\[)(\d{2})\s-\s.*(\].*)$/ ) {
         my $head = $1;
-        my $number = $2; # The 3-digit number
+        my $number = $2; # The 2-digit number
         my $tail = $3;
     
         my $key; # The key to be used for lookup in the hash
@@ -63,15 +63,15 @@ while ( my $line = <$fh_in> ) {
         
         # Check if the key exists in the hash
         if ( exists $class_dict{$key} ) {
-            print $fh_out "${head}Section $number - $class_dict{$key}$tail\n";
-            print "Rewrote Class $number on line $.\n";
+            print $fh_out "${head}$number - $class_dict{$key}$tail\n";
+            print "Rewrote Section $number on line $.\n";
         } else {
             # If the key is not in the hash, write the original line
             print $fh_out $line;
-            print "Skipped Class $number on line $.\n";
+            print "Skipped Section $number on line $.\n";
         }
     } else {
-        # If the line is not a header starting with a 3-digit number,
+        # If the line is not a header starting with a 2-digit number,
         # write it out unchanged.
         print $fh_out $line;
     }

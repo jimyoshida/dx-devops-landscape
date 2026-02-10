@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+use open ':std', ':encoding(UTF-8)';
 
 print <<'EOF';
 ---

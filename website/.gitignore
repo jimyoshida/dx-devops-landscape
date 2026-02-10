@@ -24,4 +24,8 @@ packge-lock.json
 yarn.lock
 
 # Make-made files
-static/usr
+/static/usr
+tmp
+
+# Fonts
+*.ttf

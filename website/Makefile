@@ -7,20 +7,14 @@ all: pdf markmap
 .PHONY: clean
 clean:
 	rm -fr build/ .docusaurus/
-	rm -fr static/usr/
+	rm -fr static/usr/ tmp/
 
 ########################
 # Custom Files Creation
 
-# Source Files
-ALLPAGES := $(wildcard docs/*.md docs/skills/*.md docs/timelines/*.md)
-
-# Asciidoc Sections Dest Files 
-ALLADOCS := $(addprefix static/usr/,$(ALLPAGES:.md=.adoc))
-
-static/usr/%.adoc: %.md
+pdf/tmp/%.adoc: %.md
 	mkdir -p $(@D)
-	perl rmemojis.pl < $< | pandoc --from=markdown-smart --to=asciidoc --wrap=none > $@
+	perl pdf/rmemojis.pl < $< | pandoc --from=markdown-smart --to=asciidoc --wrap=none > $@
 
 # PDF Dest Files 
 ALLPDF := static/usr/docs/all.pdf
@@ -28,15 +22,32 @@ ALLPDF := static/usr/docs/all.pdf
 .PHONY: pdf
 pdf: $(ALLPDF)
 
-$(ALLPDF): all.adoc $(ALLADOCS)
-	asciidoctor-pdf -v -o $@ -a pdf-theme=pdf-theme.yml $<
+# CJK Support Flag
+USE_CJK ?= 0
+
+# Source Files
+ALLPAGES := $(wildcard docs/*.md docs/skills/*.md docs/timelines/*.md)
+
+# Asciidoc Sections Dest Files 
+ALLADOCS := $(addprefix pdf/tmp/,$(ALLPAGES:.md=.adoc))
+
+$(ALLPDF): pdf/all.adoc $(ALLADOCS)
+ifeq ($(USE_CJK), 1)
+	asciidoctor-pdf -v -o $@ \
+	-a pdf-theme=pdf/cjk-theme.yml \
+	-a pdf-fontsdir=fonts \
+	-a scripts=cjk $<
+else
+	asciidoctor-pdf -v -o $@ \
+	-a pdf-theme=pdf/eng-theme.yml $<
+endif
 
 # Markmap Source Files
 SKILLPAGES := $(wildcard docs/skills/*.md)
 
 # Markmap Dest File
 MAPHTML := static/usr/docs/map.html
-MAPMD := static/usr/docs/map.md
+MAPMD := markmap/tmp/digest.md
 
 .PHONY: markmap
 markmap: $(MAPHTML)
@@ -47,4 +58,4 @@ $(MAPHTML): $(MAPMD)
 
 $(MAPMD): $(SKILLPAGES)
 	mkdir -p $(@D)
-	cat $^ | perl digest.pl > $@
+	cat $^ | perl markmap/digest.pl > $@
