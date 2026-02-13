@@ -15,9 +15,8 @@ Create and insert the Markdown hyperlink element which label is the concise webs
 Then add the descriptions for the item just after the hyperlink element.
 
 The description string should be quoted from the linked site as much as possible. 
-The description string should start with "A" or "The".
+The description string should start with "A" or "The", and must omit the trailing period.
 Don't repeat the item name in the description string.
-Omit the trailing period.
 
 Example output (Target File: section03.md):
 ## Cloud-Native Runtimes & Patterns

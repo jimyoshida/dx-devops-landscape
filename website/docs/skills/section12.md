@@ -7,8 +7,8 @@
 
 ### Knowledge Management
 
-* [Obsidian](https://obsidian.md/)
-* [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)
+* [Obsidian](https://obsidian.md/) - A free and flexible application for private thoughts, allowing users to store notes on their device, connect ideas, and organize knowledge with a customizable interface through plugins and themes
+* [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) - A system of note-taking and personal knowledge management for research, study, and writing, consisting of small, interconnected items of information stored on slips or cards
 
 ### Architecture Description
 
@@ -106,6 +106,8 @@
     * 1: Perception of the elements in the environment.
     * 2: Comprehension or understanding of the situation.
     * 3: Projection of future status.
+  * [Vertical thinking](https://en.wikipedia.org/wiki/Vertical_thinking) - A problem-solving approach characterized by being selective, analytical, and sequential, often relying on rational assessment and external data
+  * [Lateral thinking](https://en.wikipedia.org/wiki/Lateral_thinking) - A manner of solving problems using an indirect and creative approach via reasoning that is not immediately obvious
 * Related Philosophies
   * [Three Virtues](https://threevirtues.dev/) - The qualities of a great programmer: Laziness, Impatience, and Hubris
 * Related Books
@@ -130,7 +132,7 @@
 * [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
 * [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
 * [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
-* [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost)
+* [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost) - A cost that has already been incurred and cannot be recovered
 * [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
 * [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
 * [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
@@ -158,15 +160,15 @@
 * [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - A type of currency which uses digital files as money
   * [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - A distributed ledger with growing lists of records
     * [Bitcoin](https://bitcoin.org/) - A decentralized digital currency that can be transferred on the peer-to-peer bitcoin network
-    * [Hashcash](https://en.wikipedia.org/wiki/Hashcash)
-    * [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work)
+    * [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - A proof-of-work system used to limit email spam and denial-of-service attacks
+    * [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - A form of cryptographic proof in which one party proves to others that a certain amount of a specific computational effort has been expended
 * Financial accounting
   * [Return on investment](https://en.wikipedia.org/wiki/Return_on_investment) - The ratio between net income (over a period) and investment (costs resulting from an investment of some resources at a point in time)
   * [Cash flow statement](https://en.wikipedia.org/wiki/Cash_flow_statement) - A financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents
   * [Income statement](https://en.wikipedia.org/wiki/Income_statement) - One of the financial statements of a company and shows the company's financial performance for a specific period of time
   * [Balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) - A summary of the financial balances of an individual or organization
   * [Net present value](https://en.wikipedia.org/wiki/Net_present_value) - A way of measuring the value of an asset that has cashflow by adding up the present value of all the future cash flows that asset will generate
-  * [EBITDA](https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization)
+  * [EBITDA](https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization) - A measure of a company's profitability of the operating business only, before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base
 
 ## Logic
 
@@ -175,7 +177,7 @@
     * Deductive, Inductive, Abductive and Analogical
 * Branches of Logic
   * [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
-  * [Formal logic](https://en.wikipedia.org/wiki/Logic#Formal_logic)
+  * [Formal logic](https://en.wikipedia.org/wiki/Logic#Formal_logic) - A system of reasoning that uses abstract rules and symbols to represent and evaluate the structure of arguments
 
 ### Informal Logic
 

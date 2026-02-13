@@ -368,4 +368,5 @@ support
   * [frum](https://github.com/TaKO8Ki/frum) - A fast and modern Ruby version manager written in Rust
   * [perlbrew](https://perlbrew.pl/) - A tool to manage multiple perl installations in your $HOME directory
   * [asdf](https://asdf-vm.com/) - A tool version manager
+  * [mise](https://mise.jdx.dev/) - A polyglot tool version manager
   * [tenv](https://github.com/tofuutils/tenv) - A versatile version manager for OpenTofu, Terraform, Terragrunt and Atmos

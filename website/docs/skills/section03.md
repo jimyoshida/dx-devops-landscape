@@ -103,6 +103,8 @@ access to high-performance networking
 * [The Open Container Initiative (OCI)](https://opencontainers.org/) - An open governance structure for the express purpose of creating open industry standards around container formats and runtimes
 * Containers for Development
   * [Development Containers](https://containers.dev/) - An open specification for enriching containers with development-specific settings, tools, and configuration
+* Security & Isolation
+  * [Rootless mode](https://docs.docker.com/engine/security/rootless/) - A feature that allows the Docker daemon and containers to run as a non-root user, mitigating potential vulnerabilities
 
 ### Runtimes & Tools
 
@@ -113,6 +115,13 @@ access to high-performance networking
     * [nerdctl](https://github.com/containerd/nerdctl) - A Docker-compatible CLI for containerd
     * [ctr](https://manpages.debian.org/experimental/containerd/ctr.1.en.html) - An unsupported debug and administrative client for interacting with the containerd daemon
   * [podman](https://podman.io/) - A powerful container engine for building, managing, and running containers and pods
+    * [podman-static](https://github.com/mgoltzsche/podman-static) - Alpine-based container images and statically linked (rootless) binaries for Linux
+* OCI Runtimes
+  * [runc](https://github.com/opencontainers/runc) - A CLI tool for spawning and running containers according to the OCI specification
+  * [crun](https://github.com/containers/crun) - A fast and lightweight fully featured OCI runtime and C library for running containers
+* Isolation-based Runtimes
+  * [Kata Containers](https://katacontainers.io/) - An open source container runtime that builds lightweight virtual machines for stronger workload isolation
+  * [libkrun](https://github.com/containers/libkrun) - A dynamic library providing virtualization-based process isolation capabilities
 * Image Building Tools
   * [Docker Build](https://docs.docker.com/build/) - A part of the Docker Engine that automates the process of creating a Docker image from a Dockerfile and a context
   * [buildah](https://buildah.io/) - A tool that facilitates building Open Container Initiative (OCI) container images
@@ -120,6 +129,8 @@ access to high-performance networking
 * Image Inspection & Management Tools
   * [skopeo](https://github.com/containers/skopeo) - A command line utility that performs various operations on container images and image repositories
   * [dive](https://github.com/wagoodman/dive) - A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image
+* GUI Tools
+  * [Podman Desktop](https://podman-desktop.io/) - A free and open-source tool for developers to work with containers and Kubernetes, simplifying container management and streamlining Kubernetes workflows
 * TUI & Helper Tools
   * [lazydocker](https://github.com/jesseduffield/lazydocker) - A terminal UI for both docker and docker-compose
 * Local Environment Provisioners
@@ -195,6 +206,8 @@ access to high-performance networking
 * Application Packaging & Configuration
   * [Helm](https://helm.sh/) - The package manager for Kubernetes
   * [Kustomize](https://kustomize.io/) - A standalone tool to customize Kubernetes objects through a kustomization file
+* Cloud Resource Management
+  * [Crossplane](https://crossplane.io/) - A cloud-native framework for platform engineering that enables users to build their own APIs and services with control planes, extending Kubernetes to manage any resource anywhere
 * Developer Workflow Tools
   * [Skaffold](https://skaffold.dev/) - A command line tool that facilitates continuous development for container-based applications
 * Platform Extensions
@@ -258,6 +271,7 @@ access to high-performance networking
 * App Runtimes & Scaling
   * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
   * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks
+  * [V8 isolates](https://v8.dev/docs/embed#isolates) - An independent instance of the engine with its own heap and its own garbage collector
 * Serverless Computing
   * [OpenFaaS](https://www.openfaas.com/) - A framework that makes it easy for developers to deploy event-driven functions and microservices to Kubernetes
   * [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
@@ -319,6 +333,7 @@ access to high-performance networking
   * K8s-specific Tools
     * [Velero](https://velero.io/) - An open source tool to safely back up and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes
   * Generic
+    * [Barman](https://pgbarman.org/) - A disaster recovery solution for PostgreSQL databases, designed to ensure business continuity by simplifying online hot backups
     * [Restic](https://restic.net/) - A fast, secure, efficient backup program
 * Runbook Automation
   * [RunDeck](https://www.rundeck.com/) - An open source automation platform that helps you automate routine operational procedures in data center or cloud environments

@@ -45,7 +45,7 @@
   * [Blink](https://www.chromium.org/blink/) - The rendering engine used by Chromium
   * [Servo](https://servo.org/) - A modern, high-performance browser engine designed for both application and embedded use
 * Scripting Engines
-  * [V8](https://v8.dev/) - Google’s open source high-performance JavaScript and WebAssembly engine, written in C++
+  * [V8 (JavaScript engine)](https://v8.dev/) - Google's open source high-performance JavaScript and WebAssembly engine, written in C++
   * [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore) - The JavaScript engine that powers Safari and other apps on Apple platforms
 * Client Scripting APIs
   * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
@@ -193,6 +193,7 @@
 ### Backend Frameworks
 
 * JS/TS Backend Frameworks
+  * [Fastify](https://www.fastify.io/) - A fast and low-overhead web framework for Node.js, designed for optimal performance and developer experience
   * [Express.js](https://expressjs.com/) - A minimal and flexible Node.js web application framework
   * [Koa](https://koajs.com/) - A new web framework designed by the team behind Express
   * [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
@@ -269,6 +270,8 @@
   * [Squid](http://www.squid-cache.org/) - A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more
 * CDN Providers
   * [Cloudflare](https://www.cloudflare.com/) - A global network designed to make everything you connect to the Internet secure, private, fast, and reliable
+    * [Cloudflare Workers](https://workers.cloudflare.com/) - A serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure
+    * [Cloudflare Workers Bindings](https://developers.cloudflare.com/workers/runtime-apis/bindings/) - A mechanism that allows your Worker to interact with resources on the Cloudflare Developer Platform, providing better performance and fewer restrictions than REST APIs for accessing resources from Workers
   * [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - A content delivery network (CDN) service built for high performance, security, and developer convenience
     * [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
   * [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content

@@ -267,6 +267,7 @@
   * [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor
     * [LazyVim](https://www.lazyvim.org/) - A Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config
       * [lazy.nvim](https://lazy.folke.io/) - A modern plugin manager for Neovim
+    * [NvChad](https://nvchad.com/) - A blazing fast Neovim config providing solid defaults and a beautiful UI
     * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - A Neovim plugin to manage the file system and other tree like structures
     * [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) - A colorful window separator for Neovim
     * [mason.nvim](https://github.com/williamboman/mason.nvim) - A Neovim plugin that allows you to easily manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
@@ -296,8 +297,6 @@
   * [Gopls](https://go.dev/gopls/) - The official language server for the Go language
   * [rust-analyzer](https://rust-analyzer.github.io/) - A language server for the Rust programming language
   * [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) - A Java language server based on the Eclipse JDT
-* Semantic Code Retreival
-  * [Serena](https://github.com/oraios/serena) - A tool for semantic code retrieval
 * CLI Assistants
   * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
   * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
@@ -306,8 +305,11 @@
 ## Coding Agents
 
 * CLI Coding Agents
-  * [Claude Code](https://www.anthropic.com/claude-code) - A tool that allows developers to use Anthropic's AI models, Opus 4.1 and Sonnet 4, directly in their terminal
-  * [OpenAI Codex CLI](https://github.com/openai/codex) - A command-line interface for a model that translates natural language to code
+  * [Claude Code](https://code.claude.com/docs) - An agentic coding tool that reads your codebase, edits files, runs commands, and integrates with development tools
+    * [Plan Mode](https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis) - A mode that instructs Claude to create a plan by analyzing the codebase with read-only operations, perfect for exploring codebases, planning complex changes, or reviewing code safely
+    * [Hooks](https://code.claude.com/docs/en/hooks) - The user-defined shell commands or LLM prompts that execute automatically at specific points in the agent's lifecycle
+    * [Subagents](https://code.claude.com/docs/en/sub-agents) - The specialized AI assistants that handle specific types of tasks, running in their own context with custom prompts and tool access
+  * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
     * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
@@ -318,8 +320,6 @@
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
   * [Antigravity](https://antigravity.google/) - An agentic development platform
   * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
-* Standards
-  * [Agents.md](https://agents.md/) - An open standard for defining and running AI agents
 * Methodologies
   * [Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md) - A development methodology where you start with a specification that acts as a contract for how your code should behave
   * SDD Tools
@@ -331,3 +331,5 @@
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
 * Context Providers
   * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors
+* Semantic Code Retreival
+  * [Serena](https://github.com/oraios/serena) - A powerful coding agent toolkit providing semantic retrieval and editing capabilities

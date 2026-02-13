@@ -45,7 +45,7 @@
   * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop) - A four-step approach to decision-making that focuses on filtering available information, putting it in context and quickly making the most appropriate decision while also understanding that changes can be made as more data becomes available
 * [Lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) - A production method aimed primarily at reducing times within the production system as well as response times from suppliers and to customers
   * The 7 Wastes: The activities that add no value for the customer
-  * [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping)
+  * [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping) - A lean-management method for analyzing the current state and designing a future state for the series of events that take a product or service from the beginning of the specific process until it reaches the customer
 * [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
   * [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) - A lean method to manage and improve work across human systems
   * [Kaizen](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A concept of continuous improvement through small, incremental changes
@@ -62,9 +62,18 @@
 * Concepts
   * [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - A conceptual model for approaching DevOps that stands for Culture, Automation, Lean, Measurement, and Sharing
 * Cultural & Organizational Foundations
+  * [Contingency theory](https://en.wikipedia.org/wiki/Contingency_theory) - A theory that claims there is no single best way to organize a corporation, lead a company, or make decisions, asserting that the optimal course of action depends on internal and external situations
+  * [Expectancy theory](https://en.wikipedia.org/wiki/Expectancy_theory) - A theory that proposes an individual's behavior is motivated by the expected results of their actions, with the desirability of the outcome determining the selection of a specific behavior
+  * [Intrinsic motivation](https://en.wikipedia.org/wiki/Intrinsic_motivation) - A type of motivation that arises from internal factors, such as enjoyment, curiosity, or a sense of fulfillment, where individuals engage in an activity for its own sake
+  * [Management 3.0](https://management30.com/) - An ever-evolving mindset and a collection of games, tools, and practices designed to help any worker manage the organization and improve work systems
+  * [PM Theory of Leadership](https://feriors.com/pm-theory-of-leadership/) - A leadership theory that classifies leaders into two categories: performance-oriented and maintenance-oriented
   * [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/) - A type of culture characterized by a high degree of trust and cooperation, a shared sense of responsibility for the mission, and a focus on learning and continuous improvement
-  * [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership)
+  * [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) - A leadership philosophy where the primary aim of the individual in charge is to prioritize the needs of their team members, fostering their development and performance, rather than focusing on personal gain or traditional hierarchical authority
+  * [Shared leadership](https://en.wikipedia.org/wiki/Shared_leadership) - A leadership style that broadly distributes responsibility, allowing individuals within a team or organization to lead each other
+  * [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) - A leadership model where effective leaders adapt their style to each situation, recognizing that no single approach is universally appropriate
   * [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
+  * [Two-factor theory](https://en.wikipedia.org/wiki/Two-factor_theory) - A theory developed by psychologist Frederick Herzberg, it posits that job satisfaction and dissatisfaction are influenced by separate sets of factors, known as motivators and hygiene factors, which act independently of each other
+  * [Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) - The theories of human work motivation and management developed by Douglas McGregor
 * Technical Practices
   * [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) - A powerful technique, allowing teams to modify system behavior without changing code
   * [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - A technique that reduces downtime and risk by running two identical production environments called Blue and Green
@@ -99,7 +108,7 @@
 
 * [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
   * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
-  * [Gantt Chart](https://www.vertex42.com/ExcelTemplates/simple-gantt-chart.html)
+  * [Gantt Chart](https://en.wikipedia.org/wiki/Gantt_chart) - A bar chart illustrating a project schedule, displaying tasks on the vertical axis and time intervals on the horizontal axis, with bar widths indicating activity durations and often showing task dependencies
   * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
   * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix (RAM)... describes the participation by various roles in completing tasks or deliverables for a project or business process
     * Responsible, Accountable, Consulted, Informed
@@ -143,7 +152,7 @@
   * ISO/IEC 20000: Information technology — Service management
 * [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
-  * [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas)
+  * [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas) - A one-page business modeling tool for entrepreneurs to quickly outline their business idea
 
 ### Goal Setting & Performance
 
@@ -175,9 +184,9 @@
     * [Archi](https://www.archimatetool.com/) - A free, open source, cross-platform tool and editor to create ArchiMate models
 * [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
   * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
-    * [EspoCRM](https://www.espocrm.com/)
+    * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
-    * [SuiteCRM](https://suitecrm.com/)
+    * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
   * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
     * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources))
@@ -186,9 +195,9 @@
   * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
   * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution
 * [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling) - The process of building models of whole or part of an enterprise with process models, data models, resource models and or new ontologies
-  * [BPMN](https://www.omg.org/bpmn/)- A graphical notation for specifying business processes in a Business Process Diagram
+  * [BPMN](https://www.omg.org/bpmn/)- A graphical notation for specifying business processes in a Business Process Diagram, providing a standard comprehensible to business users yet representing complex process semantics for technical users
   * [SysML](https://sysml.org/) - A general-purpose graphical modeling language for specifying, analyzing, designing, and verifying complex systems that may include hardware, software, information, personnel, procedures, and facilities
-  * [Eclipse Capella](https://mbse-capella.org/) - An open-source Model-Based Systems Engineering (MBSE) solution that provides a process and tooling to graphically design systems and master their architectural complexity
+  * [Eclipse Capella](https://mbse-capella.org/) - A powerful and extensible MBSE software tool that leverages a field-proven language and method to successfully design the architecture of complex systems
 * Business process change management
   * [Organizational structure](https://en.wikipedia.org/wiki/Organizational_structure) - A system that outlines how certain activities are directed in order to achieve the goals of an organization
   * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
@@ -197,16 +206,16 @@
 ### Strategic Management & Marketing
 
 * Strategic management tools
-  * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - A grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
-  * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A strategic planning and strategic management technique used to help a person or organization identify Strengths, Weaknesses, Opportunities, and Threats related to business competition or project planning
+  * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - The grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
+  * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A decision-making technique used in strategic planning and management that identifies the strengths, weaknesses, opportunities, and threats of an organization or project
   * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
-  * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A model that identifies and analyzes five competitive forces that shape every industry and helps determine an industry's weaknesses and strengths
+  * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
 * Business inteligence and analysis tools
   * [Tableau](https://www.tableau.com/) - The world’s leading analytics platform
   * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
     * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
   * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - A scalable, serverless, embeddable, machine learning (ML)-powered business intelligence (BI) service built for the cloud
-* [Marketing](https://en.wikipedia.org/wiki/Marketing)
+* [Marketing](https://en.wikipedia.org/wiki/Marketing) - A process of acquiring, satisfying, and retaining customers, often involving creating, communicating, delivering, and exchanging offerings that have value for various stakeholders
   * [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
     * [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
   * [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
@@ -235,20 +244,19 @@
     * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
     * [BillionMail](https://www.billionmail.com/) - An open-source MailServer and email marketing solution that is fully self-hosted and dev-friendly
   * Concepts and Frameworks
-    * [Brand](https://en.wikipedia.org/wiki/Brand)
-    * [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - The product of an interaction between an organization and a customer over the duration of their relationship
-    * [Customer service](https://en.wikipedia.org/wiki/Customer_service)
+    * [Brand](https://en.wikipedia.org/wiki/Brand) - A name, term, design, symbol or any other feature that distinguishes one seller's goods or service from those of other sellers
+    * [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - A customer's cognitive, emotional, sensory, and behavioral responses during all stages of interaction with a product or service
+    * [Customer service](https://en.wikipedia.org/wiki/Customer_service) - The assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely
     * [Design thinking](https://en.wikipedia.org/wiki/Design_thinking) - The set of cognitive, strategic and practical processes by which design concepts are developed
     * [User experience](https://en.wikipedia.org/wiki/User_experience) - A person's emotions and attitudes about using a particular product, system or service
-    * [User journey](https://en.wikipedia.org/wiki/User_journey)
-    * [Value chain](https://en.wikipedia.org/wiki/Value_chain)
+    * [Value chain](https://en.wikipedia.org/wiki/Value_chain) - A progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer.
   * Tools for Strategy
     * [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas) - A tool to help you create products and services customers want
     * [Persona](https://en.wikipedia.org/wiki/Persona_(user_experience)) - A fictional character created to represent a user type relationship
   * Tools for Ideation
     * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
     * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
-    * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER)
+    * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER) - A structured way of assisting students to think out of the box and enhance their knowledge
 
 ### Risk Management
 
@@ -260,17 +268,23 @@
   * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
   * ISO 31000: Risk management
 
+### Social & Industrial Visions
+
+* [Society 5.0](https://www8.cao.go.jp/cstp/english/society5_0/index.html) - A human-centered society that balances economic advancement with the resolution of social problems by a system that highly integrates cyberspace and physical space
+
 ## The Open Ecosystem
 
 ### Open Source
 
 * [Open Source Initiative](https://opensource.org/) - A non-profit organization dedicated to promoting and protecting open source software and communities
-* Major Licenses
-  * [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
+* Major Public Licenses
+  * [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
   * [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - A family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software
-  * [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF)
-  * [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses that guarantee end users the four freedoms to run, study, share, and modify the software
-  * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF)
+  * [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF), allowing users to use, distribute, and modify software without concern for royalties
+  * [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses, or copyleft licenses, that guarantee end users the freedom to run, study, share, and modify the software
+  * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF) that allows developers and companies to use and integrate a software component released under it into their own (even proprietary) software without being required to release the source code of their own components
+  * [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) - A free, copyleft license for software and other kinds of works, specifically designed to ensure that if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there
+  * [SSPL](https://www.mongodb.com/licensing/server-side-public-license) - A strong copyleft software license that mandates that any entity offering the licensed software as a service must release the complete source code of the entire service
 * Source Repositories
   * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
   * [GitLab.com](https://about.gitlab.com/) - The DevSecOps Platform that empowers organizations to maximize the overall return on software development
@@ -349,8 +363,9 @@
 * Team Dynamics
   * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
     * [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - A model of group development that was first proposed by Bruce Tuckman in 1965
+  * [Group dynamics](https://en.wikipedia.org/wiki/Group_dynamics) - A system of behaviors and psychological processes occurring within or between social groups
   * Research & Models
-    * [Google Rework: Understand team effectiveness](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness)
+    * [Google Rework: Understand team effectiveness](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness) - A research initiative identifying key dynamics like psychological safety, dependability, structure and clarity, meaning, and impact as crucial for successful group collaboration
 * Interpersonal Communication Techniques
   * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
   * [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop
@@ -358,6 +373,6 @@
   * [Negotiation](https://en.wikipedia.org/wiki/Negotiation) - A dialogue between two or more parties to resolve points of difference, gain an advantage for an individual or collective, or craft outcomes to satisfy various interests
 * Corporate Principles & Values
   * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles) - The set of core tenets Amazonians use daily to guide their discussions, decisions, and actions
-  * [GitLab Values](https://about.gitlab.com/handbook/values/) - The key principles that form GitLab's identity and culture, guiding how team members work together
+  * [GitLab Values](https://about.gitlab.com/handbook/values/) - A set of guiding principles that define the company's culture and how its team members operate
 * Professional Manifestos
-  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft
+  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - A declaration emphasizing the importance of well-crafted software, continuous value addition, professional community, and productive partnerships in software development

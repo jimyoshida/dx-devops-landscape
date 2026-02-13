@@ -8,6 +8,11 @@
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
   * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
   * [Causal AI](https://en.wikipedia.org/wiki/Causal_AI) - A technique in artificial intelligence that builds a causal model and can thereby make inferences using causality rather than just correlation
+* Core Concepts
+  * [Embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)) - A representation learning technique that maps complex, high-dimensional data into a lower-dimensional vector space of numerical vectors
+  * [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning) - A machine learning technique where knowledge gained from one task is reapplied to improve performance on a different but related task
+  * [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model) - An abstract description of a concrete system using mathematical concepts and language
+  * [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) - The selection of a best element, with regard to some criteria, from some set of available alternatives
 * AI Programming Languages
   * [Mojo](https://www.modular.com/mojo) - The programming language for all AI developers
 
@@ -38,23 +43,17 @@
 * Concepts & Techniques
   * [Hyperparameter](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) - A parameter whose value is used to control the learning process
   * [Hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization) - The problem of choosing a set of optimal hyperparameters for a learning algorithm
-  * [Embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)) - A representation learning technique that maps complex, high-dimensional data into a lower-dimensional vector space of numerical vectors
   * [Early stopping](https://en.wikipedia.org/wiki/Early_stopping) - A form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent
   * [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) - Any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set
-  * [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)
 * Applications & Problem Domains
   * [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) - The identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data
     * [One-class classification](https://en.wikipedia.org/wiki/One-class_classification) - The technique trying to identify objects of a specific class amongst all objects, by primarily learning from a training set containing only the objects of that class
   * [Recommender system](https://en.wikipedia.org/wiki/Recommender_system) - An information filtering system that seeks to predict the 'rating' or 'preference' a user would give to an item
-* Related Fields
-  * [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model) - An abstract description of a concrete system using mathematical concepts and language
-  * [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) - The selection of a best element, with regard to some criteria, from some set of available alternatives
 * Frameworks, Platforms & Tools
   * [scikit-learn](https://scikit-learn.org/stable) - A free software machine learning library for the Python programming language
     * [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) - A Library for Support Vector Machines
   * [ML.NET](https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet) - An open-source, cross-platform machine learning framework for .NET developers
   * [Crab](https://muricoca.github.io/crab/) - A Python library for building recommender systems
-  * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
   * [mlxtend](https://rasbt.github.io/mlxtend/) - A Python library of useful tools for the day-to-day data science tasks
   * [Prophet](https://facebook.github.io/prophet/) - A forecasting procedure for time series data that is fast and provides completely automated forecasts
 
@@ -97,19 +96,19 @@
 
 * Foundational Linguistics Fields
   * [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics))
-  * [Syntax](https://en.wikipedia.org/wiki/Syntax)
-  * [Semantics](https://en.wikipedia.org/wiki/Semantics)
-    * [Symbol grounding problem](https://en.wikipedia.org/wiki/Symbol_grounding_problem)
+  * [Syntax](https://en.wikipedia.org/wiki/Syntax) - A linguistic field, it is the study of how words and morphemes combine to form larger units like phrases and sentences, exploring aspects such as word order, grammatical relations, and hierarchical sentence structure
+  * [Semantics](https://en.wikipedia.org/wiki/Semantics) - The study of linguistic meaning, examining how words acquire meaning and how complex expressions derive meaning from their constituent parts
+    * [Symbol grounding problem](https://en.wikipedia.org/wiki/Symbol_grounding_problem) - The challenge of connecting abstract symbols to the real-world objects or concepts they represent, ensuring meaning is intrinsic rather than externally imposed, is a fundamental issue in artificial intelligence and cognitive science
 * Core NLP Concepts & Techniques
-  * [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
-  * [n-gram](https://en.wikipedia.org/wiki/N-gram)
-  * [tf-idf (term frequency-inverse document frequency)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+  * [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) - A string metric for measuring the difference between two sequences by counting the minimum number of single-character edits required to change one into the other
+  * [n-gram](https://en.wikipedia.org/wiki/N-gram) - A sequence of n adjacent symbols in a particular order, used in fields like natural language processing and computational biology
+  * [tf-idf (term frequency-inverse document frequency)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) - A statistical measure used in information retrieval to evaluate the importance of a word in a document relative to a collection or corpus, accounting for its general frequency
 * Vector Representations (Embeddings)
-  * [Word embedding](https://en.wikipedia.org/wiki/Word_embedding)
-    * [Word2vec](https://en.wikipedia.org/wiki/Word2vec)
+  * [Word embedding](https://en.wikipedia.org/wiki/Word_embedding) - A representation of a word in natural language processing, typically a real-valued vector that encodes its meaning such that words closer in vector space are expected to be similar in meaning
+    * [Word2vec](https://en.wikipedia.org/wiki/Word2vec) - A technique in natural language processing for obtaining vector representations of words that capture information about their meaning based on surrounding words
     * [fastText](https://fasttext.cc/) - Library for efficient text classification and representation learning
     * [GloVe](https://nlp.stanford.edu/projects/glove/) - Global Vectors for Word Representation
-  * [Sentence embedding](https://en.wikipedia.org/wiki/Sentence_embedding)
+  * [Sentence embedding](https://en.wikipedia.org/wiki/Sentence_embedding) - A numerical vector representation of a sentence that encodes its meaningful semantic information
 * Libraries & tools
   * General Purpose
     * [Natural Language Toolkit](https://www.nltk.org/) - A leading platform for building Python programs to work with human language data
@@ -121,7 +120,7 @@
     * [mecab-python3](https://github.com/SamuraiT/mecab-python3) - A Python wrapper for the MeCab morphological analyzer for Japanese text
     * [jieba](https://github.com/fxsjy/jieba) - A Python module for Chinese text segmentation
 
-### Large Language Models (LLMs)
+### Generative AI & Large Language Models (LLMs)
 
 * Model Providers & Aggregators
   * [Anthropic](https://www.anthropic.com/api) - The API providing access to Anthropic's Claude models
@@ -135,12 +134,12 @@
   * [Mistral](https://mistral.ai/models) - A family of open-source and commercial generative AI models
   * [OLMo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
 * Techniques & Methods
-  * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+  * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) - A technique that enables large language models to retrieve and incorporate new information from external data sources
     * [dsRAG](https://github.com/D-Star-AI/dsRAG) - A high-performance retrieval engine for unstructured data
   * [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
   * Prompt Engineering
-    * [Prompt Engineering Guide](https://www.promptingguide.ai/)
-    * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/)
+    * [Prompt Engineering Guide](https://www.promptingguide.ai/) - A comprehensive resource for learning and applying prompt engineering techniques to effectively utilize large language models and build AI agents
+    * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/) - A structured method for crafting clear and precise AI prompts by defining context, role, action, format, and tone
     * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
       * Reason, Act, Thought, Observation
   * Inference Techniques
@@ -159,7 +158,7 @@
   * Application Frameworks
     * [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
     * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
-    * [FastMCP v2](https://github.com/jlowin/fastmcp) - The standard framework for building MCP applications
+    * [FastMCP v2](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
 * Dev Tools & Evaluation
   * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
   * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
@@ -169,23 +168,31 @@
 
 ### Agentic AI
 
-* Agent Frameworks
+* Libraries & Frameworks
   * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
-  * [Fantasy](https://github.com/charmbracelet/fantasy) - A unified interface for interacting with various AI language models
+  * [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
   * [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
   * [crewAI](https://www.crewai.com/) - A platform that enables enterprises to operate teams of AI agents for complex tasks autonomously and reliably
+  * [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - A library for building AI agents with Claude
+  * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
 * LLM App Platforms
   * [Dify](https://dify.ai/) - An open-source LLM app development platform
 * Workflow Automation
   * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-* Protocols
+* Standards
+  * [AGENTS.md](https://agents.md/) - An open standard for defining and running AI agents
+  * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) - An open-source standard for connecting AI applications to external systems, enabling them to access data sources, tools, and workflows
   * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 * Supporting Services
   * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
+  * [SWIRL AI Search](https://swirlaiconnect.com/) - A Federated AI Search solution that connects to over 100 enterprise platforms, providing real-time visibility across data and document silos without requiring costly data transformations or migrations
+* MCP Servers
+  * [draw.io MCP Server](https://github.com/jgraph/drawio-mcp) - A server that enables large language models to create and open diagrams in the draw.io editor
+  * [Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server) - A Remote MCP Server that securely connects Jira and Confluence with your LLM, IDE, or agent platform of choice
 
 ### Speech Recognition
 
@@ -228,14 +235,15 @@
   * [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
   * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows
 * Local LLM Deployment
-  * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
   * [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
   * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
+  * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
+* LLM Serving Engines
+  * [vLLM](https://vllm.ai/) - A high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs)
 * Standards
   * Model Formats
     * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
     * [ONNX](https://onnx.ai/) - An open format built to represent machine learning models
     * [Safetensors](https://huggingface.co/docs/safetensors/index) - A simple format for storing tensors safely
-  * Protocols
-    * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) - An open protocol that standardizes how applications provide context to LLMs
-      * [Elicitation](https://modelcontextprotocol.io/specification/2025-06-18/client/elicitation)
+* Model Demonstration & UI
+  * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere

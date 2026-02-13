@@ -219,6 +219,7 @@
 * Wide-columns Databases
   * [Apache Cassandra](https://cassandra.apache.org/) - An open source NoSQL distributed database
   * [Apache HBase](https://hbase.apache.org/) - The Hadoop database, a distributed, scalable, big data store
+  * [ClickHouse](https://clickhouse.com/) - A fast, open-source OLAP (Online Analytical Processing) database management system designed for real-time analytics
   * [Google Cloud Bigtable](https://cloud.google.com/bigtable/) - A NoSQL wide-column database service for large analytical and operational workloads
 * Vector Databases
   * [pgvector](https://github.com/pgvector/pgvector) - An open-source vector similarity search for Postgres
@@ -243,6 +244,7 @@
   * [Google Cloud Data Fusion](https://cloud.google.com/data-fusion) - A fully managed, cloud-native data integration service that helps users efficiently build and manage ETL/ELT data pipelines
   * [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data
   * [Apache Airflow](https://airflow.apache.org/) - A platform to programmatically author, schedule, and monitor workflows
+  * [dbt](https://www.getdbt.com/) - A unified platform for delivering trusted data that empowers teams to deliver reliable, governed data at scale
 
 ### Stream Processing
 
