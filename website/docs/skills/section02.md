@@ -129,6 +129,7 @@
   * [React](https://reactjs.org/) - The library for web and native user interfaces
   * [Preact](https://preactjs.com/) - A fast 3kB alternative to React with the same modern API
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
+  * [Svelte](https://svelte.dev/) - A UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript
   * [Ember.js](https://emberjs.com/) - A framework for ambitious web developers
 * HTML-First Frameworks
   * [htmx](https://htmx.org/) - A library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes
@@ -202,6 +203,7 @@
   * [tRPC](https://trpc.io/) - A tool that allows you to easily build & consume fully typesafe APIs without schemas or code generation
 * Go Backend Frameworks
   * [Echo](https://echo.labstack.com/) - A high performance, extensible, minimalist Go web framework
+  * [Fiber](https://gofiber.io/) - An Express inspired web framework built on top of Fasthttp, the fastest HTTP engine for Go, designed to ease development with performance in mind
   * [Gin Web Framework](https://gin-gonic.com/) - A web framework written in Go
   * [Gorilla web toolkit](https://www.gorillatoolkit.org/) - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
   * [Yokai](https://ankorstore.github.io/yokai/) - A simple, modular and observable Go framework for backend applications
@@ -217,6 +219,7 @@
 * Ruby Backend Frameworks & Servers
   * [Rack](https://rack.github.io/) - A modular Ruby web server interface
     * [Puma](https://puma.io/) - A fact, concurrent web server for Ruby & Rack
+    * [Falcon](https://socketry.github.io/falcon/) - A multi-process, multi-fiber rack-compatible HTTP server built on top of async, async-container and async-http
     * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
 * Perl Backend Frameworks (legacy)
   * Classic CGI

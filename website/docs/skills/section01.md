@@ -268,10 +268,6 @@
   * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
   * ISO 31000: Risk management
 
-### Social & Industrial Visions
-
-* [Society 5.0](https://www8.cao.go.jp/cstp/english/society5_0/index.html) - A human-centered society that balances economic advancement with the resolution of social problems by a system that highly integrates cyberspace and physical space
-
 ## The Open Ecosystem
 
 ### Open Source
@@ -305,9 +301,6 @@
   * [Maven Central](https://central.sonatype.com/) - The World's Largest and Oldest Component Repository
   * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
   * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
-* Container Related
-  * [Docker Hub](https://docs.docker.com/docker-hub/) - A service provided by Docker for finding and sharing container images
-  * [Artifact Hub](https://artifacthub.io/) - A web-based application that enables finding, installing, and publishing Cloud Native packages
 * Community Curations
   * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software. Inspired by awesome-python
   * [Awesome Ruby](https://awesome-ruby.com/) - A curated list of awesome Ruby frameworks, libraries and software
@@ -366,6 +359,7 @@
   * [Group dynamics](https://en.wikipedia.org/wiki/Group_dynamics) - A system of behaviors and psychological processes occurring within or between social groups
   * Research & Models
     * [Google Rework: Understand team effectiveness](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness) - A research initiative identifying key dynamics like psychological safety, dependability, structure and clarity, meaning, and impact as crucial for successful group collaboration
+    * [GRPI Model](https://umbrex.com/resources/frameworks/organization-frameworks/grpi-model-goals-roles-processes-interpersonal-relationships/) - A foundational framework for designing and diagnosing team effectiveness, organizing the building blocks of a high-performing team into four layers: Goals, Roles, Processes, and Interpersonal Relationships
 * Interpersonal Communication Techniques
   * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
   * [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop

@@ -2,8 +2,6 @@
 
 ## Security Foundations
 
-### Core Concepts
-
 * [Information security](https://en.wikipedia.org/wiki/Information_security) - The practice of protecting information by mitigating information risks
 * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - A weakness which can be exploited by a threat actor
 * [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security)) - A potential negative action or event facilitated by a vulnerability
@@ -286,7 +284,7 @@
 * Cloud Security Posture Management (CSPM)
   * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - A cloud-native application protection platform (CNAPP) with a set of security measures and practices designed to protect cloud-based applications
   * [AWS Security Hub](https://aws.amazon.com/security-hub/) - A cloud security posture management (CSPM) service that performs security best practice checks, aggregates alerts, and enables automated remediation
-* Cloud-native Application Protection Platform (CNAPP)
+  * [cnquery](https://mondoo.com/cnquery) - A cloud-native, graph-based security tool that allows you to query your entire infrastructure as data
 * Cloud Workload Protection Platform (CWPP)
   * [Amazon Inspector](https://aws.amazon.com/inspector/) - An automated security assessment service that helps improve the security and compliance of applications deployed on AWS
   * [Falco](https://falco.org/) - The cloud-native runtime security project
@@ -454,6 +452,7 @@
 * Linux Mandatory Access Control
   * [SELinux](https://selinuxproject.org/page/Main_Page) - A set of kernel modifications and user-space tools that have been added to various Linux distributions
   * [AppArmor](https://apparmor.net/) - A Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles
+  * [bubblewrap](https://github.com/containers/bubblewrap) - A low-level unprivileged sandboxing tool used by Flatpak and similar projects
 * Linux Fine-grained Access Control
   * [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - A feature that grants some of the power of the superuser to a process, while not granting all of them
 * General Scanning

@@ -2,47 +2,56 @@
 
 ## Core Programming Concepts
 
-* Language Mechanics & Execution
-  * [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
-  * [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - A syntactic unit of an imperative programming language that expresses some action to be carried out
-  * [Expression](https://en.wikipedia.org/wiki/Expression_(computer_science)) - A syntactic entity in a programming language that may be evaluated to determine its value
-    * Operator and Operand
-  * [Literal](https://en.wikipedia.org/wiki/Literal_(computer_programming)) - A notation for representing a fixed value in source code
-    * Template string or literal
-    * [Heredoc](https://en.wikipedia.org/wiki/Here_document) - A file literal or input stream literal representing a section of source code that is treated as if it were a separate file
-  * [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - A value that cannot be altered by the program during normal execution
-  * [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - An abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value
-  * [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - The region of a computer program where the binding of a name to an entity (name binding) is valid
-  * [Data type](https://en.wikipedia.org/wiki/Data_type) - A collection or grouping of data values, usually specified by a set of possible values and allowed operations
-    * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
-    * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - A major class of type systems, in which compatibility and equivalence of data types is determined by explicit declarations and/or the names of the types
-    * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system) - A major class of type systems in which type compatibility and equivalence are determined by the type's actual structure or definition
-    * [Union type](https://en.wikipedia.org/wiki/Union_type) - A data type definition that specifies which of a number of permitted primitive types may be stored in its instances
-    * [Type safety](https://en.wikipedia.org/wiki/Type_safety) - The extent to which a programming language discourages or prevents type errors
-  * [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - A value that enables a program to indirectly access a particular datum in the computer's memory or other storage device
-    * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - A value saved for indicating that the pointer or reference does not refer to a valid object
-* Memory Management
-  * [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - A programming technique of storing the number of references, pointers, or handles to a resource
-  * [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - A form of automatic memory management where the collector attempts to reclaim memory occupied by objects no longer in use
-  * [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - An abstract data type that simulates a pointer while providing added features, such as automatic memory management or bounds checking
-  * [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - The state of being protected from various software bugs and security vulnerabilities when dealing with memory access
-* Control Flow Structures
-  * [Control flow](https://en.wikipedia.org/wiki/Control_flow) - The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated
-  * [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - The process of responding to the occurrence of exceptions during the execution of a program
-* Foundational Techniques & Properties
-  * [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
-    * [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
-  * [State](https://en.wikipedia.org/wiki/State_(computer_science)) - The stored information, at a given instant in time, to which a computer program or system has access
-  * [Function](https://en.wikipedia.org/wiki/Function_(computer_programming)) - A sequence of program instructions that performs a specific task, packaged as a unit
-    * [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - A special kind of variable used in a subroutine or function to refer to one of the pieces of data provided as input
-    * [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - A function definition that is not bound to an identifier
-  * [Immutable object](https://en.wikipedia.org/wiki/Immutable_object) - An object whose state cannot be modified after it is created
-  * [Generic Programming](https://en.wikipedia.org/wiki/Generic_programming) - A style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
-  * [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - A statement that a predicate (a Boolean-valued function) is expected to always be true at that point in the code
-  * [Autovivification](https://en.wikipedia.org/wiki/Autovivification) - The automatic creation of a new variable or data structure as required when it is first used
-* Module Structure & Organization
-  * [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - The degree to which the elements inside a module belong together
-  * [Coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) - The degree of interdependence between software modules, a measure of how closely connected two routines or modules are, and the strength of the relationships between modules
+### Language Mechanics & Execution
+
+* [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
+* [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - A syntactic unit of an imperative programming language that expresses some action to be carried out
+* [Expression](https://en.wikipedia.org/wiki/Expression_(computer_science)) - A syntactic entity in a programming language that may be evaluated to determine its value
+  * Operator and Operand
+* [Literal](https://en.wikipedia.org/wiki/Literal_(computer_programming)) - A notation for representing a fixed value in source code
+  * Template string or literal
+  * [Heredoc](https://en.wikipedia.org/wiki/Here_document) - A file literal or input stream literal representing a section of source code that is treated as if it were a separate file
+* [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - A value that cannot be altered by the program during normal execution
+* [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - An abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value
+* [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - The region of a computer program where the binding of a name to an entity (name binding) is valid
+* [Data type](https://en.wikipedia.org/wiki/Data_type) - A collection or grouping of data values, usually specified by a set of possible values and allowed operations
+  * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
+  * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - A major class of type systems, in which compatibility and equivalence of data types is determined by explicit declarations and/or the names of the types
+  * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system) - A major class of type systems in which type compatibility and equivalence are determined by the type's actual structure or definition
+  * [Union type](https://en.wikipedia.org/wiki/Union_type) - A data type definition that specifies which of a number of permitted primitive types may be stored in its instances
+  * [Type safety](https://en.wikipedia.org/wiki/Type_safety) - The extent to which a programming language discourages or prevents type errors
+* [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - A value that enables a program to indirectly access a particular datum in the computer's memory or other storage device
+  * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - A value saved for indicating that the pointer or reference does not refer to a valid object
+
+### Memory Management
+
+* [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - A programming technique of storing the number of references, pointers, or handles to a resource
+* [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - A form of automatic memory management where the collector attempts to reclaim memory occupied by objects no longer in use
+* [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - An abstract data type that simulates a pointer while providing added features, such as automatic memory management or bounds checking
+* [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - The state of being protected from various software bugs and security vulnerabilities when dealing with memory access
+
+### Control Flow Structures
+
+* [Control flow](https://en.wikipedia.org/wiki/Control_flow) - The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated
+* [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - The process of responding to the occurrence of exceptions during the execution of a program
+
+### Foundational Techniques & Properties
+
+* [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
+  * [Metadata](https://en.wikipedia.org/wiki/Metadata) - Data that provides information about other data
+* [State](https://en.wikipedia.org/wiki/State_(computer_science)) - The stored information, at a given instant in time, to which a computer program or system has access
+* [Function](https://en.wikipedia.org/wiki/Function_(computer_programming)) - A sequence of program instructions that performs a specific task, packaged as a unit
+  * [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - A special kind of variable used in a subroutine or function to refer to one of the pieces of data provided as input
+  * [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - A function definition that is not bound to an identifier
+* [Immutable object](https://en.wikipedia.org/wiki/Immutable_object) - An object whose state cannot be modified after it is created
+* [Generic Programming](https://en.wikipedia.org/wiki/Generic_programming) - A style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
+* [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - A statement that a predicate (a Boolean-valued function) is expected to always be true at that point in the code
+* [Autovivification](https://en.wikipedia.org/wiki/Autovivification) - The automatic creation of a new variable or data structure as required when it is first used
+
+### Module Structure & Organization
+
+* [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - The degree to which the elements inside a module belong together
+* [Coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) - The degree of interdependence between software modules, a measure of how closely connected two routines or modules are, and the strength of the relationships between modules
 
 ## Programming Paradigms
 
@@ -99,178 +108,213 @@
   * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - A property of computer code applicable in multi-threaded environments, ensuring correct manipulation of shared data structures
   * [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - A situation in concurrent computing where no member of a group of entities can proceed because each waits for another member to take action
 
-## Design Principles & Best Practices
+## Software Design
 
-* Design Principles
-  * [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
-  * [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - A design principle for separating a computer program into distinct sections
-  * [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - An approach for designing software that prescribes formal, precise and verifiable interface specifications for software components
-  * [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - A design guideline for developing software, particularly object-oriented programs
-  * [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - A mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable
-    * Single responsibility
-    * Open–closed
-    * Liskov substitution
-    * Interface segregation
-    * Dependency inversion
-  * [The Reactive Manifesto](https://www.reactivemanifesto.org/) - A coherent approach to systems architecture where applications are responsive, resilient, elastic and message driven
-  * [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - A set of cultural norms and philosophical approaches to software development
-  * [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) - The practice of structuring information models and associated data schema such that every data element is stored exactly once
-  * [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - A design principle which states that most systems work best if they are kept simple rather than made complicated
-* Design Best Practices
-  * [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - A programming idiom where the life cycle of a resource is bound to the lifetime of an object
-  * [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
-  * [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
-  * [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
-    * Codebase: One codebase tracked in revision control, many deploys.
-    * Dependencies: Explicitly declare and isolate dependencies.
-    * Config: Store config in the environment.
-    * Backing services: Treat backing services as attached resources.
-    * Build, release, run: Strictly separate build and run stages.
-    * Processes: Execute the app as one or more stateless processes.
-    * Port binding: Export services via port binding.
-    * Concurrency: Scale out via the process model.
-    * Disposability: Maximize robustness with fast startup and graceful shutdown.
-    * Dev/prod parity: Keep development, staging, and production as similar as possible.
-    * Logs: Treat logs as event streams.
-    * Admin processes: Run admin/management tasks as one-off processes.
+### Design Principles
 
-## Software Design Patterns
+* [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
+* [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - A design principle for separating a computer program into distinct sections
+* [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - An approach for designing software that prescribes formal, precise and verifiable interface specifications for software components
+* [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - A design guideline for developing software, particularly object-oriented programs
+* [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - A mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable
+  * Single responsibility
+  * Open–closed
+  * Liskov substitution
+  * Interface segregation
+  * Dependency inversion
+* [The Reactive Manifesto](https://www.reactivemanifesto.org/) - A coherent approach to systems architecture where applications are responsive, resilient, elastic and message driven
+* [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - A set of cultural norms and philosophical approaches to software development
+* [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) - The practice of structuring information models and associated data schema such that every data element is stored exactly once
+* [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - A design principle which states that most systems work best if they are kept simple rather than made complicated
 
-* Software Design Patterns
-  * [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - A general, reusable solution to a commonly occurring problem within a given context in software design
-  * [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - An architectural pattern used in software design and analysis that helps in structuring the responsibilities of classes in an object-oriented system
-  * [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - A pattern that separates read and update operations for a data store
-  * [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - A method for designing object-oriented APIs based on method chaining with the goal of making the readability of the source code close to that of ordinary written prose
-  * [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
-  * [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
+### Design Best Practices
+
+* [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - A programming idiom where the life cycle of a resource is bound to the lifetime of an object
+* [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
+* [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
+* [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
+  * Codebase: One codebase tracked in revision control, many deploys.
+  * Dependencies: Explicitly declare and isolate dependencies.
+  * Config: Store config in the environment.
+  * Backing services: Treat backing services as attached resources.
+  * Build, release, run: Strictly separate build and run stages.
+  * Processes: Execute the app as one or more stateless processes.
+  * Port binding: Export services via port binding.
+  * Concurrency: Scale out via the process model.
+  * Disposability: Maximize robustness with fast startup and graceful shutdown.
+  * Dev/prod parity: Keep development, staging, and production as similar as possible.
+  * Logs: Treat logs as event streams.
+  * Admin processes: Run admin/management tasks as one-off processes.
+
+### Design Patterns
+
+* [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - A general, reusable solution to a commonly occurring problem within a given context in software design
+* [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - An architectural pattern used in software design and analysis that helps in structuring the responsibilities of classes in an object-oriented system
+* [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - A pattern that separates read and update operations for a data store
+* [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - A method for designing object-oriented APIs based on method chaining with the goal of making the readability of the source code close to that of ordinary written prose
+* [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
+* [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
 
 ## Refactoring & Clean Code
 
-* Concepts
-  * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
-  * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - A software metric used to indicate the complexity of a program
-* Analysis Platform
-  * [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
-  * [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html) - A report that shows the percentage of your code that is covered by tests
-  * [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) - A feature that uses CodeClimate Engines to provide code quality analysis for your projects
-* Formatters
-  * [EditorConfig](https://editorconfig.org/) - A file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles
-  * [Prettier](https://prettier.io/) - An opinionated code formatter
-* Code metrics
-  * [scc](https://github.com/boyter/scc/) - A tool that counts lines of code in many programming languages
-  * [cloc](https://github.com/AlDanial/cloc) - A tool that counts blank lines, comment lines, and physical lines of source code in many programming languages
-* Linters
-  * [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
-  * [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
-  * [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
-  * [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
-  * [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
-  * [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
-  * [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
-  * [RuboCop](https://github.com/rubocop/rubocop) - A Ruby static code analyzer (a.k.a linter) and code formatter
-  * [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
-  * [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
-  * [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
-  * [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
-  * [vacuum](https://quobix.com/vacuum/) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool
-  * [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
-  * [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
-* Coding style guides
-  * [Google Style Guides](https://google.github.io/styleguide/) - A collection of documents that provide a set of conventions for writing source code in various programming languages
-  * [Style Guide for Python](https://peps.python.org/pep-0008/) - A document that gives coding conventions for the Python code comprising the standard library in the main Python distribution
-  * [Ruby Style Guide](https://rubystyle.guide/) - A community-driven style guide for the Ruby programming language
+### Concepts
+
+* [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
+* [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - A software metric used to indicate the complexity of a program
+
+### Analysis Platform
+
+* [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
+* [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html) - A report that shows the percentage of your code that is covered by tests
+* [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) - A feature that uses CodeClimate Engines to provide code quality analysis for your projects
+
+### Formatters
+
+* [EditorConfig](https://editorconfig.org/) - A file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles
+* [Prettier](https://prettier.io/) - An opinionated code formatter
+
+### Code metrics
+
+* [scc](https://github.com/boyter/scc/) - A tool that counts lines of code in many programming languages
+* [cloc](https://github.com/AlDanial/cloc) - A tool that counts blank lines, comment lines, and physical lines of source code in many programming languages
+
+### Linters
+
+* [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
+* [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
+* [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
+* [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
+* [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
+* [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
+* [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
+* [RuboCop](https://github.com/rubocop/rubocop) - A Ruby static code analyzer (a.k.a linter) and code formatter
+* [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
+* [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
+* [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
+* [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
+* [vacuum](https://quobix.com/vacuum/) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool
+* [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
+* [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
+
+### Coding style guides
+
+* [Google Style Guides](https://google.github.io/styleguide/) - A collection of documents that provide a set of conventions for writing source code in various programming languages
+* [Style Guide for Python](https://peps.python.org/pep-0008/) - A document that gives coding conventions for the Python code comprising the standard library in the main Python distribution
+* [Ruby Style Guide](https://rubystyle.guide/) - A community-driven style guide for the Ruby programming language
 
 ## Language Analysis
 
-* Concepts
-  * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
-    * [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
-  * [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar) - A set of formation rules for strings in a formal language
-  * [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) - A containment hierarchy of classes of formal grammars
-  * [Automata theory](https://en.wikipedia.org/wiki/Automata_theory) - The study of abstract machines and automata, as well as the computational problems that can be solved using them
-  * Lexical Analysis (Tokenizing)
-  * Syntactic Analysis (Parsing)
-  * [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) - A notation technique for context-free grammars, often used to describe the syntax of languages used in computing
-  * [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - A tree representation of the abstract syntactic structure of source code written in a programming language
-* Parser Generators
-  * [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
-  * [Bison](https://www.gnu.org/software/bison/) - A general-purpose parser generator that converts a grammar description for a context-free grammar into a C program to parse that grammar
-* Lexer Generators
-  * [Flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator
-  * [Ragel](https://www.colm.net/open-source/ragel/) - A state machine compiler
-* Parsers/Libraries
-  * [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
-  * [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
+### Concepts
+
+* [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
+  * [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - A finite sequence of symbols from a given alphabet that is part of a formal language
+* [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar) - A set of formation rules for strings in a formal language
+* [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) - A containment hierarchy of classes of formal grammars
+* [Automata theory](https://en.wikipedia.org/wiki/Automata_theory) - The study of abstract machines and automata, as well as the computational problems that can be solved using them
+* Lexical Analysis (Tokenizing)
+* Syntactic Analysis (Parsing)
+* [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) - A notation technique for context-free grammars, often used to describe the syntax of languages used in computing
+* [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - A tree representation of the abstract syntactic structure of source code written in a programming language
+
+### Parser Generators
+
+* [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
+* [Bison](https://www.gnu.org/software/bison/) - A general-purpose parser generator that converts a grammar description for a context-free grammar into a C program to parse that grammar
+
+### Lexer Generators
+
+* [Flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator
+* [Ragel](https://www.colm.net/open-source/ragel/) - A state machine compiler
+
+### Parsers/Libraries
+
+* [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
+* [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
 
 ## Program Translation
 
-* Concepts
-  * [Compiler](https://en.wikipedia.org/wiki/Compiler) - A computer program that translates computer code written in one programming language into another language
-  * [Transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) - A type of translator that takes the source code of a program written in a programming language as its input and produces an equivalent source code in the same or a different programming language
-    * [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation) - The data structure or code used internally by a compiler or virtual machine to represent source code
-  * [Program optimization](https://en.wikipedia.org/wiki/Program_optimization) - The process of modifying a software system to make some aspect of it work more efficiently or use fewer resources
-  * [Machine code](https://en.wikipedia.org/wiki/Machine_code) - A computer program written in machine language instructions that can be executed directly by a computer's central processing unit (CPU)
-  * [Cross compiler](https://en.wikipedia.org/wiki/Cross_compiler) - A compiler capable of creating executable code for a platform other than the one on which the compiler is running
-  * [Linker](https://en.wikipedia.org/wiki/Linker_(computing)) - A computer system program that takes one or more object files and combines them into a single executable file
-* Major Compiler Infrastructures
-  * [LLVM Compiler Infrastructure](https://llvm.org/) - A collection of modular and reusable compiler and toolchain technologies
-    * [Clang](https://clang.llvm.org/) - A C language family frontend for LLVM
-    * [LLD](https://lld.llvm.org/) - The LLVM Linker
-  * [gcc](https://www.gnu.org/software/gcc/) - The GNU Compiler Collection which includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D
-  * [rustc](https://doc.rust-lang.org/rustc/what-is-rustc.html) - The compiler for the Rust programming language
-* Specific Translators & Build Tools
-  * [MinGW-w64](https://www.mingw-w64.org/) - An advancement of the original mingw.org project, created to support the GCC compiler on Windows systems
-  * [Go build command](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
-    * Static binary executable
-  * [GopherJS](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript
-  * [Bunster](https://bunster.netlify.app/) - A shell compiler that turns your scripts into a self-contained executable programs
-* Linkers (Standalone)
-  * [mold](https://github.com/rui314/mold/) - A Modern Linker
-  * Runtime Libraries
-    * [glibc](https://sourceware.org/glibc/) - The GNU C Library project which provides the core libraries for the GNU system and GNU/Linux systems
-    * [musl libc](https://musl.libc.org/) - A C standard library intended for operating systems based on the Linux kernel
+### Concepts
+
+* [Compiler](https://en.wikipedia.org/wiki/Compiler) - A computer program that translates computer code written in one programming language into another language
+* [Transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) - A type of translator that takes the source code of a program written in a programming language as its input and produces an equivalent source code in the same or a different programming language
+  * [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation) - The data structure or code used internally by a compiler or virtual machine to represent source code
+* [Program optimization](https://en.wikipedia.org/wiki/Program_optimization) - The process of modifying a software system to make some aspect of it work more efficiently or use fewer resources
+* [Machine code](https://en.wikipedia.org/wiki/Machine_code) - A computer program written in machine language instructions that can be executed directly by a computer's central processing unit (CPU)
+* [Cross compiler](https://en.wikipedia.org/wiki/Cross_compiler) - A compiler capable of creating executable code for a platform other than the one on which the compiler is running
+* [Linker](https://en.wikipedia.org/wiki/Linker_(computing)) - A computer system program that takes one or more object files and combines them into a single executable file
+
+### Major Compiler Infrastructures
+
+* [LLVM Compiler Infrastructure](https://llvm.org/) - A collection of modular and reusable compiler and toolchain technologies
+  * [Clang](https://clang.llvm.org/) - A C language family frontend for LLVM
+  * [LLD](https://lld.llvm.org/) - The LLVM Linker
+* [gcc](https://www.gnu.org/software/gcc/) - The GNU Compiler Collection which includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D
+* [rustc](https://doc.rust-lang.org/rustc/what-is-rustc.html) - The compiler for the Rust programming language
+
+### Specific Translators & Build Tools
+
+* [MinGW-w64](https://www.mingw-w64.org/) - An advancement of the original mingw.org project, created to support the GCC compiler on Windows systems
+* [Go build command](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
+  * Static binary executable
+* [GopherJS](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript
+* [Bunster](https://bunster.netlify.app/) - A shell compiler that turns your scripts into a self-contained executable programs
+
+### Linkers (Standalone)
+
+* [mold](https://github.com/rui314/mold/) - A Modern Linker
+* Runtime Libraries
+  * [glibc](https://sourceware.org/glibc/) - The GNU C Library project which provides the core libraries for the GNU system and GNU/Linux systems
+  * [musl libc](https://musl.libc.org/) - A C standard library intended for operating systems based on the Linux kernel
 
 ## Program Execution
 
-* Concepts
-  * [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - The part of a program that runs on a computer, for the language in which the program was written
-  * [Bytecode](https://en.wikipedia.org/wiki/Bytecode) - A form of instruction set designed for efficient execution by a software interpreter
-  * [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation) - A way of executing computer code that involves compilation during execution of a program
-  * [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock) - A mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at the same time
-* Implementations
-  * Javascript
-    * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
-      * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
-    * [Deno](https://deno.land/) - A modern runtime for TypeScript and JavaScript
-    * [Bun](https://bun.sh/) - A fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript
-    * [WinterJS](https://github.com/wasmerio/winterjs) - A blazingly fast JavaScript runtime built on Rust, using the SpiderMonkey engine and the Tokio runtime
-  * Python
-    * CPython (default)
-    * [pypy](https://www.pypy.org/) - A fast, compliant alternative implementation of Python
-    * [Pyodide](https://pyodide.org/en/stable/) - A Python distribution for the browser and Node.js based on WebAssembly
-  * Ruby
-    * CRuby (default)
-    * [JRuby](https://www.jruby.org/) - An implementation of the Ruby programming language atop the Java Virtual Machine
-  * [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html) - The most proven, trusted, and secure development platform for modern application development
-    * [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html) - The primary Java Virtual Machine for desktops and servers, produced by Oracle Corporation
-    * [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html) - The Java Management Extensions technology which is a standard part of the Java Platform
-    * [JDK tools](https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html) - The command-line tools to create and build applications
-    * [GraalVM](https://oracle.com/java/graalvm/) - An advanced JDK with ahead-of-time Native Image compilation
-    * [OpenJDK](https://openjdk.org/) - The place to collaborate on an open-source implementation of the Java Platform, Standard Edition
-    * [Eclipse Temurin](https://adoptium.net/temurin/) - The open-source, enterprise-ready, and TCK-certified builds of OpenJDK
-  * [.NET](https://dotnet.microsoft.com/en-us/) - The free, open-source, cross-platform framework for building modern apps and powerful cloud services
-    * [CLR](https://learn.microsoft.com/en-us/dotnet/standard/clr) - The virtual machine component of .NET Framework
-* Related Tools
-  * [PM2](https://pm2.keymetrics.io/) - A daemon process manager that will help you manage and keep your application online
-  * [PyCall](https://github.com/mrkn/pycall.rb) - A Ruby library that allows you to call Python functions from Ruby
-  * [VisualVM](https://visualvm.github.io/) - An All-in-One Java Troubleshooting Tool
+### Concepts
+
+* [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - The part of a program that runs on a computer, for the language in which the program was written
+* [Bytecode](https://en.wikipedia.org/wiki/Bytecode) - A form of instruction set designed for efficient execution by a software interpreter
+* [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation) - A way of executing computer code that involves compilation during execution of a program
+* [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock) - A mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at the same time
+
+### Implementations
+
+* Javascript
+  * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
+    * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
+  * [Deno](https://deno.land/) - A modern runtime for TypeScript and JavaScript
+  * [Bun](https://bun.sh/) - A fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript
+  * [WinterJS](https://github.com/wasmerio/winterjs) - A blazingly fast JavaScript runtime built on Rust, using the SpiderMonkey engine and the Tokio runtime
+* Python
+  * CPython (default)
+  * [pypy](https://www.pypy.org/) - A fast, compliant alternative implementation of Python
+  * [Pyodide](https://pyodide.org/en/stable/) - A Python distribution for the browser and Node.js based on WebAssembly
+* Ruby
+  * CRuby (default)
+  * [JRuby](https://www.jruby.org/) - An implementation of the Ruby programming language atop the Java Virtual Machine
+* [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html) - The most proven, trusted, and secure development platform for modern application development
+  * [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html) - The primary Java Virtual Machine for desktops and servers, produced by Oracle Corporation
+  * [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html) - The Java Management Extensions technology which is a standard part of the Java Platform
+  * [JDK tools](https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html) - The command-line tools to create and build applications
+  * [GraalVM](https://oracle.com/java/graalvm/) - An advanced JDK with ahead-of-time Native Image compilation
+  * [OpenJDK](https://openjdk.org/) - The place to collaborate on an open-source implementation of the Java Platform, Standard Edition
+  * [Eclipse Temurin](https://adoptium.net/temurin/) - The open-source, enterprise-ready, and TCK-certified builds of OpenJDK
+* [.NET](https://dotnet.microsoft.com/en-us/) - The free, open-source, cross-platform framework for building modern apps and powerful cloud services
+  * [CLR](https://learn.microsoft.com/en-us/dotnet/standard/clr) - The virtual machine component of .NET Framework
+
+### Related Tools
+
+* [PM2](https://pm2.keymetrics.io/) - A daemon process manager that will help you manage and keep your application online
+* [PyCall](https://github.com/mrkn/pycall.rb) - A Ruby library that allows you to call Python functions from Ruby
+* [VisualVM](https://visualvm.github.io/) - An All-in-One Java Troubleshooting Tool
 
 ## Algorithm & Computational Complexity
 
-* Concepts
-  * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity
-* External Resources
-  * [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/) - A dictionary of algorithms, algorithmic techniques, data structures, archetypal problems, and related definitions
+### Concepts
+
+* [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity
+
+### External Resources
+
+* [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/) - A dictionary of algorithms, algorithmic techniques, data structures, archetypal problems, and related definitions
 
 ### Algorithm
 

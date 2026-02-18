@@ -7,24 +7,12 @@ prompt = """
 For each skill/concept/tool/platform item provided, find the most proper website URL.
 The website should be its own project/product home or its article on Wikipedia.
 
-Then for the item provided, find its most proper section in the markdown files under the "website/docs/skills/" directory.
-(e.g., section03.md -> Cloud-Native Runtimes & Patterns > Cloud-Native Infrastructure).
-You may create a new section if there is no proper section for the item.
+Then for each item provided, find its most proper subsection of the skill set.
+(e.g., section03.md -> Cloud-Native Computing > Cloud-Native Infrastructure).
+You may create a new subsection if there is no proper one for the item.
+In the subsection, create and insert the Markdown hyperlink element which label is the concise website title.
+Then add the description string of the item just after the hyperlink element.
 
-Create and insert the Markdown hyperlink element which label is the concise website title in the selected section.
-Then add the descriptions for the item just after the hyperlink element.
-
-The description string should be quoted from the linked site as much as possible. 
-The description string should start with "A" or "The", and must omit the trailing period.
-Don't repeat the item name in the description string.
-
-Example output (Target File: section03.md):
-## Cloud-Native Runtimes & Patterns
-### Cloud Native Infrastructure
-* App Runtimes & Scaling
-  * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
-  * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any
-
-Input:
+Input Items:
 {{args}}
 """

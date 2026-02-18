@@ -101,18 +101,21 @@ support
   * [GNU diffutils](https://www.gnu.org/software/diffutils/) - A package of several programs for finding the differences between files
   * [colordiff](https://www.colordiff.org/) - A tool that produces the same output as diff but with coloured syntax highlighting to improve readability
 * Tabular Data
-  * [csvkit](https://csvkit.readthedocs.io/en/latest/) - A suite of command-line tools for converting to and working with CSV
-  * [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust
-  * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
-  * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
-  * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
-  * [Ruby csv](https://ruby.github.io/csv/) - A complete interface to CSV files and data
-  * [Go csv](https://pkg.go.dev/encoding/csv) - A package that reads and writes comma-separated values (CSV) files
-  * [Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser for JavaScript
-  * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
-  * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format
-  * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable) - A module that can be used to write data in tabular form, formatted in MultiMarkdown syntax
-  * [Terminal Table](https://github.com/tj/terminal-table) - A simple, feature-rich ascii table generation library for ruby
+  * CLI Tools
+    * [csvkit](https://csvkit.readthedocs.io/en/latest/) - A suite of command-line tools for converting to and working with CSV
+    * [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust
+    * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
+    * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
+  * Libraries
+    * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
+    * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
+    * [Ruby csv](https://ruby.github.io/csv/) - A complete interface to CSV files and data
+    * [smarter_csv](https://github.com/tilo/smarter_csv) - A Ruby Gem for convenient reading and writing of CSV files
+    * [Go csv](https://pkg.go.dev/encoding/csv) - A package that reads and writes comma-separated values (CSV) files
+    * [Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser for JavaScript
+    * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format
+    * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable) - A module that can be used to write data in tabular form, formatted in MultiMarkdown syntax
+    * [Terminal Table](https://github.com/tj/terminal-table) - A simple, feature-rich ascii table generation library for ruby
 
 ### Template Engines
 

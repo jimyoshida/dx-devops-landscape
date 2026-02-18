@@ -26,6 +26,7 @@
   * [bash-completion](https://github.com/scop/bash-completion) - A collection of programmable completion functions for bash
   * [direnv](https://direnv.net/) - An extension for your shell that can load and unload environment variables depending on the current directory
   * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command
+  * [Atuin](https://atuin.sh/) - A tool that replaces your existing shell history with a SQLite database, records additional context for your commands, and optionally syncs your shell history between all of your machines
 * Search Tools
   * [findutils](https://www.gnu.org/software/findutils/) - The basic directory searching utilities of the GNU operating system
   * [fzf](https://github.com/junegunn/fzf) - A general-purpose command-line fuzzy finder
@@ -309,9 +310,11 @@
     * [Plan Mode](https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis) - A mode that instructs Claude to create a plan by analyzing the codebase with read-only operations, perfect for exploring codebases, planning complex changes, or reviewing code safely
     * [Hooks](https://code.claude.com/docs/en/hooks) - The user-defined shell commands or LLM prompts that execute automatically at specific points in the agent's lifecycle
     * [Subagents](https://code.claude.com/docs/en/sub-agents) - The specialized AI assistants that handle specific types of tasks, running in their own context with custom prompts and tool access
+    * [Sandboxing](https://code.claude.com/docs/en/sandboxing) - A feature that provides filesystem and network isolation for safer, more autonomous agent execution, using OS-level primitives to enforce these isolations and reduce constant permission prompts
   * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
     * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
+    * [Sandboxing](https://geminicli.com/docs/cli/sandbox/) - A feature that isolates potentially dangerous operations from your host system, providing a security barrier between AI operations and your environment, using macOS Seatbelt or container-based methods for isolation
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
 * Autonomous Coding Agents
   * [SWE-agent](https://swe-agent.com/latest/) - A tool for fixing bugs and issues in GitHub repositories, powered by a family of language models

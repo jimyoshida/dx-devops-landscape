@@ -5,11 +5,12 @@ sidebar_position: 1
 # Introduction
 
 In future system development, detailed tasks will increasingly be performed by AI. Consequently, a critical skill will be the ability to articulate requirements precisely to AI using these terms.
-This site aims to provide a curated classification of well-known keywords, concepts, techniques, platforms, and useful tools related to DevOps. This large domain of knowledge is to be categorized here in about 100 clases.
+This site aims to provide a sophisticated and comprehensive overview of the skill set
+which includes well-known concepts, techniques, tools, platforms, and frameworks related to DX and DevOps.
 
 ## Contents
 
-Pages in the **Skills** category contain the curated classification, including concepts, de facto standards, useful techniques, and OSS implementations.
+Pages in the **Skills** category contain the skill items categorized into 12 classes.
 The outline is visualized as a [mind map](pathname:///usr/docs/map.html), too.
 
 Pages in the **Timelines** category contain major historical events related to the curated items.
