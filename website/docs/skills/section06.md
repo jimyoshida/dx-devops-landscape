@@ -122,7 +122,6 @@
 
 * [Natural Language Toolkit](https://www.nltk.org/) - A leading platform for building Python programs to work with human language data
 * [Gensim](https://radimrehurek.com/gensim/) - A free open-source Python library for representing documents as semantic vectors
-* [wego](https://github.com/ynqa/wego) - The implementations from scratch for word embeddings (a.k.a word representation) models in Go
 * [Kuromoji](https://www.atilika.org/) - An open source Japanese morphological analyzer written in Java
 * [Kagome](https://github.com/ikawaha/kagome) - An open source Japanese morphological analyzer written in pure golang
 * [mecab-python3](https://github.com/SamuraiT/mecab-python3) - A Python wrapper for the MeCab morphological analyzer for Japanese text
@@ -139,15 +138,13 @@
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR) - A ready-to-use OCR with 80+ supported languages and all popular writing scripts
 * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/) - A tool to add a searchable OCR text layer to PDF files
 
-### Open Models
-
-* [LLaVA](https://llava-vl.github.io/) - A novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding, achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on Science QA
+* Open Models
+  * [LLaVA](https://llava-vl.github.io/) - A novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding, achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on Science QA
 
 ## Speech Recognition
 
-### Open Models
-
-* [Whisper](https://github.com/openai/whisper) - A robust speech recognition model trained via large-scale weak supervision
+* Open Models
+  * [Whisper](https://github.com/openai/whisper) - A robust speech recognition model trained via large-scale weak supervision
 
 ## Generative AI & Large Language Models (LLMs)
 
@@ -164,12 +161,11 @@
 * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
 * [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
 
-### Open Models
-
-* [Llama](https://www.llama.com/) - The open-source AI models you can fine-tune, distill and deploy anywhere
-* [Gemma](https://deepmind.google/models/gemma/) - A family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models
-* [Mistral](https://mistral.ai/models) - A family of open-source and commercial generative AI models
-* [OLMo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
+* Open Models
+  * [Llama](https://www.llama.com/) - The open-source AI models you can fine-tune, distill and deploy anywhere
+  * [Gemma](https://deepmind.google/models/gemma/) - A family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models
+  * [Mistral](https://mistral.ai/models) - A family of open-source and commercial generative AI models
+  * [OLMo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
 
 ### Techniques & Methods
 
@@ -184,19 +180,23 @@
 
 ### Ecosystem & Frameworks
 
-* [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
-* [LiteLLM](https://docs.litellm.ai) - A Python SDK and AI Gateway (Proxy) that allows users to call over 100 Large Language Models (LLMs) using a unified OpenAI input/output format
-* [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
-* [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
-* [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
-* [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
-* [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
-* [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
-* [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
-* [Unsloth AI](https://unsloth.ai/) - A platform providing tools and services for easily fine-tuning and training Large Language Models (LLMs) to achieve faster and more efficient AI training
-* [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
-* [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
-* [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
+* Libraries & SDKs
+  * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
+  * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
+  * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
+  * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
+  * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
+* Application Frameworks
+  * [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
+  * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
+  * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
+* Development Tools & Utilities
+  * [LiteLLM](https://docs.litellm.ai) - A Python SDK and AI Gateway (Proxy) that allows users to call over 100 Large Language Models (LLMs) using a unified OpenAI input/output format
+  * [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
+  * [Unsloth AI](https://unsloth.ai/) - A platform providing tools and services for easily fine-tuning and training Large Language Models (LLMs) to achieve faster and more efficient AI training
+  * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
+  * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
+  * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
 * Benchmarking & Analysis
   * [Artificial Analysis](https://artificialanalysis.ai/) - An independent analysis of AI models and API providers, helping users understand the AI landscape
   * [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs)
@@ -206,56 +206,57 @@
 ### Standards & Protocols
 
 * [AGENTS.md](https://agents.md/) - An open standard for defining and running AI agents
+* [Agent Skills](https://agentskills.io/home) - A simple, open format for giving agents new capabilities and expertise
 * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) - An open-source standard for connecting AI applications to external systems, enabling them to access data sources, tools, and workflows
 * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 
 ### Libraries & Frameworks
 
-* [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
-* [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
-* [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
-* [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
-* [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
-* [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
-* [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - A library for building AI agents with Claude
-* [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
-* [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
+* Agent Orchestration Frameworks
+  * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
+  * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
+  * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
+  * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
+* Building Agents & Providers
+  * [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
+  * [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - A library for building AI agents with Claude
+  * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
+  * [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/en-us/microsoft-365/developer/overview-m365-agents-toolkit) - A suite of tools for building enterprise-ready agents and apps that work across Microsoft 365 Copilot, Teams, Office, web, and other third-party messaging channels
+* Local & Desktop Agents
+  * [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
+* Interoperability
+  * [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
 
 ### Supporting Services & Platforms
 
-* [Dify](https://dify.ai/) - An open-source LLM app development platform
-* [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-* [OpenClaw](https://openclaw.ai/) - An open-source personal AI assistant that automates tasks across various applications and platforms, running on the user's machine
-* [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
-* [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
-* [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
-* [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
-* [SWIRL AI Search](https://swirlaiconnect.com/) - A Federated AI Search solution that connects to over 100 enterprise platforms, providing real-time visibility across data and document silos without requiring costly data transformations or migrations
+* Agent Skills Ecosystems
+  * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
+* Memory Systems
+  * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
+* Search & Data Extraction
+  * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
+  * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
+  * [SWIRL AI Search](https://swirlaiconnect.com/) - A Federated AI Search solution that connects to over 100 enterprise platforms, providing real-time visibility across data and document silos without requiring costly data transformations or migrations
+* Security Tools
+  * [skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) - A best-effort security scanner for AI Agent Skills that detects prompt injection, data exfiltration, and malicious code patterns
 
 ## MLOps & Productionalization
 
-### ML Lifecycle & Versioning
-
-* [DVC](https://dvc.org/) - Open-source Data Version Control for machine learning projects
-* [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
-* [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
-* [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
-
-### Model Deployment & Serving
-
-* [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
-* [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
-* [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
-* [vLLM](https://vllm.ai/) - A high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs)
-
-### Standards & Model Formats
-
-* [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
-* [ONNX](https://onnx.ai/) - An open format built to represent machine learning models
-* [Safetensors](https://huggingface.co/docs/safetensors/index) - A simple format for storing tensors safely
-
-### AI Cloud Services
-
-* [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
-* [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
-* [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
+* ML Lifecycle & Versioning
+  * [DVC](https://dvc.org/) - Open-source Data Version Control for machine learning projects
+  * [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
+  * [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
+  * [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
+* Model Deployment & Serving
+  * [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
+  * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
+  * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
+  * [vLLM](https://vllm.ai/) - A high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs)
+* Standards & Model Formats
+  * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
+  * [ONNX](https://onnx.ai/) - An open format built to represent machine learning models
+  * [Safetensors](https://huggingface.co/docs/safetensors/index) - A simple format for storing tensors safely
+* AI Cloud Services
+  * [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
+  * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
+  * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models

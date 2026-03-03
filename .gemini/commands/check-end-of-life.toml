@@ -1,0 +1,12 @@
+# Description shown in /help
+description = "Check the end-of-life of software or services"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+For the specified scope, check if the listed software or services are still actively maintained.
+If there are any issues about the software/service lifecycle, please list them and suggest what to remove.
+
+Input Title:
+{{args}}
+"""

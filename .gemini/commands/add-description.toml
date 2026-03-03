@@ -1,5 +1,5 @@
 # Description shown in /help
-description = "Add the link description if missing"
+description = "Add the link descriptions if missing"
 
 # The prompt to execute.
 # {{args}} will be replaced by the content of a @file or "quoted text".

@@ -2,46 +2,51 @@
 
 ## Foundational Concepts
 
-### General Data Principles
+### General Data Concepts & Principles
 
-* General Data Concepts & Principles
-  * [Big data](https://en.wikipedia.org/wiki/Big_data) - The data sets that are too large or complex to be dealt with by traditional data-processing application software
-  * [Data model](https://en.wikipedia.org/wiki/Data_model) -  An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
-  * [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
-  * [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
-  * [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) - A concept in computer science and information and communications technology that the quality of the output is determined by the quality of the input
-  * [Data cleansing](https://en.wikipedia.org/wiki/Data_cleansing) - The process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database
+* [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
+* [Metadata](https://en.wikipedia.org/wiki/Metadata) - The data that provides information about other data, but not the content of the data
+* [Big data](https://en.wikipedia.org/wiki/Big_data) - The data sets that are too large or complex to be dealt with by traditional data-processing application software
+* [Data model](https://en.wikipedia.org/wiki/Data_model) -  An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
+* [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
+* [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
+* [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) - A concept in computer science and information and communications technology that the quality of the output is determined by the quality of the input
+* [Data cleansing](https://en.wikipedia.org/wiki/Data_cleansing) - The process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database
+* [Data lifecycle management](https://en.wikipedia.org/wiki/Data_lifecycle_management) - A policy-based approach to managing the flow of an information system's data throughout its life cycle
+* [Master data management](https://en.wikipedia.org/wiki/Master_data_management) - A technology-enabled discipline in which business and IT work together to ensure the uniformity, accuracy, stewardship, semantic consistency and accountability of the enterprise's official shared master data assets
+* [Data quality](https://en.wikipedia.org/wiki/Data_quality) - A measure of the condition of data based on factors such as accuracy, completeness, consistency, reliability and whether it's up to date
+* [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) - The practice of structuring information models and associated data schema such that every data element is mastered (or edited) in only one place
 
-### Core Data Engineering
+### Core Data Engineering & Database Concepts
 
-* Core Data Engineering & Database Concepts
-  * [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) - The mechanism ensuring that correct results for concurrent operations are generated efficiently
-  * [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) - The four basic operations of persistent storage: create, read, update, and delete
-  * [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
-  * [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
-  * [ELT](https://www.ibm.com/think/topics/elt) - A data integration process where raw data is moved from a source system to a destination resource, such as a data warehouse, and then transformed for use
-  * [Online transaction processing (OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing) - A type of data processing that consists of executing a number of transactions occurring concurrently
-  * [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing) - An approach to answering multi-dimensional analytical queries swiftly in computing
-  * [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing) - The collecting, parsing, and storing of data to facilitate fast and accurate information retrieval
-
+* [Concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) - The mechanism ensuring that correct results for concurrent operations are generated efficiently
+* [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) - The four basic operations of persistent storage: create, read, update, and delete
+* [Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture)) - A horizontal partition of data in a database or search engine
+* [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) - A three-phase process where data is extracted from an input source, transformed, and loaded into an output data container
+* [ELT](https://www.ibm.com/think/topics/elt) - A data integration process where raw data is moved from a source system to a destination resource, such as a data warehouse, and then transformed for use
+* [Data pipeline](https://en.wikipedia.org/wiki/Pipeline_(computing)) - A set of data processing elements connected in series, where the output of one element is the input of the next one
+* [Data governance](https://en.wikipedia.org/wiki/Data_governance) - A data management concept concerning the capability that enables an organization to ensure that high data quality exists throughout the complete lifecycle of the data
+* [Data lineage](https://en.wikipedia.org/wiki/Data_lineage) - The process of understanding, recording, and visualizing data as it flows from data sources to consumption
+* [Online transaction processing (OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing) - A type of data processing that consists of executing a number of transactions occurring concurrently
+* [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing) - An approach to answering multi-dimensional analytical queries swiftly in computing
+* [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing) - The collecting, parsing, and storing of data to facilitate fast and accurate information retrieval
 
 ## Data Science Toolkit
 
 ### Programming Languages & Libraries
 
-* Core Libraries
-  * Python
-    * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
-    * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
-    * [Narwhals](https://narwhals-dev.github.io/narwhals/) - A lazy-first, type-agnostic, and framework-agnostic dataframe library in Python
-    * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
-    * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
-    * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
-    * [SageMath](https://www.sagemath.org/) - A free open-source mathematics software system licensed under the GPL
-    * [statsmodels](https://www.statsmodels.org/stable/index.html) - A Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration
-  * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
-    * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
-  * [Wolfram Language](https://www.wolfram.com/language/) - A symbolic language, deliberately designed with the breadth and unity needed to develop powerful programs quickly
+* [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+  * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
+  * [Narwhals](https://narwhals-dev.github.io/narwhals/) - A lazy-first, type-agnostic, and framework-agnostic dataframe library in Python
+  * [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
+  * [SciPy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
+  * [SymPy](https://www.sympy.org/en/index.html) - A Python library for symbolic mathematics
+  * [SageMath](https://www.sagemath.org/) - A free open-source mathematics software system licensed under the GPL
+  * [statsmodels](https://www.statsmodels.org/stable/index.html) - A Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration
+* [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
+  * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
+* [Wolfram Language](https://www.wolfram.com/language/) - A symbolic language, deliberately designed with the breadth and unity needed to develop powerful programs quickly
 * Specialized Tools
   * [latexify](https://github.com/google/latexify_py) - A Python package to compile a fragment of Python source code to a corresponding LaTeX expression
   * [handcalcs](https://github.com/connorferster/handcalcs) - A Python library to render Python calculation code automatically in Latex, but in a manner that mimics how one might format their calculation if it were written with a pencil
@@ -56,40 +61,37 @@
 * [Jupyter Notebook](https://jupyter.org/) - The original web application for creating and sharing computational documents
   * [VSCode Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - A VS Code extension that provides basic notebook support for language kernels supported in the environment
 * [nbviewer](https://nbviewer.org/) - A simple way to share Jupyter Notebooks
-* [BeakerX](http://beakerx.com/) - A collection of kernels and extensions to the Jupyter interactive computing environment
 * [R Markdown](https://rmarkdown.rstudio.com/) - An authoring framework that helps you create dynamic analysis documents combining code, rendered output, and prose
 * [Wolfram Notebooks](https://www.wolfram.com/notebooks/) - A powerful environment for exploration and communication, combining text, literate programming, graphics and custom interactive elements
 * [Voila](https://voila.readthedocs.io/en/stable/) - A tool that turns Jupyter notebooks into standalone web applications
 
 ## Data Visualization
 
-### Chart Types
+### Common Chart Types
 
-* Common Chart Types
-  * [Histogram](https://en.wikipedia.org/wiki/Histogram) - A representation of the distribution of numerical data
-  * [Scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) - A type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data
-  * [Box plot](https://en.wikipedia.org/wiki/Box_plot) - A method for graphically demonstrating the locality, spread and skewness groups of numerical data through their quartiles
-  * [Error bar](https://en.wikipedia.org/wiki/Error_bar) - A graphical representation of the variability of data used on graphs to indicate the uncertainty in a reported measurement
-  * [Heat map](https://en.wikipedia.org/wiki/Heat_map) - A technique that shows magnitude of a phenomenon as color in two dimensions
-  * [Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) - A type of thematic map in which a set of pre-defined areas is colored or patterned in proportion to a statistical variable
-  * [Proportional symbol map](https://en.wikipedia.org/wiki/Proportional_symbol_map) - A type of thematic map that uses symbols that vary in size to represent a quantitative variable
-  * [Tag cloud](https://en.wikipedia.org/wiki/Tag_cloud) - A novelty visual representation of text data
+* [Histogram](https://en.wikipedia.org/wiki/Histogram) - A representation of the distribution of numerical data
+* [Scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) - A type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data
+* [Box plot](https://en.wikipedia.org/wiki/Box_plot) - A method for graphically demonstrating the locality, spread and skewness groups of numerical data through their quartiles
+* [Error bar](https://en.wikipedia.org/wiki/Error_bar) - A graphical representation of the variability of data used on graphs to indicate the uncertainty in a reported measurement
+* [Heat map](https://en.wikipedia.org/wiki/Heat_map) - A technique that shows magnitude of a phenomenon as color in two dimensions
+* [Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) - A type of thematic map in which a set of pre-defined areas is colored or patterned in proportion to a statistical variable
+* [Proportional symbol map](https://en.wikipedia.org/wiki/Proportional_symbol_map) - A type of thematic map that uses symbols that vary in size to represent a quantitative variable
+* [Tag cloud](https://en.wikipedia.org/wiki/Tag_cloud) - A novelty visual representation of text data
 
-### Visualization Libraries
+### Visualization Tools & Libraries
 
-* Tools and Libraries
-  * [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
-  * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
-  * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
-  * [Plotly](https://plotly.com/python/) - The interactive graphing library for Python (includes Plotly Express)
-  * [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
-  * [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
-  * [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
-  * [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
-  * [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
-  * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
-  * [Recharts](https://recharts.org/) - A composable charting library built on React components
-  * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
+* [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
+* [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
+* [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
+* [Plotly](https://plotly.com/python/) - The interactive graphing library for Python (includes Plotly Express)
+* [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
+* [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
+* [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
+* [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
+* [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
+* [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
+* [Recharts](https://recharts.org/) - A composable charting library built on React components
+* [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
 
 ### Dashboarding & Web Apps
 
@@ -100,15 +102,15 @@
 
 ### Distributed Computing Principles
 
-* [Distributed Computing](https://en.wikipedia.org/wiki/Distributed_computing) - A field of computer science that studies such systems
-  * [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure) - A part of a system that, if it fails, will stop the entire system from working
-  * [Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) - The property that enables a system to continue operating properly in the event of the failure of some of its components
-  * [Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)) - The process of distributing a set of tasks over a set of resources, with the aim of making their overall processing more efficient
-  * [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) - A set of assertions describing false assumptions that programmers new to distributed applications invariably make
-  * [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault) - A condition of a distributed system, where components may fail and there is imperfect information about whether a component has failed
-    * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) - A fault-tolerant mechanism that is used in distributed systems to achieve the necessary agreement on a single data value among distributed processes or systems
-  * [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - A theorem stating that any distributed data store can provide only two of the following three guarantees: Consistency, Availability, and Partition tolerance
-  * [BASE properties](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/) - A database model that prioritizes availability over consistency
+* [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) - A field of computer science that studies such systems
+* [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure) - A part of a system that, if it fails, will stop the entire system from working
+* [Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) - The property that enables a system to continue operating properly in the event of the failure of some of its components
+* [Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)) - The process of distributing a set of tasks over a set of resources, with the aim of making their overall processing more efficient
+* [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) - A set of assertions describing false assumptions that programmers new to distributed applications invariably make
+* [Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault) - A condition of a distributed system, where components may fail and there is imperfect information about whether a component has failed
+  * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) - A fault-tolerant mechanism that is used in distributed systems to achieve the necessary agreement on a single data value among distributed processes or systems
+* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - A theorem stating that any distributed data store can provide only two of the following three guarantees: Consistency, Availability, and Partition tolerance
+* [BASE properties](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/) - A database model that prioritizes availability over consistency
 
 ### Distributed Storage Systems
 
@@ -155,6 +157,8 @@
   * [Coordinate system](https://en.wikipedia.org/wiki/Coordinate_system) - A system that uses one or more numbers, or coordinates, to uniquely determine and standardize the position of the points or other geometric elements on a manifold such as Euclidean space
   * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) - The length of the line segment between two points in a Euclidean space
 * [Root mean square](https://en.wikipedia.org/wiki/Root_mean_square) - The square root of the mean of the squares of a set of numbers
+* Transforms
+  * [Discrete Fourier transform](https://en.wikipedia.org/wiki/Discrete_Fourier_transform) - A discrete version of the Fourier transform that converts a finite sequence of equally-spaced samples of a function into a same-length sequence of equally-spaced samples of the discrete-time Fourier transform (DTFT)
 * Related Resources
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - The definitive reference for the special functions of applied mathematics
     * [Notations](https://dlmf.nist.gov/not/) - A list of notations used in the library
@@ -379,6 +383,7 @@
   * [DuckDuckGo](https://duckduckgo.com/) - The search engine that doesn't track you
 * Answer Engines
   * [Wolfram|Alpha](https://www.wolframalpha.com/) - A computational knowledge engine that computes expert-level answers using breakthrough algorithms, knowledgebase and AI technology
+  * [Perplexity AI](https://www.perplexity.ai/) - An AI-powered answer engine that provides accurate, trusted, and real-time answers to any question
 * Search Platforms and Tools
   * [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
     * [Painless](https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html) - A simple, secure scripting language designed specifically for use with the engine

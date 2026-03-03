@@ -6,9 +6,9 @@ Here is the link list of the source markdown files.
 
 - [Introduction](website/docs/intro.md)
 - [DSS-P Role Mapping Matrix](website/docs/dss-p.md)
-- [01 - Development Method, Management & Business](website/docs/skills/section01.md)
+- [01 - Software Development, Management & Business](website/docs/skills/section01.md)
 - [02 - Web Application Development](website/docs/skills/section02.md)
-- [03 - Cloud & Cloud-Native Engineering](website/docs/skills/section03.md)
+- [03 - Cloud & Cloud-Native Computing](website/docs/skills/section03.md)
 - [04 - Security & Privacy](website/docs/skills/section04.md)
 - [05 - Data Science & Engineering](website/docs/skills/section05.md)
 - [06 - AI, Machine Learning & LLM](website/docs/skills/section06.md)

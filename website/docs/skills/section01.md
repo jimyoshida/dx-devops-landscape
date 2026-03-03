@@ -1,6 +1,6 @@
-# 01 - Development Method, Management & Business
+# 01 - Software Development, Management & Business
 
-## Software Development & Design
+## Software Development Methods
 
 ### Agile Development
 
@@ -28,7 +28,7 @@
   * [Refactoring](https://refactoring.com/) - A disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior
     * [Software rot](https://en.wikipedia.org/wiki/Software_rot) - The tendency for software to deteriorate in quality, performance, or usefulness over time
     * [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) - A concept in software development that reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer
-      * [Technical Debt Radio](https://brainhub.eu/library/technical-debt-ratio) - A metric used to measure the cost of fixing the existing technical debt in a codebase compared to the cost of developing the entire codebase from scratch
+      * [Technical Debt Ratio](https://brainhub.eu/library/technical-debt-ratio) - A metric used to measure the cost of fixing the existing technical debt in a codebase compared to the cost of developing the entire codebase from scratch
   * [Test driven development](https://en.wikipedia.org/wiki/Test-driven_development) - A software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases
 * Tools for ATDD/BDD
   * [Gauge](https://gauge.org/index.html) - A free and open source test automation framework that takes the pain out of writing and maintaining acceptance tests
@@ -79,6 +79,52 @@
   * [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - A technique that reduces downtime and risk by running two identical production environments called Blue and Green
   * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
   * [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - A software development practice that seeks to apply the same principles of version control, testing, and deployment to enhance maintainability and scalability of all aspects of the development lifecycle, including networking infrastructure, documentation, and configuration
+
+## Software Design
+
+### Design Principles
+
+* [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
+* [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - A design principle for separating a computer program into distinct sections
+* [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - An approach for designing software that prescribes formal, precise and verifiable interface specifications for software components
+* [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - A design guideline for developing software, particularly object-oriented programs
+* [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - A mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable
+  * Single responsibility
+  * Open–closed
+  * Liskov substitution
+  * Interface segregation
+  * Dependency inversion
+* [The Reactive Manifesto](https://www.reactivemanifesto.org/) - A coherent approach to systems architecture where applications are responsive, resilient, elastic and message driven
+* [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - A set of cultural norms and philosophical approaches to software development
+* [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - A design principle which states that most systems work best if they are kept simple rather than made complicated
+
+### Design Best Practices
+
+* [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - A programming idiom where the life cycle of a resource is bound to the lifetime of an object
+* [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
+* [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
+* [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
+  * Codebase: One codebase tracked in revision control, many deploys.
+  * Dependencies: Explicitly declare and isolate dependencies.
+  * Config: Store config in the environment.
+  * Backing services: Treat backing services as attached resources.
+  * Build, release, run: Strictly separate build and run stages.
+  * Processes: Execute the app as one or more stateless processes.
+  * Port binding: Export services via port binding.
+  * Concurrency: Scale out via the process model.
+  * Disposability: Maximize robustness with fast startup and graceful shutdown.
+  * Dev/prod parity: Keep development, staging, and production as similar as possible.
+  * Logs: Treat logs as event streams.
+  * Admin processes: Run admin/management tasks as one-off processes.
+
+### Design Patterns
+
+* [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - A general, reusable solution to a commonly occurring problem within a given context in software design
+* [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - An architectural pattern used in software design and analysis that helps in structuring the responsibilities of classes in an object-oriented system
+* [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - A pattern that separates read and update operations for a data store
+* [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - A method for designing object-oriented APIs based on method chaining with the goal of making the readability of the source code close to that of ordinary written prose
+* [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
+* [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
 
 ### Requirement Engineering
 
@@ -227,7 +273,8 @@
   * Analytics tools
     * [Google Analytics](https://developers.google.com/analytics) - The go-to platform for millions of website and app owners seeking to gain a deeper understanding of their website and app performance
     * [Plausible](https://plausible.io/) - Intuitive, lightweight and open source web analytics
-    * [vince](https://www.vinceanalytics.com/) - A cost effective, self hosted, privacy friendly alternative to Google Analytics
+    * [Umami](https://umami.is/) - A simple, fast, privacy-focused alternative to Google Analytics
+    * [Ackee](https://ackee.electerious.com/) - Self-hosted, privacy-focused analytics tool for those who care about privacy
   * User experience research
     * [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) - A way to compare multiple versions of a single variable, for example by testing a subject's response to variant A against variant B, and determining which of the variants is more effective
     * [Diary studies](https://www.nngroup.com/articles/diary-studies/) - A research method in which people record their experiences and activities over time
@@ -267,6 +314,20 @@
   * [Project risk management](https://en.wikipedia.org/wiki/Project_risk_management) - The process of identifying, analyzing, and then responding to any risk that arises over the life cycle of a project to help the project remain on track and meet its goal
   * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
   * ISO 31000: Risk management
+
+## Workflow Automation Agents & Tools
+
+* [AionUI](https://github.com/iOfficeAI/AionUi) - A Cowork app for AI coding agents with document generation capabilities
+* [Dify](https://dify.ai/) - An open-source LLM app development platform
+* [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
+* [OpenClaw](https://openclaw.ai/) - An open-source personal AI assistant that automates tasks across various applications and platforms, running on the user's machine
+* [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
+* [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/enterprise/copilot-for-microsoft-365) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
+* Power Platform
+  * [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
+  * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
+  * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
+  * [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
 
 ## The Open Ecosystem
 

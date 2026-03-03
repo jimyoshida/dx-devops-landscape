@@ -164,10 +164,9 @@
 * [mail-tester](https://www.mail-tester.com/) - A free online service that allows you to test your emails for Spam, Malformed Content and Mail Server Configuration problems
 * [Spamhaus Project](https://www.spamhaus.org/) - A non-profit organization that tracks spam and related cyber threats
 
-### Cloud Services
-
-* [Amazon SES](https://aws.amazon.com/ses/) - A cost-effective, flexible, and scalable email service that enables developers to send mail from within any application
-* [Twilio SendGrid](https://www.twilio.com/sendgrid/email-api) - A cloud-based email delivery service that helps businesses with email delivery
+* Cloud Services
+  * [Amazon SES](https://aws.amazon.com/ses/) - A cost-effective, flexible, and scalable email service that enables developers to send mail from within any application
+  * [Twilio SendGrid](https://www.twilio.com/sendgrid/email-api) - A cloud-based email delivery service that helps businesses with email delivery
 
 ## Linux System Architecture
 
@@ -225,22 +224,20 @@
 ### Virtualization Management
 
 * [libvert](https://libvirt.org/) - A toolkit to manage virtualization platforms
+* [OpenNebula](https://opennebula.io/) - The Enterprise Cloud and Virtualization Platform that delivers end-to-end coverage, vendor neutrality, and comprehensive support across cloud and virtualization management, hypervisor operations, and Kubernetes orchestration
 
 ### CPU Emulators
 
 * [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
 
-## Computer Hardware
+### Computer Hardware
 
-### CPU Architectures
-
-* [x86-64](https://en.m.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
-* [ARM64](https://en.m.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
-
-### Extensions
-
-* [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
-* [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
+* CPU Architectures
+  * [x86-64](https://en.m.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
+  * [ARM64](https://en.m.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
+* CPU Extensions
+  * [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
+  * [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
 
 ## Linux Host Administration
 

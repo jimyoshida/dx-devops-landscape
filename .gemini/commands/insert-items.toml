@@ -1,0 +1,15 @@
+# Description shown in /help
+description = "Insert new items into the proper sections"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+For each skill/concept/tool/platform item provided, find the most proper website URL.
+And find its most proper subsection of the skill set (e.g., section03.md -> Cloud-Native Computing > Cloud-Native Infrastructure).
+You may create a new subsection if there is no proper one for the item.
+Then insert the new Markdown hyperlink element based on the document convention in the subsection.
+Explain why the subsection is selected for the item.
+
+Input Items:
+{{args}}
+"""

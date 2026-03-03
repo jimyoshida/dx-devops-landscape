@@ -1,0 +1,12 @@
+# Description shown in /help
+description = "Suggest new items for the specified subsection"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+For the subsection title provided, suggest some of the most relative items which are missing in the subsection.
+Then insert the new Markdown hyperlink elements based on the document convention in the subsection.
+
+Input Title:
+{{args}}
+"""

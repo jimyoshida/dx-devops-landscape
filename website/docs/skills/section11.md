@@ -1,5 +1,78 @@
 # 11 - Advanced Programming 2
 
+## Logic
+
+* [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
+  * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
+    * Deductive, Inductive, Abductive and Analogical
+* Branches of Logic
+  * [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
+  * [Formal logic](https://en.wikipedia.org/wiki/Logic#Formal_logic) - A system of reasoning that uses abstract rules and symbols to represent and evaluate the structure of arguments
+
+### Informal Logic
+
+* [Argument](https://en.wikipedia.org/wiki/Argument) - The central object of study in informal logic; a series of statements (premises) intended to determine the degree of truth of another statement (the conclusion)
+  * [Enthymeme](https://en.wikipedia.org/wiki/Enthymeme) - An argument in which one premise is not explicitly stated, a common feature of real-world reasoning
+* Criteria for Argument Evaluation
+  * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
+  * [Category mistake](https://en.wikipedia.org/wiki/Category_mistake) - The broader application of informal logic and other skills (like analysis and self-reflection) to decide what to believe or do
+* Related Fields
+  * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
+  * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
+
+### Formal Logic
+
+* Foundational Concepts
+  * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
+  * [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - The two theorems of mathematical logic that demonstrate the inherent limitations of every formal axiomatic system capable of modelling basic arithmetic
+  * Logic Principles
+    * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - A pair of transformation rules that are both valid rules of inference
+    * [Law of noncontradiction](https://en.wikipedia.org/wiki/Law_of_noncontradiction) - The law that states that for any given proposition, the proposition and its negation cannot both be simultaneously true
+    * [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle) - The principle that for every proposition, either this proposition or its negation is true
+    * [Peirce's law](https://en.wikipedia.org/wiki/Peirce%27s_law) - The principle in classical logic that the law of excluded middle holds for any proposition
+    * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
+* Logical Systems
+  * [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
+    * conjunction, disjunction, implication, biconditional and negation
+    * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
+  * [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
+    * universal quantification and existential quantification
+  * [Higher order logic](https://en.wikipedia.org/wiki/Higher-order_logic) - A form of logic that is distinguished from first-order logic by additional quantifiers and, sometimes, stronger semantics
+  * [Modal logic](https://en.wikipedia.org/wiki/Modal_logic) - A type of logic that is used to represent statements about possibility and necessity
+* Branches of Mathematical Logic
+  * [Set theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
+  * Naive set theory
+    * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
+    * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
+    * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
+      * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
+    * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
+    * [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
+  * Axiomatic set theory
+    * [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory) - An axiomatic system that was proposed in the early twentieth century in order to formulate a theory of sets free of paradoxes such as Russell's paradox
+      * Ordinals & Cardinals
+  * [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
+    * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
+  * [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
+    * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
+    * [Natural deduction](https://en.wikipedia.org/wiki/Natural_deduction) - A kind of proof calculus in which logical reasoning is expressed by inference rules closely related to the "natural" way of reasoning
+  * [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
+    * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
+    * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
+  * [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
+* Applications
+  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
+  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
+  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
+  * [Formal verification](https://en.wikipedia.org/wiki/Formal_verification) - the act of proving or disproving the correctness of a system with respect to a certain formal specification or property, using formal methods of mathematics
+    * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
+* Tools and Resources
+  * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
+  * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
+  * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
+  * [P](https://p-org.github.io/P/) - A state machine based programming language for formally modeling and specifying complex distributed systems
+  * [Lean](https://leanprover.github.io/) - An interactive theorem prover and programming language based on the Calculus of Constructions
+
 ## Desktop Environment
 
 * Linux Desktop Environment
@@ -75,6 +148,7 @@
   * [zlib](https://zlib.net/) - A free, general-purpose, legally unencumbered lossless data-compression library for use on virtually any computer hardware and operating system
   * [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - A safer zlib
   * [snappy](https://google.github.io/snappy/) - A compression/decompression library that aims for very high speeds and reasonable compression
+  * [rubyzip](https://github.com/rubyzip/rubyzip) - A ruby library for reading and writing zip files
 
 ## Document Processing
 
@@ -109,6 +183,7 @@
   * [docx2txt](https://github.com/ankushshah89/python-docx2txt) - A pure python-based command line tool to extract text from docx files
   * [pptx2md](https://github.com/ssine/pptx2md) - A simple tool for converting pptx to markdown
 * Libraries
+  * [python-pptx](https://python-pptx.readthedocs.io/en/latest/) - A Python library for creating and updating PowerPoint (.pptx) files
   * [Excelize](https://xuri.me/excelize/) - A Go library for reading and writing XLSX/XLSM/XLTM files
   * [Roo](https://github.com/roo-rb/roo) - A library that can access the contents of various spreadsheet files
 
@@ -159,16 +234,12 @@
     * [Pure python QR Code generator](https://github.com/lincolnloop/python-qrcode) - A library that provides a simple way to create QR codes in Python
     * [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment) - A contactless payment method where a payment is performed by scanning a QR code from a mobile app
 
-## Ecosystem Tools
+## MS365 Ecosystem Tools
 
 * M365 Tools
   * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
   * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
   * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
-* Power Platform
-  * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps)
-  * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate)
-  * [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages)
 
 ## Internet of Things (IoT)
 
@@ -180,12 +251,14 @@
   * [Over-the-air update](https://en.wikipedia.org/wiki/Over-the-air_update) - The wireless delivery of new software, firmware, or other data to mobile devices
 * Communication Standards
   * [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi) - A family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access
-  * [Bluetooth LE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) - A wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group aimed at novel applications in the healthcare, fitness, beacons, security, and home entertainment industries
+  * [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) - A wireless personal area network technology designed to provide considerably reduced power consumption and cost while maintaining a similar communication range to classic Bluetooth
   * [Zigbee](https://en.wikipedia.org/wiki/Zigbee) - An IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios
+  * [Near-field communication](https://en.wikipedia.org/wiki/Near-field_communication) - A set of communication protocols that enables communication between two electronic devices over a distance of 4 cm (1+1⁄2 in) or less
 * Devices
   * [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
 * PaaS
   * [Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub) - A managed cloud-based service that serves as a central message hub for communication between an IoT application and its connected devices
+  * [AWS IoT Greengrass](https://aws.amazon.com/greengrass/) - An open-source edge runtime and cloud service for building, deploying, and managing device software
 
 ## Computer Graphics & Game Development
 

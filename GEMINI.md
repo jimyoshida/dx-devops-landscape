@@ -8,13 +8,21 @@ The 12 markdown files under the "website/docs/skills/" directory contain the ski
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
 Each level 2 header can have up to 4 level 3 headers as subsections.
 Each level 3 header can have up to 4 level 4 headers as subsections.
-The skill items are classified with those subsections.
-You can place core concepts or common things just after level 2 or 3 headers.
+The skill items are classified into those subsections.
+You can place those items just after level 2 or 3 headers.
 
-If the item has a hyperlink, it should have its abstract description string.
+You should use grouping items instead of subsections when the group title is generic like "Cloud Services".
+That is to meet "MD024/no-duplicate-heading" in markdownlint rules.
+
+Each skill item should have a hyperlink which label is the concise linked website title.
+The website should be its own project/product home or its article on Wikipedia.
+And the item should have its abstract description string just after the link element.
+
 The description string should be quoted from the linked site as much as possible.
 The description string should start with "A" or "The", and must omit the trailing period.
 Don't repeat the item name in the description string.
+
+Make sure the file meets "MD047/single-trailing-newline" in markdownlint rules.
 
 <Contents_Example>
 

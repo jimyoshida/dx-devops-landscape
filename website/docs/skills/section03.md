@@ -1,4 +1,4 @@
-# 03 - Cloud & Cloud-Native Engineering
+# 03 - Cloud & Cloud-Native Computing
 
 ## Cloud Computing
 
@@ -17,6 +17,7 @@
 * [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/) - The fundamental building block for your private network in Azure
 access to high-performance networking
 * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer) - A service that allows you to distribute traffic to your backend virtual machines
+* [Azure Application Gateway](https://azure.microsoft.com/en-us/products/application-gateway) - A platform-managed, scalable, and highly available application delivery controller as a service
 * [Google Cloud VPC](https://cloud.google.com/vpc/docs/vpc) - A virtual version of a physical network that is implemented inside of Google's production network by using Andromeda
 * [Cloud Load Balancing](https://cloud.google.com/load-balancing/docs/load-balancing-overview) - A fully distributed, software-defined, managed service for all your traffic
 
@@ -29,6 +30,10 @@ access to high-performance networking
 ### Cloud Emulators
 
 * [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
+
+### Cloud Architecture Frameworks
+
+* [Azure Well-Architected Framework](https://learn.microsoft.com/en-sg/azure/well-architected/) - A set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads
 
 ## Configuration as Code
 
@@ -47,24 +52,24 @@ access to high-performance networking
 
 * [Hashicorp Packer](https://packer.io/) - A tool for creating identical machine images for multiple platforms from a single source configuration
 
-### Terraform/OpenTofu Ecosystem
+### Ecosystem & Vendor Tools
 
-* [Terraform/OpenTofu Provider: Core Functions](https://github.com/northwood-labs/terraform-provider-corefunc) - A Terraform/OpenTofu provider for performing core functions
-* [TerraGrant](https://terragrunt.gruntwork.io/) - A thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state
-* [TerraTest](https://terratest.gruntwork.io/) - A Go library that provides patterns and helper functions for testing infrastructure
-* [Atmos](https://atmos.tools/) - A universal tool for DevOps and Cloud Engineering that orchestrates workflows and simplifies the management of infrastructure
-* [GitLab-managed Terraform/OpenTofu state](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html) - A feature that allows you to store your Terraform state files in GitLab
-* [tf.libsonnet](https://docs.tflibsonnet.com/) - A collection of Jsonnet libraries for generating Terraform code
-* [terraform-docs](https://terraform-docs.io/) - A utility to generate documentation from Terraform modules in various output formats
-* [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - A CLI tool to generate terraform files from existing infrastructure
-
-### Vendor-specific Tools
-
-* [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - A service that helps you model and set up your Amazon Web Services resources
-* [AWS CDK](https://aws.amazon.com/cdk/) - An open source software development framework to define your cloud application resources using familiar programming languages
-* [AWS SAM](https://aws.amazon.com/serverless/sam/) - An open-source framework for building serverless applications
-* [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
-  * [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
+* Terraform/OpenTofu Ecosystem
+  * [Terraform/OpenTofu Provider: Core Functions](https://github.com/northwood-labs/terraform-provider-corefunc) - A Terraform/OpenTofu provider for performing core functions
+  * [TerraGrant](https://terragrunt.gruntwork.io/) - A thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state
+  * [TerraTest](https://terratest.gruntwork.io/) - A Go library that provides patterns and helper functions for testing infrastructure
+  * [Atmos](https://atmos.tools/) - A universal tool for DevOps and Cloud Engineering that orchestrates workflows and simplifies the management of infrastructure
+  * [GitLab-managed Terraform/OpenTofu state](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html) - A feature that allows you to store your Terraform state files in GitLab
+  * [tf.libsonnet](https://docs.tflibsonnet.com/) - A collection of Jsonnet libraries for generating Terraform code
+  * [terraform-docs](https://terraform-docs.io/) - A utility to generate documentation from Terraform modules in various output formats
+  * [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - A CLI tool to generate terraform files from existing infrastructure
+* Vendor-specific Tools
+  * [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - A service that helps you model and set up your Amazon Web Services resources
+  * [AWS CDK](https://aws.amazon.com/cdk/) - An open source software development framework to define your cloud application resources using familiar programming languages
+  * [AWS SAM](https://aws.amazon.com/serverless/sam/) - An open-source framework for building serverless applications
+  * [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
+    * [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
+    * [Azure Resource Graph](https://azure.microsoft.com/en-us/get-started/azure-portal/resource-graph) - A powerful management tool to query, explore, and analyze your cloud resources at scale
 
 ## Version Control System
 
@@ -117,90 +122,78 @@ access to high-performance networking
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
 
-### Linux Distros for Containers
+### Fundamentals
 
-* [Alpine Linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
-  * [apk-tools](https://gitlab.alpinelinux.org/alpine/apk-tools) - A package manager originally built for Alpine Linux
-* [Fedora CoreOS](https://fedoraproject.org/coreos/) - An automatically updating, minimal operating system for running containerized workloads securely and at scale
-* [Flatcar Container Linux](https://www.flatcar.org/) - An immutable Linux distribution for containers
+* Linux Distros for Containers
+  * [Alpine Linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
+    * [apk-tools](https://gitlab.alpinelinux.org/alpine/apk-tools) - A package manager originally built for Alpine Linux
+  * [Fedora CoreOS](https://fedoraproject.org/coreos/) - An automatically updating, minimal operating system for running containerized workloads securely and at scale
+  * [Flatcar Container Linux](https://www.flatcar.org/) - An immutable Linux distribution for containers
+* Utilities in Containers
+  * [busybox](https://busybox.net/about.html) - A single small executable that combines tiny versions of many common UNIX utilities
+* Standards
+  * [The Open Container Initiative (OCI)](https://opencontainers.org/) - An open governance structure for the express purpose of creating open industry standards around container formats and runtimes
+  * [Compose Specification](https://compose-spec.io/) - A developer-focused standard for defining cloud and platform agnostic container-based applications
+  * [Development Containers](https://containers.dev/) - An open specification for enriching containers with development-specific settings, tools, and configuration
 
-### Utilities in Containers
+### Engines & Runtimes
 
-* [busybox](https://busybox.net/about.html) - A single small executable that combines tiny versions of many common UNIX utilities
+* Container Engines
+  * [Docker Engine](https://docs.docker.com/engine/) - An open source containerization technology for building and containerizing your applications
+    * [Docker Rootless mode](https://docs.docker.com/engine/security/rootless/) - A feature that allows the Docker daemon and containers to run as a non-root user, mitigating potential vulnerabilities
+  * [podman](https://podman.io/) - A powerful container engine for building, managing, and running containers and pods
+    * [podman-static](https://github.com/mgoltzsche/podman-static) - Alpine-based container images and statically linked (rootless) binaries for Linux
+* Container Runtimes
+  * [containerd](https://containerd.io/) - An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+    * [nerdctl](https://github.com/containerd/nerdctl) - A Docker-compatible CLI for containerd
+    * [ctr](https://manpages.debian.org/experimental/containerd/ctr.1.en.html) - An unsupported debug and administrative client for interacting with the containerd daemon
+  * [CRI-O](https://cri-o.io/) - An implementation of the Kubernetes CRI (Container Runtime Interface) to enable using OCI (Open Container Initiative) compatible runtimes
+    * [cri-tools](https://github.com/kubernetes-sigs/cri-tools) - A set of tools for CRI
+* OCI Runtimes
+  * [runc](https://github.com/opencontainers/runc) - A CLI tool for spawning and running containers according to the OCI specification
+  * [crun](https://github.com/containers/crun) - A fast and lightweight fully featured OCI runtime and C library for running containers
 
-### Standards
+### Image Management
 
-* [The Open Container Initiative (OCI)](https://opencontainers.org/) - An open governance structure for the express purpose of creating open industry standards around container formats and runtimes
-* [Compose Specification](https://compose-spec.io/) - A developer-focused standard for defining cloud and platform agnostic container-based applications
-* [Development Containers](https://containers.dev/) - An open specification for enriching containers with development-specific settings, tools, and configuration
+* Image Building Tools
+  * [Docker Build](https://docs.docker.com/build/) - A part of the Docker Engine that automates the process of creating a Docker image from a Dockerfile and a context
+  * [buildah](https://buildah.io/) - A tool that facilitates building Open Container Initiative (OCI) container images
+  * [podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html) - A command that constructs OCI-compatible container images by interpreting instructions from a Containerfile or Dockerfile, leveraging Buildah for the underlying operations
+  * [Kaniko](https://github.com/GoogleContainerTools/kaniko) - A tool to build container images from a Dockerfile, inside a container or Kubernetes cluster
+* Image Inspection & Management Tools
+  * [skopeo](https://github.com/containers/skopeo) - A command line utility that performs various operations on container images and image repositories
+  * [dive](https://github.com/wagoodman/dive) - A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image
+  * [regclient](https://github.com/regclient/regclient) - A suite of command-line tools (regctl, regsync, regbot) for managing and inspecting OCI registries and images, supporting advanced features like multi-platform images and mirroring
+* Container Registries
+  * [GitLab Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html) - A secure and private registry for Docker images
+  * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
+  * [Project Quay](https://www.projectquay.io/) - An open-source, container-native image registry designed for building, organizing, distributing, and deploying containers
+  * [Docker Hub](https://docs.docker.com/docker-hub/) - A cloud-based registry service that allows developers and teams to store, share, and distribute Docker container images
+  * [Amazon ECR](https://aws.amazon.com/ecr/) - A fully managed container registry that makes it easy to store, manage, share, and deploy your container images and artifacts
+  * [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/) - A private registry for managing container images and related artifacts
+  * [Harbor](https://goharbor.io/) - An open source registry that secures artifacts with policies and role-based access control
 
-### Container Engines
+### Environment & Management
 
-* [Docker Engine](https://docs.docker.com/engine/) - An open source containerization technology for building and containerizing your applications
-  * [Docker Rootless mode](https://docs.docker.com/engine/security/rootless/) - A feature that allows the Docker daemon and containers to run as a non-root user, mitigating potential vulnerabilities
-* [podman](https://podman.io/) - A powerful container engine for building, managing, and running containers and pods
-  * [podman-static](https://github.com/mgoltzsche/podman-static) - Alpine-based container images and statically linked (rootless) binaries for Linux
-
-### Container Runtimes
-
-* [containerd](https://containerd.io/) - An industry-standard container runtime with an emphasis on simplicity, robustness and portability
-  * [nerdctl](https://github.com/containerd/nerdctl) - A Docker-compatible CLI for containerd
-  * [ctr](https://manpages.debian.org/experimental/containerd/ctr.1.en.html) - An unsupported debug and administrative client for interacting with the containerd daemon
-* [CRI-O](https://cri-o.io/) - An implementation of the Kubernetes CRI (Container Runtime Interface) to enable using OCI (Open Container Initiative) compatible runtimes
-  * [cri-tools](https://github.com/kubernetes-sigs/cri-tools) - A set of tools for CRI
-
-### OCI Runtimes
-
-* [runc](https://github.com/opencontainers/runc) - A CLI tool for spawning and running containers according to the OCI specification
-* [crun](https://github.com/containers/crun) - A fast and lightweight fully featured OCI runtime and C library for running containers
-
-### Image Building Tools
-
-* [Docker Build](https://docs.docker.com/build/) - A part of the Docker Engine that automates the process of creating a Docker image from a Dockerfile and a context
-* [buildah](https://buildah.io/) - A tool that facilitates building Open Container Initiative (OCI) container images
-* [podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html) - A command that constructs OCI-compatible container images by interpreting instructions from a Containerfile or Dockerfile, leveraging Buildah for the underlying operations
-* [Kaniko](https://github.com/GoogleContainerTools/kaniko) - A tool to build container images from a Dockerfile, inside a container or Kubernetes cluster
-
-### Image Inspection & Management Tools
-
-* [skopeo](https://github.com/containers/skopeo) - A command line utility that performs various operations on container images and image repositories
-* [dive](https://github.com/wagoodman/dive) - A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image
-* [regclient](https://github.com/regclient/regclient) - A suite of command-line tools (regctl, regsync, regbot) for managing and inspecting OCI registries and images, supporting advanced features like multi-platform images and mirroring
-
-### Container Management Tools
-
-* [Podman Desktop](https://podman-desktop.io/) - The best free and open source tool for developers to work with containers and Kubernetes, simplifying container management, streamlining Kubernetes workflows, and transitioning from local development to production with ease
-* [lazydocker](https://github.com/jesseduffield/lazydocker) - A terminal UI for both docker and docker-compose
-* [Docker Compose](https://docs.docker.com/compose/) - A tool for defining and running multi-container Docker applications
-
-### Local Environment Provisioners (for Mac)
-
-* [Colima](https://github.com/abiosoft/colima) - A tool that provides container runtimes on macOS (and Linux) with minimal setup
-* [Lima](https://lima-vm.io/) - A tool that launches Linux virtual machines with automatic file sharing and port forwarding
-
-### Container Registries
-
-* [GitLab Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html) - A secure and private registry for Docker images
-* [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
-* [Project Quay](https://www.projectquay.io/) - An open-source, container-native image registry designed for building, organizing, distributing, and deploying containers
-* [Docker Hub](https://docs.docker.com/docker-hub/) - A cloud-based registry service that allows developers and teams to store, share, and distribute Docker container images
-* [Amazon ECR](https://aws.amazon.com/ecr/) - A fully managed container registry that makes it easy to store, manage, share, and deploy your container images and artifacts
-* [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/) - A private registry for managing container images and related artifacts
-* [Harbor](https://goharbor.io/) - An open source registry that secures artifacts with policies and role-based access control
+* Container Management Tools
+  * [Podman Desktop](https://podman-desktop.io/) - The best free and open source tool for developers to work with containers and Kubernetes, simplifying container management, streamlining Kubernetes workflows, and transitioning from local development to production with ease
+  * [lazydocker](https://github.com/jesseduffield/lazydocker) - A terminal UI for both docker and docker-compose
+  * [Docker Compose](https://docs.docker.com/compose/) - A tool for defining and running multi-container Docker applications
+* Local Environment Provisioners (for Mac)
+  * [Colima](https://github.com/abiosoft/colima) - A tool that provides container runtimes on macOS (and Linux) with minimal setup
+  * [Lima](https://lima-vm.io/) - A tool that launches Linux virtual machines with automatic file sharing and port forwarding
 
 ## WebAssembly
 
-### Standards
+* Standards
+  * [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
+  * [WebAssembly System Interface (WASI)](https://github.com/WebAssembly/WASI) - A modular system interface for WebAssembly
+  * [WASIX](https://wasix.org/) - The long term stabilization and support of the existing WASI ABI plus additional non-invasive syscall extensions
 
-* [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
-* [WebAssembly System Interface (WASI)](https://github.com/WebAssembly/WASI) - A modular system interface for WebAssembly
-* [WASIX](https://wasix.org/) - The long term stabilization and support of the existing WASI ABI plus additional non-invasive syscall extensions
-
-### Runtimes
-
-* [wazero](https://wazero.io/) - The only zero dependency WebAssembly runtime written in Go
-* [Wasmtime](https://wasmtime.dev/) - A fast and secure runtime for WebAssembly
-* [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
+* Runtimes
+  * [wazero](https://wazero.io/) - The only zero dependency WebAssembly runtime written in Go
+  * [Wasmtime](https://wasmtime.dev/) - A fast and secure runtime for WebAssembly
+  * [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
 
 ## Kubernetes
 
@@ -219,67 +212,62 @@ access to high-performance networking
   * CSI (Container Storage Interface)
   * CRI (Container Runtime Interface)
 
-### K8s Internals
+### Core Concepts & Components
 
-* [Workloads](https://kubernetes.io/docs/concepts/workloads/) - The objects you use to manage and run your containers on the cluster
-* Pod
-  * [assignment](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/) - The process of constraining a Pod so that it is restricted to run on particular nodes, or to prefer to run on particular nodes
-  * [taint and toleration](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) - A mechanism that allows you to ensure that pods are not placed on inappropriate nodes
-  * [lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) - The lifecycle of a Pod
-  * [liveness probe](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) - A probe the kubelet uses to know when to restart a container
-  * requests and limits
-  * eviction
-* Deployment, ReplicaSet, StatefulSet, DaemonSet
-* [Kubernetes network model](https://kubernetes.io/docs/concepts/services-networking/) - A set of fundamental requirements and principles for networking in a Kubernetes cluster
-  * Service, Ingress, Ingress Controllers
-* [Storage](https://kubernetes.io/docs/concepts/storage/) - A powerful volume subsystem with an API that abstracts how storage is provided and consumed
-  * PersistentVolume, PVC, StorageClass
-* [Configuration](https://kubernetes.io/docs/concepts/configuration/) - A range of mechanisms that let you inject configuration data into the Pods that run your applications
-  * Secret, ConfigMap
-* Security & Policy
-  * [Kubernetes RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) - A method of regulating access to computer or network resources based on the roles of individual users within an enterprise
-  * [PodDisruptionBudget](https://kubernetes.io/docs/tasks/run-application/configure-pdb/) - An object that limits the number of concurrent disruptions that your application experiences, allowing for high availability
-  * [Security context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/) - A definition of privilege and access control settings for a Pod or Container
+* K8s Internals
+  * [Workloads](https://kubernetes.io/docs/concepts/workloads/) - The objects you use to manage and run your containers on the cluster
+  * Pod
+    * [assignment](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/) - The process of constraining a Pod so that it is restricted to run on particular nodes, or to prefer to run on particular nodes
+    * [taint and toleration](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) - A mechanism that allows you to ensure that pods are not placed on inappropriate nodes
+    * [lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) - The lifecycle of a Pod
+    * [liveness probe](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) - A probe the kubelet uses to know when to restart a container
+    * requests and limits
+    * eviction
+  * Deployment, ReplicaSet, StatefulSet, DaemonSet
+  * [Kubernetes network model](https://kubernetes.io/docs/concepts/services-networking/) - A set of fundamental requirements and principles for networking in a Kubernetes cluster
+    * Service, Ingress, Ingress Controllers
+  * [Storage](https://kubernetes.io/docs/concepts/storage/) - A powerful volume subsystem with an API that abstracts how storage is provided and consumed
+    * PersistentVolume, PVC, StorageClass
+  * [Configuration](https://kubernetes.io/docs/concepts/configuration/) - A range of mechanisms that let you inject configuration data into the Pods that run your applications
+    * Secret, ConfigMap
+  * Security & Policy
+    * [Kubernetes RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) - A method of regulating access to computer or network resources based on the roles of individual users within an enterprise
+    * [PodDisruptionBudget](https://kubernetes.io/docs/tasks/run-application/configure-pdb/) - An object that limits the number of concurrent disruptions that your application experiences, allowing for high availability
+    * [Security context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/) - A definition of privilege and access control settings for a Pod or Container
+* Autoscaling
+  * [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) - The component that automatically scales the number of Pods in a replication controller, deployment, replica set or stateful set based on observed CPU utilization
+  * [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master) - A tool that automatically adjusts the size of the Kubernetes cluster
 
-### Autoscaling
+### Operations & Management
 
-* [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) - The component that automatically scales the number of Pods in a replication controller, deployment, replica set or stateful set based on observed CPU utilization
-* [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master) - A tool that automatically adjusts the size of the Kubernetes cluster
+* K8s Operators
+  * [Prometheus Operator](https://prometheus-operator.dev/) - The operator that creates/configures/manages Prometheus clusters atop Kubernetes
+    * [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) - A collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring
+  * [OpenTelemetry Operator](https://opentelemetry.io/docs/kubernetes/operator/) - An implementation of a Kubernetes Operator for OpenTelemetry
+  * [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes) - The official operator for the Elastic Stack on Kubernetes
+  * [Rook](https://rook.io/) - An open source cloud-native storage orchestrator for Kubernetes
+* Dashboards
+  * [Kubernetes Lens IDE](https://k8slens.dev/) - The Kubernetes IDE
+  * [k9s](https://k9scli.io/) - A terminal based UI to interact with your Kubernetes cluster
+  * [KDash](https://kdash.cli.rs/) - A simple terminal dashboard for Kubernetes built with Rust
+  * [Seabird](https://getseabird.github.io/) - The native desktop app that simplifies working with Kubernetes
+  * [Headlamp](https://headlamp.dev/) - A user-friendly Kubernetes UI focused on extensibility
 
-### CLI Plugin Management
+### CLI & Local Environments
 
-* [Krew](https://krew.sigs.k8s.io/) - The plugin manager for kubectl command-line tool
-  * [kubectl-node-shell](https://github.com/kvaps/kubectl-node-shell) - A kubectl plugin to run a root shell on a node
-  * [kubectl-tree](https://github.com/ahmetb/kubectl-tree#readme) - A kubectl plugin to explore ownership relationships between Kubernetes objects
-  * [kubectl-pod-inspect](https://github.com/jpriebe/kubectl-pod-inspect#readme) - A kubectl plugin to view pod and container status at a glance
-  * [kubepug](https://github.com/rikatz/kubepug) - A pre-flight checking tool for Kubernetes APIs
-  * [rakkess](https://github.com/corneliusweig/rakkess) - A kubectl plugin to show an access matrix for all available resources
-  * [ketall](https://github.com/corneliusweig/ketall) - A kubectl plugin to get all resources
+* CLI Plugin Management
+  * [Krew](https://krew.sigs.k8s.io/) - The plugin manager for kubectl command-line tool
+    * [kubectl-node-shell](https://github.com/kvaps/kubectl-node-shell) - A kubectl plugin to run a root shell on a node
+    * [kubectl-tree](https://github.com/ahmetb/kubectl-tree#readme) - A kubectl plugin to explore ownership relationships between Kubernetes objects
+    * [kubectl-pod-inspect](https://github.com/jpriebe/kubectl-pod-inspect#readme) - A kubectl plugin to view pod and container status at a glance
+    * [kubepug](https://github.com/rikatz/kubepug) - A pre-flight checking tool for Kubernetes APIs
+    * [rakkess](https://github.com/corneliusweig/rakkess) - A kubectl plugin to show an access matrix for all available resources
+    * [ketall](https://github.com/corneliusweig/ketall) - A kubectl plugin to get all resources
+* Local K8s Tools
+  * [Minikube](https://minikube.sigs.k8s.io/docs/) - A tool that lets you run Kubernetes locally
+  * [Kind](https://kind.sigs.k8s.io/) - A tool for running local Kubernetes clusters using Docker container “nodes”
 
-### Dashboards
-
-* [Kubernetes Lens IDE](https://k8slens.dev/) - The Kubernetes IDE
-* [k9s](https://k9scli.io/) - A terminal based UI to interact with your Kubernetes cluster
-* [KubeLive](https://github.com/ameerthehacker/kubelive) - A kubectl tool reinvented to be more reactive and interactive
-* [KDash](https://kdash.cli.rs/) - A simple terminal dashboard for Kubernetes built with Rust
-* [k1s](https://github.com/weibeld/k1s) - A minimalistic Kubernetes dashboard
-* [Seabird](https://getseabird.github.io/) - The native desktop app that simplifies working with Kubernetes
-* [Headlamp](https://headlamp.dev/) - A user-friendly Kubernetes UI focused on extensibility
-
-### Local K8s Tools
-
-* [Minikube](https://minikube.sigs.k8s.io/docs/) - A tool that lets you run Kubernetes locally
-* [Kind](https://kind.sigs.k8s.io/) - A tool for running local Kubernetes clusters using Docker container “nodes”
-
-### K8s Operators
-
-* [Prometheus Operator](https://prometheus-operator.dev/) - The operator that creates/configures/manages Prometheus clusters atop Kubernetes
-  * [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) - A collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring
-* [OpenTelemetry Operator](https://opentelemetry.io/docs/kubernetes/operator/) - An implementation of a Kubernetes Operator for OpenTelemetry
-* [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes) - The official operator for the Elastic Stack on Kubernetes
-* [Rook](https://rook.io/) - An open source cloud-native storage orchestrator for Kubernetes
-
-### Other Tools
+### Ecosystem & Extensions
 
 * Application Packaging & Configuration
   * [Helm](https://helm.sh/) - The package manager for Kubernetes
@@ -360,41 +348,37 @@ access to high-performance networking
 
 ## CI/CD & GitOps
 
-### Continuous Delivery Tools
+### Delivery & Deployment
 
-* [Jenkins](https://www.jenkins.io/) - An open source automation server which enables developers around the world to reliably build, test, and deploy their software
-  * [Blue Ocean for Jenkins Pipelines](https://www.jenkins.io/projects/blueocean/) - A project that rethinks the user experience of Jenkins
-  * [Python Jenkins](https://opendev.org/jjb/python-jenkins) - A python wrapper for the Jenkins REST API
-* [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) - A part of GitLab that you can use to automate the builds, integration, and verification of your source code
-* [GitHub Actions](https://github.com/features/actions) - A feature that makes it easy to automate all your software workflows
-* [Concourse CI](https://concourse-ci.org/) - An automation system written in Go
-* [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/) - A cloud service that you can use to automatically build and test your code project and make it available to other users
+* Continuous Delivery Tools
+  * [Jenkins](https://www.jenkins.io/) - An open source automation server which enables developers around the world to reliably build, test, and deploy their software
+    * [Blue Ocean for Jenkins Pipelines](https://www.jenkins.io/projects/blueocean/) - A project that rethinks the user experience of Jenkins
+    * [Python Jenkins](https://opendev.org/jjb/python-jenkins) - A python wrapper for the Jenkins REST API
+  * [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) - A part of GitLab that you can use to automate the builds, integration, and verification of your source code
+  * [GitHub Actions](https://github.com/features/actions) - A feature that makes it easy to automate all your software workflows
+  * [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/) - A cloud service that you can use to automatically build and test your code project and make it available to other users
+* Application Deployment
+  * [Kamal](https://kamal-deploy.org/) - A tool to deploy web apps anywhere
 
-### Terraform Integration
+### GitOps & Cloud-Native
 
-* [Atrantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
+* GitOps Style CD
+  * [ArgoCD](https://argo-cd.readthedocs.io/) - A declarative, GitOps continuous delivery tool for Kubernetes
+  * [FluxCD](https://fluxcd.io/) - A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy
+* Cloud-Native Application Delivery
+  * [Open Application Model](https://oam.dev/) - A specification for describing applications so that they can be deployed and managed across any platform
+  * [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
+  * [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes
 
-### Private Package Registries
+### Integrations & Registries
 
-* [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/index.html) - A feature that allows you to publish and share packages for a variety of supported package managers
-* [GitHub Packages](https://github.com/features/packages) - A software package hosting service that allows you to host your software packages privately or publicly
-* [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
-* [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - A service that enables you to create and share Maven, npm, NuGet, and Python package feeds from public and private sources
-
-### GitOps Style CD
-
-* [ArgoCD](https://argo-cd.readthedocs.io/) - A declarative, GitOps continuous delivery tool for Kubernetes
-* [FluxCD](https://fluxcd.io/) - A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy
-
-### Cloud-Native Application Delivery
-
-* [Open Application Model](https://oam.dev/) - A specification for describing applications so that they can be deployed and managed across any platform
-* [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
-* [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes
-
-### Application Deployment
-
-* [Kamal](https://kamal-deploy.org/) - A tool to deploy web apps anywhere
+* Terraform Integration
+  * [Atrantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
+* Private Package Registries
+  * [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/index.html) - A feature that allows you to publish and share packages for a variety of supported package managers
+  * [GitHub Packages](https://github.com/features/packages) - A software package hosting service that allows you to host your software packages privately or publicly
+  * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
+  * [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - A service that enables you to create and share Maven, npm, NuGet, and Python package feeds from public and private sources
 
 ## SRE (Site Reliability Engineering)
 
@@ -491,7 +475,6 @@ access to high-performance networking
   * [Chaos Engineering](https://en.wikipedia.org/wiki/Chaos_engineering) - The practice of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production
   * [Principles of chaos engineering](https://principlesofchaos.org/) - The principles that define the practice of chaos engineering
 * Chaos Engineering Tools
-  * [Chaos Monkey](https://netflix.github.io/chaosmonkey/) - A resiliency tool that helps applications tolerate random instance failures
   * [Litmus](https://litmuschaos.io/) - A cloud-native chaos engineering framework for Kubernetes
   * [Chaos Mesh](https://chaos-mesh.org/) - A cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments
   * [Toxiproxy](https://github.com/Shopify/toxiproxy) - A TCP proxy to simulate network and system conditions for chaos and resiliency testing

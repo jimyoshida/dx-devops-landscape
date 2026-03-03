@@ -32,9 +32,17 @@
 * [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication) - A process in which both parties in a communications link authenticate each other
 * [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
 
+### Security Training & Competitions
+
+* [Capture the flag (cybersecurity)](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) - A hacking contest where participants use specialized knowledge and techniques to find hidden "Flags" (answers) and compete for the highest total score
+* Platforms
+  * [CTFd](https://ctfd.io/) - The easiest Capture The Flag platform to host your own cyber security workshop, providing a rock solid base that is easily customizable with themes and plugins
+
 ## Cryptography & Data Protection
 
-### Hashing
+### Core Cryptography
+
+#### Hashing
 
 * Hash Function
   * [MD5](https://en.wikipedia.org/wiki/MD5) - A cryptographically broken but still widely used hash function producing a 128-bit hash value
@@ -42,7 +50,7 @@
   * [Bcrypt](https://en.wikipedia.org/wiki/Bcrypt) - A password-hashing function based on the Blowfish cipher
   * [Scrypt](https://en.wikipedia.org/wiki/Scrypt) - A password-based key derivation function created by Colin Percival
 
-### Symmetric-key Cryptography
+#### Symmetric-key Cryptography
 
 * [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) - Algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext
 * Block Cipher
@@ -55,7 +63,7 @@
   * [GCM (Galois/Counter Mode)](https://en.wikipedia.org/wiki/Galois/Counter_Mode) - A mode of operation for symmetric-key cryptographic block ciphers which is widely adopted for its performance
   * [CCM](https://en.wikipedia.org/wiki/CCM_mode) - A mode of operation for cryptographic block ciphers designed to provide both authentication and confidentiality
 
-### Public-key Cryptography
+#### Public-key Cryptography
 
 * [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - A mathematical scheme for verifying the authenticity of digital messages or documents
 * [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) - A cryptographic system that uses pairs of keys
@@ -106,21 +114,26 @@
 * [Vault](https://www.vaultproject.io/) - A tool for securely accessing secrets like API keys, passwords, or certificates
 * [SOPS](https://github.com/mozilla/sops) - An editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
 * [git-secret](https://git-secret.io/) - A bash tool to store your private data inside a git repo
-* [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
+* Kubernetes Ecosystem
+  * [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
+  * [Secrets Store CSI Driver](https://secrets-store-csi-driver.sigs.k8s.io/) - A driver that allows Kubernetes to mount multiple secrets, keys, and certs stored in enterprise-grade external secrets stores into pods as a volume
+  * [External Secrets Operator](https://external-secrets.io/latest/) - A Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, and IBM Cloud Secrets Manager
 * Vendor Services
   * [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) - A cloud service to safeguard cryptographic keys and other secrets used by cloud apps and services
   * [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - A secure and convenient storage system for API keys, passwords, certificates, and other sensitive data
   * [AWS Key Management Service](https://aws.amazon.com/kms/) - A service that makes it easy for you to create and manage cryptographic keys
   * [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) - A secrets management service that helps you protect access to your applications, services, and IT resources
 
-### Advanced Topics
+### Applied Cryptography & Tools
+
+#### Advanced Topics
 
 * [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - Cryptographic algorithms that are thought to be secure against a cryptanalytic attack by a quantum computer
 * Information Hiding
   * [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of concealing a file, message, image, or video within another file, message, image, or video
   * [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - A kind of marker covertly embedded in a noise-tolerant signal such as an audio, video or image data
 
-### End-to-end Encryption Tools
+#### End-to-end Encryption Tools
 
 * [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) - A data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication
 * [OpenPGP](https://www.openpgp.org/) - A non-proprietary protocol for exchanging public keys and encrypted messages
@@ -128,11 +141,11 @@
 * [GnuPG](https://gnupg.org/) - A free software replacement for the PGP cryptographic software suite
 * [Gpg4win](https://www.gpg4win.org/) - A Windows software package that facilitates the secure transport of emails and files with the help of OpenPGP
 
-### Transaction Security
+#### Transaction Security
 
 * [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A security protocol designed to be an additional security layer for online credit and debit card transactions
 
-### Cryptographic Libraries
+#### Cryptographic Libraries
 
 * [PyCryptodome](https://www.pycryptodome.org/) - A self-contained Python package of cryptographic primitives
 * [Python cryptography](https://cryptography.io/en/latest/) - A package designed to expose cryptographic primitives and recipes to Python developers
@@ -210,7 +223,9 @@
 
 ## Secure Development Lifecycle (DevSecOps)
 
-### Secure Design & Modeling
+### Architecture & Practices
+
+#### Secure Design & Modeling
 
 * [Threat modeling](https://en.wikipedia.org/wiki/Threat_model) - A process by which potential threats can be identified, enumerated, and prioritized from a hypothetical attacker's point of view
 * [OWASP Threat Modeling](https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/) - Guidance from the OWASP Security Culture project on integrating threat modeling into the development lifecycle
@@ -223,7 +238,7 @@
   * [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - A free, open-source, cross-platform threat modeling application
   * [threatspec](https://threatspec.org/) - A tool that allows you to define threat models as code
 
-### Secure Development Practices
+#### Secure Development Practices
 
 * [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) - A set of fundamental, sound, and secure software development practices
 * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) - A standard for performing application-level security verifications
@@ -238,6 +253,10 @@
   * [Bandit](https://github.com/PyCQA/bandit) (for Python) - A tool designed to find common security issues in Python code
   * [Semgrep OSS](https://github.com/semgrep/semgrep) - A fast, open-source, static analysis tool for finding bugs and enforcing code standards
   * [Fluid attacks](https://docs.fluidattacks.com/tech/scanner/plans/foss/) - A security tool that allows you to find vulnerabilities in your source code, containers and dependencies
+* Dynamic Analysis (DAST)
+  * [ZAP](https://zaproxy.org/) - The world's most widely used web app scanner, free and open source, and a community based GitHub Top 1000 project that anyone can contribute to
+  * [Nuclei](https://github.com/projectdiscovery/nuclei) - A fast and customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL
+  * [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
 * Composition Analysis (SCA)
   * SBOM Generation:
     * [Syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
@@ -257,6 +276,13 @@
   * [Gitleaks](https://gitleaks.io/) - A SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
   * [Talisman](https://thoughtworks.github.io/talisman/) - A tool that installs a hook to your repository to ensure that potential secrets or sensitive information do not get committed
   * [TruffleHog](https://github.com/trufflesecurity/trufflehog) - A tool that scans your environment for secrets, digging deep into commit history and branches
+* AI-orchestrated Penetration Testing
+  * [PentestGPT](https://github.com/GreyDGL/PentestGPT) - An automated penetration testing framework powered by Large Language Models (LLMs)
+  * [PentAGI](https://github.com/vxcontrol/pentagi) - An open-source, fully autonomous AI agent system designed for automated security testing
+  * [Strix](https://github.com/usestrix/strix) - A set of autonomous AI agents that act like real hackers to run code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts
+  * [CAI](https://github.com/aliasrobotics/cai) - A lightweight, open-source framework that empowers security professionals to build and deploy AI-powered offensive and defensive automation
+  * [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - An advanced MCP server that lets AI agents autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research
+  * [Zen AI Pentest](https://shadd0wtaka.github.io/Zen-Ai-Pentest/) - An autonomous, AI-powered penetration testing framework that combines cutting-edge language models with professional security tools
 
 ### Infrastructure as Code (IaC) Security
 
@@ -279,10 +305,11 @@
 
 ## Runtime & Operational Security
 
-### Cloud & Workload Protection
+### Cloud-Native Application Protection (CNAPP)
 
+* [The 4 Cs of Cloud-Native Systems](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code) - A defense-in-depth approach that divides security strategies into four distinct layers to provide multilayered protection for cloud-native applications
+* [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - A cloud-native application protection platform (CNAPP) with a set of security measures and practices designed to protect cloud-based applications
 * Cloud Security Posture Management (CSPM)
-  * [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - A cloud-native application protection platform (CNAPP) with a set of security measures and practices designed to protect cloud-based applications
   * [AWS Security Hub](https://aws.amazon.com/security-hub/) - A cloud security posture management (CSPM) service that performs security best practice checks, aggregates alerts, and enables automated remediation
   * [cnquery](https://mondoo.com/cnquery) - A cloud-native, graph-based security tool that allows you to query your entire infrastructure as data
 * Cloud Workload Protection Platform (CWPP)
@@ -316,13 +343,21 @@
   * [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - A customizable validating webhook that enforces policies executed by the Open Policy Agent (OPA)
   * [Kyverno](https://kyverno.io/) - A policy engine designed for Kubernetes
 
-### Digital Forensics & Incident Response
+### Digital Forensics & Incident Response (DFIR)
 
-* [Digital forensics](https://en.wikipedia.org/wiki/Digital_forensics) - A branch of forensic science that involves the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to mobile devices and computer crime
+* Concepts
+  * [Computer security incident management](https://en.wikipedia.org/wiki/Computer_security_incident_management) - The monitoring and detection of security events on a computer or computer network, and the execution of proper responses to those events
+  * [Digital forensics](https://en.wikipedia.org/wiki/Digital_forensics) - A branch of forensic science that involves the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to mobile devices and computer crime
+  * [Computer forensics](https://en.wikipedia.org/wiki/Computer_forensics) - A branch of digital forensic science pertaining to evidence found in computers and digital storage media
+* Tools & Platforms
+  * [Volatility](https://github.com/volatilityfoundation/volatility3) - The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples
+  * [Autopsy](https://github.com/sleuthkit/autopsy) - A digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools
 
 ## Secure Communications & Networking
 
-### Transport Layer Security (TLS)
+### Secure Protocols
+
+#### Transport Layer Security (TLS)
 
 * [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security) - A cryptographic protocol designed to provide communications security over a computer network
 * [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) - An extension to the Transport Layer Security (TLS) computer networking protocol
@@ -334,7 +369,7 @@
 * Vulnerabilities
   * [Lucky Thirteen attack](https://en.wikipedia.org/wiki/Lucky_Thirteen_attack) - A timing attack against the TLS protocol that allows an attacker to decrypt ciphertext
 
-### Secure Shell (SSH)
+#### Secure Shell (SSH)
 
 * [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) - A cryptographic network protocol for operating network services securely over an unsecured network
 * Tools & Libraries
@@ -343,7 +378,9 @@
   * [ssh-audit](https://github.com/jtesta/ssh-audit) - A tool for SSH server & client configuration auditing
   * [keychain](https://www.funtoo.org/Funtoo:Keychain) - A manager for ssh-agent, typically started from ~/.bash_profile
 
-### Web Application Security
+### Web & Network Protection
+
+#### Web Application Security
 
 * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
 * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
@@ -353,7 +390,7 @@
 * [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
 * [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
 
-### Firewalls & Network Protection
+#### Firewalls & Network Protection
 
 * Web Application Firewall (WAF)
   * [AWS WAF](https://aws.amazon.com/waf/) - A web application firewall that helps protect your web applications or APIs against common web exploits and bots

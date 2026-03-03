@@ -81,6 +81,7 @@
 ### Linux or Unix-like environments on Windows
 
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - A feature of Windows that enables you to run a GNU/Linux environment on your Windows machine without the need for a separate virtual machine or dual booting
+  * [WSLg](https://github.com/microsoft/wslg) - A project that enables support for running Linux GUI applications (X11 and Wayland) on Windows in a fully integrated desktop experience
 * [Git for Windows](https://gitforwindows.org/) - A lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
 * [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
 
@@ -145,32 +146,17 @@
   * [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
   * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
 
-### Go, Ruby, Perl & Others
+### Ruby, Perl & Others
 
-* [Go](https://go.dev/) - An open-source programming language supported by Google
-  * Core Features
-    * [Go Modules](https://go.dev/wiki/Modules) - The dependency management system for the Go programming language
-    * [Defer, panic and recover](https://go.dev/blog/defer-panic-and-recover) - The powerful but unusual control-flow mechanisms in Go
-    * [Pointer receiver](https://go.dev/tour/methods/4) - A method that operates on a pointer to the type, allowing it to modify the value to which the receiver points
-    * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
-    * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
-    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
-  * Libraries
-    * [lo](https://github.com/samber/lo) - A Lodash-style Go library
-    * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
-    * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
-  * Tools
-    * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
-  * Tutorials
-    * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
-    * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
-    * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
 * [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
   * Core Features
-    * Percent notation
-    * block, yield, proc, lambda
-    * Dynamic method definition
-    * instance_eval
+    * [Percent notation](https://docs.ruby-lang.org/en/master/syntax/literals_rdoc.html) - A concise syntax for generating various literal types, such as strings, arrays, and regular expressions, using a percent sign and delimiters
+    * [Fiber](https://docs.ruby-lang.org/en/master/Fiber.html) - A lightweight concurrency primitive that allows for cooperative multitasking by pausing and resuming execution
+    * [proc](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-proc) - A mechanism to encapsulate a block of code into an object that can be stored, passed, and executed
+    * [lambda](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-lambda) - A specialized block object that enforces strict argument checking and localized return behavior
+    * [then](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-then) - A method that yields the object itself to a block and returns the result, facilitating functional-style method chaining
+    * [define_method](https://docs.ruby-lang.org/en/master/Module.html#method-i-define_method) - The ability to create and register methods at runtime using `define_method`, enhancing code flexibility and reducing repetition
+    * [instance_eval](https://docs.ruby-lang.org/en/master/BasicObject.html#method-i-instance_eval) - A method that evaluates a block or string within the context of a specific object instance, granting access to its internal scope and private methods
   * Libraries
     * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
     * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
@@ -183,7 +169,8 @@
       * [Reference](https://perldoc.perl.org/perlreftut#Making-References) - A scalar data type that 'points' to another piece of data
     * [Quote-like operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#Simpler-Quote-Like-Operators) - A set of generic quoting operators
     * [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - The operators used for input and output operations, such as reading from a filehandle
-* [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
+* [Tcl](https://www.tcl-lang.org/) - A dynamic programming language and a graphical user interface toolkit used for a wide range of applications
+  * [Event-driven by design](https://wiki.tcl-lang.org/page/event+loop) - The built-in event loop that makes it ideal for GUIs and networking
 * [Lua (for NGINX/Neovim)](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
 * [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
   * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
@@ -211,6 +198,7 @@
   * [Typer](https://typer.tiangolo.com/) - A library for building CLI applications that users will love using and developers will love creating
   * [Asciimatics](https://github.com/peterbrittain/asciimatics) - A package that provides a cross-platform, full-screen terminal API for building text-based user interfaces
   * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/) - A library for building powerful interactive command line and terminal applications in Python
+  * [Questionary](https://github.com/tmbo/questionary) - A Python library for building interactive command line prompts
   * [Urwid](https://urwid.org/) - A console user interface library for Python
   * [Textual](https://textual.textualize.io/) - A Rapid Application Development framework for Python, built by Textualize.io
     * [Rich](https://github.com/Textualize/rich) - A Python library for rich text and beautiful formatting in the terminal
@@ -219,12 +207,14 @@
   * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
   * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
   * [thor](https://github.com/rails/thor) - A toolkit for building powerful command-line interfaces
+  * [dry-cli](https://dry-rb.org/gems/dry-cli/) - A general-purpose framework for developing Command Line Interface (CLI) applications that represents commands as objects and offers support for arguments, options, and forwarding variadic arguments to sub-commands
 * Javascript
   * [yargs](https://yargs.js.org/) - A library for building interactive command line tools by parsing arguments and generating an elegant user interface
   * [minimist](https://github.com/minimistjs/minimist) - A tool to parse argument options
   * [chalk](https://github.com/chalk/chalk) - A terminal string styling tool
   * [cli-progress](https://github.com/npkgz/cli-progress) - An easy to use progress-bar for command-line/terminal applications
   * [FIGLet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec
+  * [Ink](https://github.com/vadimdemedes/ink) - A React-based library for building CLI applications
   * [gradient-string](https://github.com/bokub/gradient-string) - A library for creating beautiful gradients in terminal output
 * Go
   * [Fang](https://github.com/charmbracelet/fang) - The CLI starter kit. A small, experimental library for batteries-included Cobra applications
@@ -260,6 +250,8 @@
     * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
     * [Winfsurf](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
     * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
+* Web-based
+  * [code-server](https://github.com/coder/code-server) - A VS Code instance running on a remote server, accessible through any web browser
 * Terminal-based
   * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
     * [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - The commands that move the cursor and the commands used to delete or change text

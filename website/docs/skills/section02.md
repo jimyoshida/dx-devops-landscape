@@ -26,6 +26,7 @@
   * [Fediverse](https://en.wikipedia.org/wiki/Fediverse)
   * [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
   * [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
+  * [TypeSpec](https://typespec.io/) - A minimal language that helps developers describe API shapes in a familiar way
   * API Tooling
     * [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
 * Performance
@@ -150,6 +151,7 @@
 * Frameworks and UI Kits
   * [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit
   * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
+  * [Oat](https://oat.ink/) - An ultra-lightweight, semantic, zero-dependency HTML UI component library that provides minimal, standards-based CSS and JS
 * CSS-in-JS
   * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
   * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
@@ -282,7 +284,7 @@
 
 ## Development & Testing Tools
 
-## Web/HTTP Clients
+### Web/HTTP Clients
 
 * CLIs
   * [cURL](https://curl.haxx.se/) - A command line tool and library for transferring data with URLs
@@ -310,18 +312,19 @@
   * [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
   * [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy
 
-## Web Debugging Tools
+### Web Debugging Tools
 
 * Web Debugging
   * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
   * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
 
-## Web Test Automation Frameworks
+### Web Test Automation Frameworks
 
 * Browser Automation & Testing
   * [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - A Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol
   * [Playwright](https://playwright.dev/) - A framework for Web Testing and Automation
-  * [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
+    * [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
+  * [Cypress](https://www.cypress.io/) - An open-source, JavaScript-based testing framework that enables developers to write, run, and debug end-to-end and component tests directly in the browser for modern web applications
   * [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
     * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
     * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents

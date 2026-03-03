@@ -16,6 +16,27 @@
   * Tutorials
     * [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - A collection of runnable examples that illustrate various Rust concepts and standard libraries
 
+### Go Language
+
+* [Go](https://go.dev/) - An open-source programming language supported by Google
+  * Core Features
+    * [Go Modules](https://go.dev/wiki/Modules) - The dependency management system for the Go programming language
+    * [Defer, panic and recover](https://go.dev/blog/defer-panic-and-recover) - The powerful but unusual control-flow mechanisms in Go
+    * [Pointer receiver](https://go.dev/tour/methods/4) - A method that operates on a pointer to the type, allowing it to modify the value to which the receiver points
+    * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
+    * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
+    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
+  * Libraries
+    * [lo](https://github.com/samber/lo) - A Lodash-style Go library
+    * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
+    * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
+  * Tools
+    * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
+  * Tutorials
+    * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
+    * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
+    * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
+
 ### C# and F# Languages
 
 * [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) - A modern, object-oriented, and type-safe programming language
@@ -34,6 +55,7 @@
   * [Built-in concurrency support](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) - The features of the Java platform designed from the ground up to support concurrent programming
 * [Scala](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
   * [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - A characteristic of a language that fuses object-oriented and functional programming in a statically typed setting
+* [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
 
 ### C & Other Languages
 
