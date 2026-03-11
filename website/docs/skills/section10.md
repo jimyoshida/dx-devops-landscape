@@ -96,6 +96,8 @@ support
   * [Python delorean](https://delorean.readthedocs.io/en/latest/index.html) - A library for clearing up the inconvenient truths that arise dealing with datetimes in Python
   * [Python arrow](https://arrow.readthedocs.io/en/latest/) - A Python library that offers a sensible and human-friendly approach to creating, manipulating, formatting and converting dates, times and timestamps
   * [Luxon](https://moment.github.io/luxon/#/) - A powerful, modern, and friendly wrapper for JavaScript dates and times
+  * [date-fns](https://date-fns.org/) - A modern JavaScript date utility library that provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js
+  * [Day.js](https://day.js.org/) - A minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for modern browsers with a largely Moment.js-compatible API
   * [Go time](https://pkg.go.dev/time) - A package that provides functionality for measuring and displaying time
   * [Go when](https://github.com/olebedev/when) - A natural language date/time parser with no dependencies
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) - A media type which allows users to store and exchange calendaring and scheduling information
@@ -337,6 +339,7 @@ support
 * [Monorepo Tools](https://monorepo.tools/) - A website with tools and resources for monorepos
   * [Lerna](https://lerna.js.org/) - The original monorepo tool for JavaScript/TypeScript
   * [Nx](https://nx.dev/) - A powerful open-source build system that provides tools and techniques for enhancing developer productivity
+  * [Turborepo](https://turborepo.dev/) - A high-performance build system for JavaScript and TypeScript codebases
   * [Gradle](https://gradle.org/) - An open-source build automation tool that is designed to be flexible enough to build almost any type of software
 
 ## Program Documentation

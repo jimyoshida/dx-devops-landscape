@@ -27,13 +27,21 @@ access to high-performance networking
 * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services
 * [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
 
+### Command Line Interfaces
+
+* [AWS CLI](https://aws.amazon.com/cli/) - A unified tool to manage your AWS services
+* [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) - A cross-platform command-line tool for managing Azure resources with interactive commands or scripts
+* [Azure Developer CLI (azd)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) - An open-source tool that accelerates your path from a local development environment to Azure
+* [Google Cloud CLI (gcloud)](https://cloud.google.com/cli) - A set of tools to create and manage Google Cloud resources and services
+
 ### Cloud Emulators
 
 * [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
 
 ### Cloud Architecture Frameworks
 
-* [Azure Well-Architected Framework](https://learn.microsoft.com/en-sg/azure/well-architected/) - A set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads
+* [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) - A set of guidance, patterns, and best practices for building secure, high-performing, resilient, and efficient infrastructure on Azure
+* [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) - A set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads
 
 ## Configuration as Code
 
@@ -70,53 +78,6 @@ access to high-performance networking
   * [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
     * [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
     * [Azure Resource Graph](https://azure.microsoft.com/en-us/get-started/azure-portal/resource-graph) - A powerful management tool to query, explore, and analyze your cloud resources at scale
-
-## Version Control System
-
-* [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
-  * [Git](https://git-scm.com/) - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
-    * local repository, remote repository
-    * branch, tag, worktree
-    * push, pull, fetch, rebase, reset, stash
-    * staging, commit
-  * [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
-  * [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
-  * [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
-  * [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - An improved sequence editor for Git
-  * [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
-  * [git filter-repo](https://github.com/newren/git-filter-repo) - A versatile tool for rewriting history
-  * [degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
-  * [Git Lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
-  * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
-  * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
-  * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
-
-### Git hosting services
-
-* [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - The single source of truth for collaborating on code and projects
-* [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-* [Codeberg](https://codeberg.org/) - A community-led effort that provides Git hosting and other services for free and open source projects
-* [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
-* [Soft Serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line
-* [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/) - A set of version control tools that you can use to manage your code
-* [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
-
-### Practices
-
-* [Trunk Based Development](https://trunkbaseddevelopment.com/) - A source-control branching model, where developers collaborate on code in a single branch called 'trunk', resist any pressure to create other long-lived development branches by employing documented techniques
-
-### Conventions
-
-* [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
-* [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages
-* [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
-  * [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
-  * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
-
-### AI commit tools
-
-* [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
-* [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
 
 ## Containerization
 
@@ -319,6 +280,7 @@ access to high-performance networking
   * [Cloud Hypervisor](https://www.cloudhypervisor.org/) - An open source Virtual Machine Monitor (VMM) implemented in Rust that focuses on running modern, cloud workloads, with minimal hardware emulation
   * [Firecracker](https://firecracker-microvm.github.io/) - An open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services
   * [QEMU microvm](https://www.qemu.org/docs/master/system/i386/microvm.html) - A minimalist machine type without PCI nor ACPI support, designed for short-lived guests, and optimized for both boot time and footprint
+  * [Docker Sandboxes](https://github.com/docker/sandboxes-releases) - The isolated, disposable environments designed to run AI coding agents in lightweight microVMs for enhanced security and system protection
 * Virtualization & Container Storage
   * [virtiofs](https://virtio-fs.gitlab.io/) - A shared file system that lets virtual machines access a directory tree on the host
 * Image Services & Distribution
@@ -380,6 +342,74 @@ access to high-performance networking
   * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
   * [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - A service that enables you to create and share Maven, npm, NuGet, and Python package feeds from public and private sources
 
+## System Observability
+
+### Instrumentation & Platforms
+
+* Concepts
+  * [Observability](https://en.wikipedia.org/wiki/Observability_(software)) - A measure of how well internal states of a system can be inferred from knowledge of its external outputs
+* Instrumentation Libraries
+  * [OpenTelemetry](https://opentelemetry.io/) - A vendor-neutral open source Observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs
+  * [Micrometer](https://micrometer.io/) - A metrics instrumentation library for JVM-based applications
+* Monitoring Tools
+  * [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
+* Managed Platforms
+  * [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - A comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments
+    * [Kusto Query Language](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/) - A powerful tool to explore your data and discover patterns, identify anomalies and outliers, create statistical models, and more
+    * [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - A feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals
+  * [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers
+  * [Datadog](https://www.datadoghq.com/) - The integrated platform for monitoring & security
+
+### Telemetry Shipment
+
+* Data Shippers
+  * [Prometheus exporters](https://prometheus.io/docs/instrumenting/exporters/) - The services that expose Prometheus metrics
+    * [node-exporter](https://prometheus.io/docs/guides/node-exporter/) - An exporter for hardware and OS metrics exposed by *NIX kernels
+    * [blackbox-exporter](https://github.com/prometheus/blackbox_exporter) - A tool that allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC
+  * [Grafana Alloy](https://grafana.com/oss/alloy-opentelemetry-collector/) - An open source OpenTelemetry collector with built-in Prometheus pipelines and support for metrics, logs, traces, and profiles
+  * [Fluent Bit](https://fluentbit.io/) - A super fast, lightweight, and highly scalable logging, metrics, and traces processor and forwarder
+  * [Fluentd](https://www.fluentd.org/) - An open source data collector, which lets you unify the data collection and consumption for a better use and understanding of data
+  * [Filebeat](https://www.elastic.co/beats/filebeat) - A lightweight shipper for forwarding and centralizing log data
+  * [Logstash](https://www.elastic.co/logstash) - An open source server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to your favorite "stash"
+  * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) - An open source server agent that helps you collect metrics from your stacks, sensors, and systems
+  * [Metricbeat](https://www.elastic.co/beats/metricbeat) - A lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server
+  * [rsyslog](https://www.rsyslog.com/) - The rocket-fast system for log processing
+* Vendor-specific Tools
+  * [Azure Monitor Agent](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview) - The agent that collects monitoring data from the guest operating system of Azure and hybrid virtual machines
+  * [Cloudwatch Agent](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html) - The agent you can use to collect both system-level metrics and log files from Amazon EC2 instances and on-premises servers
+
+### Telemetry Collection & Storage
+
+* Datastore and Alerting Tools
+  * [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit
+    * [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) - The Prometheus Query Language
+    * [promtool](https://prometheus.io/docs/prometheus/latest/command-line/promtool/) - The command line utility for the Prometheus server
+  * [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) - A tool that handles alerts sent by client applications such as the Prometheus server
+    * [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A cli tool for interacting with the Alertmanager API
+  * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) - A time series database built from the ground up to handle high write and query loads
+    * [InfluxQL](https://docs.influxdata.com/influxdb/v1/query_language/) - An SQL-like query language for interacting with data in InfluxDB
+    * [influx cli](https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/) - The command line interface for InfluxDB 2.0
+  * [Grafana Mimir](https://grafana.com/oss/mimir/) - An open source, horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus
+  * [Grafana Loki](https://grafana.com/oss/loki/) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus
+    * [LogQL](https://grafana.com/docs/loki/latest/query/) - The query language for Loki
+      * [LogCLI](https://grafana.com/docs/loki/latest/query/logcli/) - The command line interface for Loki
+  * [Grafana Tempo](https://grafana.com/oss/tempo/) - An open source, easy-to-use and high-scale distributed tracing backend
+    * [TraceQL](https://grafana.com/docs/tempo/latest/traceql/) - A query language designed for selecting traces
+  * [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
+    * [Elastic Common Schema](https://www.elastic.co/guide/en/ecs/current/index.html) - An open source specification, developed with support from the Elastic user community
+    * [Ingest pipelines](https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html) - A feature that lets you perform common transformations on your data before indexing
+    * [Dissect and Grok](https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html) - The processors that let you extract structured fields out of a single text field
+  * [Graphite](https://grafana.com/oss/graphite/) - A highly scalable real-time graphing system
+  * [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) - A feature that allows you to create and manage alerts for your data
+  * [OpenObserve](https://openobserve.ai/) - An open-source observability platform designed for modern applications
+
+### Visualization
+
+* Visualization Tools
+  * [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
+    * [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
+  * [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
+
 ## SRE (Site Reliability Engineering)
 
 * [Site Reliability Engineering](https://landing.google.com/sre/) - A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems
@@ -406,68 +436,8 @@ access to high-performance networking
 * Runbook Automation
   * [RunDeck](https://www.rundeck.com/) - An open source automation platform that helps you automate routine operational procedures in data center or cloud environments
   * [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
-
-### System Observability
-
-* Concepts
-  * [Observability](https://en.wikipedia.org/wiki/Observability_(software)) - A measure of how well internal states of a system can be inferred from knowledge of its external outputs
-* Instrumentation Libraries
-  * [OpenTelemetry](https://opentelemetry.io/) - A vendor-neutral open source Observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs
-  * [Micrometer](https://micrometer.io/) - A metrics instrumentation library for JVM-based applications
-* Tools
-  * [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
-
-#### Telemetry Shipment
-
-* Data Shippers
-  * [Prometheus exporters](https://prometheus.io/docs/instrumenting/exporters/) - The services that expose Prometheus metrics
-    * [node-exporter](https://prometheus.io/docs/guides/node-exporter/) - An exporter for hardware and OS metrics exposed by *NIX kernels
-    * [blackbox-exporter](https://github.com/prometheus/blackbox_exporter) - A tool that allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC
-  * [Grafana Alloy](https://grafana.com/oss/alloy-opentelemetry-collector/) - An open source OpenTelemetry collector with built-in Prometheus pipelines and support for metrics, logs, traces, and profiles
-  * [Fluent Bit](https://fluentbit.io/) - A super fast, lightweight, and highly scalable logging, metrics, and traces processor and forwarder
-  * [Fluentd](https://www.fluentd.org/) - An open source data collector, which lets you unify the data collection and consumption for a better use and understanding of data
-  * [Filebeat](https://www.elastic.co/beats/filebeat) - A lightweight shipper for forwarding and centralizing log data
-  * [Logstash](https://www.elastic.co/logstash) - An open source server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to your favorite "stash"
-  * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) - An open source server agent that helps you collect metrics from your stacks, sensors, and systems
-  * [Metricbeat](https://www.elastic.co/beats/metricbeat) - A lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server
-  * [rsyslog](https://www.rsyslog.com/) - The rocket-fast system for log processing
-* Vendor-specific Tools
-  * [Azure Monitor Agent](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview) - The agent that collects monitoring data from the guest operating system of Azure and hybrid virtual machines
-  * [Cloudwatch Agent](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html) - The agent you can use to collect both system-level metrics and log files from Amazon EC2 instances and on-premises servers
-
-#### Telemetry Collection
-
-* Datastore and Alerting Tools
-  * [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit
-    * [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) - The Prometheus Query Language
-    * [promtool](https://prometheus.io/docs/prometheus/latest/command-line/promtool/) - The command line utility for the Prometheus server
-  * [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) - A tool that handles alerts sent by client applications such as the Prometheus server
-    * [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A cli tool for interacting with the Alertmanager API
-  * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) - A time series database built from the ground up to handle high write and query loads
-    * [InfluxQL](https://docs.influxdata.com/influxdb/v1/query_language/) - An SQL-like query language for interacting with data in InfluxDB
-    * [influx cli](https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/) - The command line interface for InfluxDB 2.0
-  * [Grafana Mimir](https://grafana.com/oss/mimir/) - An open source, horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus
-  * [Grafana Loki](https://grafana.com/oss/loki/) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus
-    * [LogQL](https://grafana.com/docs/loki/latest/query/) - The query language for Loki
-      * [LogCLI](https://grafana.com/docs/loki/latest/query/logcli/) - The command line interface for Loki
-  * [Grafana Tempo](https://grafana.com/oss/tempo/) - An open source, easy-to-use and high-scale distributed tracing backend
-    * [TraceQL](https://grafana.com/docs/tempo/latest/traceql/) - A query language designed for selecting traces
-  * [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
-    * [Elastic Common Schema](https://www.elastic.co/guide/en/ecs/current/index.html) - An open source specification, developed with support from the Elastic user community
-    * [Ingest pipelines](https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html) - A feature that lets you perform common transformations on your data before indexing
-    * [Dissect and Grok](https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html) - The processors that let you extract structured fields out of a single text field
-  * [Graphite](https://grafana.com/oss/graphite/) - A highly scalable real-time graphing system
-  * [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) - A feature that allows you to create and manage alerts for your data
-  * [OpenObserve](https://openobserve.ai/) - An open-source observability platform designed for modern applications
-* Vendor-specific Tools
-  * [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - A comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments
-    * [Kusto Query Language](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/) - A powerful tool to explore your data and discover patterns, identify anomalies and outliers, create statistical models, and more
-    * [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - A feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals
-  * [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers
-* Visualization Tools
-  * [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
-    * [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
-  * [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
+* AIOps & Autonomous Agents
+  * [Azure SRE Agent](https://aka.ms/sreagent) - An AI-powered service designed to automate Site Reliability Engineering practices by monitoring, diagnosing, and helping resolve incidents
 
 ### Chaos Engineering
 

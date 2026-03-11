@@ -13,22 +13,30 @@ This document maps this technical skill classification (12 sections) to the 5 ta
 - **2 (Partially Relevant / Specialized)**: Relevant in specific contexts/projects or requires basic understanding.
 - **1**: Low direct relevance or outside the area of expertise.
 
+## The 5 Roles
+
+- **BA (Business Architect):** Focuses on creating business models and leading DX projects. They require strong foundational knowledge in management and business strategy.
+- **DS (Data Scientist):** Responsible for analyzing and utilizing data. Their core expertise lies in data science, AI, and machine learning.
+- **SE (Software Engineer):** Focuses on designing, building, and maintaining software systems. They require broad technical capabilities across development, infrastructure, and programming.
+- **Sec (Cybersecurity):** Dedicated to ensuring information security and privacy across the organization's digital assets.
+- **Des (Designer):** Focuses on user experience (UX), user interfaces (UI), and overall service design to ensure digital products are effective and accessible.
+
 ## Skill Mapping by Section
 
 | Section                                                                     | BA  | DS  | SE  | Sec | Des |
 | :-------------------------------------------------------------------------- | :-: | :-: | :-: | :-: | :-: |
 | **[01 - Software Development, Management & Business](skills/section01.md)** |  4  |  3  |  4  |  3  |  3  |
-| **[02 - Web Application Development](skills/section02.md)**                 |  1  |  1  |  4  |  3  |  3  |
-| **[03 - Cloud & Cloud-Native Computing](skills/section03.md)**              |  1  |  3  |  4  |  3  |  1  |
-| **[04 - Security & Privacy](skills/section04.md)**                          |  2  |  3  |  4  |  4  |  2  |
-| **[05 - Data Science & Engineering](skills/section05.md)**                  |  3  |  4  |  4  |  1  |  1  |
-| **[06 - AI, Machine Learning & LLM](skills/section06.md)**                  |  3  |  4  |  4  |  1  |  1  |
+| **[02 - Web Application Development](skills/section02.md)**                 |  2  |  2  |  4  |  4  |  3  |
+| **[03 - Cloud & Cloud-Native Computing](skills/section03.md)**              |  2  |  3  |  4  |  4  |  1  |
+| **[04 - Security & Privacy](skills/section04.md)**                          |  3  |  2  |  4  |  4  |  2  |
+| **[05 - Data Science & Engineering](skills/section05.md)**                  |  3  |  4  |  4  |  2  |  1  |
+| **[06 - AI, Machine Learning & LLM](skills/section06.md)**                  |  3  |  4  |  3  |  2  |  2  |
 | **[07 - Terminal & IDE](skills/section07.md)**                              |  1  |  4  |  4  |  4  |  1  |
-| **[08 - OS & Network Basics](skills/section08.md)**                         |  1  |  3  |  4  |  4  |  1  |
-| **[09 - Programming Concepts & Paradigms](skills/section09.md)**            |  1  |  3  |  4  |  2  |  1  |
-| **[10 - Advanced Programming](skills/section10.md)**                        |  1  |  3  |  4  |  2  |  1  |
-| **[11 - Advanced Programming 2](skills/section11.md)**                      |  1  |  2  |  4  |  2  |  3  |
-| **[12 - Related Fields for Software Engineering](skills/section12.md)**     |  3  |  2  |  3  |  2  |  3  |
+| **[08 - OS & Network Basics](skills/section08.md)**                         |  1  |  2  |  4  |  4  |  1  |
+| **[09 - Programming Concepts & Paradigms](skills/section09.md)**            |  1  |  3  |  4  |  3  |  1  |
+| **[10 - Advanced Programming](skills/section10.md)**                        |  1  |  2  |  4  |  3  |  1  |
+| **[11 - Specialized Development Domains](skills/section11.md)**             |  1  |  1  |  2  |  3  |  3  |
+| **[12 - Interdisciplinary Foundations](skills/section12.md)**               |  4  |  2  |  2  |  2  |  4  |
 
 ## Advice for Usage
 
@@ -38,9 +46,11 @@ Section **01** can be positioned as "Common Literacy" that should be broadly edu
 
 ### 2. Deepening Expertise
 
-- **Software Engineer (SE)**: Focus evaluation on Categories 02, 03, 07, 08, 09, and 10.
-- **Data Scientist (DS)**: Focus evaluation on Categories 05, 06, and 07.
-- **Business Architect (BA)**: Centered on the Management & Business aspects of Section 01, evaluate understanding of Categories 05 and 06 at a "Utilization/Planning level".
+- **Business Architect (BA)**: Focuses heavily on **Section 01** and **12** (Economics, Psychology) for business modeling. They should also be evaluated on their "Utilization/Planning level" understanding of Security, Data, and AI (Categories 04, 05, and 06).
+- **Data Scientist (DS)**: Focus evaluation on **Categories 05, 06, and 07**, which represent their core tools and scientific knowledge.
+- **Software Engineer (SE)**: Focus evaluation on **Categories 02, 03, 04, 05, 07, 08, 09, and 10**. (Note: Section 11 is highly specialized, so it is rated a 2 for general SEs).
+- **Cybersecurity (Sec)**: Focus evaluation on **Categories 02, 03, 04, 07, and 08**, as modern security strongly overlaps with web, cloud, and infrastructure.
+- **Designer (Des)**: Focus evaluation on **Categories 02, 11, and 12**, representing their core knowledge of UI (Web/Mobile/Desktop) and human psychology.
 
 ## Supplementary Note: About IPA
 

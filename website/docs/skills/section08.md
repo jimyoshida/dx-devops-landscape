@@ -255,6 +255,7 @@
 * [aha](https://github.com/theZiz/aha) - An Ansi HTML Adapter
   * [NO_COLOR](https://no-color.org/) - An environment variable to disable ANSI color in command-line software
 * [Vixie Cron](https://github.com/vixie/cron) - An open source implementation of POSIX Cron
+  * [Crontab.guru](https://crontab.guru/) - A quick and simple editor for cron schedule expressions
 * [logrotate](https://github.com/logrotate/logrotate) - allows for the automatic rotation compression, removal and mailing of log files
 * [Syslog](https://en.wikipedia.org/wiki/Syslog) - A standard for message logging
 
@@ -271,6 +272,7 @@
 * [lsof](https://lsof.readthedocs.io/en/latest/) - A command for LiSting Open Files
 * [strace](https://strace.io/) - A diagnostic, debugging and instructional userspace utility for Linux
 * [inxi](https://smxi.org/docs/inxi.htm) - A full featured system information script
+* [witr](https://github.com/pranshuparmar/witr) - A tool that explains the causal ancestry and purpose of running processes
 * Performance Monitors
   * [sysstat](https://sysstat.github.io/) - A collection of performance monitoring tools for Linux
     * [iostat](https://man7.org/linux/man-pages/man1/iostat.1.html) - A command used for monitoring system input/output device loading

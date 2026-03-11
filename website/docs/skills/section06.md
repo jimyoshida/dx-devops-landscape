@@ -157,6 +157,7 @@
 
 * [Anthropic](https://www.anthropic.com/api) - The API providing access to Anthropic's Claude models
 * [OpenAI](https://platform.openai.com/) - The platform for building applications with OpenAI's models
+* [DeepSeek](https://www.deepseek.com/) - An AI model research and development company that focuses on building advanced large language models and artificial intelligence infrastructure
 * [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
 * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
 * [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
@@ -186,10 +187,13 @@
   * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
   * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
   * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
+* Platforms
+  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
 * Application Frameworks
   * [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
   * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
+  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
 * Development Tools & Utilities
   * [LiteLLM](https://docs.litellm.ai) - A Python SDK and AI Gateway (Proxy) that allows users to call over 100 Large Language Models (LLMs) using a unified OpenAI input/output format
   * [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
@@ -229,6 +233,8 @@
 
 ### Supporting Services & Platforms
 
+* Pre-built Agents & Collections
+  * [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
 * Agent Skills Ecosystems
   * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
 * Memory Systems
@@ -260,3 +266,12 @@
   * [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
   * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
+  * [Nebius](https://nebius.com/) - A specialized AI cloud platform offering purpose-built infrastructure for AI and machine learning workloads
+* LLM Observability
+  * [Langfuse](https://langfuse.com/) - An open source LLM engineering platform to trace, evaluate, prompt, and monitor metrics
+  * [OpenLIT](https://openlit.io/) - An open-source, OpenTelemetry-native tool for LLM and GenAI observability
+  * [LangSmith](https://www.langchain.com/langsmith) - A unified DevOps platform for developing, collaborating, testing, deploying, and monitoring LLM applications
+  * [Helicone](https://www.helicone.ai/) - An open-source LLM observability platform built for developers to monitor and optimize their generative AI applications
+  * [Arize Phoenix](https://phoenix.arize.com/) - An open-source AI observability and evaluation platform for LLMs
+  * [Braintrust](https://www.braintrust.dev/) - The enterprise AI platform that provides an evaluation and observability platform for developers building with LLMs
+  * [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - A comprehensive monitoring solution that provides end-to-end visibility into large language model applications

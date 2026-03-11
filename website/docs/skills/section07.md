@@ -128,6 +128,8 @@
     * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
     * [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
     * [zx](https://google.github.io/zx/) - A tool for writing better scripts
+    * [Zod](https://zod.dev/) - A TypeScript-first schema validation with static type inference
+    * [yup](https://github.com/jquense/yup) - A schema builder for runtime value parsing and validation
   * [Typescript](https://www.typescriptlang.org/index.html) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
     * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - A way to combine multiple types into one
     * [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - A name for any type
@@ -208,6 +210,7 @@
   * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
   * [thor](https://github.com/rails/thor) - A toolkit for building powerful command-line interfaces
   * [dry-cli](https://dry-rb.org/gems/dry-cli/) - A general-purpose framework for developing Command Line Interface (CLI) applications that represents commands as objects and offers support for arguments, options, and forwarding variadic arguments to sub-commands
+  * [Clamp](https://github.com/mdub/clamp) - A minimal framework for command-line utilities that handles parsing command-line arguments and generating help
 * Javascript
   * [yargs](https://yargs.js.org/) - A library for building interactive command line tools by parsing arguments and generating an elegant user interface
   * [minimist](https://github.com/minimistjs/minimist) - A tool to parse argument options
@@ -218,7 +221,9 @@
   * [gradient-string](https://github.com/bokub/gradient-string) - A library for creating beautiful gradients in terminal output
 * Go
   * [Fang](https://github.com/charmbracelet/fang) - The CLI starter kit. A small, experimental library for batteries-included Cobra applications
-  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
+  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A Go framework for building terminal apps based on The Elm Architecture
+    * [Lip Gloss](https://github.com/charmbracelet/lipgloss) - A declarative library for defining styles and layouts in terminal applications
+    * [Bubbles](https://github.com/charmbracelet/bubbles) - A collection of common terminal user interface components
   * [Huh](https://github.com/charmbracelet/huh) - A simple, powerful, and elegant TUI library for building terminal forms and prompts
   * [pflag](https://github.com/spf13/pflag) - A drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
   * [color](https://github.com/fatih/color) - A package for Go that lets you use colorized outputs in terms of ANSI escape sequences
@@ -294,6 +299,8 @@
   * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
   * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
   * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
+  * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
+  * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
 
 ## Coding Agents
 
@@ -303,10 +310,10 @@
     * [Hooks](https://code.claude.com/docs/en/hooks) - The user-defined shell commands or LLM prompts that execute automatically at specific points in the agent's lifecycle
     * [Subagents](https://code.claude.com/docs/en/sub-agents) - The specialized AI assistants that handle specific types of tasks, running in their own context with custom prompts and tool access
     * [Sandboxing](https://code.claude.com/docs/en/sandboxing) - A feature that provides filesystem and network isolation for safer, more autonomous agent execution, using OS-level primitives to enforce these isolations and reduce constant permission prompts
-  * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
     * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
     * [Sandboxing](https://geminicli.com/docs/cli/sandbox/) - A feature that isolates potentially dangerous operations from your host system, providing a security barrier between AI operations and your environment, using macOS Seatbelt or container-based methods for isolation
+  * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
 * Autonomous Coding Agents
   * [SWE-agent](https://swe-agent.com/latest/) - A tool for fixing bugs and issues in GitHub repositories, powered by a family of language models
@@ -328,3 +335,5 @@
   * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors
 * Semantic Code Retreival
   * [Serena](https://github.com/oraios/serena) - A powerful coding agent toolkit providing semantic retrieval and editing capabilities
+* Session Tracking
+  * [Entire](https://entire.io/) - A CLI tool that hooks into your git workflow to capture AI agent sessions on every push, creating a searchable record of how code was written and the intent behind every commit

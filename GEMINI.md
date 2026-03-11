@@ -6,8 +6,7 @@ which includes well-known concepts, techniques, tools, platforms, and frameworks
 The 12 markdown files under the "website/docs/skills/" directory contain the skill items categorized.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
-Each level 2 header can have up to 4 level 3 headers as subsections.
-Each level 3 header can have up to 4 level 4 headers as subsections.
+Each level 2 header can have up to 5 level 3 headers as subsections.
 The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
 
@@ -34,4 +33,29 @@ Make sure the file meets "MD047/single-trailing-newline" in markdownlint rules.
   * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
   * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any
 
+</Contents_Example>
+
+In addition, the markdown files under the "website/docs/timelines/" directory contain the background timeline of the skill items.
+
+Each entry is a paragraph which contains the deacription basically quoted from Wikipedia English version. It must include the date information of the event and must be arranged in chronological order.
+If the event's month or day is unclear, they should be located at the last position of the year or month respectively.
+
+Each entry starts with one of the following class emoji.
+
+Classes:
+
+🏢: Business Administration, Development Methodology, Management
+🌐: Web Technology incl. Web Frameworks
+☁️: Cloud, Cloud Native, Container, DevOps/SRE
+🔐: Security, Privacy
+🐛: Malware, Virus, Security Incident
+📊: Data Science, Databases, Data Platforms
+🧠: AI, Machine Learning, Large Language Models
+🖥️: Shell, Scripting, Termial, IDE, Developer Productivity
+⚙️: System Administration, OS, VM, Network Infraatructure
+📜: Programming Paradigms, Programming Concepts, Libraries
+🩷: Others
+
+<Contents_Example>
+🧠 Claude Code, Anthropic's AI-powered command-line coding assistant, was first introduced as a beta research preview alongside Claude 3.7 Sonnet on February 24, 2025. It then became generally available on May 22, 2025
 </Contents_Example>

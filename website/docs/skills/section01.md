@@ -80,6 +80,66 @@
   * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
   * [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - A software development practice that seeks to apply the same principles of version control, testing, and deployment to enhance maintainability and scalability of all aspects of the development lifecycle, including networking infrastructure, documentation, and configuration
 
+## Version Control System
+
+* [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
+  * [Git](https://git-scm.com/) - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+    * local repository, remote repository
+    * branch, tag, worktree
+    * push, pull, fetch, rebase, reset, stash
+    * staging, commit
+  * [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
+  * [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
+  * [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
+  * [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - An improved sequence editor for Git
+  * [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
+  * [git filter-repo](https://github.com/newren/git-filter-repo) - A versatile tool for rewriting history
+  * [degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
+  * [Git Lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
+  * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
+  * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
+  * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
+
+### Git Hosting Services
+
+* [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - The single source of truth for collaborating on code and projects
+  * [GitLab CLI](https://gitlab.com/gitlab-org/cli) - An open source tool that brings GitLab to your terminal, next to where you are already working with git and your code
+* [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+* [Codeberg](https://codeberg.org/) - A community-led effort that provides Git hosting and other services for free and open source projects
+* [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
+* [Soft Serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line
+* [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/) - A set of version control tools that you can use to manage your code
+* [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
+  * [GitHub CLI](https://cli.github.com/) - An open source tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place
+
+### Branching Models
+
+* [Trunk Based Development](https://trunkbaseddevelopment.com/) - A source-control branching model, where developers collaborate on code in a single branch called 'trunk', resist any pressure to create other long-lived development branches by employing documented techniques
+* [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) - A lightweight, branch-based workflow designed for teams that deploy frequently
+* [GitLab Flow](https://docs.gitlab.co.jp/ee/topics/gitlab_flow.html) - A simpler alternative to GitFlow that combines feature driven development and feature branches with issue tracking
+
+### Code Review
+
+* [Google Engineering Practices Documentation](https://google.github.io/eng-practices/) - A comprehensive guide to Google's code review processes and policies for both reviewers and change authors
+* [Conventional Comments](https://conventionalcomments.org/) - A standard that provides a structured format for code review feedback to improve clarity, reduce misunderstandings, and make comments machine-readable
+
+## Release Management
+
+### Release Automation
+
+* [semantic-release](https://semantic-release.gitbook.io/semantic-release) - A fully automated version management and package publishing tool that determines the next version number, generates release notes, and publishes the package based on formalized commit messages
+* [Release Please](https://github.com/googleapis/release-please) - A tool that automates changelog generation, the creation of GitHub releases, and version bumps for your projects based on Conventional Commits
+* [GoReleaser](https://goreleaser.com/) - A release automation tool for Go projects
+* [Changesets](https://github.com/changesets/changesets) - A tool to manage versioning and changelogs with a focus on monorepos
+
+### Conventions & Standards
+
+* [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
+* [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages that provides an easy set of rules for creating an explicit commit history
+* [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
+  * [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
+  * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
+
 ## Software Design
 
 ### Design Principles
@@ -171,7 +231,7 @@
 * [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
 * Tools & Platforms
   * Issue Tracking Systems
-    * [JIRA](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
+    * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
       * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
       * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
     * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
@@ -233,6 +293,8 @@
     * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
     * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
+  * [IT service management](https://en.wikipedia.org/wiki/IT_service_management) - The activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers
+    * [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
   * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
     * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources))
@@ -322,7 +384,7 @@
 * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
 * [OpenClaw](https://openclaw.ai/) - An open-source personal AI assistant that automates tasks across various applications and platforms, running on the user's machine
 * [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
-* [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/enterprise/copilot-for-microsoft-365) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
+* [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
 * Power Platform
   * [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
   * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device

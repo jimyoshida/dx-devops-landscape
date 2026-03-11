@@ -16,8 +16,8 @@ Here is the link list of the source markdown files.
 - [08 - OS & Network Basics](website/docs/skills/section08.md)
 - [09 - Programming Concepts & Paradigms](website/docs/skills/section09.md)
 - [10 - Advanced Programming](website/docs/skills/section10.md)
-- [11 - Advanced Programming 2](website/docs/skills/section11.md)
-- [12 - Related Fields for Software Engineering](website/docs/skills/section12.md)
+- [11 - Specialized Development Domains](website/docs/skills/section11.md)
+- [12 - Interdisciplinary Foundations](website/docs/skills/section12.md)
 
 ## License
 

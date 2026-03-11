@@ -223,9 +223,7 @@
 
 ## Secure Development Lifecycle (DevSecOps)
 
-### Architecture & Practices
-
-#### Secure Design & Modeling
+### Secure Design & Modeling
 
 * [Threat modeling](https://en.wikipedia.org/wiki/Threat_model) - A process by which potential threats can be identified, enumerated, and prioritized from a hypothetical attacker's point of view
 * [OWASP Threat Modeling](https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/) - Guidance from the OWASP Security Culture project on integrating threat modeling into the development lifecycle
@@ -238,7 +236,7 @@
   * [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - A free, open-source, cross-platform threat modeling application
   * [threatspec](https://threatspec.org/) - A tool that allows you to define threat models as code
 
-#### Secure Development Practices
+### Secure Development Practices
 
 * [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) - A set of fundamental, sound, and secure software development practices
 * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) - A standard for performing application-level security verifications
@@ -257,19 +255,6 @@
   * [ZAP](https://zaproxy.org/) - The world's most widely used web app scanner, free and open source, and a community based GitHub Top 1000 project that anyone can contribute to
   * [Nuclei](https://github.com/projectdiscovery/nuclei) - A fast and customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL
   * [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
-* Composition Analysis (SCA)
-  * SBOM Generation:
-    * [Syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
-    * [OWASP CycloneDX format](https://cyclonedx.org) - A lightweight Software Bill of Materials (SBOM) standard designed for use in application security contexts
-    * [SPDX format](https://spdx.dev/) - An open standard for communicating Software Bill of Materials (SBOM) information
-  * Vulnerability Scanning:
-    * [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
-    * [OSV-scanner](https://google.github.io/osv-scanner/) - The official vulnerability scanner for OSV
-    * [Safety](https://github.com/pyupio/safety/) - A tool that checks your installed dependencies for known security vulnerabilities
-    * [Clair](https://github.com/quay/clair) - An open-source project for the static analysis of vulnerabilities in application containers
-    * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - A tool that checks your Docker images for known vulnerabilities
-  * License & Dependency Analysis:
-    * [Feluda](https://github.com/anistark/feluda) - A blazing fast dependency graph generator for Python projects
 * Secret Detection
   * [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A tool that scans your repository's history for secrets
   * [Whispers](https://github.com/Skyscanner/whispers) - A static code analysis tool designed for parsing various common data formats in search of hardcoded credentials
@@ -296,10 +281,29 @@
 * [ComplianceAsCode](https://github.com/ComplianceAsCode/content) - A project that provides security automation content in various formats like SCAP, Bash, and Ansible
 * [complyctl](https://github.com/complytime/complyctl) - A command-line tool that uses OSCAL to streamline compliance assessment activities
 
-### Software Supply Chain Security
+### Software Supply Chain Security (SSCS)
 
-* [SLSA framework](https://slsa.dev/) - A security framework of standards and controls to prevent tampering, improve integrity, and secure packages and infrastructure
-* [in-toto](https://in-toto.io/) - A framework to protect software supply chain integrity
+* Composition Analysis (SCA)
+  * SBOM Generation
+    * [Syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
+    * [OWASP CycloneDX format](https://cyclonedx.org) - A lightweight Software Bill of Materials (SBOM) standard designed for use in application security contexts
+    * [SPDX format](https://spdx.dev/) - An open standard for communicating Software Bill of Materials (SBOM) information
+  * Vulnerability Scanning
+    * [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
+    * [OSV-scanner](https://google.github.io/osv-scanner/) - The official vulnerability scanner for OSV
+    * [Safety](https://github.com/pyupio/safety/) - A tool that checks your installed dependencies for known security vulnerabilities
+    * [Clair](https://github.com/quay/clair) - An open-source project for the static analysis of vulnerabilities in application containers
+    * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - A tool that checks your Docker images for known vulnerabilities
+  * License & Dependency Analysis
+    * [Feluda](https://github.com/anistark/feluda) - A blazing fast dependency graph generator for Python projects
+* Frameworks & Assessment
+  * [SLSA framework](https://slsa.dev/) - A security framework of standards and controls to prevent tampering, improve integrity, and secure packages and infrastructure
+  * [in-toto](https://in-toto.io/) - A framework to protect software supply chain integrity
+  * [OpenSSF Scorecard](https://scorecard.dev/) - An automated tool that assesses a number of important heuristics ("checks") associated with software security and assigns each check a score of 0-10
+* Provenance & Artifact Metadata
+  * [GUAC](https://guac.sh/) - An open source tool that aggregates software security metadata into a high fidelity graph database
+* Secure Distribution & Updates
+  * [The Update Framework (TUF)](https://theupdateframework.io/) - A framework for securing software update systems, providing protection even against attackers that compromise the repository or signing keys
 * Code Signing & Integrity
   * [Sigstore](https://www.sigstore.dev/) (Fulcio, Rekor, Cosign) - A new standard for signing, verifying and protecting software
 
@@ -339,6 +343,8 @@
 * [Open Policy Agent (OPA)](https://www.openpolicyagent.org/) - An open source, general-purpose policy engine that unifies policy enforcement across the stack
   * [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/) - A high-level declarative language used to write policies for OPA
   * [Conftest](https://www.conftest.dev/) - A utility to help you write tests against structured configuration data
+* Cloud Policy Engines
+  * [Azure Policy](https://azure.microsoft.com/en-us/products/azure-policy/) - A service to achieve real-time cloud compliance at scale with consistent resource governance
 * Kubernetes Policy Engines
   * [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - A customizable validating webhook that enforces policies executed by the Open Policy Agent (OPA)
   * [Kyverno](https://kyverno.io/) - A policy engine designed for Kubernetes
@@ -355,9 +361,7 @@
 
 ## Secure Communications & Networking
 
-### Secure Protocols
-
-#### Transport Layer Security (TLS)
+### Transport Layer Security (TLS)
 
 * [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security) - A cryptographic protocol designed to provide communications security over a computer network
 * [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) - An extension to the Transport Layer Security (TLS) computer networking protocol
@@ -369,7 +373,7 @@
 * Vulnerabilities
   * [Lucky Thirteen attack](https://en.wikipedia.org/wiki/Lucky_Thirteen_attack) - A timing attack against the TLS protocol that allows an attacker to decrypt ciphertext
 
-#### Secure Shell (SSH)
+### Secure Shell (SSH)
 
 * [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) - A cryptographic network protocol for operating network services securely over an unsecured network
 * Tools & Libraries
@@ -378,9 +382,7 @@
   * [ssh-audit](https://github.com/jtesta/ssh-audit) - A tool for SSH server & client configuration auditing
   * [keychain](https://www.funtoo.org/Funtoo:Keychain) - A manager for ssh-agent, typically started from ~/.bash_profile
 
-### Web & Network Protection
-
-#### Web Application Security
+### Web Application Security
 
 * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
 * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
@@ -390,7 +392,7 @@
 * [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
 * [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
 
-#### Firewalls & Network Protection
+### Firewalls & Network Protection
 
 * Web Application Firewall (WAF)
   * [AWS WAF](https://aws.amazon.com/waf/) - A web application firewall that helps protect your web applications or APIs against common web exploits and bots
@@ -425,6 +427,12 @@
 ### Data Governance
 
 * [Unity Catalog](https://unitycatalog.io/) - A universal catalog for data and AI that provides interoperability, openness, and unified governance across various formats and platforms
+* [Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview) - A unified approach to help organizations secure and govern data across their heterogeneous data estate
+* [Amazon DataZone](https://aws.amazon.com/datazone/) - A data management service that makes it faster and easier for customers to catalog, discover, share, and govern data stored across AWS, on premises, and third-party sources
+
+### AI Governance & Security
+
+* [Microsoft Agent 365](https://www.microsoft.com/en-us/microsoft-agent-365) - A centralized governance and management platform designed to oversee autonomous AI agents within an enterprise environment
 
 ### Regulations & Standards
 
@@ -474,6 +482,7 @@
   * [OSV (Open Source Vulnerability)](https://osv.dev/) - A vulnerability database and triage infrastructure for open source projects
 * Scoring & Prioritization
   * [CVSS (Common Vulnerability Scoring System)](https://www.first.org/cvss/) - A free and open industry standard for assessing the severity of computer system security vulnerabilities
+  * [EPSS (Exploit Prediction Scoring System)](https://www.first.org/epss/) - A data-driven framework for estimating the probability that a software vulnerability will be exploited in the wild
   * [KEV (Known Exploited Vulnerabilities)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) - A catalog that contains vulnerabilities that have been exploited in the wild
   * [SSVC (Stakeholder-Specific Vulnerability Categorization)](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc) - A vulnerability management methodology that assesses the risk a vulnerability poses to an organization and provides a corresponding decision-making process
 * Protocols & Databases

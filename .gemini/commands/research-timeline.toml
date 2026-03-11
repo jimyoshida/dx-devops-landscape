@@ -1,0 +1,11 @@
+# Description shown in /help
+description = "Research the timeline of a technology/concept item"
+
+# The prompt to execute.
+# {{args}} will be replaced by the content of a @file or "quoted text".
+prompt = """
+For the item name provided, research its history and timeline events and print them with entry numbers.
+
+Input Item:
+{{args}}
+"""

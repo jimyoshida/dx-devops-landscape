@@ -80,23 +80,28 @@
 
 ### Visualization Tools & Libraries
 
-* [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
-* [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
-* [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
-* [Plotly](https://plotly.com/python/) - The interactive graphing library for Python (includes Plotly Express)
-* [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
-* [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
-* [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
-* [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
-* [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
-* [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
-* [Recharts](https://recharts.org/) - A composable charting library built on React components
-* [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
+* Python Libraries
+  * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
+  * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
+  * [Plotly](https://plotly.com/python/) - The interactive graphing library for Python (includes Plotly Express)
+  * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
+* JavaScript Libraries
+  * [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
+  * [GoJS](https://gojs.net/latest/) - A JavaScript library that lets you easily create interactive diagrams in web browsers
+  * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for the modern web
+  * [Recharts](https://recharts.org/) - A composable charting library built on React components
+  * [Tabulator](https://tabulator.info/) - An easy to use, simple to code, fully featured, interactive JavaScript library for creating tables and data grids
+* Grammars & Other
+  * [gnuplot](http://gnuplot.info/) - A portable command-line driven graphing utility
+  * [ggplot2](https://ggplot2.tidyverse.org/) - A system for declaratively creating graphics, based on The Grammar of Graphics
+  * [Vega](https://vega.github.io/vega/) - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
+  * [Vega-Lite](https://vega.github.io/vega-lite/) - A high-level grammar of interactive graphics
 
 ### Dashboarding & Web Apps
 
 * [Dash](https://dash.plotly.com/) - The original low-code framework for rapidly building data apps in Python, R, Julia, and F#
 * [Panel](https://panel.holoviz.org/) - A powerful Python library that lets you create interactive web apps and dashboards
+* [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
 
 ## Distributed Systems
 
@@ -385,6 +390,8 @@
   * [Wolfram|Alpha](https://www.wolframalpha.com/) - A computational knowledge engine that computes expert-level answers using breakthrough algorithms, knowledgebase and AI technology
   * [Perplexity AI](https://www.perplexity.ai/) - An AI-powered answer engine that provides accurate, trusted, and real-time answers to any question
 * Search Platforms and Tools
+  * [Azure AI Search](https://azure.microsoft.com/en-us/products/ai-services/ai-search) - A fully managed, cloud-hosted service that unifies access to enterprise and web content for AI-powered search and retrieval-augmented generation
+    * [Reciprocal Rank Fusion (RRF)](https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking) - An algorithm that evaluates the search scores from multiple, previously executed queries to produce a unified result set
   * [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
     * [Painless](https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html) - A simple, secure scripting language designed specifically for use with the engine
     * [ES|QL](https://www.elastic.co/docs/explore-analyze/query-filter/languages/esql) - A piped language that allows you to filter, transform, and analyze data stored in the engine
@@ -407,6 +414,8 @@
   * [Amazon Athena](https://aws.amazon.com/athena/) - An interactive query service that makes it easy to analyze data directly in Amazon S3 and other data stores using standard SQL
   * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - The platform that allows your entire organization to use data and AI
   * [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
+    * [Microsoft OneLake](https://learn.microsoft.com/en-us/fabric/onelake/) - A single, unified, logical data lake for your whole organization
+    * [Lakehouse vs Data Warehouse](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-lakehouse-warehouse) - A guide for choosing between a lakehouse and a data warehouse based on data volume, structure, and processing requirements
   * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
   * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - An AI-powered business intelligence service that enables users to analyze data, create visualizations, and gain insights from various enterprise data sources

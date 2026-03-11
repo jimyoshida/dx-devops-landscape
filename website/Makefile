@@ -18,6 +18,7 @@ pdf/tmp/%.adoc: %.md
 
 # PDF Dest Files 
 ALLPDF := static/usr/docs/all.pdf
+PDFDATE := $(shell date +%F)
 
 .PHONY: pdf
 pdf: $(ALLPDF)
@@ -34,11 +35,13 @@ ALLADOCS := $(addprefix pdf/tmp/,$(ALLPAGES:.md=.adoc))
 $(ALLPDF): pdf/all.adoc $(ALLADOCS)
 ifeq ($(USE_CJK), 1)
 	asciidoctor-pdf -v -o $@ \
+	-a pdfdate=$(PDFDATE) \
 	-a pdf-theme=pdf/cjk-theme.yml \
 	-a pdf-fontsdir=fonts \
 	-a scripts=cjk $<
 else
 	asciidoctor-pdf -v -o $@ \
+	-a pdfdate=$(PDFDATE) \
 	-a pdf-theme=pdf/eng-theme.yml $<
 endif
 

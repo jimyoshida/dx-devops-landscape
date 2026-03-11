@@ -113,6 +113,9 @@
 * Concepts
   * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
   * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - A software metric used to indicate the complexity of a program
+* Code Metrics Tools
+  * [scc](https://github.com/boyter/scc/) - A tool that counts lines of code in many programming languages
+  * [cloc](https://github.com/AlDanial/cloc) - A tool that counts blank lines, comment lines, and physical lines of source code in many programming languages
 
 ### Analysis Platform
 
@@ -124,16 +127,14 @@
 
 * [EditorConfig](https://editorconfig.org/) - A file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles
 * [Prettier](https://prettier.io/) - An opinionated code formatter
-
-### Code metrics
-
-* [scc](https://github.com/boyter/scc/) - A tool that counts lines of code in many programming languages
-* [cloc](https://github.com/AlDanial/cloc) - A tool that counts blank lines, comment lines, and physical lines of source code in many programming languages
+* [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
+* [Biome](https://biomejs.dev/) - A toolchain of the web that provides a fast formatter and performant linter for JavaScript, TypeScript, JSX, JSON, HTML, CSS, and GraphQL
 
 ### Linters
 
 * [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
 * [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
+* [Biome](https://biomejs.dev/) - A toolchain of the web that provides a fast formatter and performant linter for JavaScript, TypeScript, JSX, JSON, HTML, CSS, and GraphQL
 * [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
 * [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
 * [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language

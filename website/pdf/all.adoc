@@ -1,6 +1,6 @@
-= DX and DevOps Landscape - PDF Edition
+= DX and DevOps Landscape - {pdfdate}
 Hajime Yoshida <jimyoshida@dummy.com>
-2, 2025-12-06: Merge all articles into one single file for easier distribution
+:pdfdate: 2026-03-09
 :doctype: article
 :toc: macro
 :toclevels: 3

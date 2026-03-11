@@ -184,9 +184,6 @@
 * Vue UI Libraries
   * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
 * Framework-agnostic Libraries
-  * Data & Visuals
-    * [Tabulator](https://tabulator.info/) - An easy to use, simple to code, fully featured, interactive JavaScript library for creating tables and data grids
-    * [Chart.js](https://www.chartjs.org/) - A simple yet flexible JavaScript charting library for designers & developers
   * Interaction & Media
     * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
     * [Hammer.js](https://hammerjs.github.io/) - A javascript library for multi-touch gestures
@@ -339,9 +336,9 @@
   * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
 
-## Specialized Topics
+## Document Site Generation
 
-### Document Site Generation
+### Static Site Generators
 
 * Static Site Generators
   * [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
@@ -354,22 +351,18 @@
     * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
   * [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
   * [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
-* Wiki Systems
-  * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
-  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
-  * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
-* Content Management Tools
-  * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
-  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
-  * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
 * Static Site & JAMstack Hosting
   * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
   * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 
-### Data/AI Platforms & Frameworks
+### Content Management Tools
 
-* Platforms
-  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
-* Frameworks
-  * [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
-  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
+* General CMS
+  * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
+  * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - A web-based collaboration and document management platform that enables organizations to securely store, share, and manage content
+  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
+  * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
+* Wiki Systems
+  * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
+  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
+  * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
