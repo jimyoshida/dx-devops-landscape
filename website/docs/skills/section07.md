@@ -73,6 +73,7 @@
   * [byobu](https://www.byobu.org/) - A GPLv3 open source text-based window manager and terminal multiplexer
   * [zellij](https://zellij.dev/) - A terminal workspace with batteries included
   * [asciinema](https://asciinema.org/) - A free and open source solution for recording terminal sessions and sharing them on the web
+  * [ttyd](https://tsl0922.github.io/ttyd/) - A simple command-line tool for sharing terminal over the web
 * Console File Managers
   * [midnight commander](https://midnight-commander.org/) - A visual file manager
   * [ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
@@ -252,7 +253,7 @@
     * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - The most capable generative AI-powered assistant for software development
     * [Cline](https://cline.bot/) - An open source AI coding agent that brings frontier AI models directly to your VS Code editor
   * AI-integrated IDEs
-    * [Cursor](https://www.cursor.com/en) - A new, intelligent IDE, empowered by seamless integrations with AI
+    * [Cursor](https://www.cursor.com/en) - An AI-native fork of VS Code designed for seamless, agentic integration with proprietary and frontier models
     * [Winfsurf](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
     * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
 * Web-based
@@ -318,7 +319,7 @@
 * Autonomous Coding Agents
   * [SWE-agent](https://swe-agent.com/latest/) - A tool for fixing bugs and issues in GitHub repositories, powered by a family of language models
   * [mini-swe-agent](https://mini-swe-agent.com/latest/) - A smaller, more accessible version of SWE-agent
-  * [Devin](https://devin.ai/) - The AI Software Engineer
+  * [Devin](https://devin.ai/) - An autonomous AI software engineer that can handle complex engineering tasks unassisted within its own sandboxed environment
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
   * [Antigravity](https://antigravity.google/) - An agentic development platform
   * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE

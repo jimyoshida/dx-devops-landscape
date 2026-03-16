@@ -1,7 +1,14 @@
-# Documentation Context
+# GEMINI.md
+
+This file provides guidance to Gemini CLI when working with code in this repository.
+This file is the master instruction and CLAUDE.md is automaticaly generated from this.
+
+## Overview
 
 This site aims to provide a sophisticated and comprehensive overview of the skill set
-which includes well-known concepts, techniques, tools, platforms, and frameworks related to DX and DevOps.
+which includes well-known concepts, techniques, tools, platforms, and frameworks related to DX (Digital Transformation) and DevOps.
+
+### Skill Files
 
 The 12 markdown files under the "website/docs/skills/" directory contain the skill items categorized.
 
@@ -25,15 +32,17 @@ Make sure the file meets "MD047/single-trailing-newline" in markdownlint rules.
 
 <Contents_Example>
 
+```markdown
 ## Cloud-Native Computing
-
 ### Cloud-Native Infrastructure
 
-* App Runtimes & Scaling
+* Event-driven Autoscaling
   * [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
-  * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any
+```
 
 </Contents_Example>
+
+### Timeline Files
 
 In addition, the markdown files under the "website/docs/timelines/" directory contain the background timeline of the skill items.
 
@@ -42,7 +51,7 @@ If the event's month or day is unclear, they should be located at the last posit
 
 Each entry starts with one of the following class emoji.
 
-Classes:
+Class emojies:
 
 🏢: Business Administration, Development Methodology, Management
 🌐: Web Technology incl. Web Frameworks
@@ -52,7 +61,7 @@ Classes:
 📊: Data Science, Databases, Data Platforms
 🧠: AI, Machine Learning, Large Language Models
 🖥️: Shell, Scripting, Termial, IDE, Developer Productivity
-⚙️: System Administration, OS, VM, Network Infraatructure
+⚙️: System Administration, OS, VM, Network Infrastructure
 📜: Programming Paradigms, Programming Concepts, Libraries
 🩷: Others
 

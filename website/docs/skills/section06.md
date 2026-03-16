@@ -4,6 +4,8 @@
 
 * AI Paradigms
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
+  * [Neuro-symbolic AI](https://en.wikipedia.org/wiki/Neuro-symbolic_AI) - A subfield of artificial intelligence that integrates neural methods with symbolic methods to combine the strengths of both approaches, resulting in AI systems that can be trained from raw data while preserving explainability and explicit reasoning
+    * [AlphaGeometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) - A neuro-symbolic system made up of a neural language model and a symbolic deduction engine, which work together to find proofs for complex geometry theorems
   * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
   * [Causal AI](https://en.wikipedia.org/wiki/Causal_AI) - A technique in artificial intelligence that builds a causal model and can thereby make inferences using causality rather than just correlation
 * Core Concepts
@@ -190,7 +192,7 @@
 * Platforms
   * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
 * Application Frameworks
-  * [Genkit](https://genkit.dev/) - An open-source framework for building AI-powered apps, built and used in production by Google
+  * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
   * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
   * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
@@ -202,6 +204,8 @@
   * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
   * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
 * Benchmarking & Analysis
+  * [ARC-AGI](https://github.com/fchollet/ARC-AGI) - A benchmark for general intelligence, focusing on the ability to learn new concepts from a few examples
+  * [ARC-AGI-2](https://github.com/arcprize/ARC-AGI-2) - A general artificial intelligence benchmark, program synthesis benchmark, or psychometric intelligence test targeted at both humans and artificially intelligent systems that aim at emulating a human-like form of general fluid intelligence
   * [Artificial Analysis](https://artificialanalysis.ai/) - An independent analysis of AI models and API providers, helping users understand the AI landscape
   * [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs)
 
@@ -213,15 +217,18 @@
 * [Agent Skills](https://agentskills.io/home) - A simple, open format for giving agents new capabilities and expertise
 * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) - An open-source standard for connecting AI applications to external systems, enabling them to access data sources, tools, and workflows
 * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
+* [Agent Name Service (ANS)](https://genai.owasp.org/resource/agent-name-service-ans-for-secure-al-agent-discovery-v1-0/) - A secure, DNS-inspired framework for AI agent discovery that leverages Public Key Infrastructure (PKI) for identity verification, structured JSON schemas for communication, and a protocol adapter layer supporting A2A, MCP, and ACP protocols
 
 ### Libraries & Frameworks
 
 * Agent Orchestration Frameworks
-  * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs
+  * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs by creating cyclic graphs for agent runtimes
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
   * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
+  * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
 * Building Agents & Providers
+  * [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
   * [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
   * [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - A library for building AI agents with Claude
   * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
@@ -237,6 +244,7 @@
   * [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
 * Agent Skills Ecosystems
   * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
+  * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
 * Memory Systems
   * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
 * Search & Data Extraction

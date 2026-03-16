@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Document body with clipped top-right corner -->
+  <polygon points="10,4 38,4 46,12 46,56 10,56" fill="#e8e8e8" stroke="#ccc" stroke-width="2"/>
+  <!-- Folded corner -->
+  <polygon points="38,4 46,12 38,12" fill="#ccc"/>
+  <!-- Text lines -->
+  <rect x="16" y="22" width="20" height="3" rx="1" fill="#aaa"/>
+  <rect x="16" y="29" width="24" height="3" rx="1" fill="#aaa"/>
+  <rect x="16" y="36" width="16" height="3" rx="1" fill="#aaa"/>
+  <!-- PDF badge -->
+  <rect x="12" y="43" width="22" height="10" rx="2" fill="#e53935"/>
+  <text x="23" y="52" font-size="7" font-family="sans-serif" font-weight="bold" fill="white" text-anchor="middle">PDF</text>
+</svg>

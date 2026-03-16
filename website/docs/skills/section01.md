@@ -88,6 +88,7 @@
     * branch, tag, worktree
     * push, pull, fetch, rebase, reset, stash
     * staging, commit
+  * [Jujutsu (jj)](https://www.jj-vcs.dev/latest/) - A Git-compatible VCS that is both simple and powerful
   * [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
   * [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
   * [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
@@ -382,7 +383,8 @@
 * [AionUI](https://github.com/iOfficeAI/AionUi) - A Cowork app for AI coding agents with document generation capabilities
 * [Dify](https://dify.ai/) - An open-source LLM app development platform
 * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-* [OpenClaw](https://openclaw.ai/) - An open-source personal AI assistant that automates tasks across various applications and platforms, running on the user's machine
+* [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
+* [Notion AI](https://www.notion.so/product/ai) - An integrated AI assistant for workspaces that provides writing assistance, workspace Q&A, and autonomous agents for task automation
 * [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
 * [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
 * Power Platform

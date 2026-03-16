@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DX and DevOps Landscape (Beta)',
-  tagline: 'Construction of this site is on the way.',
+  title: 'DX and DevOps Landscape',
+  tagline: 'A comprehensive skill reference for the age of AI-driven development',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -108,12 +108,12 @@ const config = {
           },
           {
             title: 'More',
-            items: [/*
+            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitLab',
+                href: 'https://gitlab.com/jimyoshida/dx-devops-landscape',
               },
-            */],
+            ],
           },
         ],
         copyright: `This material is licensed under the CC-BY-SA-4.0. Built with Docusaurus.`,

@@ -143,6 +143,8 @@
     * [React-Redux](https://react-redux.js.org/) - The official React binding for Redux
   * [Recoil](https://recoiljs.org/) - A state management library for React
   * [XState](https://stately.ai/docs) - A library for creating, interpreting, and executing finite state machines and statecharts
+* Routing
+  * [React Router](https://reactrouter.com/) - A user-obsessed, standards-focused, multi-strategy router you can deploy anywhere
 * WASM Runtimes
   * [PyScript](https://pyscript.net/) - A free Open Source Software (OSS) that facilitates the creation, deployment, and sharing of Python applications
 
@@ -211,8 +213,8 @@
     * [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
     * [Flask](https://palletsprojects.com/p/flask/) - A lightweight WSGI web application framework
   * [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html) - A spiritual successor to WSGI, the long-standing Python standard for compatibility between web servers, frameworks, and applications
-    * [Uvicorn](https://www.uvicorn.org/) - An ASGI web server implementation for Python
-    * [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI web server based on the sans-io hyper, h11, h2, and wsproto libraries and inspired by Gunicorn
+    * [Uvicorn](https://www.uvicorn.org/) - A lightning-fast ASGI server implementation for Python, using uvloop and httptools for high performance
+    * [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI and WSGI web server based on the sans-io hyper, h11, h2, and wsproto libraries with support for HTTP/1, HTTP/2, and HTTP/3
     * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
     * [SlowAPI](https://github.com/laurents/slowapi) - A small library to rate limit your ASGI applications
 * Ruby Backend Frameworks & Servers
@@ -319,7 +321,7 @@
 
 * Browser Automation & Testing
   * [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - A Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol
-  * [Playwright](https://playwright.dev/) - A framework for Web Testing and Automation
+  * [Playwright](https://playwright.dev/) - A framework for reliable end-to-end testing for modern web apps with a single API for Chromium, Firefox, and WebKit
     * [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
   * [Cypress](https://www.cypress.io/) - An open-source, JavaScript-based testing framework that enables developers to write, run, and debug end-to-end and component tests directly in the browser for modern web applications
   * [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents

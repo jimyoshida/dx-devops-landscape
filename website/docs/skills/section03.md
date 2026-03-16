@@ -48,7 +48,7 @@ access to high-performance networking
 ### Infrastructure as Code (IaC)
 
 * [Hashicorp Terraform](https://www.terraform.io/) - An infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently
-* [OpenTofu](https://opentofu.org/) - An open-source alternative to Terraform
+* [OpenTofu](https://opentofu.org/) - An open-source, community-driven fork of Terraform that provides a stable, drop-in replacement for building and managing infrastructure
 * [Pulumi](https://www.pulumi.com/) - An infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure
 
 ### Configuration Management & Automation
@@ -262,7 +262,7 @@ access to high-performance networking
   * [Amazon Elastic Container Service](https://aws.amazon.com/ecs/) - A fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications
   * [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both ECS and EKS
   * [AWS App Runner](https://aws.amazon.com/apprunner/) - A fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required
-  * [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) - A fully managed serverless container service built on Kubernetes
+  * [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) - A fully managed serverless container service built on Kubernetes, integrating KEDA, Dapr, and Envoy for microservices and event-driven workloads
   * [Google Cloud Run](https://cloud.google.com/run) - A managed compute platform that lets you run containers that are automatically scaled
 
 ### Function as a Service (FaaS)
@@ -274,7 +274,7 @@ access to high-performance networking
 ### Advanced Runtimes & Isolation
 
 * Sandboxed Runtimes
-  * [Kata Containers](https://katacontainers.io/) - An open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs
+  * [Kata Containers](https://katacontainers.io/) - An open-source project building a standard implementation of lightweight virtual machines that feel and perform like containers, but provide the workload isolation and security of virtual machines
   * [gVisor](https://gvisor.dev/) - A Linux-compatible sandbox that implements the Linux kernel and its network stack, intercepting system calls to protect the host from containerized applications
   * [libkrun](https://github.com/containers/libkrun) - A dynamic library providing virtualization-based process isolation capabilities
   * [Cloud Hypervisor](https://www.cloudhypervisor.org/) - An open source Virtual Machine Monitor (VMM) implemented in Rust that focuses on running modern, cloud workloads, with minimal hardware emulation

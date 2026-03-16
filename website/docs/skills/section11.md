@@ -131,6 +131,7 @@
   * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
 * Libraries
   * [Native WebP for Go](https://github.com/HugoSmits86/nativewebp) - A native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries
+  * [Pillow](https://python-pillow.github.io/) - The friendly PIL (Python Imaging Library) fork that adds image processing capabilities to your Python interpreter
 
 ### Compression & Archiving
 
@@ -169,6 +170,7 @@
   * [pdfcpu](https://pdfcpu.io/) - A PDF processor written in Go
   * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
 * Libraries
+  * [Poppler](https://poppler.freedesktop.org/) - A PDF rendering library based on the xpdf-3.0 code base
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
   * [Prawn PDF](https://prawnpdf.org/) - A fast, nimble PDF generator for Ruby
@@ -184,6 +186,7 @@
   * [pptx2md](https://github.com/ssine/pptx2md) - A simple tool for converting pptx to markdown
 * Libraries
   * [python-pptx](https://python-pptx.readthedocs.io/en/latest/) - A Python library for creating and updating PowerPoint (.pptx) files
+  * [PptxGenJS](https://gitbrent.github.io/PptxGenJS/) - A JavaScript library for building PowerPoint presentations that works with Node.js, React, and web browsers
   * [Excelize](https://xuri.me/excelize/) - A Go library for reading and writing XLSX/XLSM/XLTM files
   * [Roo](https://github.com/roo-rb/roo) - A library that can access the contents of various spreadsheet files
 
@@ -216,6 +219,7 @@
     * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
   * System WebView (Hybrid)
     * [Tauri](https://tauri.app/) - A toolkit that helps developers make applications for the major desktop platforms
+    * [Microsoft Edge WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2/) - A control that allows you to embed web technologies (HTML, CSS, and JavaScript) in your native apps by using Microsoft Edge as the rendering engine
 
 ### Installation & Packaging
 
@@ -233,6 +237,10 @@
     * [libqrencode](https://github.com/fukuchi/libqrencode) - A fast and compact QR Code encoding library
     * [Pure python QR Code generator](https://github.com/lincolnloop/python-qrcode) - A library that provides a simple way to create QR codes in Python
     * [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment) - A contactless payment method where a payment is performed by scanning a QR code from a mobile app
+* Backend-as-a-Service (BaaS)
+  * [Firebase](https://firebase.google.com/) - An app development platform that helps you build and grow apps and games users love
+  * [Supabase](https://supabase.com/) - A Postgres development platform that provides a database, authentication, instant APIs, edge functions, real-time subscriptions, storage, and vector embeddings
+  * [AWS Amplify](https://aws.amazon.com/amplify/) - A complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS
 
 ## Office Suite Ecosystem Tools
 

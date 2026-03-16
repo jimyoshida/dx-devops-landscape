@@ -83,7 +83,7 @@
 * Python Libraries
   * [matplotlib](https://matplotlib.org/) - A comprehensive library for creating static, animated, and interactive visualizations in Python
   * [seaborn](https://seaborn.pydata.org/) - A Python data visualization library based on matplotlib
-  * [Plotly](https://plotly.com/python/) - The interactive graphing library for Python (includes Plotly Express)
+  * [Plotly](https://plotly.com/python/) - The interactive, open-source, and browser-based graphing library for Python (includes Plotly Express)
   * [WordCloud for Python](https://amueller.github.io/word_cloud/) - A little word cloud generator in Python
 * JavaScript Libraries
   * [D3](https://d3js.org/) - The JavaScript library for bespoke data visualization
@@ -151,6 +151,7 @@
   * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra) - The branch of mathematics concerning linear equations, linear maps, and their representations in vector spaces and through matrices
     * [Vector space](https://en.wikipedia.org/wiki/Vector_space) - A set whose elements, often called vectors, can be added together and multiplied ("scaled") by numbers called scalars
     * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics)) - A rectangular array of numbers or other mathematical objects with elements or entries arranged in rows and columns, usually satisfying certain properties of addition and multiplication
+    * [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix) - A matrix in which most of the elements are zero
     * [Rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra)) - The dimension of the vector space generated (or spanned) by its columns
     * [Determinant](https://en.wikipedia.org/wiki/Determinant) - A scalar-valued function of the entries of a square matrix
 * [Calculus](https://en.wikipedia.org/wiki/Calculus) - The mathematical study of continuous change, in the same way that geometry is the study of shape and algebra is the study of generalizations of arithmetic operations
@@ -201,6 +202,7 @@
 
 * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
 * [Apache ORC](https://orc.apache.org/) - The smallest, fastest columnar storage for Hadoop workloads
+* [Apache Arrow](https://arrow.apache.org/) - A universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics
 * [BSON](https://bsonspec.org/) - A bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments
 * [Apache Avro](https://avro.apache.org/) - The leading serialization format for record data, and first choice for streaming data pipelines
 * [Delta Lake](https://delta.io/) - An open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines
@@ -248,7 +250,7 @@
 * Embedded / In-Process
   * [SQLite](https://www.sqlite.org/index.html) - A C-language library that implements a small, fast, self-contained, high-reliability, and full-featured database engine
   * [PGlite](https://pglite.dev/) - A WASM build packaged into a TypeScript/JavaScript client library, that enables you to run the database in the browser, Node.js and Bun
-  * [DuckDB](https://duckdb.org/) - An in-process analytical database management system
+  * [DuckDB](https://duckdb.org/) - An in-process SQL OLAP database management system
 * Storage Engines
   * [Storage Engine](https://en.wikipedia.org/wiki/Storage_engine) - A software component that a database management system uses to create, read, update and delete (CRUD) data from a database
   * [InnoDB](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html) - A transactional storage engine for MySQL and MariaDB
@@ -261,8 +263,6 @@
   * [Azure SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/) - An intelligent, scalable, relational database service built for the cloud
   * [Google Cloud SQL](https://cloud.google.com/sql) - A fully-managed database service that helps you set up, maintain, manage, and administer your relational databases on Google Cloud
   * [Neon](https://neon.tech/) - A serverless, fault-tolerant, and scalable Postgres with a generous free tier
-* Backend-as-a-Service (BaaS)
-  * [Supabase Database](https://supabase.com/docs/guides/database/overview) - An open source Firebase alternative
 
 ### Connectivity & Tooling
 
@@ -274,7 +274,7 @@
   * [Object-Relational Mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) - A programming technique for converting data between incompatible type systems using object-oriented programming languages
     * [Prisma](https://www.prisma.io/) - A next-generation ORM that makes it easy to build reliable and scalable applications with databases
     * [Hibernate](https://hibernate.org/orm/) - An object-relational mapping tool for the Java programming language
-    * [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL Toolkit and Object Relational Mapper
+    * [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL
     * [GORM](https://gorm.io/) - The fantastic ORM library for Golang aims to be developer friendly
     * [XORM](https://xorm.io/) - A Simple and Powerful ORM for Go
     * [Diesel](https://diesel.rs/) - A Safe, Extensible ORM and Query Builder for Rust
@@ -295,6 +295,10 @@
 * Monitoring & Analysis
   * [pgBadger](https://pgbadger.darold.net/) - A PostgreSQL log analyzer built for speed with fully detailed reports and professional rendering
 
+### Collaborative Data & No-Code Platforms
+
+* [NocoDB](https://nocodb.com/) - An open-source, no-code platform that turns any database into a smart spreadsheet, providing a collaborative interface for relational databases
+
 ## NoSQL & Specialized Databases
 
 ### NoSQL Data Models
@@ -309,6 +313,8 @@
   * [Dragonfly](https://www.dragonflydb.io/) - A drop-in Redis replacement
 * Graph Databases
   * [Neo4j](https://neo4j.com/) - A high-speed graph database with unbounded scale, security, and data integrity
+    * [Cypher](https://neo4j.com/docs/cypher-manual/current/introduction/) - A declarative query language for property graph databases
+  * [LadybugDB](https://ladybugdb.com/) - An embedded columnar graph database built for highly regulated industries
 * Wide-columns Databases
   * [Apache Cassandra](https://cassandra.apache.org/) - An open source NoSQL distributed database
   * [Apache HBase](https://hbase.apache.org/) - The Hadoop database, a distributed, scalable, big data store
@@ -316,11 +322,15 @@
 
 ### Vector & AI Databases
 
-* [pgvector](https://github.com/pgvector/pgvector) - An open-source vector similarity search for Postgres
-* [ElasticSearch vector database](https://www.elastic.co/elasticsearch/vector-database) - The world's most widely deployed, open source vector database
-* [Weaviate](https://weaviate.io/) - An open-source vector database that simplifies the development of AI applications
-* [Milvus](https://zilliz.com/what-is-milvus) - A high-performance open-source vector database built to handle billions of vectors
-* [Chroma](https://www.trychroma.com/) - The AI-native open-source embedding database
+* Concepts
+  * [HNSW (Hierarchical Navigable Small Worlds)](https://www.pinecone.io/learn/series/faiss/hnsw/) - A top-performing index for vector similarity search
+* Vector Databases
+  * [Pinecone](https://www.pinecone.io/) - A purpose-built vector database delivering relevant results at any scale
+  * [pgvector](https://github.com/pgvector/pgvector) - An open-source vector similarity search for Postgres
+  * [ElasticSearch vector database](https://www.elastic.co/elasticsearch/vector-database) - The world's most widely deployed, open source vector database
+  * [Weaviate](https://weaviate.io/) - An open-source vector database that simplifies the development of AI applications
+  * [Milvus](https://zilliz.com/what-is-milvus) - A high-performance open-source vector database built to handle billions of vectors
+  * [Chroma](https://www.trychroma.com/) - The AI-native open-source embedding database
 
 ### Cloud NoSQL Services
 
