@@ -62,8 +62,39 @@ Class emojis:
 - 📜 Programming Paradigms, Programming Concepts, Libraries
 - 🩷 Others
 
+### Nested Skill Items
+
+Skill items can be nested under a parent grouping bullet:
+
+```
+* Parent concept
+  * [Child Tool](url) - Description starting with "A" or "The"
+```
+
+## Data Directory (`data/`)
+
+Contains scripts for maintaining skill classification data:
+
+```bash
+cd data
+make read    # Extract section titles from skill files → Class.yml
+make write   # Apply Class.yml classifications back to skill files
+make test    # Run write.pl unit tests (requires ruby)
+```
+
+`Class.yml` maps section IDs (e.g., `section01`) to their titles. Run `make read` after renaming sections, then `make write` to propagate changes.
+
+## AI Prompts (`prompts/`)
+
+- `DescriptionWriter.txt` — Prompt for generating the ` - Description` suffix on skill items from linked site content
+- `DescriptionTranslator.txt` — Prompt for translating description strings to Japanese
+
 ## Markdownlint Rules
 
 Key rules enforced across all content:
 - `MD024/no-duplicate-heading`: Use grouping list items instead of headings for generic category names
 - `MD047/single-trailing-newline`: Every markdown file must end with exactly one newline
+
+## Note on GEMINI.md
+
+`GEMINI.md` in the repo root is the master instruction file (for Gemini CLI). Keep `CLAUDE.md` in sync with it when updating authoring rules.

@@ -3,14 +3,11 @@
 This file provides guidance to Gemini CLI when working with code in this repository.
 This file is the master instruction and CLAUDE.md is automaticaly generated from this.
 
-## Overview
+Refer to `website/docs/intro.md` for the overview & principles.
 
-This site aims to provide a sophisticated and comprehensive overview of the skill set
-which includes well-known concepts, techniques, tools, platforms, and frameworks related to DX (Digital Transformation) and DevOps.
+## Skill Files
 
-### Skill Files
-
-The 12 markdown files under the "website/docs/skills/" directory contain the skill items categorized.
+The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
 Each level 2 header can have up to 5 level 3 headers as subsections.
@@ -42,9 +39,9 @@ Make sure the file meets "MD047/single-trailing-newline" in markdownlint rules.
 
 </Contents_Example>
 
-### Timeline Files
+## Timeline Files
 
-In addition, the markdown files under the "website/docs/timelines/" directory contain the background timeline of the skill items.
+In addition, the markdown files under the `website/docs/timelines/` directory contain the background timeline of the skill items.
 
 Each entry is a paragraph which contains the deacription basically quoted from Wikipedia English version. It must include the date information of the event and must be arranged in chronological order.
 If the event's month or day is unclear, they should be located at the last position of the year or month respectively.

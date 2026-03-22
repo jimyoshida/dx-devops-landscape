@@ -106,6 +106,8 @@
   * [Microservices architecture](https://martinfowler.com/articles/microservices.html) - An approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms
   * [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)
   * [Resource-oriented architecture](https://en.wikipedia.org/wiki/Resource-oriented_architecture) - A style of software architecture and programming paradigm for designing and developing software in the form of a network of resources
+  * [Background processing](https://en.wikipedia.org/wiki/Background_process) - The execution of tasks in the background, allowing the main application to remain responsive
+    * [Sidekiq](https://sidekiq.org/) - A simple, efficient background processing tool for Ruby
 * Web Application Architectures
   * [Single-page application](https://en.wikipedia.org/wiki/Single-page_application) - A web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server
   * [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
@@ -126,10 +128,27 @@
 ### Frontend Frameworks
 
 * Core SPA Frameworks
-  * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
   * [React](https://reactjs.org/) - The library for web and native user interfaces
+    * Core Concepts
+      * [Component](https://react.dev/learn/your-first-component) - A fundamental building block used to create user interfaces
+      * [Props](https://react.dev/learn/passing-props-to-a-component) - A mechanism for passing data from a parent component to a child component
+      * [Children](https://react.dev/learn/passing-props-to-a-component#passing-jsx-as-children) - A special prop that allows components to be composed
+      * [Key Props](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key) - A special string attribute you need to include when creating lists of elements
+      * [Rendering](https://react.dev/learn/render-and-commit) - The process of React asking your components to describe what they want to look like
+      * [Event Handler](https://react.dev/learn/responding-to-events) - A function that is executed in response to an event
+      * [State](https://react.dev/learn/state-a-components-memory) - A JavaScript object that stores a component's dynamic data
+      * [Controlled Component](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components) - A component where React state controls the value of an input element
+      * [Hooks](https://react.dev/reference/react/hooks) - A set of functions that let you "hook into" React state and lifecycle features from function components
+      * [Strict Mode](https://react.dev/reference/react/StrictMode) - A tool for highlighting potential problems in an application
+      * [Side-effect](https://react.dev/learn/synchronizing-with-effects) - A term that refers to any operation that affects something outside of the function being executed
+      * [Refs](https://react.dev/learn/referencing-values-with-refs) - A feature that provides a way to access DOM nodes or React elements created in the render method
+      * [Context](https://react.dev/learn/passing-data-deeply-with-context) - A way to pass data through the component tree without having to pass props down manually at every level
+      * [Portals](https://react.dev/reference/react-dom/createPortal) - A feature that provides a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component
+      * [Suspense](https://react.dev/reference/react/Suspense) - A component that lets you specify a loading indicator for a part of the component tree
+      * [Error Boundary](https://react.dev/reference/react/Component#error-boundaries) - A React component that catches JavaScript errors anywhere in their child component tree
   * [Preact](https://preactjs.com/) - A fast 3kB alternative to React with the same modern API
   * [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
+  * [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
   * [Svelte](https://svelte.dev/) - A UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript
   * [Ember.js](https://emberjs.com/) - A framework for ambitious web developers
 * HTML-First Frameworks
@@ -299,6 +318,7 @@
   * [Go Resty](https://github.com/go-resty/resty) - A simple HTTP and REST client library for Go
   * [Go FastHTTP](https://github.com/valyala/fasthttp) - A fast HTTP package for Go
   * [Surf](https://github.com/enetx/surf) - An advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass
+  * [Typhoeus](https://github.com/typhoeus/typhoeus) - A library that wraps libcurl in order to make fast and reliable requests
   * [Ruby Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
   * [httpx](https://gitlab.com/os85/httpx) - An HTTP client library for the Ruby programming language
   * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - An ergonomic, async HTTP client

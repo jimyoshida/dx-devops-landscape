@@ -174,6 +174,7 @@
 
 * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) - A technique that enables large language models to retrieve and incorporate new information from external data sources
   * [dsRAG](https://github.com/D-Star-AI/dsRAG) - A high-performance retrieval engine for unstructured data
+* [AWQ (Activation-aware Weight Quantization)](https://github.com/mit-han-lab/llm-awq) - An efficient and accurate low-bit weight quantization (INT3/4) for LLM compression and acceleration
 * [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
 * [Prompt Engineering Guide](https://www.promptingguide.ai/) - A comprehensive resource for learning and applying prompt engineering techniques to effectively utilize large language models and build AI agents
 * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/) - A structured method for crafting clear and precise AI prompts by defining context, role, action, format, and tone
@@ -194,6 +195,7 @@
 * Application Frameworks
   * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
+  * [LlamaIndex](https://www.llamaindex.ai/) - A developer-first agent framework for building GenAI applications with modular building blocks for agents, RAG, and custom workflows
   * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
   * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
 * Development Tools & Utilities
@@ -224,13 +226,16 @@
 * Agent Orchestration Frameworks
   * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs by creating cyclic graphs for agent runtimes
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
+  * [Agent Zero](https://www.agent-zero.ai/) - An open-source personal AI agent that uses a dynamic toolset to solve complex tasks by writing and executing code, managing its own computer environment, and learning from its actions
   * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
+  * [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/) - A comprehensive framework for building full-stack, multi-channel agents that operate seamlessly across Microsoft 365 Copilot, Teams, third-party platforms, custom applications, and websites
   * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
 * Building Agents & Providers
   * [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
   * [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
   * [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - A library for building AI agents with Claude
+  * [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents-sdk) - A library for building agentic applications where models can use additional context and tools, hand off to specialized agents, and stream results
   * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
   * [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/en-us/microsoft-365/developer/overview-m365-agents-toolkit) - A suite of tools for building enterprise-ready agents and apps that work across Microsoft 365 Copilot, Teams, Office, web, and other third-party messaging channels
 * Local & Desktop Agents
@@ -242,9 +247,6 @@
 
 * Pre-built Agents & Collections
   * [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
-* Agent Skills Ecosystems
-  * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
-  * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
 * Memory Systems
   * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
 * Search & Data Extraction
@@ -276,7 +278,7 @@
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
   * [Nebius](https://nebius.com/) - A specialized AI cloud platform offering purpose-built infrastructure for AI and machine learning workloads
 * LLM Observability
-  * [Langfuse](https://langfuse.com/) - An open source LLM engineering platform to trace, evaluate, prompt, and monitor metrics
+  * [Langfuse](https://langfuse.com/) - An open source LLM engineering platform providing traces, evals, prompt management, and metrics to debug and improve LLM applications
   * [OpenLIT](https://openlit.io/) - An open-source, OpenTelemetry-native tool for LLM and GenAI observability
   * [LangSmith](https://www.langchain.com/langsmith) - A unified DevOps platform for developing, collaborating, testing, deploying, and monitoring LLM applications
   * [Helicone](https://www.helicone.ai/) - An open-source LLM observability platform built for developers to monitor and optimize their generative AI applications

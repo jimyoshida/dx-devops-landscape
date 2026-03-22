@@ -55,14 +55,16 @@ Released: Aug 10, 2021
 
 ## 2022
 
+⚙️ Chocolatey 1.0.0 was officially released on March 18, 2022, marking a major milestone in version stability and enterprise readiness after over a decade of development.
+
 🧠 PaLM (Pathways Language Model) is a 540 billion parameter transformer-based large language model developed by Google AI.
 The model was first announced in April 2022 and remained private until March 2023, when Google launched an API for PaLM and several other technologies.
 
 🧠 On May 11, 2022, Google unveiled LaMDA 2, the successor to LaMDA, during the 2022 Google I/O keynote.
 
-☁️ Azure Container Apps, a fully managed serverless container service built on Kubernetes, reached general availability on May 24, 2022.
+☁️ Kubernetes 1.24, released in May 2022, removed "dockershim," officially ending built-in support for Docker as a container runtime in favor of the Container Runtime Interface (CRI).
 
-⚙️ Chocolatey 1.0.0 was released on 18 Mar 2022.
+☁️ Azure Container Apps, a fully managed serverless container service built on Kubernetes, reached general availability on May 24, 2022.
 
 ⚙️ On September 21, 2022, Systemd support is now available in WSL.
 
@@ -70,10 +72,10 @@ The model was first announced in April 2022 and remained private until March 202
 
 🧠 LangChain, an open-source framework designed to simplify the creation of applications using large language models (LLMs), was launched by Harrison Chase in October 2022.
 
+🖥️ GitHub Codespaces was made available to all individual users on November 9, 2022, including a free monthly usage quota for the free tier.
+
 🧠 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022.
 It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
-
-🖥️ GitHub Codespaces was made available to all individual users on November 9, 2022, including a free monthly usage quota for the free tier.
 
 🌐 HTTP/3, the successor to HTTP/2, was published in 2022.
 
@@ -93,6 +95,12 @@ It was launched on March 14, 2023, and made publicly available via the paid chat
 🧠 Claude is a family of large language models developed by Anthropic.
 The first model was released in March 2023.
 
+⚙️ Chocolatey 2.0.0 was released on May 31, 2023, featuring a major update to the underlying NuGet client libraries and introducing support for Semantic Versioning (SemVer) 2.0.0.
+
+☁️ Dagu, a local-first and DAG-based workflow engine designed as a "zero-ops" alternative to more complex orchestrators like Apache Airflow, was first released as open source on GitHub on August 11, 2023.
+
+☁️ Following HashiCorp's announcement to move Terraform to a non-open-source license, the OpenTF project (later rebranded as OpenTofu) was officially forked on August 25, 2023. It joined the Linux Foundation on September 20, 2023.
+
 🧠 Google Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4.
 
 📜 Mojo is a programming language in the Python family that is currently under development. It is available both in browsers via Jupyter notebooks, and locally on Linux and macOS.
@@ -102,8 +110,6 @@ First appeared: 2023
 First appeared: 2023
 
 🖥️ Cursor, an AI-native fork of Visual Studio Code (VS Code) developed by Anysphere, was publicly launched in 2023.
-
-☁️ Following HashiCorp's announcement to move Terraform to a non-open-source license, the OpenTF project (later rebranded as OpenTofu) was officially forked on August 25, 2023. It joined the Linux Foundation on September 20, 2023.
 
 ## 2024
 
@@ -173,8 +179,7 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🧠 On October 15, 2025, Anthropic launched the **Skills Registry**, a centralized platform for discovering and sharing "Anthropic-verified" and community-contributed skills to enhance Claude's functionality.
 
-🧠 LangChain and LangGraph officially reached their Version 1.0 milestones on October 22, 2025.
-This release committed to API stability and introduced a more robust runtime for complex agentic workflows.
+🧠 LangChain and LangGraph officially reached their Version 1.0 milestones on October 22, 2025. This release marked LangGraph's transition to a "durable agent framework" with a commitment to API stability, featuring built-in support for persistent state, human-in-the-loop (HITL) workflows, and a redesigned documentation site.
 
 🖥️ Cursor 2.0 was released on October 29, 2025, introducing "Composer"—an AI-native coding interface optimized for orchestrating multi-agent workflows and high-speed code generation across codebases.
 

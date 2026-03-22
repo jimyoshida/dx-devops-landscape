@@ -123,6 +123,7 @@
 
 * [Google Engineering Practices Documentation](https://google.github.io/eng-practices/) - A comprehensive guide to Google's code review processes and policies for both reviewers and change authors
 * [Conventional Comments](https://conventionalcomments.org/) - A standard that provides a structured format for code review feedback to improve clarity, reduce misunderstandings, and make comments machine-readable
+* [Danger](https://github.com/danger/danger) - A tool to automate team norms in code review
 
 ## Release Management
 
@@ -426,12 +427,20 @@
   * [Maven Central](https://central.sonatype.com/) - The World's Largest and Oldest Component Repository
   * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
   * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
+* Agent Skills Registries
+  * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
+  * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
+  * [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
+* MCP (Model Context Protocol) Registries
+  * [Official MCP Registry](https://registry.modelcontextprotocol.io/)- A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
+  * [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
 * Community Curations
   * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software. Inspired by awesome-python
   * [Awesome Ruby](https://awesome-ruby.com/) - A curated list of awesome Ruby frameworks, libraries and software
   * [Awesome Python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
   * [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins
   * [Awesome VSCode](https://github.com/viatsko/awesome-vscode) - A curated list of delightful VS Code packages and resources
+  * [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A community-curated list of Model Context Protocol (MCP) servers
 
 ### Open Data
 

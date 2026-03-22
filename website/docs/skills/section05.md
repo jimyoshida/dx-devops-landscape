@@ -164,6 +164,7 @@
   * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) - The length of the line segment between two points in a Euclidean space
 * [Root mean square](https://en.wikipedia.org/wiki/Root_mean_square) - The square root of the mean of the squares of a set of numbers
 * Transforms
+  * [Discrete cosine transform](https://en.wikipedia.org/wiki/Discrete_cosine_transform) - A transform that expresses a finite sequence of data points in terms of a sum of cosine functions oscillating at different frequencies
   * [Discrete Fourier transform](https://en.wikipedia.org/wiki/Discrete_Fourier_transform) - A discrete version of the Fourier transform that converts a finite sequence of equally-spaced samples of a function into a same-length sequence of equally-spaced samples of the discrete-time Fourier transform (DTFT)
 * Related Resources
   * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - The definitive reference for the special functions of applied mathematics
@@ -372,6 +373,11 @@
   * [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data
   * [Apache Airflow](https://airflow.apache.org/) - A platform to programmatically author, schedule, and monitor workflows
   * [dbt](https://www.getdbt.com/) - A unified platform for delivering trusted data that empowers teams to deliver reliable, governed data at scale
+  * [Dagu](https://docs.dagu.sh/) - A local-first workflow engine that provides a declarative, file-based, and self-contained platform to orchestrate tasks from a single binary that scales from a laptop to a distributed cluster
+* Managed ETL & Data Integration Services
+  * [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/) - The cloud ETL service for scale-out serverless data integration and data transformation
+  * [AWS Glue](https://aws.amazon.com/glue/) - A serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources
+  * [Google Cloud Data Fusion](https://cloud.google.com/data-fusion) - A fully managed, cloud-native data integration service that helps users efficiently build and manage ETL/ELT data pipelines
 
 ### Stream Processing
 
@@ -381,13 +387,6 @@
   * [Apache Flink](https://flink.apache.org/) - A framework and distributed processing engine for stateful computations over unbounded and bounded data streams
 * Cloud Services
   * [Google Cloud Dataflow](https://cloud.google.com/products/dataflow) - A fully managed streaming analytics service that minimizes latency, processing time, and cost through autoscaling and batch processing
-
-### Cloud Processing Services
-
-* Managed ETL & Data Integration
-  * [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/) - The cloud ETL service for scale-out serverless data integration and data transformation
-  * [AWS Glue](https://aws.amazon.com/glue/) - A serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources
-  * [Google Cloud Data Fusion](https://cloud.google.com/data-fusion) - A fully managed, cloud-native data integration service that helps users efficiently build and manage ETL/ELT data pipelines
 
 ## Data Analytics & Search
 

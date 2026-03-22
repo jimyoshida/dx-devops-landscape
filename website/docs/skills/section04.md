@@ -15,6 +15,7 @@
 * [Phishing](https://en.wikipedia.org/wiki/Phishing) - A type of social engineering where an attacker sends a fraudulent message designed to trick a person into revealing sensitive information
 * [Business Email Compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - A type of phishing attack in which an attacker impersonates a high-level executive and attempts to trick an employee or customer into transferring money or sensitive data
 * [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - A type of Trojan horse designed to gather information from a system
+* [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - A malware that turns networked devices running Linux into remotely controlled bots that can be used as part of a botnet in large-scale network attacks
 * [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - A social engineering technique that tricks users into running malicious commands on their devices by taking advantage of their target's tendency to solve minor technical issues
 * Attack Simulation Tools
   * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
@@ -177,6 +178,8 @@
 ### Authentication (AuthN)
 
 * [Authentication](https://en.wikipedia.org/wiki/Authentication) - The act of proving an assertion, such as the identity of a computer system user
+* [Multi-factor authentication (MFA)](https://en.wikipedia.org/wiki/Multi-factor_authentication) - A method that requires multiple verification methods for access
+* [Single sign-on (SSO)](https://en.wikipedia.org/wiki/Single_sign-on) - A service that allows one login for multiple applications
 * Protocols & Standards
   * [OpenID Connect](https://openid.net/connect/) - A simple identity layer on top of the OAuth 2.0 protocol
   * [SAML](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html) - A standard for logging users into applications
@@ -207,6 +210,9 @@
 * [Authorization](https://en.wikipedia.org/wiki/Authorization) - The function of specifying access rights/privileges to resources
 * Access Control Models
   * [Access control list (ACL)](https://en.wikipedia.org/wiki/Access-control_list) - A list of permissions associated with a system resource
+  * [Attribute-based access control (ABAC)](https://en.wikipedia.org/wiki/Attribute-based_access_control) - A model grants access based on user attributes
+  * [Discretionary access control (DAC)](https://en.wikipedia.org/wiki/Discretionary_access_control) - A model allows users to control access to their own resources
+  * [Mandatory access control (MAC)](https://en.wikipedia.org/wiki/Mandatory_access_control) - A model enforces access policies based on security labels
   * [Role-based access control (RBAC)](https://en.wikipedia.org/wiki/Role-based_access_control) - A policy-neutral access-control mechanism defined around roles and privileges
     * [Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) - A system that enables fine-grained access management of Azure resources
       * Security principal kinds: User, Group, Service Principal, Managed Identity
@@ -239,6 +245,7 @@
 ### Secure Development Practices
 
 * [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) - A set of fundamental, sound, and secure software development practices
+* [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/en-us/securityengineering/sdl) - A software development process that helps developers build more secure software and address security compliance requirements while reducing development cost
 * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) - A standard for performing application-level security verifications
 * [OWASP Security Champions](https://owasp.org/www-project-security-culture/v10/4-Security_Champions/) - A program to embed security expertise and culture within development teams
 * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - A collection of concise cheat sheets on various security topics
@@ -442,6 +449,7 @@
     * Breach notification
     * Data protection impact assessment (DPIA)
   * [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa) - A state statute intended to enhance privacy rights and consumer protection for residents of California
+  * [Cyber Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act) - A regulation that aims to safeguard consumers and businesses buying or using products or software with a digital component by introducing mandatory cybersecurity requirements
 * Security & Privacy Frameworks
   * NIST SP 800-53
     * AC - Access Control
