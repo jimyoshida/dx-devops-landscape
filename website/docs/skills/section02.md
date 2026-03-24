@@ -94,6 +94,7 @@
   * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
 * Visual Design
   * [Microsoft Typography](https://learn.microsoft.com/en-us/typography/)
+  * [Lucide](https://lucide.dev/) - A community-run fork of Feather Icons, providing a beautiful and consistent icon library for various platforms and frameworks
 * [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
   * Largest Contentful Paint (LCP)
   * Interaction to Next Paint (INP)
@@ -125,7 +126,7 @@
 
 * [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
 
-### Frontend Frameworks
+### UI Frameworks & Core Libraries
 
 * Core SPA Frameworks
   * [React](https://reactjs.org/) - The library for web and native user interfaces
@@ -154,9 +155,16 @@
 * HTML-First Frameworks
   * [htmx](https://htmx.org/) - A library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes
   * [htm](https://github.com/developit/htm) - A JSX alternative using standard tagged templates, with no transpiler necessary
-* Syntax & Templating
-  * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
-  * [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
+* Framework-agnostic Core Libraries
+  * [TanStack](https://tanstack.com/) - A collection of high-quality, framework-agnostic open-source libraries for web development
+    * [TanStack Query](https://tanstack.com/query) - A powerful asynchronous state management for TS/JS, React, Solid, Vue, Svelte and Angular
+    * [TanStack Router](https://tanstack.com/router) - A powerful, type-safe, and framework-agnostic router for building modern web applications
+    * [TanStack Table](https://tanstack.com/table) - A headless UI for building powerful tables & datagrids for TS/JS, React, Vue, Solid and Svelte
+    * [TanStack Form](https://tanstack.com/form) - A type-safe and framework-agnostic form state management for React, Vue, Solid, and Svelte
+    * [TanStack Virtual](https://tanstack.com/virtual) - A headless UI for virtualizing large lists and grids in React, Vue, Svelte, Solid and JS
+
+### State, Routing & Logic
+
 * State Management
   * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
     * [React-Redux](https://react-redux.js.org/) - The official React binding for Redux
@@ -164,26 +172,44 @@
   * [XState](https://stately.ai/docs) - A library for creating, interpreting, and executing finite state machines and statecharts
 * Routing
   * [React Router](https://reactrouter.com/) - A user-obsessed, standards-focused, multi-strategy router you can deploy anywhere
+* Syntax & Templating
+  * [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
+  * [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
 * WASM Runtimes
   * [PyScript](https://pyscript.net/) - A free Open Source Software (OSS) that facilitates the creation, deployment, and sharing of Python applications
 
-### CSS Ecosystem
+### Styling & UI Components
 
-* Frameworks and UI Kits
-  * [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit
-  * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
-  * [Oat](https://oat.ink/) - An ultra-lightweight, semantic, zero-dependency HTML UI component library that provides minimal, standards-based CSS and JS
-* CSS-in-JS
-  * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
-  * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
-* Preprocessors
-  * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
-* Transforms
-  * [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/)
-  * [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/)
+* CSS Ecosystem
+  * Frameworks and UI Kits
+    * [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit
+    * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
+    * [Oat](https://oat.ink/) - An ultra-lightweight, semantic, zero-dependency HTML UI component library that provides minimal, standards-based CSS and JS
+  * Tailwind Component Libraries
+    * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
+  * CSS-in-JS
+    * [Emotion](https://emotion.sh/) - A library designed for writing css styles with JavaScript
+    * [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
+  * Preprocessors
+    * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
+  * Transforms
+    * [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/)
+    * [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/)
+* UI Component Libraries
+  * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
+  * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
+  * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
+* Specialized UI Widgets
+  * Rich Text Editors
+    * [Tiptap](https://tiptap.dev/) - The headless and open source editor framework designed for web developers
+  * Interaction & Media
+    * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
+    * [Hammer.js](https://hammerjs.github.io/) - A javascript library for multi-touch gestures
 
-### Frontend Build Tooling
+### Build & Development Tooling
 
+* Development Environments
+  * [Storybook](https://storybook.js.org/) - A frontend workshop for building UI components and pages in isolation
 * Bundlers
   * [Vite](https://vitejs.dev/) - A build tool that aims to provide a faster and leaner development experience for modern web projects
   * [Parcel](https://parceljs.org/) - The zero configuration build tool
@@ -194,20 +220,9 @@
   * [babel](https://babeljs.io/) - A JavaScript compiler
 * Minifiers
   * [JSMin](https://www.crockford.com/jsmin.html) - A minification tool that removes comments and unnecessary whitespace from JavaScript files
-
-### UI Widgets & Interaction
-
-* Tailwind Component Libraries
-  * [daisyUI](https://daisyui.com/) - The most popular component library for Tailwind CSS
-* React Component Libraries
-  * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
-  * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
-* Vue UI Libraries
-  * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
-* Framework-agnostic Libraries
-  * Interaction & Media
-    * [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
-    * [Hammer.js](https://hammerjs.github.io/) - A javascript library for multi-touch gestures
+* Linters & Formatters
+  * [Biome](https://biomejs.dev/) - A fast formatter and linter for JavaScript, TypeScript, JSX, TSX, JSON, HTML, CSS and GraphQL that provides a cohesive toolchain for web projects
+  * [Knip](https://knip.dev/) - A tool that finds and fixes unused dependencies, exports and files in JavaScript and TypeScript projects
 
 ## Backend Development
 
@@ -348,9 +363,12 @@
     * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
     * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
   * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
+  * [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - A low-level API that allows external tools to instrument, inspect, debug, and profile Chromium-based browsers
   * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
   * Dependencies
     * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
+* AI-powered Web Automation
+  * [browser-use](https://docs.browser-use.com/) - An open-source Python library that allows AI agents to interact with web browsers using natural language
 * Web Scraping
   * [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
   * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - A Python library designed for quick turnaround projects like screen-scraping

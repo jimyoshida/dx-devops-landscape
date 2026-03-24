@@ -41,6 +41,7 @@
     * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The CSS that styles markdown rendered on GitHub
   * [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files
   * [Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
+  * [mdterm](https://github.com/bahdotsh/mdterm) - A terminal-based Markdown viewer written in Rust that renders Markdown files with syntax highlighting, styled formatting, and interactive navigation
   * [Grip](https://github.com/joeyespo/grip) - A command-line server application that renders local README files before you push them to GitHub
   * [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
   * [Marp](https://marp.app/) - The simplest Markdown presentation writer with plain Markdown
@@ -86,6 +87,28 @@
 * Converters
   * [Pandoc](https://pandoc.org/) - A universal document converter
     * [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
+
+## People & Collaboration
+
+### Team Dynamics & Communication
+
+* Team Dynamics
+  * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
+    * [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - A model of group development that was first proposed by Bruce Tuckman in 1965
+  * [Group dynamics](https://en.wikipedia.org/wiki/Group_dynamics) - A system of behaviors and psychological processes occurring within or between social groups
+  * Research & Models
+    * [Google Rework: Understand team effectiveness](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness) - A research initiative identifying key dynamics like psychological safety, dependability, structure and clarity, meaning, and impact as crucial for successful group collaboration
+    * [GRPI Model](https://umbrex.com/resources/frameworks/organization-frameworks/grpi-model-goals-roles-processes-interpersonal-relationships/) - A foundational framework for designing and diagnosing team effectiveness, organizing the building blocks of a high-performing team into four layers: Goals, Roles, Processes, and Interpersonal Relationships
+* Interpersonal Communication Techniques
+  * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
+  * [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop
+  * [Active listening](https://en.wikipedia.org/wiki/Active_listening) - The practice of preparing to listen, observing what verbal and non-verbal messages are being sent, and then providing appropriate feedback for the sake of showing attentiveness to the message being presented
+  * [Negotiation](https://en.wikipedia.org/wiki/Negotiation) - A dialogue between two or more parties to resolve points of difference, gain an advantage for an individual or collective, or craft outcomes to satisfy various interests
+* Corporate Principles & Values
+  * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles) - The set of core tenets Amazonians use daily to guide their discussions, decisions, and actions
+  * [GitLab Values](https://about.gitlab.com/handbook/values/) - A set of guiding principles that define the company's culture and how its team members operate
+* Professional Manifestos
+  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - A declaration emphasizing the importance of well-crafted software, continuous value addition, professional community, and productive partnerships in software development
 
 ## Psychology & Sociology
 
@@ -133,6 +156,7 @@
 * [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
 * [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
 * [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost) - A cost that has already been incurred and cannot be recovered
+* [Principal–agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem) - The conflict in priorities between a person or group and the representative authorized to act on their behalf
 * [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
 * [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
 * [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)

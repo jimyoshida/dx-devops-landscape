@@ -243,17 +243,6 @@
   * [Supabase](https://supabase.com/) - A Postgres development platform that provides a database, authentication, instant APIs, edge functions, real-time subscriptions, storage, and vector embeddings
   * [AWS Amplify](https://aws.amazon.com/amplify/) - A complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS
 
-## Office Suite Ecosystem Tools
-
-* M365 Tools
-  * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
-  * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
-  * [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) - The gateway to data and intelligence in Microsoft 365
-  * [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
-  * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
-* Google Workspace Tools
-  * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
-
 ## Internet of Things (IoT)
 
 * Concepts
@@ -279,6 +268,10 @@
 
 * [Three.js](https://threejs.org/) - A JavaScript 3D library that makes it easy to create and display animated 3D computer graphics in a web browser using WebGL
 * [GSAP](https://gsap.com/) - A robust JavaScript toolset that turns developers into animation superheroes
+
+### 2D Graphics
+
+* [PixiJS](https://pixijs.com/) - An advanced, open-source 2D rendering engine designed for creating stunning visual experiences on the web
 
 ### Graphics APIs
 

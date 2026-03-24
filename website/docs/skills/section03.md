@@ -51,6 +51,10 @@ access to high-performance networking
 * [OpenTofu](https://opentofu.org/) - An open-source, community-driven fork of Terraform that provides a stable, drop-in replacement for building and managing infrastructure
 * [Pulumi](https://www.pulumi.com/) - An infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure
 
+### AI-driven Infrastructure
+
+* [Spacelift Intent](https://spacelift.io/platform/intent) - An AI-powered tool that allows users to provision and manage cloud infrastructure using natural language
+
 ### Configuration Management & Automation
 
 * [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
@@ -75,6 +79,7 @@ access to high-performance networking
   * [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - A service that helps you model and set up your Amazon Web Services resources
   * [AWS CDK](https://aws.amazon.com/cdk/) - An open source software development framework to define your cloud application resources using familiar programming languages
   * [AWS SAM](https://aws.amazon.com/serverless/sam/) - An open-source framework for building serverless applications
+  * [SST](https://sst.dev/) - A framework that makes it easy to build full-stack applications on AWS with a specialized focus on serverless and event-driven architectures
   * [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
     * [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
     * [Azure Resource Graph](https://azure.microsoft.com/en-us/get-started/azure-portal/resource-graph) - A powerful management tool to query, explore, and analyze your cloud resources at scale
@@ -281,6 +286,8 @@ access to high-performance networking
   * [Firecracker](https://firecracker-microvm.github.io/) - An open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services
   * [QEMU microvm](https://www.qemu.org/docs/master/system/i386/microvm.html) - A minimalist machine type without PCI nor ACPI support, designed for short-lived guests, and optimized for both boot time and footprint
   * [Docker Sandboxes](https://github.com/docker/sandboxes-releases) - The isolated, disposable environments designed to run AI coding agents in lightweight microVMs for enhanced security and system protection
+  * [Daytona](https://www.daytona.io/) - The secure infrastructure platform for running AI-generated code in isolated sandbox environments with sub-90ms creation times
+  * [Modal](https://modal.com/) - An AI infrastructure platform that provides a serverless cloud for engineers to build and scale compute-intensive applications in thousands of isolated sandboxes
 * Virtualization & Container Storage
   * [virtiofs](https://virtio-fs.gitlab.io/) - A shared file system that lets virtual machines access a directory tree on the host
 * Image Services & Distribution
@@ -359,6 +366,7 @@ access to high-performance networking
     * [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - A feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals
   * [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers
   * [Datadog](https://www.datadoghq.com/) - The integrated platform for monitoring & security
+  * [Sentry](https://sentry.io/) - An application monitoring platform that provides error tracking and performance monitoring to help developers see what matters and solve issues faster
 
 ### Telemetry Shipment
 

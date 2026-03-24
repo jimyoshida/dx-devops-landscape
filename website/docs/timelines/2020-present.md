@@ -6,29 +6,31 @@ sidebar_position: 5
 
 ## 2020
 
-🌐 In May 2021, the IETF standardized QUIC in RFC 9000.
-
-🌐 QUIC support in Firefox arrived in May 2021.
-
 🌐 Playwright, a framework for reliable end-to-end testing for modern web apps, was first released as open source by Microsoft on January 31, 2020.
+
+📜 Deno v1.0.0, a secure-by-default runtime for JavaScript and TypeScript with a single-executable design, was officially released on May 13, 2020.
+
+🧠 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in June 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
+
+📜 The Rust for Linux project was announced in July 2020 in the Linux kernel mailing list with goals of leveraging Rust's memory safety to reduce bugs when writing kernel drivers.
 
 ⚙️ On September 21, 2020, Homebrew version 2.5.2 was released with support for bottle taps (binary package repositories) via GitHub Releases.
 
-🏢 The most recent major update to "The Scrum Guide" was published by Ken Schwaber and Jeff Sutherland on November 18, 2020.
+🏢 Microsoft released .NET 5.0 on November 10, 2020. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with .NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the .NET Framework.
 
-🏢 In November 2020, Microsoft released .NET 5.0. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with .NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the .NET Framework.
+🏢 The most recent major update to "The Scrum Guide" was published by Ken Schwaber and Jeff Sutherland on November 18, 2020.
 
 📜 Ruby 3.0.0 was released on Christmas Day in 2020.
 
 📊 In December 2020, PrestoSQL was rebranded as Trino.
 
-📜 The Rust for Linux project was announced in 2020 in the Linux kernel mailing list with goals of leveraging Rust's memory safety to reduce bugs when writing kernel drivers.
-
-🧠 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
-
 ## 2021
 
 🏢 On February 8, 2021, the formation of the Rust Foundation was announced by its five founding companies (AWS, Huawei, Google, Microsoft, and Mozilla).
+
+🌐 In May 2021, the IETF standardized QUIC in RFC 9000.
+
+🌐 QUIC support in Firefox arrived in May 2021.
 
 ☁️ NocoDB, an open-source no-code platform that turns any database into a smart spreadsheet, was officially launched on May 26, 2021.
 
@@ -76,6 +78,8 @@ The model was first announced in April 2022 and remained private until March 202
 
 🧠 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022.
 It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
+
+📜 Support for npm packages via the `npm:` specifier became stable in Deno v1.28 on November 14, 2022, allowing the runtime to tap into the vast existing JavaScript ecosystem.
 
 🌐 HTTP/3, the successor to HTTP/2, was published in 2022.
 
@@ -126,7 +130,7 @@ It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstratio
 
 🧠 Firebase Genkit, an open-source framework by Google for building and deploying AI-powered applications, was first introduced during the Google I/O 2024 keynote on May 14, 2024.
 
-🌐 Deno 2 was announced on October 9, 2024.
+🌐 Deno v2.0.0 was officially released on October 9, 2024, focusing on full backward compatibility with Node.js and npm alongside long-term support (LTS) for enterprise use.
 
 🧠 On September 16, 2024, Microsoft announced "Microsoft 365 Copilot Wave 2," introducing "Copilot agents"—specialized AI assistants that can be built in Copilot Studio or directly within SharePoint. These agents entered general availability on October 17, 2024.
 

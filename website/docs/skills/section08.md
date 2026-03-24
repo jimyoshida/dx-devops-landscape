@@ -382,3 +382,4 @@
 * [fio](https://github.com/axboe/fio) - A tool that will spawn a number of threads or processes doing a particular type of I/O action as specified by the user
 * [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
 * [plow](https://deepwiki.com/six-ddc/plow) - A high-performance HTTP benchmarking tool
+* [loadgen-rs](https://github.com/git001/loadgen-rs) - A h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) with commandline mode and distributed mode

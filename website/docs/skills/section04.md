@@ -23,13 +23,6 @@
 ### Modern Security Architectures
 
 * [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - An approach to the design and implementation of IT systems where trust is never granted implicitly and verification is required for everyone
-  * All data sources and computing services are considered resources.
-  * All communication is secured regardless of network location.
-  * Access to individual enterprise resources is granted on a per-session basis.
-  * Access to resources is determined by dynamic policy and may include other behavioral and environmental attributes.
-  * The enterprise monitors and measures the integrity and security posture of all owned and associated assets.
-  * All resource authentication and authorization are dynamic and strictly enforced before access is allowed.
-  * The enterprise collects as much information as possible about the current state of assets, network infrastructure and communications and uses it to improve its security posture.
 * [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication) - A process in which both parties in a communications link authenticate each other
 * [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
 
@@ -136,6 +129,7 @@
 
 #### End-to-end Encryption Tools
 
+* [age](https://github.com/FiloSottile/age) - A simple, modern and secure file encryption tool, format, and Go library
 * [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) - A data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication
 * [OpenPGP](https://www.openpgp.org/) - A non-proprietary protocol for exchanging public keys and encrypted messages
 * [keys.openpgp.org](https://keys.openpgp.org/about) - A public key server for OpenPGP
@@ -204,6 +198,7 @@
   * [Supabase Auth](https://supabase.com/docs/guides/database/overview) - A service that provides user management and access control for Supabase projects
   * [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - A CAPTCHA system that enables web hosts to distinguish between human and automated access to websites
   * [Microsoft Authentication Library (MSAL)](https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-overview) - A library that helps developers integrate authentication and authorization into applications
+  * [Application Default Credentials (ADC)](https://cloud.google.com/docs/authentication/provide-credentials-adc) - A mechanism used by Google Cloud client libraries to automatically find credentials based on the application environment
 
 ### Authorization (AuthZ)
 
@@ -264,10 +259,11 @@
   * [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
 * Secret Detection
   * [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A tool that scans your repository's history for secrets
-  * [Whispers](https://github.com/Skyscanner/whispers) - A static code analysis tool designed for parsing various common data formats in search of hardcoded credentials
   * [Gitleaks](https://gitleaks.io/) - A SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
+  * [secretlint](https://github.com/secretlint/secretlint) - A lint tool for secrets and passwords in files
   * [Talisman](https://thoughtworks.github.io/talisman/) - A tool that installs a hook to your repository to ensure that potential secrets or sensitive information do not get committed
   * [TruffleHog](https://github.com/trufflesecurity/trufflehog) - A tool that scans your environment for secrets, digging deep into commit history and branches
+  * [Whispers](https://github.com/Skyscanner/whispers) - A static code analysis tool designed for parsing various common data formats in search of hardcoded credentials
 * AI-orchestrated Penetration Testing
   * [PentestGPT](https://github.com/GreyDGL/PentestGPT) - An automated penetration testing framework powered by Large Language Models (LLMs)
   * [PentAGI](https://github.com/vxcontrol/pentagi) - An open-source, fully autonomous AI agent system designed for automated security testing
@@ -451,29 +447,9 @@
   * [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa) - A state statute intended to enhance privacy rights and consumer protection for residents of California
   * [Cyber Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act) - A regulation that aims to safeguard consumers and businesses buying or using products or software with a digital component by introducing mandatory cybersecurity requirements
 * Security & Privacy Frameworks
-  * NIST SP 800-53
-    * AC - Access Control
-    * AT - Awareness and Training
-    * AU - Audit and Accountability
-    * CA - Assessment, Authorization and Monitoring
-    * CM - Configuration Management
-    * CP - Contingency Planning
-    * IA - Identification and Authentication
-    * IR - Incident Response
-    * MA - Maintenance
-    * MP - Media Protection
-    * PE - Physical and Environmental Protection
-    * PL - Planning
-    * PM - Program Management
-    * PS - Personnel Security
-    * PT - Personally Identifiable Information Processing and Transparency
-    * RA - Risk Assessment
-    * SA - System and Services Acquisition
-    * SC - System and Communications Protection
-    * SI - System and Information Integrity
-    * SR - Supply Chain Risk Management
+  * [NIST SP 800-53](https://en.wikipedia.org/wiki/NIST_Special_Publication_800-53) - A catalog of security and privacy controls for all U.S. federal information systems except those related to national security
   * [OSCAL](https://pages.nist.gov/OSCAL/) - The Open Security Controls Assessment Language, a NIST-led initiative that provides open, machine-readable formats (XML, JSON, YAML) to automate security and compliance processes
-  * ISO/IEC 27001 / 27002
+  * [ISO/IEC 27001 / 27002](https://en.wikipedia.org/wiki/ISO/IEC_27001) - The international standard for information security management systems
 * Industry & Audit Standards
   * [PCI-DSS](https://www.pcisecuritystandards.org/document_library/) - The global standard for payment card data security
   * [SOC 2](https://soc2.co.uk/) - A voluntary compliance standard for service organizations which specifies how organizations should manage customer data

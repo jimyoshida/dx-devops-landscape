@@ -48,13 +48,12 @@
   * [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping) - A lean-management method for analyzing the current state and designing a future state for the series of events that take a product or service from the beginning of the specific process until it reaches the customer
 * [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
   * [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) - A lean method to manage and improve work across human systems
-  * [Kaizen](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A concept of continuous improvement through small, incremental changes
-  * [Just-in-Time (JIT)](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A system for producing and delivering parts and products only when needed, minimizing waste and inventory
-  * [Jidoka](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - The concept of automation with a human touch, where machines detect defects and allow workers to address quality issues
-  * [Heijunka](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A method for leveling the production schedule to achieve a balanced, consistent workflow
-  * [Genchi Genbutsu](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - The principle of going to the source to understand the actual situation
-  * [Andon](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - A visual management system that allows workers to signal problems and request assistance
-  * [Muri, Muda, Mura](https://global.toyota/en/company/vision-and-philosophy/toyota-production-system/) - The three types of waste that should be eliminated: overburden, uselessness, and unevenness
+  * [Kaizen](https://en.wikipedia.org/wiki/Kaizen) - A philosophy that focuses on continuous, incremental improvement of all functions and involves all employees from the CEO to the assembly line workers
+  * [Autonomation](https://en.wikipedia.org/wiki/Autonomation) - The practice of designing equipment to partially automate a process and to automatically stop when a problem is detected, allowing operators to fix the issue immediately
+  * [Heijunka](https://en.wikipedia.org/wiki/Heijunka) - A method for smoothing out production by leveling both the volume and the product mix
+  * [Genchi Genbutsu](https://en.wikipedia.org/wiki/Genchi_Genbutsu) - A principle that suggests that to truly understand a situation, one needs to go to the "real place" where the work is done, observe the process, and verify the facts for themselves
+  * [Andon (manufacturing)](https://en.wikipedia.org/wiki/Andon_(manufacturing)) - A visual management system used to indicate the status of a production line
+  * [Muda (Japanese term)](https://en.wikipedia.org/wiki/Muda_(Japanese_term)) - A key concept in lean process management as one of the three types of deviation from optimal allocation of resources, meaning futility, uselessness, or wastefulness
 * [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) - A management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints
 
 ### DevOps & Engineering Productivity
@@ -82,24 +81,33 @@
 
 ## Version Control System
 
-* [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
+* Concepts
+  * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
+* Core VCS & Clients
   * [Git](https://git-scm.com/) - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
     * local repository, remote repository
     * branch, tag, worktree
     * push, pull, fetch, rebase, reset, stash
     * staging, commit
   * [Jujutsu (jj)](https://www.jj-vcs.dev/latest/) - A Git-compatible VCS that is both simple and powerful
+  * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
   * [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
+* Terminal & UI Tools
   * [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
   * [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
+  * [giff](https://github.com/bahdotsh/giff) - A terminal-based Git diff viewer with interactive rebase capabilities that allows you to view and manage changes between branches
   * [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - An improved sequence editor for Git
+* History & Maintenance Tools
   * [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
   * [git filter-repo](https://github.com/newren/git-filter-repo) - A versatile tool for rewriting history
   * [degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
+* Commit & Changelog Tooling
   * [Git Lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
+  * [commitlint](https://commitlint.js.org/) - A tool that helps your team adhere to a commit convention by linting commit messages
   * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
+* Hook Management
   * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
-  * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
+  * [Lefthook](https://lefthook.dev/) - A fast, polyglot Git hooks manager for any type of project
 
 ### Git Hosting Services
 
@@ -166,18 +174,6 @@
 * [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
 * [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
 * [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
-  * Codebase: One codebase tracked in revision control, many deploys.
-  * Dependencies: Explicitly declare and isolate dependencies.
-  * Config: Store config in the environment.
-  * Backing services: Treat backing services as attached resources.
-  * Build, release, run: Strictly separate build and run stages.
-  * Processes: Execute the app as one or more stateless processes.
-  * Port binding: Export services via port binding.
-  * Concurrency: Scale out via the process model.
-  * Disposability: Maximize robustness with fast startup and graceful shutdown.
-  * Dev/prod parity: Keep development, staging, and production as similar as possible.
-  * Logs: Treat logs as event streams.
-  * Admin processes: Run admin/management tasks as one-off processes.
 
 ### Design Patterns
 
@@ -240,6 +236,7 @@
     * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
     * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
     * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
+    * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
     * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
   * Chat Systems
     * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
@@ -275,11 +272,12 @@
   * [GROW model](https://en.wikipedia.org/wiki/GROW_model) - A simple method for goal setting and problem solving
   * [OKRs](https://en.wikipedia.org/wiki/Objectives_and_key_results) - A goal-setting framework used by individuals, teams, and organizations to define measurable goals and track their outcomes
   * [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) - A type of performance measurement used to evaluate the success of an organization or of a particular activity (such as projects, programs, products and other initiatives) in which it engages
-    * [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
   * [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - An adage often stated as, "When a measure becomes a target, it ceases to be a good measure"
-* Performance Measurement
-  * [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A framework that provides a way to think about developer productivity in a more holistic way, encompassing Satisfaction and well-being, Performance, Activity, Communication and collaboration, and Efficiency and flow
-  * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
+  * Performance Measurement
+    * [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
+    * [Rubric](https://en.wikipedia.org/wiki/Rubric_(academic)) - A scoring tool used to evaluate the quality of responses
+    * [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A framework that provides a way to think about developer productivity in a more holistic way, encompassing Satisfaction and well-being, Performance, Activity, Communication and collaboration, and Efficiency and flow
+    * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
 
 ## Business & Strategy
 
@@ -293,6 +291,7 @@
 * [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
   * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
     * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
+    * [HubSpot](https://www.hubspot.com/) - A customer platform that helps businesses grow by connecting their marketing, sales, and service tools to a shared database
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
     * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
   * [IT service management](https://en.wikipedia.org/wiki/IT_service_management) - The activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers
@@ -313,18 +312,22 @@
   * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
   * [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar) - A goal-oriented change management model that guides individual and organizational change
 
-### Strategic Management & Marketing
+### Strategic Management
 
 * Strategic management tools
   * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - The grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
   * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A decision-making technique used in strategic planning and management that identifies the strengths, weaknesses, opportunities, and threats of an organization or project
   * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
   * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
-* Business inteligence and analysis tools
+* Business intelligence and analysis tools
   * [Tableau](https://www.tableau.com/) - The world’s leading analytics platform
+  * [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
   * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
     * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
   * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - A scalable, serverless, embeddable, machine learning (ML)-powered business intelligence (BI) service built for the cloud
+
+### Marketing
+
 * [Marketing](https://en.wikipedia.org/wiki/Marketing) - A process of acquiring, satisfying, and retaining customers, often involving creating, communicating, delivering, and exchanging offerings that have value for various stakeholders
   * [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
     * [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
@@ -368,6 +371,8 @@
     * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
     * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
     * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER) - A structured way of assisting students to think out of the box and enhance their knowledge
+  * AI-powered Document Generation
+    * [Gamma](https://gamma.app/) - A new medium for presenting ideas, powered by AI
 
 ### Risk Management
 
@@ -379,20 +384,39 @@
   * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
   * ISO 31000: Risk management
 
-## Workflow Automation Agents & Tools
+## Workflow Automation
 
-* [AionUI](https://github.com/iOfficeAI/AionUi) - A Cowork app for AI coding agents with document generation capabilities
-* [Dify](https://dify.ai/) - An open-source LLM app development platform
-* [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-* [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
-* [Notion AI](https://www.notion.so/product/ai) - An integrated AI assistant for workspaces that provides writing assistance, workspace Q&A, and autonomous agents for task automation
-* [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
-* [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
-* Power Platform
-  * [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
-  * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
-  * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
-  * [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
+### AI Assistants & Platforms
+
+* Enterprise AI Assistants & Copilots
+  * [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
+  * [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
+  * [Notion AI](https://www.notion.so/product/ai) - An integrated AI assistant for workspaces that provides writing assistance, workspace Q&A, and autonomous agents for task automation
+* AI Agent Platforms & Orchestration
+  * [AionUI](https://github.com/iOfficeAI/AionUi) - A Cowork app for AI coding agents with document generation capabilities
+  * [claw-empire](https://github.com/GreenSheep01201/claw-empire) - A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents as a virtual autonomous company
+  * [Dify](https://dify.ai/) - An open-source LLM app development platform
+  * [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
+* Workflow Automation & Low-Code Platforms
+  * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
+  * Power Platform
+    * [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
+    * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
+    * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
+    * [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
+* Integration & Connectivity
+  * [Work-IQ](https://github.com/microsoft/work-iq) - An MCP (Model Context Protocol) server and CLI for accessing Microsoft 365 data
+
+### Office Suite Ecosystem Tools
+
+* Microsoft 365 Development
+  * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
+  * [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) - The gateway to data and intelligence in Microsoft 365
+  * [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
+  * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
+  * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
+* Google Workspace Development
+  * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
 
 ## The Open Ecosystem
 
@@ -482,25 +506,3 @@
   * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - A set of guidelines that covers behavior as a member of the Ubuntu Community
   * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) - A set of guidelines that outline expectations for participants within the Mozilla community
   * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
-
-## People & Collaboration
-
-### Team Dynamics & Communication
-
-* Team Dynamics
-  * [Team building](https://en.wikipedia.org/wiki/Team_building) - A collective term for various types of activities used to enhance social relations and define roles within teams, often involving collaborative tasks
-    * [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - A model of group development that was first proposed by Bruce Tuckman in 1965
-  * [Group dynamics](https://en.wikipedia.org/wiki/Group_dynamics) - A system of behaviors and psychological processes occurring within or between social groups
-  * Research & Models
-    * [Google Rework: Understand team effectiveness](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness) - A research initiative identifying key dynamics like psychological safety, dependability, structure and clarity, meaning, and impact as crucial for successful group collaboration
-    * [GRPI Model](https://umbrex.com/resources/frameworks/organization-frameworks/grpi-model-goals-roles-processes-interpersonal-relationships/) - A foundational framework for designing and diagnosing team effectiveness, organizing the building blocks of a high-performing team into four layers: Goals, Roles, Processes, and Interpersonal Relationships
-* Interpersonal Communication Techniques
-  * [Storytelling](https://en.wikipedia.org/wiki/Storytelling) - The social and cultural activity of sharing stories, sometimes with improvisation, theatrics or embellishment
-  * [Facilitation](https://en.wikipedia.org/wiki/Facilitation_(organisational)) - The act of designing and running a successful meeting or workshop
-  * [Active listening](https://en.wikipedia.org/wiki/Active_listening) - The practice of preparing to listen, observing what verbal and non-verbal messages are being sent, and then providing appropriate feedback for the sake of showing attentiveness to the message being presented
-  * [Negotiation](https://en.wikipedia.org/wiki/Negotiation) - A dialogue between two or more parties to resolve points of difference, gain an advantage for an individual or collective, or craft outcomes to satisfy various interests
-* Corporate Principles & Values
-  * [Amazon's Leadership Principles](https://www.amazon.jobs/en/principles) - The set of core tenets Amazonians use daily to guide their discussions, decisions, and actions
-  * [GitLab Values](https://about.gitlab.com/handbook/values/) - A set of guiding principles that define the company's culture and how its team members operate
-* Professional Manifestos
-  * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - A declaration emphasizing the importance of well-crafted software, continuous value addition, professional community, and productive partnerships in software development

@@ -230,6 +230,8 @@
   * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
   * [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/) - A comprehensive framework for building full-stack, multi-channel agents that operate seamlessly across Microsoft 365 Copilot, Teams, third-party platforms, custom applications, and websites
   * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
+  * [Deep Agents](https://github.com/langchain-ai/deepagents) - The easiest way to start building agents and applications powered by LLMs—with built-in capabilities for task planning, file systems for context management, subagent-spawning, and long-term memory
+    * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
   * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
 * Building Agents & Providers
   * [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
@@ -255,6 +257,7 @@
   * [SWIRL AI Search](https://swirlaiconnect.com/) - A Federated AI Search solution that connects to over 100 enterprise platforms, providing real-time visibility across data and document silos without requiring costly data transformations or migrations
 * Security Tools
   * [skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) - A best-effort security scanner for AI Agent Skills that detects prompt injection, data exfiltration, and malicious code patterns
+  * [ClawShell](https://clawshell.org/) - The Runtime Security Layer for OpenClaw, the essential safety harness for PII & sensitive credentials protection
 
 ## MLOps & Productionalization
 

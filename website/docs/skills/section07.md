@@ -311,9 +311,12 @@
     * [Hooks](https://code.claude.com/docs/en/hooks) - The user-defined shell commands or LLM prompts that execute automatically at specific points in the agent's lifecycle
     * [Subagents](https://code.claude.com/docs/en/sub-agents) - The specialized AI assistants that handle specific types of tasks, running in their own context with custom prompts and tool access
     * [Sandboxing](https://code.claude.com/docs/en/sandboxing) - A feature that provides filesystem and network isolation for safer, more autonomous agent execution, using OS-level primitives to enforce these isolations and reduce constant permission prompts
+    * [Auto-memory](https://code.claude.com/docs/en/memory#auto-memory) - A feature that allows the agent to automatically accumulate knowledge across sessions by saving notes on build commands, debugging insights, architecture notes, and user preferences without manual intervention
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
     * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
     * [Sandboxing](https://geminicli.com/docs/cli/sandbox/) - A feature that isolates potentially dangerous operations from your host system, providing a security barrier between AI operations and your environment, using macOS Seatbelt or container-based methods for isolation
+  * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
+  * [OpenCode.ai](https://opencode.ai/) - An open-source AI coding agent for the terminal that provides an interactive TUI to help you understand, edit, and ship code within real repositories
   * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
 * Autonomous Coding Agents

@@ -276,6 +276,7 @@ support
 * Python
   * [Python unittest](https://docs.python.org/3/library/unittest.html) - A unit testing framework, sometimes referred to as 'PyUnit', which is a Python language version of JUnit
   * [pytest](https://docs.pytest.org/) - A framework that makes it easy to write small, readable tests, and can scale to support complex functional testing
+  * [pytest-mock](https://github.com/pytest-dev/pytest-mock/) - A pytest plugin that provides a `mocker` fixture which is a thin-wrapper around the standard `unittest.mock` package
 * Javascript/Typescript
   * [Vitest](https://vitest.dev) - A blazing fast unit-test framework powered by Vite
   * [Jest](https://jestjs.io/) - A delightful JavaScript Testing Framework with a focus on simplicity
@@ -336,11 +337,13 @@ support
   * [fpm](https://fpm.readthedocs.io/) - A tool which lets you easily create packages for Debian, Ubuntu, Fedora, CentOS, RHEL, Arch Linux, and more
   * Tutorials
     * [Makefile Tutorial by Example](https://makefiletutorial.com/) - A tutorial that teaches you the basics of Makefiles
+
+### Monorepo Management
+
+* [Turborepo](https://turbo.build/repo) - A high-performance build system for JavaScript and TypeScript monorepos
+* [Nx](https://nx.dev/) - A smart, fast and extensible build system with first-class monorepo support and powerful integrations
+* [Lerna](https://lerna.js.org/) - The original monorepo tool for JavaScript/TypeScript
 * [Monorepo Tools](https://monorepo.tools/) - A website with tools and resources for monorepos
-  * [Lerna](https://lerna.js.org/) - The original monorepo tool for JavaScript/TypeScript
-  * [Nx](https://nx.dev/) - A powerful open-source build system that provides tools and techniques for enhancing developer productivity
-  * [Turborepo](https://turborepo.dev/) - A high-performance build system for JavaScript and TypeScript codebases
-  * [Gradle](https://gradle.org/) - An open-source build automation tool that is designed to be flexible enough to build almost any type of software
 
 ## Program Documentation
 
