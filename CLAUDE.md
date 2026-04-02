@@ -6,6 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Docusaurus-based documentation site covering the DX (Digital Transformation) and DevOps landscape. Content is organized into 12 skill sections and timeline files. The site is deployed via GitLab Pages.
 
+**Key Principles** (from `website/docs/intro.md`):
+- **AI-Driven Development**: Broad cross-domain knowledge enables effective AI direction and requirement articulation
+- **Prioritizing Openness**: Favors OSS and open formats over proprietary solutions
+- **Language Agnosticism**: Treats programming languages as tools; focuses on selecting the right tool for the problem
+
+**Requirements**: Node.js >=18.0
+
 ## Build & Development Commands
 
 All commands run from the `website/` directory.
@@ -16,6 +23,7 @@ yarn install       # Install dependencies
 yarn start         # Dev server (hot reload)
 make               # Full build: generates PDF + markmap, then yarn build
 make pdf           # Generate PDF only (requires asciidoctor-pdf)
+USE_CJK=1 make pdf # Generate PDF with CJK (Chinese/Japanese/Korean) font support
 make markmap       # Generate skills mindmap HTML only
 make clean         # Remove build artifacts
 yarn serve         # Serve the production build locally
@@ -93,8 +101,9 @@ make test    # Run write.pl unit tests (requires ruby)
 
 Key rules enforced across all content:
 - `MD024/no-duplicate-heading`: Use grouping list items instead of headings for generic category names
+- `MD032/blanks-around-lists`: Lists must be surrounded by blank lines
 - `MD047/single-trailing-newline`: Every markdown file must end with exactly one newline
 
 ## Note on GEMINI.md
 
-`GEMINI.md` in the repo root is the master instruction file (for Gemini CLI). Keep `CLAUDE.md` in sync with it when updating authoring rules.
+`GEMINI.md` in the repo root contains similar guidance for Gemini CLI. The two files are maintained separately — CLAUDE.md has additional Claude-specific details.

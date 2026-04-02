@@ -12,7 +12,7 @@ Here is the link list of the source markdown files.
 - [04 - Security & Privacy](website/docs/skills/section04.md)
 - [05 - Data Science & Engineering](website/docs/skills/section05.md)
 - [06 - AI, Machine Learning & LLM](website/docs/skills/section06.md)
-- [07 - Terminal & IDE](website/docs/skills/section07.md)
+- [07 - Fundamental Developer Tools](website/docs/skills/section07.md)
 - [08 - OS & Network Basics](website/docs/skills/section08.md)
 - [09 - Programming Concepts & Paradigms](website/docs/skills/section09.md)
 - [10 - Advanced Programming](website/docs/skills/section10.md)

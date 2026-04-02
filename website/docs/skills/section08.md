@@ -288,6 +288,7 @@
 
 ### Modern CLI Alternatives
 
+* [gdu](https://github.com/dundee/gdu) - A fast disk usage analyzer with a console interface written in Go
 * [lsd](https://github.com/Peltoche/lsd) - A rewrite of GNU ls with a lot of added features like colors, icons, tree-view, and more formatting options
 * [eza](https://eza.rocks/) - A modern replacement for ls
 * [broot](https://dystroy.org/broot/) - A new way to see and navigate directory trees

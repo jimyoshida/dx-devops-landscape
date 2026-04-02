@@ -1,4 +1,4 @@
-# 07 - Terminal & IDE
+# 07 - Fundamental Developer Tools
 
 ## Shell & Terminal
 
@@ -174,7 +174,7 @@
     * [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - The operators used for input and output operations, such as reading from a filehandle
 * [Tcl](https://www.tcl-lang.org/) - A dynamic programming language and a graphical user interface toolkit used for a wide range of applications
   * [Event-driven by design](https://wiki.tcl-lang.org/page/event+loop) - The built-in event loop that makes it ideal for GUIs and networking
-* [Lua (for NGINX/Neovim)](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
+* [Lua](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
 * [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
   * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
   * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
@@ -229,10 +229,11 @@
   * [pflag](https://github.com/spf13/pflag) - A drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
   * [color](https://github.com/fatih/color) - A package for Go that lets you use colorized outputs in terms of ANSI escape sequences
   * [Cobra](https://cobra.dev/) - A framework for creating powerful modern CLI applications
-  * [cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
+  * [urfave/cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
   * [viper](https://github.com/spf13/viper) - A complete configuration solution for Go applications
   * [Wish](https://github.com/charmbracelet/wish) - A tiny SSH server for your programs
   * [Wishlist](https://github.com/charmbracelet/wishlist) - An SSH directory for your private hostkeys and favorite SSH commands
+  * [go-tui](https://www.go-tui.dev/) - A framework for building declarative terminal user interfaces (TUIs) in Go
 * Rust
   * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
   * [Ratatui](https://ratatui.rs/) - A Rust library for cooking up delicious terminal user interfaces
@@ -240,6 +241,60 @@
   * [Ansic](https://github.com/zeonzip/ansic) - A modern, efficient and compile time ansi macro and utilities crate for Rust
 * C
   * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
+
+## Version Control System
+
+* Concepts
+  * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
+* Core VCS & Clients
+  * [Git](https://git-scm.com/) - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+    * local repository, remote repository
+    * branch, tag, worktree
+    * push, pull, fetch, rebase, reset, stash
+    * staging, commit
+  * [Jujutsu (jj)](https://www.jj-vcs.dev/latest/) - A Git-compatible VCS that is both simple and powerful
+  * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
+  * [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
+* Terminal & UI Tools
+  * [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
+  * [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
+  * [giff](https://github.com/bahdotsh/giff) - A terminal-based Git diff viewer with interactive rebase capabilities that allows you to view and manage changes between branches
+  * [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - An improved sequence editor for Git
+* History & Maintenance Tools
+  * [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
+  * [git filter-repo](https://github.com/newren/git-filter-repo) - A versatile tool for rewriting history
+  * [degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
+* Commit & Changelog Tooling
+  * [Git Lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
+  * [commitlint](https://commitlint.js.org/) - A tool that helps your team adhere to a commit convention by linting commit messages
+  * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
+* Hook Management
+  * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
+  * [Lefthook](https://lefthook.dev/) - A fast, polyglot Git hooks manager for any type of project
+
+### Git Hosting Services
+
+* [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - The single source of truth for collaborating on code and projects
+  * [GitLab CLI](https://gitlab.com/gitlab-org/cli) - An open source tool that brings GitLab to your terminal, next to where you are already working with git and your code
+* [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+* [Codeberg](https://codeberg.org/) - A community-led effort that provides Git hosting and other services for free and open source projects
+* [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
+* [Soft Serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line
+* [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/) - A set of version control tools that you can use to manage your code
+* [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
+  * [GitHub CLI](https://cli.github.com/) - An open source tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place
+
+### Branching Models
+
+* [Trunk Based Development](https://trunkbaseddevelopment.com/) - A source-control branching model, where developers collaborate on code in a single branch called 'trunk', resist any pressure to create other long-lived development branches by employing documented techniques
+* [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) - A lightweight, branch-based workflow designed for teams that deploy frequently
+* [GitLab Flow](https://docs.gitlab.co.jp/ee/topics/gitlab_flow.html) - A simpler alternative to GitFlow that combines feature driven development and feature branches with issue tracking
+
+### Code Review
+
+* [Google Engineering Practices Documentation](https://google.github.io/eng-practices/) - A comprehensive guide to Google's code review processes and policies for both reviewers and change authors
+* [Conventional Comments](https://conventionalcomments.org/) - A standard that provides a structured format for code review feedback to improve clarity, reduce misunderstandings, and make comments machine-readable
+* [Danger](https://github.com/danger/danger) - A tool to automate team norms in code review
 
 ## Integrated Development Environment (IDE)
 
@@ -285,25 +340,28 @@
     * [Vim Adventures](https://vim-adventures.com/) - An online game based on VIM's keyboard shortcuts
     * [Vim Cheet Sheet](https://vim.rtorr.com/) - A quick reference guide for Vim commands
 
-## CLI/Coding Assistance
+### Language Servers
 
-* Language Servers
-  * [LSP](https://microsoft.github.io/language-server-protocol/) - The protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
-  * [pyright](https://github.com/microsoft/pyright) - A static type checker and language server for Python
-    * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - An extension that works alongside the Python extension in Visual Studio Code to provide performant language support
-  * [Ruby LSP](https://shopify.github.io/ruby-lsp/) - An opinionated language server for Ruby
-  * [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server) - A standalone TypeScript and JavaScript language server
-  * [Gopls](https://go.dev/gopls/) - The official language server for the Go language
-  * [rust-analyzer](https://rust-analyzer.github.io/) - A language server for the Rust programming language
-  * [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) - A Java language server based on the Eclipse JDT
-* CLI Assistants
-  * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
-  * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
-  * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
-  * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
-  * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
+* [LSP](https://microsoft.github.io/language-server-protocol/) - The protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc.
+* [pyright](https://github.com/microsoft/pyright) - A static type checker and language server for Python
+  * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - An extension that works alongside the Python extension in Visual Studio Code to provide performant language support
+* [Ruby LSP](https://shopify.github.io/ruby-lsp/) - An opinionated language server for Ruby
+* [TypeScript Language Server](https://github.com/typescript-language-server/typescript-language-server) - A standalone TypeScript and JavaScript language server
+* [Gopls](https://go.dev/gopls/) - The official language server for the Go language
+* [rust-analyzer](https://rust-analyzer.github.io/) - A language server for the Rust programming language
+* [Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) - A Java language server based on the Eclipse JDT
 
-## Coding Agents
+## Developer AI & Productivity
+
+### AI Productivity Tools
+
+* [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
+* [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
+* [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
+* [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
+* [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
+
+### AI Coding Agents
 
 * CLI Coding Agents
   * [Claude Code](https://code.claude.com/docs) - An agentic coding tool that reads your codebase, edits files, runs commands, and integrates with development tools
@@ -315,10 +373,17 @@
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
     * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
     * [Sandboxing](https://geminicli.com/docs/cli/sandbox/) - A feature that isolates potentially dangerous operations from your host system, providing a security barrier between AI operations and your environment, using macOS Seatbelt or container-based methods for isolation
+  * [Aider](https://aider.chat/) - An AI pair programming tool in your terminal that lets you start a new project or build on your existing codebase
+  * [Letta Code](https://docs.letta.com/letta-code) - A memory-first coding agent that lives in your terminal
   * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
   * [OpenCode.ai](https://opencode.ai/) - An open-source AI coding agent for the terminal that provides an interactive TUI to help you understand, edit, and ship code within real repositories
   * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
+* Desktop Coding Agents
+  * [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
+  * [Open Interpreter](https://www.openinterpreter.com/) - An open-source desktop agent that lets you work alongside agents that can read, edit, and create documents on your computer
+  * [Agent Zero](https://www.agent-zero.ai/) - An open-source personal AI agent that uses a dynamic toolset to solve complex tasks by writing and executing code, managing its own computer environment, and learning from its actions
+  * [AionUI](https://github.com/iOfficeAI/AionUi) - A Cowork app for AI coding agents with document generation capabilities
 * Autonomous Coding Agents
   * [SWE-agent](https://swe-agent.com/latest/) - A tool for fixing bugs and issues in GitHub repositories, powered by a family of language models
   * [mini-swe-agent](https://mini-swe-agent.com/latest/) - A smaller, more accessible version of SWE-agent
@@ -326,18 +391,23 @@
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
   * [Antigravity](https://antigravity.google/) - An agentic development platform
   * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
-* Methodologies
-  * [Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md) - A development methodology where you start with a specification that acts as a contract for how your code should behave
-  * SDD Tools
-    * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
-    * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
+
+### Development Methodologies
+
+* [Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md) - A development methodology where you start with a specification that acts as a contract for how your code should behave
+* SDD Tools
+  * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
+  * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
+
+### Supporting Tools & Infrastructure
+
 * Platforms
   * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
 * Benchmarks
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
 * Context Providers
   * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors
-* Semantic Code Retreival
+* Semantic Code Retrieval
   * [Serena](https://github.com/oraios/serena) - A powerful coding agent toolkit providing semantic retrieval and editing capabilities
 * Session Tracking
   * [Entire](https://entire.io/) - A CLI tool that hooks into your git workflow to capture AI agent sessions on every push, creating a searchable record of how code was written and the intent behind every commit

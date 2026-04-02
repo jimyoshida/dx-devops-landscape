@@ -6,6 +6,8 @@ sidebar_position: 2
 
 This document maps this technical skill classification (12 sections) to the 5 talent roles defined in the IPA "Digital Skills Standard for Promotion (DSS-P)" to indicate the level of importance for each role.
 
+The classification is structured such that sections 1 to 6 basically cover the skill items defined in the DSS-P, while sections 7 to 12 represent an extended scope to provide a more comprehensive technical foundation.
+
 ## Legend
 
 - **4 (Must Have)**: Core skills and knowledge areas essential for the role.
@@ -31,7 +33,7 @@ This document maps this technical skill classification (12 sections) to the 5 ta
 | **[04 - Security & Privacy](skills/section04.md)**                          |  3  |  2  |  4  |  4  |  2  |
 | **[05 - Data Science & Engineering](skills/section05.md)**                  |  3  |  4  |  4  |  2  |  1  |
 | **[06 - AI, Machine Learning & LLM](skills/section06.md)**                  |  3  |  4  |  3  |  2  |  2  |
-| **[07 - Terminal & IDE](skills/section07.md)**                              |  1  |  4  |  4  |  4  |  1  |
+| **[07 - Fundamental Developer Tools](skills/section07.md)**                 |  1  |  4  |  4  |  4  |  1  |
 | **[08 - OS & Network Basics](skills/section08.md)**                         |  1  |  2  |  4  |  4  |  1  |
 | **[09 - Programming Concepts & Paradigms](skills/section09.md)**            |  1  |  3  |  4  |  3  |  1  |
 | **[10 - Advanced Programming](skills/section10.md)**                        |  1  |  2  |  4  |  3  |  1  |

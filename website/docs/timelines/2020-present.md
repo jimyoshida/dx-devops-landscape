@@ -189,6 +189,8 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 ☁️ On 14 Nov 2025, AWS Lambda supported building serverless applications using Rust.
 
+🧠 Clawdbot (later rebranded as OpenClaw), an open-source AI agent framework created by Peter Steinberger, was first released on November 24, 2025. It gained immediate viral attention, reaching 9,000 GitHub stars within its first 24 hours.
+
 🧠 Google officially launched Gemini 3 on November 18, 2025 — a major release that brought enhanced reasoning, multimodal understanding, and agentic capabilities to the Gemini app, AI Search, Google AI Studio, Vertex AI, and more.
 
 🧠 Support for the **Model Context Protocol (MCP)** within the Anthropic Skills framework was achieved on November 20, 2025, allowing skills to seamlessly interact with external tools and data sources via standardized MCP servers.
@@ -206,7 +208,7 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 
 🖥️ The Gemini CLI Skills feature was officially promoted to the stable channel in the v0.26.0 release on January 27, 2026, which also introduced the built-in `skill-creator` tool for generating new agent capabilities.
 
-🧠 Following trademark concerns, the open-source personal AI agent project originally known as Clawdbot was rebranded as OpenClaw on January 29, 2026. The project experienced viral growth, reaching over 100,000 GitHub stars within weeks.
+🧠 Following trademark complaints from Anthropic, Clawdbot was rebranded as **Moltbot** on January 27, 2026. Three days later, on January 30, 2026, the project was officially renamed to **OpenClaw**, hitting 100,000 GitHub stars around the same time.
 
 🖥️ In late January 2026, the Gemini CLI added the `/rewind` command and persistent tool execution policies to complement the new agentic workflows enabled by the Skills framework.
 
@@ -215,3 +217,5 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 🧠 The February 2026 release (v1.110) of Visual Studio Code introduced "Agent Plugins," experimental "Agentic Browser Tools," and the ability for agents to share memory across different sessions for GitHub Copilot.
 
 🧠 On March 9, 2026, Microsoft announced "Microsoft 365 Copilot Wave 3," introducing "Copilot Cowork"—an autonomous agentic workflow system—alongside "Agent 365," a dedicated control plane for enterprise-wide agent management and governance.
+
+🧠 OpenClaw v2026.3.12 was released on March 12, 2026, introducing a major architectural shift with a new provider-plugin system and a centralized dashboard for managing agent activities.

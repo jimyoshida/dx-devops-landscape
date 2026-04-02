@@ -196,6 +196,7 @@
     * [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/)
     * [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/)
 * UI Component Libraries
+  * [templUI](https://templui.io/) - A growing collection of beautifully designed UI components for Go and templ
   * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
   * [Chakra UI](https://www.chakra-ui.com/) - A component system for building products with speed
   * [Vuetify](https://vuetifyjs.com/en/) - A no design skills required Open Source UI Library with beautifully handcrafted Vue Components
@@ -293,10 +294,12 @@
 * GraphQL Servers
   * [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
 * API Management
+  * [Unkey](https://www.unkey.com/) - An open-source API management platform designed to help developers secure, manage, and scale their APIs
   * [Kong API gateway](https://konghq.com/products/kong-gateway) - A lightweight, fast, and flexible cloud-native API gateway
   * [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments
   * [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
   * [Google Cloud Apigee](https://cloud.google.com/apigee) - The platform for developing and managing API services
+  * [Gravitee](https://www.gravitee.io/) - A unified API visibility and governance platform that provides a single pane of glass for managing, securing, and governing APIs across any infrastructure
 
 ### CDN & Edge Computing
 

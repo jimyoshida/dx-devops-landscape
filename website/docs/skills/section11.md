@@ -1,78 +1,5 @@
 # 11 - Specialized Development Domains
 
-## Logic
-
-* [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
-  * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
-    * Deductive, Inductive, Abductive and Analogical
-* Branches of Logic
-  * [Informal Logic](https://en.wikipedia.org/wiki/Informal_logic) - A broad term for any of the various methods of analyzing and evaluating arguments used in everyday life
-  * [Formal logic](https://en.wikipedia.org/wiki/Logic#Formal_logic) - A system of reasoning that uses abstract rules and symbols to represent and evaluate the structure of arguments
-
-### Informal Logic
-
-* [Argument](https://en.wikipedia.org/wiki/Argument) - The central object of study in informal logic; a series of statements (premises) intended to determine the degree of truth of another statement (the conclusion)
-  * [Enthymeme](https://en.wikipedia.org/wiki/Enthymeme) - An argument in which one premise is not explicitly stated, a common feature of real-world reasoning
-* Criteria for Argument Evaluation
-  * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
-  * [Category mistake](https://en.wikipedia.org/wiki/Category_mistake) - The broader application of informal logic and other skills (like analysis and self-reflection) to decide what to believe or do
-* Related Fields
-  * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
-  * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
-
-### Formal Logic
-
-* Foundational Concepts
-  * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
-  * [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - The two theorems of mathematical logic that demonstrate the inherent limitations of every formal axiomatic system capable of modelling basic arithmetic
-  * Logic Principles
-    * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - A pair of transformation rules that are both valid rules of inference
-    * [Law of noncontradiction](https://en.wikipedia.org/wiki/Law_of_noncontradiction) - The law that states that for any given proposition, the proposition and its negation cannot both be simultaneously true
-    * [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle) - The principle that for every proposition, either this proposition or its negation is true
-    * [Peirce's law](https://en.wikipedia.org/wiki/Peirce%27s_law) - The principle in classical logic that the law of excluded middle holds for any proposition
-    * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
-* Logical Systems
-  * [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
-    * conjunction, disjunction, implication, biconditional and negation
-    * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
-  * [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
-    * universal quantification and existential quantification
-  * [Higher order logic](https://en.wikipedia.org/wiki/Higher-order_logic) - A form of logic that is distinguished from first-order logic by additional quantifiers and, sometimes, stronger semantics
-  * [Modal logic](https://en.wikipedia.org/wiki/Modal_logic) - A type of logic that is used to represent statements about possibility and necessity
-* Branches of Mathematical Logic
-  * [Set theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
-  * Naive set theory
-    * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
-    * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
-    * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
-      * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
-    * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
-    * [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
-  * Axiomatic set theory
-    * [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory) - An axiomatic system that was proposed in the early twentieth century in order to formulate a theory of sets free of paradoxes such as Russell's paradox
-      * Ordinals & Cardinals
-  * [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
-    * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
-  * [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
-    * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
-    * [Natural deduction](https://en.wikipedia.org/wiki/Natural_deduction) - A kind of proof calculus in which logical reasoning is expressed by inference rules closely related to the "natural" way of reasoning
-  * [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
-    * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
-    * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
-  * [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
-* Applications
-  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
-  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
-  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
-  * [Formal verification](https://en.wikipedia.org/wiki/Formal_verification) - the act of proving or disproving the correctness of a system with respect to a certain formal specification or property, using formal methods of mathematics
-    * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
-* Tools and Resources
-  * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
-  * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
-  * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
-  * [P](https://p-org.github.io/P/) - A state machine based programming language for formally modeling and specifying complex distributed systems
-  * [Lean](https://leanprover.github.io/) - An interactive theorem prover and programming language based on the Calculus of Constructions
-
 ## Desktop Environment
 
 * Linux Desktop Environment
@@ -103,6 +30,32 @@
 * Android on Linux
   * [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments
 
+## Business Application SDKs
+
+* Project & Work Management
+  * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
+  * [Notion SDK for JavaScript](https://github.com/makenotion/notion-sdk-js) - An official client for the Notion API
+* Collaboration & Communication
+  * [Python Slack SDK](https://slack.dev/python-slack-sdk/) - A software development kit that helps Python developers build apps that integrate with Slack
+  * [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - A Go library for the Slack API
+  * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
+  * [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
+  * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
+* Enterprise Workspaces
+  * Microsoft 365 Development
+    * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
+    * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
+    * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
+    * [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) - The gateway to data and intelligence in Microsoft 365
+    * [Work-IQ](https://github.com/microsoft/work-iq) - An MCP (Model Context Protocol) server and CLI for accessing Microsoft 365 data
+  * Google Workspace Development
+    * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
+* Customer Relationship Management
+  * [JSforce](https://jsforce.github.io/) - A Salesforce API library for JavaScript applications
+* Version Control & DevOps
+  * [Octokit.js](https://github.com/octokit/octokit.js) - The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno
+  * [python-gitlab](https://github.com/python-gitlab/python-gitlab) - A wrapper for the GitLab API written in Python
+
 ## Binary & Media Processing
 
 * General Tools
@@ -126,10 +79,12 @@
 ### Image & Media Processing
 
 * Tools
+  * [Swatchify](https://james-see.github.io/swatchify/) - A tool that uses k-means clustering to extract dominant colors from images
   * [exiftool](https://metacpan.org/dist/Image-ExifTool/view/exiftool) - A command-line application and Perl library for reading and writing meta information in files
   * [ImageMagick](https://imagemagick.org/index.php) - A free, open-source software suite, used for editing and manipulating digital images
   * [FFmpeg](https://www.ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
 * Libraries
+  * [go-mp4](https://github.com/abema/go-mp4) - A Go library that provides low-level I/O interfaces for MP4
   * [Native WebP for Go](https://github.com/HugoSmits86/nativewebp) - A native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries
   * [Pillow](https://python-pillow.github.io/) - The friendly PIL (Python Imaging Library) fork that adds image processing capabilities to your Python interpreter
   * [pure_jpeg](https://github.com/peterc/pure_jpeg) - A pure Ruby JPEG encoder and decoder library with no native dependencies
@@ -171,6 +126,7 @@
   * [pdfcpu](https://pdfcpu.io/) - A PDF processor written in Go
   * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
 * Libraries
+  * [Folio](https://github.com/carlos7ags/folio) - A modern PDF library for Go that includes a layout engine, HTML-to-PDF conversion, support for forms, digital signatures, barcodes, and PDF/A compliance
   * [Poppler](https://poppler.freedesktop.org/) - A PDF rendering library based on the xpdf-3.0 code base
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files

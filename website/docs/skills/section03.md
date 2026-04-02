@@ -311,9 +311,11 @@ access to high-performance networking
 * Edge Proxies & Ingress
   * [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
   * [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
+  * [Contour](https://projectcontour.io/) - A high performance ingress controller for Kubernetes that provides the control plane for the Envoy edge and service proxy
 * Cloud-Native Networking
   * [Project Calico](https://projectcalico.org/) - An open-source project that provides secure network connectivity, network security, and observability for containers, virtual machines, and native host-based workloads
   * [Cilium](https://cilium.io/) - An open-source project that provides networking, security, and observability for cloud-native environments
+  * [Flannel](https://github.com/flannel-io/flannel) - A simple and easy way to configure a layer 3 network fabric designed for Kubernetes
 
 ## CI/CD & GitOps
 
@@ -344,6 +346,7 @@ access to high-performance networking
 * Terraform Integration
   * [Atrantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
 * Private Package Registries
+  * [JFrog Artifactory](https://jfrog.com/artifactory/) - A universal DevOps repository manager that allows you to store, manage, and distribute your software artifacts and their dependencies
   * [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/index.html) - A feature that allows you to publish and share packages for a variety of supported package managers
   * [GitHub Packages](https://github.com/features/packages) - A software package hosting service that allows you to host your software packages privately or publicly
   * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
@@ -446,6 +449,7 @@ access to high-performance networking
   * [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
 * AIOps & Autonomous Agents
   * [Azure SRE Agent](https://aka.ms/sreagent) - An AI-powered service designed to automate Site Reliability Engineering practices by monitoring, diagnosing, and helping resolve incidents
+  * [Mezmo Aura](https://www.mezmo.com/aura) - An open-source agentic harness designed specifically for Site Reliability Engineering (SRE) and production AI operations
 
 ### Chaos Engineering
 

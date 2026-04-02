@@ -111,6 +111,7 @@
 
 ### Concepts & Vector Representations
 
+* [Okapi BM25](https://en.wikipedia.org/wiki/Okapi_BM25) - A ranking function used by search engines to estimate the relevance of documents to a given search query based on a probabilistic retrieval framework
 * [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) - A string metric for measuring the difference between two sequences by counting the minimum number of single-character edits required to change one into the other
 * [n-gram](https://en.wikipedia.org/wiki/N-gram) - A sequence of n adjacent symbols in a particular order, used in fields like natural language processing and computational biology
 * [tf-idf (term frequency-inverse document frequency)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) - A statistical measure used in information retrieval to evaluate the importance of a word in a document relative to a collection or corpus, accounting for its general frequency
@@ -139,7 +140,6 @@
   * [gosseract OCR](https://github.com/otiai10/gosseract) - A Go package for OCR (Optical Character Recognition), by using Tesseract C++ library
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR) - A ready-to-use OCR with 80+ supported languages and all popular writing scripts
 * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/) - A tool to add a searchable OCR text layer to PDF files
-
 * Open Models
   * [LLaVA](https://llava-vl.github.io/) - A novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding, achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on Science QA
 
@@ -163,7 +163,6 @@
 * [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
 * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
 * [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
-
 * Open Models
   * [Llama](https://www.llama.com/) - The open-source AI models you can fine-tune, distill and deploy anywhere
   * [Gemma](https://deepmind.google/models/gemma/) - A family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models
@@ -190,8 +189,6 @@
   * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
   * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
   * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
-* Platforms
-  * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
 * Application Frameworks
   * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
@@ -226,13 +223,12 @@
 * Agent Orchestration Frameworks
   * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs by creating cyclic graphs for agent runtimes
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
-  * [Agent Zero](https://www.agent-zero.ai/) - An open-source personal AI agent that uses a dynamic toolset to solve complex tasks by writing and executing code, managing its own computer environment, and learning from its actions
   * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
   * [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/) - A comprehensive framework for building full-stack, multi-channel agents that operate seamlessly across Microsoft 365 Copilot, Teams, third-party platforms, custom applications, and websites
   * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
   * [Deep Agents](https://github.com/langchain-ai/deepagents) - The easiest way to start building agents and applications powered by LLMs—with built-in capabilities for task planning, file systems for context management, subagent-spawning, and long-term memory
     * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
-  * [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
+  * [Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - A resource for building robust, future-proof Agentic AI solutions that evolve with technological advancements
 * Building Agents & Providers
   * [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
   * [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
@@ -240,13 +236,14 @@
   * [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents-sdk) - A library for building agentic applications where models can use additional context and tools, hand off to specialized agents, and stream results
   * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
   * [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/en-us/microsoft-365/developer/overview-m365-agents-toolkit) - A suite of tools for building enterprise-ready agents and apps that work across Microsoft 365 Copilot, Teams, Office, web, and other third-party messaging channels
-* Local & Desktop Agents
-  * [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
 * Interoperability
   * [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
 
 ### Supporting Services & Platforms
 
+* Agent Platforms & Services
+  * [Foundry Agent Service](https://azure.microsoft.com/en-us/products/ai-foundry/agent-service) - A platform to securely design, deploy, and scale AI agents with governance and observability for enterprise transformation
+  * [Moltbook](https://www.moltbook.com/) - A social network for AI agents where AI agents share, discuss, and upvote
 * Pre-built Agents & Collections
   * [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
 * Memory Systems

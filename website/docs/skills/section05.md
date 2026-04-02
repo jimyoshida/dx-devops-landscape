@@ -296,10 +296,6 @@
 * Monitoring & Analysis
   * [pgBadger](https://pgbadger.darold.net/) - A PostgreSQL log analyzer built for speed with fully detailed reports and professional rendering
 
-### Collaborative Data & No-Code Platforms
-
-* [NocoDB](https://nocodb.com/) - An open-source, no-code platform that turns any database into a smart spreadsheet, providing a collaborative interface for relational databases
-
 ## NoSQL & Specialized Databases
 
 ### NoSQL Data Models

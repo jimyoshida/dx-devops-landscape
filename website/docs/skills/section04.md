@@ -297,6 +297,7 @@
     * [Safety](https://github.com/pyupio/safety/) - A tool that checks your installed dependencies for known security vulnerabilities
     * [Clair](https://github.com/quay/clair) - An open-source project for the static analysis of vulnerabilities in application containers
     * [GitLab Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - A tool that checks your Docker images for known vulnerabilities
+    * [JFrog Xray](https://jfrog.com/xray/) - An application security tool that identifies vulnerabilities and license compliance issues across the software supply chain
   * License & Dependency Analysis
     * [Feluda](https://github.com/anistark/feluda) - A blazing fast dependency graph generator for Python projects
 * Frameworks & Assessment
@@ -435,6 +436,7 @@
 
 ### AI Governance & Security
 
+* [METR](https://metr.org/) - A research nonprofit that scientifically measures whether and when AI systems might threaten catastrophic harm to society
 * [Microsoft Agent 365](https://www.microsoft.com/en-us/microsoft-agent-365) - A centralized governance and management platform designed to oversee autonomous AI agents within an enterprise environment
 
 ### Regulations & Standards

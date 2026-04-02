@@ -79,60 +79,6 @@
   * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
   * [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - A software development practice that seeks to apply the same principles of version control, testing, and deployment to enhance maintainability and scalability of all aspects of the development lifecycle, including networking infrastructure, documentation, and configuration
 
-## Version Control System
-
-* Concepts
-  * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
-* Core VCS & Clients
-  * [Git](https://git-scm.com/) - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
-    * local repository, remote repository
-    * branch, tag, worktree
-    * push, pull, fetch, rebase, reset, stash
-    * staging, commit
-  * [Jujutsu (jj)](https://www.jj-vcs.dev/latest/) - A Git-compatible VCS that is both simple and powerful
-  * [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
-  * [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
-* Terminal & UI Tools
-  * [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
-  * [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
-  * [giff](https://github.com/bahdotsh/giff) - A terminal-based Git diff viewer with interactive rebase capabilities that allows you to view and manage changes between branches
-  * [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - An improved sequence editor for Git
-* History & Maintenance Tools
-  * [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
-  * [git filter-repo](https://github.com/newren/git-filter-repo) - A versatile tool for rewriting history
-  * [degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
-* Commit & Changelog Tooling
-  * [Git Lint](https://alchemists.io/projects/git-lint) - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
-  * [commitlint](https://commitlint.js.org/) - A tool that helps your team adhere to a commit convention by linting commit messages
-  * [git cliff](https://git-cliff.org/) - A highly customizable changelog generator
-* Hook Management
-  * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
-  * [Lefthook](https://lefthook.dev/) - A fast, polyglot Git hooks manager for any type of project
-
-### Git Hosting Services
-
-* [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - The single source of truth for collaborating on code and projects
-  * [GitLab CLI](https://gitlab.com/gitlab-org/cli) - An open source tool that brings GitLab to your terminal, next to where you are already working with git and your code
-* [Gitea](https://about.gitea.com/products/gitea/) - A painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-* [Codeberg](https://codeberg.org/) - A community-led effort that provides Git hosting and other services for free and open source projects
-* [Forgejo](https://forgejo.org/) - A self-hosted lightweight software forge
-* [Soft Serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line
-* [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/) - A set of version control tools that you can use to manage your code
-* [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
-  * [GitHub CLI](https://cli.github.com/) - An open source tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place
-
-### Branching Models
-
-* [Trunk Based Development](https://trunkbaseddevelopment.com/) - A source-control branching model, where developers collaborate on code in a single branch called 'trunk', resist any pressure to create other long-lived development branches by employing documented techniques
-* [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) - A lightweight, branch-based workflow designed for teams that deploy frequently
-* [GitLab Flow](https://docs.gitlab.co.jp/ee/topics/gitlab_flow.html) - A simpler alternative to GitFlow that combines feature driven development and feature branches with issue tracking
-
-### Code Review
-
-* [Google Engineering Practices Documentation](https://google.github.io/eng-practices/) - A comprehensive guide to Google's code review processes and policies for both reviewers and change authors
-* [Conventional Comments](https://conventionalcomments.org/) - A standard that provides a structured format for code review feedback to improve clarity, reduce misunderstandings, and make comments machine-readable
-* [Danger](https://github.com/danger/danger) - A tool to automate team norms in code review
-
 ## Release Management
 
 ### Release Automation
@@ -147,10 +93,9 @@
 * [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
 * [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages that provides an easy set of rules for creating an explicit commit history
 * [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
-  * [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
-  * [semver](https://github.com/npm/node-semver#readme) - A semantic versioner for npm
+* [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
 
-## Software Design
+## Software Design & Architecture
 
 ### Design Principles
 
@@ -184,16 +129,21 @@
 * [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
 * [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
 
-### Requirement Engineering
+### Requirements & Architecture Description
 
 * [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
   * [Systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) - The conceptual model that defines the structure, behavior, and more views of a system
+    * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
+    * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
+    * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
   * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - An adage stating that organizations design systems that mirror their own communication structure
 * [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
   * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
     * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
+* [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
 * Related Standards
-  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
+  * [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
+  * [ISO/IEC/IEEE 42010 (Architecture description)](https://en.wikipedia.org/wiki/ISO/IEC_42010) - An international standard for architecture descriptions of systems and software
 
 ### Domain-Driven Design (DDD)
 
@@ -206,9 +156,9 @@
 * [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
 * [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
-## Management & Measurement
+## Project & Work Management
 
-### Project & Work Management
+### Core Practices
 
 * [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
   * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
@@ -219,45 +169,46 @@
   * [Software development effort estimation](https://en.wikipedia.org/wiki/Software_development_effort_estimation) - The process of predicting the most realistic amount of effort (expressed in terms of person-hours or money) required to develop or maintain software based on incomplete, uncertain and noisy input
     * [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation) - A technique used in project management to estimate the likely duration or cost of an activity
     * [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) - A consensus-based, gamified technique for estimating, mostly used for timeboxing in Agile principles
-* [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
-  * ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
-  * ISO/IEC/IEEE 15288: Systems and software engineering — System life cycle processes
+  * [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
 * [Prioritization](https://en.wikipedia.org/wiki/Prioritization) - The activity that arranges items or activities in order of urgency
   * [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) - A simple scoring system for product prioritization that stands for Reach, Impact, Confidence, and Effort
   * [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
   * [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
 * [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
-* Tools & Platforms
+* Tools
   * Issue Tracking Systems
     * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
-      * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
       * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
     * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
     * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
     * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
     * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
-    * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
     * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
   * Chat Systems
     * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
-      * [Python Slack SDK](https://slack.dev/python-slack-sdk/) - A software development kit that helps Python developers build apps that integrate with Slack
-      * [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - A Go library for the Slack API
     * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
     * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
-      * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
-    * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
+* Related Standards
+  * [ISO/IEC 12207 (Software life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_12207) - The international standard for software lifecycle processes that defines all the processes required for developing and maintaining software systems
+  * [ISO/IEC 15288 (System life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_15288) - The technical standard in systems engineering which covers processes and lifecycle stages
+  * [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
 
 ### Product Management
 
 * [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
-  * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
 * [Lean startup](https://en.wikipedia.org/wiki/Lean_startup) - A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable
-* Related Standards
-  * ISO/IEC 15504: Information technology — Process assessment
-  * ISO/IEC 20000: Information technology — Service management
 * [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
+  * [Direct-to-consumer](https://en.wikipedia.org/wiki/Direct-to-consumer) - A business model of selling products directly to customers and thereby bypassing any third-party retailers, wholesalers, or intermediaries
+  * [Subscription business model](https://en.wikipedia.org/wiki/Subscription_business_model) - A business model in which a customer must pay a recurring price at regular intervals for access to a product or service
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
   * [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas) - A one-page business modeling tool for entrepreneurs to quickly outline their business idea
+* Tools
+  * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
+  * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+* Related Standards
+  * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
+
+## Metrics & Performance
 
 ### Goal Setting & Performance
 
@@ -279,7 +230,7 @@
     * [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A framework that provides a way to think about developer productivity in a more holistic way, encompassing Satisfaction and well-being, Performance, Activity, Communication and collaboration, and Efficiency and flow
     * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
 
-## Business & Strategy
+## Enterprise Strategy & Architecture
 
 ### Enterprise Architecture & Administration
 
@@ -300,6 +251,8 @@
   * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
     * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources))
   * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
+  * [E-commerce](https://en.wikipedia.org/wiki/E-commerce) - The activity of electronically buying or selling products on online services or over the Internet
+    * [Shopify](https://www.shopify.com/) - A Canadian multinational e-commerce company that provides a proprietary e-commerce platform for online stores and retail point-of-sale systems
   * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
   * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
   * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution
@@ -379,44 +332,60 @@
 * [Risk management](https://en.wikipedia.org/wiki/Risk_management) - The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities
   * [Business continuity planning](https://en.wikipedia.org/wiki/Business_continuity_planning) - The process an organization undergoes to create a prevention and recovery system from potential threats such as natural disasters or cyber-attacks
     * [IT disaster recovery](https://en.wikipedia.org/wiki/IT_disaster_recovery) - The process of resuming normal IT operations after a disruptive event, such as a natural disaster, cyberattack, or equipment failure
-    * ISO 22301: Security and resilience - Business continuity management systems - Requirements
+    * [ISO 22301 (Business continuity management systems)](https://en.wikipedia.org/wiki/ISO_22301) - The international standard for business continuity management systems that specifies requirements to protect against, respond to, and recover from disruptive incidents
   * [Project risk management](https://en.wikipedia.org/wiki/Project_risk_management) - The process of identifying, analyzing, and then responding to any risk that arises over the life cycle of a project to help the project remain on track and meet its goal
   * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
-  * ISO 31000: Risk management
+  * [ISO 31000 (Risk management)](https://en.wikipedia.org/wiki/ISO_31000) - A set of international standards for risk management that provides a consistent vocabulary and methodology for assessing and managing risk
 
-## Workflow Automation
+## Enterprise AI & Productivity
 
-### AI Assistants & Platforms
+### Personal AI Agent Runtimes (AI OS)
 
-* Enterprise AI Assistants & Copilots
-  * [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
-  * [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
-  * [Notion AI](https://www.notion.so/product/ai) - An integrated AI assistant for workspaces that provides writing assistance, workspace Q&A, and autonomous agents for task automation
-* AI Agent Platforms & Orchestration
-  * [AionUI](https://github.com/iOfficeAI/AionUi) - A Cowork app for AI coding agents with document generation capabilities
-  * [claw-empire](https://github.com/GreenSheep01201/claw-empire) - A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents as a virtual autonomous company
-  * [Dify](https://dify.ai/) - An open-source LLM app development platform
-  * [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
-* Workflow Automation & Low-Code Platforms
-  * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-  * Power Platform
-    * [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
-    * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
-    * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
-    * [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
-* Integration & Connectivity
-  * [Work-IQ](https://github.com/microsoft/work-iq) - An MCP (Model Context Protocol) server and CLI for accessing Microsoft 365 data
+* [Claude Cowork](https://www.anthropic.com/claude/cowork) - An agentic AI system for knowledge work that autonomously plans and executes multi-step tasks across files, documents, and web applications directly on your computer
+* [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
+* [claw-empire](https://github.com/GreenSheep01201/claw-empire) - A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents as a virtual autonomous company
+* [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
 
-### Office Suite Ecosystem Tools
+### Enterprise AI Assistants
 
-* Microsoft 365 Development
-  * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
-  * [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) - The gateway to data and intelligence in Microsoft 365
-  * [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
-  * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
-  * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
-* Google Workspace Development
-  * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
+* [Amazon Q Business](https://aws.amazon.com/q/business/) - A generative AI-powered assistant for enterprises to find information, gain insights, and take action at work, integrating with company data and applications
+* [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise) - An AI assistant for work that supercharges productivity and creativity, reengineers business processes, and empowers you to securely transform your business into an AI-powered organization
+* [Notion AI](https://www.notion.so/product/ai) - An integrated AI assistant for workspaces that provides writing assistance, workspace Q&A, and autonomous agents for task automation
+* [Gemini for Google Workspace](https://workspace.google.com/solutions/ai/) - An AI-powered assistant for Docs, Gmail, Sheets, and Slides that helps you write, visualize, and organize your work across the platform
+* [Claude for Enterprise](https://claude.com/pricing/enterprise) - A secure and scalable way for organizations to use AI with administrative controls, single sign-on (SSO), and role-based access to Claude's latest models
+* [ChatGPT Enterprise](https://chatgpt.com/business/enterprise) - An enterprise-grade AI assistant with unlimited higher-speed access to GPT-4, longer context windows, and advanced data analysis capabilities
+* [Glean](https://www.glean.com/) - An AI-powered search and assistant for the enterprise that connects to all of your company's apps and data to find exactly what you need
+
+## Low-Code & No-Code Development
+
+### Business Application Platforms
+
+* [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
+* [AppSheet](https://about.appsheet.com/home/) - A no-code platform that allows anyone to build mobile and web apps without writing code
+* [OutSystems](https://www.outsystems.com/) - A high-performance low-code platform that accelerates the development of critical enterprise applications
+
+### Workflow & Integration Automation
+
+* [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
+* [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
+* [Zapier](https://zapier.com/) - A tool that allows you to connect your apps and automate workflows without any coding knowledge
+
+### Relational Data & Collaborative Platforms
+
+* [Grist](https://www.getgrist.com/) - A relational spreadsheet that combines the familiar interface of a spreadsheet with the power and structure of a relational database
+* [NocoBase](https://www.nocobase.com/) - A scalability-first, open-source no-code platform designed for building complex business applications and internal tools
+* [NocoDB](https://nocodb.com/) - An open-source, no-code platform that turns any database into a smart spreadsheet, providing a collaborative interface for relational databases
+* [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
+
+### AI-Native App & Agent Builders
+
+* [Dify](https://dify.ai/) - An open-source LLM app development platform
+* [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
+
+### Web Content & Portal Builders
+
+* [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
+* [Webflow](https://webflow.com/) - A browser-based design tool that gives you the power to build production-ready websites without coding
 
 ## The Open Ecosystem
 
@@ -455,16 +424,10 @@
   * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
   * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
   * [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
+  * [OpenClaw Skills](https://www.open-claw-skills.com/) - The largest open-source registry for community-driven AI tools designed for platforms like Claude Code and Cursor
 * MCP (Model Context Protocol) Registries
   * [Official MCP Registry](https://registry.modelcontextprotocol.io/)- A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
   * [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
-* Community Curations
-  * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software. Inspired by awesome-python
-  * [Awesome Ruby](https://awesome-ruby.com/) - A curated list of awesome Ruby frameworks, libraries and software
-  * [Awesome Python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
-  * [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins
-  * [Awesome VSCode](https://github.com/viatsko/awesome-vscode) - A curated list of delightful VS Code packages and resources
-  * [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A community-curated list of Model Context Protocol (MCP) servers
 
 ### Open Data
 

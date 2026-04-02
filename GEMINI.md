@@ -15,7 +15,7 @@ The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
 
 You should use grouping items instead of subsections when the group title is generic like "Cloud Services".
-That is to meet "MD024/no-duplicate-heading" in markdownlint rules.
+That is to meet MD024 markdownlint rules.
 
 Each skill item should have a hyperlink which label is the concise linked website title.
 The website should be its own project/product home or its article on Wikipedia.
@@ -25,7 +25,11 @@ The description string should be quoted from the linked site as much as possible
 The description string should start with "A" or "The", and must omit the trailing period.
 Don't repeat the item name in the description string.
 
-Make sure the file meets "MD047/single-trailing-newline" in markdownlint rules.
+Make sure the markdown code meets the following markdownlint rules.
+
+- MD024/no-duplicate-heading
+- MD032/blanks-around-lists
+- MD047/single-trailing-newline
 
 <Contents_Example>
 

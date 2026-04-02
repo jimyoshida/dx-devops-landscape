@@ -55,7 +55,7 @@
   * [Built-in concurrency support](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) - The features of the Java platform designed from the ground up to support concurrent programming
 * [Scala](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
   * [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - A characteristic of a language that fuses object-oriented and functional programming in a statically typed setting
-* [Groovy (for Jenkins/Gradle)](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
+* [Groovy](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
 
 ### C & Other Languages
 
@@ -69,6 +69,7 @@
   * Purely functional
   * [Lazy evaluation](https://wiki.haskell.org/Lazy_evaluation) - An evaluation strategy which delays the evaluation of an expression until its value is needed
 * [Elixir](https://elixir-lang.org/) - A dynamic, functional language for building scalable and maintainable applications
+* [Power Fx](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - A low-code language used across Microsoft Power Platform that is a general-purpose, strong-typed, declarative, and functional programming language
 
 ## Text & Time Format Standards
 
@@ -240,6 +241,7 @@ support
     * [winston](https://github.com/winstonjs/winston) - A logger for just about everything
     * [debug](https://github.com/debug-js/debug) - A tiny JavaScript debugging utility modelled after Node.js core's debugging technique
   * Go
+    * [Charmbracelet log](https://github.com/charmbracelet/log) - A minimal and colorful Go logging library
     * [Go log](https://pkg.go.dev/log) - The package that implements a simple logging package
     * [zap](https://github.com/uber-go/zap/) - Blazing fast, structured, leveled logging in Go
     * [Logrus](https://github.com/sirupsen/logrus) - A structured logger for Go (golang), completely API compatible with the standard library logger
