@@ -278,6 +278,7 @@
   * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
   * [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
   * [Astro](https://astro.build/) - The web framework for content-driven website
+  * [Fresh](https://fresh.deno.dev/) - A next generation web framework, built for speed, reliability, and simplicity
 * Rust Full-Stack Frameworks
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
 

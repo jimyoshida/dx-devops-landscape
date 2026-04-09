@@ -38,6 +38,12 @@ access to high-performance networking
 
 * [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
 
+### Private Cloud & On-Premises IaaS
+
+* [OpenStack](https://www.openstack.org/) - An open source cloud computing platform that provides infrastructure as a service (IaaS) for building and managing public and private clouds
+* [OpenNebula](https://opennebula.io/) - The Enterprise Cloud and Virtualization Platform that delivers end-to-end coverage, vendor neutrality, and comprehensive support across cloud and virtualization management, hypervisor operations, and Kubernetes orchestration
+* [libvert](https://libvirt.org/) - A toolkit to manage virtualization platforms
+
 ### Cloud Architecture Frameworks
 
 * [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) - A set of guidance, patterns, and best practices for building secure, high-performing, resilient, and efficient infrastructure on Azure

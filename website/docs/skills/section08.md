@@ -221,11 +221,6 @@
 * [VirtualBox](https://www.virtualbox.org/) - A powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use
 * [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
 
-### Virtualization Management
-
-* [libvert](https://libvirt.org/) - A toolkit to manage virtualization platforms
-* [OpenNebula](https://opennebula.io/) - The Enterprise Cloud and Virtualization Platform that delivers end-to-end coverage, vendor neutrality, and comprehensive support across cloud and virtualization management, hypervisor operations, and Kubernetes orchestration
-
 ### CPU Emulators
 
 * [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer

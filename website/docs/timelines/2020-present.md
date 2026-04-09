@@ -8,6 +8,8 @@ sidebar_position: 5
 
 🌐 Playwright, a framework for reliable end-to-end testing for modern web apps, was first released as open source by Microsoft on January 31, 2020.
 
+🖥️ PowerShell 7.0 was released on March 4, 2020, dropping the "Core" suffix and serving as the successor to both Windows PowerShell 5.1 and PowerShell Core 6.x with improved Windows module compatibility.
+
 📜 Deno v1.0.0, a secure-by-default runtime for JavaScript and TypeScript with a single-executable design, was officially released on May 13, 2020.
 
 🧠 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in June 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
@@ -24,6 +26,8 @@ sidebar_position: 5
 
 📊 In December 2020, PrestoSQL was rebranded as Trino.
 
+📊 In 2020, with the introduction of the LAMBDA function, Microsoft Excel became a Turing-complete programming language, allowing users to define new functions written in Excel's own formula language.
+
 ## 2021
 
 🏢 On February 8, 2021, the formation of the Rust Foundation was announced by its five founding companies (AWS, Huawei, Google, Microsoft, and Mozilla).
@@ -36,6 +40,8 @@ sidebar_position: 5
 
 ☁️ Terraform 1.0 was released on June 08, 2021.
 
+☁️ Deno Deploy, a distributed HTTP service that allows users to run JavaScript, TypeScript, and WebAssembly at the edge, was launched on June 23, 2021.
+
 🧠 GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
 On June 29, 2021, GitHub announced GitHub Copilot for technical preview in the Visual Studio Code development environment.
 
@@ -46,6 +52,8 @@ Released: Aug 10, 2021
 🖥️ GitHub Codespaces, a cloud-hosted development environment powered by Visual Studio Code, reached general availability for GitHub Team and Enterprise Cloud customers on August 11, 2021.
 
 🔐 OpenSSL 3.0 release: 7 September 2021
+
+⚙️ Windows 11 was officially released on October 5, 2021, featuring a major visual redesign with a centered Taskbar and Start menu, improved window snapping ("Snap Layouts"), and a focus on enhanced security requirements.
 
 🐛 Log4Shell was a zero-day vulnerability in Log4j, a popular Java logging framework, involving arbitrary code execution.The vulnerability had existed unnoticed since 2013 and was privately disclosed to the Apache Software Foundation, of which Log4j is a project, by Chen Zhaojun of Alibaba Cloud's security team on 24 November 2021.
 
@@ -67,6 +75,10 @@ The model was first announced in April 2022 and remained private until March 202
 ☁️ Kubernetes 1.24, released in May 2022, removed "dockershim," officially ending built-in support for Docker as a container runtime in favor of the Container Runtime Interface (CRI).
 
 ☁️ Azure Container Apps, a fully managed serverless container service built on Kubernetes, reached general availability on May 24, 2022.
+
+🌐 Fresh 1.0, a full-stack web framework for Deno that uses an "islands" architecture for zero-config and high performance, was released on June 28, 2022.
+
+🌐 Bun, a fast all-in-one JavaScript runtime and toolkit written in Zig and powered by JavaScriptCore, entered public beta with the release of version 0.1.0 on July 5, 2022.
 
 ⚙️ On September 21, 2022, Systemd support is now available in WSL.
 
@@ -105,6 +117,8 @@ The first model was released in March 2023.
 
 ☁️ Following HashiCorp's announcement to move Terraform to a non-open-source license, the OpenTF project (later rebranded as OpenTofu) was officially forked on August 25, 2023. It joined the Linux Foundation on September 20, 2023.
 
+🌐 Bun 1.0, marking the transition of the runtime to a stable, production-ready version with an integrated bundler and test runner, was officially released on September 8, 2023.
+
 🧠 Google Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4.
 
 📜 Mojo is a programming language in the Python family that is currently under development. It is available both in browsers via Jupyter notebooks, and locally on Linux and macOS.
@@ -125,6 +139,8 @@ First appeared: 2023
 
 🧠 Devin, branded as the "world's first fully autonomous AI software engineer," was officially released by Cognition AI on March 12, 2024.
 
+🌐 Bun 1.1, which introduced stable support for Windows and significant performance improvements for common operations, was released on April 1, 2024.
+
 🧠 GPT-4o (GPT-4 Omni) is a multilingual, multimodal generative pre-trained transformer designed by OpenAI.
 It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstration on 13 May 2024 and released the same day.
 
@@ -141,6 +157,8 @@ Introduced: November 25, 2024
 
 🧠 OpenAI o3 is a reflective generative pre-trained transformer (GPT) model developed by OpenAI as a successor to OpenAI o1 for ChatGPT. It is designed to devote additional deliberation time when addressing questions that require step-by-step logical reasoning.
 The OpenAI o3 model was announced on December 20, 2024.
+
+⚙️ In 2024, the Single UNIX Specification Issue 8 adopted more inclusive terminology for pseudoterminals, officially replacing the traditional "master" and "slave" labels with "manager" and "subsidiary" respectively.
 
 ## 2025
 
@@ -189,11 +207,13 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 ☁️ On 14 Nov 2025, AWS Lambda supported building serverless applications using Rust.
 
-🧠 Clawdbot (later rebranded as OpenClaw), an open-source AI agent framework created by Peter Steinberger, was first released on November 24, 2025. It gained immediate viral attention, reaching 9,000 GitHub stars within its first 24 hours.
-
-🧠 Google officially launched Gemini 3 on November 18, 2025 — a major release that brought enhanced reasoning, multimodal understanding, and agentic capabilities to the Gemini app, AI Search, Google AI Studio, Vertex AI, and more.
+🧠 Google officially launched Gemini 3 on November 18, 2025 — a major release that brought enhanced reasoning, multimodal understanding, and agentic capabilities to the Gemini app, AI Search, Google AI Studio, Vertex AI, and more.
 
 🧠 Support for the **Model Context Protocol (MCP)** within the Anthropic Skills framework was achieved on November 20, 2025, allowing skills to seamlessly interact with external tools and data sources via standardized MCP servers.
+
+🧠 Clawdbot (later rebranded as OpenClaw), an open-source AI agent framework created by Peter Steinberger, was first released on November 24, 2025. It gained immediate viral attention, reaching 9,000 GitHub stars within its first 24 hours.
+
+🌐 Anthropic announced the acquisition of Bun on December 2, 2025, with the aim of using the runtime to power its agentic workflows and developer tools.
 
 🏢 The Agentic AI Foundation (AAIF) was founded on December 9, 2025.
 It was launched as a new foundation under the Linux Foundation umbrella to provide neutral governance for the rapidly evolving ecosystem of AI agents.

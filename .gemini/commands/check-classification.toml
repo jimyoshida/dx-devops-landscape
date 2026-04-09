@@ -5,7 +5,7 @@ description = "Check the classification issues and suggest an improved one"
 # {{args}} will be replaced by the content of a @file or "quoted text".
 prompt = """
 Check if the provided skill/concept/tool items are logically classified by sections.
-If there are any suggestions for better classification, please show the suggested structure.
+If there are any suggestions for better classification, please show the new structure with improvement task numbers.
 
 Input File:
 {{args}}

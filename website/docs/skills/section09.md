@@ -286,6 +286,7 @@
   * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
     * [libuv](https://libuv.org/) - A multi-platform support library with a focus on asynchronous I/O
   * [Deno](https://deno.com/) - A modern runtime for TypeScript and JavaScript
+    * [Deno Deploy](https://deno.com/deploy) - A distributed HTTP service that allows you to run JavaScript, TypeScript, and WebAssembly at the edge
     * [Deno Subhosting](https://deno.com/subhosting) - A platform for SaaS providers to securely run untrusted customer code at scale using V8 isolates
   * [Bun](https://bun.sh/) - A fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript
   * [WinterJS](https://github.com/wasmerio/winterjs) - A blazingly fast JavaScript runtime built on Rust, using the SpiderMonkey engine and the Tokio runtime
