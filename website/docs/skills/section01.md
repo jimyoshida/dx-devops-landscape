@@ -189,6 +189,7 @@
     * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
     * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
 * Related Standards
+  * [CMMI (Capability Maturity Model Integration)](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration) - A process level improvement training and appraisal program
   * [ISO/IEC 12207 (Software life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_12207) - The international standard for software lifecycle processes that defines all the processes required for developing and maintaining software systems
   * [ISO/IEC 15288 (System life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_15288) - The technical standard in systems engineering which covers processes and lifecycle stages
   * [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
@@ -207,6 +208,7 @@
   * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
 * Related Standards
   * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
+  * [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
 
 ## Metrics & Performance
 

@@ -22,6 +22,7 @@
   * Package Management & Administration
     * [Chocolatey](https://chocolatey.org) - The package manager for Windows
     * [Scoop](https://scoop.sh/) - A command-line installer for Windows
+    * [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/) - A command line tool enabling users to discover, install, upgrade, remove and configure applications on Windows
     * [gsudo](https://gerardog.github.io/gsudo/) - A Sudo for Windows, with a similar user-experience to the original Sudo
   * Productivity & Automation
     * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts

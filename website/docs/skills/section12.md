@@ -26,11 +26,21 @@
 
 ### Knowledge Management
 
-* [Obsidian](https://obsidian.md/) - A free and flexible application for private thoughts, allowing users to store notes on their device, connect ideas, and organize knowledge with a customizable interface through plugins and themes
-* [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) - A system of note-taking and personal knowledge management for research, study, and writing, consisting of small, interconnected items of information stored on slips or cards
-* [Memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking tool built for quick capture that is markdown-native and lightweight
+* Personal Knowledge Management
+  * [Obsidian](https://obsidian.md/) - A free and flexible application for private thoughts, allowing users to store notes on their device, connect ideas, and organize knowledge with a customizable interface through plugins and themes
+  * [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) - A system of note-taking and personal knowledge management for research, study, and writing, consisting of small, interconnected items of information stored on slips or cards
+  * [Memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking tool built for quick capture that is markdown-native and lightweight
+* Content Management Systems (CMS)
+  * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
+  * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - A web-based collaboration and document management platform that enables organizations to securely store, share, and manage content
+  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
+  * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
+* Wiki Systems
+  * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
+  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
+  * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
 
-### Architectural Visualization
+### Architectural Documentation
 
 * Diagramming Tools
   * [draw.io](https://www.drawio.com/) - A technology stack for building diagramming applications, and the world's most widely used browser-based end-user diagramming software
@@ -44,39 +54,35 @@
     * [DOT language](https://graphviz.org/doc/info/lang.html) - A plain text graph description language
     * [haphviz](https://hackage.haskell.org/package/haphviz) - A Haskell library for representing, manipulating, and pretty-printing graphs in the DOT format
   * [ditaa](https://github.com/stathissideris/ditaa) - A small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
+* Architectural Decision Records
+  * [Architectural Decision Records (ADRs)](https://adr.github.io/) - A document that captures an important architectural decision made along with its context and consequences
+    * [adr-tools](https://github.com/npryce/adr-tools) - A command-line tool to help you manage your architectural decision records
 
-### Architectural Decision Records
+### Lightweight Markup & Writing Styles
 
-* [Architectural Decision Records (ADRs)](https://adr.github.io/) - A document that captures an important architectural decision made along with its context and consequences
-  * [adr-tools](https://github.com/npryce/adr-tools) - A command-line tool to help you manage your architectural decision records
-
-### Lightweight Markup
-
-* [Markdown](https://en.wikipedia.org/wiki/Markdown) - A lightweight markup language for creating formatted text using a plain-text editor
-  * [CommonMark](https://commonmark.org/) - A rationalized version of Markdown syntax, with a spec and BSD-licensed reference implementations in C and JavaScript
-  * [GFM (GitHub Flavored Markdown)](https://github.github.com/gfm/) - A formal specification, based on the CommonMark Spec, that defines the syntax and semantics of GitHub's dialect of Markdown
-    * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The CSS that styles markdown rendered on GitHub
-  * [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files
-  * [Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
-  * [mdterm](https://github.com/bahdotsh/mdterm) - A terminal-based Markdown viewer written in Rust that renders Markdown files with syntax highlighting, styled formatting, and interactive navigation
-  * [Grip](https://github.com/joeyespo/grip) - A command-line server application that renders local README files before you push them to GitHub
-  * [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
-  * [Marp](https://marp.app/) - The simplest Markdown presentation writer with plain Markdown
-    * [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - An all-in-one tool for Markdown (keyboard shortcuts, table of contents, auto preview, and more)
-    * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
-    * [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - A markdown preview plugin for (neo)vim
-  * Guides
-    * [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown
-* [DocUtils](https://docutils.sourceforge.io/) - An open-source text processing system for processing plaintext documentation into useful formats, such as HTML, LaTeX, man-pages, open-document, or XML
-  * [reStructuredText](https://docutils.sourceforge.io/rst.html) - An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system
-* [Asciidoc](https://asciidoc.org/) - A lightweight markup language for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs
-  * [Asciidoctor](https://asciidoctor.org/) - A fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats
-* [Org Mode](https://orgmode.org/) - An authoring tool and a TODO lists manager for GNU Emacs
-  * [nvim-orgmode](https://github.com/nvim-orgmode/orgmode) - An Orgmode clone for Neovim written in Lua
-* [Wikitext](https://www.mediawiki.org/wiki/Wikitext) - The markup language that consists of the syntax and keywords used by the MediaWiki software to format a page
-
-### Writing Styles
-
+* Lightweight Markup
+  * [Markdown](https://en.wikipedia.org/wiki/Markdown) - A lightweight markup language for creating formatted text using a plain-text editor
+    * [CommonMark](https://commonmark.org/) - A rationalized version of Markdown syntax, with a spec and BSD-licensed reference implementations in C and JavaScript
+    * [GFM (GitHub Flavored Markdown)](https://github.github.com/gfm/) - A formal specification, based on the CommonMark Spec, that defines the syntax and semantics of GitHub's dialect of Markdown
+      * [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The CSS that styles markdown rendered on GitHub
+    * [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files
+    * [Glow](https://github.com/charmbracelet/glow) - A terminal based markdown reader
+    * [mdterm](https://github.com/bahdotsh/mdterm) - A terminal-based Markdown viewer written in Rust that renders Markdown files with syntax highlighting, styled formatting, and interactive navigation
+    * [Grip](https://github.com/joeyespo/grip) - A command-line server application that renders local README files before you push them to GitHub
+    * [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
+    * [Marp](https://marp.app/) - The simplest Markdown presentation writer with plain Markdown
+      * [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - An all-in-one tool for Markdown (keyboard shortcuts, table of contents, auto preview, and more)
+      * [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
+      * [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - A markdown preview plugin for (neo)vim
+    * Guides
+      * [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown
+  * [DocUtils](https://docutils.sourceforge.io/) - An open-source text processing system for processing plaintext documentation into useful formats, such as HTML, LaTeX, man-pages, open-document, or XML
+    * [reStructuredText](https://docutils.sourceforge.io/rst.html) - An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system
+  * [Asciidoc](https://asciidoc.org/) - A lightweight markup language for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs
+    * [Asciidoctor](https://asciidoctor.org/) - A fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats
+  * [Org Mode](https://orgmode.org/) - An authoring tool and a TODO lists manager for GNU Emacs
+    * [nvim-orgmode](https://github.com/nvim-orgmode/orgmode) - An Orgmode clone for Neovim written in Lua
+  * [Wikitext](https://www.mediawiki.org/wiki/Wikitext) - The markup language that consists of the syntax and keywords used by the MediaWiki software to format a page
 * Style Guides
   * [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) - A guide for writers creating a variety of content types, including apps and websites
   * [Google documentation style guide](https://developers.google.com/style/) - The editorial guidelines for writing clear and consistent technical documentation for an audience of software developers and other technical practitioners
@@ -90,7 +96,7 @@
   * [write-good](https://github.com/btford/write-good) - A naive linter for English prose
   * [textlint](https://textlint.github.io/) - The pluggable linting tool for text and markdown
 
-### Other Tools
+### Documentation Tooling
 
 * Typesetting Systems
   * [Troff/Groff](https://www.gnu.org/software/groff/) - A typesetting system that reads plain text mixed with formatting commands and produces formatted output
@@ -126,6 +132,10 @@
   * [GitLab Values](https://about.gitlab.com/handbook/values/) - A set of guiding principles that define the company's culture and how its team members operate
 * Professional Manifestos
   * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - A declaration emphasizing the importance of well-crafted software, continuous value addition, professional community, and productive partnerships in software development
+
+### Communication & Feedback
+
+* [DESC feedback model](https://workmotion.com/academy-post/the-desc-feedback-model/) - A communication tool for providing constructive feedback by describing the behavior, expressing the impact, specifying the desired change, and explaining the consequences
 
 ## Psychology & Sociology
 

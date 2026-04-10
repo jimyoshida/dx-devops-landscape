@@ -81,6 +81,7 @@
 
 ### Linux or Unix-like environments on Windows
 
+* [winpty](https://github.com/rprichard/winpty) - A Windows software package providing a Unix-like VT100 console interface for Windows console programs
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - A feature of Windows that enables you to run a GNU/Linux environment on your Windows machine without the need for a separate virtual machine or dual booting
   * [WSLg](https://github.com/microsoft/wslg) - A project that enables support for running Linux GUI applications (X11 and Wayland) on Windows in a fully integrated desktop experience
 * [Git for Windows](https://gitforwindows.org/) - A lightweight, native set of tools that bring the full feature set of the Git SCM to Windows

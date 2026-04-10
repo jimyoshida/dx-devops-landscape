@@ -19,10 +19,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Lockfiles
-packge-lock.json
-yarn.lock
-
 # Make-made files
 /static/usr
 tmp

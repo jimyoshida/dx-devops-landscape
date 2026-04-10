@@ -174,6 +174,7 @@ support
   * [JMESPath](https://jmespath.org/) - A query language for JSON
   * [JSON::Tiny](https://metacpan.org/pod/JSON::Tiny) - A minimalistic JSON module with no dependencies
   * [Python json](https://docs.python.org/3/library/json.html) - A module that implements a JSON encoder and decoder
+  * [Jackson](https://github.com/FasterXML/jackson) - A suite of data-processing tools for Java, including a streaming JSON parser / generator library and matching data-binding library
 * [XML](https://www.w3.org/XML/) - A simple, very flexible text format derived from SGML (ISO 8879)
   * [XPath](https://www.w3.org/TR/xpath/) - An expression language that allows the processing of values conforming to the XQuery and XPath Data Model
   * [DOM](https://dom.spec.whatwg.org/) - A platform-neutral model for events, aborting activities, and node trees

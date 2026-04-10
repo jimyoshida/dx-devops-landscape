@@ -390,6 +390,8 @@
   * [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
   * [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
     * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
+  * [Jekyll](https://jekyllrb.com/) - A simple, blog-aware, static site generator perfect for personal, project, or organization sites
+  * [Eleventy](https://www.11ty.dev/) - A simpler static site generator written in JavaScript
   * [Sphinx](http://www.sphinx-doc.org/en/master/) - A tool that makes it easy to create intelligent and beautiful documentation
   * [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
     * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
@@ -399,14 +401,9 @@
   * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
   * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 
-### Content Management Tools
+### Headless CMS
 
-* General CMS
-  * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
-  * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - A web-based collaboration and document management platform that enables organizations to securely store, share, and manage content
-  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
-  * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
-* Wiki Systems
-  * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
-  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
-  * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
+* Cloud-native & API-first CMS
+  * [Contentful](https://www.contentful.com/) - A headless content management system that provides a content-first approach to building digital products
+  * [Strapi](https://strapi.io/) - The leading open-source headless CMS
+  * [Sanity](https://www.sanity.io/) - A platform for structured content that lets you build better digital experiences

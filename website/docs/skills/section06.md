@@ -169,6 +169,21 @@
   * [Mistral](https://mistral.ai/models) - A family of open-source and commercial generative AI models
   * [OLMo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
 
+### Standards & Model Formats
+
+* [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
+* [ONNX](https://onnx.ai/) - An open format built to represent machine learning models
+* [Safetensors](https://huggingface.co/docs/safetensors/index) - A simple format for storing tensors safely
+
+### Model Interface SDKs & Clients
+
+* Libraries & SDKs
+  * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
+  * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
+  * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
+  * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
+  * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
+
 ### Techniques & Methods
 
 * [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) - A technique that enables large language models to retrieve and incorporate new information from external data sources
@@ -177,36 +192,22 @@
 * [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
 * [Prompt Engineering Guide](https://www.promptingguide.ai/) - A comprehensive resource for learning and applying prompt engineering techniques to effectively utilize large language models and build AI agents
 * [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/) - A structured method for crafting clear and precise AI prompts by defining context, role, action, format, and tone
-* [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
-  * Reason, Act, Thought, Observation
-* [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - An inference strategy where language models (LMs) can decompose and recursively interact with input context of unbounded length
 
-### Ecosystem & Frameworks
+### Development Tools & Utilities
 
-* Libraries & SDKs
-  * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
-  * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
-  * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
-  * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
-  * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
-* Application Frameworks
-  * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
-  * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
-  * [LlamaIndex](https://www.llamaindex.ai/) - A developer-first agent framework for building GenAI applications with modular building blocks for agents, RAG, and custom workflows
-  * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
-  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
-* Development Tools & Utilities
-  * [LiteLLM](https://docs.litellm.ai) - A Python SDK and AI Gateway (Proxy) that allows users to call over 100 Large Language Models (LLMs) using a unified OpenAI input/output format
-  * [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
-  * [Unsloth AI](https://unsloth.ai/) - A platform providing tools and services for easily fine-tuning and training Large Language Models (LLMs) to achieve faster and more efficient AI training
-  * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
-  * [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
-  * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
-* Benchmarking & Analysis
-  * [ARC-AGI](https://github.com/fchollet/ARC-AGI) - A benchmark for general intelligence, focusing on the ability to learn new concepts from a few examples
-  * [ARC-AGI-2](https://github.com/arcprize/ARC-AGI-2) - A general artificial intelligence benchmark, program synthesis benchmark, or psychometric intelligence test targeted at both humans and artificially intelligent systems that aim at emulating a human-like form of general fluid intelligence
-  * [Artificial Analysis](https://artificialanalysis.ai/) - An independent analysis of AI models and API providers, helping users understand the AI landscape
-  * [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs)
+* [LiteLLM](https://docs.litellm.ai) - A Python SDK and AI Gateway (Proxy) that allows users to call over 100 Large Language Models (LLMs) using a unified OpenAI input/output format
+* [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
+* [Unsloth AI](https://unsloth.ai/) - A platform providing tools and services for easily fine-tuning and training Large Language Models (LLMs) to achieve faster and more efficient AI training
+* [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
+* [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
+* [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
+
+### Benchmarking & Analysis
+
+* [ARC-AGI](https://github.com/fchollet/ARC-AGI) - A benchmark for general intelligence, focusing on the ability to learn new concepts from a few examples
+* [ARC-AGI-2](https://github.com/arcprize/ARC-AGI-2) - A general artificial intelligence benchmark, program synthesis benchmark, or psychometric intelligence test targeted at both humans and artificially intelligent systems that aim at emulating a human-like form of general fluid intelligence
+* [Artificial Analysis](https://artificialanalysis.ai/) - An independent analysis of AI models and API providers, helping users understand the AI landscape
+* [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs)
 
 ## Agentic AI
 
@@ -217,33 +218,50 @@
 * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) - An open-source standard for connecting AI applications to external systems, enabling them to access data sources, tools, and workflows
 * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 * [Agent Name Service (ANS)](https://genai.owasp.org/resource/agent-name-service-ans-for-secure-al-agent-discovery-v1-0/) - A secure, DNS-inspired framework for AI agent discovery that leverages Public Key Infrastructure (PKI) for identity verification, structured JSON schemas for communication, and a protocol adapter layer supporting A2A, MCP, and ACP protocols
+* [GitAgent](https://gitagent.sh/) - A framework-agnostic standard that allows you to define an AI agent as a set of version-controlled files within a Git repository
 
-### Libraries & Frameworks
+### Agentic Patterns & Techniques
 
-* Agent Orchestration Frameworks
-  * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs by creating cyclic graphs for agent runtimes
+* [AI Harness Engineering](https://www.nxcode.io/resources/news/what-is-harness-engineering-complete-guide-2026) - The specialized engineering discipline focused on building the environments, constraints, and feedback loops that allow AI models to operate reliably as autonomous agents
+* [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
+  * Reason, Act, Thought, Observation
+* [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - An inference strategy where language models (LMs) can decompose and recursively interact with input context of unbounded length
+
+### Agent Orchestration & Frameworks
+
+* Orchestration Frameworks
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
   * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
-  * [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/) - A comprehensive framework for building full-stack, multi-channel agents that operate seamlessly across Microsoft 365 Copilot, Teams, third-party platforms, custom applications, and websites
-  * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
   * [Deep Agents](https://github.com/langchain-ai/deepagents) - The easiest way to start building agents and applications powered by LLMs—with built-in capabilities for task planning, file systems for context management, subagent-spawning, and long-term memory
     * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
-  * [Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - A resource for building robust, future-proof Agentic AI solutions that evolve with technological advancements
-* Building Agents & Providers
-  * [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
-  * [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
-  * [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - A library for building AI agents with Claude
-  * [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents-sdk) - A library for building agentic applications where models can use additional context and tools, hand off to specialized agents, and stream results
-  * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
-  * [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/en-us/microsoft-365/developer/overview-m365-agents-toolkit) - A suite of tools for building enterprise-ready agents and apps that work across Microsoft 365 Copilot, Teams, Office, web, and other third-party messaging channels
-* Interoperability
-  * [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
+  * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs by creating cyclic graphs for agent runtimes
+  * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
+  * [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - A resource for building robust, future-proof Agentic AI solutions that evolve with technological advancements
+  * [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/) - A comprehensive framework for building full-stack, multi-channel agents that operate seamlessly across Microsoft 365 Copilot, Teams, third-party platforms, custom applications, and websites
+  * [TAKT (TAKT Agent Koordination Topology)](https://github.com/nrslib/takt) - An open-source framework designed to orchestrate and manage AI coding agents using structured, YAML-defined workflows
+* Application Frameworks
+  * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
+  * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
+  * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
+  * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
+  * [LlamaIndex](https://www.llamaindex.ai/) - A developer-first agent framework that rapidly accelerates time-to-production of GenAI applications with trusted low and high-level abstractions
+
+### Agent Development Kits (ADK)
+
+* [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
+* [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - The Agent SDK gives you the same tools, agent loop, and context management that power Claude Code, programmable in Python and TypeScript
+* [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
+* [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
+* [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/en-us/microsoft-365/developer/overview-m365-agents-toolkit) - A suite of tools for building enterprise-ready agents and apps that work across Microsoft 365 Copilot, Teams, Office, web, and other third-party messaging channels
+* [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents-sdk) - A library for building agentic applications where models can use additional context and tools, hand off to specialized agents, and stream results
 
 ### Supporting Services & Platforms
 
 * Agent Platforms & Services
   * [Foundry Agent Service](https://azure.microsoft.com/en-us/products/ai-foundry/agent-service) - A platform to securely design, deploy, and scale AI agents with governance and observability for enterprise transformation
   * [Moltbook](https://www.moltbook.com/) - A social network for AI agents where AI agents share, discuss, and upvote
+* Interoperability
+  * [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
 * Pre-built Agents & Collections
   * [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
 * Memory Systems
@@ -256,32 +274,39 @@
   * [skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) - A best-effort security scanner for AI Agent Skills that detects prompt injection, data exfiltration, and malicious code patterns
   * [ClawShell](https://clawshell.org/) - The Runtime Security Layer for OpenClaw, the essential safety harness for PII & sensitive credentials protection
 
-## MLOps & Productionalization
+## MLOps & LLMOps
 
-* ML Lifecycle & Versioning
+### ML Lifecycle & MLOps Platforms
+
+* ML Lifecycle Tools
   * [DVC](https://dvc.org/) - Open-source Data Version Control for machine learning projects
   * [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
   * [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
   * [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
-* Model Deployment & Serving
+* Managed MLOps Platforms
+  * [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
+  * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
+  * [Nebius](https://nebius.com/) - A specialized AI cloud platform offering purpose-built infrastructure for AI and machine learning workloads
+
+### LLM Serving & Runtimes
+
+* Local LLM Runtimes
   * [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
   * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
   * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
+* Production Serving Engines
   * [vLLM](https://vllm.ai/) - A high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs)
-* Standards & Model Formats
-  * [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) - A file format for storing models for inference with GGML and executors based on GGML
-  * [ONNX](https://onnx.ai/) - An open format built to represent machine learning models
-  * [Safetensors](https://huggingface.co/docs/safetensors/index) - A simple format for storing tensors safely
-* AI Cloud Services
-  * [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
-  * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
+
+### LLMOps & Observability
+
+* Managed Model Services
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
-  * [Nebius](https://nebius.com/) - A specialized AI cloud platform offering purpose-built infrastructure for AI and machine learning workloads
-* LLM Observability
+* Agent Observability
+  * [Mission Control](https://mc.builderz.dev/) - A centralized operational control plane to manage, monitor, and coordinate fleets of AI agents
+* LLM Observability & Evals
   * [Langfuse](https://langfuse.com/) - An open source LLM engineering platform providing traces, evals, prompt management, and metrics to debug and improve LLM applications
   * [OpenLIT](https://openlit.io/) - An open-source, OpenTelemetry-native tool for LLM and GenAI observability
   * [LangSmith](https://www.langchain.com/langsmith) - A unified DevOps platform for developing, collaborating, testing, deploying, and monitoring LLM applications
   * [Helicone](https://www.helicone.ai/) - An open-source LLM observability platform built for developers to monitor and optimize their generative AI applications
   * [Arize Phoenix](https://phoenix.arize.com/) - An open-source AI observability and evaluation platform for LLMs
   * [Braintrust](https://www.braintrust.dev/) - The enterprise AI platform that provides an evaluation and observability platform for developers building with LLMs
-  * [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - A comprehensive monitoring solution that provides end-to-end visibility into large language model applications

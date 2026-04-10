@@ -388,13 +388,20 @@
 
 ### Web Application Security
 
-* [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
-* [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
-* [CSP (Content Security Policy)](https://content-security-policy.com/) - An added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks
-* [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking
-* [Cross-origin isolation](https://web.dev/articles/cross-origin-isolation-guide) - A web security feature that allows a web page to use powerful features like SharedArrayBuffer and performance.measureUserAgentSpecificMemory()
-* [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
-* [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
+* Security Mechanisms & Policies
+  * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
+  * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
+  * [CSP (Content Security Policy)](https://content-security-policy.com/) - An added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks
+  * [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking
+  * [Cross-origin isolation](https://web.dev/articles/cross-origin-isolation-guide) - A web security feature that allows a web page to use powerful features like SharedArrayBuffer and performance.measureUserAgentSpecificMemory()
+* Common Vulnerabilities & Attacks
+  * [Cross-site request forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) - A type of malicious exploit of a website where unauthorized commands are submitted from a user that the web application trusts
+  * [Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) - A type of security vulnerability typically found in web applications
+  * [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding) - A type of attack that allows a malicious web page to bypass the same-origin policy by exploiting the Domain Name System
+  * [SSRF (Server-side request forgery)](https://en.wikipedia.org/wiki/Server-side_request_forgery) - A type of exploit where an attacker can abuse the functionality on the server to read or modify internal resources
+* Privacy & Transparency
+  * [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
+  * [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
 
 ### Firewalls & Network Protection
 
@@ -462,6 +469,7 @@
 
 ### Vulnerability Management & Reporting
 
+* [Bug bounty program](https://en.wikipedia.org/wiki/Bug_bounty_program) - A monetary reward given to ethical hackers for successfully discovering and reporting a vulnerability or bug to the application's developer
 * Identifiers & Enumerations
   * [CVE (Common Vulnerabilities and Exposures)](https://cve.mitre.org/cve/) - A system that provides a reference-method for publicly known information-security vulnerabilities and exposures
   * [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/) - A category system for software weaknesses and vulnerabilities
@@ -480,6 +488,8 @@
 
 ### OS & Endpoint Security
 
+* [Address space layout randomization (ASLR)](https://en.wikipedia.org/wiki/Address_space_layout_randomization) - A computer security technique involved in memory protection that prevents exploitation of memory vulnerabilities by randomly arranging the address space positions of key data areas of a process
+* [W^X](https://en.wikipedia.org/wiki/W%5EX) - A security feature that ensures that every page in a process's address space is either writable or executable, but not both
 * [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - A specification for a secure cryptoprocessor, a dedicated microcontroller designed to secure hardware through integrated cryptographic keys
 * Linux Mandatory Access Control
   * [SELinux](https://selinuxproject.org/page/Main_Page) - A set of kernel modifications and user-space tools that have been added to various Linux distributions

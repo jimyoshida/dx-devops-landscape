@@ -82,6 +82,8 @@ The model was first announced in April 2022 and remained private until March 202
 
 ⚙️ On September 21, 2022, Systemd support is now available in WSL.
 
+🧠 ReAct (Synergizing Reasoning and Acting in Language Models), a general paradigm that combines reasoning and acting with Large Language Models (LLMs) to perform tasks, was first submitted to arXiv by researchers from Princeton University and Google Research on October 6, 2022.
+
 📜 In October 2022, a pull request for accepting the implementation for Rust for Linux was approved by Torvalds.
 
 🧠 LangChain, an open-source framework designed to simplify the creation of applications using large language models (LLMs), was launched by Harrison Chase in October 2022.
@@ -239,3 +241,5 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 🧠 On March 9, 2026, Microsoft announced "Microsoft 365 Copilot Wave 3," introducing "Copilot Cowork"—an autonomous agentic workflow system—alongside "Agent 365," a dedicated control plane for enterprise-wide agent management and governance.
 
 🧠 OpenClaw v2026.3.12 was released on March 12, 2026, introducing a major architectural shift with a new provider-plugin system and a centralized dashboard for managing agent activities.
+
+🧠 Harness Engineering was established as a core engineering discipline in early 2026, focusing on the design of operational infrastructure, safety guardrails, and feedback loops for autonomous AI agents.

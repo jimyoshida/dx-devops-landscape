@@ -343,6 +343,11 @@
 
 ## Data Processing & Messaging
 
+### Enterprise Integration
+
+* [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) - A pattern language of 65 integration patterns that helps developers design and build distributed applications or integrate existing ones
+* [Apache Camel](https://camel.apache.org/) - An open-source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data
+
 ### Message Queuing & Event Streaming
 
 * Concepts
