@@ -1,6 +1,6 @@
 # 10 - Advanced Programming
 
-## Languages for Systems & Application Development
+## Procedural & Systems Programming
 
 ### Rust Language
 
@@ -37,39 +37,43 @@
     * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
     * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests) - A resource that teaches the fundamentals of Go, including testing, on the first day
 
-### C# and F# Languages
+### C & Other Procedural Languages
 
-* [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) - A modern, object-oriented, and type-safe programming language
-  * [Language-Integrated Query (LINQ)](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) - The name for a set of technologies based on the direct integration of query capabilities into the C# language
-  * [Delegate](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/) - A type that represents references to methods with a particular parameter list and return type
-  * [Lambda expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions) - A way to create an anonymous function
+* [C](https://www.open-std.org/jtc1/sc22/wg14/) - A general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system
+  * [Macros](https://gcc.gnu.org/onlinedocs/cpp/Macros.html) - A fragment of code which has been given a name
+* [Zig](https://ziglang.org/) - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
+  * [Comptime](https://zig.guide/language-basics/comptime/) - The mechanism that allows you to execute code at compile-time
+
+## Functional & Hybrid Programming
+
+### Functional-first & Multi-paradigm Languages
+
 * [F#](https://fsharp.org/) - A universal programming language for writing succinct, robust and performant code
   * Immutable data structure
   * [Discriminated union](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/discriminated-unions) - A type that can store a value of one of several different, but fixed, types
   * [Active pattern](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns) - A feature that lets you define named partitions that subdivide input data, so that you can use these names in a pattern matching expression
   * [Computation expression](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions) - A feature that provides a convenient syntax for writing computations that can be sequenced and combined using control flow constructs and bindings
-
-### Java Family Languages
-
-* [Java](https://www.oracle.com/java/) - The #1 programming language and development platform
-  * [Built-in concurrency support](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) - The features of the Java platform designed from the ground up to support concurrent programming
-* [Scala](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
-  * [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - A characteristic of a language that fuses object-oriented and functional programming in a statically typed setting
-* [Groovy](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
-
-### C & Other Languages
-
-* [C](https://www.open-std.org/jtc1/sc22/wg14/) - A general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system
-  * Manual memory management
-  * [Macros](https://gcc.gnu.org/onlinedocs/cpp/Macros.html) - A fragment of code which has been given a name
-* [Zig](https://ziglang.org/) - A general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
-  * Manual memory management
-  * [Comptime](https://zig.guide/language-basics/comptime/) - The mechanism that allows you to execute code at compile-time
+* [OCaml](https://ocaml.org/) - An industrial-strength functional programming language with an emphasis on expressiveness and safety
+  * [Functor](https://ocaml.org/manual/latest/moduleexamples.html#s:module-functors) - A module that is parameterized by another module
 * [Haskell](https://www.haskell.org/) - An advanced, purely functional programming language
   * Purely functional
   * [Lazy evaluation](https://wiki.haskell.org/Lazy_evaluation) - An evaluation strategy which delays the evaluation of an expression until its value is needed
 * [Elixir](https://elixir-lang.org/) - A dynamic, functional language for building scalable and maintainable applications
+  * [Process](https://elixir-lang.org/getting-started/processes.html) - A lightweight thread of execution that is isolated and exchanges information via messages
 * [Power Fx](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - A low-code language used across Microsoft Power Platform that is a general-purpose, strong-typed, declarative, and functional programming language
+
+### Multi-paradigm & Hybrid Languages
+
+* [Java](https://www.oracle.com/java/) - The #1 programming language and development platform
+  * [Built-in concurrency support](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html) - The features of the Java platform designed from the ground up to support concurrent programming
+* [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) - A modern, object-oriented, and type-safe programming language
+  * [Language-Integrated Query (LINQ)](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) - The name for a set of technologies based on the direct integration of query capabilities into the C# language
+  * [Delegate](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/) - A type that represents references to methods with a particular parameter list and return type
+  * [Lambda expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions) - A way to create an anonymous function
+* [Scala](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
+  * [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - A characteristic of a language that fuses object-oriented and functional programming in a statically typed setting
+* [Groovy](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
+* [Dart](https://dart.dev/) - A client-optimized language for fast apps on any platform
 
 ## Text & Time Format Standards
 
@@ -336,19 +340,22 @@ support
   * [CMake](https://cmake.org/) - An open-source, cross-platform family of tools designed to build, test and package software
     * [CPack](https://cmake.org/cmake/help/latest/module/CPack.html) - A tool to configure generators for binary installers and source packages
   * [Meson](https://mesonbuild.com/) - An open source build system meant to be both extremely fast, and, even more importantly, as user friendly as possible
+  * [Dune](https://dune.build/) - A composable build system for OCaml, OCaml-related languages, and Coq
   * [Rake](https://ruby.github.io/rake/) - A Make-like program implemented in Ruby
   * [fpm](https://fpm.readthedocs.io/) - A tool which lets you easily create packages for Debian, Ubuntu, Fedora, CentOS, RHEL, Arch Linux, and more
-  * Tutorials
-    * [Makefile Tutorial by Example](https://makefiletutorial.com/) - A tutorial that teaches you the basics of Makefiles
+* Tutorials
+  * [Makefile Tutorial by Example](https://makefiletutorial.com/) - A tutorial that teaches you the basics of Makefiles
 
 ### Monorepo Management
 
-* [Turborepo](https://turbo.build/repo) - A high-performance build system for JavaScript and TypeScript monorepos
-* [Nx](https://nx.dev/) - A smart, fast and extensible build system with first-class monorepo support and powerful integrations
-* [Lerna](https://lerna.js.org/) - The original monorepo tool for JavaScript/TypeScript
-* [Monorepo Tools](https://monorepo.tools/) - A website with tools and resources for monorepos
+* Monorepo Tools
+  * [Turborepo](https://turbo.build/repo) - A high-performance build system for JavaScript and TypeScript monorepos
+  * [Nx](https://nx.dev/) - A smart, fast and extensible build system with first-class monorepo support and powerful integrations
+  * [Lerna](https://lerna.js.org/) - The original monorepo tool for JavaScript/TypeScript
+* Resources
+  * [Monorepo Tools](https://monorepo.tools/) - A website with tools and resources for monorepos
 
-## Program Documentation
+### Program Documentation
 
 * Program Documentation Tools
   * [apiDoc](http://apidocjs.com/) - A tool that creates a documentation from API descriptions in your source code
@@ -364,7 +371,7 @@ support
 
 ## Package Dependency Management
 
-* Package Dependency Managers
+* JavaScript & Web Ecosystem
   * [npm CLI](https://www.npmjs.com/) - The world's largest software registry
     * [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - A command-line tool that allows you to upgrade your package.json dependencies to the latest versions
     * [npmgraph](https://npmgraph.js.org/) - A tool for exploring the npm dependency graph
@@ -372,23 +379,31 @@ support
   * [pNPm](https://pnpm.io) - A fast, disk space efficient package manager
   * [dpmland](https://dpmland.deno.dev/) - A simple, modern and easy way to manage the Deno modules and dependencies
   * [Bun package manager](https://bun.sh/package-manager) - A fast, npm-compatible package manager built into Bun
-  * [orogene](https://github.com/orogene/orogene) - A next-generation package manager for the JavaScript ecosystem
+  * [orogene](https://orogene.dev/) - A next-generation package manager for the JavaScript ecosystem
+* Python Development
   * [pip](https://pip.pypa.io/) - The package installer for Python
   * [poetry](https://python-poetry.org/) - A tool for dependency management and packaging in Python
   * [pdm](https://pdm-project.org/en/latest/) - A modern Python package and dependency manager supporting the latest PEP standards
   * [uv](https://docs.astral.sh/uv/) - An extremely fast Python package and project manager, written in Rust
+* Systems & Native Languages
   * [go mod](https://pkg.go.dev/cmd/go) - A tool for managing Go source code
-  * [cpanminus](https://metacpan.org/pod/App::cpanminus) - A tool to get, unpack, build and install modules from CPAN
-  * [bpkg](https://bpkg.sh/bpkg/) - A lightweight bash package manager
-  * [Conan](https://conan.io/) - A dependency and package manager for C and C++ languages
   * [Cargo](https://doc.rust-lang.org/stable/cargo/) - The Rust package manager
-  * [LuaRocks CLI](https://luarocks.org/) - The package manager for Lua modules
+  * [Conan](https://conan.io/) - A dependency and package manager for C and C++ languages
+  * [vcpkg](https://vcpkg.io/) - A free C/C++ package manager for acquiring and managing libraries
+  * [bpkg](https://bpkg.sh/bpkg/) - A lightweight bash package manager
+* JVM & .NET Frameworks
+  * [Maven](https://maven.apache.org/) - A software project management and comprehension tool
+  * [Gradle](https://gradle.org/) - An open-source build automation tool that is designed to be flexible enough to build almost any type of software
+  * [NuGet CLI](https://www.nuget.org/) - The package manager for .NET
+* Other Language Ecosystems
   * [RubyGems CLI](https://rubygems.org/) - The official package manager for Ruby
   * [Bundler](https://bundler.io/) - A tool that provides a consistent environment for Ruby projects
-  * [NuGet CLI](https://www.nuget.org/) - The package manager for .NET
+  * [LuaRocks CLI](https://luarocks.org/) - The package manager for Lua modules
+  * [cpanminus](https://metacpan.org/pod/App::cpanminus) - A tool to get, unpack, build and install modules from CPAN
   * [stack](https://docs.haskellstack.org/en/stable/) - A cross-platform program for developing Haskell projects
-  * [Gradle](https://gradle.org/) - An open-source build automation tool that is designed to be flexible enough to build almost any type of software
-  * [Maven](https://maven.apache.org/) - A software project management and comprehension tool
+  * [opam](https://opam.ocaml.org/) - A source-based package manager for the OCaml community
+  * [Pub](https://pub.dev/) - The official package manager for Dart and Flutter
+  * [Hex](https://hex.pm/) - The package manager for the Erlang ecosystem
 
 ## Virtual Environment
 

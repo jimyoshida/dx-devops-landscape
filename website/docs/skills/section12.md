@@ -111,6 +111,89 @@
   * [Pandoc](https://pandoc.org/) - A universal document converter
     * [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
 
+## Human Interface Design
+
+### Core Principles & User Experience (UX)
+
+* [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
+* [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
+* [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
+  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
+  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
+* Prototyping
+  * [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
+  * [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
+
+### Cognitive & Behavioral Psychology
+
+* Psychological Models
+  * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action) - An idealized description of the cognitive and physical steps an individual takes to achieve a goal
+    * 1: Forming the target.
+    * 2: Forming the intention.
+    * 3: Specifying an action.
+    * 4: Executing the action.
+    * 5: Perceiving the state of the world.
+    * 6: Interpreting the state of the world.
+    * 7: Evaluating the outcome.
+* Cognitive Processes
+  * [Attention](https://en.wikipedia.org/wiki/Attention) - The cognitive process of selectively concentrating on one aspect of the environment while ignoring other things
+  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
+* Interaction Principles & Laws
+  * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - A general principle that states that the result of performing some operation should be obvious, consistent, and predictable, based upon the name of the operation and other context
+  * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
+  * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
+  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
+
+### Visual Design & Typography
+
+* Typography
+  * [Typography](https://en.wikipedia.org/wiki/Typography) - The art and technique of arranging type to make written language legible, readable and appealing when displayed
+  * [Web Typography](https://en.wikipedia.org/wiki/Web_typography) - The use of fonts on the World Wide Web
+  * [Microsoft Typography](https://learn.microsoft.com/en-us/typography/) - A comprehensive resource for font technology and typefaces, providing technical specifications, developer tools, and design guidelines for Microsoft products
+* Visual Foundations
+  * [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
+    * [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
+      * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
+      * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
+  * [Lucide](https://lucide.dev/) - A beautiful and consistent icon library for various platforms and frameworks
+
+### Platforms, Frameworks & Guidelines
+
+* UI Design Tools
+  * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
+  * [Locofi.ai](https://www.locofy.ai/) - Design to code in a flash
+* Design Systems & Guidelines
+  * [Material Design](https://m3.material.io/) - Google’s open-source design system for building beautiful, usable products
+  * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
+  * [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
+
+### Web Experience & Performance
+
+* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
+* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
+  * Largest Contentful Paint (LCP)
+  * Interaction to Next Paint (INP)
+  * Cumulative Layout Shift (CLS)
+
+### Font Rendering
+
+* Font Standards
+  * [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
+  * [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
+  * [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
+  * [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
+* Open Fonts
+  * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+  * [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
+* Libraries & Engines
+  * [FreeType](https://freetype.org/) - A freely available software library to render fonts
+  * [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
+  * [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
+  * [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
+* Rendering Technologies & APIs
+  * [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
+  * [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
+
 ## People & Collaboration
 
 ### Team Dynamics & Communication

@@ -129,6 +129,14 @@
 * [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
 * [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
 
+### Architectural Styles
+
+* [Three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - A client–server architecture in which presentation, application processing, and data management functions are logically separated
+* [Microservices architecture](https://martinfowler.com/articles/microservices.html) - An approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms
+* [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) - A software architecture paradigm promoting the production, detection, consumption of, and reaction to events
+* [Resource-oriented architecture](https://en.wikipedia.org/wiki/Resource-oriented_architecture) - A style of software architecture and programming paradigm for designing and developing software in the form of a network of resources
+* [Background processing](https://en.wikipedia.org/wiki/Background_process) - The execution of tasks in the background, allowing the main application to remain responsive
+
 ### Requirements & Architecture Description
 
 * [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
@@ -163,10 +171,12 @@
 * [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
   * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
   * [Gantt Chart](https://en.wikipedia.org/wiki/Gantt_chart) - A bar chart illustrating a project schedule, displaying tasks on the vertical axis and time intervals on the horizontal axis, with bar widths indicating activity durations and often showing task dependencies
+  * [Program evaluation and review technique (PERT)](https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique) - A statistical tool used in project management to analyze and represent the tasks involved in completing a project
   * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
   * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix (RAM)... describes the participation by various roles in completing tasks or deliverables for a project or business process
     * Responsible, Accountable, Consulted, Informed
   * [Software development effort estimation](https://en.wikipedia.org/wiki/Software_development_effort_estimation) - The process of predicting the most realistic amount of effort (expressed in terms of person-hours or money) required to develop or maintain software based on incomplete, uncertain and noisy input
+    * [Hofstadter's law](https://en.wikipedia.org/wiki/Hofstadter%27s_law) - A self-referential adage about the difficulty of accurately estimating the time required to complete complex tasks
     * [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation) - A technique used in project management to estimate the likely duration or cost of an activity
     * [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) - A consensus-based, gamified technique for estimating, mostly used for timeboxing in Agile principles
   * [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
@@ -402,6 +412,8 @@
   * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF) that allows developers and companies to use and integrate a software component released under it into their own (even proprietary) software without being required to release the source code of their own components
   * [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) - A free, copyleft license for software and other kinds of works, specifically designed to ensure that if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there
   * [SSPL](https://www.mongodb.com/licensing/server-side-public-license) - A strong copyleft software license that mandates that any entity offering the licensed software as a service must release the complete source code of the entire service
+* Principles & Adages
+  * [Linus's law](https://en.wikipedia.org/wiki/Linus%27s_law) - The assertion that 'given enough eyeballs, all bugs are shallow', which is a key principle in open source development
 * Source Repositories
   * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
   * [GitLab.com](https://about.gitlab.com/) - The DevSecOps Platform that empowers organizations to maximize the overall return on software development

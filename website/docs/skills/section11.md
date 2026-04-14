@@ -1,36 +1,5 @@
 # 11 - Specialized Development Domains
 
-## Desktop Environment
-
-* Linux Desktop Environment
-  * Debian-based
-    * [Ubuntu desktop](https://ubuntu.com/desktop) - The Linux-based operating system that runs from the desktop, to the cloud, to all your internet connected things
-    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
-  * Arch-based
-    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
-    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
-* GUI systems
-  * Display Servers
-    * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
-    * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
-  * Desktop Environments
-    * [GNOME](https://www.gnome.org/) - An easy and elegant way to use your computer, designed to put you in control and get things done
-    * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
-  * Window Managers
-    * [openbox](http://openbox.org) - A highly configurable, next generation window manager
-* Windows Environment
-  * Package Management & Administration
-    * [Chocolatey](https://chocolatey.org) - The package manager for Windows
-    * [Scoop](https://scoop.sh/) - A command-line installer for Windows
-    * [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/) - A command line tool enabling users to discover, install, upgrade, remove and configure applications on Windows
-    * [gsudo](https://gerardog.github.io/gsudo/) - A Sudo for Windows, with a similar user-experience to the original Sudo
-  * Productivity & Automation
-    * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
-    * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
-    * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
-* Android on Linux
-  * [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments
-
 ## Business Application SDKs
 
 * Project & Work Management
@@ -148,15 +117,42 @@
   * [Excelize](https://xuri.me/excelize/) - A Go library for reading and writing XLSX/XLSM/XLTM files
   * [Roo](https://github.com/roo-rb/roo) - A library that can access the contents of various spreadsheet files
 
-## Mobile & Desktop App Development
+## Desktop App Development
 
-### Mobile Platforms & Native SDKs
+### Client OS & Environments
 
-* [Android](https://www.android.com/) - A mobile operating system based on a modified version of the Linux kernel and other open-source software
-  * [Android Studio](https://developer.android.com/studio) - The official integrated development environment for Google's Android operating system
-* [iOS](https://www.apple.com/ios/) - A mobile operating system created and developed by Apple Inc. exclusively for its hardware
+* Linux Desktop Environment
+  * Debian-based
+    * [Ubuntu desktop](https://ubuntu.com/desktop) - The Linux-based operating system that runs from the desktop, to the cloud, to all your internet connected things
+    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
+  * Arch-based
+    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
+    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
+* Windows Environment
+  * Package Management & Administration
+    * [Chocolatey](https://chocolatey.org) - The package manager for Windows
+    * [Scoop](https://scoop.sh/) - A command-line installer for Windows
+    * [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/) - A command line tool enabling users to discover, install, upgrade, remove and configure applications on Windows
+    * [gsudo](https://gerardog.github.io/gsudo/) - A Sudo for Windows, with a similar user-experience to the original Sudo
+  * Productivity & Automation
+    * [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
+    * [Clavier+](https://gryder.org/software/clavier-plus/) - Allows to trigger actions with keyboard shortcuts
+    * [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
+* Android on Linux
+  * [Waydroid](https://waydro.id/) - A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments
 
-### GUI Toolkits & Libraries
+### GUI Systems & Windowing
+
+* Display Servers
+  * [X.org](https://www.x.org/wiki/) - An open source implementation of the X Window System
+  * [Wayland](https://wayland.freedesktop.org/) - A replacement for the X11 window system protocol and architecture
+* Desktop Environments
+  * [GNOME](https://www.gnome.org/) - An easy and elegant way to use your computer, designed to put you in control and get things done
+  * [Xfce](https://www.xfce.org/) - A lightweight desktop environment for UNIX-like operating systems
+* Window Managers
+  * [openbox](http://openbox.org) - A highly configurable, next generation window manager
+
+### Desktop GUI Toolkits
 
 * Standard Toolkits
   * [Tk](http://www.tcl.tk/) - A graphical user interface toolkit
@@ -165,14 +161,10 @@
   * [GTK](https://www.gtk.org/) - A free and open-source cross-platform widget toolkit for creating graphical user interfaces
     * [pygobject](https://pygobject.gnome.org/) - A set of Python bindings for the GLib, GObject, GIO and GTK object-oriented C libraries
 * Compiled & Canvas-Based (Custom Rendering)
-  * [Flutter](https://flutter.dev/) - An open-source UI software development kit created by Google
   * [Slint](https://slint.dev/) - A declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps
   * [Gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go
   * [Fyne](https://fyne.io/) - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
 * Web-Technology Based
-  * Native Widget Brigde
-    * [React Native](https://reactnative.dev) - A framework for building native apps with React
-      * [Expo](https://expo.dev/) - A framework and a platform for universal React applications that run natively on Android, iOS, and the web
   * Chromium Bundling
     * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
   * System WebView (Hybrid)
@@ -183,6 +175,31 @@
 
 * [NSIS](https://nsis.sourceforge.io/Main_Page) - A professional open source system to create Windows installers
 * [PyInstaller](https://pyinstaller.org/) - A tool that bundles a Python application and all its dependencies into a single package
+
+## Mobile App Development
+
+### Mobile Platforms & Native SDKs
+
+* [Android](https://www.android.com/) - A mobile operating system based on a modified version of the Linux kernel and other open-source software
+  * [Android Studio](https://developer.android.com/studio) - The official integrated development environment for Google's Android operating system
+* [iOS](https://www.apple.com/ios/) - A mobile operating system created and developed by Apple Inc. exclusively for its hardware
+
+### Mobile Cross-Platform Frameworks
+
+* Canvas-Based (Custom Rendering)
+  * [Flutter](https://flutter.dev/) - An open-source UI software development kit created by Google
+* Native Widget Brigde
+  * [React Native](https://reactnative.dev) - A framework for building native apps with React
+    * [Expo](https://expo.dev/) - A framework and a platform for universal React applications that run natively on Android, iOS, and the web
+  * [.NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui) - A cross-platform framework for creating native mobile and desktop apps with C# and XAML
+* Web-Technology Based
+  * [Capacitor](https://capacitorjs.com/) - A cross-platform native runtime that makes it easy to build performant mobile apps, desktop apps, and Progressive Web Apps
+  * [Ionic Framework](https://ionicframework.com/) - An open source UI toolkit for building performant, high-quality mobile and desktop apps using web technologies
+
+### Mobile DevOps & Testing
+
+* [fastlane](https://fastlane.tools/) - The easiest way to automate beta deployments and releases for your iOS and Android apps
+* [Appium](https://appium.io/) - An open source test automation framework for use with native, hybrid and mobile web apps
 
 ### Application Services & Features
 

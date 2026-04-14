@@ -60,9 +60,9 @@
   * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - A standard for in-band signaling to control the cursor location, color, font styling, and other options on video text terminals
   * [kitty keyboard protocol](https://sw.kovidgoyal.net/kitty/keyboard-protocol/) - A protocol for terminals to send keyboard events to applications running in them
   * [iTerm2 image protocol](https://iterm2.com/documentation-images.html) - A custom escape code to display images inline in the terminal
-* Fonts
-  * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+* Terminal Fonts
   * [Nerd Fonts](https://www.nerdfonts.com/) - A project that patches developer targeted fonts with a high number of glyphs
+  * [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono) - A monospaced sans serif, based on the Share family
   * [Cascadia Code](https://github.com/microsoft/cascadia-code) - A fun, new monospaced font that includes programming ligatures
 
 ### Terminal Utilities

@@ -148,6 +148,7 @@
   * [Elementary algebra](https://en.wikipedia.org/wiki/Elementary_algebra) - A branch of mathematics that encompasses the basic concepts of algebra
     * [Equation](https://en.wikipedia.org/wiki/Equation) - A mathematical formula that expresses the equality of two expressions, by connecting them with the equals sign =
     * [Logarithm](https://en.wikipedia.org/wiki/Logarithm) - The exponent by which another fixed value, the base, must be raised to produce that number
+  * [Abstract algebra](https://en.wikipedia.org/wiki/Abstract_algebra) - The study of algebraic structures, which are sets with specific operations acting on their elements
   * [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra) - The branch of mathematics concerning linear equations, linear maps, and their representations in vector spaces and through matrices
     * [Vector space](https://en.wikipedia.org/wiki/Vector_space) - A set whose elements, often called vectors, can be added together and multiplied ("scaled") by numbers called scalars
     * [Matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics)) - A rectangular array of numbers or other mathematical objects with elements or entries arranged in rows and columns, usually satisfying certain properties of addition and multiplication
@@ -162,6 +163,8 @@
   * [Trigonometry](https://en.wikipedia.org/wiki/Trigonometry) - A branch of mathematics concerned with relationships between angles and side lengths of triangles
   * [Coordinate system](https://en.wikipedia.org/wiki/Coordinate_system) - A system that uses one or more numbers, or coordinates, to uniquely determine and standardize the position of the points or other geometric elements on a manifold such as Euclidean space
   * [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) - The length of the line segment between two points in a Euclidean space
+* [Category theory](https://en.wikipedia.org/wiki/Category_theory) - A general theory of mathematical structures and their relations
+  * [Functor](https://en.wikipedia.org/wiki/Functor) - A mapping between categories
 * [Root mean square](https://en.wikipedia.org/wiki/Root_mean_square) - The square root of the mean of the squares of a set of numbers
 * Transforms
   * [Discrete cosine transform](https://en.wikipedia.org/wiki/Discrete_cosine_transform) - A transform that expresses a finite sequence of data points in terms of a sum of cosine functions oscillating at different frequencies

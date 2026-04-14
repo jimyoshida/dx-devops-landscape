@@ -32,9 +32,13 @@ sidebar_position: 5
 
 🏢 On February 8, 2021, the formation of the Rust Foundation was announced by its five founding companies (AWS, Huawei, Google, Microsoft, and Mozilla).
 
+☁️ Google Kubernetes Engine (GKE) Autopilot was introduced in February 2021, providing a managed mode for clusters.
+
 🌐 In May 2021, the IETF standardized QUIC in RFC 9000.
 
 🌐 QUIC support in Firefox arrived in May 2021.
+
+🧠 Vertex AI, a unified, managed machine learning platform, was announced at Google I/O in May 2021.
 
 ☁️ NocoDB, an open-source no-code platform that turns any database into a smart spreadsheet, was officially launched on May 26, 2021.
 
@@ -60,6 +64,8 @@ Released: Aug 10, 2021
 ☁️ Azure Container Apps, a fully managed serverless container service built on Kubernetes, was introduced in public preview on November 2, 2021.
 
 🏢 Grafana acquired k6 in 2021.
+
+🌐 Ruby on Rails 7.0 was released on December 15, 2021, replacing Node.js and Webpack with import maps by default and introducing the Hotwire family of libraries.
 
 🧠 LaMDA (Language Model for Dialogue Applications) is a family of conversational large language models developed by Google. Originally developed and introduced as Meena in 2020, the first-generation LaMDA was announced during the 2021 Google I/O keynote, while the second generation was announced the following year.
 
@@ -90,6 +96,9 @@ The model was first announced in April 2022 and remained private until March 202
 
 🖥️ GitHub Codespaces was made available to all individual users on November 9, 2022, including a free monthly usage quota for the free tier.
 
+📜 OCaml 5.0 was released on December 16, 2022. This landmark release featured a complete rewrite of the runtime to support shared-memory parallelism and effect handlers for lock-free concurrency.
+Initial release: December 16, 2022
+
 🧠 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022.
 It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
 
@@ -101,12 +110,16 @@ It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language mode
 
 🧠 On February 7, 2023, Microsoft announced a major overhaul to Bing including the addition of chatbot functionality marketed as "the new Bing".
 
+🧠 Azure OpenAI Service reached general availability on January 17, 2023, providing enterprise access to OpenAI's large language models.
+
 🧠 Llama (acronym for Large Language Model Meta AI, and formerly stylized as LLaMA) is a family of autoregressive large language models (LLMs) released by Meta AI starting in February 2023.
 
 🧠 Notion AI, an integrated AI assistant for the Notion workspace, reached general availability on February 22, 2023, after a private alpha period that began in November 2022.
 
 🧠 Generative Pre-trained Transformer 4 (GPT-4) is a multimodal large language model created by OpenAI, and the fourth in its series of GPT foundation models.
 It was launched on March 14, 2023, and made publicly available via the paid chatbot product ChatGPT Plus, via OpenAI's API, and via the free chatbot Microsoft Copilot.
+
+🧠 Amazon Bedrock was first announced on April 13, 2023, in a limited preview as a fully managed service that makes foundation models (FMs) from leading AI startups and Amazon available via an API.
 
 🧠 Bard is a conversational artificial intelligence chatbot developed by Google, based on the LaMDA family of large language models. It was developed as a response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses.
 
@@ -115,11 +128,15 @@ The first model was released in March 2023.
 
 ⚙️ Chocolatey 2.0.0 was released on May 31, 2023, featuring a major update to the underlying NuGet client libraries and introducing support for Semantic Versioning (SemVer) 2.0.0.
 
+🔐 Azure Active Directory (Azure AD) was officially renamed to **Microsoft Entra ID** on July 15, 2023.
+
 ☁️ Dagu, a local-first and DAG-based workflow engine designed as a "zero-ops" alternative to more complex orchestrators like Apache Airflow, was first released as open source on GitHub on August 11, 2023.
 
 ☁️ Following HashiCorp's announcement to move Terraform to a non-open-source license, the OpenTF project (later rebranded as OpenTofu) was officially forked on August 25, 2023. It joined the Linux Foundation on September 20, 2023.
 
 🌐 Bun 1.0, marking the transition of the runtime to a stable, production-ready version with an integrated bundler and test runner, was officially released on September 8, 2023.
+
+🧠 Amazon Bedrock reached general availability (GA) on September 28, 2023, launching with support for foundation models from AI21 Labs, Anthropic, Cohere, Stability AI, and Amazon.
 
 🧠 Google Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4.
 
@@ -162,6 +179,8 @@ The OpenAI o3 model was announced on December 20, 2024.
 
 ⚙️ In 2024, the Single UNIX Specification Issue 8 adopted more inclusive terminology for pseudoterminals, officially replacing the traditional "master" and "slave" labels with "manager" and "subsidiary" respectively.
 
+📜 Elixir v1.18 was released on December 19, 2024, featuring built-in JSON support and the first iteration of type-checking for calls.
+
 ## 2025
 
 🧠 A significant API update for Anthropic's **Computer Use** was released on January 24, 2025 (header: `anthropic-beta: computer-use-2025-01-24`), improving the model's accuracy and reliability in navigating complex UI environments.
@@ -202,6 +221,8 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 🖥️ Gemini CLI launched "Extensions" (using `GEMINI.md` files) on October 8, 2025, providing an early mechanism for users to provide custom context and instructions to the agent.
 
 🧠 On October 15, 2025, Anthropic launched the **Skills Registry**, a centralized platform for discovering and sharing "Anthropic-verified" and community-contributed skills to enhance Claude's functionality.
+
+🐛 A global DNS misconfiguration on October 29, 2025, disrupted Microsoft 365, Xbox Live, and major Azure corporate clients.
 
 🧠 LangChain and LangGraph officially reached their Version 1.0 milestones on October 22, 2025. This release marked LangGraph's transition to a "durable agent framework" with a commitment to API stability, featuring built-in support for persistent state, human-in-the-loop (HITL) workflows, and a redesigned documentation site.
 

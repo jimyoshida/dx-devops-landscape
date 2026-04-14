@@ -1,57 +1,66 @@
 # 09 - Programming Concepts & Paradigms
 
-## Formal Logic
+## Mathematical Logic
 
-* Foundational Concepts
-  * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
-  * [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - The two theorems of mathematical logic that demonstrate the inherent limitations of every formal axiomatic system capable of modelling basic arithmetic
-  * Logic Principles
-    * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - A pair of transformation rules that are both valid rules of inference
-    * [Law of noncontradiction](https://en.wikipedia.org/wiki/Law_of_noncontradiction) - The law that states that for any given proposition, the proposition and its negation cannot both be simultaneously true
-    * [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle) - The principle that for every proposition, either this proposition or its negation is true
-    * [Peirce's law](https://en.wikipedia.org/wiki/Peirce%27s_law) - The principle in classical logic that the law of excluded middle holds for any proposition
-    * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
-* Logical Systems
-  * [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
-    * conjunction, disjunction, implication, biconditional and negation
-    * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
-  * [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
-    * universal quantification and existential quantification
-  * [Higher order logic](https://en.wikipedia.org/wiki/Higher-order_logic) - A form of logic that is distinguished from first-order logic by additional quantifiers and, sometimes, stronger semantics
-  * [Modal logic](https://en.wikipedia.org/wiki/Modal_logic) - A type of logic that is used to represent statements about possibility and necessity
-* Branches of Mathematical Logic
-  * [Set theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
-  * Naive set theory
-    * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
-    * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
-    * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
-      * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
-    * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
-    * [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
-  * Axiomatic set theory
-    * [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory) - An axiomatic system that was proposed in the early twentieth century in order to formulate a theory of sets free of paradoxes such as Russell's paradox
-      * Ordinals & Cardinals
-  * [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
-    * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
-  * [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
-    * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
-    * [Natural deduction](https://en.wikipedia.org/wiki/Natural_deduction) - A kind of proof calculus in which logical reasoning is expressed by inference rules closely related to the "natural" way of reasoning
-  * [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
-    * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
-    * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
-  * [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
-* Applications
-  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
-  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
-  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
-  * [Formal verification](https://en.wikipedia.org/wiki/Formal_verification) - the act of proving or disproving the correctness of a system with respect to a certain formal specification or property, using formal methods of mathematics
-    * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
-* Tools and Resources
-  * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
-  * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
-  * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
-  * [P](https://p-org.github.io/P/) - A state machine based programming language for formally modeling and specifying complex distributed systems
-  * [Lean](https://leanprover.github.io/) - An interactive theorem prover and programming language based on the Calculus of Constructions
+### Foundational Concepts
+
+* [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
+* [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - The two theorems of mathematical logic that demonstrate the inherent limitations of every formal axiomatic system capable of modelling basic arithmetic
+* Logic Principles
+  * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - A pair of transformation rules that are both valid rules of inference
+  * [Law of noncontradiction](https://en.wikipedia.org/wiki/Law_of_noncontradiction) - The law that states that for any given proposition, the proposition and its negation cannot both be simultaneously true
+  * [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle) - The principle that for every proposition, either this proposition or its negation is true
+  * [Peirce's law](https://en.wikipedia.org/wiki/Peirce%27s_law) - The principle in classical logic that the law of excluded middle holds for any proposition
+  * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
+
+### Logical Systems
+
+* [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
+  * conjunction, disjunction, implication, biconditional and negation
+  * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
+* [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
+  * universal quantification and existential quantification
+* [Higher order logic](https://en.wikipedia.org/wiki/Higher-order_logic) - A form of logic that is distinguished from first-order logic by additional quantifiers and, sometimes, stronger semantics
+* [Modal logic](https://en.wikipedia.org/wiki/Modal_logic) - A type of logic that is used to represent statements about possibility and necessity
+
+### Branches of Mathematical Logic
+
+* [Set theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
+* Naive set theory
+  * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
+  * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
+  * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
+    * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
+  * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
+  * [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
+* Axiomatic set theory
+  * [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory) - An axiomatic system that was proposed in the early twentieth century in order to formulate a theory of sets free of paradoxes such as Russell's paradox
+    * Ordinals & Cardinals
+* [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
+  * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
+* [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
+  * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
+  * [Natural deduction](https://en.wikipedia.org/wiki/Natural_deduction) - A kind of proof calculus in which logical reasoning is expressed by inference rules closely related to the "natural" way of reasoning
+* [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
+  * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
+  * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
+* [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
+
+### Applications
+
+* [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
+* [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
+* [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
+* [Formal verification](https://en.wikipedia.org/wiki/Formal_verification) - the act of proving or disproving the correctness of a system with respect to a certain formal specification or property, using formal methods of mathematics
+  * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
+
+### Tools and Resources
+
+* [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
+* [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
+* [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
+* [P](https://p-org.github.io/P/) - A state machine based programming language for formally modeling and specifying complex distributed systems
+* [Lean](https://leanprover.github.io/) - An interactive theorem prover and programming language based on the Calculus of Constructions
 
 ## Core Programming Concepts
 
@@ -71,7 +80,9 @@
   * [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - A data type provided by a programming language as a basic building block or one not defined in terms of other data types
   * [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - A major class of type systems, in which compatibility and equivalence of data types is determined by explicit declarations and/or the names of the types
   * [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system) - A major class of type systems in which type compatibility and equivalence are determined by the type's actual structure or definition
+  * [Duck typing](https://en.wikipedia.org/wiki/Duck_typing) - An application of the duck test determining type compatibility based on the presence of certain methods and properties
   * [Union type](https://en.wikipedia.org/wiki/Union_type) - A data type definition that specifies which of a number of permitted primitive types may be stored in its instances
+  * [Type variance](https://en.wikipedia.org/wiki/Type_variance) - The relationship between subtypes of a composite type and the subtypes of its components
   * [Type safety](https://en.wikipedia.org/wiki/Type_safety) - The extent to which a programming language discourages or prevents type errors
 * [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - A value that enables a program to indirectly access a particular datum in the computer's memory or other storage device
   * [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - A value saved for indicating that the pointer or reference does not refer to a valid object
@@ -121,14 +132,12 @@
   * [Interface](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)) - An abstract type that contains no data, but defines behaviors as method signatures
   * [Method](https://en.wikipedia.org/wiki/Method_(computer_programming)) - A procedure associated with an object, and implicitly acting upon that object
   * [This keyword](https://en.wikipedia.org/wiki/This_(computer_programming)) - A keyword used in many object-oriented programming languages to refer to the object associated with the current function or method call
-  * [Duck typing](https://en.wikipedia.org/wiki/Duck_typing) - An application of the duck test determining type compatibility based on the presence of certain methods and properties
-  * [Covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) - The ways to describe how a type constructor (like list or function) behaves with respect to subtyping
-  * [Passive data structure](https://en.wikipedia.org/wiki/Passive_data_structure) - A record data structure that contains only public data fields and provides no methods other than implicitly for reading/writing the fields
   * [Prototype-based programming](https://en.wikipedia.org/wiki/Prototype-based_programming) - A style of object-oriented programming in which behavior reuse is performed via a process of reusing existing objects that serve as prototypes
 
 ### Functional Programming
 
 * [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) - A programming paradigm where programs are constructed by applying and composing functions
+  * [Algebraic data type](https://en.wikipedia.org/wiki/Algebraic_data_type) - A composite data type formed by combining other types
   * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) - The act of checking a given sequence of tokens for the presence of the constituents of some pattern
   * [First-class function](https://en.wikipedia.org/wiki/First-class_function) - The property of a programming language that treats functions as first-class citizens (e.g., assignable to variables, passable as arguments)
     * [Map](https://en.wikipedia.org/wiki/Map_(higher-order_function)) - A higher-order function that applies a given function to each element of a sequence, returning a sequence containing the results
@@ -222,21 +231,15 @@
   * Syntactic Analysis (Parsing)
   * [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) - A notation technique for context-free grammars, often used to describe the syntax of languages used in computing
   * [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - A tree representation of the abstract syntactic structure of source code written in a programming language
-
-### Parser Generators
-
-* [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
-* [Bison](https://www.gnu.org/software/bison/) - A general-purpose parser generator that converts a grammar description for a context-free grammar into a C program to parse that grammar
-
-### Lexer Generators
-
-* [Flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator
-* [Ragel](https://www.colm.net/open-source/ragel/) - A state machine compiler
-
-### Parsers/Libraries
-
-* [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
-* [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
+* Parser Generators
+  * [ANTLR](https://www.antlr.org/) - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
+  * [Bison](https://www.gnu.org/software/bison/) - A general-purpose parser generator that converts a grammar description for a context-free grammar into a C program to parse that grammar
+* Lexer Generators
+  * [Flex](https://github.com/westes/flex) - The Fast Lexical Analyzer - scanner generator
+  * [Ragel](https://www.colm.net/open-source/ragel/) - A state machine compiler
+* Parsers/Libraries
+  * [tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library
+  * [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
 
 ## Program Translation
 
@@ -280,7 +283,7 @@
   * [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation) - A way of executing computer code that involves compilation during execution of a program
   * [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock) - A mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at the same time
 
-### Implementations
+### Runtime Implementations
 
 * Javascript
   * [Node.js](https://nodejs.org/) - A free, open-source, cross-platform JavaScript runtime environment
@@ -374,6 +377,7 @@
   * [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)) - An abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics
     * [Directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph) - A directed graph with no directed cycles
 * [Data Structures](https://en.wikipedia.org/wiki/Data_structure) - A data organization, management, and storage format that is designed to enable efficient access and modification
+  * [Passive data structure](https://en.wikipedia.org/wiki/Passive_data_structure) - A record data structure that contains only public data fields and provides no methods other than implicitly for reading/writing the fields
   * [Array](https://en.wikipedia.org/wiki/Array_(data_type)) - A data structure consisting of a collection of elements (values or variables)
     * [Array slicing](https://en.wikipedia.org/wiki/Array_slicing) - An operation that extracts a subset of elements from an array and packages them as another array
     * [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix) - A matrix in which most of the elements are zero, allowing for specialized storage and algorithms to save memory and processing time

@@ -21,9 +21,9 @@
   * [AMQP](https://www.amqp.org/) - An open standard application layer protocol for message-oriented middleware
 * Data & Event Specifications
   * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
-  * [Bluesky](https://en.wikipedia.org/wiki/Bluesky)
+  * [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
+  * [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
   * [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
-  * [Fediverse](https://en.wikipedia.org/wiki/Fediverse)
   * [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
   * [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
   * [TypeSpec](https://typespec.io/) - A minimal language that helps developers describe API shapes in a familiar way
@@ -51,64 +51,13 @@
 * Client Scripting APIs
   * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
   * [Fetch Standard](https://fetch.spec.whatwg.org/) - A living standard that defines requests, responses, and the process that binds them: fetching
+  * [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML <canvas> element
+  * [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) - A JavaScript API for rendering high-performance interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
 * Site Analyzers
   * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
-## Design & Architecture
+### Web Architectural Styles & Patterns
 
-### Human Interface Design
-
-* [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
-* [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
-* [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
-* [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
-* [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
-  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
-  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
-* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
-* [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
-  * [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
-    * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
-    * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
-* UI design tools
-  * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
-  * [Locofi.ai](https://www.locofy.ai/) - Design to code in a flash
-  * [Material Design](https://m3.material.io/) - Google’s open-source design system for building beautiful, usable products
-* Human interface guidelines
-  * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
-  * [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
-* Psychological concerns
-  * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action) - An idealized description of the cognitive and physical steps an individual takes to achieve a goal
-    * 1: Forming the target.
-    * 2: Forming the intention.
-    * 3: Specifying an action.
-    * 4: Executing the action.
-    * 5: Perceiving the state of the world.
-    * 6: Interpreting the state of the world.
-    * 7: Evaluating the outcome.
-  * [Attention](https://en.wikipedia.org/wiki/Attention) - The cognitive process of selectively concentrating on one aspect of the environment while ignoring other things
-  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
-  * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - A general principle that states that the result of performing some operation should be obvious, consistent, and predictable, based upon the name of the operation and other context
-  * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
-  * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
-  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
-* Visual Design
-  * [Microsoft Typography](https://learn.microsoft.com/en-us/typography/)
-  * [Lucide](https://lucide.dev/) - A community-run fork of Feather Icons, providing a beautiful and consistent icon library for various platforms and frameworks
-* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
-  * Largest Contentful Paint (LCP)
-  * Interaction to Next Paint (INP)
-  * Cumulative Layout Shift (CLS)
-
-### Architectural Styles & Patterns
-
-* Architecture Styles and Patterns
-  * [Three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - A client–server architecture in which presentation, application processing, and data management functions are logically separated
-  * [Microservices architecture](https://martinfowler.com/articles/microservices.html) - An approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms
-  * [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)
-  * [Resource-oriented architecture](https://en.wikipedia.org/wiki/Resource-oriented_architecture) - A style of software architecture and programming paradigm for designing and developing software in the form of a network of resources
-  * [Background processing](https://en.wikipedia.org/wiki/Background_process) - The execution of tasks in the background, allowing the main application to remain responsive
-    * [Sidekiq](https://sidekiq.org/) - A simple, efficient background processing tool for Ruby
 * Web Application Architectures
   * [Single-page application](https://en.wikipedia.org/wiki/Single-page_application) - A web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server
   * [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
@@ -168,6 +117,7 @@
 * State Management
   * [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
     * [React-Redux](https://react-redux.js.org/) - The official React binding for Redux
+  * [Zustand](https://github.com/pmndrs/zustand) - A small, fast, and scalable barebones state-management solution using simplified flux principles
   * [Recoil](https://recoiljs.org/) - A state management library for React
   * [XState](https://stately.ai/docs) - A library for creating, interpreting, and executing finite state machines and statecharts
 * Routing
@@ -253,10 +203,12 @@
     * [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
     * [SlowAPI](https://github.com/laurents/slowapi) - A small library to rate limit your ASGI applications
 * Ruby Backend Frameworks & Servers
+  * [Ruby on Rails](https://rubyonrails.org/) - A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern
   * [Rack](https://rack.github.io/) - A modular Ruby web server interface
     * [Puma](https://puma.io/) - A fact, concurrent web server for Ruby & Rack
     * [Falcon](https://socketry.github.io/falcon/) - A multi-process, multi-fiber rack-compatible HTTP server built on top of async, async-container and async-http
     * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
+  * [Sidekiq](https://sidekiq.org/) - A simple, efficient background processing tool for Ruby
 * Perl Backend Frameworks (legacy)
   * Classic CGI
     * [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - A module for the execution of CGI scripts
@@ -271,6 +223,8 @@
     * [Spring Boot](https://spring.io/projects/spring-boot) - A tool that takes an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss
 * .NET Backend Frameworks
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - A free, cross-platform, open source framework for building web apps and services with .NET and C#
+* Elixir Backend Frameworks
+  * [Phoenix](https://www.phoenixframework.org/) - A web framework for building rich, interactive web applications quickly with less code and fewer moving parts, used to craft APIs, HTML5 apps, and more at scale
 
 ### Full-stack Development
 
