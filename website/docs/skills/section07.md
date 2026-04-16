@@ -309,7 +309,7 @@
     * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - The most capable generative AI-powered assistant for software development
     * [Cline](https://cline.bot/) - An open source AI coding agent that brings frontier AI models directly to your VS Code editor
   * AI-integrated IDEs
-    * [Cursor](https://www.cursor.com/en) - An AI-native fork of VS Code designed for seamless, agentic integration with proprietary and frontier models
+    * [Cursor](https://www.cursor.com/) - An AI-native fork of VS Code designed for seamless, agentic integration with proprietary and frontier models
     * [Winfsurf](https://codeium.com/windsurf) - Where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic
     * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
 * Web-based
@@ -391,6 +391,7 @@
   * [Devin](https://devin.ai/) - An autonomous AI software engineer that can handle complex engineering tasks unassisted within its own sandboxed environment
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
   * [Antigravity](https://antigravity.google/) - An agentic development platform
+  * [Replit](https://replit.com/) - A platform to turn ideas into apps in minutes — no coding needed
   * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
 
 ### Development Methodologies
@@ -404,6 +405,7 @@
 
 * Platforms
   * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
+  * [Port](https://www.getport.io/) - An agentic developer portal to build autonomous workflows to accelerate every aspect of engineering
 * Benchmarks
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
 * Context Providers

@@ -20,6 +20,7 @@ access to high-performance networking
 * [Azure Application Gateway](https://azure.microsoft.com/en-us/products/application-gateway) - A platform-managed, scalable, and highly available application delivery controller as a service
 * [Google Cloud VPC](https://cloud.google.com/vpc/docs/vpc) - A virtual version of a physical network that is implemented inside of Google's production network by using Andromeda
 * [Cloud Load Balancing](https://cloud.google.com/load-balancing/docs/load-balancing-overview) - A fully distributed, software-defined, managed service for all your traffic
+* [Apache APISIX](https://apisix.apache.org/) - An open source API Gateway to help you manage microservices, delivering the ultimate performance, security, and scalable platform for all your APIs and microservices
 
 ### Application Hosting Platform (PaaS)
 
@@ -378,6 +379,8 @@ access to high-performance networking
   * [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers
   * [Datadog](https://www.datadoghq.com/) - The integrated platform for monitoring & security
   * [Sentry](https://sentry.io/) - An application monitoring platform that provides error tracking and performance monitoring to help developers see what matters and solve issues faster
+* Self-hosted (advanced)
+  * [SigNoz](https://signoz.io/) - An open-source Datadog or New Relic alternative for logs, metrics, traces, dashboards, alerts, and more
 
 ### Telemetry Shipment
 

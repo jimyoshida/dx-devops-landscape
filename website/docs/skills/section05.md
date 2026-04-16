@@ -358,6 +358,8 @@
   * [Dead-letter queue](https://en.wikipedia.org/wiki/Dead_letter_queue) - A specialized queue used in message queuing systems to store messages that could not be delivered or processed successfully
 * Messaging & Streaming Platforms (Software)
   * [Apache Kafka](https://kafka.apache.org/) - An open-source distributed event streaming platform
+    * Apache Kafka Ecosystem
+      * [Kafbat UI](https://ui.docs.kafbat.io/) - A versatile, open-source web interface for managing Apache Kafka clusters
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
 * Cloud Services
   * [Amazon Kinesis](https://aws.amazon.com/kinesis/) - A service making it easy to collect, process, and analyze real-time, streaming data
@@ -432,3 +434,8 @@
   * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   * [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
   * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - An AI-powered business intelligence service that enables users to analyze data, create visualizations, and gain insights from various enterprise data sources
+
+### Semantic Layer
+
+* [Cube](https://cube.dev/) - The agentic analytics platform to deploy AI agents to model, analyze, and report on your data
+* [Open Semantic Interchange (OSI)](https://open-semantic-interchange.org/) - The universal standard for semantic model exchange enabling semantic metadata interchange across analytics, AI, and BI platforms

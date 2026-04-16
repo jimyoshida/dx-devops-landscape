@@ -31,6 +31,8 @@
     * [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
 * Performance
   * [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - A mechanism to resolve domain names before a user tries to follow a link
+* Web Application Types
+  * [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
 
 ### Browser Technologies & DOM
 
@@ -51,7 +53,7 @@
 * Client Scripting APIs
   * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
   * [Fetch Standard](https://fetch.spec.whatwg.org/) - A living standard that defines requests, responses, and the process that binds them: fetching
-  * [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML <canvas> element
+  * [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML \<canvas\> element
   * [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) - A JavaScript API for rendering high-performance interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
 * Site Analyzers
   * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
@@ -70,10 +72,6 @@
   * [Webhook](https://en.wikipedia.org/wiki/Webhook) - A method of augmenting or altering the behavior of a web page or web application with custom callbacks
 
 ## Frontend Development
-
-### Web Application Types
-
-* [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
 
 ### UI Frameworks & Core Libraries
 
@@ -325,6 +323,8 @@
   * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
   * Dependencies
     * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
+* Accessibility Testing
+  * [axe-core](https://github.com/dequelabs/axe-core) - The accessibility engine for automated Web UI testing
 * AI-powered Web Automation
   * [browser-use](https://docs.browser-use.com/) - An open-source Python library that allows AI agents to interact with web browsers using natural language
 * Web Scraping

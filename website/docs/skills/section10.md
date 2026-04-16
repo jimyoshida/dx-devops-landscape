@@ -328,6 +328,13 @@ support
   * [nox](https://nox.thea.codes/) - A command-line tool that automates testing in multiple Python environments, similar to tox
   * [tox](https://tox.wiki/en) - A command-line driven automated testing tool for Python
 
+### Mutation Testing
+
+* [Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) - A type of software testing where certain statements of the source code are changed to check if the test suite is able to find the errors
+  * [cargo-mutants](https://mutants.rs/) - A tool for Rust that helps you improve your program's quality by finding places where bugs can be inserted without causing any tests to fail
+  * [Stryker Mutator](https://stryker-mutator.io/) - A tool to test your tests with mutants
+  * [PIT Mutation Testing](https://pitest.org/) - A state of the art system, providing gold standard test coverage for Java and the JVM
+
 ## Build Automation
 
 * Build Automation Tools

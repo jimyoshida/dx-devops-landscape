@@ -180,7 +180,9 @@
 * Libraries & SDKs
   * [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
   * [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
+  * [Instructor](https://python.useinstructor.com/) - A Python library designed to extract structured, validated data from Large Language Models (LLMs)
   * [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
+  * [Outlines](https://dottxt-ai.github.io/outlines/latest/) - A library that guarantees structured outputs during generation directly from any large language model by enforcing compliance with JSON Schema, regular expressions, or context-free grammars
   * [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
   * [RubyLLM](https://rubyllm.com/) - The one beautiful Ruby API for GPT, Claude, Gemini, and more
 
@@ -219,6 +221,7 @@
 * [A2A Protocol](https://github.com/google/A2A) - A protocol for enabling bidirectional communication between web applications and AI agents
 * [Agent Name Service (ANS)](https://genai.owasp.org/resource/agent-name-service-ans-for-secure-al-agent-discovery-v1-0/) - A secure, DNS-inspired framework for AI agent discovery that leverages Public Key Infrastructure (PKI) for identity verification, structured JSON schemas for communication, and a protocol adapter layer supporting A2A, MCP, and ACP protocols
 * [GitAgent](https://gitagent.sh/) - A framework-agnostic standard that allows you to define an AI agent as a set of version-controlled files within a Git repository
+* [AG-UI (Agent–User Interaction Protocol)](https://docs.ag-ui.com/) - An open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications
 
 ### Agentic Patterns & Techniques
 
@@ -226,6 +229,7 @@
 * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
   * Reason, Act, Thought, Observation
 * [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - An inference strategy where language models (LMs) can decompose and recursively interact with input context of unbounded length
+* [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) - The set of strategies for curating and maintaining the optimal set of tokens (information) during LLM inference, including all the other information that may land there outside of the prompts
 
 ### Agent Orchestration & Frameworks
 
@@ -245,6 +249,7 @@
   * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
   * [LlamaIndex](https://www.llamaindex.ai/) - A developer-first agent framework that rapidly accelerates time-to-production of GenAI applications with trusted low and high-level abstractions
+  * [PydanticAI](https://pydantic.dev/pydantic-ai) - A Python agent framework for building production-grade applications with Generative AI, emphasizing type safety and structured outputs
 
 ### Agent Development Kits (ADK)
 
@@ -266,6 +271,7 @@
   * [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
 * Memory Systems
   * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
+  * [Graphiti](https://www.getzep.com/product/open-source/) - An open-source Python framework for building temporally-aware context graphs
 * Search & Data Extraction
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
@@ -301,6 +307,7 @@
 
 * Managed Model Services
   * [Amazon Bedrock](https://aws.amazon.com/bedrock/) - A fully managed service offering a choice of high-performing foundation models
+    * [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) - A service that uses the reasoning of foundation models, APIs, and data to break down user requests, gather relevant information, and efficiently complete tasks
 * Agent Observability
   * [Mission Control](https://mc.builderz.dev/) - A centralized operational control plane to manage, monitor, and coordinate fleets of AI agents
 * LLM Observability & Evals
