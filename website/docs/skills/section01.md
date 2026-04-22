@@ -189,6 +189,8 @@
   * Issue Tracking Systems
     * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
       * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
+    * [Asana](https://asana.com/) - The platform for human and AI collaboration that helps teams coordinate work and keep projects moving
+    * [Fizzy](https://www.fizzy.do/) - A modern spin on kanban for tracking anything such as bugs, issues, ideas, and small projects
     * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
     * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
     * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
@@ -285,7 +287,7 @@
   * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
   * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
 * Business intelligence and analysis tools
-  * [Tableau](https://www.tableau.com/) - The world’s leading analytics platform
+  * [Tableau](https://www.tableau.com/) - The visual analytics platform that helps people see, understand, and act on data to solve problems
   * [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
   * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
     * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
@@ -367,13 +369,14 @@
 * [Claude for Enterprise](https://claude.com/pricing/enterprise) - A secure and scalable way for organizations to use AI with administrative controls, single sign-on (SSO), and role-based access to Claude's latest models
 * [ChatGPT Enterprise](https://chatgpt.com/business/enterprise) - An enterprise-grade AI assistant with unlimited higher-speed access to GPT-4, longer context windows, and advanced data analysis capabilities
 * [Glean](https://www.glean.com/) - An AI-powered search and assistant for the enterprise that connects to all of your company's apps and data to find exactly what you need
+* [Atlas](https://atlas.so/) - A bespoke AI for customer support that delivers fast, accurate, and measurable support tailored to tools and workflows
 
 ## Low-Code & No-Code Development
 
 ### Business Application Platforms
 
 * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
-* [AppSheet](https://about.appsheet.com/home/) - A no-code platform that allows anyone to build mobile and web apps without writing code
+* [AppSheet](https://about.appsheet.com/home/) - The no-code platform that helps build powerful applications and automations to boost productivity
 * [OutSystems](https://www.outsystems.com/) - A high-performance low-code platform that accelerates the development of critical enterprise applications
 
 ### Workflow & Integration Automation

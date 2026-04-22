@@ -18,7 +18,7 @@ sidebar_position: 5
 
 ⚙️ On September 21, 2020, Homebrew version 2.5.2 was released with support for bottle taps (binary package repositories) via GitHub Releases.
 
-🏢 Microsoft released .NET 5.0 on November 10, 2020. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with .NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the .NET Framework.
+🏢 Microsoft released \.NET 5.0 on November 10, 2020. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with \.NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the \.NET Framework.
 
 🏢 The most recent major update to "The Scrum Guide" was published by Ken Schwaber and Jeff Sutherland on November 18, 2020.
 
@@ -55,6 +55,8 @@ Released: Aug 10, 2021
 
 🖥️ GitHub Codespaces, a cloud-hosted development environment powered by Visual Studio Code, reached general availability for GitHub Team and Enterprise Cloud customers on August 11, 2021.
 
+🏢 The eBPF Foundation was launched under the Linux Foundation in August 2021. Founding members included Google, Facebook, Isovalent, Microsoft, and Netflix, reflecting eBPF's growing importance in the industry.
+
 🔐 OpenSSL 3.0 release: 7 September 2021
 
 ⚙️ Windows 11 was officially released on October 5, 2021, featuring a major visual redesign with a centered Taskbar and Start menu, improved window snapping ("Snap Layouts"), and a focus on enhanced security requirements.
@@ -90,6 +92,8 @@ The model was first announced in April 2022 and remained private until March 202
 
 🧠 ReAct (Synergizing Reasoning and Acting in Language Models), a general paradigm that combines reasoning and acting with Large Language Models (LLMs) to perform tasks, was first submitted to arXiv by researchers from Princeton University and Google Research on October 6, 2022.
 
+⚙️ Linux 6.0 was released on October 2, 2022, focusing on performance improvements for modern CPU architectures and including the initial groundwork for Rust support in the kernel.
+
 📜 In October 2022, a pull request for accepting the implementation for Rust for Linux was approved by Torvalds.
 
 🧠 LangChain, an open-source framework designed to simplify the creation of applications using large language models (LLMs), was launched by Harrison Chase in October 2022.
@@ -98,6 +102,8 @@ The model was first announced in April 2022 and remained private until March 202
 
 📜 OCaml 5.0 was released on December 16, 2022. This landmark release featured a complete rewrite of the runtime to support shared-memory parallelism and effect handlers for lock-free concurrency.
 Initial release: December 16, 2022
+
+⚙️ Linux 6.1 was released in December 2022, including the ability to write eBPF programs in Rust, further expanding the ecosystem for safe and performant kernel-level observability and networking.
 
 🧠 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022.
 It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
@@ -128,7 +134,7 @@ The first model was released in March 2023.
 
 ⚙️ Chocolatey 2.0.0 was released on May 31, 2023, featuring a major update to the underlying NuGet client libraries and introducing support for Semantic Versioning (SemVer) 2.0.0.
 
-🔐 Azure Active Directory (Azure AD) was officially renamed to **Microsoft Entra ID** on July 15, 2023.
+🔐 Azure Active Directory (Azure AD) was officially renamed to Microsoft Entra ID on July 15, 2023.
 
 ☁️ Dagu, a local-first and DAG-based workflow engine designed as a "zero-ops" alternative to more complex orchestrators like Apache Airflow, was first released as open source on GitHub on August 11, 2023.
 
@@ -169,7 +175,7 @@ It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstratio
 
 🧠 On September 16, 2024, Microsoft announced "Microsoft 365 Copilot Wave 2," introducing "Copilot agents"—specialized AI assistants that can be built in Copilot Studio or directly within SharePoint. These agents entered general availability on October 17, 2024.
 
-🧠 Anthropic introduced the **Computer Use** capability in public beta for Claude 3.5 Sonnet on October 22, 2024, enabling the model to navigate desktop environments by interpreting screenshots and simulating mouse and keyboard inputs.
+🧠 Anthropic introduced the Computer Use capability in public beta for Claude 3.5 Sonnet on October 22, 2024, enabling the model to navigate desktop environments by interpreting screenshots and simulating mouse and keyboard inputs.
 
 🧠 The Model Context Protocol (MCP) is an open standard, open-source framework introduced by Anthropic in November 2024 to standardize the way artificial intelligence (AI) systems like large language models (LLMs) integrate and share data with external tools, systems, and data sources
 Introduced: November 25, 2024
@@ -183,7 +189,7 @@ The OpenAI o3 model was announced on December 20, 2024.
 
 ## 2025
 
-🧠 A significant API update for Anthropic's **Computer Use** was released on January 24, 2025 (header: `anthropic-beta: computer-use-2025-01-24`), improving the model's accuracy and reliability in navigating complex UI environments.
+🧠 A significant API update for Anthropic's Computer Use was released on January 24, 2025 (header: `anthropic-beta: computer-use-2025-01-24`), improving the model's accuracy and reliability in navigating complex UI environments.
 
 🧠 On January 30, 2025, Google released Gemini 2.0 Flash as the new default model, with Gemini 1.5 Flash still available for usage. This was followed by the release of Gemini 2.0 Pro on February 5, 2025.
 
@@ -196,7 +202,7 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🧠 Claude Code, Anthropic's AI-powered command-line coding assistant, was first introduced as a beta research preview alongside Claude 3.7 Sonnet on February 24, 2025. It then became generally available on May 22, 2025.
 
-🧠 The release of **Claude 4 (Opus and Sonnet)** on May 22, 2025, further integrated computer use capabilities into the model's core agentic workflows, featuring improved pixel-counting and reduced latency.
+🧠 The release of Claude 4 (Opus and Sonnet) on May 22, 2025, further integrated computer use capabilities into the model's core agentic workflows, featuring improved pixel-counting and reduced latency.
 
 🧠 On June 17, 2025, Google announced general availability for 2.5 Pro and Flash. They also introduced Gemini 2.5 Flash-Lite that same day, a model optimized for speed and cost-efficiency.
 
@@ -216,11 +222,11 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🧠 On September 29, 2025, Anthropic enhanced the tool with Claude Code v2.0, introducing checkpoints, a native VS Code extension, terminal UX improvements, and the Claude Agent SDK.
 
-🧠 Anthropic's **Skills API** (`anthropic-beta: skills-2025-10-02`) was officially introduced on October 2, 2025, providing a standardized way to package workflow instructions, executable code, and documentation into reusable capabilities for Claude via `SKILL.md` files.
+🧠 Anthropic's Skills API (`anthropic-beta: skills-2025-10-02`) was officially introduced on October 2, 2025, providing a standardized way to package workflow instructions, executable code, and documentation into reusable capabilities for Claude via `SKILL.md` files.
 
 🖥️ Gemini CLI launched "Extensions" (using `GEMINI.md` files) on October 8, 2025, providing an early mechanism for users to provide custom context and instructions to the agent.
 
-🧠 On October 15, 2025, Anthropic launched the **Skills Registry**, a centralized platform for discovering and sharing "Anthropic-verified" and community-contributed skills to enhance Claude's functionality.
+🧠 On October 15, 2025, Anthropic launched the Skills Registry, a centralized platform for discovering and sharing "Anthropic-verified" and community-contributed skills to enhance Claude's functionality.
 
 🐛 A global DNS misconfiguration on October 29, 2025, disrupted Microsoft 365, Xbox Live, and major Azure corporate clients.
 
@@ -232,7 +238,7 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🧠 Google officially launched Gemini 3 on November 18, 2025 — a major release that brought enhanced reasoning, multimodal understanding, and agentic capabilities to the Gemini app, AI Search, Google AI Studio, Vertex AI, and more.
 
-🧠 Support for the **Model Context Protocol (MCP)** within the Anthropic Skills framework was achieved on November 20, 2025, allowing skills to seamlessly interact with external tools and data sources via standardized MCP servers.
+🧠 Support for the Model Context Protocol (MCP) within the Anthropic Skills framework was achieved on November 20, 2025, allowing skills to seamlessly interact with external tools and data sources via standardized MCP servers.
 
 🧠 Clawdbot (later rebranded as OpenClaw), an open-source AI agent framework created by Peter Steinberger, was first released on November 24, 2025. It gained immediate viral attention, reaching 9,000 GitHub stars within its first 24 hours.
 
@@ -251,7 +257,7 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 
 🖥️ The Gemini CLI Skills feature was officially promoted to the stable channel in the v0.26.0 release on January 27, 2026, which also introduced the built-in `skill-creator` tool for generating new agent capabilities.
 
-🧠 Following trademark complaints from Anthropic, Clawdbot was rebranded as **Moltbot** on January 27, 2026. Three days later, on January 30, 2026, the project was officially renamed to **OpenClaw**, hitting 100,000 GitHub stars around the same time.
+🧠 Following trademark complaints from Anthropic, Clawdbot was rebranded as Moltbot on January 27, 2026. Three days later, on January 30, 2026, the project was officially renamed to OpenClaw, hitting 100,000 GitHub stars around the same time.
 
 🖥️ In late January 2026, the Gemini CLI added the `/rewind` command and persistent tool execution policies to complement the new agentic workflows enabled by the Skills framework.
 
@@ -263,4 +269,4 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 
 🧠 OpenClaw v2026.3.12 was released on March 12, 2026, introducing a major architectural shift with a new provider-plugin system and a centralized dashboard for managing agent activities.
 
-🧠 Harness Engineering was established as a core engineering discipline in early 2026, focusing on the design of operational infrastructure, safety guardrails, and feedback loops for autonomous AI agents.
+⚙️ Linux 7.0 was released on April 12, 2026, as the latest major stable version, continuing the kernel's evolution with advanced hardware support and further integration of memory-safe programming languages.

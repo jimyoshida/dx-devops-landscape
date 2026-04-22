@@ -88,6 +88,10 @@
 * [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) - A core member of the Internet protocol suite
 * [QUIC](https://quicwg.org/) - A UDP-based, stream-multiplexing, encrypted transport protocol
 
+### Network Architectures
+
+* [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) - A distributed computing or networking architecture in which participants share resources directly without reliance on a centralized administrative system
+
 ## Domain Name System (DNS)
 
 * [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) - The hierarchical and decentralized naming system used to identify computers, services, and other resources reachable through the Internet or other Internet Protocol networks
@@ -195,6 +199,12 @@
 * [Debian](https://www.debian.org/) - A complete Free Operating System
 * [Arch Linux](https://archlinux.org/) - A simple, lightweight distribution
 * [NixOS](https://nixos.org/) - A Linux distribution with a unique approach to package and configuration management
+
+### BSD Distributions
+
+* [FreeBSD](https://www.freebsd.org/) - A free and open-source Unix-like operating system descended from the Berkeley Software Distribution (BSD)
+* [NetBSD](https://www.netbsd.org/) - A free, fast, secure, and highly portable Unix-like Open Source operating system
+* [OpenBSD](https://www.openbsd.org/) - A free and open-source, Unix-like operating system as a fork of NetBSD that emphasizes extremely high security and cryptography
 
 ### System Services & Auth
 

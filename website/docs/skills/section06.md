@@ -32,6 +32,7 @@
     * [Generalized linear model](https://en.wikipedia.org/wiki/Generalized_linear_model) - A flexible generalization of ordinary least squares regression
     * [ARIMA model](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) - A generalization of an autoregressive moving average (ARMA) model, fitted to time series data either to better understand the data or to predict future points in the series
 * [Unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning) - A type of machine learning in which models are trained using unlabeled dataset and are allowed to act on that data without previous training
+  * [Principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) - A linear dimensionality reduction technique with applications in exploratory data analysis, visualization and data preprocessing
   * [K-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) - A method of vector quantization that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean
 * [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) - An area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward
   * [Markov chain](https://en.wikipedia.org/wiki/Markov_chain) - A stochastic process that describes a sequence of events where the probability of each event depends only on the state attained in the previous event
@@ -247,12 +248,13 @@
   * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
   * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models
   * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
-  * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by language models
+  * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by large language models
   * [LlamaIndex](https://www.llamaindex.ai/) - A developer-first agent framework that rapidly accelerates time-to-production of GenAI applications with trusted low and high-level abstractions
   * [PydanticAI](https://pydantic.dev/pydantic-ai) - A Python agent framework for building production-grade applications with Generative AI, emphasizing type safety and structured outputs
 
 ### Agent Development Kits (ADK)
 
+* [Agent Package Manager (APM)](https://microsoft.github.io/apm/) - An open-source dependency manager for AI agents that provides a single source of truth for skills, prompts, and instructions
 * [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
 * [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - The Agent SDK gives you the same tools, agent loop, and context management that power Claude Code, programmable in Python and TypeScript
 * [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources

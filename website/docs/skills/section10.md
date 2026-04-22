@@ -25,7 +25,7 @@
     * [Pointer receiver](https://go.dev/tour/methods/4) - A method that operates on a pointer to the type, allowing it to modify the value to which the receiver points
     * [Interface](https://go.dev/tour/methods/9) - A type defined as a set of method signatures
     * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
-    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, \<-
+    * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, `<-`
   * Libraries
     * [lo](https://github.com/samber/lo) - A Lodash-style Go library
     * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers

@@ -169,6 +169,7 @@
     * [Electron](https://www.electronjs.org/) - A framework for building desktop applications using JavaScript, HTML, and CSS
   * System WebView (Hybrid)
     * [Tauri](https://tauri.app/) - A toolkit that helps developers make applications for the major desktop platforms
+    * [Wails](https://wails.io/) - A tool that enables developers to build desktop applications using Go and web technologies
     * [Microsoft Edge WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2/) - A control that allows you to embed web technologies (HTML, CSS, and JavaScript) in your native apps by using Microsoft Edge as the rendering engine
 
 ### Installation & Packaging

@@ -260,7 +260,7 @@
 * Secret Detection
   * [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A tool that scans your repository's history for secrets
   * [Gitleaks](https://gitleaks.io/) - A SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
-  * [secretlint](https://github.com/secretlint/secretlint) - A lint tool for secrets and passwords in files
+  * [secretlint](https://github.com/secretlint/secretlint) - A pluggable linting tool to prevent committing credentials
   * [Talisman](https://thoughtworks.github.io/talisman/) - A tool that installs a hook to your repository to ensure that potential secrets or sensitive information do not get committed
   * [TruffleHog](https://github.com/trufflesecurity/trufflehog) - A tool that scans your environment for secrets, digging deep into commit history and branches
   * [Whispers](https://github.com/Skyscanner/whispers) - A static code analysis tool designed for parsing various common data formats in search of hardcoded credentials

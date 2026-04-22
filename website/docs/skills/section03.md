@@ -66,6 +66,8 @@ access to high-performance networking
 ### Configuration Management & Automation
 
 * [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
+* [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
+* [Rudder](https://www.rudder.io/) - An open-source, continuous configuration and compliance platform for IT infrastructure automation
 * [cloud-init](https://cloud-init.io/) - The standard for customising cloud instances
 
 ### Image Building
@@ -350,6 +352,10 @@ access to high-performance networking
   * [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
   * [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes
 
+### Workflow Orchestration
+
+* [Apache Airflow](https://airflow.apache.org/) - A platform to programmatically author, schedule, and monitor workflows
+
 ### Integrations & Registries
 
 * Terraform Integration
@@ -369,6 +375,7 @@ access to high-performance networking
   * [Observability](https://en.wikipedia.org/wiki/Observability_(software)) - A measure of how well internal states of a system can be inferred from knowledge of its external outputs
 * Instrumentation Libraries
   * [OpenTelemetry](https://opentelemetry.io/) - A vendor-neutral open source Observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs
+  * [Jaeger](https://www.jaegertracing.io/) - An open source, distributed tracing platform used to monitor and troubleshoot workflows in complex distributed systems
   * [Micrometer](https://micrometer.io/) - A metrics instrumentation library for JVM-based applications
 * Monitoring Tools
   * [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
@@ -446,6 +453,7 @@ access to high-performance networking
   * [AWS Systems Manager](https://aws.amazon.com/systems-manager/) - A secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments
   * [Azure Automation](https://azure.microsoft.com/en-us/products/automation) - A cloud-based automation and configuration service that supports consistent management across your Azure and non-Azure environments
     * [Azure Update Manager](https://learn.microsoft.com/en-us/azure/update-manager/) - A unified service to help manage and govern updates for all your machines
+  * [Rudder](https://www.rudder.io/) - An open-source, continuous configuration and compliance platform for IT infrastructure automation
 * Backup
   * Vendor-specific Tools
     * [AWS Backup](https://aws.amazon.com/backup/) - A fully managed service that centralizes and automates data protection across AWS services, in the cloud, and on premises
@@ -458,6 +466,7 @@ access to high-performance networking
 * Runbook Automation
   * [RunDeck](https://www.rundeck.com/) - An open source automation platform that helps you automate routine operational procedures in data center or cloud environments
   * [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
+  * [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
 * AIOps & Autonomous Agents
   * [Azure SRE Agent](https://aka.ms/sreagent) - An AI-powered service designed to automate Site Reliability Engineering practices by monitoring, diagnosing, and helping resolve incidents
   * [Mezmo Aura](https://www.mezmo.com/aura) - An open-source agentic harness designed specifically for Site Reliability Engineering (SRE) and production AI operations

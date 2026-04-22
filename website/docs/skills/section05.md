@@ -188,6 +188,7 @@
   * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals) - The measures of the deviation of an observed value of an element of a statistical sample from its "true value"
   * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) - A measure of the amount of variation of the values of a variable about its average
   * [Root mean square deviation](https://en.wikipedia.org/wiki/Root_mean_square_deviation) - The square root of the average of the squared differences between the predicted values and the actual values
+  * [F-score](https://en.wikipedia.org/wiki/F-score) - A measure of predictive performance in statistical analysis of binary classification and information retrieval systems
   * [Correlation](https://en.wikipedia.org/wiki/Correlation) - A kind of statistical relationship between two random variables or bivariate data
     * [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) - A correlation coefficient that measures linear correlation between two sets of data
   * [Hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) - A method of statistical inference used to decide whether the data provide sufficient evidence to reject a particular hypothesis
@@ -331,6 +332,7 @@
   * [Weaviate](https://weaviate.io/) - An open-source vector database that simplifies the development of AI applications
   * [Milvus](https://zilliz.com/what-is-milvus) - A high-performance open-source vector database built to handle billions of vectors
   * [Chroma](https://www.trychroma.com/) - The AI-native open-source embedding database
+  * [Qdrant](https://qdrant.tech/) - A high-performance vector search engine built entirely in Rust that helps developers build AI retrieval at any scale
 
 ### Cloud NoSQL Services
 

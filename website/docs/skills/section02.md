@@ -53,7 +53,7 @@
 * Client Scripting APIs
   * [XMLHttpRequest (XHR)](https://xhr.spec.whatwg.org/) - An API that provides scripted client functionality for transferring data between a client and a server
   * [Fetch Standard](https://fetch.spec.whatwg.org/) - A living standard that defines requests, responses, and the process that binds them: fetching
-  * [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML \<canvas\> element
+  * [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML `<canvas>` element
   * [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) - A JavaScript API for rendering high-performance interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
 * Site Analyzers
   * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
@@ -271,6 +271,11 @@
   * [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content
   * [Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/) - A modern cloud content delivery network (CDN) that provides a secure and scalable entry point for fast delivery of your global web applications and content
 
+### Blockchain & Decentralized Web
+
+* [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
+* [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
+
 ## Development & Testing Tools
 
 ### Web/HTTP Clients
@@ -292,6 +297,7 @@
   * [Typhoeus](https://github.com/typhoeus/typhoeus) - A library that wraps libcurl in order to make fast and reliable requests
   * [Ruby Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
   * [httpx](https://gitlab.com/os85/httpx) - An HTTP client library for the Ruby programming language
+  * [wreq-ruby](https://github.com/SearchApi/wreq-ruby) - An easy and powerful Ruby HTTP client with advanced browser fingerprinting that accurately emulates various browsers with precise TLS/HTTP2 signatures
   * [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - An ergonomic, async HTTP client
 * GraphQL Libraries
   * [URQL](https://commerce.nearform.com/open-source/urql/) - The highly customizable and versatile GraphQL client for React, Svelte, Vue, or plain JavaScript
@@ -324,7 +330,7 @@
   * Dependencies
     * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
 * Accessibility Testing
-  * [axe-core](https://github.com/dequelabs/axe-core) - The accessibility engine for automated Web UI testing
+  * [axe-core](https://www.deque.com/axe/) - The accessibility engine for automated Web UI testing
 * AI-powered Web Automation
   * [browser-use](https://docs.browser-use.com/) - An open-source Python library that allows AI agents to interact with web browsers using natural language
 * Web Scraping
