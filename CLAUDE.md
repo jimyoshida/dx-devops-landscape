@@ -94,12 +94,12 @@ Contains scripts for maintaining skill classification data:
 
 ```bash
 cd data
-make read    # Extract section titles from skill files → Class.yml
-make write   # Apply Class.yml classifications back to skill files
+make read    # Extract section titles from skill files → sections.yml
+make write   # Apply sections.yml classifications back to skill files
 make test    # Run write.pl unit tests (requires ruby)
 ```
 
-`Class.yml` maps section IDs (e.g., `section01`) to their titles. Run `make read` after renaming sections, then `make write` to propagate changes.
+`sections.yml` maps section IDs (e.g., `section01`) to their titles. Run `make read` after renaming sections, then `make write` to propagate changes.
 
 ## AI Prompts (`prompts/`)
 

@@ -46,6 +46,7 @@
   * [statsmodels](https://www.statsmodels.org/stable/index.html) - A Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration
 * [R](https://www.r-project.org/) - A free software environment for statistical computing and graphics
   * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
+* [GNU Octave](https://octave.org/) - A high-level language, primarily intended for numerical computations
 * [Wolfram Language](https://www.wolfram.com/language/) - A symbolic language, deliberately designed with the breadth and unity needed to develop powerful programs quickly
 * Specialized Tools
   * [latexify](https://github.com/google/latexify_py) - A Python package to compile a fragment of Python source code to a corresponding LaTeX expression
@@ -54,6 +55,14 @@
   * [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
 * Data Sources
   * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - A set of free geolocation and ASN data in downloadable database and web service formats
+
+### Spreadsheet & Collaborative Data Platforms
+
+* [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) - The industry-leading spreadsheet software program and a powerful data visualization and analysis tool
+* [Grist](https://www.getgrist.com/) - A relational spreadsheet that combines the familiar interface of a spreadsheet with the power and structure of a relational database
+* [NocoBase](https://www.nocobase.com/) - A scalability-first, open-source no-code platform designed for building complex business applications and internal tools
+* [NocoDB](https://nocodb.com/) - An open-source, no-code platform that turns any database into a smart spreadsheet, providing a collaborative interface for relational databases
+* [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
 
 ### Interactive Computing Environments
 

@@ -50,6 +50,8 @@ In addition, the markdown files under the `website/docs/timelines/` directory co
 Each entry is a paragraph which contains the deacription basically quoted from Wikipedia English version. It must include the date information of the event and must be arranged in chronological order.
 If the event's month or day is unclear, they should be located at the last position of the year or month respectively.
 
+The description should not use bold style.
+
 Each entry starts with one of the following class emoji.
 
 Class emojies:

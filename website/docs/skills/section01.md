@@ -206,7 +206,7 @@
   * [ISO/IEC 15288 (System life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_15288) - The technical standard in systems engineering which covers processes and lifecycle stages
   * [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
 
-### Product Management
+## Product Management
 
 * [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
 * [Lean startup](https://en.wikipedia.org/wiki/Lean_startup) - A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable
@@ -215,9 +215,11 @@
   * [Subscription business model](https://en.wikipedia.org/wiki/Subscription_business_model) - A business model in which a customer must pay a recurring price at regular intervals for access to a product or service
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
   * [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas) - A one-page business modeling tool for entrepreneurs to quickly outline their business idea
+* [IT service management](https://en.wikipedia.org/wiki/IT_service_management) - The activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers
 * Tools
   * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
   * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+  * [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
 * Related Standards
   * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
   * [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
@@ -259,8 +261,6 @@
     * [HubSpot](https://www.hubspot.com/) - A customer platform that helps businesses grow by connecting their marketing, sales, and service tools to a shared database
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
     * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
-  * [IT service management](https://en.wikipedia.org/wiki/IT_service_management) - The activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers
-    * [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
   * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
     * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources))
@@ -355,7 +355,7 @@
 
 ### Personal AI Agent Runtimes (AI OS)
 
-* [Claude Cowork](https://www.anthropic.com/claude/cowork) - An agentic AI system for knowledge work that autonomously plans and executes multi-step tasks across files, documents, and web applications directly on your computer
+* [Claude Cowork](https://claude.com/product/cowork) - An agentic AI system for knowledge work that autonomously plans and executes multi-step tasks across files, documents, and web applications directly on your computer
 * [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
 * [claw-empire](https://github.com/GreenSheep01201/claw-empire) - A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents as a virtual autonomous company
 * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
@@ -384,13 +384,6 @@
 * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
 * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
 * [Zapier](https://zapier.com/) - A tool that allows you to connect your apps and automate workflows without any coding knowledge
-
-### Relational Data & Collaborative Platforms
-
-* [Grist](https://www.getgrist.com/) - A relational spreadsheet that combines the familiar interface of a spreadsheet with the power and structure of a relational database
-* [NocoBase](https://www.nocobase.com/) - A scalability-first, open-source no-code platform designed for building complex business applications and internal tools
-* [NocoDB](https://nocodb.com/) - An open-source, no-code platform that turns any database into a smart spreadsheet, providing a collaborative interface for relational databases
-* [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
 
 ### AI-Native App & Agent Builders
 

@@ -12,11 +12,15 @@ sidebar_position: 5
 
 📜 Deno v1.0.0, a secure-by-default runtime for JavaScript and TypeScript with a single-executable design, was officially released on May 13, 2020.
 
+🌐 In May 2020, Discord transitioned its primary domain from `discordapp.com` to `discord.com`, signaling its broader goal of becoming a place for all communities, not just gamers.
+
 🧠 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in June 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
 
 📜 The Rust for Linux project was announced in July 2020 in the Linux kernel mailing list with goals of leveraging Rust's memory safety to reduce bugs when writing kernel drivers.
 
 ⚙️ On September 21, 2020, Homebrew version 2.5.2 was released with support for bottle taps (binary package repositories) via GitHub Releases.
+
+🏢 On October 6, 2020, Google rebranded G Suite as Google Workspace, introducing a new integrated user experience and unified brand identity for its communication and collaboration apps
 
 🏢 Microsoft released \.NET 5.0 on November 10, 2020. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with \.NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the \.NET Framework.
 
@@ -48,6 +52,10 @@ sidebar_position: 5
 
 🧠 GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
 On June 29, 2021, GitHub announced GitHub Copilot for technical preview in the Visual Studio Code development environment.
+
+🏢 Salesforce officially completed its acquisition of Slack for approximately $27.7 billion on July 21, 2021, marking one of the largest acquisitions in the software industry.
+
+🏢 Microsoft discontinued the hosted Skype for Business Online service on July 31, 2021, fully transitioning its communication and collaboration capabilities to Microsoft Teams
 
 🧠 OpenAI Codex is an artificial intelligence model developed by OpenAI. It parses natural language and generates code in response. It is used to power GitHub Copilot, a programming autocompletion tool developed for Visual Studio Code.
 Codex is a descendant of OpenAI's GPT-3 model, fine-tuned for use in programming applications.
@@ -91,6 +99,8 @@ The model was first announced in April 2022 and remained private until March 202
 ⚙️ On September 21, 2022, Systemd support is now available in WSL.
 
 🧠 ReAct (Synergizing Reasoning and Acting in Language Models), a general paradigm that combines reasoning and acting with Large Language Models (LLMs) to perform tasks, was first submitted to arXiv by researchers from Princeton University and Google Research on October 6, 2022.
+
+🏢 On October 13, 2022, Microsoft announced it would phase out the "Microsoft Office" brand in favor of "Microsoft 365," subsequently rebranding Office.com and the Office mobile apps to reflect this shift
 
 ⚙️ Linux 6.0 was released on October 2, 2022, focusing on performance improvements for modern CPU architectures and including the initial groundwork for Rust support in the kernel.
 
@@ -268,5 +278,7 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 🧠 On March 9, 2026, Microsoft announced "Microsoft 365 Copilot Wave 3," introducing "Copilot Cowork"—an autonomous agentic workflow system—alongside "Agent 365," a dedicated control plane for enterprise-wide agent management and governance.
 
 🧠 OpenClaw v2026.3.12 was released on March 12, 2026, introducing a major architectural shift with a new provider-plugin system and a centralized dashboard for managing agent activities.
+
+🧠 Microsoft Agent Framework 1.0, a modern AI orchestration framework designed for building autonomous agentic workflows, was first released as an open-source project on April 3, 2026.
 
 ⚙️ Linux 7.0 was released on April 12, 2026, as the latest major stable version, continuing the kernel's evolution with advanced hardware support and further integration of memory-safe programming languages.
