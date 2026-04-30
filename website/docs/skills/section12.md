@@ -160,7 +160,8 @@
 
 ### Platforms, Frameworks & Guidelines
 
-* UI Design Tools
+* Visual Design Tools
+  * [Claude Design](https://claude.ai/design) - A visual design tool that lets users collaborate with Claude to create polished designs, prototypes, slides, and marketing materials through natural conversation and iterative refinement
   * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
   * [Locofi.ai](https://www.locofy.ai/) - Design to code in a flash
 * Design Systems & Guidelines

@@ -370,7 +370,7 @@
 * Messaging & Streaming Platforms (Software)
   * [Apache Kafka](https://kafka.apache.org/) - An open-source distributed event streaming platform
     * Apache Kafka Ecosystem
-      * [Kafbat UI](https://ui.docs.kafbat.io/) - A versatile, open-source web interface for managing Apache Kafka clusters
+      * [Kafbat UI](https://ui.docs.kafbat.io/) - A versatile, fast, lightweight, and flexible web interface designed to monitor and manage Apache Kafka clusters
   * [RabbitMQ](https://www.rabbitmq.com/) - A reliable and mature messaging and streaming broker
 * Cloud Services
   * [Amazon Kinesis](https://aws.amazon.com/kinesis/) - A service making it easy to collect, process, and analyze real-time, streaming data

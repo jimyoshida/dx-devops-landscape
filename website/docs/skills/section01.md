@@ -210,6 +210,7 @@
 
 * [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
 * [Lean startup](https://en.wikipedia.org/wiki/Lean_startup) - A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable
+* [Crowdfunding](https://en.wikipedia.org/wiki/Crowdfunding) - The practice of funding a project or venture by raising money from a large number of people, typically via the internet
 * [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
   * [Direct-to-consumer](https://en.wikipedia.org/wiki/Direct-to-consumer) - A business model of selling products directly to customers and thereby bypassing any third-party retailers, wholesalers, or intermediaries
   * [Subscription business model](https://en.wikipedia.org/wiki/Subscription_business_model) - A business model in which a customer must pay a recurring price at regular intervals for access to a product or service
@@ -384,6 +385,7 @@
 * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
 * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
 * [Zapier](https://zapier.com/) - A tool that allows you to connect your apps and automate workflows without any coding knowledge
+* [Blog-Watcher](https://github.com/takymt/blog-watcher) - A Python-based monitoring tool for tracking updates on blog websites that detects new posts and content changes, then sends Slack notifications when blogs are updated
 
 ### AI-Native App & Agent Builders
 
@@ -430,9 +432,13 @@
   * [Maven Central](https://central.sonatype.com/) - The World's Largest and Oldest Component Repository
   * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
   * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
+
+### AI Agent Registries
+
 * Agent Skills Registries
   * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
   * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
+  * [ClawHub](https://clawhub.ai/) - A community-driven marketplace and platform for discovering and sharing AI agent tools, skills, and plugins, hosting tens of thousands of community-created resources for building AI agents
   * [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
   * [OpenClaw Skills](https://www.open-claw-skills.com/) - The largest open-source registry for community-driven AI tools designed for platforms like Claude Code and Cursor
 * MCP (Model Context Protocol) Registries

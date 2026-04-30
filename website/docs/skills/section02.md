@@ -330,7 +330,7 @@
   * Dependencies
     * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
 * Accessibility Testing
-  * [axe-core](https://www.deque.com/axe/) - The accessibility engine for automated Web UI testing
+  * [axe-core](https://www.deque.com/axe/) - An accessibility testing engine for websites and other HTML-based user interfaces
 * AI-powered Web Automation
   * [browser-use](https://docs.browser-use.com/) - An open-source Python library that allows AI agents to interact with web browsers using natural language
 * Web Scraping

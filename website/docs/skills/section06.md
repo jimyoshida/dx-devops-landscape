@@ -161,6 +161,7 @@
 * [Anthropic](https://www.anthropic.com/api) - The API providing access to Anthropic's Claude models
 * [OpenAI](https://platform.openai.com/) - The platform for building applications with OpenAI's models
 * [DeepSeek](https://www.deepseek.com/) - An AI model research and development company that focuses on building advanced large language models and artificial intelligence infrastructure
+* [Kimi](https://www.kimi.com/) - An AI assistant platform by Moonshot AI featuring the K2 model with long-context capabilities, designed for coding assistance, deep research, and multi-agent workflows
 * [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
 * [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
 * [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
@@ -207,8 +208,10 @@
 
 ### Benchmarking & Analysis
 
-* [ARC-AGI](https://github.com/fchollet/ARC-AGI) - A benchmark for general intelligence, focusing on the ability to learn new concepts from a few examples
-* [ARC-AGI-2](https://github.com/arcprize/ARC-AGI-2) - A general artificial intelligence benchmark, program synthesis benchmark, or psychometric intelligence test targeted at both humans and artificially intelligent systems that aim at emulating a human-like form of general fluid intelligence
+* [ARC-AGI](https://arcprize.org/arc-agi) - The benchmark measuring progress toward artificial general intelligence by testing skill-acquisition efficiency on novel tasks that are intuitive for humans but challenging for AI systems
+* [OSWorld](https://os-world.github.io/) - A scalable, real computer environment for evaluating multimodal agents on 369 open-ended tasks spanning web applications, desktop software, and cross-application workflows across Ubuntu, Windows, and macOS
+* [FrontierMath](https://epoch.ai/frontiermath) - An AI benchmark consisting of extremely challenging mathematical problems, including open research problems authored by expert mathematicians, ranging from undergraduate to research-level difficulty
+* [MRCR v2](https://llm-stats.com/benchmarks/mrcr-v2) - A multi-round context recall benchmark that evaluates LLMs on their ability to retrieve and use information from extended multi-turn conversation histories
 * [Artificial Analysis](https://artificialanalysis.ai/) - An independent analysis of AI models and API providers, helping users understand the AI landscape
 * [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs)
 
@@ -226,7 +229,6 @@
 
 ### Agentic Patterns & Techniques
 
-* [AI Harness Engineering](https://www.nxcode.io/resources/news/what-is-harness-engineering-complete-guide-2026) - The specialized engineering discipline focused on building the environments, constraints, and feedback loops that allow AI models to operate reliably as autonomous agents
 * [ReAct Prompting](https://github.com/ysymyth/ReAct) - A prompting technique synergizing reasoning and acting in language models
   * Reason, Act, Thought, Observation
 * [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - An inference strategy where language models (LMs) can decompose and recursively interact with input context of unbounded length
@@ -243,7 +245,6 @@
   * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
   * [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - A resource for building robust, future-proof Agentic AI solutions that evolve with technological advancements
   * [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/) - A comprehensive framework for building full-stack, multi-channel agents that operate seamlessly across Microsoft 365 Copilot, Teams, third-party platforms, custom applications, and websites
-  * [TAKT (TAKT Agent Koordination Topology)](https://github.com/nrslib/takt) - An open-source framework designed to orchestrate and manage AI coding agents using structured, YAML-defined workflows
 * Application Frameworks
   * [Chainlit](https://docs.chainlit.io/) - An open-source Python package to build production ready Conversational AI
   * [DSPy](https://dspy.ai/) - A declarative framework for building modular AI software that allows for fast iteration on structured code and offers algorithms to compile AI programs into effective prompts and weights for language models

@@ -81,6 +81,8 @@ Released: Aug 10, 2021
 
 ## 2022
 
+📜 Go 1.18 was released on March 15, 2022, adding support for generic programming (type parameters), the most significant language change since Go 1.0 and a long-requested community feature.
+
 ⚙️ Chocolatey 1.0.0 was officially released on March 18, 2022, marking a major milestone in version stability and enterprise readiness after over a decade of development.
 
 🧠 PaLM (Pathways Language Model) is a 540 billion parameter transformer-based large language model developed by Google AI.
@@ -135,6 +137,10 @@ It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language mode
 🧠 Generative Pre-trained Transformer 4 (GPT-4) is a multimodal large language model created by OpenAI, and the fourth in its series of GPT foundation models.
 It was launched on March 14, 2023, and made publicly available via the paid chatbot product ChatGPT Plus, via OpenAI's API, and via the free chatbot Microsoft Copilot.
 
+🧠 BabyAGI, a task-driven autonomous agent created by Yohei Nakajima, was publicly shared on Twitter on March 28, 2023. Written as a 105-line Python script using GPT-4, Pinecone, and LangChain, it demonstrated autonomous task planning and execution, going viral and accumulating over 16,000 GitHub stars.
+
+🧠 AutoGPT, an open-source autonomous AI agent created by Toran Bruce Richards of Significant Gravitas Ltd., was released on GitHub on March 30, 2023. One of the first applications to showcase GPT-4's autonomous capabilities, it broke down user-defined goals into sub-tasks using tools like web browsing, file management, and API calls, becoming the fastest-growing open-source project in GitHub history with over 100,000 stars within weeks.
+
 🧠 Amazon Bedrock was first announced on April 13, 2023, in a limited preview as a fully managed service that makes foundation models (FMs) from leading AI startups and Amazon available via an API.
 
 🧠 Bard is a conversational artificial intelligence chatbot developed by Google, based on the LaMDA family of large language models. It was developed as a response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses.
@@ -145,6 +151,8 @@ The first model was released in March 2023.
 ⚙️ Chocolatey 2.0.0 was released on May 31, 2023, featuring a major update to the underlying NuGet client libraries and introducing support for Semantic Versioning (SemVer) 2.0.0.
 
 🔐 Azure Active Directory (Azure AD) was officially renamed to Microsoft Entra ID on July 15, 2023.
+
+📜 Go 1.21 was released on August 8, 2023, introducing built-in min, max, and clear functions, a new log/slog structured logging package, and formal toolchain management.
 
 ☁️ Dagu, a local-first and DAG-based workflow engine designed as a "zero-ops" alternative to more complex orchestrators like Apache Airflow, was first released as open source on GitHub on August 11, 2023.
 
@@ -184,6 +192,10 @@ It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstratio
 🌐 Deno v2.0.0 was officially released on October 9, 2024, focusing on full backward compatibility with Node.js and npm alongside long-term support (LTS) for enterprise use.
 
 🧠 On September 16, 2024, Microsoft announced "Microsoft 365 Copilot Wave 2," introducing "Copilot agents"—specialized AI assistants that can be built in Copilot Studio or directly within SharePoint. These agents entered general availability on October 17, 2024.
+
+📊 PostgreSQL 17 was released on September 26, 2024, providing significant performance boosts to vacuuming and I/O, along with expanded JSON functionality.
+
+🧠 BabyAGI v2, a major rewrite of the original BabyAGI framework by Yohei Nakajima, was released in September 2024. It introduced the functionz framework for storing functions and metadata in a database, reflecting advancements in GPT-4o, Claude tool use, and structured outputs since the original release.
 
 🧠 Anthropic introduced the Computer Use capability in public beta for Claude 3.5 Sonnet on October 22, 2024, enabling the model to navigate desktop environments by interpreting screenshots and simulating mouse and keyboard inputs.
 
@@ -229,6 +241,8 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 🧠 The August update (v1.104) of Visual Studio Code, released on September 12, 2025, added "Auto" model selection and introduced support for `AGENTS.md` files to provide custom instructions for the GitHub Copilot Agent.
 
 🧠 Notion 3.0 was launched on September 18, 2025, rebranding its AI capabilities as "Notion AI Agents" and introducing autonomous, multi-step agentic workflows within the workspace.
+
+📊 PostgreSQL 18 was released on September 25, 2025, introducing asynchronous I/O (AIO) to significantly enhance the performance of concurrent I/O tasks.
 
 🧠 On September 29, 2025, Anthropic enhanced the tool with Claude Code v2.0, introducing checkpoints, a native VS Code extension, terminal UX improvements, and the Claude Agent SDK.
 

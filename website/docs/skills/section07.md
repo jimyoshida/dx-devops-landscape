@@ -55,6 +55,7 @@
   * [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host
   * [Mintty](https://mintty.github.io/) - A terminal emulator for Cygwin, MSYS or Msys2, and derived projects, and for WSL
   * [xterm](https://invisible-island.net/xterm/) - A terminal emulator for the X Window System
+  * [wterm](https://wterm.dev/) - A terminal emulator for the web that renders directly to the DOM using a Zig+WASM core, enabling native browser text selection, copy/paste, and accessibility
 * Technologies & Protocols
   * [Pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal) - A pair of pseudo-devices that provides a terminal-like interface used by programs to emulate a terminal
   * [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - A standard for in-band signaling to control the cursor location, color, font styling, and other options on video text terminals
@@ -359,6 +360,7 @@
 * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
 * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
 * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
+* [Nano-PDF](https://github.com/gavrielc/Nano-PDF) - A command-line tool that enables users to edit PDF slides using natural language instructions, powered by AI vision models, with multi-page parallel editing and non-destructive text-layer preservation through OCR
 * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
 * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
 
@@ -379,7 +381,9 @@
   * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
   * [OpenCode.ai](https://opencode.ai/) - An open-source AI coding agent for the terminal that provides an interactive TUI to help you understand, edit, and ship code within real repositories
   * [OpenAI Codex](https://github.com/openai/codex) - A lightweight coding agent that runs in your terminal, providing a local coding assistant
+  * [Kimi Code](https://www.kimi.com/code) - A CLI coding agent by Moonshot AI engineered to drop into any dev workflow, supporting codebase analysis, file operations, web search, and parallel sub-agent task handling, powered by the kimi-k2.6 model
   * [Crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘
+  * [ForgeCode](https://forgecode.dev/) - A ZSH-integrated coding harness with a multi-agent architecture for research, planning, and execution, supporting multiple LLM providers and ranking at the top of Terminal-Bench
 * Desktop Coding Agents
   * [goose](https://block.github.io/goose/) - A local AI agent that automates engineering tasks seamlessly
   * [Open Interpreter](https://www.openinterpreter.com/) - An open-source desktop agent that lets you work alongside agents that can read, edit, and create documents on your computer
@@ -394,20 +398,17 @@
   * [Replit](https://replit.com/) - A platform to turn ideas into apps in minutes — no coding needed
   * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
 
-### Development Methodologies
-
-* [Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md) - A development methodology where you start with a specification that acts as a contract for how your code should behave
-* SDD Tools
-  * [spec-kit](https://github.com/github/spec-kit) - A toolkit to help you get started with Spec-Driven Development
-  * [Kiro](https://kiro.dev/) - An AI IDE designed for the entire development process, from prototype to production
-
 ### Supporting Tools & Infrastructure
 
 * Platforms
   * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
   * [Port](https://www.getport.io/) - An agentic developer portal to build autonomous workflows to accelerate every aspect of engineering
+* Agent Orchestration
+  * [TAKT (TAKT Agent Koordination Topology)](https://github.com/nrslib/takt) - An open-source framework designed to orchestrate and manage AI coding agents using structured, YAML-defined workflows
+  * [KIRA](https://github.com/krafton-ai/KIRA) - An agent framework for terminal-based AI tasks that leverages native tool calling, multimodal input, and marker-based completion verification to achieve state-of-the-art performance on Terminal-Bench
 * Benchmarks
   * [SWE-bench](https://www.swebench.com/SWE-bench/) - A benchmark for evaluating large language models on real world software issues collected from GitHub
+  * [Terminal-Bench](https://www.tbench.ai/) - A collection of harbor-native benchmark tasks for quantifying AI agents' terminal mastery, covering software engineering, machine learning, security, and data science
 * Context Providers
   * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors
 * Semantic Code Retrieval

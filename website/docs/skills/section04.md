@@ -244,6 +244,9 @@
 * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) - A standard for performing application-level security verifications
 * [OWASP Security Champions](https://owasp.org/www-project-security-culture/v10/4-Security_Champions/) - A program to embed security expertise and culture within development teams
 * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - A collection of concise cheat sheets on various security topics
+* Coding Standards
+  * [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) - A set of guidelines for the use of the C programming language in safety-critical embedded systems, originally developed for the automotive industry
+  * [CERT Secure Coding Standards](https://en.wikipedia.org/wiki/CERT_Secure_Coding_Standards) - A collection of programming security guidelines for C, C++, Java, Perl, and other languages published by Carnegie Mellon's CERT
 
 ### Application Security Testing (AST)
 

@@ -121,13 +121,6 @@
 
 ### Client OS & Environments
 
-* Linux Desktop Environment
-  * Debian-based
-    * [Ubuntu desktop](https://ubuntu.com/desktop) - The Linux-based operating system that runs from the desktop, to the cloud, to all your internet connected things
-    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
-  * Arch-based
-    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
-    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
 * Windows Environment
   * Package Management & Administration
     * [Chocolatey](https://chocolatey.org) - The package manager for Windows

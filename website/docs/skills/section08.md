@@ -153,6 +153,7 @@
 * TUI Clients & Utilities
   * [mailutils](https://mailutils.org/) - A set of libraries and utilities for handling electronic mail
     * [mail command](https://mailutils.org/manual/html_section/mail.html) - A command to send and receive mail
+  * [Himalaya](https://github.com/pimalaya/himalaya) - A CLI application for email management, built in Rust, that allows users to interact with emails through shell commands, with support for IMAP, Maildir, SMTP, OAuth 2.0, and PGP encryption
   * [Mutt](http://www.mutt.org/) - A small but very powerful text based program for reading and sending electronic mail under unix operating systems
   * [swaks](http://www.jetmore.org/john/code/swaks/) - A featureful, flexible, scriptable, transaction-oriented SMTP test tool
   * [Pop](https://github.com/charmbracelet/pop) - A library for sending emails from your terminal
@@ -172,7 +173,7 @@
   * [Amazon SES](https://aws.amazon.com/ses/) - A cost-effective, flexible, and scalable email service that enables developers to send mail from within any application
   * [Twilio SendGrid](https://www.twilio.com/sendgrid/email-api) - A cloud-based email delivery service that helps businesses with email delivery
 
-## Linux System Architecture
+## Unix-like Operating Systems
 
 * [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
   * Threads
@@ -180,6 +181,7 @@
   * Filesystems
     * [Ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
     * [XFS](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
+    * [Btrfs](https://en.wikipedia.org/wiki/Btrfs) - A copy-on-write filesystem for Linux with advanced features including snapshots, RAID, and self-healing
     * [UnionFS](https://en.wikipedia.org/wiki/UnionFS) - A filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems
     * [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
     * [proc.5](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
@@ -195,10 +197,22 @@
 
 ### Linux Distributions
 
-* [Ubuntu server](https://ubuntu.com/server) - The standard platform for public clouds, on-premises, and IoT devices
-* [Debian](https://www.debian.org/) - A complete Free Operating System
-* [Arch Linux](https://archlinux.org/) - A simple, lightweight distribution
-* [NixOS](https://nixos.org/) - A Linux distribution with a unique approach to package and configuration management
+* General Purpose
+  * [Arch Linux](https://archlinux.org/) - A simple, lightweight distribution
+  * [Debian](https://www.debian.org/) - A complete Free Operating System
+  * [Fedora](https://www.fedoraproject.org/) - An innovative, free and open-source operating system platform built by the community for hardware, clouds, and containers
+  * [Gentoo](https://www.gentoo.org/) - A highly flexible, source-based Linux distribution that emphasizes customization and performance
+  * [NixOS](https://nixos.org/) - A Linux distribution with a unique approach to package and configuration management
+  * [openSUSE](https://www.opensuse.org/) - A free Linux operating system for desktops, servers and containers
+* Server-focused
+  * [Ubuntu server](https://ubuntu.com/server) - The standard platform for public clouds, on-premises, and IoT devices
+* Desktop-focused
+  * Debian-based
+    * [Ubuntu desktop](https://ubuntu.com/desktop) - The Linux-based operating system that runs from the desktop, to the cloud, to all your internet connected things
+    * [BunsenLabs Linux](https://www.bunsenlabs.org/) - A distribution offering a light-weight and easily customizable Openbox desktop
+  * Arch-based
+    * [Manjaro Linux](https://manjaro.org/) - A user-friendly Linux distribution based on the independently developed Arch operating system
+    * [Mabox Linux](https://maboxlinux.org/) - Fast, lightweight and functional Linux Desktop "relaxed" rolling-release, Manjaro based with Openbox Window Manager
 
 ### BSD Distributions
 

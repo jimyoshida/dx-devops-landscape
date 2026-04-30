@@ -341,6 +341,7 @@ support
   * [GNU Make](https://www.gnu.org/software/make/) - A tool which controls the generation of executables and other non-source files of a program
     * [Remake](https://bashdb.sourceforge.net/remake/) - An enahanced version of GNU Make that adds improved error reporting, better tracing, profiling and a debugger
     * [makefile-graph](https://github.com/dnaeon/makefile-graph) - A Go module and CLI application, which parses GNU Make's internal database and generates a graph
+  * [Bazel](https://bazel.build/) - A fast, scalable, multi-language and extensible build system
   * [Gradle](https://gradle.org/) - An open-source build automation tool that is designed to be flexible enough to build almost any type of software
   * [Maven](https://maven.apache.org/) - A software project management and comprehension tool
   * [Task](https://taskfile.dev/) - A task runner / build tool that aims to be simpler and easier to use than GNU Make

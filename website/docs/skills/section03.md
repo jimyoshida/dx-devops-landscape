@@ -48,6 +48,7 @@ access to high-performance networking
 
 ### Cloud Architecture Frameworks
 
+* [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) - A framework describing key concepts, design principles, and architectural best practices for designing and running workloads in the cloud
 * [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) - A set of guidance, patterns, and best practices for building secure, high-performing, resilient, and efficient infrastructure on Azure
 * [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) - A set of quality-driven tenets, architectural decision points, and review tools intended to help solution architects build a technical foundation for their workloads
 
@@ -313,6 +314,7 @@ access to high-performance networking
   * [OpenFaaS](https://www.openfaas.com/) - A framework that makes it easy for developers to deploy event-driven functions and microservices to Kubernetes
   * [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
 * Service Mesh & Discovery
+  * [Gateway API](https://gateway-api.sigs.k8s.io/) - The next generation of Kubernetes Ingress, Load Balancing, and Service Mesh APIs
   * [Istio](https://istio.io/) - An open source service mesh that layers transparently onto existing distributed applications
     * [Kiali](https://kiali.io/) - The service mesh observability and configuration tool for Istio
   * [Linkerd](https://linkerd.io/) - An ultralight, security-first service mesh for Kubernetes
@@ -351,10 +353,6 @@ access to high-performance networking
   * [Open Application Model](https://oam.dev/) - A specification for describing applications so that they can be deployed and managed across any platform
   * [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
   * [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes
-
-### Workflow Orchestration
-
-* [Apache Airflow](https://airflow.apache.org/) - A platform to programmatically author, schedule, and monitor workflows
 
 ### Integrations & Registries
 
