@@ -16,13 +16,19 @@ sidebar_position: 5
 
 🧠 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in June 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
 
+⚙️ Apple announced its plan to transition the Mac from Intel processors to its own Apple Silicon at WWDC on June 22, 2020, marking the third major processor architecture transition in Mac history.
+
 📜 The Rust for Linux project was announced in July 2020 in the Linux kernel mailing list with goals of leveraging Rust's memory safety to reduce bugs when writing kernel drivers.
 
 ⚙️ On September 21, 2020, Homebrew version 2.5.2 was released with support for bottle taps (binary package repositories) via GitHub Releases.
 
 🏢 On October 6, 2020, Google rebranded G Suite as Google Workspace, introducing a new integrated user experience and unified brand identity for its communication and collaboration apps
 
+⚙️ The first Apple Silicon Macs — the MacBook Air, 13-inch MacBook Pro, and Mac mini with the M1 chip — were announced on November 10, 2020, and began shipping on November 17, 2020, delivering significant performance and energy efficiency improvements over their Intel predecessors.
+
 🏢 Microsoft released \.NET 5.0 on November 10, 2020. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with \.NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the \.NET Framework.
+
+⚙️ macOS 11 Big Sur was released on November 12, 2020, the first version to increment the major version number beyond 10 since the original Mac OS X release in 2001. It was also the first macOS release to support Apple Silicon (M1) Macs, featuring a redesigned user interface inspired by iOS.
 
 🏢 The most recent major update to "The Scrum Guide" was published by Ken Schwaber and Jeff Sutherland on November 18, 2020.
 
@@ -189,6 +195,8 @@ It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstratio
 
 🧠 Firebase Genkit, an open-source framework by Google for building and deploying AI-powered applications, was first introduced during the Google I/O 2024 keynote on May 14, 2024.
 
+🩷 Unicode 16.0 was released on September 10, 2024, adding 5,185 new characters including seven new scripts and seven new emoji, for a total of 154,998 characters.
+
 🌐 Deno v2.0.0 was officially released on October 9, 2024, focusing on full backward compatibility with Node.js and npm alongside long-term support (LTS) for enterprise use.
 
 🧠 On September 16, 2024, Microsoft announced "Microsoft 365 Copilot Wave 2," introducing "Copilot agents"—specialized AI assistants that can be built in Copilot Studio or directly within SharePoint. These agents entered general availability on October 17, 2024.
@@ -239,6 +247,8 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 🧠 GPT-5 is a multimodal large language model developed by OpenAI and the fifth in its series of generative pre-trained transformer (GPT) foundation models. Preceded in the series by GPT-4, it was launched on August 7, 2025, combining reasoning capabilities and non-reasoning functionality under a common interface.
 
 🧠 The August update (v1.104) of Visual Studio Code, released on September 12, 2025, added "Auto" model selection and introduced support for `AGENTS.md` files to provide custom instructions for the GitHub Copilot Agent.
+
+🐛 The Shai-Hulud npm supply chain attack, a self-propagating worm that harvested sensitive data and automatically published malicious versions of accessible packages, was first detected on September 15, 2025.
 
 🧠 Notion 3.0 was launched on September 18, 2025, rebranding its AI capabilities as "Notion AI Agents" and introducing autonomous, multi-step agentic workflows within the workspace.
 

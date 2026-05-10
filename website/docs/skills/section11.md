@@ -100,6 +100,8 @@
   * [Poppler](https://poppler.freedesktop.org/) - A PDF rendering library based on the xpdf-3.0 code base
   * [PDF.js](https://mozilla.github.io/pdf.js/) - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
+  * [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/) - A high-performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents
+  * [pdfplumber](https://github.com/jsvine/pdfplumber) - A Python library to plumb a PDF for detailed information about each text character, rectangle, and line, plus table extraction and visual debugging
   * [Prawn PDF](https://prawnpdf.org/) - A fast, nimble PDF generator for Ruby
   * [ReportLab](https://www.reportlab.com/) - The Open Source Python library for generating PDFs and graphics
 
