@@ -107,6 +107,7 @@
 ### Secrets Management
 
 * [Vault](https://www.vaultproject.io/) - A tool for securely accessing secrets like API keys, passwords, or certificates
+* [OneCLI](https://www.onecli.sh/) - An open-source credential vault and proxy gateway for AI agents that stores secrets in an encrypted vault and injects them into agent requests without exposing keys
 * [SOPS](https://github.com/mozilla/sops) - An editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
 * [git-secret](https://git-secret.io/) - A bash tool to store your private data inside a git repo
 * Kubernetes Ecosystem

@@ -7,7 +7,7 @@
 * [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
 * [Metadata](https://en.wikipedia.org/wiki/Metadata) - The data that provides information about other data, but not the content of the data
 * [Big data](https://en.wikipedia.org/wiki/Big_data) - The data sets that are too large or complex to be dealt with by traditional data-processing application software
-* [Data model](https://en.wikipedia.org/wiki/Data_model) -  An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
+* [Data model](https://en.wikipedia.org/wiki/Data_model) - An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
 * [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
 * [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
 * [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) - A concept in computer science and information and communications technology that the quality of the output is determined by the quality of the input

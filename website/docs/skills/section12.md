@@ -14,7 +14,7 @@
   * [Enthymeme](https://en.wikipedia.org/wiki/Enthymeme) - An argument in which one premise is not explicitly stated, a common feature of real-world reasoning
 * Criteria for Argument Evaluation
   * [Fallacy](https://en.wikipedia.org/wiki/Fallacy) - The use of invalid or otherwise faulty reasoning in the construction of an argument that may appear to be well-reasoned if unnoticed
-  * [Category mistake](https://en.wikipedia.org/wiki/Category_mistake) - The broader application of informal logic and other skills (like analysis and self-reflection) to decide what to believe or do
+  * [Category mistake](https://en.wikipedia.org/wiki/Category_mistake) - An error in reasoning where a property is ascribed to a thing that could not possibly have that property
 * Related Fields
   * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
   * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
@@ -163,7 +163,7 @@
 * Visual Design Tools
   * [Claude Design](https://claude.ai/design) - A visual design tool that lets users collaborate with Claude to create polished designs, prototypes, slides, and marketing materials through natural conversation and iterative refinement
   * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
-  * [Locofi.ai](https://www.locofy.ai/) - Design to code in a flash
+  * [Locofy.ai](https://www.locofy.ai/) - Design to code in a flash
 * Design Systems & Guidelines
   * [Material Design](https://m3.material.io/) - Google’s open-source design system for building beautiful, usable products
   * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
@@ -217,17 +217,15 @@
   * [GitLab Values](https://about.gitlab.com/handbook/values/) - A set of guiding principles that define the company's culture and how its team members operate
 * Professional Manifestos
   * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - A declaration emphasizing the importance of well-crafted software, continuous value addition, professional community, and productive partnerships in software development
-
-### Communication & Feedback
-
-* [DESC feedback model](https://workmotion.com/academy-post/the-desc-feedback-model/) - A communication tool for providing constructive feedback by describing the behavior, expressing the impact, specifying the desired change, and explaining the consequences
+* Feedback Models
+  * [DESC feedback model](https://workmotion.com/academy-post/the-desc-feedback-model/) - A communication tool for providing constructive feedback by describing the behavior, expressing the impact, specifying the desired change, and explaining the consequences
 
 ## Psychology & Sociology
 
 ### Personal Performance
 
 * Mental Health
-  * [Mindfullness](https://en.wikipedia.org/wiki/Mindfulness) - The basic human ability to be fully present, aware of where we are and what we're doing, and not overly reactive or overwhelmed by what's going on around us
+  * [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness) - The basic human ability to be fully present, aware of where we are and what we're doing, and not overly reactive or overwhelmed by what's going on around us
     * [Zen](https://en.wikipedia.org/wiki/Zen) - A school of Mahayana Buddhism that originated in China during the Tang dynasty
   * [Flow](https://en.wikipedia.org/wiki/Flow_(psychology)) - The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity
   * [Defence mechanism](https://en.wikipedia.org/wiki/Defence_mechanism) - Unconscious psychological processes that protect the self from anxiety-producing thoughts and feelings related to internal conflicts and external stressors

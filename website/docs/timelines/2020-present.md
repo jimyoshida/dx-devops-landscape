@@ -258,8 +258,6 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🧠 Anthropic's Skills API (`anthropic-beta: skills-2025-10-02`) was officially introduced on October 2, 2025, providing a standardized way to package workflow instructions, executable code, and documentation into reusable capabilities for Claude via `SKILL.md` files.
 
-🖥️ Gemini CLI launched "Extensions" (using `GEMINI.md` files) on October 8, 2025, providing an early mechanism for users to provide custom context and instructions to the agent.
-
 🧠 On October 15, 2025, Anthropic launched the Skills Registry, a centralized platform for discovering and sharing "Anthropic-verified" and community-contributed skills to enhance Claude's functionality.
 
 🐛 A global DNS misconfiguration on October 29, 2025, disrupted Microsoft 365, Xbox Live, and major Azure corporate clients.

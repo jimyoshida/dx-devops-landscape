@@ -148,6 +148,7 @@
 * [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
   * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
     * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
+* [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
 * [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
 * Related Standards
   * [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
@@ -161,7 +162,6 @@
 * [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
   * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
     * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
-* [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
 * [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
 ## Project & Work Management
@@ -221,6 +221,7 @@
   * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
   * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
   * [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
+  * [Gamma](https://gamma.app/) - A new medium for presenting ideas, powered by AI
 * Related Standards
   * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
   * [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
@@ -261,10 +262,11 @@
     * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
     * [HubSpot](https://www.hubspot.com/) - A customer platform that helps businesses grow by connecting their marketing, sales, and service tools to a shared database
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
+    * [Atlas](https://atlas.so/) - A bespoke AI for customer support that delivers fast, accurate, and measurable support tailored to tools and workflows
     * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
   * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
-    * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources))
+    * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources)) - The set of demonstrable characteristics and skills that enable and improve the efficiency or performance of a job
   * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
   * [E-commerce](https://en.wikipedia.org/wiki/E-commerce) - The activity of electronically buying or selling products on online services or over the Internet
     * [Shopify](https://www.shopify.com/) - A Canadian multinational e-commerce company that provides a proprietary e-commerce platform for online stores and retail point-of-sale systems
@@ -292,7 +294,6 @@
   * [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
   * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
     * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
-  * [Amazon QuickSight](https://aws.amazon.com/quicksight/) - A scalable, serverless, embeddable, machine learning (ML)-powered business intelligence (BI) service built for the cloud
 
 ### Marketing
 
@@ -300,7 +301,6 @@
   * [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
     * [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
   * [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
-  * [Card sorting](https://en.wikipedia.org/wiki/Card_sorting) - A method used to help design or evaluate the information architecture of a site
   * [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out) - The feeling of apprehension that one is either not in the know about or missing out on information, events, experiences, or life decisions that could make one's life better
   * [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) - A manipulative propaganda tactic used in sales, marketing, public relations, politics, polling, and cults
   * Tag management
@@ -311,6 +311,7 @@
     * [Umami](https://umami.is/) - A simple, fast, privacy-focused alternative to Google Analytics
     * [Ackee](https://ackee.electerious.com/) - Self-hosted, privacy-focused analytics tool for those who care about privacy
   * User experience research
+    * [Card sorting](https://en.wikipedia.org/wiki/Card_sorting) - A method used to help design or evaluate the information architecture of a site
     * [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) - A way to compare multiple versions of a single variable, for example by testing a subject's response to variant A against variant B, and determining which of the variants is more effective
     * [Diary studies](https://www.nngroup.com/articles/diary-studies/) - A research method in which people record their experiences and activities over time
   * Advertising
@@ -339,8 +340,6 @@
     * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
     * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
     * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER) - A structured way of assisting students to think out of the box and enhance their knowledge
-  * AI-powered Document Generation
-    * [Gamma](https://gamma.app/) - A new medium for presenting ideas, powered by AI
 
 ### Risk Management
 
@@ -354,12 +353,13 @@
 
 ## Enterprise AI & Productivity
 
-### Personal AI Agent Runtimes (AI OS)
+### General Autonomous Agents
 
 * [Claude Cowork](https://claude.com/product/cowork) - An agentic AI system for knowledge work that autonomously plans and executes multi-step tasks across files, documents, and web applications directly on your computer
 * [OpenClaw](https://openclaw.ai/) - An open-source, self-hosted personal AI agent runtime that acts as a "Local OS for AI" by automating tasks across applications and platforms
+* [NanoClaw](https://github.com/nanocoai/nanoclaw) - A lightweight alternative to OpenClaw that runs in containers for security, connects to messaging apps, and runs directly on Anthropic's Agent SDK
 * [claw-empire](https://github.com/GreenSheep01201/claw-empire) - A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents as a virtual autonomous company
-* [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
+* [Sistava](https://sistava.com/en/) - An AI employee platform for managing teams of AI workers collaborating through structured sprints, OKRs, and KPIs with persistent memory and real tool access
 
 ### Enterprise AI Assistants
 
@@ -370,7 +370,11 @@
 * [Claude for Enterprise](https://claude.com/pricing/enterprise) - A secure and scalable way for organizations to use AI with administrative controls, single sign-on (SSO), and role-based access to Claude's latest models
 * [ChatGPT Enterprise](https://chatgpt.com/business/enterprise) - An enterprise-grade AI assistant with unlimited higher-speed access to GPT-4, longer context windows, and advanced data analysis capabilities
 * [Glean](https://www.glean.com/) - An AI-powered search and assistant for the enterprise that connects to all of your company's apps and data to find exactly what you need
-* [Atlas](https://atlas.so/) - A bespoke AI for customer support that delivers fast, accurate, and measurable support tailored to tools and workflows
+
+### Self-Hosted AI Platforms
+
+* [Dify](https://dify.ai/) - An open-source LLM app development platform
+* [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
 
 ## Low-Code & No-Code Development
 
@@ -385,11 +389,6 @@
 * [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
 * [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
 * [Zapier](https://zapier.com/) - A tool that allows you to connect your apps and automate workflows without any coding knowledge
-* [Blog-Watcher](https://github.com/takymt/blog-watcher) - A Python-based monitoring tool for tracking updates on blog websites that detects new posts and content changes, then sends Slack notifications when blogs are updated
-
-### AI-Native App & Agent Builders
-
-* [Dify](https://dify.ai/) - An open-source LLM app development platform
 * [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
 
 ### Web Content & Portal Builders

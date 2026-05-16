@@ -1,20 +1,20 @@
-# GEMINI.md
+# AGENTS.md
 
-This file provides guidance to Gemini CLI when working with code in this repository.
-This file is the master instruction and CLAUDE.md is automaticaly generated from this.
+This file provides guidance to coding agents when working with code in this repository.
 
 Refer to `website/docs/intro.md` for the overview & principles.
 
-## Skill Files
+## Categolized Skills
 
 The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
+The digest markdown is generated at `data/digest.md`.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
-Each level 2 header can have up to 5 level 3 headers as subsections.
+Each level 2 header can have up to 6 level 3 headers as subsections.
 The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
 
-You should use grouping items instead of subsections when the group title is generic like "Cloud Services".
+You should use grouping items instead of subsections when the group title is generic like "Libraries".
 That is to meet MD024 markdownlint rules.
 
 Each skill item should have a hyperlink which label is the concise linked website title.

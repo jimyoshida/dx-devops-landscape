@@ -315,6 +315,7 @@
     * [Zed](https://zed.dev/) - A next-generation code editor designed for high-performance collaboration with humans and AI
 * Web-based
   * [code-server](https://github.com/coder/code-server) - A VS Code instance running on a remote server, accessible through any web browser
+  * [Replit](https://replit.com/) - A platform to turn ideas into apps in minutes — no coding needed
 * Terminal-based
   * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient
     * [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - The commands that move the cursor and the commands used to delete or change text
@@ -360,11 +361,11 @@
 * [Mods](https://github.com/charmbracelet/mods) - A simple tool that helps you write programs with the assistance of AI
 * [gptcli](https://github.com/evilpan/gptcli) - A command-line interface for ChatGPT
 * [ShellGPT](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models (LLM)
-* [Nano-PDF](https://github.com/gavrielc/Nano-PDF) - A command-line tool that enables users to edit PDF slides using natural language instructions, powered by AI vision models, with multi-page parallel editing and non-destructive text-layer preservation through OCR
 * [OpenCommit](https://github.com/di-sukharev/opencommit) - Auto-generate meaningful commits in a second
 * [AI Commits](https://github.com/Nutlope/aicommits) - A CLI that writes your git commit messages for you with AI
+* [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
 
-### AI Coding Agents
+### Development Agents
 
 * CLI Coding Agents
   * [Claude Code](https://code.claude.com/docs) - An agentic coding tool that reads your codebase, edits files, runs commands, and integrates with development tools
@@ -394,15 +395,14 @@
   * [mini-swe-agent](https://mini-swe-agent.com/latest/) - A smaller, more accessible version of SWE-agent
   * [Devin](https://devin.ai/) - An autonomous AI software engineer that can handle complex engineering tasks unassisted within its own sandboxed environment
   * [Jules](https://jules.google/) - An Autonomous Coding Agent
-  * [Antigravity](https://antigravity.google/) - An agentic development platform
-  * [Replit](https://replit.com/) - A platform to turn ideas into apps in minutes — no coding needed
-  * [replit agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
+  * [Replit Agent](https://replit.com/products/agent) - The first developer agent that can learn and work alongside you in your IDE
 
 ### Supporting Tools & Infrastructure
 
 * Platforms
   * [OpenHands](https://docs.all-hands.dev/) - A platform for software development agents powered by AI
   * [Port](https://www.getport.io/) - An agentic developer portal to build autonomous workflows to accelerate every aspect of engineering
+  * [Antigravity](https://antigravity.google/) - An agentic development platform
 * Agent Orchestration
   * [TAKT (TAKT Agent Koordination Topology)](https://github.com/nrslib/takt) - An open-source framework designed to orchestrate and manage AI coding agents using structured, YAML-defined workflows
   * [KIRA](https://github.com/krafton-ai/KIRA) - An agent framework for terminal-based AI tasks that leverages native tool calling, multimodal input, and marker-based completion verification to achieve state-of-the-art performance on Terminal-Bench

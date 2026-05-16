@@ -14,8 +14,7 @@
 
 * [Amazon VPC](https://aws.amazon.com/vpc/) - A service that lets you launch AWS resources in a logically isolated virtual network that you define
 * [Amazon ELB](https://aws.amazon.com/elasticloadbalancing/) - A service that automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions
-* [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/) - The fundamental building block for your private network in Azure
-access to high-performance networking
+* [Azure Virtual Network](https://azure.microsoft.com/en-us/services/virtual-network/) - The fundamental building block for your private network in Azure with access to high-performance networking
 * [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer) - A service that allows you to distribute traffic to your backend virtual machines
 * [Azure Application Gateway](https://azure.microsoft.com/en-us/products/application-gateway) - A platform-managed, scalable, and highly available application delivery controller as a service
 * [Google Cloud VPC](https://cloud.google.com/vpc/docs/vpc) - A virtual version of a physical network that is implemented inside of Google's production network by using Andromeda
@@ -28,6 +27,7 @@ access to high-performance networking
 * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services
 * [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
 * [Vercel](https://vercel.com/) - A frontend cloud platform that provides the developer experience and infrastructure to build, deploy, and scale the web
+* [Netlify](https://www.netlify.com/) - A composable web platform that enables enterprises and teams to build, deploy, and scale modern web experiences on a global edge network
 
 ### Command Line Interfaces
 
@@ -35,6 +35,8 @@ access to high-performance networking
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) - A cross-platform command-line tool for managing Azure resources with interactive commands or scripts
 * [Azure Developer CLI (azd)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) - An open-source tool that accelerates your path from a local development environment to Azure
 * [Google Cloud CLI (gcloud)](https://cloud.google.com/cli) - A set of tools to create and manage Google Cloud resources and services
+* [Vercel CLI](https://vercel.com/docs/cli) - A command-line interface used to manage and configure Vercel Projects, deploy apps, and replicate the deployment environment locally
+* [Netlify CLI](https://cli.netlify.com/) - A command-line interface to configure continuous deployment, run a local development server, and deploy sites on Netlify
 
 ### Cloud Emulators
 
@@ -44,7 +46,7 @@ access to high-performance networking
 
 * [OpenStack](https://www.openstack.org/) - An open source cloud computing platform that provides infrastructure as a service (IaaS) for building and managing public and private clouds
 * [OpenNebula](https://opennebula.io/) - The Enterprise Cloud and Virtualization Platform that delivers end-to-end coverage, vendor neutrality, and comprehensive support across cloud and virtualization management, hypervisor operations, and Kubernetes orchestration
-* [libvert](https://libvirt.org/) - A toolkit to manage virtualization platforms
+* [libvirt](https://libvirt.org/) - A toolkit to manage virtualization platforms
 
 ### Cloud Architecture Frameworks
 
@@ -79,7 +81,7 @@ access to high-performance networking
 
 * Terraform/OpenTofu Ecosystem
   * [Terraform/OpenTofu Provider: Core Functions](https://github.com/northwood-labs/terraform-provider-corefunc) - A Terraform/OpenTofu provider for performing core functions
-  * [TerraGrant](https://terragrunt.gruntwork.io/) - A thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state
+  * [Terragrunt](https://terragrunt.gruntwork.io/) - A thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state
   * [TerraTest](https://terratest.gruntwork.io/) - A Go library that provides patterns and helper functions for testing infrastructure
   * [Atmos](https://atmos.tools/) - A universal tool for DevOps and Cloud Engineering that orchestrates workflows and simplifies the management of infrastructure
   * [GitLab-managed Terraform/OpenTofu state](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html) - A feature that allows you to store your Terraform state files in GitLab
@@ -143,7 +145,6 @@ access to high-performance networking
   * [regclient](https://github.com/regclient/regclient) - A suite of command-line tools (regctl, regsync, regbot) for managing and inspecting OCI registries and images, supporting advanced features like multi-platform images and mirroring
 * Container Registries
   * [GitLab Container Registry](https://docs.gitlab.com/ee/user/packages/container_registry/index.html) - A secure and private registry for Docker images
-  * [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
   * [Project Quay](https://www.projectquay.io/) - An open-source, container-native image registry designed for building, organizing, distributing, and deploying containers
   * [Docker Hub](https://docs.docker.com/docker-hub/) - A cloud-based registry service that allows developers and teams to store, share, and distribute Docker container images
   * [Amazon ECR](https://aws.amazon.com/ecr/) - A fully managed container registry that makes it easy to store, manage, share, and deploy your container images and artifacts
@@ -255,7 +256,7 @@ access to high-performance networking
 * Developer Workflow Tools
   * [Skaffold](https://skaffold.dev/) - A command line tool that facilitates continuous development for container-based applications
 * Platform Extensions
-  * [kube-fencing](https://github.com/kvaps/kube-fencing) - A solution for fencing of stateful application's nodes in kubernetes
+  * [kube-fencing](https://github.com/kvaps/kube-fencing) - A solution for fencing of stateful application's nodes in Kubernetes
   * [KubeVirt](https://kubevirt.io/) - A virtual machine management add-on for Kubernetes
 * Operator & Controller Development
   * [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) - A framework for building Kubernetes APIs using custom resource definitions (CRDs)
@@ -337,7 +338,7 @@ access to high-performance networking
   * [Harness](https://harness.io/) - A modern software delivery platform that uses AI and automation to streamline CI/CD, GitOps, and cloud cost management
   * [Jenkins](https://www.jenkins.io/) - An open source automation server which enables developers around the world to reliably build, test, and deploy their software
     * [Blue Ocean for Jenkins Pipelines](https://www.jenkins.io/projects/blueocean/) - A project that rethinks the user experience of Jenkins
-    * [Python Jenkins](https://opendev.org/jjb/python-jenkins) - A python wrapper for the Jenkins REST API
+    * [Python Jenkins](https://opendev.org/jjb/python-jenkins) - A Python wrapper for the Jenkins REST API
   * [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) - A part of GitLab that you can use to automate the builds, integration, and verification of your source code
   * [GitHub Actions](https://github.com/features/actions) - A feature that makes it easy to automate all your software workflows
   * [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/) - A cloud service that you can use to automatically build and test your code project and make it available to other users
@@ -357,7 +358,7 @@ access to high-performance networking
 ### Integrations & Registries
 
 * Terraform Integration
-  * [Atrantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
+  * [Atlantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
 * Private Package Registries
   * [JFrog Artifactory](https://jfrog.com/artifactory/) - A universal DevOps repository manager that allows you to store, manage, and distribute your software artifacts and their dependencies
   * [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/index.html) - A feature that allows you to publish and share packages for a variety of supported package managers
@@ -412,7 +413,7 @@ access to high-performance networking
     * [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) - The Prometheus Query Language
     * [promtool](https://prometheus.io/docs/prometheus/latest/command-line/promtool/) - The command line utility for the Prometheus server
   * [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) - A tool that handles alerts sent by client applications such as the Prometheus server
-    * [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A cli tool for interacting with the Alertmanager API
+    * [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A CLI tool for interacting with the Alertmanager API
   * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) - A time series database built from the ground up to handle high write and query loads
     * [InfluxQL](https://docs.influxdata.com/influxdb/v1/query_language/) - An SQL-like query language for interacting with data in InfluxDB
     * [influx cli](https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/) - The command line interface for InfluxDB 2.0
@@ -451,7 +452,6 @@ access to high-performance networking
   * [AWS Systems Manager](https://aws.amazon.com/systems-manager/) - A secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments
   * [Azure Automation](https://azure.microsoft.com/en-us/products/automation) - A cloud-based automation and configuration service that supports consistent management across your Azure and non-Azure environments
     * [Azure Update Manager](https://learn.microsoft.com/en-us/azure/update-manager/) - A unified service to help manage and govern updates for all your machines
-  * [Rudder](https://www.rudder.io/) - An open-source, continuous configuration and compliance platform for IT infrastructure automation
 * Backup
   * Vendor-specific Tools
     * [AWS Backup](https://aws.amazon.com/backup/) - A fully managed service that centralizes and automates data protection across AWS services, in the cloud, and on premises
@@ -463,8 +463,6 @@ access to high-performance networking
     * [Restic](https://restic.net/) - A fast, secure, efficient backup program
 * Runbook Automation
   * [RunDeck](https://www.rundeck.com/) - An open source automation platform that helps you automate routine operational procedures in data center or cloud environments
-  * [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
-  * [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
 * AIOps & Autonomous Agents
   * [Azure SRE Agent](https://aka.ms/sreagent) - An AI-powered service designed to automate Site Reliability Engineering practices by monitoring, diagnosing, and helping resolve incidents
   * [Mezmo Aura](https://www.mezmo.com/aura) - An open-source agentic harness designed specifically for Site Reliability Engineering (SRE) and production AI operations

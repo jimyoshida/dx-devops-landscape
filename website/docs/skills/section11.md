@@ -95,6 +95,7 @@
   * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
   * [pdfcpu](https://pdfcpu.io/) - A PDF processor written in Go
   * [MinerU](https://mineru.net/) - A high-quality tool for convert PDF to Markdown and JSON
+  * [Nano-PDF](https://github.com/gavrielc/Nano-PDF) - A command-line tool that enables users to edit PDF slides using natural language instructions, powered by AI vision models, with multi-page parallel editing and non-destructive text-layer preservation through OCR
 * Libraries
   * [Folio](https://github.com/carlos7ags/folio) - A modern PDF library for Go that includes a layout engine, HTML-to-PDF conversion, support for forms, digital signatures, barcodes, and PDF/A compliance
   * [Poppler](https://poppler.freedesktop.org/) - A PDF rendering library based on the xpdf-3.0 code base

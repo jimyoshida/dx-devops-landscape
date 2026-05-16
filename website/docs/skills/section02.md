@@ -20,9 +20,6 @@
   * [MQTT](https://mqtt.org/) - A lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service
   * [AMQP](https://www.amqp.org/) - An open standard application layer protocol for message-oriented middleware
 * Data & Event Specifications
-  * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
-  * [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
-  * [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
   * [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
   * [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
   * [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
@@ -141,8 +138,8 @@
   * Preprocessors
     * [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
   * Transforms
-    * [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/)
-    * [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/)
+    * [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/) - A CSS module that allows elements to be transformed in two-dimensional space
+    * [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/) - A CSS module that allows elements to be transformed in three-dimensional space
 * UI Component Libraries
   * [templUI](https://templui.io/) - A growing collection of beautifully designed UI components for Go and templ
   * [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
@@ -203,7 +200,7 @@
 * Ruby Backend Frameworks & Servers
   * [Ruby on Rails](https://rubyonrails.org/) - A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern
   * [Rack](https://rack.github.io/) - A modular Ruby web server interface
-    * [Puma](https://puma.io/) - A fact, concurrent web server for Ruby & Rack
+    * [Puma](https://puma.io/) - A fast, concurrent web server for Ruby & Rack
     * [Falcon](https://socketry.github.io/falcon/) - A multi-process, multi-fiber rack-compatible HTTP server built on top of async, async-container and async-http
     * [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
   * [Sidekiq](https://sidekiq.org/) - A simple, efficient background processing tool for Ruby
@@ -229,7 +226,7 @@
 * JS/TS Full-stack Frameworks
   * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
   * [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
-  * [Astro](https://astro.build/) - The web framework for content-driven website
+  * [Astro](https://astro.build/) - The web framework for content-driven websites
   * [Fresh](https://fresh.deno.dev/) - A next generation web framework, built for speed, reliability, and simplicity
 * Rust Full-Stack Frameworks
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
@@ -271,10 +268,15 @@
   * [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content
   * [Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/) - A modern cloud content delivery network (CDN) that provides a secure and scalable entry point for fast delivery of your global web applications and content
 
-### Blockchain & Decentralized Web
+### Decentralized Web & Social
 
-* [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
-* [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
+* Blockchain
+  * [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
+  * [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
+* Decentralized Social
+  * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
+  * [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
+  * [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
 
 ## Development & Testing Tools
 
@@ -286,8 +288,8 @@
   * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
   * [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
   * [httpie cli](https://httpie.io/cli) - A simple yet powerful command-line HTTP and API testing client for the API era
-  * [wuzz](https://github.com/asciimoo/wuzz) - An interactive cli tool for HTTP inspection
-  * [httptap](https://github.com/monasticacademy/httptap) - View the HTTP and HTTPS requests made by any linux program
+  * [wuzz](https://github.com/asciimoo/wuzz) - An interactive CLI tool for HTTP inspection
+  * [httptap](https://github.com/monasticacademy/httptap) - A tool to view the HTTP and HTTPS requests made by any Linux program
 * Libraries
   * [Python Requests](https://docs.python-requests.org/en/latest/) - An elegant and simple HTTP library for Python, built for human beings
   * [JS Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
@@ -310,9 +312,8 @@
 
 ### Web Debugging Tools
 
-* Web Debugging
-  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
-  * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
+* [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
 
 ### Web Test Automation Frameworks
 
@@ -326,7 +327,7 @@
     * [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
   * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
   * [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - A low-level API that allows external tools to instrument, inspect, debug, and profile Chromium-based browsers
-  * [Karma](https://karma-runner.github.io) - A test runner that fits all our needs
+  * [Karma](https://karma-runner.github.io) - A test runner that spawns a web server and executes source code against test code for each of the connected browsers
   * Dependencies
     * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
 * Accessibility Testing
@@ -344,19 +345,18 @@
 
 ### Static Site Generators
 
-* Static Site Generators
-  * [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
-  * [mdBook](https://github.com/rust-lang/mdBook) - A utility to create modern online books from Markdown files
-  * [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
-  * [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
-    * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
-  * [Jekyll](https://jekyllrb.com/) - A simple, blog-aware, static site generator perfect for personal, project, or organization sites
-  * [Eleventy](https://www.11ty.dev/) - A simpler static site generator written in JavaScript
-  * [Sphinx](http://www.sphinx-doc.org/en/master/) - A tool that makes it easy to create intelligent and beautiful documentation
-  * [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
-    * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
-  * [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
-  * [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
+* [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
+* [mdBook](https://github.com/rust-lang/mdBook) - A utility to create modern online books from Markdown files
+* [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
+* [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
+  * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
+* [Jekyll](https://jekyllrb.com/) - A simple, blog-aware, static site generator perfect for personal, project, or organization sites
+* [Eleventy](https://www.11ty.dev/) - A simpler static site generator written in JavaScript
+* [Sphinx](http://www.sphinx-doc.org/en/master/) - A tool that makes it easy to create intelligent and beautiful documentation
+* [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
+  * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
+* [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
+* [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
 * Static Site & JAMstack Hosting
   * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
   * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites

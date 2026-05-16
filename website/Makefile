@@ -45,12 +45,9 @@ else
 	-a pdf-theme=pdf/eng-theme.yml $<
 endif
 
-# Markmap Source Files
-SKILLPAGES := $(wildcard docs/skills/*.md)
-
 # Markmap Dest File
 MAPHTML := static/usr/docs/map.html
-MAPMD := markmap/tmp/digest.md
+MAPMD := ../data/digest.md
 
 .PHONY: markmap
 markmap: $(MAPHTML)
@@ -58,7 +55,3 @@ markmap: $(MAPHTML)
 $(MAPHTML): $(MAPMD)
 	mkdir -p $(@D)
 	npx markmap --no-open -o $@ $<
-
-$(MAPMD): $(SKILLPAGES)
-	mkdir -p $(@D)
-	cat $^ | perl markmap/digest.pl > $@

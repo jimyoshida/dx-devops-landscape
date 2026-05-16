@@ -61,6 +61,7 @@
 * [Prophet](https://facebook.github.io/prophet/) - A forecasting procedure for time series data that is fast and provides completely automated forecasts
 * [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
 * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows
+* [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
 
 ## Neural Networks and Deep Learning
 
@@ -203,8 +204,6 @@
 * [RedCandle](https://github.com/scientist-labs/red-candle) - A Ruby gem for running state-of-the-art language models locally (via Rust's Candle)
 * [Unsloth AI](https://unsloth.ai/) - A platform providing tools and services for easily fine-tuning and training Large Language Models (LLMs) to achieve faster and more efficient AI training
 * [LLM](https://llm.datasette.io/en/stable/) - A CLI utility and Python library for interacting with Large Language Models
-* [lootbox](https://github.com/jx-codes/lootbox) - A CLI which is inspired by "Code Mode" - LLMs write TypeScript code to call APIs rather than using tool invocation
-* [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
 
 ### Benchmarking & Analysis
 
@@ -240,7 +239,6 @@
   * [Agno](https://docs.agno.com/) - A multi-agent framework, runtime and control plane
   * [crewAI](https://www.crewai.com/open-source) - An open-source, multi-agent orchestration framework that empowers developers to orchestrate high-performing AI agents with ease and scale
   * [Deep Agents](https://github.com/langchain-ai/deepagents) - The easiest way to start building agents and applications powered by LLMs—with built-in capabilities for task planning, file systems for context management, subagent-spawning, and long-term memory
-    * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
   * [LangGraph](https://www.langchain.com/langgraph) - A library for building stateful, multi-actor applications with LLMs by creating cyclic graphs for agent runtimes
   * [Mastra](https://mastra.ai/) - An all-in-one, open-source TypeScript framework for building, iterating, and deploying AI agents with built-in support for workflows, RAG, memory, and observability
   * [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - A resource for building robust, future-proof Agentic AI solutions that evolve with technological advancements

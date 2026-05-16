@@ -1,0 +1,1130 @@
+---
+title: Skills
+markmap:
+  colorFreezeLevel: 2
+---
+## 01 - Software Development, Management & Business
+
+### Software Development Methods
+
+#### Agile Development
+
+
+#### Lean Development
+
+
+#### DevOps & Engineering Productivity
+
+
+### Release Management
+
+#### Release Automation
+
+
+#### Conventions & Standards
+
+
+### Software Design & Architecture
+
+#### Design Principles
+
+
+#### Design Best Practices
+
+
+#### Design Patterns
+
+
+#### Architectural Styles
+
+
+#### Requirements & Architecture Description
+
+
+#### Domain-Driven Design (DDD)
+
+
+### Project & Work Management
+
+#### Core Practices
+
+
+### Product Management
+
+
+### Metrics & Performance
+
+#### Goal Setting & Performance
+
+
+### Enterprise Strategy & Architecture
+
+#### Enterprise Architecture & Administration
+
+
+#### Strategic Management
+
+
+#### Marketing
+
+
+#### Risk Management
+
+
+### Enterprise AI & Productivity
+
+#### General Autonomous Agents
+
+
+#### Enterprise AI Assistants
+
+
+#### Self-Hosted AI Platforms
+
+
+### Low-Code & No-Code Development
+
+#### Business Application Platforms
+
+
+#### Workflow & Integration Automation
+
+
+#### Web Content & Portal Builders
+
+
+### The Open Ecosystem
+
+#### Open Source
+
+
+#### AI Agent Registries
+
+
+#### Open Data
+
+
+#### Community & Governance
+
+## 02 - Web Application Development
+
+### Fundamentals
+
+#### Web Concepts
+
+
+#### Browser Technologies & DOM
+
+
+#### Web Architectural Styles & Patterns
+
+
+### Frontend Development
+
+#### UI Frameworks & Core Libraries
+
+
+#### State, Routing & Logic
+
+
+#### Styling & UI Components
+
+
+#### Build & Development Tooling
+
+
+### Backend Development
+
+#### Backend Frameworks
+
+
+#### Full-stack Development
+
+
+### Web Infrastructure
+
+#### Web Server & Proxy
+
+
+#### CDN & Edge Computing
+
+
+#### Decentralized Web & Social
+
+
+### Development & Testing Tools
+
+#### Web/HTTP Clients
+
+
+#### Web Debugging Tools
+
+
+#### Web Test Automation Frameworks
+
+
+### Document Site Generation
+
+#### Static Site Generators
+
+
+#### Headless CMS
+
+## 03 - Cloud & Cloud-Native Computing
+
+### Cloud Computing
+
+#### Computing & Storage (IaaS)
+
+
+#### Networking
+
+
+#### Application Hosting Platform (PaaS)
+
+
+#### Command Line Interfaces
+
+
+#### Cloud Emulators
+
+
+#### Private Cloud & On-Premises IaaS
+
+
+#### Cloud Architecture Frameworks
+
+
+### Configuration as Code
+
+#### Infrastructure as Code (IaC)
+
+
+#### AI-driven Infrastructure
+
+
+#### Configuration Management & Automation
+
+
+#### Image Building
+
+
+#### Ecosystem & Vendor Tools
+
+
+### Containerization
+
+
+#### Fundamentals
+
+
+#### Engines & Runtimes
+
+
+#### Image Management
+
+
+#### Environment & Management
+
+
+### WebAssembly
+
+
+
+### Kubernetes
+
+
+#### Core Concepts & Components
+
+
+#### Operations & Management
+
+
+#### CLI & Local Environments
+
+
+#### Ecosystem & Extensions
+
+
+### Cloud-Native Computing
+
+
+#### Container as a Service (CaaS)
+
+
+#### Function as a Service (FaaS)
+
+
+#### Advanced Runtimes & Isolation
+
+
+#### Cloud-Native Infrastructure
+
+
+### CI/CD & GitOps
+
+#### Delivery & Deployment
+
+
+#### GitOps & Cloud-Native
+
+
+#### Integrations & Registries
+
+
+### System Observability
+
+#### Instrumentation & Platforms
+
+
+#### Telemetry Shipment
+
+
+#### Telemetry Collection & Storage
+
+
+#### Visualization
+
+
+### SRE (Site Reliability Engineering)
+
+
+#### Fleet Management & Operations
+
+
+#### Chaos Engineering
+
+
+#### FinOps
+
+## 04 - Security & Privacy
+
+### Security Foundations
+
+
+#### Common Threats & Attack Vectors
+
+
+#### Modern Security Architectures
+
+
+#### Security Training & Competitions
+
+
+### Cryptography & Data Protection
+
+#### Core Cryptography
+
+##### Hashing
+
+
+##### Symmetric-key Cryptography
+
+
+##### Public-key Cryptography
+
+
+#### Public Key Infrastructure (PKI)
+
+
+#### Secrets Management
+
+
+#### Applied Cryptography & Tools
+
+##### Advanced Topics
+
+
+##### End-to-end Encryption Tools
+
+
+##### Transaction Security
+
+
+##### Cryptographic Libraries
+
+
+### Identity & Access Management (IAM)
+
+#### Integrated IAM
+
+
+#### Authentication (AuthN)
+
+
+#### Authorization (AuthZ)
+
+
+### Secure Development Lifecycle (DevSecOps)
+
+#### Secure Design & Modeling
+
+
+#### Secure Development Practices
+
+
+#### Application Security Testing (AST)
+
+
+#### Infrastructure as Code (IaC) Security
+
+
+#### Software Supply Chain Security (SSCS)
+
+
+### Runtime & Operational Security
+
+#### Cloud-Native Application Protection (CNAPP)
+
+
+#### Security Operations & Monitoring (SecOps)
+
+
+#### Policy Enforcement
+
+
+#### Digital Forensics & Incident Response (DFIR)
+
+
+### Secure Communications & Networking
+
+#### Transport Layer Security (TLS)
+
+
+#### Secure Shell (SSH)
+
+
+#### Web Application Security
+
+
+#### Firewalls & Network Protection
+
+
+#### Email & DNS Security
+
+
+### Governance, Risk, and Compliance (GRC)
+
+#### Data Governance
+
+
+#### AI Governance & Security
+
+
+#### Regulations & Standards
+
+
+#### Vulnerability Management & Reporting
+
+
+### System & Personal Security
+
+#### OS & Endpoint Security
+
+
+#### Personal Security Tools
+
+## 05 - Data Science & Engineering
+
+### Foundational Concepts
+
+#### General Data Concepts & Principles
+
+
+#### Core Data Engineering & Database Concepts
+
+
+### Data Science Toolkit
+
+#### Programming Languages & Libraries
+
+
+#### Spreadsheet & Collaborative Data Platforms
+
+
+#### Interactive Computing Environments
+
+
+### Data Visualization
+
+#### Common Chart Types
+
+
+#### Visualization Tools & Libraries
+
+
+#### Dashboarding & Web Apps
+
+
+### Distributed Systems
+
+#### Distributed Computing Principles
+
+
+#### Distributed Storage Systems
+
+
+### Mathematics & Statistics
+
+#### Base Mathematics
+
+
+#### Probability & Information Theory
+
+
+#### Statistics & Numerical Methods
+
+
+### Data Formats & Architecture
+
+#### Data Formats & Table Formats
+
+
+#### Data Architectures & Methodologies
+
+
+### Relational Databases (SQL)
+
+#### SQL Fundamentals
+
+
+#### Database Management Systems (DBMS)
+
+
+#### Cloud & Managed Services
+
+
+#### Connectivity & Tooling
+
+
+### NoSQL & Specialized Databases
+
+#### NoSQL Data Models
+
+
+#### Vector & AI Databases
+
+
+#### Cloud NoSQL Services
+
+
+### Data Processing & Messaging
+
+#### Enterprise Integration
+
+
+#### Message Queuing & Event Streaming
+
+
+#### Batch Processing (ETL/ELT)
+
+
+#### Stream Processing
+
+
+### Data Analytics & Search
+
+#### Search Engines & Platforms
+
+
+#### Analytics Engines & Platforms
+
+
+#### Semantic Layer
+
+## 06 - AI, Machine Learning & LLM
+
+### Foundations of AI & Machine Learning
+
+
+### Machine Learning
+
+#### Learning Paradigms
+
+
+#### Concepts & Techniques
+
+
+#### Ecosystem & Tools
+
+
+### Neural Networks and Deep Learning
+
+
+#### Architectures
+
+
+#### Frameworks & Tools
+
+
+#### Textbooks
+
+
+### Natural Language Processing (NLP)
+
+
+#### Concepts & Vector Representations
+
+
+#### Libraries & Tools
+
+
+### Computer Vision
+
+#### Software & Tools
+
+
+### Speech Recognition
+
+
+### Generative AI & Large Language Models (LLMs)
+
+
+#### Model Providers & Aggregators
+
+
+#### Standards & Model Formats
+
+
+#### Model Interface SDKs & Clients
+
+
+#### Techniques & Methods
+
+
+#### Development Tools & Utilities
+
+
+#### Benchmarking & Analysis
+
+
+### Agentic AI
+
+#### Standards & Protocols
+
+
+#### Agentic Patterns & Techniques
+
+
+#### Agent Orchestration & Frameworks
+
+
+#### Agent Development Kits (ADK)
+
+
+#### Supporting Services & Platforms
+
+
+### MLOps & LLMOps
+
+#### ML Lifecycle & MLOps Platforms
+
+
+#### LLM Serving & Runtimes
+
+
+#### LLMOps & Observability
+
+## 07 - Fundamental Developer Tools
+
+### Shell & Terminal
+
+#### Bash & Other Shells
+
+
+#### Shell Utilities
+
+
+#### Terminal Emulators
+
+
+#### Terminal Utilities
+
+
+#### Linux or Unix-like environments on Windows
+
+
+### Scripting Languages
+
+#### Python
+
+
+#### JavaScript & TypeScript
+
+
+#### Ruby, Perl & Others
+
+
+### CLI/TUI Development
+
+
+### Version Control System
+
+
+#### Git Hosting Services
+
+
+#### Branching Models
+
+
+#### Code Review
+
+
+### Integrated Development Environment (IDE)
+
+
+#### Language Servers
+
+
+### Developer AI & Productivity
+
+#### AI Productivity Tools
+
+
+#### Development Agents
+
+
+#### Supporting Tools & Infrastructure
+
+## 08 - OS & Network Basics
+
+### Core OS Concepts
+
+
+#### Process Management
+
+
+#### Inter-Process Communication (IPC)
+
+
+#### Memory Management
+
+
+#### Storage Management
+
+
+### Base Network Concepts & Protocols
+
+
+#### Link Layer (L2)
+
+
+#### Internet Layer (L3)
+
+
+#### Transport Layer (L4)
+
+
+#### Network Architectures
+
+
+### Domain Name System (DNS)
+
+
+#### Domain Registration & Lookup
+
+
+#### Server & Resolver Implementations
+
+
+#### Client Tools
+
+
+#### Cloud Services
+
+
+### Email System
+
+
+#### Mailbox Formats
+
+
+#### Server Software (MTA/MDA)
+
+
+#### Client Software & Utilities
+
+
+#### Spam Test and Reputation
+
+
+
+### Unix-like Operating Systems
+
+
+#### Linux Distributions
+
+
+#### BSD Distributions
+
+
+#### System Services & Auth
+
+
+### Machine Virtualization
+
+
+#### Type-1 Hypervisors
+
+
+#### Type-2 Hypervisors
+
+
+#### CPU Emulators
+
+
+#### Computer Hardware
+
+
+### Linux Host Administration
+
+#### Core Utilities
+
+
+#### Process & System Monitoring
+
+
+#### Time Synchronization
+
+
+#### Modern CLI Alternatives
+
+
+#### Package Management Tools
+
+
+### Linux Network Administration
+
+#### Configuration & Management
+
+
+#### Analysis & Security
+
+
+#### Proxies & Gateways
+
+
+### File Sharing & Remote Access
+
+#### File Servers and Protocols
+
+
+#### Remote Access Servers and Protocols
+
+
+### Performance & Load Testing
+
+
+#### Performance Testing Tools
+
+## 09 - Programming Concepts & Paradigms
+
+### Mathematical Logic
+
+#### Foundational Concepts
+
+
+#### Logical Systems
+
+
+#### Branches of Mathematical Logic
+
+
+#### Applications
+
+
+#### Tools and Resources
+
+
+### Core Programming Concepts
+
+#### Language Mechanics & Execution
+
+
+#### Memory Management
+
+
+#### Control Flow Structures
+
+
+#### Foundational Techniques & Properties
+
+
+#### Module Structure & Organization
+
+
+### Programming Paradigms
+
+#### Object-oriented Programming
+
+
+#### Functional Programming
+
+
+#### Reactive Programming & Others
+
+
+### Asynchronous & Concurrency
+
+
+### Refactoring & Clean Code
+
+
+#### Analysis Platform
+
+
+#### Formatters
+
+
+#### Linters
+
+
+#### Coding style guides
+
+
+### Language Analysis
+
+
+### Program Translation
+
+
+#### Major Compiler Infrastructures
+
+
+#### Specific Translators & Build Tools
+
+
+#### Linkers (Standalone)
+
+
+### Program Execution
+
+
+#### Runtime Implementations
+
+
+#### Related Tools
+
+
+### Algorithm & Computational Complexity
+
+
+#### External Resources
+
+
+#### Algorithm
+
+
+#### Data Structures
+
+## 10 - Advanced Programming
+
+### Procedural & Systems Programming
+
+#### Rust Language
+
+
+#### Go Language
+
+
+#### C & Other Procedural Languages
+
+
+### Functional & Hybrid Programming
+
+#### Functional-first & Multi-paradigm Languages
+
+
+#### Multi-paradigm & Hybrid Languages
+
+
+### Text & Time Format Standards
+
+#### Text Format & Character Code
+
+support
+
+#### DateTime Format
+
+
+### Regular Expression
+
+
+### Text Manipulation
+
+
+#### Template Engines
+
+
+#### Markup & Document Processing
+
+
+### Data Exchange Languages
+
+
+### Configuration Languages
+
+
+### Debugging
+
+
+#### Logging
+
+
+### Test Frameworks & Tools
+
+
+#### Test Frameworks
+
+
+#### Assertion Libraries
+
+
+#### Code Coverage Tools
+
+
+#### Test Supporting Tools
+
+
+#### Mutation Testing
+
+
+### Build Automation
+
+
+#### Monorepo Management
+
+
+#### Program Documentation
+
+
+### Package Dependency Management
+
+
+### Virtual Environment
+
+## 11 - Specialized Development Domains
+
+### Business Application SDKs
+
+
+### Binary & Media Processing
+
+
+#### Image & Media Processing
+
+
+#### Compression & Archiving
+
+
+### Document Processing
+
+
+#### PDF Processing
+
+
+#### Office Document Processing
+
+
+### Desktop App Development
+
+#### Client OS & Environments
+
+
+#### GUI Systems & Windowing
+
+
+#### Desktop GUI Toolkits
+
+
+#### Installation & Packaging
+
+
+### Mobile App Development
+
+#### Mobile Platforms & Native SDKs
+
+
+#### Mobile Cross-Platform Frameworks
+
+
+#### Mobile DevOps & Testing
+
+
+#### Application Services & Features
+
+
+### Internet of Things (IoT)
+
+
+### Computer Graphics & Game Development
+
+#### 3D Graphics
+
+
+#### 2D Graphics
+
+
+#### Graphics APIs
+
+## 12 - Interdisciplinary Foundations
+
+### Logic
+
+
+#### Informal Logic
+
+
+### Agile Documentation
+
+
+#### Knowledge Management
+
+
+#### Architectural Documentation
+
+
+#### Lightweight Markup & Writing Styles
+
+
+#### Documentation Tooling
+
+
+### Human Interface Design
+
+#### Core Principles & User Experience (UX)
+
+
+#### Cognitive & Behavioral Psychology
+
+
+#### Visual Design & Typography
+
+
+#### Platforms, Frameworks & Guidelines
+
+
+#### Web Experience & Performance
+
+
+#### Font Rendering
+
+
+### People & Collaboration
+
+#### Team Dynamics & Communication
+
+
+### Psychology & Sociology
+
+#### Personal Performance
+
+
+#### Social Performance
+
+
+### Economics & Game Theory
+
+
+### Finance & Accounting
+
