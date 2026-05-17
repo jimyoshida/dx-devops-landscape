@@ -28,7 +28,7 @@ CI uses the `jimyoshida/node-make-extra` Docker image which includes all require
 The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
-Each level 2 header can have up to 5 level 3 headers as subsections.
+Each level 2 header can have up to 6 level 3 headers as subsections.
 The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
 
@@ -67,6 +67,7 @@ In addition, the markdown files under the `website/docs/timelines/` directory co
 
 Each entry is a paragraph which contains the description basically quoted from Wikipedia English version. It must include the date information of the event and must be arranged in chronological order.
 If the event's month or day is unclear, they should be located at the last position of the year or month respectively.
+The description should not use bold style.
 
 Each entry starts with one of the following class emoji.
 
@@ -100,6 +101,18 @@ make test    # Run write.pl unit tests (requires ruby)
 ```
 
 `sections.yml` maps section IDs (e.g., `section01`) to their titles. Run `make read` after renaming sections, then `make write` to propagate changes.
+The digest markdown is generated at `data/digest.md`.
+
+## Project Skills (`.claude/skills/`)
+
+The following user-invocable skills are available for maintaining this repository:
+
+- `insert-items` — Find the proper subsection and insert new skill items with verified URLs
+- `suggest-items-for` — Suggest missing items for a given subsection
+- `check-classification` — Review and suggest improvements to section classification
+- `check-end-of-life` — Check if listed software/services are still actively maintained
+- `research-timeline` — Research history and timeline events for a technology item
+- `release` — Merge `draft` onto `main` with squash commit and push to remotes
 
 ## AI Prompts (`prompts/`)
 

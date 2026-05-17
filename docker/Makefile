@@ -9,3 +9,5 @@ run:
 push:
 	docker image tag $(image_name):latest jimyoshida/$(image_name):latest
 	docker image push jimyoshida/$(image_name):latest
+	docker image tag $(image_name):latest jimyoshida/$(image_name):node22
+	docker image push jimyoshida/$(image_name):node22

@@ -52,6 +52,7 @@
   * [Kroki](https://kroki.io/) - A free and open source service that converts plain text diagrams to images
   * [Graphviz](https://graphviz.org/) - An open source graph visualization software
     * [DOT language](https://graphviz.org/doc/info/lang.html) - A plain text graph description language
+    * [sfdp](https://graphviz.org/docs/layouts/sfdp/) - A scalable, multiscale force-directed layout engine for large undirected graphs that minimizes edge crossings and avoids node overlaps
     * [haphviz](https://hackage.haskell.org/package/haphviz) - A Haskell library for representing, manipulating, and pretty-printing graphs in the DOT format
   * [ditaa](https://github.com/stathissideris/ditaa) - A small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
 * Architectural Decision Records

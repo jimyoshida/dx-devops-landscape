@@ -297,6 +297,8 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 
 🧠 The February 2026 release (v1.110) of Visual Studio Code introduced "Agent Plugins," experimental "Agentic Browser Tools," and the ability for agents to share memory across different sessions for GitHub Copilot.
 
+🧠 NanoClaw v1.1.0, a lightweight containerized alternative to OpenClaw built on Anthropic's Agent SDK with messaging app integration, was released on February 23, 2026, as its first documented release, introducing an upstream-update skill and fixing a critical path-traversal vulnerability.
+
 🧠 On March 9, 2026, Microsoft announced "Microsoft 365 Copilot Wave 3," introducing "Copilot Cowork"—an autonomous agentic workflow system—alongside "Agent 365," a dedicated control plane for enterprise-wide agent management and governance.
 
 🧠 OpenClaw v2026.3.12 was released on March 12, 2026, introducing a major architectural shift with a new provider-plugin system and a centralized dashboard for managing agent activities.
@@ -304,3 +306,5 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 🧠 Microsoft Agent Framework 1.0, a modern AI orchestration framework designed for building autonomous agentic workflows, was first released as an open-source project on April 3, 2026.
 
 ⚙️ Linux 7.0 was released on April 12, 2026, as the latest major stable version, continuing the kernel's evolution with advanced hardware support and further integration of memory-safe programming languages.
+
+🧠 NanoClaw v2.0.0 was released on April 22, 2026, as a ground-up architectural rewrite featuring a new entity model, dual-database session design, and a Bun-based runner.

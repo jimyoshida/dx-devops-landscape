@@ -1,6 +1,6 @@
 # Docusaurus site build
 .PHONY: all
-all: pdf markmap
+all: pdf markmap graphmap
 	yarn build
 
 # Cleanup
@@ -55,3 +55,15 @@ markmap: $(MAPHTML)
 $(MAPHTML): $(MAPMD)
 	mkdir -p $(@D)
 	npx markmap --no-open -o $@ $<
+
+# Graphmap SVG Dest File
+GRAPHPDF := static/usr/docs/graphmap.pdf
+SKILLFILES := $(wildcard docs/skills/section*.md)
+
+.PHONY: graphmap
+graphmap: $(GRAPHPDF)
+
+$(GRAPHPDF): $(SKILLFILES)
+	mkdir -p $(@D) tmp
+	cat $(SKILLFILES) | perl ../data/graphmap.pl > tmp/graphmap.dot
+	sfdp -Tpdf -o $@ tmp/graphmap.dot

@@ -12,8 +12,6 @@ toc::[]
 
 include::tmp/docs/intro.adoc[]
 
-include::tmp/docs/dss-p.adoc[]
-
 include::tmp/docs/skills/section01.adoc[]
 
 include::tmp/docs/skills/section02.adoc[]
@@ -38,9 +36,9 @@ include::tmp/docs/skills/section11.adoc[]
 
 include::tmp/docs/skills/section12.adoc[]
 
-include::tmp/docs/timelines/1930-79.adoc[]
+include::tmp/docs/timelines/1930-84.adoc[]
 
-include::tmp/docs/timelines/1980-99.adoc[]
+include::tmp/docs/timelines/1985-99.adoc[]
 
 include::tmp/docs/timelines/2000-09.adoc[]
 

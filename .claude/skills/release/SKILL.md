@@ -1,3 +1,10 @@
+---
+name: release
+description: Use when the user asks to "release", "release draft", "publish to main", or wants to merge the draft branch onto main and push.
+version: 1.0.0
+disable-model-invocation: true
+---
+
 # Release 'draft' onto 'main' with squash and push
 
 Perform the release of the current 'draft' branch onto 'main' with the following steps:

@@ -9,8 +9,8 @@ write:
 	for file in ../website/docs/skills/*.md; do \
 		perl write.pl $$file sections.yml; \
 	done
-	perl write.pl ../website/docs/dss-p.md sections.yml
-	perl write.pl ../README.md sections.yml
+	perl write.pl ../website/docs/class-policy.md sections.yml
+	perl write.pl ../website/docs/intro.md sections.yml
 
 test_write:
 	ruby write_test.rb --verbose

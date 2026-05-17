@@ -1,8 +1,9 @@
-FROM node:22-alpine
+FROM node:22
 
-RUN apk add --no-cache make sed gawk perl ruby pandoc \
-    ruby-dev build-base \
-    && gem install --no-document asciidoctor-pdf bigdecimal \
-    && apk del ruby-dev build-base
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    make sed gawk perl libyaml-tiny-perl pandoc \
+    graphviz \
+    ruby ruby-asciidoctor-pdf \
+    && rm -rf /var/lib/apt/lists/*
 
 CMD ["sh"]

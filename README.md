@@ -2,22 +2,39 @@
 
 Please visit the website build with Docusaurus. There is the link in the project description.
 
-Here is the link list of the source markdown files.  
+If you perfer to use GitHub/GitLab, go to [Introduction](website/docs/intro.md).
 
-- [Introduction](website/docs/intro.md)
-- [DSS-P Role Mapping Matrix](website/docs/dss-p.md)
-- [01 - Software Development, Management & Business](website/docs/skills/section01.md)
-- [02 - Web Application Development](website/docs/skills/section02.md)
-- [03 - Cloud & Cloud-Native Computing](website/docs/skills/section03.md)
-- [04 - Security & Privacy](website/docs/skills/section04.md)
-- [05 - Data Science & Engineering](website/docs/skills/section05.md)
-- [06 - AI, Machine Learning & LLM](website/docs/skills/section06.md)
-- [07 - Fundamental Developer Tools](website/docs/skills/section07.md)
-- [08 - OS & Network Basics](website/docs/skills/section08.md)
-- [09 - Programming Concepts & Paradigms](website/docs/skills/section09.md)
-- [10 - Advanced Programming](website/docs/skills/section10.md)
-- [11 - Specialized Development Domains](website/docs/skills/section11.md)
-- [12 - Interdisciplinary Foundations](website/docs/skills/section12.md)
+## Local Build
+
+Install the following dependencies on Ubuntu (tested with 26.04):
+
+```bash
+sudo apt install pandoc ruby-asciidoctor-pdf
+sudo apt install graphviz libgvplugin-neato-layout8  # libgvplugin-neato-layout8 for sfdp support
+sudo apt install libyaml-tiny-perl
+```
+
+Then build from the `website/` directory:
+
+```bash
+yarn install        # once, to install Node dependencies
+make all            # pdf + markmap + graphmap + yarn build
+```
+
+The CI Docker image (`jimyoshida/node-make-extra`) bundles all of the above. To rebuild and push it after updating `docker/Dockerfile`, run from the `docker/` directory:
+
+```bash
+cd docker
+make build
+make push
+```
+
+When section titles are renamed, run `make` in the `data/` directory to propagate changes across all skill and doc files:
+
+```bash
+cd data
+make    # reads sections.yml, rewrites titles in all files, regenerates digest.md
+```
 
 ## License
 

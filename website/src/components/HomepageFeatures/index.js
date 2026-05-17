@@ -24,12 +24,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Mind Map',
+    title: 'Mind Map & Graph Map',
     Svg: require('@site/static/img/mindmap.svg').default,
     description: (
       <>
-        The skill items are visualized as an <a href="/usr/docs/map.html">interactive mind map</a>,
-        generated from the Markdown sources using markmap-cli.
+        The skill items are visualized as an <a href="/usr/docs/map.html">interactive mind map</a> (markmap)
+        and a <a href="/usr/docs/graphmap.pdf">force-directed graph map</a> (Graphviz sfdp),
+        both generated from the Markdown sources.
       </>
     ),
   },

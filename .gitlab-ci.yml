@@ -1,4 +1,4 @@
-image: jimyoshida/node-make-extra
+image: jimyoshida/node-make-extra:node22
 
 stages:
   - test

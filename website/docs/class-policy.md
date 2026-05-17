@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# DSS-P Role Mapping Matrix
+# Classification Policy
 
 This document maps this technical skill classification (12 sections) to the 5 talent roles defined in the IPA "Digital Skills Standard for Promotion (DSS-P)" to indicate the level of importance for each role.
 
