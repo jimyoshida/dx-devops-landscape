@@ -120,10 +120,9 @@
 * [dog](https://github.com/ogham/dog) - A command-line DNS client
 * [Doggo](https://doggo.mrkaran.dev/docs/) - A modern command-line DNS client (like dig) written in Go
 
-### Cloud Services
-
-* [Amazon Route53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System web service
-* [Google Cloud DNS](https://cloud.google.com/dns/) - A high-performance, resilient, global Domain Name System service that publishes your domain names to the global DNS in a cost-effective way
+* Managed DNS Services
+  * [Amazon Route53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System web service
+  * [Google Cloud DNS](https://cloud.google.com/dns/) - A high-performance, resilient, global Domain Name System service that publishes your domain names to the global DNS in a cost-effective way
 
 ## Email System
 
@@ -233,6 +232,7 @@
 ## Machine Virtualization
 
 * [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - The act of creating a virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources
+* [libvirt](https://libvirt.org/) - A toolkit to manage virtualization platforms
 
 ### Type-1 Hypervisors
 

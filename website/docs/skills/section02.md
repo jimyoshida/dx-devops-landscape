@@ -1,6 +1,6 @@
 # 02 - Web Application Development
 
-## Fundamentals
+## Web Platform Fundamentals
 
 ### Web Concepts
 
@@ -26,7 +26,7 @@
   * [TypeSpec](https://typespec.io/) - A minimal language that helps developers describe API shapes in a familiar way
   * API Tooling
     * [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
-* Performance
+* Web Performance Concepts
   * [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - A mechanism to resolve domain names before a user tries to follow a link
 * Web Application Types
   * [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
@@ -127,7 +127,7 @@
 
 * CSS Ecosystem
   * Frameworks and UI Kits
-    * [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit
+    * [Bootstrap](https://getbootstrap.com/) - The world's most popular front-end open source toolkit
     * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
     * [Oat](https://oat.ink/) - An ultra-lightweight, semantic, zero-dependency HTML UI component library that provides minimal, standards-based CSS and JS
   * Tailwind Component Libraries
@@ -169,6 +169,16 @@
 * Linters & Formatters
   * [Biome](https://biomejs.dev/) - A fast formatter and linter for JavaScript, TypeScript, JSX, TSX, JSON, HTML, CSS and GraphQL that provides a cohesive toolchain for web projects
   * [Knip](https://knip.dev/) - A tool that finds and fixes unused dependencies, exports and files in JavaScript and TypeScript projects
+
+## Full-stack Development
+
+* JS/TS Full-stack Frameworks
+  * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
+  * [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
+  * [Astro](https://astro.build/) - The web framework for content-driven websites
+  * [Fresh](https://fresh.deno.dev/) - A next generation web framework, built for speed, reliability, and simplicity
+* Rust Full-Stack Frameworks
+  * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
 
 ## Backend Development
 
@@ -220,16 +230,8 @@
   * [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - A free, cross-platform, open source framework for building web apps and services with .NET and C#
 * Elixir Backend Frameworks
   * [Phoenix](https://www.phoenixframework.org/) - A web framework for building rich, interactive web applications quickly with less code and fewer moving parts, used to craft APIs, HTML5 apps, and more at scale
-
-### Full-stack Development
-
-* JS/TS Full-stack Frameworks
-  * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
-  * [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
-  * [Astro](https://astro.build/) - The web framework for content-driven websites
-  * [Fresh](https://fresh.deno.dev/) - A next generation web framework, built for speed, reliability, and simplicity
-* Rust Full-Stack Frameworks
-  * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
+* GraphQL Servers
+  * [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
 
 ## Web Infrastructure
 
@@ -241,8 +243,6 @@
   * [Caddy](https://caddyserver.com/) - A powerful, extensible platform to serve your sites, services, and apps, written in Go
   * [HAProxy](https://www.haproxy.org/) - A free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications
   * [nodejs http-server](https://github.com/http-party/http-server#readme) - A simple static HTTP server
-* GraphQL Servers
-  * [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
 * API Management
   * [Unkey](https://www.unkey.com/) - An open-source API management platform designed to help developers secure, manage, and scale their APIs
   * [Kong API gateway](https://konghq.com/products/kong-gateway) - A lightweight, fast, and flexible cloud-native API gateway
@@ -267,22 +267,28 @@
     * [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
   * [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content
   * [Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/) - A modern cloud content delivery network (CDN) that provides a secure and scalable entry point for fast delivery of your global web applications and content
+* JAMstack Hosting
+  * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
+  * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 
-### Decentralized Web & Social
+## Decentralized Web
 
-* Blockchain
-  * [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
-  * [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
-* Decentralized Social
-  * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
-  * [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
-  * [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
+### Blockchain Technology
+
+* [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
+* [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
+
+### Decentralized Social
+
+* [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
+* [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
+* [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
 
 ## Development & Testing Tools
 
 ### Web/HTTP Clients
 
-* CLIs
+* HTTP CLI Tools
   * [cURL](https://curl.haxx.se/) - A command line tool and library for transferring data with URLs
   * [Wget](https://www.gnu.org/software/wget/) - A free software package for retrieving files using HTTP, HTTPS, FTP and FTPS
   * [curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie
@@ -290,7 +296,7 @@
   * [httpie cli](https://httpie.io/cli) - A simple yet powerful command-line HTTP and API testing client for the API era
   * [wuzz](https://github.com/asciimoo/wuzz) - An interactive CLI tool for HTTP inspection
   * [httptap](https://github.com/monasticacademy/httptap) - A tool to view the HTTP and HTTPS requests made by any Linux program
-* Libraries
+* HTTP Client Libraries
   * [Python Requests](https://docs.python-requests.org/en/latest/) - An elegant and simple HTTP library for Python, built for human beings
   * [JS Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
   * [Go Resty](https://github.com/go-resty/resty) - A simple HTTP and REST client library for Go
@@ -328,7 +334,7 @@
   * [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
   * [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - A low-level API that allows external tools to instrument, inspect, debug, and profile Chromium-based browsers
   * [Karma](https://karma-runner.github.io) - A test runner that spawns a web server and executes source code against test code for each of the connected browsers
-  * Dependencies
+  * Supporting Tools
     * [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
 * Accessibility Testing
   * [axe-core](https://www.deque.com/axe/) - An accessibility testing engine for websites and other HTML-based user interfaces
@@ -357,9 +363,6 @@
   * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
 * [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
 * [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
-* Static Site & JAMstack Hosting
-  * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
-  * [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
 
 ### Headless CMS
 

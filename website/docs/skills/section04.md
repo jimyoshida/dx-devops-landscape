@@ -16,16 +16,12 @@
 * [Business Email Compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - A type of phishing attack in which an attacker impersonates a high-level executive and attempts to trick an employee or customer into transferring money or sensitive data
 * [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - A type of Trojan horse designed to gather information from a system
 * [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - A malware that turns networked devices running Linux into remotely controlled bots that can be used as part of a botnet in large-scale network attacks
-* [Shai-Hulud npm Supply Chain Attack](https://www.wiz.io/blog/shai-hulud-npm-supply-chain-attack) - A self-propagating worm that harvests sensitive data via post-install scripts and automatically publishes malicious versions of accessible packages to spread further
 * [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - A social engineering technique that tricks users into running malicious commands on their devices by taking advantage of their target's tendency to solve minor technical issues
-* Attack Simulation Tools
-  * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 
 ### Modern Security Architectures
 
 * [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - An approach to the design and implementation of IT systems where trust is never granted implicitly and verification is required for everyone
 * [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication) - A process in which both parties in a communications link authenticate each other
-* [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
 
 ### Security Training & Competitions
 
@@ -122,32 +118,25 @@
 
 ### Applied Cryptography & Tools
 
-#### Advanced Topics
+* Advanced Cryptography Topics
+  * [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - Cryptographic algorithms that are thought to be secure against a cryptanalytic attack by a quantum computer
+  * Information Hiding
+    * [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of concealing a file, message, image, or video within another file, message, image, or video
+    * [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - A kind of marker covertly embedded in a noise-tolerant signal such as an audio, video or image data
 
-* [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - Cryptographic algorithms that are thought to be secure against a cryptanalytic attack by a quantum computer
-* Information Hiding
-  * [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of concealing a file, message, image, or video within another file, message, image, or video
-  * [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - A kind of marker covertly embedded in a noise-tolerant signal such as an audio, video or image data
+* End-to-end Encryption Tools
+  * [age](https://github.com/FiloSottile/age) - A simple, modern and secure file encryption tool, format, and Go library
+  * [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) - A data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication
+  * [OpenPGP](https://www.openpgp.org/) - A non-proprietary protocol for exchanging public keys and encrypted messages
+  * [keys.openpgp.org](https://keys.openpgp.org/about) - A public key server for OpenPGP
+  * [GnuPG](https://gnupg.org/) - A free software replacement for the PGP cryptographic software suite
+  * [Gpg4win](https://www.gpg4win.org/) - A Windows software package that facilitates the secure transport of emails and files with the help of OpenPGP
 
-#### End-to-end Encryption Tools
-
-* [age](https://github.com/FiloSottile/age) - A simple, modern and secure file encryption tool, format, and Go library
-* [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) - A data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication
-* [OpenPGP](https://www.openpgp.org/) - A non-proprietary protocol for exchanging public keys and encrypted messages
-* [keys.openpgp.org](https://keys.openpgp.org/about) - A public key server for OpenPGP
-* [GnuPG](https://gnupg.org/) - A free software replacement for the PGP cryptographic software suite
-* [Gpg4win](https://www.gpg4win.org/) - A Windows software package that facilitates the secure transport of emails and files with the help of OpenPGP
-
-#### Transaction Security
-
-* [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A security protocol designed to be an additional security layer for online credit and debit card transactions
-
-#### Cryptographic Libraries
-
-* [PyCryptodome](https://www.pycryptodome.org/) - A self-contained Python package of cryptographic primitives
-* [Python cryptography](https://cryptography.io/en/latest/) - A package designed to expose cryptographic primitives and recipes to Python developers
-* [Go Cryptography](https://pkg.go.dev/golang.org/x/crypto) - A collection of Go cryptography libraries
-* [Botan](https://botan.randombit.net/) - A cryptography library written in C++
+* Cryptographic Libraries
+  * [PyCryptodome](https://www.pycryptodome.org/) - A self-contained Python package of cryptographic primitives
+  * [Python cryptography](https://cryptography.io/en/latest/) - A package designed to expose cryptographic primitives and recipes to Python developers
+  * [Go Cryptography](https://pkg.go.dev/golang.org/x/crypto) - A collection of Go cryptography libraries
+  * [Botan](https://botan.randombit.net/) - A cryptography library written in C++
 
 ## Identity & Access Management (IAM)
 
@@ -262,6 +251,7 @@
   * [ZAP](https://zaproxy.org/) - The world's most widely used web app scanner, free and open source, and a community based GitHub Top 1000 project that anyone can contribute to
   * [Nuclei](https://github.com/projectdiscovery/nuclei) - A fast and customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL
   * [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
+  * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 * Secret Detection
   * [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A tool that scans your repository's history for secrets
   * [Gitleaks](https://gitleaks.io/) - A SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
@@ -315,6 +305,8 @@
   * [The Update Framework (TUF)](https://theupdateframework.io/) - A framework for securing software update systems, providing protection even against attackers that compromise the repository or signing keys
 * Code Signing & Integrity
   * [Sigstore](https://www.sigstore.dev/) (Fulcio, Rekor, Cosign) - A new standard for signing, verifying and protecting software
+* Notable Attacks
+  * [Shai-Hulud npm Supply Chain Attack](https://www.wiz.io/blog/shai-hulud-npm-supply-chain-attack) - A self-propagating worm that harvests sensitive data via post-install scripts and automatically publishes malicious versions of accessible packages to spread further
 
 ## Runtime & Operational Security
 
@@ -393,6 +385,7 @@
 
 ### Web Application Security
 
+* [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A security protocol designed to be an additional security layer for online credit and debit card transactions
 * Security Mechanisms & Policies
   * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
   * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
@@ -495,6 +488,7 @@
 
 * [Address space layout randomization (ASLR)](https://en.wikipedia.org/wiki/Address_space_layout_randomization) - A computer security technique involved in memory protection that prevents exploitation of memory vulnerabilities by randomly arranging the address space positions of key data areas of a process
 * [W^X](https://en.wikipedia.org/wiki/W%5EX) - A security feature that ensures that every page in a process's address space is either writable or executable, but not both
+* [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
 * [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - A specification for a secure cryptoprocessor, a dedicated microcontroller designed to secure hardware through integrated cryptographic keys
 * Linux Mandatory Access Control
   * [SELinux](https://selinuxproject.org/page/Main_Page) - A set of kernel modifications and user-space tools that have been added to various Linux distributions

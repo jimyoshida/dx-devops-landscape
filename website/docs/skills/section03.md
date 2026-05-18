@@ -19,7 +19,6 @@
 * [Azure Application Gateway](https://azure.microsoft.com/en-us/products/application-gateway) - A platform-managed, scalable, and highly available application delivery controller as a service
 * [Google Cloud VPC](https://cloud.google.com/vpc/docs/vpc) - A virtual version of a physical network that is implemented inside of Google's production network by using Andromeda
 * [Cloud Load Balancing](https://cloud.google.com/load-balancing/docs/load-balancing-overview) - A fully distributed, software-defined, managed service for all your traffic
-* [Apache APISIX](https://apisix.apache.org/) - An open source API Gateway to help you manage microservices, delivering the ultimate performance, security, and scalable platform for all your APIs and microservices
 
 ### Application Hosting Platform (PaaS)
 
@@ -46,7 +45,6 @@
 
 * [OpenStack](https://www.openstack.org/) - An open source cloud computing platform that provides infrastructure as a service (IaaS) for building and managing public and private clouds
 * [OpenNebula](https://opennebula.io/) - The Enterprise Cloud and Virtualization Platform that delivers end-to-end coverage, vendor neutrality, and comprehensive support across cloud and virtualization management, hypervisor operations, and Kubernetes orchestration
-* [libvirt](https://libvirt.org/) - A toolkit to manage virtualization platforms
 
 ### Cloud Architecture Frameworks
 
@@ -88,6 +86,7 @@
   * [tf.libsonnet](https://docs.tflibsonnet.com/) - A collection of Jsonnet libraries for generating Terraform code
   * [terraform-docs](https://terraform-docs.io/) - A utility to generate documentation from Terraform modules in various output formats
   * [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - A CLI tool to generate terraform files from existing infrastructure
+  * [Atlantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
 * Vendor-specific Tools
   * [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - A service that helps you model and set up your Amazon Web Services resources
   * [AWS CDK](https://aws.amazon.com/cdk/) - An open source software development framework to define your cloud application resources using familiar programming languages
@@ -100,9 +99,6 @@
 ## Containerization
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
-
-### Fundamentals
-
 * Linux Distros for Containers
   * [Alpine Linux](https://alpinelinux.org/) - A security-oriented, lightweight Linux distribution based on musl libc and busybox
     * [apk-tools](https://gitlab.alpinelinux.org/alpine/apk-tools) - A package manager originally built for Alpine Linux
@@ -215,6 +211,7 @@
 * Autoscaling
   * [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) - The component that automatically scales the number of Pods in a replication controller, deployment, replica set or stateful set based on observed CPU utilization
   * [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master) - A tool that automatically adjusts the size of the Kubernetes cluster
+  * [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
 
 ### Operations & Management
 
@@ -325,6 +322,7 @@
   * [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
   * [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
   * [Contour](https://projectcontour.io/) - A high performance ingress controller for Kubernetes that provides the control plane for the Envoy edge and service proxy
+  * [Apache APISIX](https://apisix.apache.org/) - An open source API Gateway to help you manage microservices, delivering the ultimate performance, security, and scalable platform for all your APIs and microservices
 * Cloud-Native Networking
   * [Project Calico](https://projectcalico.org/) - An open-source project that provides secure network connectivity, network security, and observability for containers, virtual machines, and native host-based workloads
   * [Cilium](https://cilium.io/) - An open-source project that provides networking, security, and observability for cloud-native environments
@@ -357,8 +355,6 @@
 
 ### Integrations & Registries
 
-* Terraform Integration
-  * [Atlantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
 * Private Package Registries
   * [JFrog Artifactory](https://jfrog.com/artifactory/) - A universal DevOps repository manager that allows you to store, manage, and distribute your software artifacts and their dependencies
   * [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/index.html) - A feature that allows you to publish and share packages for a variety of supported package managers
@@ -387,6 +383,10 @@
   * [Sentry](https://sentry.io/) - An application monitoring platform that provides error tracking and performance monitoring to help developers see what matters and solve issues faster
 * Self-hosted (advanced)
   * [SigNoz](https://signoz.io/) - An open-source Datadog or New Relic alternative for logs, metrics, traces, dashboards, alerts, and more
+* Visualization Tools
+  * [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
+    * [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
+  * [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
 
 ### Telemetry Shipment
 
@@ -430,13 +430,6 @@
   * [Graphite](https://grafana.com/oss/graphite/) - A highly scalable real-time graphing system
   * [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) - A feature that allows you to create and manage alerts for your data
   * [OpenObserve](https://openobserve.ai/) - An open-source observability platform designed for modern applications
-
-### Visualization
-
-* Visualization Tools
-  * [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
-    * [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
-  * [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
 
 ## SRE (Site Reliability Engineering)
 
@@ -486,5 +479,4 @@
   * [FinOps toolkit](https://microsoft.github.io/finops-toolkit/) - A collection of tools, resources, and best practices for implementing FinOps in your organization
   * [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) - A tool that enables you to view and analyze your costs and usage
   * [OpenCost](https://www.opencost.io/) - The open source solution for monitoring Kubernetes spend
-  * [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing public cloud accounts and resources

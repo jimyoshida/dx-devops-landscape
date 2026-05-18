@@ -46,15 +46,35 @@ markmap:
 
 ### Project & Work Management
 
-#### Core Practices
+#### Project Planning & Estimation
+
+
+#### Prioritization
+
+
+#### People & Organization
+
+
+#### Tools
+
+
+#### Standards & Maturity
 
 
 ### Product Management
 
+#### Product Strategy
+
+
+#### Marketing & Customer Experience
+
 
 ### Metrics & Performance
 
-#### Goal Setting & Performance
+#### Goal Setting Frameworks
+
+
+#### Performance Measurement
 
 
 ### Enterprise Strategy & Architecture
@@ -63,9 +83,6 @@ markmap:
 
 
 #### Strategic Management
-
-
-#### Marketing
 
 
 #### Risk Management
@@ -80,6 +97,9 @@ markmap:
 
 
 #### Self-Hosted AI Platforms
+
+
+#### AI Agent Registries
 
 
 ### Low-Code & No-Code Development
@@ -98,9 +118,6 @@ markmap:
 #### Open Source
 
 
-#### AI Agent Registries
-
-
 #### Open Data
 
 
@@ -108,7 +125,7 @@ markmap:
 
 ## 02 - Web Application Development
 
-### Fundamentals
+### Web Platform Fundamentals
 
 #### Web Concepts
 
@@ -133,12 +150,12 @@ markmap:
 #### Build & Development Tooling
 
 
+### Full-stack Development
+
+
 ### Backend Development
 
 #### Backend Frameworks
-
-
-#### Full-stack Development
 
 
 ### Web Infrastructure
@@ -149,7 +166,12 @@ markmap:
 #### CDN & Edge Computing
 
 
-#### Decentralized Web & Social
+### Decentralized Web
+
+#### Blockchain Technology
+
+
+#### Decentralized Social
 
 
 ### Development & Testing Tools
@@ -213,9 +235,6 @@ markmap:
 
 
 ### Containerization
-
-
-#### Fundamentals
 
 
 #### Engines & Runtimes
@@ -283,9 +302,6 @@ markmap:
 #### Telemetry Collection & Storage
 
 
-#### Visualization
-
-
 ### SRE (Site Reliability Engineering)
 
 
@@ -332,16 +348,7 @@ markmap:
 
 #### Applied Cryptography & Tools
 
-##### Advanced Topics
 
-
-##### End-to-end Encryption Tools
-
-
-##### Transaction Security
-
-
-##### Cryptographic Libraries
 
 
 ### Identity & Access Management (IAM)
@@ -435,8 +442,6 @@ markmap:
 
 
 ### Data Science Toolkit
-
-#### Programming Languages & Libraries
 
 
 #### Spreadsheet & Collaborative Data Platforms
@@ -542,10 +547,6 @@ markmap:
 #### Learning Paradigms
 
 
-#### Concepts & Techniques
-
-
-#### Ecosystem & Tools
 
 
 ### Neural Networks and Deep Learning
@@ -554,10 +555,6 @@ markmap:
 #### Architectures
 
 
-#### Frameworks & Tools
-
-
-#### Textbooks
 
 
 ### Natural Language Processing (NLP)
@@ -566,12 +563,8 @@ markmap:
 #### Concepts & Vector Representations
 
 
-#### Libraries & Tools
-
 
 ### Computer Vision
-
-#### Software & Tools
 
 
 ### Speech Recognition
@@ -730,8 +723,6 @@ markmap:
 #### Client Tools
 
 
-#### Cloud Services
-
 
 ### Email System
 
@@ -830,10 +821,6 @@ markmap:
 #### Branches of Mathematical Logic
 
 
-#### Applications
-
-
-#### Tools and Resources
 
 
 ### Core Programming Concepts
@@ -903,13 +890,9 @@ markmap:
 #### Runtime Implementations
 
 
-#### Related Tools
-
 
 ### Algorithm & Computational Complexity
 
-
-#### External Resources
 
 
 #### Algorithm

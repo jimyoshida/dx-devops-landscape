@@ -61,18 +61,7 @@
 * Concepts
   * [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - A conceptual model for approaching DevOps that stands for Culture, Automation, Lean, Measurement, and Sharing
 * Cultural & Organizational Foundations
-  * [Contingency theory](https://en.wikipedia.org/wiki/Contingency_theory) - A theory that claims there is no single best way to organize a corporation, lead a company, or make decisions, asserting that the optimal course of action depends on internal and external situations
-  * [Expectancy theory](https://en.wikipedia.org/wiki/Expectancy_theory) - A theory that proposes an individual's behavior is motivated by the expected results of their actions, with the desirability of the outcome determining the selection of a specific behavior
-  * [Intrinsic motivation](https://en.wikipedia.org/wiki/Intrinsic_motivation) - A type of motivation that arises from internal factors, such as enjoyment, curiosity, or a sense of fulfillment, where individuals engage in an activity for its own sake
-  * [Management 3.0](https://management30.com/) - An ever-evolving mindset and a collection of games, tools, and practices designed to help any worker manage the organization and improve work systems
-  * [PM Theory of Leadership](https://feriors.com/pm-theory-of-leadership/) - A leadership theory that classifies leaders into two categories: performance-oriented and maintenance-oriented
   * [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/) - A type of culture characterized by a high degree of trust and cooperation, a shared sense of responsibility for the mission, and a focus on learning and continuous improvement
-  * [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) - A leadership philosophy where the primary aim of the individual in charge is to prioritize the needs of their team members, fostering their development and performance, rather than focusing on personal gain or traditional hierarchical authority
-  * [Shared leadership](https://en.wikipedia.org/wiki/Shared_leadership) - A leadership style that broadly distributes responsibility, allowing individuals within a team or organization to lead each other
-  * [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) - A leadership model where effective leaders adapt their style to each situation, recognizing that no single approach is universally appropriate
-  * [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
-  * [Two-factor theory](https://en.wikipedia.org/wiki/Two-factor_theory) - A theory developed by psychologist Frederick Herzberg, it posits that job satisfaction and dissatisfaction are influenced by separate sets of factors, known as motivators and hygiene factors, which act independently of each other
-  * [Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) - The theories of human work motivation and management developed by Douglas McGregor
 * Technical Practices
   * [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) - A powerful technique, allowing teams to modify system behavior without changing code
   * [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - A technique that reduces downtime and risk by running two identical production environments called Blue and Green
@@ -119,6 +108,7 @@
 * [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
 * [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
 * [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
+* [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
 
 ### Design Patterns
 
@@ -148,8 +138,6 @@
 * [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
   * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
     * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
-* [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
-* [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
 * Related Standards
   * [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
   * [ISO/IEC/IEEE 42010 (Architecture description)](https://en.wikipedia.org/wiki/ISO/IEC_42010) - An international standard for architecture descriptions of systems and software
@@ -162,11 +150,12 @@
 * [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
   * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
     * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
+* [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
 * [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
 ## Project & Work Management
 
-### Core Practices
+### Project Planning & Estimation
 
 * [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
   * [Critical chain project management](https://en.wikipedia.org/wiki/Critical_chain_project_management) - A method of planning and managing projects that emphasizes the resources (people, equipment, physical space) required to execute project tasks
@@ -180,33 +169,58 @@
     * [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation) - A technique used in project management to estimate the likely duration or cost of an activity
     * [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) - A consensus-based, gamified technique for estimating, mostly used for timeboxing in Agile principles
   * [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
+
+### Prioritization
+
 * [Prioritization](https://en.wikipedia.org/wiki/Prioritization) - The activity that arranges items or activities in order of urgency
   * [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) - A simple scoring system for product prioritization that stands for Reach, Impact, Confidence, and Effort
   * [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
   * [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
+
+### People & Organization
+
 * [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
-* Tools
-  * Issue Tracking Systems
-    * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
-      * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
-    * [Asana](https://asana.com/) - The platform for human and AI collaboration that helps teams coordinate work and keep projects moving
-    * [Fizzy](https://www.fizzy.do/) - A modern spin on kanban for tracking anything such as bugs, issues, ideas, and small projects
-    * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
-    * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
-    * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
-    * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
-    * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
-  * Chat Systems
-    * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
-    * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
-    * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
-* Related Standards
-  * [CMMI (Capability Maturity Model Integration)](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration) - A process level improvement training and appraisal program
-  * [ISO/IEC 12207 (Software life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_12207) - The international standard for software lifecycle processes that defines all the processes required for developing and maintaining software systems
-  * [ISO/IEC 15288 (System life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_15288) - The technical standard in systems engineering which covers processes and lifecycle stages
-  * [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
+* Organizational Behavior
+  * [Contingency theory](https://en.wikipedia.org/wiki/Contingency_theory) - A theory that claims there is no single best way to organize a corporation, lead a company, or make decisions, asserting that the optimal course of action depends on internal and external situations
+  * [Expectancy theory](https://en.wikipedia.org/wiki/Expectancy_theory) - A theory that proposes an individual's behavior is motivated by the expected results of their actions, with the desirability of the outcome determining the selection of a specific behavior
+  * [Intrinsic motivation](https://en.wikipedia.org/wiki/Intrinsic_motivation) - A type of motivation that arises from internal factors, such as enjoyment, curiosity, or a sense of fulfillment, where individuals engage in an activity for its own sake
+  * [Management 3.0](https://management30.com/) - An ever-evolving mindset and a collection of games, tools, and practices designed to help any worker manage the organization and improve work systems
+  * [PM Theory of Leadership](https://feriors.com/pm-theory-of-leadership/) - A leadership theory that classifies leaders into two categories: performance-oriented and maintenance-oriented
+  * [Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) - The theories of human work motivation and management developed by Douglas McGregor
+  * [Two-factor theory](https://en.wikipedia.org/wiki/Two-factor_theory) - A theory developed by psychologist Frederick Herzberg, it posits that job satisfaction and dissatisfaction are influenced by separate sets of factors, known as motivators and hygiene factors, which act independently of each other
+* Leadership Styles
+  * [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) - A leadership philosophy where the primary aim of the individual in charge is to prioritize the needs of their team members, fostering their development and performance, rather than focusing on personal gain or traditional hierarchical authority
+  * [Shared leadership](https://en.wikipedia.org/wiki/Shared_leadership) - A leadership style that broadly distributes responsibility, allowing individuals within a team or organization to lead each other
+  * [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) - A leadership model where effective leaders adapt their style to each situation, recognizing that no single approach is universally appropriate
+  * [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
+
+### Tools
+
+* Issue Tracking Systems
+  * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
+    * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
+  * [Asana](https://asana.com/) - The platform for human and AI collaboration that helps teams coordinate work and keep projects moving
+  * [Fizzy](https://www.fizzy.do/) - A modern spin on kanban for tracking anything such as bugs, issues, ideas, and small projects
+  * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
+  * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
+  * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
+  * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
+  * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
+* Chat Systems
+  * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
+  * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
+  * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
+
+### Standards & Maturity
+
+* [CMMI (Capability Maturity Model Integration)](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration) - A process level improvement training and appraisal program
+* [ISO/IEC 12207 (Software life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_12207) - The international standard for software lifecycle processes that defines all the processes required for developing and maintaining software systems
+* [ISO/IEC 15288 (System life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_15288) - The technical standard in systems engineering which covers processes and lifecycle stages
+* [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
 
 ## Product Management
+
+### Product Strategy
 
 * [Product management](https://en.wikipedia.org/wiki/Product_management) - The business process of planning, developing, launching, and managing a product or service
 * [Lean startup](https://en.wikipedia.org/wiki/Lean_startup) - A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable
@@ -226,76 +240,7 @@
   * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
   * [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
 
-## Metrics & Performance
-
-### Goal Setting & Performance
-
-* [Goal setting](https://en.wikipedia.org/wiki/Goal_setting) - The process of developing an action plan designed to motivate and guide a person or group toward a goal
-  * [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) - A mnemonic acronym, used to guide in the setting of objectives or goals, for example in project management, employee-performance management and personal development
-    * Specific: Targeting a particular area for improvement
-    * Measurable: Quantifying, or at least suggesting, an indicator of progress
-    * Assignable: Defining responsibility clearly
-    * Realistic: Outlining attainable results with available resources
-    * Time-related: Including a timeline for expected results
-  * [FAST goals](https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/) - A framework for goals that are Frequently discussed, Ambitious in scope, Specific in metrics, and Transparent for everyone to see
-  * [GROW model](https://en.wikipedia.org/wiki/GROW_model) - A simple method for goal setting and problem solving
-  * [OKRs](https://en.wikipedia.org/wiki/Objectives_and_key_results) - A goal-setting framework used by individuals, teams, and organizations to define measurable goals and track their outcomes
-  * [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) - A type of performance measurement used to evaluate the success of an organization or of a particular activity (such as projects, programs, products and other initiatives) in which it engages
-  * [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - An adage often stated as, "When a measure becomes a target, it ceases to be a good measure"
-  * Performance Measurement
-    * [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
-    * [Rubric](https://en.wikipedia.org/wiki/Rubric_(academic)) - A scoring tool used to evaluate the quality of responses
-    * [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A framework that provides a way to think about developer productivity in a more holistic way, encompassing Satisfaction and well-being, Performance, Activity, Communication and collaboration, and Efficiency and flow
-    * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
-
-## Enterprise Strategy & Architecture
-
-### Enterprise Architecture & Administration
-
-* [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture) - A well-defined practice for conducting enterprise analysis, design, planning, and implementation, using a comprehensive approach at all times, for the successful development and execution of strategy
-  * [TOGAF standard](https://www.opengroup.org/togaf) - A proven Enterprise Architecture methodology and framework used by the world’s leading organizations to improve business efficiency
-  * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework) - An ontology – a theory of the existence of a structured set of essential components of an object
-  * [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview) - An open and independent modelling language for Enterprise Architecture that is supported by different tool vendors and consulting firms
-    * [Archi](https://www.archimatetool.com/) - A free, open source, cross-platform tool and editor to create ArchiMate models
-* [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
-  * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
-    * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
-    * [HubSpot](https://www.hubspot.com/) - A customer platform that helps businesses grow by connecting their marketing, sales, and service tools to a shared database
-    * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
-    * [Atlas](https://atlas.so/) - A bespoke AI for customer support that delivers fast, accurate, and measurable support tailored to tools and workflows
-    * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
-  * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
-  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
-    * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources)) - The set of demonstrable characteristics and skills that enable and improve the efficiency or performance of a job
-  * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
-  * [E-commerce](https://en.wikipedia.org/wiki/E-commerce) - The activity of electronically buying or selling products on online services or over the Internet
-    * [Shopify](https://www.shopify.com/) - A Canadian multinational e-commerce company that provides a proprietary e-commerce platform for online stores and retail point-of-sale systems
-  * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
-  * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
-  * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution
-* [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling) - The process of building models of whole or part of an enterprise with process models, data models, resource models and or new ontologies
-  * [BPMN](https://www.omg.org/bpmn/)- A graphical notation for specifying business processes in a Business Process Diagram, providing a standard comprehensible to business users yet representing complex process semantics for technical users
-  * [SysML](https://sysml.org/) - A general-purpose graphical modeling language for specifying, analyzing, designing, and verifying complex systems that may include hardware, software, information, personnel, procedures, and facilities
-  * [Eclipse Capella](https://mbse-capella.org/) - A powerful and extensible MBSE software tool that leverages a field-proven language and method to successfully design the architecture of complex systems
-* Business process change management
-  * [Organizational structure](https://en.wikipedia.org/wiki/Organizational_structure) - A system that outlines how certain activities are directed in order to achieve the goals of an organization
-  * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
-  * [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar) - A goal-oriented change management model that guides individual and organizational change
-
-### Strategic Management
-
-* Strategic management tools
-  * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - The grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
-  * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A decision-making technique used in strategic planning and management that identifies the strengths, weaknesses, opportunities, and threats of an organization or project
-  * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
-  * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
-* Business intelligence and analysis tools
-  * [Tableau](https://www.tableau.com/) - The visual analytics platform that helps people see, understand, and act on data to solve problems
-  * [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
-  * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
-    * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
-
-### Marketing
+### Marketing & Customer Experience
 
 * [Marketing](https://en.wikipedia.org/wiki/Marketing) - A process of acquiring, satisfying, and retaining customers, often involving creating, communicating, delivering, and exchanging offerings that have value for various stakeholders
   * [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
@@ -341,6 +286,77 @@
     * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
     * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER) - A structured way of assisting students to think out of the box and enhance their knowledge
 
+## Metrics & Performance
+
+### Goal Setting Frameworks
+
+* [Goal setting](https://en.wikipedia.org/wiki/Goal_setting) - The process of developing an action plan designed to motivate and guide a person or group toward a goal
+  * [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) - A mnemonic acronym, used to guide in the setting of objectives or goals, for example in project management, employee-performance management and personal development
+    * Specific: Targeting a particular area for improvement
+    * Measurable: Quantifying, or at least suggesting, an indicator of progress
+    * Assignable: Defining responsibility clearly
+    * Realistic: Outlining attainable results with available resources
+    * Time-related: Including a timeline for expected results
+  * [FAST goals](https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/) - A framework for goals that are Frequently discussed, Ambitious in scope, Specific in metrics, and Transparent for everyone to see
+  * [GROW model](https://en.wikipedia.org/wiki/GROW_model) - A simple method for goal setting and problem solving
+  * [OKRs](https://en.wikipedia.org/wiki/Objectives_and_key_results) - A goal-setting framework used by individuals, teams, and organizations to define measurable goals and track their outcomes
+  * [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) - A type of performance measurement used to evaluate the success of an organization or of a particular activity (such as projects, programs, products and other initiatives) in which it engages
+  * [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) - An adage often stated as, "When a measure becomes a target, it ceases to be a good measure"
+
+### Performance Measurement
+
+* [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
+* [Rubric](https://en.wikipedia.org/wiki/Rubric_(academic)) - A scoring tool used to evaluate the quality of responses
+* [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124) - A framework that provides a way to think about developer productivity in a more holistic way, encompassing Satisfaction and well-being, Performance, Activity, Communication and collaboration, and Efficiency and flow
+* [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
+
+## Enterprise Strategy & Architecture
+
+### Enterprise Architecture & Administration
+
+* [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture) - A well-defined practice for conducting enterprise analysis, design, planning, and implementation, using a comprehensive approach at all times, for the successful development and execution of strategy
+  * [TOGAF standard](https://www.opengroup.org/togaf) - A proven Enterprise Architecture methodology and framework used by the world's leading organizations to improve business efficiency
+  * [Zachman Framework](https://zachman-feac.com/zachman/about-the-zachman-framework) - An ontology – a theory of the existence of a structured set of essential components of an object
+  * [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview) - An open and independent modelling language for Enterprise Architecture that is supported by different tool vendors and consulting firms
+    * [Archi](https://www.archimatetool.com/) - A free, open source, cross-platform tool and editor to create ArchiMate models
+* [Enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning) - The integrated management of main business processes, often in real time and mediated by software and technology
+  * [Customer relationship management](https://en.wikipedia.org/wiki/Customer_relationship_management) - A strategic process that organizations use to manage, analyze, and improve their interactions with customers
+    * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
+    * [HubSpot](https://www.hubspot.com/) - A customer platform that helps businesses grow by connecting their marketing, sales, and service tools to a shared database
+    * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
+    * [Atlas](https://atlas.so/) - A bespoke AI for customer support that delivers fast, accurate, and measurable support tailored to tools and workflows
+    * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
+  * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
+  * [Human resource management](https://en.wikipedia.org/wiki/Human_resource_management) - The strategic and coherent approach to the effective and efficient management of of people in a company or organization such that they help their business gain a competitive advantage
+    * [Competence](https://en.wikipedia.org/wiki/Competence_(human_resources)) - The set of demonstrable characteristics and skills that enable and improve the efficiency or performance of a job
+  * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
+  * [E-commerce](https://en.wikipedia.org/wiki/E-commerce) - The activity of electronically buying or selling products on online services or over the Internet
+    * [Shopify](https://www.shopify.com/) - A Canadian multinational e-commerce company that provides a proprietary e-commerce platform for online stores and retail point-of-sale systems
+  * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
+  * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
+  * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution
+* [Enterprise modeling](https://en.wikipedia.org/wiki/Enterprise_modelling) - The process of building models of whole or part of an enterprise with process models, data models, resource models and or new ontologies
+  * [BPMN](https://www.omg.org/bpmn/)- A graphical notation for specifying business processes in a Business Process Diagram, providing a standard comprehensible to business users yet representing complex process semantics for technical users
+  * [SysML](https://sysml.org/) - A general-purpose graphical modeling language for specifying, analyzing, designing, and verifying complex systems that may include hardware, software, information, personnel, procedures, and facilities
+  * [Eclipse Capella](https://mbse-capella.org/) - A powerful and extensible MBSE software tool that leverages a field-proven language and method to successfully design the architecture of complex systems
+* Business process change management
+  * [Organizational structure](https://en.wikipedia.org/wiki/Organizational_structure) - A system that outlines how certain activities are directed in order to achieve the goals of an organization
+  * [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
+  * [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar) - A goal-oriented change management model that guides individual and organizational change
+
+### Strategic Management
+
+* Strategic management tools
+  * [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - The grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
+  * [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A decision-making technique used in strategic planning and management that identifies the strengths, weaknesses, opportunities, and threats of an organization or project
+  * [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
+  * [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
+* Business intelligence and analysis tools
+  * [Tableau](https://www.tableau.com/) - The visual analytics platform that helps people see, understand, and act on data to solve problems
+  * [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
+  * [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
+    * [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
+
 ### Risk Management
 
 * [Risk management](https://en.wikipedia.org/wiki/Risk_management) - The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities
@@ -375,6 +391,18 @@
 
 * [Dify](https://dify.ai/) - An open-source LLM app development platform
 * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
+
+### AI Agent Registries
+
+* Agent Skills Registries
+  * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
+  * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
+  * [ClawHub](https://clawhub.ai/) - A community-driven marketplace and platform for discovering and sharing AI agent tools, skills, and plugins, hosting tens of thousands of community-created resources for building AI agents
+  * [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
+  * [OpenClaw Skills](https://www.open-claw-skills.com/) - The largest open-source registry for community-driven AI tools designed for platforms like Claude Code and Cursor
+* MCP (Model Context Protocol) Registries
+  * [Official MCP Registry](https://registry.modelcontextprotocol.io/)- A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
+  * [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
 
 ## Low-Code & No-Code Development
 
@@ -419,11 +447,11 @@
   * [CPAN](https://www.cpan.org/) - The Comprehensive Perl Archive Network
   * [CRAN](https://cran.r-project.org/) - The Comprehensive R Archive Network
   * [PyPI](https://pypi.org/) - A repository of software for the Python programming language
-  * [RubyGems.org](https://rubygems.org/) - The Ruby community’s gem hosting service
+  * [RubyGems.org](https://rubygems.org/) - The Ruby community's gem hosting service
   * [npm Registry](https://www.npmjs.com/) - The world's largest software registry
   * [JSR](https://jsr.io/) - The open-source package registry for modern JavaScript and TypeScript
   * [pkg.go.dev](https://pkg.go.dev/) - Your source for information about Go packages and modules
-  * [crates.io](https://crates.io/) - The Rust community’s crate registry
+  * [crates.io](https://crates.io/) - The Rust community's crate registry
   * [LuaRocks](https://luarocks.org/) - The package manager for Lua modules
   * [Hackage](https://hackage.haskell.org/) - The Haskell community's central package archive of open source software
     * [Stackage](https://www.stackage.org/) - A curated set of packages from Hackage
@@ -432,26 +460,14 @@
   * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
   * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
 
-### AI Agent Registries
-
-* Agent Skills Registries
-  * [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
-  * [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
-  * [ClawHub](https://clawhub.ai/) - A community-driven marketplace and platform for discovering and sharing AI agent tools, skills, and plugins, hosting tens of thousands of community-created resources for building AI agents
-  * [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
-  * [OpenClaw Skills](https://www.open-claw-skills.com/) - The largest open-source registry for community-driven AI tools designed for platforms like Claude Code and Cursor
-* MCP (Model Context Protocol) Registries
-  * [Official MCP Registry](https://registry.modelcontextprotocol.io/)- A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
-  * [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
-
 ### Open Data
 
 * Tools and Licenses
-  * [Creative Commons](https://creativecommons.org/) - A nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges
+  * [Creative Commons](https://creativecommons.org/) - A nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world's pressing challenges
   * [Open Data Commons](https://opendatacommons.org/) - The home of a set of legal tools and licenses to help you publish, provide and use open data
 * Open Data Registries
   * [Hugging Face Hub](https://huggingface.co/docs/hub/index) - A platform with over 900k models, 200k datasets, and 300k demos in which people can easily collaborate in their ML workflows
-  * [Data.gov](https://data.gov/) - The home of the U.S. Government’s open data
+  * [Data.gov](https://data.gov/) - The home of the U.S. Government's open data
   * [Kaggle](https://www.kaggle.com/) - The world's largest data science community with powerful tools and resources to help you achieve your data science goals
   * [Registry of Open Data on AWS](https://registry.opendata.aws/) - A service that makes it easy for people to find datasets that are publicly available through AWS services
   * [OpenML](https://www.openml.org/) - An open, collaborative, frictionless, and automated machine learning environment

@@ -4,7 +4,7 @@ This file provides guidance to coding agents when working with code in this repo
 
 Refer to `website/docs/intro.md` for the overview & principles.
 
-## Categolized Skills
+## Categorized Skills
 
 The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
 The digest markdown is generated at `data/digest.md`.
@@ -14,8 +14,10 @@ Each level 2 header can have up to 6 level 3 headers as subsections.
 The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
 
-You should use grouping items instead of subsections when the group title is generic like "Libraries".
-That is to meet MD024 markdownlint rules.
+Each subsection title must be a skill domain name.
+Generic titles like "Libraries" and "Tutorials" are not allowed.
+You should use grouping items instead of subsections in such cases.
+That is also to meet MD024 markdownlint rules.
 
 Each skill item should have a hyperlink which label is the concise linked website title.
 The website should be its own project/product home or its article on Wikipedia.

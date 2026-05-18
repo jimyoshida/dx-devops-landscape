@@ -33,8 +33,6 @@
 
 ## Data Science Toolkit
 
-### Programming Languages & Libraries
-
 * [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
   * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
   * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data

@@ -41,27 +41,25 @@
   * [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) - A problem in which a fixed limited set of resources must be allocated between competing (alternative) choices in a way that maximizes their expected gain
   * [Value function](https://en.wikipedia.org/wiki/Value_function) - A function used in mathematical optimization and reinforcement learning that assigns a measure of desirability to states or actions
 
-### Concepts & Techniques
+* ML Concepts & Techniques
+  * [Hyperparameter](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) - A parameter whose value is used to control the learning process
+  * [Hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization) - The problem of choosing a set of optimal hyperparameters for a learning algorithm
+  * [Early stopping](https://en.wikipedia.org/wiki/Early_stopping) - A form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent
+  * [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) - Any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set
+  * [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) - The identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data
+    * [One-class classification](https://en.wikipedia.org/wiki/One-class_classification) - The technique trying to identify objects of a specific class amongst all objects, by primarily learning from a training set containing only the objects of that class
+  * [Recommender system](https://en.wikipedia.org/wiki/Recommender_system) - An information filtering system that seeks to predict the 'rating' or 'preference' a user would give to an item
 
-* [Hyperparameter](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) - A parameter whose value is used to control the learning process
-* [Hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization) - The problem of choosing a set of optimal hyperparameters for a learning algorithm
-* [Early stopping](https://en.wikipedia.org/wiki/Early_stopping) - A form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent
-* [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) - Any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set
-* [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) - The identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data
-  * [One-class classification](https://en.wikipedia.org/wiki/One-class_classification) - The technique trying to identify objects of a specific class amongst all objects, by primarily learning from a training set containing only the objects of that class
-* [Recommender system](https://en.wikipedia.org/wiki/Recommender_system) - An information filtering system that seeks to predict the 'rating' or 'preference' a user would give to an item
-
-### Ecosystem & Tools
-
-* [scikit-learn](https://scikit-learn.org/stable) - A free software machine learning library for the Python programming language
-  * [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) - A Library for Support Vector Machines
-* [ML.NET](https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet) - An open-source, cross-platform machine learning framework for .NET developers
-* [Crab](https://muricoca.github.io/crab/) - A Python library for building recommender systems
-* [mlxtend](https://rasbt.github.io/mlxtend/) - A Python library of useful tools for the day-to-day data science tasks
-* [Prophet](https://facebook.github.io/prophet/) - A forecasting procedure for time series data that is fast and provides completely automated forecasts
-* [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
-* [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows
-* [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
+* ML Frameworks & Platforms
+  * [scikit-learn](https://scikit-learn.org/stable) - A free software machine learning library for the Python programming language
+    * [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) - A Library for Support Vector Machines
+  * [ML.NET](https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet) - An open-source, cross-platform machine learning framework for .NET developers
+  * [Crab](https://muricoca.github.io/crab/) - A Python library for building recommender systems
+  * [mlxtend](https://rasbt.github.io/mlxtend/) - A Python library of useful tools for the day-to-day data science tasks
+  * [Prophet](https://facebook.github.io/prophet/) - A forecasting procedure for time series data that is fast and provides completely automated forecasts
+  * [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - An enterprise-grade machine learning service to build and deploy models faster
+  * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - The service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows
+  * [Gradio](https://www.gradio.app/) - The fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere
 
 ## Neural Networks and Deep Learning
 
@@ -89,19 +87,17 @@
   * [FlashAttention](https://github.com/Dao-AILab/flash-attention) - A fast and memory-efficient exact attention mechanism
   * [Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) - A deep learning architecture based on the multi-head attention mechanism
 
-### Frameworks & Tools
+* DL Frameworks & Visualization
+  * [TensorFlow](https://www.tensorflow.org/) - An end-to-end open source platform for machine learning
+    * [TFDS](https://www.tensorflow.org/datasets) - The collection of datasets ready to use with TensorFlow or other Python ML frameworks like Jax
+    * [Keras](https://keras.io/) - The Python Deep Learning API designed for human beings, not machines
+  * [PyTorch](https://pytorch.org/) - An open source machine learning framework that accelerates the path from research prototyping to production deployment
+  * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
+  * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
 
-* [TensorFlow](https://www.tensorflow.org/) - An end-to-end open source platform for machine learning
-  * [TFDS](https://www.tensorflow.org/datasets) - The collection of datasets ready to use with TensorFlow or other Python ML frameworks like Jax
-  * [Keras](https://keras.io/) - The Python Deep Learning API designed for human beings, not machines
-* [PyTorch](https://pytorch.org/) - An open source machine learning framework that accelerates the path from research prototyping to production deployment
-* [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
-* [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
-
-### Textbooks
-
-* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book explaining the core ideas behind neural networks and deep learning
-* [Deep Learning, MIT Press](https://www.deeplearningbook.org/) - The textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
+* Reference Books
+  * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book explaining the core ideas behind neural networks and deep learning
+  * [Deep Learning, MIT Press](https://www.deeplearningbook.org/) - The textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
 
 ## Natural Language Processing (NLP)
 
@@ -123,18 +119,15 @@
   * [GloVe](https://nlp.stanford.edu/projects/glove/) - Global Vectors for Word Representation
 * [Sentence embedding](https://en.wikipedia.org/wiki/Sentence_embedding) - A numerical vector representation of a sentence that encodes its meaningful semantic information
 
-### Libraries & Tools
-
-* [Natural Language Toolkit](https://www.nltk.org/) - A leading platform for building Python programs to work with human language data
-* [Gensim](https://radimrehurek.com/gensim/) - A free open-source Python library for representing documents as semantic vectors
-* [Kuromoji](https://www.atilika.org/) - An open source Japanese morphological analyzer written in Java
-* [Kagome](https://github.com/ikawaha/kagome) - An open source Japanese morphological analyzer written in pure golang
-* [mecab-python3](https://github.com/SamuraiT/mecab-python3) - A Python wrapper for the MeCab morphological analyzer for Japanese text
-* [jieba](https://github.com/fxsjy/jieba) - A Python module for Chinese text segmentation
+* NLP Libraries
+  * [Natural Language Toolkit](https://www.nltk.org/) - A leading platform for building Python programs to work with human language data
+  * [Gensim](https://radimrehurek.com/gensim/) - A free open-source Python library for representing documents as semantic vectors
+  * [Kuromoji](https://www.atilika.org/) - An open source Japanese morphological analyzer written in Java
+  * [Kagome](https://github.com/ikawaha/kagome) - An open source Japanese morphological analyzer written in pure golang
+  * [mecab-python3](https://github.com/SamuraiT/mecab-python3) - A Python wrapper for the MeCab morphological analyzer for Japanese text
+  * [jieba](https://github.com/fxsjy/jieba) - A Python module for Chinese text segmentation
 
 ## Computer Vision
-
-### Software & Tools
 
 * [OpenCV](https://opencv.org/) - An open source computer vision and machine learning software library
   * [GoCV](https://gocv.io/) - A package for the Go programming language with bindings for OpenCV 4
