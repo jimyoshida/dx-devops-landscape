@@ -129,8 +129,36 @@
 
 ## Computer Vision
 
+### Image Processing & Fundamentals
+
 * [OpenCV](https://opencv.org/) - An open source computer vision and machine learning software library
   * [GoCV](https://gocv.io/) - A package for the Go programming language with bindings for OpenCV 4
+* [Pillow](https://github.com/python-pillow/Pillow) - A Python Imaging Library adding image processing capabilities
+* [scikit-image](https://scikit-image.org/) - A collection of algorithms for image processing in Python
+* [ImageMagick](https://imagemagick.org/) - A tool to create, edit, compose, or convert digital images
+
+### 3D Vision & Geometry
+
+* [Open3D](http://www.open3d.org/) - An open-source library that supports rapid development of software that deals with 3D data
+* [Point Cloud Library (PCL)](https://pointclouds.org/) - A standalone, large scale, open source project for 2D/3D image and point cloud processing
+
+### Object Detection & Recognition
+
+* [YOLO (You Only Look Once)](https://docs.ultralytics.com/) - An end-to-end object detection model designed for real-time detection
+* [Detectron2](https://github.com/facebookresearch/detectron2) - Facebook's next generation library that provides state-of-the-art detection and segmentation algorithms
+* [Mask R-CNN](https://github.com/matterport/Mask_RCNN) - An extension of Faster R-CNN that adds a branch for predicting object masks in parallel with bounding boxes
+
+### Pose & Body Estimation
+
+* [MediaPipe](https://mediapipe.dev/) - A framework for building multimodal ML pipelines for perception tasks like pose estimation, hand tracking, and face detection
+* [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - A library capable of real-time multi-person key point detection
+
+### Face & Biometric Recognition
+
+* [face_recognition](https://github.com/ageitgey/face_recognition) - A Python library that recognizes and manipulates faces from Python or from the command line
+
+### OCR & Text Recognition
+
 * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) - An open source text recognition (OCR) Engine
   * [gosseract OCR](https://github.com/otiai10/gosseract) - A Go package for OCR (Optical Character Recognition), by using Tesseract C++ library
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR) - A ready-to-use OCR with 80+ supported languages and all popular writing scripts
@@ -138,10 +166,37 @@
 * Open Models
   * [LLaVA](https://llava-vl.github.io/) - A novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding, achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on Science QA
 
-## Speech Recognition
+## Speech & Audio Processing
 
+### Automatic Speech Recognition (ASR)
+
+* [Kaldi](https://kaldi-asr.org/) - A speech recognition toolkit written in C++ for acoustic modeling and language modeling
+* [DeepSpeech](https://github.com/mozilla/DeepSpeech) - An open source engine for speech-to-text powered by deep learning
+* [wav2vec 2.0](https://huggingface.co/docs/transformers/model_doc/wav2vec2) - A self-supervised learning approach for speech recognition pre-training
 * Open Models
   * [Whisper](https://github.com/openai/whisper) - A robust speech recognition model trained via large-scale weak supervision
+
+### Text-to-Speech (TTS) & Voice Synthesis
+
+* [gTTS (Google Text-to-Speech)](https://gtts.readthedocs.io/) - A Python library and CLI tool to interface with Google's Text-to-Speech API
+* [Tacotron 2](https://github.com/NVIDIA/tacotron2) - A neural network architecture for speech synthesis based on sequence-to-sequence models with attention
+
+### Audio Processing & Tools
+
+* [librosa](https://librosa.org/) - A Python library for audio and music analysis
+* [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/) - Python bindings for PortAudio, the cross-platform audio I/O library
+* [SoX (Sound eXchange)](https://sox.sourceforge.net/) - The Swiss Army knife of sound processing programs
+* [Praat](https://www.fon.hum.uva.nl/praat/) - A software program for the analysis of speech in phonetics
+
+### Voice Activity Detection & Audio Enhancement
+
+* [webrtcvad](https://github.com/wiseman/py-webrtcvad) - A Python wrapper for the WebRTC voice activity detector
+* [SileroVAD](https://github.com/snakers4/silero-vad) - An open-source voice activity detector trained on large datasets
+
+### Speaker Identification & Voice Biometrics
+
+* [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) - A Python package for speaker embedding-based speaker recognition
+* [PyannoteAudio](https://github.com/pyannote/pyannote-audio) - A Python toolkit for speaker diarization and speaker change detection
 
 ## Generative AI & Large Language Models (LLMs)
 

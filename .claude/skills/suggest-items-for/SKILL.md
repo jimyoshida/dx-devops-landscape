@@ -8,3 +8,4 @@ version: 1.0.0
 
 For the subsection title provided or inferred from context, suggest some of the most relative items which are missing in the subsection.
 Print the new candidate items with entry numbers.
+Verify that the suggested URLs are valid and accessible.

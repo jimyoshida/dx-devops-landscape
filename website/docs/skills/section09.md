@@ -170,53 +170,6 @@
   * [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - A property of computer code applicable in multi-threaded environments, ensuring correct manipulation of shared data structures
   * [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - A situation in concurrent computing where no member of a group of entities can proceed because each waits for another member to take action
 
-## Refactoring & Clean Code
-
-* Concepts
-  * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
-  * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - A software metric used to indicate the complexity of a program
-* Code Metrics Tools
-  * [scc](https://github.com/boyter/scc/) - A tool that counts lines of code in many programming languages
-  * [cloc](https://github.com/AlDanial/cloc) - A tool that counts blank lines, comment lines, and physical lines of source code in many programming languages
-
-### Analysis Platform
-
-* [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - An on-premise analysis tool designed to detect coding issues in 30+ languages, frameworks, and IaC platform
-* [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html) - A report that shows the percentage of your code that is covered by tests
-* [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) - A feature that uses CodeClimate Engines to provide code quality analysis for your projects
-
-### Formatters
-
-* [EditorConfig](https://editorconfig.org/) - A file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles
-* [Prettier](https://prettier.io/) - An opinionated code formatter
-* [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
-* [Biome](https://biomejs.dev/) - A toolchain of the web that provides a fast formatter and performant linter for JavaScript, TypeScript, JSX, JSON, HTML, CSS, and GraphQL
-
-### Linters
-
-* [ESLint](https://eslint.org/) - An open source project that helps you find and fix problems with your JavaScript code
-* [JSHint](https://jshint.com/about/) - A Static Code Analysis Tool for JavaScript
-* [Biome](https://biomejs.dev/) - A toolchain of the web that provides a fast formatter and performant linter for JavaScript, TypeScript, JSX, JSON, HTML, CSS, and GraphQL
-* [Pylint](https://pylint.readthedocs.io/) - A static code analyser for Python 2 or 3
-* [Ruff](https://docs.astral.sh/ruff/) - An extremely fast Python linter and code formatter, written in Rust
-* [Staticcheck](https://staticcheck.dev/) - A state of the art linter for the Go programming language
-* [revive](https://revive.run/) - Fast & extensible static code analysis framework for Go
-* [golangci-lint](https://golangci-lint.run/) - A fast linters runner for Go
-* [RuboCop](https://github.com/rubocop/rubocop) - A Ruby static code analyzer (a.k.a linter) and code formatter
-* [Rust Clippy](https://doc.rust-lang.org/clippy/) - A collection of lints to catch common mistakes and improve your Rust code
-* [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - A static code checker for PowerShell modules and scripts
-* [ShellCheck](https://www.shellcheck.net/) - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
-* [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
-* [vacuum](https://quobix.com/vacuum/) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool
-* [yamllint](https://github.com/adrienverge/yamllint) - A linter for YAML files
-* [ls-lint](https://ls-lint.org/) - An extremely fast file and directory name linter
-
-### Coding style guides
-
-* [Google Style Guides](https://google.github.io/styleguide/) - A collection of documents that provide a set of conventions for writing source code in various programming languages
-* [Style Guide for Python](https://peps.python.org/pep-0008/) - A document that gives coding conventions for the Python code comprising the standard library in the main Python distribution
-* [Ruby Style Guide](https://rubystyle.guide/) - A community-driven style guide for the Ruby programming language
-
 ## Language Analysis
 
 * Concepts

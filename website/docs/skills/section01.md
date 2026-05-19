@@ -68,8 +68,6 @@
   * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
   * [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - A software development practice that seeks to apply the same principles of version control, testing, and deployment to enhance maintainability and scalability of all aspects of the development lifecycle, including networking infrastructure, documentation, and configuration
 
-## Release Management
-
 ### Release Automation
 
 * [semantic-release](https://semantic-release.gitbook.io/semantic-release) - A fully automated version management and package publishing tool that determines the next version number, generates release notes, and publishes the package based on formalized commit messages
@@ -77,7 +75,7 @@
 * [GoReleaser](https://goreleaser.com/) - A release automation tool for Go projects
 * [Changesets](https://github.com/changesets/changesets) - A tool to manage versioning and changelogs with a focus on monorepos
 
-### Conventions & Standards
+### Release Conventions & Standards
 
 * [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
 * [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages that provides an easy set of rules for creating an explicit commit history
@@ -108,7 +106,6 @@
 * [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
 * [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
 * [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
-* [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
 
 ### Design Patterns
 
@@ -134,6 +131,7 @@
     * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
     * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
     * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
+    * [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
   * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - An adage stating that organizations design systems that mirror their own communication structure
 * [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
   * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
@@ -150,10 +148,9 @@
 * [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
   * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
     * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
-* [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) - An extension of the World Wide Web that allows Internet data to be machine-readable through standards set by the W3C, enabling automated agents to process information more intelligently
 * [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
-## Project & Work Management
+## Project Management
 
 ### Project Planning & Estimation
 
@@ -177,23 +174,6 @@
   * [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
   * [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
 
-### People & Organization
-
-* [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
-* Organizational Behavior
-  * [Contingency theory](https://en.wikipedia.org/wiki/Contingency_theory) - A theory that claims there is no single best way to organize a corporation, lead a company, or make decisions, asserting that the optimal course of action depends on internal and external situations
-  * [Expectancy theory](https://en.wikipedia.org/wiki/Expectancy_theory) - A theory that proposes an individual's behavior is motivated by the expected results of their actions, with the desirability of the outcome determining the selection of a specific behavior
-  * [Intrinsic motivation](https://en.wikipedia.org/wiki/Intrinsic_motivation) - A type of motivation that arises from internal factors, such as enjoyment, curiosity, or a sense of fulfillment, where individuals engage in an activity for its own sake
-  * [Management 3.0](https://management30.com/) - An ever-evolving mindset and a collection of games, tools, and practices designed to help any worker manage the organization and improve work systems
-  * [PM Theory of Leadership](https://feriors.com/pm-theory-of-leadership/) - A leadership theory that classifies leaders into two categories: performance-oriented and maintenance-oriented
-  * [Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) - The theories of human work motivation and management developed by Douglas McGregor
-  * [Two-factor theory](https://en.wikipedia.org/wiki/Two-factor_theory) - A theory developed by psychologist Frederick Herzberg, it posits that job satisfaction and dissatisfaction are influenced by separate sets of factors, known as motivators and hygiene factors, which act independently of each other
-* Leadership Styles
-  * [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) - A leadership philosophy where the primary aim of the individual in charge is to prioritize the needs of their team members, fostering their development and performance, rather than focusing on personal gain or traditional hierarchical authority
-  * [Shared leadership](https://en.wikipedia.org/wiki/Shared_leadership) - A leadership style that broadly distributes responsibility, allowing individuals within a team or organization to lead each other
-  * [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) - A leadership model where effective leaders adapt their style to each situation, recognizing that no single approach is universally appropriate
-  * [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
-
 ### Tools
 
 * Issue Tracking Systems
@@ -206,10 +186,6 @@
   * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
   * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
   * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
-* Chat Systems
-  * [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
-  * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
-  * [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
 
 ### Standards & Maturity
 

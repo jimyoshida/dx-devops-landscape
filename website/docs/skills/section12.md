@@ -1,6 +1,8 @@
 # 12 - Interdisciplinary Foundations
 
-## Logic
+## Foundational Thinking & Logic
+
+### Logic
 
 * [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
   * [Logical reasoning](https://en.wikipedia.org/wiki/Logical_reasoning) - A mental activity that aims to arrive at a conclusion in a rigorous way
@@ -19,7 +21,7 @@
   * [Rhetoric](https://en.wikipedia.org/wiki/Rhetoric) - The art of persuasion
   * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
 
-## Agile Documentation
+## Documentation & Knowledge Management
 
 * [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
 * [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
@@ -113,7 +115,7 @@
   * [Pandoc](https://pandoc.org/) - A universal document converter
     * [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
 
-## Human Interface Design
+## Human-Centered Design
 
 ### Core Principles & User Experience (UX)
 
@@ -158,6 +160,23 @@
       * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
       * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
   * [Lucide](https://lucide.dev/) - A beautiful and consistent icon library for various platforms and frameworks
+* Font Rendering & Technologies
+  * Font Standards
+    * [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
+    * [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
+    * [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
+    * [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
+  * Open Fonts
+    * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+    * [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
+  * Libraries & Engines
+    * [FreeType](https://freetype.org/) - A freely available software library to render fonts
+    * [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
+    * [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
+    * [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
+  * Rendering Technologies & APIs
+    * [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
+    * [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
 
 ### Platforms, Frameworks & Guidelines
 
@@ -178,26 +197,7 @@
   * Interaction to Next Paint (INP)
   * Cumulative Layout Shift (CLS)
 
-### Font Rendering
-
-* Font Standards
-  * [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
-  * [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
-  * [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
-  * [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
-* Open Fonts
-  * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
-  * [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
-* Libraries & Engines
-  * [FreeType](https://freetype.org/) - A freely available software library to render fonts
-  * [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
-  * [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
-  * [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
-* Rendering Technologies & APIs
-  * [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
-  * [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
-
-## People & Collaboration
+## Interpersonal & Team Leadership
 
 ### Team Dynamics & Communication
 
@@ -221,7 +221,31 @@
 * Feedback Models
   * [DESC feedback model](https://workmotion.com/academy-post/the-desc-feedback-model/) - A communication tool for providing constructive feedback by describing the behavior, expressing the impact, specifying the desired change, and explaining the consequences
 
-## Psychology & Sociology
+### Organizational Behavior
+
+* [Stakeholder management](https://en.wikipedia.org/wiki/Stakeholder_management) - The process of identifying individuals or groups that are affected by a project or business venture, understanding their interests and concerns, and managing their expectations and influence
+* [Contingency theory](https://en.wikipedia.org/wiki/Contingency_theory) - A theory that claims there is no single best way to organize a corporation, lead a company, or make decisions, asserting that the optimal course of action depends on internal and external situations
+* [Expectancy theory](https://en.wikipedia.org/wiki/Expectancy_theory) - A theory that proposes an individual's behavior is motivated by the expected results of their actions, with the desirability of the outcome determining the selection of a specific behavior
+* [Intrinsic motivation](https://en.wikipedia.org/wiki/Intrinsic_motivation) - A type of motivation that arises from internal factors, such as enjoyment, curiosity, or a sense of fulfillment, where individuals engage in an activity for its own sake
+* [Management 3.0](https://management30.com/) - An ever-evolving mindset and a collection of games, tools, and practices designed to help any worker manage the organization and improve work systems
+* [PM Theory of Leadership](https://feriors.com/pm-theory-of-leadership/) - A leadership theory that classifies leaders into two categories: performance-oriented and maintenance-oriented
+* [Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) - The theories of human work motivation and management developed by Douglas McGregor
+* [Two-factor theory](https://en.wikipedia.org/wiki/Two-factor_theory) - A theory developed by psychologist Frederick Herzberg, it posits that job satisfaction and dissatisfaction are influenced by separate sets of factors, known as motivators and hygiene factors, which act independently of each other
+
+### Leadership Styles
+
+* [Servant leadership](https://en.wikipedia.org/wiki/Servant_leadership) - A leadership philosophy where the primary aim of the individual in charge is to prioritize the needs of their team members, fostering their development and performance, rather than focusing on personal gain or traditional hierarchical authority
+* [Shared leadership](https://en.wikipedia.org/wiki/Shared_leadership) - A leadership style that broadly distributes responsibility, allowing individuals within a team or organization to lead each other
+* [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) - A leadership model where effective leaders adapt their style to each situation, recognizing that no single approach is universally appropriate
+* [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
+
+### Communication Tools
+
+* [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
+* [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
+* [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
+
+## Individual Psychology & Performance
 
 ### Personal Performance
 
@@ -261,7 +285,9 @@
   * [Stone soup story](https://en.wikipedia.org/wiki/Stone_Soup) - A European folk story in which hungry strangers convince the people of a town to each share a small amount of their food in order to make a meal
   * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog) - An apologue describing a frog being slowly boiled alive
 
-## Economics & Game Theory
+## Systems Thinking: Economics, Game Theory & Finance
+
+### Economics & Game Theory
 
 * [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
 * [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
@@ -276,7 +302,7 @@
 * [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) - A solution concept of a non-cooperative game involving two or more players in which each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy
 * [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency) - A state of allocation of resources from which it is impossible to reallocate so as to make any one individual or preference criterion better off without making at least one individual or preference criterion worse off
 
-## Finance & Accounting
+### Finance & Accounting
 
 * [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
 * [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate

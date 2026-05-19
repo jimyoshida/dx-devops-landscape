@@ -75,7 +75,7 @@
 * [Groovy](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
 * [Dart](https://dart.dev/) - A client-optimized language for fast apps on any platform
 
-## Text & Time Format Standards
+## Data & Format Standards
 
 ### Text Format & Character Code
 
@@ -107,7 +107,52 @@ support
   * [Go when](https://github.com/olebedev/when) - A natural language date/time parser with no dependencies
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) - A media type which allows users to store and exchange calendaring and scheduling information
 
-## Regular Expression
+### Data Exchange Languages
+
+* [JSON](https://www.json.org/json-en.html) - A lightweight data-interchange format
+  * [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor
+  * [gojq](https://github.com/itchyny/gojq) - A Pure Go implementation of jq
+  * [gron](https://github.com/tomnomnom/gron) - A tool that transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it
+  * [JMESPath](https://jmespath.org/) - A query language for JSON
+  * [JSON::Tiny](https://metacpan.org/pod/JSON::Tiny) - A minimalistic JSON module with no dependencies
+  * [Python json](https://docs.python.org/3/library/json.html) - A module that implements a JSON encoder and decoder
+  * [Jackson](https://github.com/FasterXML/jackson) - A suite of data-processing tools for Java, including a streaming JSON parser / generator library and matching data-binding library
+* [XML](https://www.w3.org/XML/) - A simple, very flexible text format derived from SGML (ISO 8879)
+  * [XPath](https://www.w3.org/TR/xpath/) - An expression language that allows the processing of values conforming to the XQuery and XPath Data Model
+  * [DOM](https://dom.spec.whatwg.org/) - A platform-neutral model for events, aborting activities, and node trees
+  * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) - A module that implements a simple and efficient API for parsing and creating XML data
+* [logfmt](https://brandur.org/logfmt) - A log format that is simple, fast, and easy for humans and machines to parse
+* [JSON Lines](https://jsonlines.org/) - A convenient format for storing structured data that may be processed one record at a time
+* Related Tools
+  * [fx](https://fx.wtf/) - A terminal JSON viewer
+  * [jnv](https://github.com/ynqa/jnv) - An interactive JSON viewer and jq filter editor designed for navigating JSON
+
+### Configuration Languages
+
+* JSON Superset
+  * [Jsonnet](https://jsonnet.org/) - A data templating language for app and tool developers
+  * [Hjson](https://hjson.github.io/) - A user interface for JSON
+  * [YAML](https://yaml.org/) - A human-friendly data serialization language for all programming languages
+    * [yq (python)](https://github.com/kislyuk/yq) - A command-line YAML, XML, TOML processor and jq wrapper for YAML, XML, TOML documents
+    * [yq (go)](https://github.com/mikefarah/yq) - A portable command-line YAML, JSON, XML, CSV, TOML and properties processor
+    * [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny) - A Perl class for reading and writing YAML-style files, written with as little code as possible
+    * [PyYAML](https://github.com/yaml/pyyaml) - A YAML parser and emitter for Python
+  * [StrictYAML](https://hitchdev.com/strictyaml/) - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
+  * [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - A JS library to parse and stringify JSONC (JSON with comments)
+  * [CUE](https://cuelang.org/) - An open-source data validation language and inference engine with its roots in logic programming
+* Other Configuration Languages
+  * [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
+    * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny) - A minimal, pure perl TOML parser and serializer
+    * [Python tomllib](https://docs.python.org/3/library/tomllib.html) - A module that provides an interface for parsing TOML
+  * [HCL](https://github.com/hashicorp/hcl) - A toolkit for creating structured configuration languages that are both human- and machine-friendly
+* Related Tools
+  * [yj](https://github.com/sclevine/yj) - A command-line interface tool to convert between YAML, TOML, JSON, and HCL
+* General Expression Languages
+  * [CEL](https://cel.dev/) - A general-purpose expression language designed to be fast, portable, and safe to execute
+
+## Text Processing & Manipulation
+
+### Regular Expression
 
 * [Regex](https://en.wikipedia.org/wiki/Regular_expression) - A sequence of characters that specifies a search pattern in text
   * [PCRE](https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions) - A library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
@@ -122,29 +167,31 @@ support
   * [Wubular](https://rubyelders.github.io/wubular/) - A Javascript-based regular expression editor, inspired by Rubular
   * [RegEx101](https://regex101.com/) - An online regular expression editor and debugger
 
-## Text Manipulation
+### Text Tools
 
 * General Tools
   * [GNU sed](https://www.gnu.org/software/sed/) - A stream editor used to perform basic text transformations on an input stream
   * [sd](https://github.com/chmln/sd) - An intuitive find and replace command-line tool
   * [GNU diffutils](https://www.gnu.org/software/diffutils/) - A package of several programs for finding the differences between files
   * [colordiff](https://www.colordiff.org/) - A tool that produces the same output as diff but with coloured syntax highlighting to improve readability
-* Tabular Data
-  * CLI Tools
-    * [csvkit](https://csvkit.readthedocs.io/en/latest/) - A suite of command-line tools for converting to and working with CSV
-    * [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust
-    * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
-    * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
-  * Libraries
-    * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
-    * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
-    * [Ruby csv](https://ruby.github.io/csv/) - A complete interface to CSV files and data
-    * [smarter_csv](https://github.com/tilo/smarter_csv) - A Ruby Gem for convenient reading and writing of CSV files
-    * [Go csv](https://pkg.go.dev/encoding/csv) - A package that reads and writes comma-separated values (CSV) files
-    * [Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser for JavaScript
-    * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format
-    * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable) - A module that can be used to write data in tabular form, formatted in MultiMarkdown syntax
-    * [Terminal Table](https://github.com/tj/terminal-table) - A simple, feature-rich ascii table generation library for ruby
+
+### Tabular Data
+
+* CLI Tools
+  * [csvkit](https://csvkit.readthedocs.io/en/latest/) - A suite of command-line tools for converting to and working with CSV
+  * [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust
+  * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
+  * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
+* Libraries
+  * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
+  * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
+  * [Ruby csv](https://ruby.github.io/csv/) - A complete interface to CSV files and data
+  * [smarter_csv](https://github.com/tilo/smarter_csv) - A Ruby Gem for convenient reading and writing of CSV files
+  * [Go csv](https://pkg.go.dev/encoding/csv) - A package that reads and writes comma-separated values (CSV) files
+  * [Papa Parse](https://www.papaparse.com/) - The powerful, in-browser CSV parser for JavaScript
+  * [Python tabulate](https://github.com/astanin/python-tabulate) - A library and a command-line utility that displays data in a visually appealing format
+  * [Text::MarkdownTable](https://metacpan.org/pod/Text::MarkdownTable) - A module that can be used to write data in tabular form, formatted in MultiMarkdown syntax
+  * [Terminal Table](https://github.com/tj/terminal-table) - A simple, feature-rich ascii table generation library for ruby
 
 ### Template Engines
 
@@ -168,49 +215,6 @@ support
   * [remark](https://remark.js.org/) - A markdown processor powered by plugins
 * [markdown-it](https://github.com/markdown-it/markdown-it) - A Markdown parser with 100% CommonMark support, extensions, and syntax plugins
   * [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/) - A Python port of the markdown-it project
-
-## Data Exchange Languages
-
-* [JSON](https://www.json.org/json-en.html) - A lightweight data-interchange format
-  * [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor
-  * [gojq](https://github.com/itchyny/gojq) - A Pure Go implementation of jq
-  * [gron](https://github.com/tomnomnom/gron) - A tool that transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it
-  * [JMESPath](https://jmespath.org/) - A query language for JSON
-  * [JSON::Tiny](https://metacpan.org/pod/JSON::Tiny) - A minimalistic JSON module with no dependencies
-  * [Python json](https://docs.python.org/3/library/json.html) - A module that implements a JSON encoder and decoder
-  * [Jackson](https://github.com/FasterXML/jackson) - A suite of data-processing tools for Java, including a streaming JSON parser / generator library and matching data-binding library
-* [XML](https://www.w3.org/XML/) - A simple, very flexible text format derived from SGML (ISO 8879)
-  * [XPath](https://www.w3.org/TR/xpath/) - An expression language that allows the processing of values conforming to the XQuery and XPath Data Model
-  * [DOM](https://dom.spec.whatwg.org/) - A platform-neutral model for events, aborting activities, and node trees
-  * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) - A module that implements a simple and efficient API for parsing and creating XML data
-* [logfmt](https://brandur.org/logfmt) - A log format that is simple, fast, and easy for humans and machines to parse
-* [JSON Lines](https://jsonlines.org/) - A convenient format for storing structured data that may be processed one record at a time
-* Related Tools
-  * [fx](https://fx.wtf/) - A terminal JSON viewer
-  * [jnv](https://github.com/ynqa/jnv) - An interactive JSON viewer and jq filter editor designed for navigating JSON
-
-## Configuration Languages
-
-* JSON Superset
-  * [Jsonnet](https://jsonnet.org/) - A data templating language for app and tool developers
-  * [Hjson](https://hjson.github.io/) - A user interface for JSON
-  * [YAML](https://yaml.org/) - A human-friendly data serialization language for all programming languages
-    * [yq (python)](https://github.com/kislyuk/yq) - A command-line YAML, XML, TOML processor and jq wrapper for YAML, XML, TOML documents
-    * [yq (go)](https://github.com/mikefarah/yq) - A portable command-line YAML, JSON, XML, CSV, TOML and properties processor
-    * [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny) - A Perl class for reading and writing YAML-style files, written with as little code as possible
-    * [PyYAML](https://github.com/yaml/pyyaml) - A YAML parser and emitter for Python
-  * [StrictYAML](https://hitchdev.com/strictyaml/) - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
-  * [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - A JS library to parse and stringify JSONC (JSON with comments)
-  * [CUE](https://cuelang.org/) - An open-source data validation language and inference engine with its roots in logic programming
-* Other Configuration Languages
-  * [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
-    * [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny) - A minimal, pure perl TOML parser and serializer
-    * [Python tomllib](https://docs.python.org/3/library/tomllib.html) - A module that provides an interface for parsing TOML
-  * [HCL](https://github.com/hashicorp/hcl) - A toolkit for creating structured configuration languages that are both human- and machine-friendly
-* Related Tools
-  * [yj](https://github.com/sclevine/yj) - A command-line interface tool to convert between YAML, TOML, JSON, and HCL
-* General Expression Languages
-  * [CEL](https://cel.dev/) - A general-purpose expression language designed to be fast, portable, and safe to execute
 
 ## Debugging
 

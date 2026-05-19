@@ -480,3 +480,22 @@
   * [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) - A tool that enables you to view and analyze your costs and usage
   * [OpenCost](https://www.opencost.io/) - The open source solution for monitoring Kubernetes spend
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing public cloud accounts and resources
+
+## Performance & Load Testing
+
+* [Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
+
+### Performance Testing Tools
+
+* [Hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+* [Locust](https://locust.io/) - An easy-to-use, distributed, user load testing tool
+* [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
+* [Gatling](https://gatling.io/) - The load testing tool for programmers that helps engineering teams shift performance concerns left
+* [Apache Jmeter](https://jmeter.apache.org/) - A pure Java application designed to load test functional behavior and measure performance
+* [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) - A tool for benchmarking your Apache Hypertext Transfer Protocol (HTTP) server
+* [stress-ng](https://github.com/ColinIanKing/stress-ng) - A tool that imposes configurable amounts of CPU, memory, I/O, and disk stress on the system
+* [sysbench](https://github.com/akopytov/sysbench) - A scriptable multi-threaded benchmark tool based on LuaJIT
+* [fio](https://github.com/axboe/fio) - A tool that will spawn a number of threads or processes doing a particular type of I/O action as specified by the user
+* [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
+* [plow](https://deepwiki.com/six-ddc/plow) - A high-performance HTTP benchmarking tool
+* [loadgen-rs](https://github.com/git001/loadgen-rs) - A h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) with commandline mode and distributed mode

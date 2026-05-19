@@ -1,9 +1,10 @@
 SHELL = /usr/bin/bash # Assuming Git for Windows
 
-release: read write digest
+release: read write
 
 read:
 	cat ../website/docs/skills/*.md | perl read.pl > sections.yml
+	cat ../website/docs/skills/*.md | perl digest.pl > digest.md
 
 write:
 	for file in ../website/docs/skills/*.md; do \
@@ -15,5 +16,3 @@ write:
 test_write:
 	ruby write_test.rb --verbose
 
-digest:
-	cat ../website/docs/skills/*.md | perl digest.pl > digest.md

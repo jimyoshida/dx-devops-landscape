@@ -16,12 +16,10 @@ markmap:
 #### DevOps & Engineering Productivity
 
 
-### Release Management
-
 #### Release Automation
 
 
-#### Conventions & Standards
+#### Release Conventions & Standards
 
 
 ### Software Design & Architecture
@@ -44,15 +42,12 @@ markmap:
 #### Domain-Driven Design (DDD)
 
 
-### Project & Work Management
+### Project Management
 
 #### Project Planning & Estimation
 
 
 #### Prioritization
-
-
-#### People & Organization
 
 
 #### Tools
@@ -313,6 +308,12 @@ markmap:
 
 #### FinOps
 
+
+### Performance & Load Testing
+
+
+#### Performance Testing Tools
+
 ## 04 - Security & Privacy
 
 ### Security Foundations
@@ -441,7 +442,18 @@ markmap:
 #### Core Data Engineering & Database Concepts
 
 
+#### Data Governance, Quality & Architecture
+
+
 ### Data Science Toolkit
+
+#### Programming Languages & Libraries
+
+
+#### Specialized & Scientific Tools
+
+
+#### Data Sources & Geospatial
 
 
 #### Spreadsheet & Collaborative Data Platforms
@@ -466,6 +478,12 @@ markmap:
 #### Distributed Computing Principles
 
 
+#### Consensus & Replication Strategies
+
+
+#### Distributed Patterns & Observability
+
+
 #### Distributed Storage Systems
 
 
@@ -486,6 +504,15 @@ markmap:
 
 
 #### Data Architectures & Methodologies
+
+
+#### Data Governance & Metadata Management
+
+
+#### Data Quality & Validation
+
+
+#### Data Versioning & Schema Management
 
 
 ### Relational Databases (SQL)
@@ -566,8 +593,39 @@ markmap:
 
 ### Computer Vision
 
+#### Image Processing & Fundamentals
 
-### Speech Recognition
+
+#### 3D Vision & Geometry
+
+
+#### Object Detection & Recognition
+
+
+#### Pose & Body Estimation
+
+
+#### Face & Biometric Recognition
+
+
+#### OCR & Text Recognition
+
+
+### Speech & Audio Processing
+
+#### Automatic Speech Recognition (ASR)
+
+
+#### Text-to-Speech (TTS) & Voice Synthesis
+
+
+#### Audio Processing & Tools
+
+
+#### Voice Activity Detection & Audio Enhancement
+
+
+#### Speaker Identification & Voice Biometrics
 
 
 ### Generative AI & Large Language Models (LLMs)
@@ -667,6 +725,21 @@ markmap:
 
 
 #### Language Servers
+
+
+### Code Quality & Refactoring
+
+
+#### Analysis Platform
+
+
+#### Formatters
+
+
+#### Linters
+
+
+#### Coding style guides
 
 
 ### Developer AI & Productivity
@@ -802,12 +875,6 @@ markmap:
 
 #### Remote Access Servers and Protocols
 
-
-### Performance & Load Testing
-
-
-#### Performance Testing Tools
-
 ## 09 - Programming Concepts & Paradigms
 
 ### Mathematical Logic
@@ -852,21 +919,6 @@ markmap:
 
 
 ### Asynchronous & Concurrency
-
-
-### Refactoring & Clean Code
-
-
-#### Analysis Platform
-
-
-#### Formatters
-
-
-#### Linters
-
-
-#### Coding style guides
 
 
 ### Language Analysis
@@ -921,7 +973,7 @@ markmap:
 #### Multi-paradigm & Hybrid Languages
 
 
-### Text & Time Format Standards
+### Data & Format Standards
 
 #### Text Format & Character Code
 
@@ -930,22 +982,27 @@ support
 #### DateTime Format
 
 
-### Regular Expression
+#### Data Exchange Languages
 
 
-### Text Manipulation
+#### Configuration Languages
+
+
+### Text Processing & Manipulation
+
+#### Regular Expression
+
+
+#### Text Tools
+
+
+#### Tabular Data
 
 
 #### Template Engines
 
 
 #### Markup & Document Processing
-
-
-### Data Exchange Languages
-
-
-### Configuration Languages
 
 
 ### Debugging
@@ -988,10 +1045,29 @@ support
 
 ## 11 - Specialized Development Domains
 
-### Business Application SDKs
+### Business & Productivity Application SDKs
+
+#### Project & Work Management
+
+
+#### Collaboration & Communication
+
+
+#### Enterprise Workspaces
+
+
+#### Customer Relationship Management
 
 
 ### Binary & Media Processing
+
+#### Binary Format Tools
+
+
+#### Data Serialization
+
+
+#### Image & Media Formats
 
 
 #### Image & Media Processing
@@ -1001,6 +1077,8 @@ support
 
 
 ### Document Processing
+
+#### Business Document Formats
 
 
 #### PDF Processing
@@ -1039,6 +1117,22 @@ support
 
 ### Internet of Things (IoT)
 
+#### IoT Concepts
+
+
+#### Communication Standards
+
+
+#### IoT Hardware Platforms
+
+
+#### IoT Cloud Platforms
+
+
+### Developer Tools Integration
+
+#### Version Control & DevOps
+
 
 ### Computer Graphics & Game Development
 
@@ -1052,13 +1146,15 @@ support
 
 ## 12 - Interdisciplinary Foundations
 
-### Logic
+### Foundational Thinking & Logic
+
+#### Logic
 
 
 #### Informal Logic
 
 
-### Agile Documentation
+### Documentation & Knowledge Management
 
 
 #### Knowledge Management
@@ -1073,7 +1169,7 @@ support
 #### Documentation Tooling
 
 
-### Human Interface Design
+### Human-Centered Design
 
 #### Core Principles & User Experience (UX)
 
@@ -1090,15 +1186,21 @@ support
 #### Web Experience & Performance
 
 
-#### Font Rendering
-
-
-### People & Collaboration
+### Interpersonal & Team Leadership
 
 #### Team Dynamics & Communication
 
 
-### Psychology & Sociology
+#### Organizational Behavior
+
+
+#### Leadership Styles
+
+
+#### Communication Tools
+
+
+### Individual Psychology & Performance
 
 #### Personal Performance
 
@@ -1106,8 +1208,10 @@ support
 #### Social Performance
 
 
-### Economics & Game Theory
+### Systems Thinking: Economics, Game Theory & Finance
+
+#### Economics & Game Theory
 
 
-### Finance & Accounting
+#### Finance & Accounting
 

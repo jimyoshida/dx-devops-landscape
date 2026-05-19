@@ -1,50 +1,58 @@
 # 11 - Specialized Development Domains
 
-## Business Application SDKs
+## Business & Productivity Application SDKs
 
-* Project & Work Management
-  * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
-  * [Notion SDK for JavaScript](https://github.com/makenotion/notion-sdk-js) - An official client for the Notion API
-* Collaboration & Communication
-  * [Python Slack SDK](https://slack.dev/python-slack-sdk/) - A software development kit that helps Python developers build apps that integrate with Slack
-  * [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - A Go library for the Slack API
-  * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
-  * [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
-  * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
-* Enterprise Workspaces
-  * Microsoft 365 Development
-    * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
-    * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
-    * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
-    * [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) - The gateway to data and intelligence in Microsoft 365
-    * [Work-IQ](https://github.com/microsoft/work-iq) - An MCP (Model Context Protocol) server and CLI for accessing Microsoft 365 data
-  * Google Workspace Development
-    * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
-* Customer Relationship Management
-  * [JSforce](https://jsforce.github.io/) - A Salesforce API library for JavaScript applications
-* Version Control & DevOps
-  * [Octokit.js](https://github.com/octokit/octokit.js) - The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno
-  * [python-gitlab](https://github.com/python-gitlab/python-gitlab) - A wrapper for the GitLab API written in Python
+### Project & Work Management
+
+* [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
+* [Notion SDK for JavaScript](https://github.com/makenotion/notion-sdk-js) - An official client for the Notion API
+
+### Collaboration & Communication
+
+* [Python Slack SDK](https://slack.dev/python-slack-sdk/) - A software development kit that helps Python developers build apps that integrate with Slack
+* [Slack API in Go](https://pkg.go.dev/github.com/slack-go/slack) - A Go library for the Slack API
+* [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
+* [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
+* [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
+
+### Enterprise Workspaces
+
+* Microsoft 365 Development
+  * [PnPjs](https://pnp.github.io/pnpjs/) - A collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs
+  * [SharePoint Framework (SPFx)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) - A page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and extending Microsoft Teams and Microsoft Viva
+  * [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) - A cross-platform command line interface that enables you to manage your Microsoft 365 tenant and SharePoint Framework projects on any platform
+  * [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) - The gateway to data and intelligence in Microsoft 365
+  * [Work-IQ](https://github.com/microsoft/work-iq) - An MCP (Model Context Protocol) server and CLI for accessing Microsoft 365 data
+* Google Workspace Development
+  * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
+
+### Customer Relationship Management
+
+* [JSforce](https://jsforce.github.io/) - A Salesforce API library for JavaScript applications
 
 ## Binary & Media Processing
 
-* General Tools
-  * [file (command)](https://www.darwinsys.com/file/) - A file type guesser
-  * [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html) - A filter which displays the specified files, or the standard input, in a user specified format
-  * [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
-  * [bed](https://github.com/itchyny/bed) - A binary editor written in Go
-  * [fq](https://github.com/wader/fq) - A tool inspired by jq that lets you poke at binary formats
-* Serialization Formats
-  * [Protobuf](https://protobuf.dev/) - A language-neutral, platform-neutral, extensible mechanism for serializing structured data
-  * [MessagePack](https://msgpack.org/) - An efficient binary serialization format
-* Executable Formats
-  * [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
-* Media Formats
-  * [JPEG](https://en.wikipedia.org/wiki/JPEG) - A commonly used method of lossy compression for digital images
-  * [PNG](https://en.wikipedia.org/wiki/PNG) - A raster-graphics file format that supports lossless data compression
-  * [Webp](https://en.wikipedia.org/wiki/WebP) - A raster graphics file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats
-  * [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) - A method of defining compression of audio and visual digital data
-  * [High Efficiency Video Coding](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) - A video compression standard, designed as a successor to the widely used Advanced Video Coding (AVC)
+### Binary Format Tools
+
+* [file (command)](https://www.darwinsys.com/file/) - A file type guesser
+* [hexdump](https://man7.org/linux/man-pages/man1/hexdump.1.html) - A filter which displays the specified files, or the standard input, in a user specified format
+* [xxd](https://github.com/ckormanyos/xxd) - The well-known hex-dump-type utility
+* [bed](https://github.com/itchyny/bed) - A binary editor written in Go
+* [fq](https://github.com/wader/fq) - A tool inspired by jq that lets you poke at binary formats
+* [ELF format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) - A common standard file format for executable files, object code, shared libraries, and core dumps
+
+### Data Serialization
+
+* [Protobuf](https://protobuf.dev/) - A language-neutral, platform-neutral, extensible mechanism for serializing structured data
+* [MessagePack](https://msgpack.org/) - An efficient binary serialization format
+
+### Image & Media Formats
+
+* [JPEG](https://en.wikipedia.org/wiki/JPEG) - A commonly used method of lossy compression for digital images
+* [PNG](https://en.wikipedia.org/wiki/PNG) - A raster-graphics file format that supports lossless data compression
+* [Webp](https://en.wikipedia.org/wiki/WebP) - A raster graphics file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats
+* [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) - A method of defining compression of audio and visual digital data
+* [High Efficiency Video Coding](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) - A video compression standard, designed as a successor to the widely used Advanced Video Coding (AVC)
 
 ### Image & Media Processing
 
@@ -79,17 +87,17 @@
 
 ## Document Processing
 
-* Universal Tools
-  * [Docling](https://github.com/docling-project/docling) - A powerful library which simplifies document processing, parsing diverse formats
-* Formats
-  * [PDF](https://en.wikipedia.org/wiki/PDF) - A file format developed by Adobe to present documents in a manner independent of application software, hardware, and operating systems
-  * [PDF/A](https://en.wikipedia.org/wiki/PDF/A) - An ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents
-  * [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) - A zip-based XML-based file format for representing spreadsheets, charts, presentations and word processing documents
-  * [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument) - A zip-compressed, XML-based file format for spreadsheets, charts, presentations and word-processing documents
+### Business Document Formats
+
+* [PDF](https://en.wikipedia.org/wiki/PDF) - A file format developed by Adobe to present documents in a manner independent of application software, hardware, and operating systems
+* [PDF/A](https://en.wikipedia.org/wiki/PDF/A) - An ISO-standardized version of the Portable Document Format (PDF) specialized for use in the archiving and long-term preservation of electronic documents
+* [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) - A zip-based XML-based file format for representing spreadsheets, charts, presentations and word processing documents
+* [OpenDocument](https://en.wikipedia.org/wiki/OpenDocument) - A zip-compressed, XML-based file format for spreadsheets, charts, presentations and word-processing documents
 
 ### PDF Processing
 
 * Tools
+  * [Docling](https://github.com/docling-project/docling) - A powerful library which simplifies document processing, parsing diverse formats
   * [Ghostscript](https://www.ghostscript.com/) - A suite of software based on an interpreter for Adobe Systems' PostScript and Portable Document Format page description languages
   * [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
   * [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs
@@ -216,22 +224,36 @@
 
 ## Internet of Things (IoT)
 
-* Concepts
-  * [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things) - The network of physical objects—'things'—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet
-  * [Edge computing](https://en.wikipedia.org/wiki/Edge_computing) - A distributed computing paradigm that brings computation and data storage closer to the sources of data
-  * [Machine to machine](https://en.wikipedia.org/wiki/Machine_to_machine) - The direct communication between devices using any communications channel, including wired and wireless
-  * [Firmware](https://en.wikipedia.org/wiki/Firmware) - A specific class of computer software that provides the low-level control for a device's specific hardware
-  * [Over-the-air update](https://en.wikipedia.org/wiki/Over-the-air_update) - The wireless delivery of new software, firmware, or other data to mobile devices
-* Communication Standards
-  * [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi) - A family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access
-  * [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) - A wireless personal area network technology designed to provide considerably reduced power consumption and cost while maintaining a similar communication range to classic Bluetooth
-  * [Zigbee](https://en.wikipedia.org/wiki/Zigbee) - An IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios
-  * [Near-field communication](https://en.wikipedia.org/wiki/Near-field_communication) - A set of communication protocols that enables communication between two electronic devices over a distance of 4 cm (1+1⁄2 in) or less
-* Devices
-  * [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
-* PaaS
-  * [Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub) - A managed cloud-based service that serves as a central message hub for communication between an IoT application and its connected devices
-  * [AWS IoT Greengrass](https://aws.amazon.com/greengrass/) - An open-source edge runtime and cloud service for building, deploying, and managing device software
+### IoT Concepts
+
+* [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things) - The network of physical objects—'things'—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet
+* [Edge computing](https://en.wikipedia.org/wiki/Edge_computing) - A distributed computing paradigm that brings computation and data storage closer to the sources of data
+* [Machine to machine](https://en.wikipedia.org/wiki/Machine_to_machine) - The direct communication between devices using any communications channel, including wired and wireless
+* [Firmware](https://en.wikipedia.org/wiki/Firmware) - A specific class of computer software that provides the low-level control for a device's specific hardware
+* [Over-the-air update](https://en.wikipedia.org/wiki/Over-the-air_update) - The wireless delivery of new software, firmware, or other data to mobile devices
+
+### Communication Standards
+
+* [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi) - A family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access
+* [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) - A wireless personal area network technology designed to provide considerably reduced power consumption and cost while maintaining a similar communication range to classic Bluetooth
+* [Zigbee](https://en.wikipedia.org/wiki/Zigbee) - An IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios
+* [Near-field communication](https://en.wikipedia.org/wiki/Near-field_communication) - A set of communication protocols that enables communication between two electronic devices over a distance of 4 cm (1+1⁄2 in) or less
+
+### IoT Hardware Platforms
+
+* [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
+
+### IoT Cloud Platforms
+
+* [Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub) - A managed cloud-based service that serves as a central message hub for communication between an IoT application and its connected devices
+* [AWS IoT Greengrass](https://aws.amazon.com/greengrass/) - An open-source edge runtime and cloud service for building, deploying, and managing device software
+
+## Developer Tools Integration
+
+### Version Control & DevOps
+
+* [Octokit.js](https://github.com/octokit/octokit.js) - The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno
+* [python-gitlab](https://github.com/python-gitlab/python-gitlab) - A wrapper for the GitLab API written in Python
 
 ## Computer Graphics & Game Development
 

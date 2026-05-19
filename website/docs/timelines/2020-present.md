@@ -151,8 +151,7 @@ It was launched on March 14, 2023, and made publicly available via the paid chat
 
 🧠 Bard is a conversational artificial intelligence chatbot developed by Google, based on the LaMDA family of large language models. It was developed as a response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses.
 
-🧠 Claude is a family of large language models developed by Anthropic.
-The first model was released in March 2023.
+🧠 Claude 1, the original large language model developed by Anthropic, was released in March 2023, establishing the foundation for Anthropic's family of conversational AI models.
 
 ⚙️ Chocolatey 2.0.0 was released on May 31, 2023, featuring a major update to the underlying NuGet client libraries and introducing support for Semantic Versioning (SemVer) 2.0.0.
 
@@ -187,6 +186,8 @@ First appeared: 2023
 ☁️ OpenTofu reached general availability (GA) with its 1.6.0 release on January 10, 2024, marking its first stable production-ready version.
 
 🧠 Devin, branded as the "world's first fully autonomous AI software engineer," was officially released by Cognition AI on March 12, 2024.
+
+🧠 The Claude 3 family of large language models was announced by Anthropic on March 4, 2024, introducing three model tiers: Claude 3 Opus (maximum capability), Claude 3 Sonnet (balanced performance), and Claude 3 Haiku (low latency and cost). The Claude 3 family marked Anthropic's first multimodal models, adding vision capabilities (image understanding) to all three tiers. Opus and Sonnet were made generally available on March 4, 2024, while Haiku became generally available on March 13, 2024.
 
 🌐 Bun 1.1, which introduced stable support for Windows and significant performance improvements for common operations, was released on April 1, 2024.
 
@@ -279,6 +280,8 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 🏢 The Agentic AI Foundation (AAIF) was founded on December 9, 2025.
 It was launched as a new foundation under the Linux Foundation umbrella to provide neutral governance for the rapidly evolving ecosystem of AI agents.
 
+🧠 GPT-5.2, an incremental update to GPT-5, was released on December 11, 2025, featuring improved reasoning capabilities, reduced latency, and enhanced tool integration. This release maintained backward compatibility while introducing more specialized modes for different use cases.
+
 📜 Ruby 4.0.0 was released on Christmas Day in 2025.
 
 ## 2026
@@ -308,3 +311,5 @@ It was launched as a new foundation under the Linux Foundation umbrella to provi
 ⚙️ Linux 7.0 was released on April 12, 2026, as the latest major stable version, continuing the kernel's evolution with advanced hardware support and further integration of memory-safe programming languages.
 
 🧠 NanoClaw v2.0.0 was released on April 22, 2026, as a ground-up architectural rewrite featuring a new entity model, dual-database session design, and a Bun-based runner.
+
+🧠 GPT-5.5, a major update to OpenAI's GPT-5 series, was released on April 23, 2026, representing a significant leap in capabilities with improved reasoning, multimodal understanding, and agentic features. API availability was announced on April 24, 2026, bringing the latest model to developers through OpenAI's API endpoints.

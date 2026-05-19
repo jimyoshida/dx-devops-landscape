@@ -31,7 +31,18 @@
 * [Online analytical processing (OLAP)](https://en.wikipedia.org/wiki/Online_analytical_processing) - An approach to answering multi-dimensional analytical queries swiftly in computing
 * [Search engine indexing](https://en.wikipedia.org/wiki/Search_engine_indexing) - The collecting, parsing, and storing of data to facilitate fast and accurate information retrieval
 
+### Data Governance, Quality & Architecture
+
+* [Data Catalog](https://en.wikipedia.org/wiki/Data_catalog) - A centralized metadata repository that helps organizations manage and discover data assets
+* [Data Stewardship](https://en.wikipedia.org/wiki/Data_stewardship) - A set of practices and processes for managing an organization's data assets to ensure quality, security, and compliance
+* [Data Privacy](https://en.wikipedia.org/wiki/Information_privacy) - The right and ability of an individual to determine what happens to information about themselves
+* [Data Contract](https://docs.getdbt.com/docs/collaborate/govern/model-contracts) - An explicit agreement on data structure, quality, and semantics between data producers and consumers
+* [Schema Evolution](https://en.wikipedia.org/wiki/Schema_evolution) - The process of modifying a database schema while maintaining compatibility with existing data and applications
+* [Dimensional Modeling](https://en.wikipedia.org/wiki/Dimensional_modeling) - A database design technique used to optimize data warehouses for analytical queries using facts and dimensions
+
 ## Data Science Toolkit
+
+### Programming Languages & Libraries
 
 * [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
   * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
@@ -46,13 +57,17 @@
   * [Tidyverse](https://www.tidyverse.org/) - An opinionated collection of R packages designed for data science
 * [GNU Octave](https://octave.org/) - A high-level language, primarily intended for numerical computations
 * [Wolfram Language](https://www.wolfram.com/language/) - A symbolic language, deliberately designed with the breadth and unity needed to develop powerful programs quickly
-* Specialized Tools
-  * [latexify](https://github.com/google/latexify_py) - A Python package to compile a fragment of Python source code to a corresponding LaTeX expression
-  * [handcalcs](https://github.com/connorferster/handcalcs) - A Python library to render Python calculation code automatically in Latex, but in a manner that mimics how one might format their calculation if it were written with a pencil
-  * [NetworkX](https://networkx.org/) - A Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
-  * [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
-* Data Sources
-  * [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - A set of free geolocation and ASN data in downloadable database and web service formats
+
+### Specialized & Scientific Tools
+
+* [latexify](https://github.com/google/latexify_py) - A Python package to compile a fragment of Python source code to a corresponding LaTeX expression
+* [handcalcs](https://github.com/connorferster/handcalcs) - A Python library to render Python calculation code automatically in Latex, but in a manner that mimics how one might format their calculation if it were written with a pencil
+* [NetworkX](https://networkx.org/) - A Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
+* [JAX](https://jax.readthedocs.io/en/latest/) - A Python library for accelerator-oriented array computation and program transformation
+
+### Data Sources & Geospatial
+
+* [GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) - A set of free geolocation and ASN data in downloadable database and web service formats
 
 ### Spreadsheet & Collaborative Data Platforms
 
@@ -123,6 +138,20 @@
   * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) - A fault-tolerant mechanism that is used in distributed systems to achieve the necessary agreement on a single data value among distributed processes or systems
 * [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) - A theorem stating that any distributed data store can provide only two of the following three guarantees: Consistency, Availability, and Partition tolerance
 * [BASE properties](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/) - A database model that prioritizes availability over consistency
+
+### Consensus & Replication Strategies
+
+* [Raft Consensus Algorithm](https://raft.github.io/) - A consensus algorithm designed to be more understandable than Paxos, enabling safe state machine replication across clusters
+* [Paxos Algorithm](https://en.wikipedia.org/wiki/Paxos_(computer_science)) - A family of protocols for solving consensus in a network of unreliable or asynchronous processors
+* [Data Replication](https://en.wikipedia.org/wiki/Replication_(computing)) - The frequent electronic copying of data from a computer or server to another location, computer, or server
+  * Master-Slave Replication - A pattern where one primary node accepts writes and slaves replicate data
+  * [Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) - A fault-tolerant mechanism that is used in distributed systems to achieve the necessary agreement on a single data value among distributed processes or systems
+
+### Distributed Patterns & Observability
+
+* [Circuit Breaker Pattern](https://martinfowler.com/bliki/CircuitBreaker.html) - A design pattern to prevent cascading failures in distributed systems
+* [Distributed Tracing](https://opentelemetry.io/docs/concepts/observability-primer/#distributed-traces) - A method for profiling and monitoring applications, especially those built using microservices architecture
+* [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - A pattern where all changes to application state are stored as a sequence of immutable events
 
 ### Distributed Storage Systems
 
@@ -228,6 +257,25 @@
 * [Data lakehouse](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
 * [Medallion Architecture](https://www.databricks.com/glossary/medallion-architecture) - A data design pattern used to logically organize data in a lakehouse
 * [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) - An open standard process model that describes common approaches used by data mining experts
+
+### Data Governance & Metadata Management
+
+* [Apache Atlas](https://atlas.apache.org/) - A scalable and extensible set of core foundational governance services that enable enterprises to meet compliance requirements
+* [Collibra](https://www.collibra.com/) - An enterprise data governance platform providing a common language for data management
+* [Informatica Metadata Manager](https://www.informatica.com/products/data-integration/metadata-management.html) - A comprehensive metadata management solution for enterprise data governance
+* [OpenMetadata](https://github.com/open-metadata/OpenMetadata) - An open-source metadata management platform for data discovery, governance, and collaboration
+
+### Data Quality & Validation
+
+* [Great Expectations](https://greatexpectations.io/) - A Python library for defining, documenting, and testing data quality
+* [Apache Griffin](https://griffin.apache.org/) - A data quality solution built on Apache Spark and Apache Hadoop for distributed data quality measurement
+* [Soda](https://www.soda.co/) - A data quality monitoring solution that integrates with modern data stacks
+
+### Data Versioning & Schema Management
+
+* [Schema Registry](https://www.confluent.io/confluent-schema-registry/) - A hosted schema management service that centralizes schemas for Kafka topics
+* Git-based Schema Management - Using Git repositories to version control database schemas
+* [DBT Contracts](https://docs.getdbt.com/docs/collaborate/govern/model-contracts) - Explicit data contracts defining input and output data requirements
 
 ## Relational Databases (SQL)
 
