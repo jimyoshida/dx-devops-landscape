@@ -176,16 +176,29 @@
 
 ### Tools
 
-* Issue Tracking Systems
+* Issue Tracking & Project Management
   * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
     * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
   * [Asana](https://asana.com/) - The platform for human and AI collaboration that helps teams coordinate work and keep projects moving
+  * [Notion](https://www.notion.so/) - An all-in-one workspace for notes, docs, wikis, projects, and collaboration that combines knowledge management with task and project tracking
+  * [Trello](https://trello.com/) - A visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards to organize tasks
+  * [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
   * [Fizzy](https://www.fizzy.do/) - A modern spin on kanban for tracking anything such as bugs, issues, ideas, and small projects
   * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
   * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
   * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
   * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
   * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
+
+* Team Collaboration & Communication
+  * [Slack](https://slack.com/) - A cloud-based team collaboration platform that brings conversations, tools, and files together in one place
+  * [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) - A collaboration platform that combines workplace chat, meetings, file storage, and application integration
+  * [Discord](https://discord.com/) - A voice, video, and text communication service used by communities, friend groups, and businesses to stay connected
+  * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
+  * [Zoom](https://zoom.us/) - A video communications platform that provides video meetings, voice calls, webinars, and chat
+  * [Twilio](https://www.twilio.com/) - A customer engagement platform that provides programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions
+  * [Dropbox](https://www.dropbox.com/) - A file hosting service that offers cloud storage, file synchronization, personal cloud, and client software
+  * [Box](https://www.box.com/) - An enterprise cloud content management platform that enables organizations to securely manage and share content while collaborating with internal and external users
 
 ### Standards & Maturity
 
@@ -244,7 +257,9 @@
       * [Google AdSence](https://adsense.google.com/start/) - A program run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience
   * Experiment platform
     * [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
-  * Email Distribution
+  * Email Distribution & Marketing
+    * [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
+    * [Mailchimp](https://mailchimp.com/) - An all-in-one marketing platform for small businesses that helps manage and talk to clients, customers, and audiences with email marketing
     * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
     * [BillionMail](https://www.billionmail.com/) - An open-source MailServer and email marketing solution that is fully self-hosted and dev-friendly
   * Concepts and Frameworks
@@ -300,6 +315,7 @@
     * [EspoCRM](https://www.espocrm.com/) - An open-source web application for managing and evaluating all company relationships
     * [HubSpot](https://www.hubspot.com/) - A customer platform that helps businesses grow by connecting their marketing, sales, and service tools to a shared database
     * [Salesforce](https://www.salesforce.com/) - A customer relationship management solution that brings companies and customers together, providing one integrated CRM platform for all departments
+    * [Zendesk](https://www.zendesk.com/) - A customer service software and support ticket system that helps businesses build better customer relationships through multi-channel support
     * [Atlas](https://atlas.so/) - A bespoke AI for customer support that delivers fast, accurate, and measurable support tailored to tools and workflows
     * [SuiteCRM](https://suitecrm.com/) - A free and open-source Customer Relationship Management (CRM) software solution providing a 360-degree view of customers and business
   * [Supply chain management](https://en.wikipedia.org/wiki/Supply_chain_management) - The management of the flow of goods and services, between businesses and locations, including the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption
@@ -308,6 +324,7 @@
   * [Contract management](https://en.wikipedia.org/wiki/Contract_management) - The process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk
   * [E-commerce](https://en.wikipedia.org/wiki/E-commerce) - The activity of electronically buying or selling products on online services or over the Internet
     * [Shopify](https://www.shopify.com/) - A Canadian multinational e-commerce company that provides a proprietary e-commerce platform for online stores and retail point-of-sale systems
+    * [Stripe](https://stripe.com/) - A financial infrastructure platform for businesses that provides payment processing software and APIs for e-commerce websites and mobile applications
   * [SAP ERP](http://www.sap.com/products/erp.html) - A comprehensive software system that streamlines processes, improves productivity, and provides real-time insights across your entire organization
   * [Odoo](https://www.odoo.com/) - A suite of open source business applications covering areas such as CRM, ERP, accounting, and more
   * [ERPNext](https://frappe.io/erpnext) - A 100% open-source ERP with a modern, comprehensive, and user-friendly enterprise resource planning solution

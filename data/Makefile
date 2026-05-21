@@ -4,7 +4,6 @@ release: read write
 
 read:
 	cat ../website/docs/skills/*.md | perl read.pl > sections.yml
-	cat ../website/docs/skills/*.md | perl digest.pl > digest.md
 
 write:
 	for file in ../website/docs/skills/*.md; do \

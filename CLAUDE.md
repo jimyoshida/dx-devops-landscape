@@ -117,14 +117,19 @@ Contains Perl scripts for maintaining skill classification data:
 
 ```bash
 cd data
-make             # Sync: read sections.yml → rewrite all files → regenerate digest.md
 make read        # Extract section titles from skill files → sections.yml
 make write       # Apply sections.yml classifications back to skill files
+make             # Run both read and write in sequence
 make test_write  # Run write.pl unit tests (requires ruby)
 ```
 
-`sections.yml` maps section IDs (e.g., `section01`) to their titles. Run `make read` after renaming sections, then `make write` to propagate changes across all skill and doc files.
-The digest markdown is generated at `data/digest.md`.
+`sections.yml` maps section IDs (e.g., `section01`) to their hierarchical subsection titles. When section titles change:
+
+1. Run `make read` to extract the updated section structure from skill files into `sections.yml`
+2. Run `make write` to propagate those changes back across all skill and doc files
+3. Or simply run `make` to do both in one step
+
+The digest markdown used for the mindmap is generated during the website build (see `website/Makefile`).
 
 ## Project Skills (`.claude/skills/`)
 

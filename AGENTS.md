@@ -7,7 +7,7 @@ Refer to `website/docs/intro.md` for the overview & principles.
 ## Categorized Skills
 
 The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
-The digest markdown is generated at `data/digest.md`.
+The section classification structure is defined in `data/sections.yml`.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
 Each level 2 header can have up to 6 level 3 headers as subsections.
@@ -49,14 +49,14 @@ Make sure the markdown code meets the following markdownlint rules.
 
 In addition, the markdown files under the `website/docs/timelines/` directory contain the background timeline of the skill items.
 
-Each entry is a paragraph which contains the deacription basically quoted from Wikipedia English version. It must include the date information of the event and must be arranged in chronological order.
+Each entry is a paragraph which contains the description basically quoted from Wikipedia English version. It must include the date information of the event and must be arranged in chronological order.
 If the event's month or day is unclear, they should be located at the last position of the year or month respectively.
 
 The description should not use bold style.
 
 Each entry starts with one of the following class emoji.
 
-Class emojies:
+Class emojis:
 
 🏢: Business Administration, Development Methodology, Management
 🌐: Web Technology incl. Web Frameworks
@@ -65,7 +65,7 @@ Class emojies:
 🐛: Malware, Virus, Security Incident
 📊: Data Science, Databases, Data Platforms
 🧠: AI, Machine Learning, Large Language Models
-🖥️: Shell, Scripting, Termial, IDE, Developer Productivity
+🖥️: Shell, Scripting, Terminal, IDE, Developer Productivity
 ⚙️: System Administration, OS, VM, Network Infrastructure
 📜: Programming Paradigms, Programming Concepts, Libraries
 🩷: Others

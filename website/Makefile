@@ -47,18 +47,18 @@ endif
 
 # Markmap Dest File
 MAPHTML := static/usr/docs/map.html
-MAPMD := ../data/digest.md
+SKILLFILES := $(wildcard docs/skills/section*.md)
 
 .PHONY: markmap
 markmap: $(MAPHTML)
 
-$(MAPHTML): $(MAPMD)
-	mkdir -p $(@D)
-	npx markmap --no-open -o $@ $<
+$(MAPHTML): $(SKILLFILES)
+	mkdir -p $(@D) tmp
+	cat $(SKILLFILES) | perl ../data/digest.pl > tmp/digest.md
+	npx markmap --no-open -o $@ tmp/digest.md
 
 # Graphmap SVG Dest File
 GRAPHPDF := static/usr/docs/graphmap.pdf
-SKILLFILES := $(wildcard docs/skills/section*.md)
 
 .PHONY: graphmap
 graphmap: $(GRAPHPDF)

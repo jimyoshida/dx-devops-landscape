@@ -6,6 +6,9 @@
 
 * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
 * [Notion SDK for JavaScript](https://github.com/makenotion/notion-sdk-js) - An official client for the Notion API
+* [Linear SDK](https://github.com/linear/linear) - A typed TypeScript SDK for interacting with Linear's GraphQL API for planning and building products
+* [Asana Python SDK](https://github.com/Asana/python-asana) - The official Python client library for the Asana API that provides programmatic access to Asana's project management platform
+* [py-trello](https://github.com/sarumont/py-trello) - A Python API wrapper that represents Trello objects (boards, lists, cards) as corresponding Python objects with cached attributes
 
 ### Collaboration & Communication
 
@@ -14,6 +17,28 @@
 * [discord.js](https://discord.js.org/) - A powerful Node.js module that allows you to interact with the Discord API very easily
 * [Microsoft Teams JavaScript client library](https://learn.microsoft.com/en-us/microsoftteams/platform/teams-sdk/) - A library that helps you create hosted experiences in Teams, Microsoft 365 app, and Outlook, where your app content is hosted in an iFrame
 * [Notify](https://github.com/nikoksr/notify) - A dead simple Go library for sending notifications to various messaging services
+* [Twilio Node.js SDK](https://github.com/twilio/twilio-node) - The official Node.js helper library for the Twilio API, providing developers with tools to integrate Twilio's communication services
+* [Zoom Meeting SDK](https://www.npmjs.com/package/@zoom/meetingsdk) - A WebAssembly-based SDK that embeds Zoom Meeting and Webinar experiences in web applications with support for Angular, React, and Vue.js
+
+### Cloud Storage & File Management
+
+* [Dropbox JavaScript SDK](https://github.com/dropbox/dropbox-sdk-js) - The official Dropbox SDK for JavaScript that provides API V2 access for Node.js and browser applications with OAuth support and TypeScript compatibility
+* [Box Node SDK](https://github.com/box/box-node-sdk) - A JavaScript interface for interacting with the Box API that provides complete coverage of Box's API ecosystem with features including authentication methods and automatic retries
+* [Airtable.js](https://github.com/Airtable/airtable.js) - The official JavaScript library that provides a simple way to access and interact with your Airtable data through its RESTful API
+
+### Email & Marketing Automation
+
+* [SendGrid Node.js SDK](https://github.com/sendgrid/sendgrid-nodejs) - The official Twilio SendGrid Node.js API library for quickly and easily using the SendGrid Web API v3
+* [Mailchimp Marketing Node.js SDK](https://github.com/mailchimp/mailchimp-marketing-node) - The official Node.js client library for the Mailchimp Marketing API that supports authentication via Basic Auth or OAuth2
+
+### Payments & Finance
+
+* [Stripe Node.js SDK](https://github.com/stripe/stripe-node) - A library that provides convenient access to the Stripe API from server-side JavaScript applications with TypeScript support and automatic retries
+
+### CRM & Customer Support
+
+* [HubSpot Node.js SDK](https://github.com/HubSpot/hubspot-api-nodejs) - An official SDK that provides access to HubSpot's V3 API for managing CRM objects, files, OAuth, and other platform features
+* [node-zendesk](https://github.com/blakmatrix/node-zendesk) - A trusted API client library for Node.js and the browser that provides seamless integration with Zendesk's Customer Support Platform
 
 ### Enterprise Workspaces
 
@@ -25,6 +50,50 @@
   * [Work-IQ](https://github.com/microsoft/work-iq) - An MCP (Model Context Protocol) server and CLI for accessing Microsoft 365 data
 * Google Workspace Development
   * [Google Workspace CLI](https://github.com/googleworkspace/cli) - A command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more, dynamically built from Google Discovery Service and including AI agent skills
+  * [Google APIs Node.js Client](https://github.com/googleapis/google-api-nodejs-client) - A Node.js client library for using Google APIs with support for OAuth 2.0, API Keys, and JWT token authentication
+
+## Developer Tools Integration SDKs
+
+### Version Control & DevOps
+
+* [Octokit.js](https://github.com/octokit/octokit.js) - The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno
+* [PyGithub](https://github.com/PyGithub/PyGithub) - A Python library that enables you to manage GitHub resources such as repositories, user profiles, and organizations through the GitHub REST API
+* [go-github](https://github.com/google/go-github) - A Go client library for accessing the GitHub v3 REST API, providing comprehensive coverage of GitHub's endpoints
+* [python-gitlab](https://github.com/python-gitlab/python-gitlab) - A wrapper for the GitLab API written in Python
+* [GitLab Go Client](https://gitlab.com/gitlab-org/api/client-go) - An official Go library for interacting with the GitLab API, providing comprehensive support for GitLab resources
+* [GitLab Ruby Gem](https://github.com/NARKOZ/gitlab) - A Ruby wrapper and CLI for the GitLab REST API that allows developers to interact with GitLab programmatically
+* [Atlassian Python API](https://github.com/atlassian-api/atlassian-python-api) - A Python library that provides a simple wrapper for interacting with Atlassian product REST APIs including Jira, Confluence, and Bitbucket
+
+### Container & Orchestration
+
+* [Docker SDK for Python](https://docker-py.readthedocs.io/) - A Python library for the Docker Engine API that lets you do anything the docker command does from within Python applications
+* [Docker SDK for Go](https://github.com/moby/moby/tree/master/client) - The official Go client for the Docker Engine API
+* [Kubernetes client-go](https://github.com/kubernetes/client-go) - The official Go client library for interacting with Kubernetes clusters, providing clientsets, dynamic clients, and controller-building tools
+* [Kubernetes Python Client](https://github.com/kubernetes-client/python) - The official Python library for interacting with the Kubernetes API, enabling programmatic cluster management and resource operations
+
+### CI/CD & Automation
+
+* [python-jenkins](https://python-jenkins.readthedocs.io/) - A Python wrapper for the Jenkins REST API that provides a conventionally pythonic way to control and automate Jenkins servers
+* [GitHub Actions Toolkit](https://github.com/actions/toolkit) - A set of packages that provides functions and utilities to make creating GitHub Actions easier, including features for inputs/outputs and file operations
+* [Terraform Plugin SDK](https://github.com/hashicorp/terraform-plugin-sdk) - A framework that enables building Terraform plugins (providers) to manage service providers and custom in-house solutions
+
+## Computer Graphics & Game Development
+
+### 3D Graphics
+
+* [Three.js](https://threejs.org/) - A JavaScript 3D library that makes it easy to create and display animated 3D computer graphics in a web browser using WebGL
+* [GSAP](https://gsap.com/) - A robust JavaScript toolset that turns developers into animation superheroes
+
+### 2D Graphics
+
+* [PixiJS](https://pixijs.com/) - An advanced, open-source 2D rendering engine designed for creating stunning visual experiences on the web
+
+### Graphics APIs
+
+* [WebGL](https://www.khronos.org/webgl/) - A cross-platform, royalty-free web standard for a low-level 3D graphics API based on OpenGL ES
+* [OpenGL](https://www.opengl.org/) - A cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics
+* [Vulkan](https://www.vulkan.org/) - A low-overhead, cross-platform, 3D graphics and computing API
+  * [nvk](https://github.com/maierfelix/nvk) - Vulkan headers for the Go programming language
 
 ### Customer Relationship Management
 
@@ -242,33 +311,27 @@
 ### IoT Hardware Platforms
 
 * [Raspberry Pi](https://www.raspberrypi.com/) - A small, affordable computer for you to use and learn with
+* [Arduino](https://www.arduino.cc/) - An easy-to-use, open-source hardware and software platform that enables innovation and creativity in electronics projects
+* [ESP32](https://www.espressif.com/en/products/socs/esp32) - A feature-rich microcontroller unit with integrated Wi-Fi and Bluetooth connectivity, designed for IoT applications with ultra-low power consumption
+* [ESP8266](https://www.espressif.com/en/products/socs/esp8266) - A cost-effective and highly integrated Wi-Fi MCU for IoT applications featuring a 32-bit Tensilica processor with low power consumption
+* [BeagleBone](https://www.beagleboard.org/boards/beaglebone-black) - A low-cost, community-supported development platform featuring a 1GHz ARM Cortex-A8 processor that boots Linux in under 10 seconds
+* [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) - A family of 32-bit microcontrollers based on Arm Cortex-M processors designed to offer high performance, real-time capabilities, and low-power operation
+* [Nordic nRF52](https://www.nordicsemi.com/Products/nRF52840) - A family of Bluetooth Low Energy System-on-Chips built around 64 MHz ARM Cortex-M4 processors that support multiprotocol wireless connectivity
+* [Particle](https://www.particle.io/) - An integrated IoT platform-as-a-service that provides edge-to-cloud infrastructure for developing, connecting, and managing intelligent devices
+* [BBC micro:bit](https://microbit.org/) - A pocket-sized programmable computer designed to inspire children to create their best digital future through hands-on coding and creative technology projects
+* [Teensy](https://www.pjrc.com/teensy/) - A compact USB-based microcontroller development board compatible with Arduino software and capable of implementing many project types
+* [Adafruit Feather](https://www.adafruit.com/category/943) - A family of compact, portable microcontroller boards designed as a standard for embedded projects with built-in battery connectors and modular expansion capabilities
 
 ### IoT Cloud Platforms
 
 * [Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub) - A managed cloud-based service that serves as a central message hub for communication between an IoT application and its connected devices
+* [AWS IoT Core](https://aws.amazon.com/iot-core/) - A managed cloud service that enables you to easily and securely connect devices to the cloud and manage device fleets at scale
 * [AWS IoT Greengrass](https://aws.amazon.com/greengrass/) - An open-source edge runtime and cloud service for building, deploying, and managing device software
-
-## Developer Tools Integration
-
-### Version Control & DevOps
-
-* [Octokit.js](https://github.com/octokit/octokit.js) - The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno
-* [python-gitlab](https://github.com/python-gitlab/python-gitlab) - A wrapper for the GitLab API written in Python
-
-## Computer Graphics & Game Development
-
-### 3D Graphics
-
-* [Three.js](https://threejs.org/) - A JavaScript 3D library that makes it easy to create and display animated 3D computer graphics in a web browser using WebGL
-* [GSAP](https://gsap.com/) - A robust JavaScript toolset that turns developers into animation superheroes
-
-### 2D Graphics
-
-* [PixiJS](https://pixijs.com/) - An advanced, open-source 2D rendering engine designed for creating stunning visual experiences on the web
-
-### Graphics APIs
-
-* [WebGL](https://www.khronos.org/webgl/) - A cross-platform, royalty-free web standard for a low-level 3D graphics API based on OpenGL ES
-* [OpenGL](https://www.opengl.org/) - A cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics
-* [Vulkan](https://www.vulkan.org/) - A low-overhead, cross-platform, 3D graphics and computing API
-  * [nvk](https://github.com/maierfelix/nvk) - Vulkan headers for the Go programming language
+* [ThingWorx](https://www.ptc.com/en/products/thingworx/) - A comprehensive industrial IoT application development platform designed to help organizations connect devices, analyze data, and deliver real-time insights through customizable applications
+* [Balena](https://balena.io/) - A container-based IoT device management platform that enables developers to build, deploy, manage, and scale fleets of Linux devices with secure OTA updates and remote access
+* [Arduino Cloud](https://cloud.arduino.cc/) - An all-in-one IoT platform that enables users to build, control, and monitor connected projects from anywhere with dashboards and remote access
+* [ThingSpeak](https://thingspeak.mathworks.com/) - An IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud with MATLAB integration
+* [Losant](https://www.losant.com/) - An enterprise IoT platform that enables organizations to build scalable connected solutions by collecting, integrating, and visualizing data from devices and systems in real-time
+* [Adafruit IO](https://io.adafruit.com/) - The easiest way to get your projects onto the Internet of Things, serving as a platform for web-based microcontroller interaction and datalogging
+* [ThingsBoard](https://thingsboard.io/) - An open-source IoT platform for data collection, processing, visualization, and device management that enables device connectivity via industry standard protocols
+* [Ubidots](https://ubidots.com/) - A cloud-based Industrial IoT platform that enables businesses to connect, monitor, visualize, and act on sensor data in real-time through customizable dashboards and automated workflows

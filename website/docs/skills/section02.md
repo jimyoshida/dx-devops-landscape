@@ -56,18 +56,17 @@
 * Site Analyzers
   * [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
-### Web Architectural Styles & Patterns
+### Web Application Architectures
 
-* Web Application Architectures
-  * [Single-page application](https://en.wikipedia.org/wiki/Single-page_application) - A web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server
-  * [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
-* API Architectures, Styles & Patterns
-  * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) - A software architectural style that was created to guide the design and development of the architecture for the World Wide Web
-  * [SOAP (legacy)](https://en.wikipedia.org/wiki/SOAP) - A messaging protocol specification for exchanging structured information in the implementation of web services
-  * [GraphQL](https://graphql.org/) - A query language for APIs and a runtime for fulfilling those queries with your existing data
-  * [gRPC](https://grpc.io/) - A modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment
-  * [json-rpc](https://www.jsonrpc.org/) - A stateless, light-weight remote procedure call (RPC) protocol
-  * [Webhook](https://en.wikipedia.org/wiki/Webhook) - A method of augmenting or altering the behavior of a web page or web application with custom callbacks
+* [Single-page application](https://en.wikipedia.org/wiki/Single-page_application) - A web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server
+* [Multi-page application](https://www.sanity.io/glossary/multipage-application) - A traditional web structure with multiple pages that are independently downloaded from the server, each having its own URL and loaded separately when requested by the user
+* [Microfrontend](https://en.wikipedia.org/wiki/Microfrontend) - An architectural pattern for web development where independently developed frontends are composed into a greater whole
+* [Islands Architecture](https://docs.astro.build/en/concepts/islands/) - A frontend pattern that renders pages to fast, static HTML with selective "islands" of JavaScript added only where interactivity is needed
+* [Backend for Frontend](https://samnewman.io/patterns/architectural/bff/) - An architectural pattern where separate backend services are created specifically for different frontend applications
+* [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - A client-server architecture where different levels of software architecture are physically separated into presentation, application processing, and data management functions
+* [Server-side rendering](https://en.wikipedia.org/wiki/Server-side_rendering) - An approach where static HTML is sent from the server to the client, and client-side JavaScript then makes the web page dynamic by attaching event handlers in a process called hydration
+* [Incremental Static Regeneration](https://nextjs.org/docs/pages/guides/incremental-static-regeneration) - A technique that enables static-generation on a per-page basis without needing to rebuild the entire site, allowing updates to static content after deployment
+* [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
 
 ## Frontend Development
 
@@ -171,7 +170,9 @@
   * [Biome](https://biomejs.dev/) - A fast formatter and linter for JavaScript, TypeScript, JSX, TSX, JSON, HTML, CSS and GraphQL that provides a cohesive toolchain for web projects
   * [Knip](https://knip.dev/) - A tool that finds and fixes unused dependencies, exports and files in JavaScript and TypeScript projects
 
-## Full-stack Development
+## Full-stack & Static Site Frameworks
+
+### Full-stack Frameworks
 
 * JS/TS Full-stack Frameworks
   * [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
@@ -181,7 +182,38 @@
 * Rust Full-Stack Frameworks
   * [Leptos](https://leptos.dev/) - A cutting-edge Rust framework for the modern web
 
+### Static Site Generators
+
+* [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
+* [mdBook](https://github.com/rust-lang/mdBook) - A utility to create modern online books from Markdown files
+* [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
+* [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
+  * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
+* [Jekyll](https://jekyllrb.com/) - A simple, blog-aware, static site generator perfect for personal, project, or organization sites
+* [Eleventy](https://www.11ty.dev/) - A simpler static site generator written in JavaScript
+* [Sphinx](http://www.sphinx-doc.org/en/master/) - A tool that makes it easy to create intelligent and beautiful documentation
+* [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
+  * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
+* [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
+* [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
+
+### Headless CMS
+
+* Cloud-native & API-first CMS
+  * [Contentful](https://www.contentful.com/) - A headless content management system that provides a content-first approach to building digital products
+  * [Strapi](https://strapi.io/) - The leading open-source headless CMS
+  * [Sanity](https://www.sanity.io/) - A platform for structured content that lets you build better digital experiences
+
 ## Backend Development
+
+### API Architectural Styles
+
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) - A software architectural style that was created to guide the design and development of the architecture for the World Wide Web
+* [SOAP (legacy)](https://en.wikipedia.org/wiki/SOAP) - A messaging protocol specification for exchanging structured information in the implementation of web services
+* [GraphQL](https://graphql.org/) - A query language for APIs and a runtime for fulfilling those queries with your existing data
+* [gRPC](https://grpc.io/) - A modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment
+* [json-rpc](https://www.jsonrpc.org/) - A stateless, light-weight remote procedure call (RPC) protocol
+* [Webhook](https://en.wikipedia.org/wiki/Webhook) - A method of augmenting or altering the behavior of a web page or web application with custom callbacks
 
 ### Backend Frameworks
 
@@ -276,14 +308,35 @@
 
 ### Blockchain Technology
 
+* [Web3](https://en.wikipedia.org/wiki/Web3) - An idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics
+* [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - A distributed ledger with growing lists of records
+  * [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - A proof-of-work system used to limit email spam and denial-of-service attacks
+  * [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - A form of cryptographic proof in which one party proves to others that a certain amount of a specific computational effort has been expended
+* [Smart contract](https://en.wikipedia.org/wiki/Smart_contract) - A computer program or transaction protocol designed to automatically execute, control, or document events and actions according to contract terms
+* [Bitcoin](https://bitcoin.org/) - A decentralized digital currency that can be transferred on the peer-to-peer bitcoin network
+* [Ethereum](https://ethereum.org/) - A global, decentralized network that provides direct ownership of digital assets, data, and identity without requiring permission from any central authority
 * [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
 * [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
+* [Solidity](https://en.wikipedia.org/wiki/Solidity) - A programming language for implementing smart contracts on various blockchain platforms, most notably Ethereum
+* [Web3.js](https://web3js.org/) - A TypeScript/JavaScript library that enables developers to connect to and interact with Ethereum and other EVM-compatible blockchains
+* [ethers.js](https://ethers.org/) - A simple, compact and complete JavaScript library for all your Ethereum needs
+* [MetaMask](https://metamask.io/) - A crypto wallet that enables users to buy, sell, swap, and store cryptocurrencies while maintaining control over their data and assets
+* [WalletConnect](https://walletconnect.com/) - An open-source protocol that establishes encrypted connections between mobile cryptocurrency wallets and desktop-based decentralized applications
+* [Hardhat](https://hardhat.org/) - A development environment for Ethereum and EVM-compatible blockchains that helps developers compile, deploy, test, and debug Solidity smart contracts
 
 ### Decentralized Social
 
 * [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
+* [AT Protocol](https://atproto.com/) - An open data network for building social applications where users own their identities and content is represented as interlinked JSON records
 * [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
+* [Mastodon](https://joinmastodon.org/) - A free, open-source, decentralized social media platform that puts users in control of their feeds without algorithms or ads, allowing independent servers to interoperate through the ActivityPub protocol
 * [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
+* [Nostr](https://nostr.com/) - An open, decentralized social protocol that uses cryptographic signatures to enable censorship-resistant communication across multiple independent servers called relays
+* [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) - An open standard and communication protocol for real-time communication that enables seamless communication between different service providers
+* [PeerTube](https://joinpeertube.org/) - A free, open-source tool for creating independent video hosting platforms that connect to form a decentralized network, offering an alternative to centralized services
+* [Lemmy](https://join-lemmy.org/) - A decentralized discussion platform that allows users to control their experience without corporate tracking or advertising
+* [Diaspora](https://diasporafoundation.org/) - A nonprofit, user-owned, distributed social network consisting of independently owned nodes called pods that interoperate to form the network
+* [Secure Scuttlebutt](https://scuttlebutt.nz/) - A decentralized social network platform that enables local community development free from corporate data harvesting
 
 ## Development & Testing Tools
 
@@ -320,7 +373,15 @@
 ### Web Debugging Tools
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
+* [Firefox Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - A set of web developer tools built into Firefox that allow you to examine, edit, and debug HTML, CSS, and JavaScript
+* [React Developer Tools](https://react.dev/learn/react-developer-tools) - A browser extension and standalone debugger that allows developers to inspect React components, edit props and state, and identify performance problems in React applications
+* [Vue.js devtools](https://devtools.vuejs.org/) - A browser extension for debugging Vue.js applications that provides component inspection and state management debugging
+* [Redux DevTools](https://github.com/reduxjs/redux-devtools) - A development tool that provides power-ups for Redux development workflow, including hot reloading, action replay, and customizable UI
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - An open-source, automated tool that helps improve web page quality by auditing performance, accessibility, SEO, and best practices
 * [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
+* [Charles Proxy](https://www.charlesproxy.com/) - An HTTP proxy/monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and headers
+* [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy that can intercept, inspect, modify, and replay web traffic for debugging, testing, and penetration testing purposes
+* [Requestly](https://requestly.com/) - An HTTP interceptor that allows developers to modify URLs, headers, and API responses in real-time for debugging and testing
 
 ### Web Test Automation Frameworks
 
@@ -347,27 +408,3 @@
   * [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
   * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
-
-## Document Site Generation
-
-### Static Site Generators
-
-* [Docusaurus](https://docusaurus.io/) - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
-* [mdBook](https://github.com/rust-lang/mdBook) - A utility to create modern online books from Markdown files
-* [VuePress](https://v2.vuepress.vuejs.org/) - A Vue-powered Static Site Generator
-* [Hugo](https://gohugo.io/) - The world's fastest framework for building websites
-  * [Docsy](https://www.docsy.dev/) - A Hugo theme for technical documentation sites, providing easy site navigation, structure, and more
-* [Jekyll](https://jekyllrb.com/) - A simple, blog-aware, static site generator perfect for personal, project, or organization sites
-* [Eleventy](https://www.11ty.dev/) - A simpler static site generator written in JavaScript
-* [Sphinx](http://www.sphinx-doc.org/en/master/) - A tool that makes it easy to create intelligent and beautiful documentation
-* [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
-  * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A powerful and beautiful theme for the MkDocs static site generator
-* [Nanoc](https://nanoc.app/) - A static-site generator, fit for building anything from a small personal blog to a large corporate website
-* [gitmal](https://github.com/antonmedv/gitmal) - A static page generator designed for Git repositories
-
-### Headless CMS
-
-* Cloud-native & API-first CMS
-  * [Contentful](https://www.contentful.com/) - A headless content management system that provides a content-first approach to building digital products
-  * [Strapi](https://strapi.io/) - The leading open-source headless CMS
-  * [Sanity](https://www.sanity.io/) - A platform for structured content that lets you build better digital experiences

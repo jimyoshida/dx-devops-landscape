@@ -239,12 +239,6 @@
 * [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) - A leadership model where effective leaders adapt their style to each situation, recognizing that no single approach is universally appropriate
 * [Transformational leadership](https://dora.dev/capabilities/transformational-leadership/) - A leadership style in which leaders encourage, inspire, and motivate employees to innovate and create change that will help grow and shape the future success of the company
 
-### Communication Tools
-
-* [Slack](https://slack.com/) - A channel-based messaging platform where people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work
-* [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
-* [Discord](https://discord.com/) - A free voice, video, and text chat app that's used by tens of millions of people to talk and hang out with their communities and friends
-
 ## Individual Psychology & Performance
 
 ### Personal Performance
@@ -310,6 +304,10 @@
 * [Revenue model](https://en.wikipedia.org/wiki/Revenue_model) - A framework for generating financial income
 * [Financial capital](https://en.wikipedia.org/wiki/Financial_capital) - An economic resource measured in terms of money used by entrepreneurs and businesses to buy what they need to make their products or to provide their services
   * [Venture capital](https://en.wikipedia.org/wiki/Venture_capital) - A form of private equity financing that is provided by venture capital firms or funds to startups, early-stage, and emerging companies that have been deemed to have high growth potential
+* Markets & Securities
+  * [Stock market](https://en.wikipedia.org/wiki/Stock_market) - The aggregation of buyers and sellers of stocks, which represent ownership claims on businesses
+  * [Stock](https://en.wikipedia.org/wiki/Stock) - Shares that divide ownership of a corporation, representing fractional ownership and typically conferring rights to earnings, liquidation proceeds, or voting power
+  * [Dividend](https://en.wikipedia.org/wiki/Dividend) - The distribution of profits by a corporation to its shareholders from current year profit or retained earnings
 * Contracts
   * [Credit](https://en.wikipedia.org/wiki/Credit) - The trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately
   * [Debt](https://en.wikipedia.org/wiki/Debt) - An obligation that requires one party, the debtor, to pay money or otherwise return value to another party, the creditor
@@ -319,14 +317,24 @@
   * [Futures](https://en.wikipedia.org/wiki/Futures_contract) - A standardized legal contract to buy or sell something at a predetermined price for delivery at a specified time in the future
   * [Option](https://en.wikipedia.org/wiki/Option_(finance)) - A contract which conveys to its owner, the holder, the right, but not the obligation, to buy or sell a specific quantity of an underlying asset or instrument at a specified strike price on or before a specified date
 * [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - A type of currency which uses digital files as money
-  * [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - A distributed ledger with growing lists of records
-    * [Bitcoin](https://bitcoin.org/) - A decentralized digital currency that can be transferred on the peer-to-peer bitcoin network
-    * [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - A proof-of-work system used to limit email spam and denial-of-service attacks
-    * [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - A form of cryptographic proof in which one party proves to others that a certain amount of a specific computational effort has been expended
-* Financial accounting
-  * [Return on investment](https://en.wikipedia.org/wiki/Return_on_investment) - The ratio between net income (over a period) and investment (costs resulting from an investment of some resources at a point in time)
-  * [Cash flow statement](https://en.wikipedia.org/wiki/Cash_flow_statement) - A financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents
-  * [Income statement](https://en.wikipedia.org/wiki/Income_statement) - One of the financial statements of a company and shows the company's financial performance for a specific period of time
+* Accounting Fundamentals
+  * [Asset](https://en.wikipedia.org/wiki/Asset) - A resource owned or controlled by a business or economic entity that can be used to produce positive economic value
+  * [Liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting)) - A quantity of value that a financial entity owes and is expected to deliver in the future to satisfy a present obligation arising from past events
+  * [Equity](https://en.wikipedia.org/wiki/Equity_(finance)) - An ownership interest in property that may be subject to debts or other liabilities, measured by subtracting liabilities from the value of assets owned
+  * [Revenue](https://en.wikipedia.org/wiki/Revenue) - The total amount of income generated by the sale of goods and services related to the primary operations of a business
+  * [Depreciation](https://en.wikipedia.org/wiki/Depreciation) - The decrease in the value of assets and the method used to reallocate the cost of a tangible asset over its useful life span
+  * [Accrual](https://en.wikipedia.org/wiki/Accrual) - An accounting method that recognizes revenues and expenses when they are earned or incurred, not necessarily when cash is received or paid
+* Financial Statements & Metrics
   * [Balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) - A summary of the financial balances of an individual or organization
+  * [Income statement](https://en.wikipedia.org/wiki/Income_statement) - One of the financial statements of a company and shows the company's financial performance for a specific period of time
+  * [Cash flow statement](https://en.wikipedia.org/wiki/Cash_flow_statement) - A financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents
+  * [Return on investment](https://en.wikipedia.org/wiki/Return_on_investment) - The ratio between net income (over a period) and investment (costs resulting from an investment of some resources at a point in time)
   * [Net present value](https://en.wikipedia.org/wiki/Net_present_value) - A way of measuring the value of an asset that has cashflow by adding up the present value of all the future cash flows that asset will generate
   * [EBITDA](https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization) - A measure of a company's profitability of the operating business only, before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base
+  * [Operating margin](https://en.wikipedia.org/wiki/Operating_margin) - The ratio of operating income to net sales, usually expressed in percent
+  * [Burn rate](https://en.wikipedia.org/wiki/Burn_rate) - The rate at which a company consumes its cash, typically expressed monthly and used for startups to measure how fast a company will use up its shareholder capital
+  * [Liquidity](https://en.wikipedia.org/wiki/Market_liquidity) - A market's feature whereby an individual or firm can quickly purchase or sell an asset without causing a drastic change in the asset's price
+  * [Valuation](https://en.wikipedia.org/wiki/Valuation_(finance)) - The process of determining the value of a potential investment, asset, or security
+* Accounting Standards & Processes
+  * [Generally Accepted Accounting Principles](https://en.wikipedia.org/wiki/Generally_Accepted_Accounting_Principles) - Accounting standards that prescribe in detail what accruals must be made, how financial statements are to be presented, and what additional disclosures are required
+  * [Audit](https://en.wikipedia.org/wiki/Audit) - An independent examination of financial information of any entity conducted with a view to express an opinion thereon

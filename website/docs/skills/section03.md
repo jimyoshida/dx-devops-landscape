@@ -28,7 +28,7 @@
 * [Vercel](https://vercel.com/) - A frontend cloud platform that provides the developer experience and infrastructure to build, deploy, and scale the web
 * [Netlify](https://www.netlify.com/) - A composable web platform that enables enterprises and teams to build, deploy, and scale modern web experiences on a global edge network
 
-### Command Line Interfaces
+### Cloud Command Line Interfaces
 
 * [AWS CLI](https://aws.amazon.com/cli/) - A unified tool to manage your AWS services
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) - A cross-platform command-line tool for managing Azure resources with interactive commands or scripts
@@ -153,6 +153,8 @@
   * [Podman Desktop](https://podman-desktop.io/) - The best free and open source tool for developers to work with containers and Kubernetes, simplifying container management, streamlining Kubernetes workflows, and transitioning from local development to production with ease
   * [lazydocker](https://github.com/jesseduffield/lazydocker) - A terminal UI for both docker and docker-compose
   * [Docker Compose](https://docs.docker.com/compose/) - A tool for defining and running multi-container Docker applications
+* Development Environment Provisioning
+  * [DevPod](https://devpod.sh/) - A client-only tool that enables dev-environments-as-code using the open standard devcontainer.json format, supporting any infrastructure including local machines, Kubernetes clusters, and cloud providers
 * Local Environment Provisioners (for Mac)
   * [Colima](https://github.com/abiosoft/colima) - A tool that provides container runtimes on macOS (and Linux) with minimal setup
   * [Lima](https://lima-vm.io/) - A tool that launches Linux virtual machines with automatic file sharing and port forwarding
@@ -337,8 +339,11 @@
   * [Jenkins](https://www.jenkins.io/) - An open source automation server which enables developers around the world to reliably build, test, and deploy their software
     * [Blue Ocean for Jenkins Pipelines](https://www.jenkins.io/projects/blueocean/) - A project that rethinks the user experience of Jenkins
     * [Python Jenkins](https://opendev.org/jjb/python-jenkins) - A Python wrapper for the Jenkins REST API
+    * [JenkinsPipelineUnit](https://github.com/jenkinsci/JenkinsPipelineUnit) - A testing framework to unit test Jenkins pipelines written in Groovy or Declarative
   * [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) - A part of GitLab that you can use to automate the builds, integration, and verification of your source code
   * [GitHub Actions](https://github.com/features/actions) - A feature that makes it easy to automate all your software workflows
+    * [actionlint](https://github.com/rhysd/actionlint) - A static checker for GitHub Actions workflow files
+    * [act](https://github.com/nektos/act) - A tool to run your GitHub Actions locally
   * [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/) - A cloud service that you can use to automatically build and test your code project and make it available to other users
 * Application Deployment
   * [Kamal](https://kamal-deploy.org/) - A tool to deploy web apps anywhere
@@ -478,6 +483,7 @@
 * FinOps Tools
   * [FinOps toolkit](https://microsoft.github.io/finops-toolkit/) - A collection of tools, resources, and best practices for implementing FinOps in your organization
   * [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) - A tool that enables you to view and analyze your costs and usage
+  * [Infracost](https://www.infracost.io/) - A tool that shows cloud cost estimates for Terraform, CloudFormation, and other infrastructure-as-code projects
   * [OpenCost](https://www.opencost.io/) - The open source solution for monitoring Kubernetes spend
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing public cloud accounts and resources
 

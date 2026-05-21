@@ -170,7 +170,7 @@
 
 * Cloud Services
   * [Amazon SES](https://aws.amazon.com/ses/) - A cost-effective, flexible, and scalable email service that enables developers to send mail from within any application
-  * [Twilio SendGrid](https://www.twilio.com/sendgrid/email-api) - A cloud-based email delivery service that helps businesses with email delivery
+  * [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
 
 ## Unix-like Operating Systems
 
