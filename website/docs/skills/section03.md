@@ -154,6 +154,7 @@
   * [lazydocker](https://github.com/jesseduffield/lazydocker) - A terminal UI for both docker and docker-compose
   * [Docker Compose](https://docs.docker.com/compose/) - A tool for defining and running multi-container Docker applications
 * Development Environment Provisioning
+  * [devcontainers CLI](https://github.com/devcontainers/cli) - A reference implementation for the specification that can create and configure a dev container from a devcontainer.json, providing commands for building, running, and managing development containers across different infrastructures
   * [DevPod](https://devpod.sh/) - A client-only tool that enables dev-environments-as-code using the open standard devcontainer.json format, supporting any infrastructure including local machines, Kubernetes clusters, and cloud providers
 * Local Environment Provisioners (for Mac)
   * [Colima](https://github.com/abiosoft/colima) - A tool that provides container runtimes on macOS (and Linux) with minimal setup
@@ -165,11 +166,23 @@
   * [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
   * [WebAssembly System Interface (WASI)](https://github.com/WebAssembly/WASI) - A modular system interface for WebAssembly
   * [WASIX](https://wasix.org/) - The long term stabilization and support of the existing WASI ABI plus additional non-invasive syscall extensions
-
+  * [WebAssembly Component Model](https://github.com/WebAssembly/component-model) - A binary interface standard letting modules interoperate through typed, language-agnostic interfaces, developed as part of WASI Preview 2
 * Runtimes
   * [wazero](https://wazero.io/) - The only zero dependency WebAssembly runtime written in Go
   * [Wasmtime](https://wasmtime.dev/) - A fast and secure runtime for WebAssembly
   * [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
+  * [WasmEdge](https://wasmedge.org/) - A lightweight, high-performance, and extensible runtime for cloud native, edge, and decentralized applications
+  * [WebAssembly Micro Runtime (WAMR)](https://github.com/bytecodealliance/wasm-micro-runtime) - A lightweight standalone runtime with small footprint and highly configurable features for embedded, IoT, edge, and Trusted Execution Environment use
+
+* Toolchains & Languages
+  * [Emscripten](https://emscripten.org/) - A complete compiler toolchain to WebAssembly, using LLVM, with a special focus on speed, size, and the Web platform
+  * [AssemblyScript](https://www.assemblyscript.org/) - A TypeScript-like language for WebAssembly
+  * [TinyGo](https://tinygo.org/) - A Go compiler for small places, bringing the language to embedded systems and WebAssembly
+  * [Binaryen](https://github.com/WebAssembly/binaryen) - A compiler and toolchain infrastructure library for WebAssembly, written in C++
+
+* Cloud & Edge Platforms
+  * [wasmCloud](https://wasmcloud.com/) - An open source CNCF project to build polyglot applications composed of reusable WebAssembly components across cloud, Kubernetes, and edge
+  * [Fermyon Spin](https://www.fermyon.com/spin) - The developer tool for building WebAssembly microservices and web applications
 
 ## Kubernetes
 
@@ -417,6 +430,7 @@
   * [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit
     * [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) - The Prometheus Query Language
     * [promtool](https://prometheus.io/docs/prometheus/latest/command-line/promtool/) - The command line utility for the Prometheus server
+    * [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) - A collection of copy-pasteable Prometheus alerting rules spanning over 90 services and exporters
   * [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) - A tool that handles alerts sent by client applications such as the Prometheus server
     * [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A CLI tool for interacting with the Alertmanager API
   * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) - A time series database built from the ground up to handle high write and query loads

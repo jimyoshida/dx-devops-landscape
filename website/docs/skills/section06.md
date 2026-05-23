@@ -8,11 +8,21 @@
     * [AlphaGeometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) - A neuro-symbolic system made up of a neural language model and a symbolic deduction engine, which work together to find proofs for complex geometry theorems
   * [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) - A subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data
   * [Causal AI](https://en.wikipedia.org/wiki/Causal_AI) - A technique in artificial intelligence that builds a causal model and can thereby make inferences using causality rather than just correlation
+  * [Connectionism](https://en.wikipedia.org/wiki/Connectionism) - An approach to the study of human mental processes and cognition that utilizes mathematical models known as connectionist networks or artificial neural networks
+  * [Expert system](https://en.wikipedia.org/wiki/Expert_system) - A computer system emulating the decision-making ability of a human expert
+  * [Artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) - A hypothetical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks
 * Core Concepts
   * [Embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)) - A representation learning technique that maps complex, high-dimensional data into a lower-dimensional vector space of numerical vectors
   * [Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning) - A machine learning technique where knowledge gained from one task is reapplied to improve performance on a different but related task
   * [Mathematical model](https://en.wikipedia.org/wiki/Mathematical_model) - An abstract description of a concrete system using mathematical concepts and language
   * [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) - The selection of a best element, with regard to some criteria, from some set of available alternatives
+  * [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) - A first-order iterative algorithm for minimizing a differentiable multivariate function
+  * [Loss function](https://en.wikipedia.org/wiki/Loss_function) - A function that maps an event or values of one or more variables onto a real number intuitively representing some cost associated with the event
+  * [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering) - A preprocessing step in supervised machine learning and statistical modeling which transforms raw data into a more effective set of inputs
+  * [Overfitting](https://en.wikipedia.org/wiki/Overfitting) - The production of an analysis that corresponds too closely to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably
+  * [Bias–variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) - The relationship between a model's complexity, the accuracy of its predictions, and how well it can make predictions on previously unseen data
+  * [Inductive bias](https://en.wikipedia.org/wiki/Inductive_bias) - The set of assumptions that the learner uses to predict outputs of given inputs that it has not encountered
+  * [Curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality) - The phenomena that arise when analyzing and organizing data in high-dimensional spaces that do not occur in low-dimensional settings
 
 ## Machine Learning
 
@@ -40,7 +50,6 @@
   * [Hidden Markov model](https://en.wikipedia.org/wiki/Hidden_Markov_model) - A statistical Markov model where the system being modeled is assumed to be a Markov process with unobserved (hidden) states
   * [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) - A problem in which a fixed limited set of resources must be allocated between competing (alternative) choices in a way that maximizes their expected gain
   * [Value function](https://en.wikipedia.org/wiki/Value_function) - A function used in mathematical optimization and reinforcement learning that assigns a measure of desirability to states or actions
-
 * ML Concepts & Techniques
   * [Hyperparameter](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) - A parameter whose value is used to control the learning process
   * [Hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization) - The problem of choosing a set of optimal hyperparameters for a learning algorithm
@@ -49,7 +58,6 @@
   * [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) - The identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data
     * [One-class classification](https://en.wikipedia.org/wiki/One-class_classification) - The technique trying to identify objects of a specific class amongst all objects, by primarily learning from a training set containing only the objects of that class
   * [Recommender system](https://en.wikipedia.org/wiki/Recommender_system) - An information filtering system that seeks to predict the 'rating' or 'preference' a user would give to an item
-
 * ML Frameworks & Platforms
   * [scikit-learn](https://scikit-learn.org/stable) - A free software machine learning library for the Python programming language
     * [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) - A Library for Support Vector Machines
@@ -86,7 +94,6 @@
 * [Attention](https://en.wikipedia.org/wiki/Attention_(machine_learning)) - A technique in the context of neural networks that mimics cognitive attention, enhancing the important parts of the input data and fading out the rest
   * [FlashAttention](https://github.com/Dao-AILab/flash-attention) - A fast and memory-efficient exact attention mechanism
   * [Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) - A deep learning architecture based on the multi-head attention mechanism
-
 * DL Frameworks & Visualization
   * [TensorFlow](https://www.tensorflow.org/) - An end-to-end open source platform for machine learning
     * [TFDS](https://www.tensorflow.org/datasets) - The collection of datasets ready to use with TensorFlow or other Python ML frameworks like Jax
@@ -94,7 +101,6 @@
   * [PyTorch](https://pytorch.org/) - An open source machine learning framework that accelerates the path from research prototyping to production deployment
   * [AttentionViz](https://catherinesyeh.github.io/attn-docs/) - A Global View of Transformer Attention
   * [BertViz](https://github.com/jessevig/bertviz) - A tool for visualizing Attention in NLP Models
-
 * Reference Books
   * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book explaining the core ideas behind neural networks and deep learning
   * [Deep Learning, MIT Press](https://www.deeplearningbook.org/) - The textbook intended to help students and practitioners enter the field of machine learning in general and deep learning in particular
@@ -338,10 +344,14 @@
   * [CML](https://cml.dev/) - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
   * [MLFlow](https://mlflow.org/) - An open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
   * [KubeFlow](https://www.kubeflow.org/) - The Machine Learning Toolkit for Kubernetes, dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable
+  * [Weights & Biases](https://wandb.ai/site) - The AI developer platform to build AI agents, applications, and models with confidence
+  * [ZenML](https://www.zenml.io/) - An open-source framework for orchestration, versioning, and governance from training pipelines to agent evals, local to Kubernetes
+  * [BentoML](https://www.bentoml.com/) - An open-source framework to deploy any model anywhere, with tailored optimization, efficient scaling, and streamlined operations
 * Managed MLOps Platforms
   * [Microsoft Foundry](https://ai.azure.com/) - A unified, interoperable platform for building, optimizing, and governing AI apps and agents that understand business context and deliver business impact
   * [Vertex AI](https://cloud.google.com/vertex-ai) - A machine learning (ML) platform for training and deploying ML models and AI applications
   * [Nebius](https://nebius.com/) - A specialized AI cloud platform offering purpose-built infrastructure for AI and machine learning workloads
+  * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - A fully managed service bringing together data, analytics, and AI to build, train, and deploy models at scale
 
 ### LLM Serving & Runtimes
 
@@ -349,8 +359,14 @@
   * [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
   * [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
   * [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
+  * [llama.cpp](https://github.com/ggml-org/llama.cpp) - A dependency-free C/C++ implementation for running LLM inference across hardware from Apple Silicon to NVIDIA GPUs
+  * [Jan](https://jan.ai/) - An open-source ChatGPT alternative that runs AI models locally on your computer
 * Production Serving Engines
   * [vLLM](https://vllm.ai/) - A high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs)
+  * [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) - A Rust, Python and gRPC server for text generation inference, used in production to power Hugging Chat and the Inference API
+  * [SGLang](https://github.com/sgl-project/sglang) - A high-performance serving framework for large language models and multimodal models
+  * [KServe](https://kserve.github.io/website/) - A standardized distributed generative and predictive AI inference platform for scalable, multi-framework deployment on Kubernetes
+  * [Modular MAX](https://www.modular.com/) - A unified AI inference platform delivering full optimizations from GPU kernel to API endpoint across diverse hardware
 
 ### LLMOps & Observability
 
@@ -366,3 +382,5 @@
   * [Helicone](https://www.helicone.ai/) - An open-source LLM observability platform built for developers to monitor and optimize their generative AI applications
   * [Arize Phoenix](https://phoenix.arize.com/) - An open-source AI observability and evaluation platform for LLMs
   * [Braintrust](https://www.braintrust.dev/) - The enterprise AI platform that provides an evaluation and observability platform for developers building with LLMs
+  * [Ragas](https://docs.ragas.io/) - A library that helps you move from vibe checks to systematic evaluation loops for your AI applications
+  * [DeepEval](https://www.deepeval.com/) - The LLM evaluation framework with research-backed metrics and pytest-native evaluations that run in CI/CD

@@ -45,6 +45,7 @@
 ### Programming Languages & Libraries
 
 * [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * [Awesome Python](https://awesome-python.com/) - A curated list of awesome Python frameworks, libraries, tools, and resources
   * [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
   * [Polars](https://pola.rs/) - A blazingly fast DataFrame library for manipulating structured data
   * [Narwhals](https://narwhals-dev.github.io/narwhals/) - A lazy-first, type-agnostic, and framework-agnostic dataframe library in Python

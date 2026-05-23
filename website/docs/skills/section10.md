@@ -27,6 +27,7 @@
     * [Goroutine](https://go.dev/tour/concurrency/1) - A lightweight thread managed by the Go runtime
     * [Channel](https://go.dev/tour/concurrency/2) - A typed conduit through which you can send and receive values with the channel operator, `<-`
   * Libraries
+    * [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries, and software
     * [lo](https://github.com/samber/lo) - A Lodash-style Go library
     * [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
     * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs

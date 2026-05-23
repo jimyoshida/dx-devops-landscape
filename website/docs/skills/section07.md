@@ -302,6 +302,7 @@
 
 * GUI-based
   * [Visual Studio Code](https://code.visualstudio.com/) - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux
+    * [Awesome VS Code](https://viatsko.github.io/awesome-vscode/) - A curated list of delightful VS Code packages and resources
     * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - An extension that supercharges the Git capabilities built into Visual Studio Code
     * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - An extension to view a Git Graph of your repository, and perform Git actions from the graph
   * AI Assistance Plugins

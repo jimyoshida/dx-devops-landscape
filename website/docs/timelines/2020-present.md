@@ -6,9 +6,11 @@ sidebar_position: 5
 
 ## 2020
 
-🌐 Playwright, a framework for reliable end-to-end testing for modern web apps, was first released as open source by Microsoft on January 31, 2020.
+🌐 Playwright, a framework for reliable end-to-end testing for modern web apps, was first released as open source by Microsoft on January 31, 2020. It was created by engineers who had previously worked on Puppeteer at Google, extending cross-browser automation to Chromium, Firefox, and WebKit under a single API.
 
 🖥️ PowerShell 7.0 was released on March 4, 2020, dropping the "Core" suffix and serving as the successor to both Windows PowerShell 5.1 and PowerShell Core 6.x with improved Windows module compatibility.
+
+🌐 Vite, a frontend build tool created by Evan You, was first announced on April 20, 2020, leveraging native ES Modules to eliminate bundling during development and achieve near-instant hot module replacement. Vite 2.0, redesigned to be framework-agnostic, was released in February 2021.
 
 📜 Deno v1.0.0, a secure-by-default runtime for JavaScript and TypeScript with a single-executable design, was officially released on May 13, 2020.
 
@@ -83,6 +85,8 @@ Released: Aug 10, 2021
 
 🌐 Ruby on Rails 7.0 was released on December 15, 2021, replacing Node.js and Webpack with import maps by default and introducing the Hotwire family of libraries.
 
+📜 Vitest was first released in December 2021 as a Vite-native unit testing framework for JavaScript, reusing Vite's transform pipeline and configuration to deliver near-instant test startup for Vite-based projects. Vitest 1.0 reached production-ready status in December 2023.
+
 🧠 LaMDA (Language Model for Dialogue Applications) is a family of conversational large language models developed by Google. Originally developed and introduced as Meena in 2020, the first-generation LaMDA was announced during the 2021 Google I/O keynote, while the second generation was announced the following year.
 
 ## 2022
@@ -95,6 +99,8 @@ Released: Aug 10, 2021
 The model was first announced in April 2022 and remained private until March 2023, when Google launched an API for PaLM and several other technologies.
 
 🧠 On May 11, 2022, Google unveiled LaMDA 2, the successor to LaMDA, during the 2022 Google I/O keynote.
+
+🏢 Meta transferred Jest to the OpenJS Foundation in May 2022, reflecting the framework's growth beyond Meta's internal use into a community-maintained project hosted alongside Node.js, jQuery, and webpack.
 
 ☁️ Kubernetes 1.24, released in May 2022, removed "dockershim," officially ending built-in support for Docker as a container runtime in favor of the Container Runtime Interface (CRI).
 
