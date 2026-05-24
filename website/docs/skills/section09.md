@@ -2,6 +2,10 @@
 
 ## Mathematical Logic
 
+> **Relevant DSS-P Skills:**
+>
+> - 5\. Personal Skills > 5\.2 Conceptual Skills > Creative Problem Solving & Critical Thinking
+
 ### Foundational Concepts
 
 * [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
@@ -62,6 +66,10 @@
 
 ## Core Programming Concepts
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 ### Language Mechanics & Execution
 
 * [Source code](https://en.wikipedia.org/wiki/Source_code) - A collection of code, possibly with comments, written using a human-readable programming language, usually as plain text
@@ -118,6 +126,10 @@
 
 ## Programming Paradigms
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 ### Object-oriented Programming
 
 * [Object-oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) - A programming paradigm based on the object - a software entity that encapsulates data and function(s)
@@ -160,6 +172,10 @@
 
 ## Asynchronous & Concurrency
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 * [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing) - A form of computing in which several computations are executed concurrently instead of sequentially
   * [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - A computer program component that generalizes subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed
   * [Async/await](https://en.wikipedia.org/wiki/Async/await) - A syntactic feature that allows an asynchronous, non-blocking function to be structured in a way similar to an ordinary synchronous function
@@ -171,6 +187,10 @@
   * [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - A situation in concurrent computing where no member of a group of entities can proceed because each waits for another member to take action
 
 ## Language Analysis
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * Concepts
   * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
@@ -193,6 +213,10 @@
   * [ts-morph](https://ts-morph.com/) - A TypeScript Compiler API wrapper
 
 ## Program Translation
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * Concepts
   * [Compiler](https://en.wikipedia.org/wiki/Compiler) - A computer program that translates computer code written in one programming language into another language
@@ -227,6 +251,10 @@
   * [musl libc](https://musl.libc.org/) - A C standard library intended for operating systems based on the Linux kernel
 
 ## Program Execution
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * Concepts
   * [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - The part of a program that runs on a computer, for the language in which the program was written
@@ -267,6 +295,10 @@
   * [VisualVM](https://visualvm.github.io/) - An All-in-One Java Troubleshooting Tool
 
 ## Algorithm & Computational Complexity
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * Concepts
   * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity

@@ -4,9 +4,8 @@ export default function HomepageMotivation() {
       <h2>Why This Site?</h2>
       <p>
         Over the years of implementing DevOps systems across multiple products, I frequently encountered
-        unknown technologies and concepts. Creating well-organized notes like these was essential to
-        understanding them. Initially maintained by hand, the site can now be expanded semi-automatically
-        with the help of AI agents.
+        unknown technologies and concepts. Creating well-organized notes was essential to understanding them.
+        While initially maintained by hand, this site now evolves semi-automatically with the assistance of AI agents.
       </p>
     </section>
   );

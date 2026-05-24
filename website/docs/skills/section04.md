@@ -2,6 +2,10 @@
 
 ## Security Foundations
 
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.1 Security Management > Construction and Operation of Security Systems
+
 * [Information security](https://en.wikipedia.org/wiki/Information_security) - The practice of protecting information by mitigating information risks
 * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - A weakness which can be exploited by a threat actor
 * [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security)) - A potential negative action or event facilitated by a vulnerability
@@ -30,6 +34,10 @@
   * [CTFd](https://ctfd.io/) - The easiest Capture The Flag platform to host your own cyber security workshop, providing a rock solid base that is easily customizable with themes and plugins
 
 ## Cryptography & Data Protection
+
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
 
 ### Core Cryptography
 
@@ -140,6 +148,11 @@
 
 ## Identity & Access Management (IAM)
 
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Improvement of Data Quality and Safety
+
 ### Integrated IAM
 
 * [Identity management](https://en.wikipedia.org/wiki/Identity_management) - A framework of policies and technologies for ensuring that the proper people in an enterprise have the appropriate access to technology resources
@@ -214,6 +227,10 @@
   * [Azure Shared Access Signature (SAS)](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) - A signed URI that points to one or more storage resources and includes a token that specifies the permissions and interval of access
 
 ## Secure Development Lifecycle (DevSecOps)
+
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
 
 ### Secure Design & Modeling
 
@@ -310,6 +327,10 @@
 
 ## Runtime & Operational Security
 
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.1 Security Management > Incident Response and Business Continuity
+
 ### Cloud-Native Application Protection (CNAPP)
 
 * [The 4 Cs of Cloud-Native Systems](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code) - A defense-in-depth approach that divides security strategies into four distinct layers to provide multilayered protection for cloud-native applications
@@ -361,6 +382,10 @@
   * [Autopsy](https://github.com/sleuthkit/autopsy) - A digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools
 
 ## Secure Communications & Networking
+
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
 
 ### Transport Layer Security (TLS)
 
@@ -433,6 +458,11 @@
 
 ## Governance, Risk, and Compliance (GRC)
 
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.1 Security Management > Construction and Operation of Security Systems
+> - 4\. Security > 4\.1 Security Management > Incident Response and Business Continuity
+
 ### Data Governance
 
 * [Unity Catalog](https://unitycatalog.io/) - A universal catalog for data and AI that provides interoperability, openness, and unified governance across various formats and platforms
@@ -483,6 +513,10 @@
   * [SARIF](https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html) - A standard format for the output of static analysis tools
 
 ## System & Personal Security
+
+> **Relevant DSS-P Skills:**
+>
+> - 4\. Security > 4\.1 Security Management > Construction and Operation of Security Systems
 
 ### OS & Endpoint Security
 

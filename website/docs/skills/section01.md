@@ -2,6 +2,11 @@
 
 ## Software Development Methods
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 5\. Personal Skills > 5\.2 Conceptual Skills > Adaptability
+
 ### Agile Development
 
 * [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) - An umbrella term for approaches to developing software that reflect the values and principles agreed upon by The Agile Alliance
@@ -84,6 +89,11 @@
 
 ## Software Design & Architecture
 
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business and Enterprise Architecture Design
+> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Architecture Management & Governance
+
 ### Design Principles
 
 * [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
@@ -152,6 +162,11 @@
 
 ## Project Management
 
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Program / Project Management
+> - 1\. Business Transformation > 1\.2 Product Management > Product Scope and Priority Management
+
 ### Project Planning & Estimation
 
 * [Project management](https://en.wikipedia.org/wiki/Project_management) - The process of leading the work of a team to achieve all project goals within the given constraints
@@ -208,6 +223,11 @@
 * [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
 
 ## Product Management
+
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.2 Product Management > Product Vision / Roadmap Formulation
+> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Product Lifecycle Management
 
 ### Product Strategy
 
@@ -279,6 +299,11 @@
 
 ## Metrics & Performance
 
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.2 Product Management > Design and Operation of Product Performance Metrics
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
+
 ### Goal Setting Frameworks
 
 * [Goal setting](https://en.wikipedia.org/wiki/Goal_setting) - The process of developing an action plan designed to motivate and guide a person or group toward a goal
@@ -302,6 +327,11 @@
 * [The Four Keys of DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - A set of metrics used to measure DevOps performance, consisting of Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service
 
 ## Enterprise Strategy & Architecture
+
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business and Enterprise Architecture Design
 
 ### Enterprise Architecture & Administration
 
@@ -362,6 +392,10 @@
 
 ## Enterprise AI & Productivity
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
+
 ### General Autonomous Agents
 
 * [Claude Cowork](https://claude.com/product/cowork) - An agentic AI system for knowledge work that autonomously plans and executes multi-step tasks across files, documents, and web applications directly on your computer
@@ -399,6 +433,10 @@
 
 ## Low-Code & No-Code Development
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Business Application Platforms
 
 * [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
@@ -418,6 +456,10 @@
 * [Webflow](https://webflow.com/) - A browser-based design tool that gives you the power to build production-ready websites without coding
 
 ## The Open Ecosystem
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 ### Open Source
 

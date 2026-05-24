@@ -2,6 +2,10 @@
 
 ## Foundational Thinking & Logic
 
+> **Relevant DSS-P Skills:**
+>
+> - 5\. Personal Skills > 5\.2 Conceptual Skills > Creative Problem Solving & Critical Thinking
+
 ### Logic
 
 * [Logic](https://en.wikipedia.org/wiki/Logic) - The study of correct reasoning
@@ -22,6 +26,10 @@
   * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) - The process of analyzing available facts, evidence, observations, and arguments to make sound conclusions or informed choices
 
 ## Documentation & Knowledge Management
+
+> **Relevant DSS-P Skills:**
+>
+> - 5\. Personal Skills > 5\.1 Human Skills > Leadership & Collaboration
 
 * [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
 * [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
@@ -117,6 +125,11 @@
 
 ## Human-Centered Design
 
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.4 Design > Customer / User / Stakeholder Understanding
+> - 1\. Business Transformation > 1\.4 Design > Digital Product Design
+
 ### Core Principles & User Experience (UX)
 
 * [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
@@ -199,6 +212,10 @@
 
 ## Interpersonal & Team Leadership
 
+> **Relevant DSS-P Skills:**
+>
+> - 5\. Personal Skills > 5\.1 Human Skills > Leadership & Collaboration
+
 ### Team Dynamics & Communication
 
 * Team Dynamics
@@ -241,6 +258,10 @@
 
 ## Individual Psychology & Performance
 
+> **Relevant DSS-P Skills:**
+>
+> - 5\. Personal Skills > 5\.2 Conceptual Skills > Adaptability
+
 ### Personal Performance
 
 * Mental Health
@@ -280,6 +301,11 @@
   * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog) - An apologue describing a frog being slowly boiled alive
 
 ## Systems Thinking: Economics, Game Theory & Finance
+
+> **Relevant DSS-P Skills:**
+>
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
 
 ### Economics & Game Theory
 

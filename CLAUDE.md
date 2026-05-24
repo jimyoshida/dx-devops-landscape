@@ -50,12 +50,23 @@ Day-to-day work happens on the `draft` branch. Use the `release` skill to squash
 The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
+Each level 2 header must start with a "Relevant DSS-P Skills" blockquote mapping
+the subsection to skills from `website/docs/dss-p-v2-skills.md` (the IPA DX Promotion
+Skill Standard). Example:
+
+```markdown
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3.1 Software Development > Computer Science & Team Development
+```
+
 Each level 2 header can have up to 6 level 3 headers as subsections.
 The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
 
-You should use grouping items instead of subsections when the group title is generic like "Cloud Services".
-That is to meet MD024 markdownlint rules.
+Each subsection title must be a skill domain name. Generic titles like "Libraries"
+or "Tutorials" are not allowed — use grouping items instead of subsections when the
+group title is generic like "Cloud Services". That is also to meet MD024 markdownlint rules.
 
 Each skill item should have a hyperlink which label is the concise linked website title.
 The website should be its own project/product home or its article on Wikipedia.

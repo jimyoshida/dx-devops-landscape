@@ -1,11 +1,69 @@
 .features {
+  padding: 3rem 0;
+  background: var(--ifm-background-color);
+}
+
+.featureCol {
+  margin-bottom: 2rem;
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
+}
+
+.featureCard {
+  background: var(--ifm-card-background-color, rgba(255, 255, 255, 0.6));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--ifm-color-emphasis-200, rgba(0, 0, 0, 0.08));
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.featureCard:hover {
+  transform: translateY(-6px);
+  border-color: var(--ifm-color-primary, #25c2a0);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.featureSvgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background: var(--ifm-color-emphasis-100, rgba(0, 0, 0, 0.03));
+  transition: all 0.3s ease;
+  width: 100px;
+  height: 100px;
+}
+
+.featureCard:hover .featureSvgWrapper {
+  background: rgba(37, 194, 160, 0.1);
+  transform: scale(1.05);
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 60px;
+  width: 60px;
+  transition: transform 0.3s ease;
+}
+
+.featureTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.featureDescription {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0;
 }

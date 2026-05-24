@@ -2,6 +2,10 @@
 
 ## Shell & Terminal
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 ### Bash & Other Shells
 
 * [Bash](https://www.gnu.org/software/bash/) - An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh)
@@ -89,6 +93,10 @@
 * [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
 
 ## Scripting Languages
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 ### Python
 
@@ -183,6 +191,10 @@
 
 ## CLI/TUI Development
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 * Bash
   * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
   * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html) - A command to initialize a terminal or query the terminfo database
@@ -246,6 +258,10 @@
 
 ## Version Control System
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 * Concepts
   * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
 * Core VCS & Clients
@@ -299,6 +315,10 @@
 * [Danger](https://github.com/danger/danger) - A tool to automate team norms in code review
 
 ## Integrated Development Environment (IDE)
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * GUI-based
   * [Visual Studio Code](https://code.visualstudio.com/) - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux
@@ -357,6 +377,10 @@
 
 ## Code Quality & Refactoring
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 * Concepts
   * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
   * [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - A software metric used to indicate the complexity of a program
@@ -403,6 +427,10 @@
 * [Ruby Style Guide](https://rubystyle.guide/) - A community-driven style guide for the Ruby programming language
 
 ## Developer AI & Productivity
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 ### AI Productivity Tools
 

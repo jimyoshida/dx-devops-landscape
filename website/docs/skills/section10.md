@@ -2,6 +2,10 @@
 
 ## Procedural & Systems Programming
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 ### Rust Language
 
 * [Rust](https://www.rust-lang.org/) - A programming language that empowers everyone to build reliable and efficient software
@@ -47,6 +51,10 @@
 
 ## Functional & Hybrid Programming
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 ### Functional-first & Multi-paradigm Languages
 
 * [F#](https://fsharp.org/) - A universal programming language for writing succinct, robust and performant code
@@ -77,6 +85,10 @@
 * [Dart](https://dart.dev/) - A client-optimized language for fast apps on any platform
 
 ## Data & Format Standards
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 ### Text Format & Character Code
 
@@ -153,6 +165,10 @@ support
 
 ## Text Processing & Manipulation
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 ### Regular Expression
 
 * [Regex](https://en.wikipedia.org/wiki/Regular_expression) - A sequence of characters that specifies a search pattern in text
@@ -219,6 +235,10 @@ support
 
 ## Debugging
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 * Debuggers
   * Python
     * [VSCode Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - An extension with rich support for the Python language
@@ -263,6 +283,10 @@ support
     * [log4net](https://logging.apache.org/log4net/) - A port of the excellent Apache log4j framework to the Microsoft .NET runtime
 
 ## Test Frameworks & Tools
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * Test Concepts and Best Practices
   * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - A way of thinking about how different kinds of tests should be used to create a balanced portfolio
@@ -342,6 +366,11 @@ support
 
 ## Build Automation
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * Build Automation Tools
   * [GNU Make](https://www.gnu.org/software/make/) - A tool which controls the generation of executables and other non-source files of a program
     * [Remake](https://bashdb.sourceforge.net/remake/) - An enahanced version of GNU Make that adds improved error reporting, better tracing, profiling and a debugger
@@ -384,6 +413,10 @@ support
 
 ## Package Dependency Management
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+
 * JavaScript & Web Ecosystem
   * [npm CLI](https://www.npmjs.com/) - The world's largest software registry
     * [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - A command-line tool that allows you to upgrade your package.json dependencies to the latest versions
@@ -419,6 +452,10 @@ support
   * [Hex](https://hex.pm/) - The package manager for the Erlang ecosystem
 
 ## Virtual Environment
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 * Virtual Environment Managers
   * [Python venv](https://docs.python.org/3/library/venv.html) - A module for the creation of virtual environments

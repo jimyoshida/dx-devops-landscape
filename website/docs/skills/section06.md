@@ -2,6 +2,10 @@
 
 ## Foundations of AI & Machine Learning
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding of Data and AI
+
 * AI Paradigms
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
   * [Neuro-symbolic AI](https://en.wikipedia.org/wiki/Neuro-symbolic_AI) - A subfield of artificial intelligence that integrates neural methods with symbolic methods to combine the strengths of both approaches, resulting in AI systems that can be trained from raw data while preserving explainability and explicit reasoning
@@ -25,6 +29,10 @@
   * [Curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality) - The phenomena that arise when analyzing and organizing data in high-dimensional spaces that do not occur in low-dimensional settings
 
 ## Machine Learning
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
 
 ### Learning Paradigms
 
@@ -71,6 +79,10 @@
 
 ## Neural Networks and Deep Learning
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
 * Neural Network Fundamentals
   * [Neural network](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)) - The computational models used in machine learning for finding patterns in data
   * [Tensor](https://en.wikipedia.org/wiki/Tensor_(machine_learning)) - The mathematical objects represented as multidimensional arrays used in machine learning
@@ -107,6 +119,10 @@
 
 ## Natural Language Processing (NLP)
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
 * Linguistics Foundations
   * [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) - The study of words, how they are formed, and their relationship to other words in the same language
   * [Syntax](https://en.wikipedia.org/wiki/Syntax) - A linguistic field that is the study of how words and morphemes combine to form larger units like phrases and sentences
@@ -134,6 +150,10 @@
   * [jieba](https://github.com/fxsjy/jieba) - A Python module for Chinese text segmentation
 
 ## Computer Vision
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
 
 ### Image Processing & Fundamentals
 
@@ -174,6 +194,10 @@
 
 ## Speech & Audio Processing
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
 ### Automatic Speech Recognition (ASR)
 
 * [Kaldi](https://kaldi-asr.org/) - A speech recognition toolkit written in C++ for acoustic modeling and language modeling
@@ -205,6 +229,10 @@
 * [PyannoteAudio](https://github.com/pyannote/pyannote-audio) - A Python toolkit for speaker diarization and speaker change detection
 
 ## Generative AI & Large Language Models (LLMs)
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
 
 * Core Concepts
   * [Vision Language Models (VLM)](https://huggingface.co/blog/vlms) - An exciting class of models that can understand images and text
@@ -269,6 +297,10 @@
 * [Arena](https://arena.ai/) - A platform designed for benchmarking and comparing various AI models, including both large language models (LLMs) and vision-language models (VLMs)
 
 ## Agentic AI
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
 
 ### Standards & Protocols
 
@@ -336,6 +368,11 @@
   * [ClawShell](https://clawshell.org/) - The Runtime Security Layer for OpenClaw, the essential safety harness for PII & sensitive credentials protection
 
 ## MLOps & LLMOps
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
 
 ### ML Lifecycle & MLOps Platforms
 

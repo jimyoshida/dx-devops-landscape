@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DX and DevOps Landscape',
+  title: 'DX Skill Landscape & Timeline',
   tagline: 'A comprehensive skill reference for the age of AI-driven development',
   favicon: 'img/favicon.ico',
 

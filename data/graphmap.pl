@@ -47,7 +47,7 @@ print "  graph [layout=sfdp, overlap=prism, splines=curved, K=1.5];\n";
 print "  node  [fontname=Helvetica, margin=\"0.06,0.02\"];\n";
 print "  edge  [color=\"#bbbbbb\"];\n\n";
 
-print "  root [label=\"DX &\\nDevOps\", shape=circle, width=1.4,\n";
+print "  root [label=\"DX Skills\", shape=circle, width=1.4,\n";
 print "        style=filled, fillcolor=\"#1E293B\", fontcolor=white, fontsize=13];\n\n";
 
 my %by_sec;

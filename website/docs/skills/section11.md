@@ -2,6 +2,10 @@
 
 ## Business & Productivity Application SDKs
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Project & Work Management
 
 * [Python Jira](https://jira.readthedocs.io/) - A Pythonic interface to the JIRA REST APIs
@@ -37,6 +41,7 @@
 
 ### CRM & Customer Support
 
+* [JSforce](https://jsforce.github.io/) - A Salesforce API library for JavaScript applications
 * [HubSpot Node.js SDK](https://github.com/HubSpot/hubspot-api-nodejs) - An official SDK that provides access to HubSpot's V3 API for managing CRM objects, files, OAuth, and other platform features
 * [node-zendesk](https://github.com/blakmatrix/node-zendesk) - A trusted API client library for Node.js and the browser that provides seamless integration with Zendesk's Customer Support Platform
 
@@ -53,6 +58,10 @@
   * [Google APIs Node.js Client](https://github.com/googleapis/google-api-nodejs-client) - A Node.js client library for using Google APIs with support for OAuth 2.0, API Keys, and JWT token authentication
 
 ## Developer Tools Integration SDKs
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 ### Version Control & DevOps
 
@@ -79,6 +88,10 @@
 
 ## Computer Graphics & Game Development
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### 3D Graphics
 
 * [Three.js](https://threejs.org/) - A JavaScript 3D library that makes it easy to create and display animated 3D computer graphics in a web browser using WebGL
@@ -95,11 +108,11 @@
 * [Vulkan](https://www.vulkan.org/) - A low-overhead, cross-platform, 3D graphics and computing API
   * [nvk](https://github.com/maierfelix/nvk) - Vulkan headers for the Go programming language
 
-### Customer Relationship Management
-
-* [JSforce](https://jsforce.github.io/) - A Salesforce API library for JavaScript applications
-
 ## Binary & Media Processing
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
 
 ### Binary Format Tools
 
@@ -156,6 +169,10 @@
 
 ## Document Processing
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Business Document Formats
 
 * [PDF](https://en.wikipedia.org/wiki/PDF) - A file format developed by Adobe to present documents in a manner independent of application software, hardware, and operating systems
@@ -198,6 +215,10 @@
   * [Roo](https://github.com/roo-rb/roo) - A library that can access the contents of various spreadsheet files
 
 ## Desktop App Development
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
 
 ### Client OS & Environments
 
@@ -252,6 +273,10 @@
 
 ## Mobile App Development
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Mobile Platforms & Native SDKs
 
 * [Android](https://www.android.com/) - A mobile operating system based on a modified version of the Linux kernel and other open-source software
@@ -292,6 +317,10 @@
   * [AWS Amplify](https://aws.amazon.com/amplify/) - A complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS
 
 ## Internet of Things (IoT)
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.2 Digital Technology > Physical Computing
 
 ### IoT Concepts
 

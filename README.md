@@ -1,8 +1,8 @@
-# DX and DevOps Landscape
+# DX Skill Landscape & Timeline
 
 Please visit the website build with Docusaurus. There is the link in the project description.
 
-If you perfer to use GitHub/GitLab, go to [Introduction](website/docs/intro.md).
+If you prefer to use GitHub/GitLab, go to [Introduction](website/docs/intro.md).
 
 ## Local Build
 

@@ -2,6 +2,10 @@
 
 ## Cloud Computing
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 ### Computing & Storage (IaaS)
 
 * [Amazon EC2](https://aws.amazon.com/ec2/) - A web service that provides secure, resizable compute capacity in the cloud
@@ -54,6 +58,10 @@
 
 ## Configuration as Code
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 ### Infrastructure as Code (IaC)
 
 * [Hashicorp Terraform](https://www.terraform.io/) - An infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently
@@ -97,6 +105,10 @@
     * [Azure Resource Graph](https://azure.microsoft.com/en-us/get-started/azure-portal/resource-graph) - A powerful management tool to query, explore, and analyze your cloud resources at scale
 
 ## Containerization
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
 * Linux Distros for Containers
@@ -162,6 +174,10 @@
 
 ## WebAssembly
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * Standards
   * [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
   * [WebAssembly System Interface (WASI)](https://github.com/WebAssembly/WASI) - A modular system interface for WebAssembly
@@ -185,6 +201,10 @@
   * [Fermyon Spin](https://www.fermyon.com/spin) - The developer tool for building WebAssembly microservices and web applications
 
 ## Kubernetes
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 * [Kubernetes](https://kubernetes.io/) - An open-source system for automating deployment, scaling, and management of containerized applications
 * Master node
@@ -279,6 +299,10 @@
 
 ## Cloud-Native Computing
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
 
 ### Container as a Service (CaaS)
@@ -345,6 +369,10 @@
 
 ## CI/CD & GitOps
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 ### Delivery & Deployment
 
 * Continuous Delivery Tools
@@ -381,6 +409,10 @@
   * [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - A service that enables you to create and share Maven, npm, NuGet, and Python package feeds from public and private sources
 
 ## System Observability
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 ### Instrumentation & Platforms
 
@@ -452,6 +484,10 @@
 
 ## SRE (Site Reliability Engineering)
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * [Site Reliability Engineering](https://landing.google.com/sre/) - A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems
   * [Service Level Objectives (SLOs)](https://sre.google/sre-book/service-level-objectives/) - A target value or range of values for a service level that is measured by a service level indicator (SLI)
   * [Dickerson's Hierarchy of Service Reliability](https://sre.google/sre-book/part-III-practices/) - A model that illustrates the foundational elements required to build and maintain reliable services, often visualized as a pyramid
@@ -502,6 +538,10 @@
   * [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing public cloud accounts and resources
 
 ## Performance & Load Testing
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 * [Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
 

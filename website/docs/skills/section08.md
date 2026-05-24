@@ -2,6 +2,10 @@
 
 ## Core OS Concepts
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * [System call](https://en.wikipedia.org/wiki/System_call) - The programmatic way in which a computer program requests a service from the kernel of the operating system on which it is executed
 * [Protection ring](https://en.wikipedia.org/wiki/Protection_ring) - A mechanism to protect data and functionality from faults and malicious behavior
 * [Daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) - A computer program that runs as a background process, rather than being under the direct control of an interactive user
@@ -52,6 +56,10 @@
 
 ## Base Network Concepts & Protocols
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * [The OSI Model](https://en.wikipedia.org/wiki/OSI_model) - A conceptual model that provides a common basis for the coordination of standards development for the purpose of systems interconnection
 
 ### Link Layer (L2)
@@ -94,6 +102,10 @@
 
 ## Domain Name System (DNS)
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) - The hierarchical and decentralized naming system used to identify computers, services, and other resources reachable through the Internet or other Internet Protocol networks
 * [mDNS](https://en.wikipedia.org/wiki/Multicast_DNS) - A protocol that resolves hostnames to IP addresses within small networks that do not include a local name server
 
@@ -125,6 +137,10 @@
   * [Google Cloud DNS](https://cloud.google.com/dns/) - A high-performance, resilient, global Domain Name System service that publishes your domain names to the global DNS in a cost-effective way
 
 ## Email System
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 * [Email](https://en.wikipedia.org/wiki/Email) - A method of exchanging messages between people using electronic devices
 * [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) - A communication protocol for electronic mail transmission
@@ -173,6 +189,10 @@
   * [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
 
 ## Unix-like Operating Systems
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 * [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
   * Threads
@@ -231,6 +251,10 @@
 
 ## Machine Virtualization
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 * [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - The act of creating a virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources
 * [libvirt](https://libvirt.org/) - A toolkit to manage virtualization platforms
 
@@ -259,6 +283,10 @@
   * [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
 
 ## Linux Host Administration
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 ### Core Utilities
 
@@ -337,6 +365,10 @@
 
 ## Linux Network Administration
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 ### Configuration & Management
 
 * [iproute2](https://github.com/shemminger/iproute2) - A collection of utilities for controlling TCP / IP networking and traffic control in Linux
@@ -364,6 +396,10 @@
   * [proxychains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy
 
 ## File Sharing & Remote Access
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
 
 ### File Servers and Protocols
 

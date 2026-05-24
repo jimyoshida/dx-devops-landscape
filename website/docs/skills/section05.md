@@ -2,6 +2,10 @@
 
 ## Foundational Concepts
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding of Data and AI
+
 ### General Data Concepts & Principles
 
 * [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
@@ -41,6 +45,10 @@
 * [Dimensional Modeling](https://en.wikipedia.org/wiki/Dimensional_modeling) - A database design technique used to optimize data warehouses for analytical queries using facts and dimensions
 
 ## Data Science Toolkit
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
 
 ### Programming Languages & Libraries
 
@@ -90,6 +98,10 @@
 
 ## Data Visualization
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+
 ### Common Chart Types
 
 * [Histogram](https://en.wikipedia.org/wiki/Histogram) - A representation of the distribution of numerical data
@@ -127,6 +139,10 @@
 * [Streamlit](https://streamlit.io/) - A faster way to build and share data apps
 
 ## Distributed Systems
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
 
 ### Distributed Computing Principles
 
@@ -177,6 +193,10 @@
     * [Azurite](https://github.com/Azure/Azurite) - An open-source Azure Storage emulator
 
 ## Mathematics & Statistics
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
 
 ### Base Mathematics
 
@@ -240,6 +260,11 @@
 
 ## Data Formats & Architecture
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Improvement of Data Quality and Safety
+
 ### Data Formats & Table Formats
 
 * [Apache Parquet](https://parquet.apache.org/) - An open source, column-oriented data file format designed for efficient data storage and retrieval
@@ -279,6 +304,10 @@
 * [DBT Contracts](https://docs.getdbt.com/docs/collaborate/govern/model-contracts) - Explicit data contracts defining input and output data requirements
 
 ## Relational Databases (SQL)
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
 
 ### SQL Fundamentals
 
@@ -358,6 +387,10 @@
 
 ## NoSQL & Specialized Databases
 
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+
 ### NoSQL Data Models
 
 * [Object-relational impedance mismatch](https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mismatch) - A set of conceptual and technical difficulties that are often encountered when a relational database management system (RDBMS) is being used by a program written in an object-oriented programming language or style
@@ -403,6 +436,10 @@
   * [Google Cloud Bigtable](https://cloud.google.com/bigtable/) - A NoSQL wide-column database service for large analytical and operational workloads
 
 ## Data Processing & Messaging
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
 
 ### Enterprise Integration
 
@@ -453,6 +490,10 @@
   * [Google Cloud Dataflow](https://cloud.google.com/products/dataflow) - A fully managed streaming analytics service that minimizes latency, processing time, and cost through autoscaling and batch processing
 
 ## Data Analytics & Search
+
+> **Relevant DSS-P Skills:**
+>
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding of Data and AI
 
 ### Search Engines & Platforms
 

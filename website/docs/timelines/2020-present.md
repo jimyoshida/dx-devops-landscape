@@ -24,7 +24,7 @@ sidebar_position: 5
 
 ⚙️ On September 21, 2020, Homebrew version 2.5.2 was released with support for bottle taps (binary package repositories) via GitHub Releases.
 
-🏢 On October 6, 2020, Google rebranded G Suite as Google Workspace, introducing a new integrated user experience and unified brand identity for its communication and collaboration apps
+🏢 On October 6, 2020, Google rebranded G Suite as Google Workspace, introducing a new integrated user experience and unified brand identity for its communication and collaboration apps.
 
 ⚙️ The first Apple Silicon Macs — the MacBook Air, 13-inch MacBook Pro, and Mac mini with the M1 chip — were announced on November 10, 2020, and began shipping on November 17, 2020, delivering significant performance and energy efficiency improvements over their Intel predecessors.
 
@@ -58,26 +58,23 @@ sidebar_position: 5
 
 ☁️ Deno Deploy, a distributed HTTP service that allows users to run JavaScript, TypeScript, and WebAssembly at the edge, was launched on June 23, 2021.
 
-🧠 GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
-On June 29, 2021, GitHub announced GitHub Copilot for technical preview in the Visual Studio Code development environment.
+🧠 GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code, announced for technical preview on June 29, 2021.
 
 🏢 Salesforce officially completed its acquisition of Slack for approximately $27.7 billion on July 21, 2021, marking one of the largest acquisitions in the software industry.
 
-🏢 Microsoft discontinued the hosted Skype for Business Online service on July 31, 2021, fully transitioning its communication and collaboration capabilities to Microsoft Teams
+🏢 Microsoft discontinued the hosted Skype for Business Online service on July 31, 2021, fully transitioning its communication and collaboration capabilities to Microsoft Teams.
 
-🧠 OpenAI Codex is an artificial intelligence model developed by OpenAI. It parses natural language and generates code in response. It is used to power GitHub Copilot, a programming autocompletion tool developed for Visual Studio Code.
-Codex is a descendant of OpenAI's GPT-3 model, fine-tuned for use in programming applications.
-Released: Aug 10, 2021
+🧠 OpenAI Codex is an artificial intelligence model developed by OpenAI that parses natural language and generates code in response, serving as the foundation for GitHub Copilot. As a descendant of OpenAI's GPT-3 model fine-tuned for programming applications, Codex was released on August 10, 2021.
 
 🖥️ GitHub Codespaces, a cloud-hosted development environment powered by Visual Studio Code, reached general availability for GitHub Team and Enterprise Cloud customers on August 11, 2021.
 
 🏢 The eBPF Foundation was launched under the Linux Foundation in August 2021. Founding members included Google, Facebook, Isovalent, Microsoft, and Netflix, reflecting eBPF's growing importance in the industry.
 
-🔐 OpenSSL 3.0 release: 7 September 2021
+🔐 OpenSSL 3.0 was released on September 7, 2021.
 
 ⚙️ Windows 11 was officially released on October 5, 2021, featuring a major visual redesign with a centered Taskbar and Start menu, improved window snapping ("Snap Layouts"), and a focus on enhanced security requirements.
 
-🐛 Log4Shell was a zero-day vulnerability in Log4j, a popular Java logging framework, involving arbitrary code execution.The vulnerability had existed unnoticed since 2013 and was privately disclosed to the Apache Software Foundation, of which Log4j is a project, by Chen Zhaojun of Alibaba Cloud's security team on 24 November 2021.
+🐛 Log4Shell was a zero-day vulnerability in Log4j, a popular Java logging framework, involving arbitrary code execution that had existed unnoticed since 2013 and was privately disclosed to the Apache Software Foundation on November 24, 2021 by Chen Zhaojun of Alibaba Cloud's security team.
 
 ☁️ Azure Container Apps, a fully managed serverless container service built on Kubernetes, was introduced in public preview on November 2, 2021.
 
@@ -87,7 +84,7 @@ Released: Aug 10, 2021
 
 📜 Vitest was first released in December 2021 as a Vite-native unit testing framework for JavaScript, reusing Vite's transform pipeline and configuration to deliver near-instant test startup for Vite-based projects. Vitest 1.0 reached production-ready status in December 2023.
 
-🧠 LaMDA (Language Model for Dialogue Applications) is a family of conversational large language models developed by Google. Originally developed and introduced as Meena in 2020, the first-generation LaMDA was announced during the 2021 Google I/O keynote, while the second generation was announced the following year.
+🧠 LaMDA (Language Model for Dialogue Applications) is a family of conversational large language models developed by Google, originally introduced as Meena in 2020 and evolved into the first-generation LaMDA announced at the 2021 Google I/O keynote, followed by the second generation the following year.
 
 ## 2022
 
@@ -95,8 +92,7 @@ Released: Aug 10, 2021
 
 ⚙️ Chocolatey 1.0.0 was officially released on March 18, 2022, marking a major milestone in version stability and enterprise readiness after over a decade of development.
 
-🧠 PaLM (Pathways Language Model) is a 540 billion parameter transformer-based large language model developed by Google AI.
-The model was first announced in April 2022 and remained private until March 2023, when Google launched an API for PaLM and several other technologies.
+🧠 PaLM (Pathways Language Model) is a 540 billion parameter transformer-based large language model developed by Google AI, first announced in April 2022 and remaining private until Google launched a public API in March 2023.
 
 🧠 On May 11, 2022, Google unveiled LaMDA 2, the successor to LaMDA, during the 2022 Google I/O keynote.
 
@@ -110,11 +106,11 @@ The model was first announced in April 2022 and remained private until March 202
 
 🌐 Bun, a fast all-in-one JavaScript runtime and toolkit written in Zig and powered by JavaScriptCore, entered public beta with the release of version 0.1.0 on July 5, 2022.
 
-⚙️ On September 21, 2022, Systemd support is now available in WSL.
+⚙️ Systemd support became available in WSL on September 21, 2022.
 
 🧠 ReAct (Synergizing Reasoning and Acting in Language Models), a general paradigm that combines reasoning and acting with Large Language Models (LLMs) to perform tasks, was first submitted to arXiv by researchers from Princeton University and Google Research on October 6, 2022.
 
-🏢 On October 13, 2022, Microsoft announced it would phase out the "Microsoft Office" brand in favor of "Microsoft 365," subsequently rebranding Office.com and the Office mobile apps to reflect this shift
+🏢 On October 13, 2022, Microsoft announced it would phase out the "Microsoft Office" brand in favor of "Microsoft 365," subsequently rebranding Office.com and the Office mobile apps to reflect this shift.
 
 ⚙️ Linux 6.0 was released on October 2, 2022, focusing on performance improvements for modern CPU architectures and including the initial groundwork for Rust support in the kernel.
 
@@ -124,13 +120,11 @@ The model was first announced in April 2022 and remained private until March 202
 
 🖥️ GitHub Codespaces was made available to all individual users on November 9, 2022, including a free monthly usage quota for the free tier.
 
-📜 OCaml 5.0 was released on December 16, 2022. This landmark release featured a complete rewrite of the runtime to support shared-memory parallelism and effect handlers for lock-free concurrency.
-Initial release: December 16, 2022
+📜 OCaml 5.0 was released on December 16, 2022, featuring a complete rewrite of the runtime to support shared-memory parallelism and effect handlers for lock-free concurrency.
 
 ⚙️ Linux 6.1 was released in December 2022, including the ability to write eBPF programs in Rust, further expanding the ecosystem for safe and performant kernel-level observability and networking.
 
-🧠 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022.
-It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
+🧠 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial intelligence chatbot developed by OpenAI and launched in November 2022, built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models and fine-tuned using both supervised and reinforcement learning techniques.
 
 📜 Support for npm packages via the `npm:` specifier became stable in Deno v1.28 on November 14, 2022, allowing the runtime to tap into the vast existing JavaScript ecosystem.
 
@@ -146,8 +140,7 @@ It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language mode
 
 🧠 Notion AI, an integrated AI assistant for the Notion workspace, reached general availability on February 22, 2023, after a private alpha period that began in November 2022.
 
-🧠 Generative Pre-trained Transformer 4 (GPT-4) is a multimodal large language model created by OpenAI, and the fourth in its series of GPT foundation models.
-It was launched on March 14, 2023, and made publicly available via the paid chatbot product ChatGPT Plus, via OpenAI's API, and via the free chatbot Microsoft Copilot.
+🧠 Generative Pre-trained Transformer 4 (GPT-4) is a multimodal large language model created by OpenAI as the fourth in its series of GPT foundation models, launched on March 14, 2023 and made publicly available through the paid ChatGPT Plus chatbot, OpenAI's API, and the free Microsoft Copilot chatbot.
 
 🧠 BabyAGI, a task-driven autonomous agent created by Yohei Nakajima, was publicly shared on Twitter on March 28, 2023. Written as a 105-line Python script using GPT-4, Pinecone, and LangChain, it demonstrated autonomous task planning and execution, going viral and accumulating over 16,000 GitHub stars.
 
@@ -173,19 +166,17 @@ It was launched on March 14, 2023, and made publicly available via the paid chat
 
 🧠 Amazon Bedrock reached general availability (GA) on September 28, 2023, launching with support for foundation models from AI21 Labs, Anthropic, Cohere, Stability AI, and Amazon.
 
-🧠 Google Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4.
+🧠 Google Gemini is a family of multimodal large language models developed by Google DeepMind as the successor to LaMDA and PaLM 2, comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano. It was announced on December 6, 2023 as a direct competitor to OpenAI's GPT-4.
 
-📜 Mojo is a programming language in the Python family that is currently under development. It is available both in browsers via Jupyter notebooks, and locally on Linux and macOS.
-First appeared: 2023
+📜 Mojo is a programming language in the Python family currently under development, available in browsers via Jupyter notebooks and locally on Linux and macOS, first appearing in 2023.
 
-🧠 LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI API specifications for local inferencing.
-First appeared: 2023
+🧠 LocalAI is a free, open-source OpenAI alternative that acts as a drop-in replacement REST API compatible with OpenAI API specifications for local inferencing, first appearing in 2023.
 
 🖥️ Cursor, an AI-native fork of Visual Studio Code (VS Code) developed by Anysphere, was publicly launched in 2023.
 
 ## 2024
 
-🧠 In February, 2024, Google launched Gemini 1.5 in a limited capacity, positioned as a more powerful and capable model than 1.0 Ultra.
+🧠 In February 2024, Google launched Gemini 1.5 in a limited capacity, positioned as a more powerful and capable model than 1.0 Ultra.
 
 🧠 LangGraph, a library built on top of LangChain to enable the creation of stateful, multi-actor applications with LLMs by creating cyclic graphs, was announced on January 17, 2024.
 
@@ -197,8 +188,7 @@ First appeared: 2023
 
 🌐 Bun 1.1, which introduced stable support for Windows and significant performance improvements for common operations, was released on April 1, 2024.
 
-🧠 GPT-4o (GPT-4 Omni) is a multilingual, multimodal generative pre-trained transformer designed by OpenAI.
-It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstration on 13 May 2024 and released the same day.
+🧠 GPT-4o (GPT-4 Omni) is a multilingual, multimodal generative pre-trained transformer designed by OpenAI, announced by OpenAI's CTO Mira Murati during a live-streamed demonstration on May 13, 2024 and released the same day.
 
 🧠 Firebase Genkit, an open-source framework by Google for building and deploying AI-powered applications, was first introduced during the Google I/O 2024 keynote on May 14, 2024.
 
@@ -214,11 +204,9 @@ It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstratio
 
 🧠 Anthropic introduced the Computer Use capability in public beta for Claude 3.5 Sonnet on October 22, 2024, enabling the model to navigate desktop environments by interpreting screenshots and simulating mouse and keyboard inputs.
 
-🧠 The Model Context Protocol (MCP) is an open standard, open-source framework introduced by Anthropic in November 2024 to standardize the way artificial intelligence (AI) systems like large language models (LLMs) integrate and share data with external tools, systems, and data sources
-Introduced: November 25, 2024
+🧠 The Model Context Protocol (MCP) is an open standard, open-source framework introduced by Anthropic on November 25, 2024 to standardize the way artificial intelligence systems like large language models integrate and share data with external tools, systems, and data sources.
 
-🧠 OpenAI o3 is a reflective generative pre-trained transformer (GPT) model developed by OpenAI as a successor to OpenAI o1 for ChatGPT. It is designed to devote additional deliberation time when addressing questions that require step-by-step logical reasoning.
-The OpenAI o3 model was announced on December 20, 2024.
+🧠 OpenAI o3 is a reflective generative pre-trained transformer model developed by OpenAI as a successor to OpenAI o1, designed to devote additional deliberation time for questions requiring step-by-step logical reasoning, announced on December 20, 2024.
 
 ⚙️ In 2024, the Single UNIX Specification Issue 8 adopted more inclusive terminology for pseudoterminals, officially replacing the traditional "master" and "slave" labels with "manager" and "subsidiary" respectively.
 
@@ -230,8 +218,7 @@ The OpenAI o3 model was announced on December 20, 2024.
 
 🧠 On January 30, 2025, Google released Gemini 2.0 Flash as the new default model, with Gemini 1.5 Flash still available for usage. This was followed by the release of Gemini 2.0 Pro on February 5, 2025.
 
-🧠 GitHub officially introduced Copilot Agent Mode on February 6, 2025, as part of a major announcement highlighting new autonomous workflows and productivity enhancements for developers.
-Subsequently, on February 24, 2025, GitHub released a follow-up blog post confirming availability in VS Code Stable/Insiders, marking its first broader rollout beyond early access.
+🧠 GitHub officially introduced Copilot Agent Mode on February 6, 2025, as part of a major announcement highlighting new autonomous workflows and productivity enhancements for developers. Subsequently, on February 24, 2025, GitHub released a follow-up blog post confirming availability in VS Code Stable/Insiders, marking its first broader rollout beyond early access.
 
 🧠 GitHub officially announced the rollout of the Agent Mode to all users on April 4, 2025, which included support for the Model Context Protocol (MCP) and the introduction of the Copilot code review agent.
 
@@ -249,7 +236,7 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🧠 General availability of the GitHub Copilot coding agent and MCP support was achieved in the stable Visual Studio Code June release (v1.102) on July 9, 2025.
 
-🧠 On Aug 06, 2025, Jules was officially out of beta and launching publicly, powered by Gemini 2.5.
+🧠 On August 6, 2025, Jules was officially out of beta and launched publicly, powered by Gemini 2.5.
 
 🧠 GPT-5 is a multimodal large language model developed by OpenAI and the fifth in its series of generative pre-trained transformer (GPT) foundation models. Preceded in the series by GPT-4, it was launched on August 7, 2025, combining reasoning capabilities and non-reasoning functionality under a common interface.
 
@@ -273,7 +260,7 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🖥️ Cursor 2.0 was released on October 29, 2025, introducing "Composer"—an AI-native coding interface optimized for orchestrating multi-agent workflows and high-speed code generation across codebases.
 
-☁️ On 14 Nov 2025, AWS Lambda supported building serverless applications using Rust.
+☁️ On November 14, 2025, AWS Lambda added support for building serverless applications using Rust.
 
 🧠 Google officially launched Gemini 3 on November 18, 2025 — a major release that brought enhanced reasoning, multimodal understanding, and agentic capabilities to the Gemini app, AI Search, Google AI Studio, Vertex AI, and more.
 
@@ -283,8 +270,7 @@ Subsequently, on February 24, 2025, GitHub released a follow-up blog post confir
 
 🌐 Anthropic announced the acquisition of Bun on December 2, 2025, with the aim of using the runtime to power its agentic workflows and developer tools.
 
-🏢 The Agentic AI Foundation (AAIF) was founded on December 9, 2025.
-It was launched as a new foundation under the Linux Foundation umbrella to provide neutral governance for the rapidly evolving ecosystem of AI agents.
+🏢 The Agentic AI Foundation (AAIF) was founded on December 9, 2025 as a new foundation under the Linux Foundation umbrella to provide neutral governance for the rapidly evolving ecosystem of AI agents.
 
 🧠 GPT-5.2, an incremental update to GPT-5, was released on December 11, 2025, featuring improved reasoning capabilities, reduced latency, and enhanced tool integration. This release maintained backward compatibility while introducing more specialized modes for different use cases.
 

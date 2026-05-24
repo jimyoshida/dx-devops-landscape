@@ -1,4 +1,4 @@
-= DX and DevOps Landscape - {pdfdate}
+= DX Skill Landscape & Timeline - {pdfdate}
 Hajime Yoshida <jimyoshida@dummy.com>
 :pdfdate: 2026-03-09
 :doctype: article

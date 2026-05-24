@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-This site aims to provide a comprehensive overview of concepts, techniques, tools, platforms, and frameworks related to DX (Digital Transformation) and DevOps, across 12 domains:
+This site aims to provide a comprehensive overview of concepts, techniques, tools, platforms, and frameworks related to DX (Digital Transformation), featuring Software Development and DevOps spaces, spanning the following 12 categories:
 
 - [01 - Software Development, Management & Business](skills/section01.md)
 - [02 - Web Application Development](skills/section02.md)
@@ -19,7 +19,14 @@ This site aims to provide a comprehensive overview of concepts, techniques, tool
 - [11 - Specialized Development Domains](skills/section11.md)
 - [12 - Interdisciplinary Foundations](skills/section12.md)
 
-The numbering and classification conventions for these domains are described in the [Classification Policy](class-policy.md).
+## Coverage for IPA DSS-P
+
+This site's skill list attempts to cover all of the **[Digital Skills Standard for Promotion (DSS-P) v2.0](dss-p-v2-skills.md)** defined by IPA. Under each subsection of each section page, the most relevant DSS-P skill names are listed.
+
+The IPA (Information-technology Promotion Agency, Japan) is a policy implementation agency under the jurisdiction of Japan's Ministry of Economy, Trade and Industry (METI).
+It plays a central role in Japan's national IT strategy, including **Human Resource Development** (administering national IT examinations), **Information Security Measures**, and establishing **Guidelines for Digital Transformation (DX)**.
+
+The **DSS-P** referenced in this document is a public standard defined by the IPA to accelerate DX in Japanese companies. It is widely adopted by many Japanese enterprises as a benchmark for talent development and hiring.
 
 ## Principles
 
@@ -29,11 +36,11 @@ This site is built on the following principles:
 
 **Prioritizing Openness:** Open Source Software (OSS) and open formats are favored over proprietary alternatives. This minimizes restrictions and vendor lock-in, which can impede agile decision-making. Furthermore, the availability of source code significantly aids in troubleshooting. Cloud services are included where essential.
 
-**Language Agnosticism:** Programming languages are treated primarily as tools. Since developers can now work with multiple languages easily, working across multiple languages is now routine. The focus is on selecting the most suitable language for a specific problem domain or cultural context.
+**Language Agnosticism:** Programming languages are treated primarily as tools. Since modern developers can easily work with multiple languages, multi-language workflows have become routine. The focus is on selecting the most suitable language for a specific problem domain or cultural context.
 
 ## Primary References
 
-These sites are the primary references to create this site.
+These resources serve as the primary references for the content on this site.
 
 - [Level Up Coding](https://levelup.gitconnected.com/) - A Medium publication covering software engineering, DevOps, and cloud topics
 - [ITNEXT](https://itnext.io/) - A Medium publication focused on IT, web development, and DevOps practitioners
@@ -43,4 +50,4 @@ These sites are the primary references to create this site.
 - [Golang Weekly](https://golangweekly.com/) - A weekly newsletter covering Go language news, articles, and projects
 - [Ruby Weekly](https://rubyweekly.com/) - A weekly newsletter covering Ruby language news, articles, and projects
 - [Postgres Weekly](https://postgresweekly.com/) - A weekly newsletter covering PostgreSQL news, articles, and tools
-- [Tony](https://medium.com/@tonylixu) in Medium - Articles on cloud infrastructure, Kubernetes, and DevOps engineering
+- [Tony Lixu](https://medium.com/@tonylixu) on Medium - Articles on cloud infrastructure, Kubernetes, and DevOps engineering

@@ -2,6 +2,10 @@
 
 ## Web Platform Fundamentals
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Web Concepts
 
 * [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - An information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet
@@ -69,6 +73,11 @@
 * [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
 
 ## Frontend Development
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 1\. Business Transformation > 1\.4 Design > Digital Product Design
 
 ### UI Frameworks & Core Libraries
 
@@ -172,6 +181,10 @@
 
 ## Full-stack & Static Site Frameworks
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Full-stack Frameworks
 
 * JS/TS Full-stack Frameworks
@@ -205,6 +218,10 @@
   * [Sanity](https://www.sanity.io/) - A platform for structured content that lets you build better digital experiences
 
 ## Backend Development
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
 
 ### API Architectural Styles
 
@@ -268,6 +285,10 @@
 
 ## Web Infrastructure
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+
 ### Web Server & Proxy
 
 * Web Servers & Reverse Proxy Servers
@@ -306,6 +327,10 @@
 
 ## Decentralized Web
 
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+
 ### Blockchain Technology
 
 * [Web3](https://en.wikipedia.org/wiki/Web3) - An idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics
@@ -339,6 +364,10 @@
 * [Secure Scuttlebutt](https://scuttlebutt.nz/) - A decentralized social network platform that enables local community development free from corporate data harvesting
 
 ## Development & Testing Tools
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
 
 ### Web/HTTP Clients
 

@@ -10,6 +10,15 @@ The 12 markdown files under the `website/docs/skills/` directory contain the ski
 The section classification structure is defined in `data/sections.yml`.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
+Each level 2 header must start with information about relationship with DSS-P skills.
+Example lines:
+```markdown
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3.1 Software Development > Front-end & Back-end System Development
+```
+
 Each level 2 header can have up to 6 level 3 headers as subsections.
 The skill items are classified into those subsections.
 You can place those items just after level 2 or 3 headers.
@@ -37,6 +46,7 @@ Make sure the markdown code meets the following markdownlint rules.
 
 ```markdown
 ## Cloud-Native Computing
+
 ### Cloud-Native Infrastructure
 
 * Event-driven Autoscaling

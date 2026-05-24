@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/skills.svg').default,
     description: (
       <>
-        A <a href="/docs/category/skills">curated collection of concepts, techniques, tools, platforms, etc. across 12 categories</a>,
-        from software development and cloud to AI, security, and data engineering.
+        A <a href="/docs/category/skills">curated collection of concepts, techniques, tools, and platforms across 12 categories</a>,
+        ranging from software development and cloud to AI, security, and data engineering.
       </>
     ),
   },
@@ -28,9 +28,9 @@ const FeatureList = [
     Svg: require('@site/static/img/mindmap.svg').default,
     description: (
       <>
-        The skill items are visualized as an <a href="/usr/docs/map.html">interactive mind map</a> (markmap)
-        and a <a href="/usr/docs/graphmap.pdf">force-directed graph map</a> (Graphviz sfdp),
-        both generated from the Markdown sources.
+        Interactive <a href="/usr/docs/map.html">mind maps</a> (markmap)
+        and force-directed <a href="/usr/docs/graphmap.pdf">graph maps</a> (Graphviz sfdp) to visualize skill relationships,
+        both generated dynamically from the Markdown sources.
       </>
     ),
   },
@@ -39,8 +39,8 @@ const FeatureList = [
     Svg: require('@site/static/img/pdf-document.svg').default,
     description: (
       <>
-        All contents are also available as a <a href="/usr/docs/all.pdf">single PDF file</a>,
-        generated from the Markdown sources via Pandoc and Asciidoctor PDF.
+        A comprehensive, <a href="/usr/docs/all.pdf">single PDF document</a> containing all site contents,
+        compiled from the Markdown sources using Pandoc and Asciidoctor PDF.
       </>
     ),
   },
@@ -48,13 +48,15 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--6')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className={clsx('col col--6', styles.featureCol)}>
+      <div className={styles.featureCard}>
+        <div className={styles.featureSvgWrapper}>
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className={styles.featureContent}>
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
       </div>
     </div>
   );
