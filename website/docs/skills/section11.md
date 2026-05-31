@@ -4,7 +4,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Service Utilization
 
 ### Project & Work Management
 
@@ -61,7 +61,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 ### Version Control & DevOps
 
@@ -90,7 +90,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Front-end System Development
 
 ### 3D Graphics
 
@@ -112,7 +112,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Back-end System Development
 
 ### Binary Format Tools
 
@@ -171,7 +171,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Back-end System Development
 
 ### Business Document Formats
 
@@ -214,11 +214,79 @@
   * [Excelize](https://xuri.me/excelize/) - A Go library for reading and writing XLSX/XLSM/XLTM files
   * [Roo](https://github.com/roo-rb/roo) - A library that can access the contents of various spreadsheet files
 
+## CLI/TUI Development
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science
+> - 3\. Technology > 3\.1 Software Development > Team Development
+
+* Bash
+  * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
+  * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html) - A command to initialize a terminal or query the terminfo database
+  * [dialog](https://invisible-island.net/dialog/dialog.html) - A program that can be used to create nice user interfaces for shell scripts
+  * [Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
+  * [FIGlet](http://www.figlet.org/) - A program for making large letters out of ordinary text
+  * [lolcat](https://github.com/busyloop/lolcat) - A program that concatenates files, or standard input, to standard output and adds rainbow coloring
+  * [cfonts](https://github.com/dominikwilkowski/cfonts) - A tool to print sexy fonts in your console
+* Perl
+  * [Getopt::Long](https://metacpan.org/pod/Getopt::Long) - A module that implements an extended getopt function called GetOptions()
+  * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor) - A module to colorize text using ANSI escape sequences
+  * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable) - A module to create a formatted table using ASCII characters and ANSI colors
+* Python
+  * [argparse](https://docs.python.org/3/library/argparse.html) - The module for parsing command-line arguments
+  * [getopt](https://docs.python.org/3/library/getopt.html) - The C-style parser for command line options
+  * [click](https://palletsprojects.com/p/click/) - A Python package for creating beautiful command line interfaces in a composable way with as little code as necessary
+  * [Colorama](https://github.com/tartley/colorama) - A simple cross-platform API for printing colored terminal text from Python
+  * [Typer](https://typer.tiangolo.com/) - A library for building CLI applications that users will love using and developers will love creating
+  * [Asciimatics](https://github.com/peterbrittain/asciimatics) - A package that provides a cross-platform, full-screen terminal API for building text-based user interfaces
+  * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/) - A library for building powerful interactive command line and terminal applications in Python
+  * [Questionary](https://github.com/tmbo/questionary) - A Python library for building interactive command line prompts
+  * [Urwid](https://urwid.org/) - A console user interface library for Python
+  * [Textual](https://textual.textualize.io/) - A Rapid Application Development framework for Python, built by Textualize.io
+    * [Rich](https://github.com/Textualize/rich) - A Python library for rich text and beautiful formatting in the terminal
+* Ruby
+  * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
+  * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
+  * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
+  * [thor](https://github.com/rails/thor) - A toolkit for building powerful command-line interfaces
+  * [dry-cli](https://dry-rb.org/gems/dry-cli/) - A general-purpose framework for developing Command Line Interface (CLI) applications that represents commands as objects and offers support for arguments, options, and forwarding variadic arguments to sub-commands
+  * [Clamp](https://github.com/mdub/clamp) - A minimal framework for command-line utilities that handles parsing command-line arguments and generating help
+* Javascript
+  * [yargs](https://yargs.js.org/) - A library for building interactive command line tools by parsing arguments and generating an elegant user interface
+  * [minimist](https://github.com/minimistjs/minimist) - A tool to parse argument options
+  * [chalk](https://github.com/chalk/chalk) - A terminal string styling tool
+  * [cli-progress](https://github.com/npkgz/cli-progress) - An easy to use progress-bar for command-line/terminal applications
+  * [FIGLet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec
+  * [Ink](https://github.com/vadimdemedes/ink) - A React-based library for building CLI applications
+  * [gradient-string](https://github.com/bokub/gradient-string) - A library for creating beautiful gradients in terminal output
+* Go
+  * [Fang](https://github.com/charmbracelet/fang) - The CLI starter kit. A small, experimental library for batteries-included Cobra applications
+  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A Go framework for building terminal apps based on The Elm Architecture
+    * [Lip Gloss](https://github.com/charmbracelet/lipgloss) - A declarative library for defining styles and layouts in terminal applications
+    * [Bubbles](https://github.com/charmbracelet/bubbles) - A collection of common terminal user interface components
+  * [Huh](https://github.com/charmbracelet/huh) - A simple, powerful, and elegant TUI library for building terminal forms and prompts
+  * [pflag](https://github.com/spf13/pflag) - A drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
+  * [color](https://github.com/fatih/color) - A package for Go that lets you use colorized outputs in terms of ANSI escape sequences
+  * [Cobra](https://cobra.dev/) - A framework for creating powerful modern CLI applications
+  * [urfave/cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
+  * [viper](https://github.com/spf13/viper) - A complete configuration solution for Go applications
+  * [Wish](https://github.com/charmbracelet/wish) - A tiny SSH server for your programs
+  * [Wishlist](https://github.com/charmbracelet/wishlist) - An SSH directory for your private hostkeys and favorite SSH commands
+  * [go-tui](https://www.go-tui.dev/) - A framework for building declarative terminal user interfaces (TUIs) in Go
+* Rust
+  * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
+  * [Ratatui](https://ratatui.rs/) - A Rust library for cooking up delicious terminal user interfaces
+  * [R3BL](https://r3bl.com/) - A suite of libraries for building modern terminal apps with Rust
+  * [Ansic](https://github.com/zeonzip/ansic) - A modern, efficient and compile time ansi macro and utilities crate for Rust
+* C
+  * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
+
 ## Desktop App Development
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Front-end System Development
 
 ### Client OS & Environments
 
@@ -275,7 +343,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Front-end System Development
 
 ### Mobile Platforms & Native SDKs
 
@@ -364,3 +432,27 @@
 * [Adafruit IO](https://io.adafruit.com/) - The easiest way to get your projects onto the Internet of Things, serving as a platform for web-based microcontroller interaction and datalogging
 * [ThingsBoard](https://thingsboard.io/) - An open-source IoT platform for data collection, processing, visualization, and device management that enables device connectivity via industry standard protocols
 * [Ubidots](https://ubidots.com/) - A cloud-based Industrial IoT platform that enables businesses to connect, monitor, visualize, and act on sensor data in real-time through customizable dashboards and automated workflows
+
+## Low-Code & No-Code Development
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Service Utilization
+
+### Business Application Platforms
+
+* [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
+* [AppSheet](https://about.appsheet.com/home/) - The no-code platform that helps build powerful applications and automations to boost productivity
+* [OutSystems](https://www.outsystems.com/) - A high-performance low-code platform that accelerates the development of critical enterprise applications
+
+### Workflow & Integration Automation
+
+* [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
+* [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
+* [Zapier](https://zapier.com/) - A tool that allows you to connect your apps and automate workflows without any coding knowledge
+* [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
+
+### Web Content & Portal Builders
+
+* [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
+* [Webflow](https://webflow.com/) - A browser-based design tool that gives you the power to build production-ready websites without coding

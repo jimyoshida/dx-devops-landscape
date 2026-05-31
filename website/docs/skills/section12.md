@@ -1,10 +1,11 @@
-# 12 - Interdisciplinary Foundations
+# 12 - Personal Skills
 
 ## Foundational Thinking & Logic
 
 > **Relevant DSS-P Skills:**
 >
-> - 5\. Personal Skills > 5\.2 Conceptual Skills > Creative Problem Solving & Critical Thinking
+> - 5\. Personal Skill > 5\.2 Conceptual Skill > Creative Problem Solving
+> - 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
 
 ### Logic
 
@@ -29,7 +30,8 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 5\. Personal Skills > 5\.1 Human Skills > Leadership & Collaboration
+> - 3\. Technology > 3\.1 Software Development > Team Development
+> - 5\. Personal Skill > 5\.1 Human Skill > Collaboration
 
 * [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
 * [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
@@ -49,6 +51,7 @@
   * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
   * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
   * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
+  * [Outline](https://www.getoutline.com/) - The knowledge base platform that helps teams organize documents, collaborate in real-time, and search across their workspace with AI-powered question answering
 
 ### Architectural Documentation
 
@@ -123,98 +126,12 @@
   * [Pandoc](https://pandoc.org/) - A universal document converter
     * [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
 
-## Human-Centered Design
-
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.4 Design > Customer / User / Stakeholder Understanding
-> - 1\. Business Transformation > 1\.4 Design > Digital Product Design
-
-### Core Principles & User Experience (UX)
-
-* [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
-* [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
-* [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
-  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
-  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
-* Prototyping
-  * [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
-  * [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
-
-### Cognitive & Behavioral Psychology
-
-* Psychological Models
-  * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action) - An idealized description of the cognitive and physical steps an individual takes to achieve a goal
-    * 1: Forming the target.
-    * 2: Forming the intention.
-    * 3: Specifying an action.
-    * 4: Executing the action.
-    * 5: Perceiving the state of the world.
-    * 6: Interpreting the state of the world.
-    * 7: Evaluating the outcome.
-* Cognitive Processes
-  * [Attention](https://en.wikipedia.org/wiki/Attention) - The cognitive process of selectively concentrating on one aspect of the environment while ignoring other things
-  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
-* Interaction Principles & Laws
-  * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - A general principle that states that the result of performing some operation should be obvious, consistent, and predictable, based upon the name of the operation and other context
-  * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
-  * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
-  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
-
-### Visual Design & Typography
-
-* Typography
-  * [Typography](https://en.wikipedia.org/wiki/Typography) - The art and technique of arranging type to make written language legible, readable and appealing when displayed
-  * [Web Typography](https://en.wikipedia.org/wiki/Web_typography) - The use of fonts on the World Wide Web
-  * [Microsoft Typography](https://learn.microsoft.com/en-us/typography/) - A comprehensive resource for font technology and typefaces, providing technical specifications, developer tools, and design guidelines for Microsoft products
-* Visual Foundations
-  * [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
-    * [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
-      * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
-      * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
-  * [Lucide](https://lucide.dev/) - A beautiful and consistent icon library for various platforms and frameworks
-* Font Rendering & Technologies
-  * Font Standards
-    * [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
-    * [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
-    * [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
-    * [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
-  * Open Fonts
-    * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
-    * [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
-  * Libraries & Engines
-    * [FreeType](https://freetype.org/) - A freely available software library to render fonts
-    * [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
-    * [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
-    * [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
-  * Rendering Technologies & APIs
-    * [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
-    * [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
-
-### Platforms, Frameworks & Guidelines
-
-* Visual Design Tools
-  * [Claude Design](https://claude.ai/design) - A visual design tool that lets users collaborate with Claude to create polished designs, prototypes, slides, and marketing materials through natural conversation and iterative refinement
-  * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
-  * [Locofy.ai](https://www.locofy.ai/) - Design to code in a flash
-* Design Systems & Guidelines
-  * [Material Design](https://m3.material.io/) - Google’s open-source design system for building beautiful, usable products
-  * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
-  * [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
-
-### Web Experience & Performance
-
-* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
-* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
-  * Largest Contentful Paint (LCP)
-  * Interaction to Next Paint (INP)
-  * Cumulative Layout Shift (CLS)
-
 ## Interpersonal & Team Leadership
 
 > **Relevant DSS-P Skills:**
 >
-> - 5\. Personal Skills > 5\.1 Human Skills > Leadership & Collaboration
+> - 5\. Personal Skill > 5\.1 Human Skill > Leadership
+> - 5\. Personal Skill > 5\.1 Human Skill > Collaboration
 
 ### Team Dynamics & Communication
 
@@ -260,7 +177,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 5\. Personal Skills > 5\.2 Conceptual Skills > Adaptability
+> - 5\. Personal Skill > 5\.2 Conceptual Skill > Adaptability
 
 ### Personal Performance
 
@@ -299,68 +216,3 @@
   * [Broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory) - A criminological theory that states that visible signs of crime, anti-social behavior, and civil disorder create an urban environment that encourages further crime and disorder, including serious crimes
   * [Stone soup story](https://en.wikipedia.org/wiki/Stone_Soup) - A European folk story in which hungry strangers convince the people of a town to each share a small amount of their food in order to make a meal
   * [Boiling frog apologue](https://en.wikipedia.org/wiki/Boiling_frog) - An apologue describing a frog being slowly boiled alive
-
-## Systems Thinking: Economics, Game Theory & Finance
-
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
-
-### Economics & Game Theory
-
-* [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
-* [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
-* [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
-* [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost) - A cost that has already been incurred and cannot be recovered
-* [Principal–agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem) - The conflict in priorities between a person or group and the representative authorized to act on their behalf
-* [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
-* [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
-* [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
-  * [Network effect](https://en.wikipedia.org/wiki/Network_effect) - The phenomenon by which the value or utility a user derives from a good or service depends on the number of users of compatible products
-* [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) - The observation that adding one or more roads to a road network can slow down overall traffic flow through it
-* [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) - A solution concept of a non-cooperative game involving two or more players in which each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy
-* [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency) - A state of allocation of resources from which it is impossible to reallocate so as to make any one individual or preference criterion better off without making at least one individual or preference criterion worse off
-
-### Finance & Accounting
-
-* [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
-* [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate
-* [Central bank](https://en.wikipedia.org/wiki/Central_bank) - An institution that manages the monetary policy of a country or monetary union
-* [Revenue model](https://en.wikipedia.org/wiki/Revenue_model) - A framework for generating financial income
-* [Financial capital](https://en.wikipedia.org/wiki/Financial_capital) - An economic resource measured in terms of money used by entrepreneurs and businesses to buy what they need to make their products or to provide their services
-  * [Venture capital](https://en.wikipedia.org/wiki/Venture_capital) - A form of private equity financing that is provided by venture capital firms or funds to startups, early-stage, and emerging companies that have been deemed to have high growth potential
-* Markets & Securities
-  * [Stock market](https://en.wikipedia.org/wiki/Stock_market) - The aggregation of buyers and sellers of stocks, which represent ownership claims on businesses
-  * [Stock](https://en.wikipedia.org/wiki/Stock) - Shares that divide ownership of a corporation, representing fractional ownership and typically conferring rights to earnings, liquidation proceeds, or voting power
-  * [Dividend](https://en.wikipedia.org/wiki/Dividend) - The distribution of profits by a corporation to its shareholders from current year profit or retained earnings
-* Contracts
-  * [Credit](https://en.wikipedia.org/wiki/Credit) - The trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately
-  * [Debt](https://en.wikipedia.org/wiki/Debt) - An obligation that requires one party, the debtor, to pay money or otherwise return value to another party, the creditor
-    * [Discounting](https://en.wikipedia.org/wiki/Discounting) - A mechanism in which a debtor obtains the right to delay payments to a creditor, for a defined period of time, in exchange for a charge or fee
-    * [Bond](https://en.wikipedia.org/wiki/Bond_(finance)) - A type of security under which the issuer (debtor) owes the holder (creditor) a debt, and is obliged – depending on the terms – to repay the principal of the bond at the maturity date and pay interest over a specified time
-  * [Spot](https://en.wikipedia.org/wiki/Spot_contract) - A contract of buying or selling a commodity, security or currency for immediate settlement
-  * [Futures](https://en.wikipedia.org/wiki/Futures_contract) - A standardized legal contract to buy or sell something at a predetermined price for delivery at a specified time in the future
-  * [Option](https://en.wikipedia.org/wiki/Option_(finance)) - A contract which conveys to its owner, the holder, the right, but not the obligation, to buy or sell a specific quantity of an underlying asset or instrument at a specified strike price on or before a specified date
-* [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - A type of currency which uses digital files as money
-* Accounting Fundamentals
-  * [Asset](https://en.wikipedia.org/wiki/Asset) - A resource owned or controlled by a business or economic entity that can be used to produce positive economic value
-  * [Liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting)) - A quantity of value that a financial entity owes and is expected to deliver in the future to satisfy a present obligation arising from past events
-  * [Equity](https://en.wikipedia.org/wiki/Equity_(finance)) - An ownership interest in property that may be subject to debts or other liabilities, measured by subtracting liabilities from the value of assets owned
-  * [Revenue](https://en.wikipedia.org/wiki/Revenue) - The total amount of income generated by the sale of goods and services related to the primary operations of a business
-  * [Depreciation](https://en.wikipedia.org/wiki/Depreciation) - The decrease in the value of assets and the method used to reallocate the cost of a tangible asset over its useful life span
-  * [Accrual](https://en.wikipedia.org/wiki/Accrual) - An accounting method that recognizes revenues and expenses when they are earned or incurred, not necessarily when cash is received or paid
-* Financial Statements & Metrics
-  * [Balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) - A summary of the financial balances of an individual or organization
-  * [Income statement](https://en.wikipedia.org/wiki/Income_statement) - One of the financial statements of a company and shows the company's financial performance for a specific period of time
-  * [Cash flow statement](https://en.wikipedia.org/wiki/Cash_flow_statement) - A financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents
-  * [Return on investment](https://en.wikipedia.org/wiki/Return_on_investment) - The ratio between net income (over a period) and investment (costs resulting from an investment of some resources at a point in time)
-  * [Net present value](https://en.wikipedia.org/wiki/Net_present_value) - A way of measuring the value of an asset that has cashflow by adding up the present value of all the future cash flows that asset will generate
-  * [EBITDA](https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization) - A measure of a company's profitability of the operating business only, before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base
-  * [Operating margin](https://en.wikipedia.org/wiki/Operating_margin) - The ratio of operating income to net sales, usually expressed in percent
-  * [Burn rate](https://en.wikipedia.org/wiki/Burn_rate) - The rate at which a company consumes its cash, typically expressed monthly and used for startups to measure how fast a company will use up its shareholder capital
-  * [Liquidity](https://en.wikipedia.org/wiki/Market_liquidity) - A market's feature whereby an individual or firm can quickly purchase or sell an asset without causing a drastic change in the asset's price
-  * [Valuation](https://en.wikipedia.org/wiki/Valuation_(finance)) - The process of determining the value of a potential investment, asset, or security
-* Accounting Standards & Processes
-  * [Generally Accepted Accounting Principles](https://en.wikipedia.org/wiki/Generally_Accepted_Accounting_Principles) - Accounting standards that prescribe in detail what accruals must be made, how financial statements are to be presented, and what additional disclosures are required
-  * [Audit](https://en.wikipedia.org/wiki/Audit) - An independent examination of financial information of any entity conducted with a view to express an opinion thereon

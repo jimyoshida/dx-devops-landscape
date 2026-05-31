@@ -1,17 +1,4 @@
-section01: Software Development, Management & Business
-  # Software Development Methods
-    # Agile Development
-    # Lean Development
-    # DevOps & Engineering Productivity
-    # Release Automation
-    # Release Conventions & Standards
-  # Software Design & Architecture
-    # Design Principles
-    # Design Best Practices
-    # Design Patterns
-    # Architectural Styles
-    # Requirements & Architecture Description
-    # Domain-Driven Design (DDD)
+section01: Business Transformation
   # Project Management
     # Project Planning & Estimation
     # Prioritization
@@ -19,6 +6,7 @@ section01: Software Development, Management & Business
     # Standards & Maturity
   # Product Management
     # Product Strategy
+    # Requirements Analysis
     # Marketing & Customer Experience
   # Metrics & Performance
     # Goal Setting Frameworks
@@ -32,14 +20,15 @@ section01: Software Development, Management & Business
     # Enterprise AI Assistants
     # Self-Hosted AI Platforms
     # AI Agent Registries
-  # Low-Code & No-Code Development
-    # Business Application Platforms
-    # Workflow & Integration Automation
-    # Web Content & Portal Builders
-  # The Open Ecosystem
-    # Open Source
-    # Open Data
-    # Community & Governance
+  # Human-Centered Design
+    # Core Principles & User Experience (UX)
+    # Cognitive & Behavioral Psychology
+    # Visual Design & Typography
+    # Platforms, Frameworks & Guidelines
+    # Web Experience & Performance
+  # Systems Thinking: Economics, Game Theory & Finance
+    # Economics & Game Theory
+    # Finance & Accounting
 section02: Web Application Development
   # Web Platform Fundamentals
     # Web Concepts
@@ -236,7 +225,17 @@ section06: AI, Machine Learning & LLM
     # ML Lifecycle & MLOps Platforms
     # LLM Serving & Runtimes
     # LLMOps & Observability
-section07: Fundamental Developer Tools
+section07: Fundamental Developer Skills
+  # Software Development Methods
+    # Agile Development
+    # Lean Development
+    # DevOps & Engineering Productivity
+    # Release Automation
+    # Release Conventions & Standards
+  # The Open Ecosystem
+    # Open Source
+    # Open Data
+    # Community & Governance
   # Shell & Terminal
     # Bash & Other Shells
     # Shell Utilities
@@ -247,7 +246,6 @@ section07: Fundamental Developer Tools
     # Python
     # JavaScript & TypeScript
     # Ruby, Perl & Others
-  # CLI/TUI Development
   # Version Control System
     # Git Hosting Services
     # Branching Models
@@ -306,6 +304,13 @@ section08: OS & Network Basics
     # File Servers and Protocols
     # Remote Access Servers and Protocols
 section09: Programming Concepts & Paradigms
+  # Software Design & Architecture
+    # Design Principles
+    # Design Best Practices
+    # Design Patterns
+    # Architectural Styles
+    # Architecture Description
+    # Domain-Driven Design (DDD)
   # Mathematical Logic
     # Foundational Concepts
     # Logical Systems
@@ -390,6 +395,7 @@ section11: Specialized Development Domains
     # Business Document Formats
     # PDF Processing
     # Office Document Processing
+  # CLI/TUI Development
   # Desktop App Development
     # Client OS & Environments
     # GUI Systems & Windowing
@@ -405,7 +411,11 @@ section11: Specialized Development Domains
     # Communication Standards
     # IoT Hardware Platforms
     # IoT Cloud Platforms
-section12: Interdisciplinary Foundations
+  # Low-Code & No-Code Development
+    # Business Application Platforms
+    # Workflow & Integration Automation
+    # Web Content & Portal Builders
+section12: Personal Skills
   # Foundational Thinking & Logic
     # Logic
     # Informal Logic
@@ -414,12 +424,6 @@ section12: Interdisciplinary Foundations
     # Architectural Documentation
     # Lightweight Markup & Writing Styles
     # Documentation Tooling
-  # Human-Centered Design
-    # Core Principles & User Experience (UX)
-    # Cognitive & Behavioral Psychology
-    # Visual Design & Typography
-    # Platforms, Frameworks & Guidelines
-    # Web Experience & Performance
   # Interpersonal & Team Leadership
     # Team Dynamics & Communication
     # Organizational Behavior
@@ -427,6 +431,3 @@ section12: Interdisciplinary Foundations
   # Individual Psychology & Performance
     # Personal Performance
     # Social Performance
-  # Systems Thinking: Economics, Game Theory & Finance
-    # Economics & Game Theory
-    # Finance & Accounting

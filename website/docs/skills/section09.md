@@ -1,10 +1,78 @@
 # 09 - Programming Concepts & Paradigms
 
+## Software Design & Architecture
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Software Design Methodology
+
+### Design Principles
+
+* [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
+* [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - A design principle for separating a computer program into distinct sections
+* [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - An approach for designing software that prescribes formal, precise and verifiable interface specifications for software components
+* [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - A design guideline for developing software, particularly object-oriented programs
+* [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - A mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable
+  * Single responsibility
+  * Open–closed
+  * Liskov substitution
+  * Interface segregation
+  * Dependency inversion
+* [The Reactive Manifesto](https://www.reactivemanifesto.org/) - A coherent approach to systems architecture where applications are responsive, resilient, elastic and message driven
+* [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - A set of cultural norms and philosophical approaches to software development
+* [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - A design principle which states that most systems work best if they are kept simple rather than made complicated
+
+### Design Best Practices
+
+* [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - A programming idiom where the life cycle of a resource is bound to the lifetime of an object
+* [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
+* [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
+* [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
+
+### Design Patterns
+
+* [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - A general, reusable solution to a commonly occurring problem within a given context in software design
+* [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - An architectural pattern used in software design and analysis that helps in structuring the responsibilities of classes in an object-oriented system
+* [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - A pattern that separates read and update operations for a data store
+* [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - A method for designing object-oriented APIs based on method chaining with the goal of making the readability of the source code close to that of ordinary written prose
+* [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
+* [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
+
+### Architectural Styles
+
+* [Three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - A client–server architecture in which presentation, application processing, and data management functions are logically separated
+* [Microservices architecture](https://martinfowler.com/articles/microservices.html) - An approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms
+* [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) - A software architecture paradigm promoting the production, detection, consumption of, and reaction to events
+* [Resource-oriented architecture](https://en.wikipedia.org/wiki/Resource-oriented_architecture) - A style of software architecture and programming paradigm for designing and developing software in the form of a network of resources
+* [Background processing](https://en.wikipedia.org/wiki/Background_process) - The execution of tasks in the background, allowing the main application to remain responsive
+
+### Architecture Description
+
+* [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
+  * [Systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) - The conceptual model that defines the structure, behavior, and more views of a system
+    * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
+    * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
+    * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
+    * [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
+  * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - An adage stating that organizations design systems that mirror their own communication structure
+* Related Standards
+  * [ISO/IEC/IEEE 42010 (Architecture description)](https://en.wikipedia.org/wiki/ISO/IEC_42010) - An international standard for architecture descriptions of systems and software
+
+### Domain-Driven Design (DDD)
+
+* [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) - A major software design approach, focusing on modeling software to match a domain according to input from that domain's experts
+* [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) - A technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process
+  * [Use case](https://en.wikipedia.org/wiki/Use_case) - A list of actions or event steps typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system to achieve a goal
+* [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
+  * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
+    * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
+* [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
+
 ## Mathematical Logic
 
 > **Relevant DSS-P Skills:**
 >
-> - 5\. Personal Skills > 5\.2 Conceptual Skills > Creative Problem Solving & Critical Thinking
+> - 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
 
 ### Foundational Concepts
 
@@ -68,7 +136,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Language Mechanics & Execution
 
@@ -128,7 +196,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Object-oriented Programming
 
@@ -174,7 +242,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing) - A form of computing in which several computations are executed concurrently instead of sequentially
   * [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - A computer program component that generalizes subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed
@@ -190,7 +258,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * Concepts
   * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
@@ -216,7 +284,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * Concepts
   * [Compiler](https://en.wikipedia.org/wiki/Compiler) - A computer program that translates computer code written in one programming language into another language
@@ -254,7 +322,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * Concepts
   * [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - The part of a program that runs on a computer, for the language in which the program was written
@@ -298,7 +366,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * Concepts
   * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity

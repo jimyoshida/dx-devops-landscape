@@ -4,7 +4,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Web Application Core Technology
 
 ### Web Concepts
 
@@ -76,7 +76,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Front-end System Development
 > - 1\. Business Transformation > 1\.4 Design > Digital Product Design
 
 ### UI Frameworks & Core Libraries
@@ -183,7 +183,8 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Front-end System Development
+> - 3\. Technology > 3\.1 Software Development > Back-end System Development
 
 ### Full-stack Frameworks
 
@@ -221,7 +222,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.1 Software Development > Back-end System Development
 
 ### API Architectural Styles
 
@@ -287,7 +288,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 ### Web Server & Proxy
 
@@ -297,6 +298,7 @@
   * [Caddy](https://caddyserver.com/) - A powerful, extensible platform to serve your sites, services, and apps, written in Go
   * [HAProxy](https://www.haproxy.org/) - A free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications
   * [nodejs http-server](https://github.com/http-party/http-server#readme) - A simple static HTTP server
+  * [goshs](https://github.com/patrickhener/goshs) - A feature-rich single-binary file server for red teamers and developers supporting HTTP/S, WebDAV, SFTP, SMB, LDAP/S, NTLM hash capture, DNS/SMTP callbacks, TLS, authentication, and share links
 * API Management
   * [Unkey](https://www.unkey.com/) - An open-source API management platform designed to help developers secure, manage, and scale their APIs
   * [Kong API gateway](https://konghq.com/products/kong-gateway) - A lightweight, fast, and flexible cloud-native API gateway
@@ -329,7 +331,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 3\. Technology > 3\.2 Digital Technology > Other Advanced Technologies
 
 ### Blockchain Technology
 
@@ -367,7 +369,8 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 ### Web/HTTP Clients
 
@@ -437,3 +440,4 @@
   * [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
   * [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   * [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
+  * [Trafilatura](https://trafilatura.readthedocs.io/en/latest/) - A Python package and command-line tool to gather text on the Web

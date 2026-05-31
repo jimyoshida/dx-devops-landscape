@@ -4,7 +4,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding of Data and AI
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
 
 ### General Data Concepts & Principles
 
@@ -493,7 +493,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding of Data and AI
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
 
 ### Search Engines & Platforms
 

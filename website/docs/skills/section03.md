@@ -4,7 +4,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 ### Computing & Storage (IaaS)
 
@@ -31,6 +31,7 @@
 * [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
 * [Vercel](https://vercel.com/) - A frontend cloud platform that provides the developer experience and infrastructure to build, deploy, and scale the web
 * [Netlify](https://www.netlify.com/) - A composable web platform that enables enterprises and teams to build, deploy, and scale modern web experiences on a global edge network
+* [Coolify](https://coolify.io/) - An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway
 
 ### Cloud Command Line Interfaces
 
@@ -60,7 +61,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 ### Infrastructure as Code (IaC)
 
@@ -108,7 +109,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
 * Linux Distros for Containers
@@ -176,7 +177,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.2 Digital Technology > Other Advanced Technologies
 
 * Standards
   * [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
@@ -204,7 +205,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 * [Kubernetes](https://kubernetes.io/) - An open-source system for automating deployment, scaling, and management of containerized applications
 * Master node
@@ -301,7 +302,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 * [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
 
@@ -371,7 +372,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > SRE Process
 
 ### Delivery & Deployment
 
@@ -412,7 +413,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > SRE Process
 
 ### Instrumentation & Platforms
 
@@ -486,7 +487,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > SRE Process
 
 * [Site Reliability Engineering](https://landing.google.com/sre/) - A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems
   * [Service Level Objectives (SLOs)](https://sre.google/sre-book/service-level-objectives/) - A target value or range of values for a service level that is measured by a service level indicator (SLI)
@@ -541,7 +542,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > SRE Process
 
 * [Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
 
@@ -557,5 +558,5 @@
 * [sysbench](https://github.com/akopytov/sysbench) - A scriptable multi-threaded benchmark tool based on LuaJIT
 * [fio](https://github.com/axboe/fio) - A tool that will spawn a number of threads or processes doing a particular type of I/O action as specified by the user
 * [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
-* [plow](https://deepwiki.com/six-ddc/plow) - A high-performance HTTP benchmarking tool
+* [plow](https://github.com/six-ddc/plow) - An HTTP(S) benchmarking tool written in Golang that conducts load testing with concurrent connections while displaying real-time performance metrics through both a web UI and terminal interface
 * [loadgen-rs](https://github.com/git001/loadgen-rs) - A h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) with commandline mode and distributed mode

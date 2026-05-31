@@ -4,7 +4,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Rust Language
 
@@ -37,6 +37,7 @@
     * [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
   * Tools
     * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
+    * [mvm](https://mvm.sh/) - A fast virtual machine for Go and beyond that enables users to run Go programs directly from source code without compilation
   * Tutorials
     * [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
     * [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
@@ -53,7 +54,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Functional-first & Multi-paradigm Languages
 
@@ -88,7 +89,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Text Format & Character Code
 
@@ -134,6 +135,7 @@ support
   * [XPath](https://www.w3.org/TR/xpath/) - An expression language that allows the processing of values conforming to the XQuery and XPath Data Model
   * [DOM](https://dom.spec.whatwg.org/) - A platform-neutral model for events, aborting activities, and node trees
   * [Python xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) - A module that implements a simple and efficient API for parsing and creating XML data
+  * [Nokogiri](https://nokogiri.org/) - A Ruby library that makes it easy and painless to work with XML and HTML, providing tools for reading, writing, modifying, and querying documents
 * [logfmt](https://brandur.org/logfmt) - A log format that is simple, fast, and easy for humans and machines to parse
 * [JSON Lines](https://jsonlines.org/) - A convenient format for storing structured data that may be processed one record at a time
 * Related Tools
@@ -167,7 +169,7 @@ support
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Regular Expression
 
@@ -199,6 +201,7 @@ support
   * [xsv](https://github.com/BurntSushi/xsv) - A fast CSV command line toolkit written in Rust
   * [qsv](https://github.com/jqnatividad/qsv) - A command line program for indexing, slicing, analyzing, splitting, enriching, transforming & joining CSV files
   * [GNU awk](https://www.gnu.org/software/gawk/) - A program that you can use to select particular records in a file and perform operations upon them
+  * [GoAWK](https://github.com/benhoyt/goawk) - A POSIX-compliant AWK interpreter written in Go with CSV support
 * Libraries
   * [Text::CSV](https://metacpan.org/pod/Text::CSV) - A comma-separated values manipulator (using XS or PurePerl)
   * [Python csv](https://docs.python.org/3/library/csv.html) - A module that implements classes to read and write tabular data in CSV format
@@ -232,12 +235,13 @@ support
   * [remark](https://remark.js.org/) - A markdown processor powered by plugins
 * [markdown-it](https://github.com/markdown-it/markdown-it) - A Markdown parser with 100% CommonMark support, extensions, and syntax plugins
   * [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/) - A Python port of the markdown-it project
+* [markdownify](https://github.com/matthewwithanm/python-markdownify) - A Python library that converts HTML to Markdown with customizable options for handling tags, formatting, and styling
 
 ## Debugging
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * Debuggers
   * Python
@@ -286,7 +290,7 @@ support
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Software Development Process
 
 * Test Concepts and Best Practices
   * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - A way of thinking about how different kinds of tests should be used to create a balanced portfolio
@@ -368,8 +372,8 @@ support
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
+> - 3\. Technology > 3\.1 Software Development > Computer Science
+> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 * Build Automation Tools
   * [GNU Make](https://www.gnu.org/software/make/) - A tool which controls the generation of executables and other non-source files of a program
@@ -415,7 +419,7 @@ support
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * JavaScript & Web Ecosystem
   * [npm CLI](https://www.npmjs.com/) - The world's largest software registry
@@ -455,7 +459,7 @@ support
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 * Virtual Environment Managers
   * [Python venv](https://docs.python.org/3/library/venv.html) - A module for the creation of virtual environments

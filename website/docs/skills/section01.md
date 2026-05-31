@@ -1,164 +1,4 @@
-# 01 - Software Development, Management & Business
-
-## Software Development Methods
-
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
-> - 5\. Personal Skills > 5\.2 Conceptual Skills > Adaptability
-
-### Agile Development
-
-* [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) - An umbrella term for approaches to developing software that reflect the values and principles agreed upon by The Agile Alliance
-  * [Agile Manifesto](https://agilemanifesto.org/) - A document that proclaims better ways of developing software by valuing individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan
-  * [Software prototyping](https://en.wikipedia.org/wiki/Software_prototyping) - The activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed
-  * [Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product) - A version of a product with just enough features to be usable by early customers who can then provide feedback for future product development
-  * [User story](https://en.wikipedia.org/wiki/User_story) - An informal, natural language description of features of a software system
-    * [Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/) - A practice where the Card is a token representing the requirement, the Conversation is where details are teased out, and the Confirmation is the acceptance test for the story
-  * [INVEST of PBI](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) - A mnemonic created by Bill Wake as a reminder of the characteristics of a good quality Product Backlog Item (PBI)
-    * Independent: The PBI should be self-contained
-    * Negotiable: Draft PBIs are not explicit contracts and should leave space for discussion
-    * Valuable: A PBI must deliver value to the stakeholders
-    * Estimable: You must always be able to estimate the size of a PBI
-    * Small: PBIs should not be so big as to become impossible to plan/task/order within a level of accuracy
-    * Testable: The PBI or its related description must provide the necessary information to make test development possible
-* Key Methodologies
-  * [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) - A software development methodology which is intended to improve software quality and responsiveness to changing customer requirements
-  * [Scrum](https://www.scrum.org/learning-series/what-is-scrum/) - A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value
-  * [Acceptance test-driven development](https://en.wikipedia.org/wiki/Acceptance_test-driven_development) - A development methodology based on communication between the business customers, the developers, and the testers
-    * [Three Amigos](https://agilealliance.org/glossary/three-amigos/) - A meeting where the product owner, developer, and quality tester come together to establish clarity on the scope of the project
-  * [Behavior driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) - An agile software development process that encourages collaboration among developers, quality assurance testers, and customer representatives in a software project
-    * [Specification by example](https://en.wikipedia.org/wiki/Specification_by_example) - A collaborative approach to defining requirements and business-oriented functional tests for software products based on capturing and illustrating requirements using realistic examples instead of abstract statements
-* Key Practices
-  * [Refactoring](https://refactoring.com/) - A disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior
-    * [Software rot](https://en.wikipedia.org/wiki/Software_rot) - The tendency for software to deteriorate in quality, performance, or usefulness over time
-    * [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) - A concept in software development that reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer
-      * [Technical Debt Ratio](https://brainhub.eu/library/technical-debt-ratio) - A metric used to measure the cost of fixing the existing technical debt in a codebase compared to the cost of developing the entire codebase from scratch
-  * [Test driven development](https://en.wikipedia.org/wiki/Test-driven_development) - A software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases
-* Tools for ATDD/BDD
-  * [Gauge](https://gauge.org/index.html) - A free and open source test automation framework that takes the pain out of writing and maintaining acceptance tests
-  * [Cucumber](https://cucumber.io/) - A tool that supports Behaviour-Driven Development (BDD) by reading executable specifications written in plain text and validating that the software does what those specifications say
-    * [Gherkin Syntax](https://cucumber.io/docs/gherkin/) - A set of grammar rules that makes plain text structured enough for Cucumber to understand
-    * [cucumber-ruby](https://github.com/cucumber/cucumber-ruby) - The Ruby implementation of Cucumber
-  * [RSpec](https://rspec.info/) - A testing tool for the Ruby programming language, created for behavior-driven development (BDD)
-  * [Behave](https://behave.readthedocs.io/en/latest/) - A tool for behavior-driven development (BDD) in Python, using tests written in a natural language style, backed up by Python code
-
-### Lean Development
-
-* [Lean software development](https://en.wikipedia.org/wiki/Lean_software_development) - A translation of lean manufacturing principles and practices to the software development domain
-  * [Continual improvement process](https://en.wikipedia.org/wiki/Continual_improvement_process) - An ongoing effort to improve products, services, or processes
-  * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop) - A four-step approach to decision-making that focuses on filtering available information, putting it in context and quickly making the most appropriate decision while also understanding that changes can be made as more data becomes available
-* [Lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) - A production method aimed primarily at reducing times within the production system as well as response times from suppliers and to customers
-  * The 7 Wastes: The activities that add no value for the customer
-  * [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping) - A lean-management method for analyzing the current state and designing a future state for the series of events that take a product or service from the beginning of the specific process until it reaches the customer
-* [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
-  * [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) - A lean method to manage and improve work across human systems
-  * [Kaizen](https://en.wikipedia.org/wiki/Kaizen) - A philosophy that focuses on continuous, incremental improvement of all functions and involves all employees from the CEO to the assembly line workers
-  * [Autonomation](https://en.wikipedia.org/wiki/Autonomation) - The practice of designing equipment to partially automate a process and to automatically stop when a problem is detected, allowing operators to fix the issue immediately
-  * [Heijunka](https://en.wikipedia.org/wiki/Heijunka) - A method for smoothing out production by leveling both the volume and the product mix
-  * [Genchi Genbutsu](https://en.wikipedia.org/wiki/Genchi_Genbutsu) - A principle that suggests that to truly understand a situation, one needs to go to the "real place" where the work is done, observe the process, and verify the facts for themselves
-  * [Andon (manufacturing)](https://en.wikipedia.org/wiki/Andon_(manufacturing)) - A visual management system used to indicate the status of a production line
-  * [Muda (Japanese term)](https://en.wikipedia.org/wiki/Muda_(Japanese_term)) - A key concept in lean process management as one of the three types of deviation from optimal allocation of resources, meaning futility, uselessness, or wastefulness
-* [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) - A management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints
-
-### DevOps & Engineering Productivity
-
-* Concepts
-  * [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - A conceptual model for approaching DevOps that stands for Culture, Automation, Lean, Measurement, and Sharing
-* Cultural & Organizational Foundations
-  * [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/) - A type of culture characterized by a high degree of trust and cooperation, a shared sense of responsibility for the mission, and a focus on learning and continuous improvement
-* Technical Practices
-  * [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) - A powerful technique, allowing teams to modify system behavior without changing code
-  * [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - A technique that reduces downtime and risk by running two identical production environments called Blue and Green
-  * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
-  * [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - A software development practice that seeks to apply the same principles of version control, testing, and deployment to enhance maintainability and scalability of all aspects of the development lifecycle, including networking infrastructure, documentation, and configuration
-
-### Release Automation
-
-* [semantic-release](https://semantic-release.gitbook.io/semantic-release) - A fully automated version management and package publishing tool that determines the next version number, generates release notes, and publishes the package based on formalized commit messages
-* [Release Please](https://github.com/googleapis/release-please) - A tool that automates changelog generation, the creation of GitHub releases, and version bumps for your projects based on Conventional Commits
-* [GoReleaser](https://goreleaser.com/) - A release automation tool for Go projects
-* [Changesets](https://github.com/changesets/changesets) - A tool to manage versioning and changelogs with a focus on monorepos
-
-### Release Conventions & Standards
-
-* [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
-* [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages that provides an easy set of rules for creating an explicit commit history
-* [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
-* [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
-
-## Software Design & Architecture
-
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business and Enterprise Architecture Design
-> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Architecture Management & Governance
-
-### Design Principles
-
-* [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - The principle that every piece of knowledge must have a single, unambiguous, authoritative representation within a system
-* [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - A design principle for separating a computer program into distinct sections
-* [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - An approach for designing software that prescribes formal, precise and verifiable interface specifications for software components
-* [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - A design guideline for developing software, particularly object-oriented programs
-* [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - A mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable
-  * Single responsibility
-  * Open–closed
-  * Liskov substitution
-  * Interface segregation
-  * Dependency inversion
-* [The Reactive Manifesto](https://www.reactivemanifesto.org/) - A coherent approach to systems architecture where applications are responsive, resilient, elastic and message driven
-* [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - A set of cultural norms and philosophical approaches to software development
-* [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - A design principle which states that most systems work best if they are kept simple rather than made complicated
-
-### Design Best Practices
-
-* [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - A programming idiom where the life cycle of a resource is bound to the lifetime of an object
-* [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - A set of rules about where to focus optimization efforts, emphasizing measurement and the importance of data structures
-* [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - A collection of 19 guiding principles for writing computer programs that influence the design of the Python programming language
-* [The twelve-factor app](https://12factor.net/) - A methodology for building software-as-a-service apps that are suitable for deployment on modern cloud platforms
-
-### Design Patterns
-
-* [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - A general, reusable solution to a commonly occurring problem within a given context in software design
-* [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - An architectural pattern used in software design and analysis that helps in structuring the responsibilities of classes in an object-oriented system
-* [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - A pattern that separates read and update operations for a data store
-* [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - A method for designing object-oriented APIs based on method chaining with the goal of making the readability of the source code close to that of ordinary written prose
-* [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements
-* [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - A design pattern in which an object or function receives other objects or functions that it depends on
-
-### Architectural Styles
-
-* [Three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - A client–server architecture in which presentation, application processing, and data management functions are logically separated
-* [Microservices architecture](https://martinfowler.com/articles/microservices.html) - An approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms
-* [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) - A software architecture paradigm promoting the production, detection, consumption of, and reaction to events
-* [Resource-oriented architecture](https://en.wikipedia.org/wiki/Resource-oriented_architecture) - A style of software architecture and programming paradigm for designing and developing software in the form of a network of resources
-* [Background processing](https://en.wikipedia.org/wiki/Background_process) - The execution of tasks in the background, allowing the main application to remain responsive
-
-### Requirements & Architecture Description
-
-* [System](https://en.wikipedia.org/wiki/System) - A group of interacting or interrelated elements that act according to a set of rules to form a unified whole
-  * [Systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) - The conceptual model that defines the structure, behavior, and more views of a system
-    * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - A view model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views"
-    * [The C4 model](https://c4model.com/) - An easy to learn, developer friendly approach to software architecture diagramming
-    * [UML](https://www.omg.org/spec/UML/About-UML/) - The graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system
-    * [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - A type of diagram that represents a workflow or process
-  * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - An adage stating that organizations design systems that mirror their own communication structure
-* [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
-  * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
-    * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
-* Related Standards
-  * [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
-  * [ISO/IEC/IEEE 42010 (Architecture description)](https://en.wikipedia.org/wiki/ISO/IEC_42010) - An international standard for architecture descriptions of systems and software
-
-### Domain-Driven Design (DDD)
-
-* [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) - A major software design approach, focusing on modeling software to match a domain according to input from that domain's experts
-* [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) - A technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process
-  * [Use case](https://en.wikipedia.org/wiki/Use_case) - A list of actions or event steps typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system to achieve a goal
-* [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - A representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse
-  * [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - A knowledge base that represents semantic relations between concepts in a network
-    * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
-* [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
+# 01 - Business Transformation
 
 ## Project Management
 
@@ -226,7 +66,9 @@
 
 > **Relevant DSS-P Skills:**
 >
+> - 1\. Business Transformation > 1\.2 Product Management > Requirement Analysis and Management
 > - 1\. Business Transformation > 1\.2 Product Management > Product Vision / Roadmap Formulation
+> - 1\. Business Transformation > 1\.2 Product Management > Marketing
 > - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Product Lifecycle Management
 
 ### Product Strategy
@@ -248,6 +90,14 @@
 * Related Standards
   * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
   * [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
+
+### Requirements Analysis
+
+* [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
+  * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
+    * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
+* Related Standards
+  * [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
 
 ### Marketing & Customer Experience
 
@@ -332,6 +182,7 @@
 >
 > - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
 > - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business and Enterprise Architecture Design
+> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Risk & Compliance
 
 ### Enterprise Architecture & Administration
 
@@ -431,107 +282,154 @@
   * [Official MCP Registry](https://registry.modelcontextprotocol.io/)- A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
   * [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
 
-## Low-Code & No-Code Development
+## Human-Centered Design
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Front-end & Back-end System Development
+> - 1\. Business Transformation > 1\.4 Design > Customer / User / Stakeholder Understanding
+> - 1\. Business Transformation > 1\.4 Design > Digital Product Design
 
-### Business Application Platforms
+### Core Principles & User Experience (UX)
 
-* [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
-* [AppSheet](https://about.appsheet.com/home/) - The no-code platform that helps build powerful applications and automations to boost productivity
-* [OutSystems](https://www.outsystems.com/) - A high-performance low-code platform that accelerates the development of critical enterprise applications
+* [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
+* [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
+* [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
+  * [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
+  * [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
+* Prototyping
+  * [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
+  * [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
 
-### Workflow & Integration Automation
+### Cognitive & Behavioral Psychology
 
-* [n8n](https://n8n.io/) - A fair-code licensed workflow automation tool that combines AI capabilities with business process automation
-* [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) - An end-to-end automation solution built for enterprise to optimize business processes
-* [Zapier](https://zapier.com/) - A tool that allows you to connect your apps and automate workflows without any coding knowledge
-* [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) - A graphical low-code tool for creating and maintaining copilots using generative AI and a library of prebuilt connectors and actions
+* Psychological Models
+  * [Seven stages of action](https://en.wikipedia.org/wiki/Seven_stages_of_action) - An idealized description of the cognitive and physical steps an individual takes to achieve a goal
+    * 1: Forming the target.
+    * 2: Forming the intention.
+    * 3: Specifying an action.
+    * 4: Executing the action.
+    * 5: Perceiving the state of the world.
+    * 6: Interpreting the state of the world.
+    * 7: Evaluating the outcome.
+* Cognitive Processes
+  * [Attention](https://en.wikipedia.org/wiki/Attention) - The cognitive process of selectively concentrating on one aspect of the environment while ignoring other things
+  * [Metacognition](https://en.wikipedia.org/wiki/Metacognition) - An awareness of one's thought processes and an understanding of the patterns behind them
+* Interaction Principles & Laws
+  * [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) - A general principle that states that the result of performing some operation should be obvious, consistent, and predictable, based upon the name of the operation and other context
+  * [Affordance](https://en.wikipedia.org/wiki/Affordance) - A property of an object that indicates how it can be used
+  * [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
+  * [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
 
-### Web Content & Portal Builders
+### Visual Design & Typography
 
-* [Microsoft Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) - A platform to quickly create enterprise-grade AI-driven business portals with built-in agents
-* [Webflow](https://webflow.com/) - A browser-based design tool that gives you the power to build production-ready websites without coding
+* Typography
+  * [Typography](https://en.wikipedia.org/wiki/Typography) - The art and technique of arranging type to make written language legible, readable and appealing when displayed
+  * [Web Typography](https://en.wikipedia.org/wiki/Web_typography) - The use of fonts on the World Wide Web
+  * [Microsoft Typography](https://learn.microsoft.com/en-us/typography/) - A comprehensive resource for font technology and typefaces, providing technical specifications, developer tools, and design guidelines for Microsoft products
+* Visual Foundations
+  * [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
+    * [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
+      * [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
+      * [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
+  * [Lucide](https://lucide.dev/) - A beautiful and consistent icon library for various platforms and frameworks
+* Font Rendering & Technologies
+  * Font Standards
+    * [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
+    * [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
+    * [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
+    * [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
+  * Open Fonts
+    * [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+    * [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
+  * Libraries & Engines
+    * [FreeType](https://freetype.org/) - A freely available software library to render fonts
+    * [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
+    * [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
+    * [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
+  * Rendering Technologies & APIs
+    * [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
+    * [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
 
-## The Open Ecosystem
+### Platforms, Frameworks & Guidelines
+
+* Visual Design Tools
+  * [Claude Design](https://claude.ai/design) - A visual design tool that lets users collaborate with Claude to create polished designs, prototypes, slides, and marketing materials through natural conversation and iterative refinement
+  * [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
+  * [Locofy.ai](https://www.locofy.ai/) - Design to code in a flash
+* Design Systems & Guidelines
+  * [Material Design](https://m3.material.io/) - Google's open-source design system for building beautiful, usable products
+  * [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
+  * [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
+
+### Web Experience & Performance
+
+* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
+* [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
+  * Largest Contentful Paint (LCP)
+  * Interaction to Next Paint (INP)
+  * Cumulative Layout Shift (CLS)
+
+## Systems Thinking: Economics, Game Theory & Finance
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
+> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
 
-### Open Source
+### Economics & Game Theory
 
-* [Open Source Initiative](https://opensource.org/) - A non-profit organization dedicated to promoting and protecting open source software and communities
-* Major Public Licenses
-  * [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
-  * [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - A family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software
-  * [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF), allowing users to use, distribute, and modify software without concern for royalties
-  * [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses, or copyleft licenses, that guarantee end users the freedom to run, study, share, and modify the software
-  * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF) that allows developers and companies to use and integrate a software component released under it into their own (even proprietary) software without being required to release the source code of their own components
-  * [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) - A free, copyleft license for software and other kinds of works, specifically designed to ensure that if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there
-  * [SSPL](https://www.mongodb.com/licensing/server-side-public-license) - A strong copyleft software license that mandates that any entity offering the licensed software as a service must release the complete source code of the entire service
-* Principles & Adages
-  * [Linus's law](https://en.wikipedia.org/wiki/Linus%27s_law) - The assertion that 'given enough eyeballs, all bugs are shallow', which is a key principle in open source development
-* Source Repositories
-  * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
-  * [GitLab.com](https://about.gitlab.com/) - The DevSecOps Platform that empowers organizations to maximize the overall return on software development
-* Package Registries
-  * [CTAN](https://ctan.org/) - The Comprehensive TEX Archive Network
-  * [CPAN](https://www.cpan.org/) - The Comprehensive Perl Archive Network
-  * [CRAN](https://cran.r-project.org/) - The Comprehensive R Archive Network
-  * [PyPI](https://pypi.org/) - A repository of software for the Python programming language
-  * [RubyGems.org](https://rubygems.org/) - The Ruby community's gem hosting service
-  * [npm Registry](https://www.npmjs.com/) - The world's largest software registry
-  * [JSR](https://jsr.io/) - The open-source package registry for modern JavaScript and TypeScript
-  * [pkg.go.dev](https://pkg.go.dev/) - Your source for information about Go packages and modules
-  * [crates.io](https://crates.io/) - The Rust community's crate registry
-  * [LuaRocks](https://luarocks.org/) - The package manager for Lua modules
-  * [Hackage](https://hackage.haskell.org/) - The Haskell community's central package archive of open source software
-    * [Stackage](https://www.stackage.org/) - A curated set of packages from Hackage
-  * [NuGet Gallery](https://www.nuget.org/) - The package manager for .NET
-  * [Maven Central](https://central.sonatype.com/) - The World's Largest and Oldest Component Repository
-  * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
-  * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
+* [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
+* [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
+* [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
+* [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost) - A cost that has already been incurred and cannot be recovered
+* [Principal–agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem) - The conflict in priorities between a person or group and the representative authorized to act on their behalf
+* [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
+* [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
+* [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
+  * [Network effect](https://en.wikipedia.org/wiki/Network_effect) - The phenomenon by which the value or utility a user derives from a good or service depends on the number of users of compatible products
+* [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) - The observation that adding one or more roads to a road network can slow down overall traffic flow through it
+* [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) - A solution concept of a non-cooperative game involving two or more players in which each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy
+* [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency) - A state of allocation of resources from which it is impossible to reallocate so as to make any one individual or preference criterion better off without making at least one individual or preference criterion worse off
 
-### Open Data
+### Finance & Accounting
 
-* Tools and Licenses
-  * [Creative Commons](https://creativecommons.org/) - A nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world's pressing challenges
-  * [Open Data Commons](https://opendatacommons.org/) - The home of a set of legal tools and licenses to help you publish, provide and use open data
-* Open Data Registries
-  * [Hugging Face Hub](https://huggingface.co/docs/hub/index) - A platform with over 900k models, 200k datasets, and 300k demos in which people can easily collaborate in their ML workflows
-  * [Data.gov](https://data.gov/) - The home of the U.S. Government's open data
-  * [Kaggle](https://www.kaggle.com/) - The world's largest data science community with powerful tools and resources to help you achieve your data science goals
-  * [Registry of Open Data on AWS](https://registry.opendata.aws/) - A service that makes it easy for people to find datasets that are publicly available through AWS services
-  * [OpenML](https://www.openml.org/) - An open, collaborative, frictionless, and automated machine learning environment
-  * [OpenStreetMap](https://www.openstreetmap.org/about) - A map of the world, created by people like you and free to use under an open license
-* Data Search Engines
-  * [Google Dataset search](https://datasetsearch.research.google.com/) - A search engine that enables users to find datasets stored across thousands of repositories on the Web
-
-### Community & Governance
-
-* Umbrella Open Source Foundations
-  * [Linux Foundation](https://www.linuxfoundation.org/) - A non-profit organization that supports, protects, and standardizes Linux by providing a neutral, trusted hub for developers to code, manage, and scale open technology projects
-  * [Apache Software Foundation](https://www.apache.org/) - A nonprofit corporation to support Apache software projects, including the Apache HTTP Server
-  * [Eclipse Foundation](https://www.eclipse.org/) - A provider of a business-friendly environment for open source software collaboration and innovation for a global community of individuals and organizations
-* Technology-Specific Foundations
-  * [OpenJS Foundation](https://openjsf.org/) - The neutral home for more than 40 open source projects, including Appium, Dojo, jQuery, Node.js, and webpack
-  * [Rust Foundation](https://foundation.rust-lang.org/) - An independent non-profit organization dedicated to stewarding and growing the Rust programming language and ecosystem
-  * [Python Software Foundation](https://www.python.org/psf/) - The charitable organization behind the Python programming language
-  * [PyTorch Foundation](https://pytorch.org/foundation) - A community-driven hub for open-source AI
-* Cloud & AI
-  * [Cloud Native Computing Foundation](https://www.cncf.io/) - An open source software foundation dedicated to making cloud native computing universal and sustainable
-  * [Agentic AI Foundation (AAIF)](https://aaif.io/) - A neutral, open foundation to ensure this critical capability evolves transparently, collaboratively, and in ways that advance the adoption of leading open source AI projects
-* Web & Data Standards
-  * [World Wide Web Consortium](https://www.w3.org/) - An international community that develops open standards to ensure the long-term growth of the Web
-  * [WHATWG](https://whatwg.org/) - A community of people interested in evolving HTML and related technologies
-  * [The Open Group](https://www.opengroup.org/) - A global consortium that enables the achievement of business objectives through technology standards
-* Ethical & Digital Rights
-  * [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom
-* Community Governance & Codes of Conduct
-  * [Debian Constitution](https://www.debian.org/devel/constitution) - A document that describes the structure of organisation for decision-making in the Debian Project
-  * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - A set of guidelines that covers behavior as a member of the Ubuntu Community
-  * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) - A set of guidelines that outline expectations for participants within the Mozilla community
-  * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
+* [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
+* [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate
+* [Central bank](https://en.wikipedia.org/wiki/Central_bank) - An institution that manages the monetary policy of a country or monetary union
+* [Revenue model](https://en.wikipedia.org/wiki/Revenue_model) - A framework for generating financial income
+* [Financial capital](https://en.wikipedia.org/wiki/Financial_capital) - An economic resource measured in terms of money used by entrepreneurs and businesses to buy what they need to make their products or to provide their services
+  * [Venture capital](https://en.wikipedia.org/wiki/Venture_capital) - A form of private equity financing that is provided by venture capital firms or funds to startups, early-stage, and emerging companies that have been deemed to have high growth potential
+* Markets & Securities
+  * [Stock market](https://en.wikipedia.org/wiki/Stock_market) - The aggregation of buyers and sellers of stocks, which represent ownership claims on businesses
+  * [Stock](https://en.wikipedia.org/wiki/Stock) - Shares that divide ownership of a corporation, representing fractional ownership and typically conferring rights to earnings, liquidation proceeds, or voting power
+  * [Dividend](https://en.wikipedia.org/wiki/Dividend) - The distribution of profits by a corporation to its shareholders from current year profit or retained earnings
+* Contracts
+  * [Credit](https://en.wikipedia.org/wiki/Credit) - The trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately
+  * [Debt](https://en.wikipedia.org/wiki/Debt) - An obligation that requires one party, the debtor, to pay money or otherwise return value to another party, the creditor
+    * [Discounting](https://en.wikipedia.org/wiki/Discounting) - A mechanism in which a debtor obtains the right to delay payments to a creditor, for a defined period of time, in exchange for a charge or fee
+    * [Bond](https://en.wikipedia.org/wiki/Bond_(finance)) - A type of security under which the issuer (debtor) owes the holder (creditor) a debt, and is obliged – depending on the terms – to repay the principal of the bond at the maturity date and pay interest over a specified time
+  * [Spot](https://en.wikipedia.org/wiki/Spot_contract) - A contract of buying or selling a commodity, security or currency for immediate settlement
+  * [Futures](https://en.wikipedia.org/wiki/Futures_contract) - A standardized legal contract to buy or sell something at a predetermined price for delivery at a specified time in the future
+  * [Option](https://en.wikipedia.org/wiki/Option_(finance)) - A contract which conveys to its owner, the holder, the right, but not the obligation, to buy or sell a specific quantity of an underlying asset or instrument at a specified strike price on or before a specified date
+* [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - A type of currency which uses digital files as money
+* Accounting Fundamentals
+  * [Asset](https://en.wikipedia.org/wiki/Asset) - A resource owned or controlled by a business or economic entity that can be used to produce positive economic value
+  * [Liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting)) - A quantity of value that a financial entity owes and is expected to deliver in the future to satisfy a present obligation arising from past events
+  * [Equity](https://en.wikipedia.org/wiki/Equity_(finance)) - An ownership interest in property that may be subject to debts or other liabilities, measured by subtracting liabilities from the value of assets owned
+  * [Revenue](https://en.wikipedia.org/wiki/Revenue) - The total amount of income generated by the sale of goods and services related to the primary operations of a business
+  * [Depreciation](https://en.wikipedia.org/wiki/Depreciation) - The decrease in the value of assets and the method used to reallocate the cost of a tangible asset over its useful life span
+  * [Accrual](https://en.wikipedia.org/wiki/Accrual) - An accounting method that recognizes revenues and expenses when they are earned or incurred, not necessarily when cash is received or paid
+* Financial Statements & Metrics
+  * [Balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) - A summary of the financial balances of an individual or organization
+  * [Income statement](https://en.wikipedia.org/wiki/Income_statement) - One of the financial statements of a company and shows the company's financial performance for a specific period of time
+  * [Cash flow statement](https://en.wikipedia.org/wiki/Cash_flow_statement) - A financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents
+  * [Return on investment](https://en.wikipedia.org/wiki/Return_on_investment) - The ratio between net income (over a period) and investment (costs resulting from an investment of some resources at a point in time)
+  * [Net present value](https://en.wikipedia.org/wiki/Net_present_value) - A way of measuring the value of an asset that has cashflow by adding up the present value of all the future cash flows that asset will generate
+  * [EBITDA](https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization) - A measure of a company's profitability of the operating business only, before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base
+  * [Operating margin](https://en.wikipedia.org/wiki/Operating_margin) - The ratio of operating income to net sales, usually expressed in percent
+  * [Burn rate](https://en.wikipedia.org/wiki/Burn_rate) - The rate at which a company consumes its cash, typically expressed monthly and used for startups to measure how fast a company will use up its shareholder capital
+  * [Liquidity](https://en.wikipedia.org/wiki/Market_liquidity) - A market's feature whereby an individual or firm can quickly purchase or sell an asset without causing a drastic change in the asset's price
+  * [Valuation](https://en.wikipedia.org/wiki/Valuation_(finance)) - The process of determining the value of a potential investment, asset, or security
+* Accounting Standards & Processes
+  * [Generally Accepted Accounting Principles](https://en.wikipedia.org/wiki/Generally_Accepted_Accounting_Principles) - Accounting standards that prescribe in detail what accruals must be made, how financial statements are to be presented, and what additional disclosures are required
+  * [Audit](https://en.wikipedia.org/wiki/Audit) - An independent examination of financial information of any entity conducted with a view to express an opinion thereon

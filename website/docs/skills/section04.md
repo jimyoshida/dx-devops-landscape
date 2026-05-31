@@ -4,7 +4,8 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 4\. Security > 4\.1 Security Management > Construction and Operation of Security Systems
+> - 4\. Security > 4\.1 Security Management > Security System Construction and Operation
+> - 4\. Security > 4\.1 Security Management > Security Management
 
 * [Information security](https://en.wikipedia.org/wiki/Information_security) - The practice of protecting information by mitigating information risks
 * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - A weakness which can be exploited by a threat actor
@@ -191,6 +192,7 @@
     * [Passkeys](https://passkey.org/) - A phishing-resistant replacement for passwords
   * [SPIFFE](https://spiffe.io/) - The Secure Production Identity Framework for Everyone
   * [Kerberos](https://web.mit.edu/kerberos/) - A computer network authentication protocol that works on the basis of tickets
+  * [SSPI (Security Support Provider Interface)](https://learn.microsoft.com/en-us/windows/win32/secauthn/sspi) - A Win32 API that allows an application to use various security models available on a computer or network without changing the interface to the security system
 * Credentials & Tokens
   * [Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) - A method for an HTTP user agent to provide a username and password when making a request
   * [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token) - An Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims
@@ -203,6 +205,7 @@
   * [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - A CAPTCHA system that enables web hosts to distinguish between human and automated access to websites
   * [Microsoft Authentication Library (MSAL)](https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-overview) - A library that helps developers integrate authentication and authorization into applications
   * [Application Default Credentials (ADC)](https://cloud.google.com/docs/authentication/provide-credentials-adc) - A mechanism used by Google Cloud client libraries to automatically find credentials based on the application environment
+  * [Limen](https://limenauth.dev/) - A lightweight, composable authentication and authorization library for Go that provides sessions, password hashing, OAuth, and CSRF protection
 
 ### Authorization (AuthZ)
 
@@ -252,6 +255,7 @@
 * [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) - A standard for performing application-level security verifications
 * [OWASP Security Champions](https://owasp.org/www-project-security-culture/v10/4-Security_Champions/) - A program to embed security expertise and culture within development teams
 * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - A collection of concise cheat sheets on various security topics
+* [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) - A guide to the top 10 risks, vulnerabilities, and mitigations for developing and securing generative AI and large language model applications across the development, deployment, and management lifecycle
 * Coding Standards
   * [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) - A set of guidelines for the use of the C programming language in safety-critical embedded systems, originally developed for the automotive industry
   * [CERT Secure Coding Standards](https://en.wikipedia.org/wiki/CERT_Secure_Coding_Standards) - A collection of programming security guidelines for C, C++, Java, Perl, and other languages published by Carnegie Mellon's CERT
@@ -330,6 +334,7 @@
 > **Relevant DSS-P Skills:**
 >
 > - 4\. Security > 4\.1 Security Management > Incident Response and Business Continuity
+> - 4\. Security > 4\.2 Security Technology > Security Operation, Maintenance, and Monitoring
 
 ### Cloud-Native Application Protection (CNAPP)
 
@@ -460,8 +465,9 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 4\. Security > 4\.1 Security Management > Construction and Operation of Security Systems
-> - 4\. Security > 4\.1 Security Management > Incident Response and Business Continuity
+> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Risk & Compliance
+> - 4\. Security > 4\.1 Security Management > Security Management
+> - 4\. Security > 4\.1 Security Management > Privacy Protection
 
 ### Data Governance
 
@@ -516,7 +522,8 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 4\. Security > 4\.1 Security Management > Construction and Operation of Security Systems
+> - 4\. Security > 4\.1 Security Management > Security System Construction and Operation
+> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
 
 ### OS & Endpoint Security
 
@@ -537,6 +544,7 @@
 ### Personal Security Tools
 
 * Password Managers
+  * [1Password](https://1password.com/) - A password manager and secure vault platform for identities, credentials, and secrets across humans and AI agents
   * [pass](https://www.passwordstore.org/) - The standard unix password manager
   * [gokey](https://github.com/cloudflare/gokey) - A simple vaultless password manager in Go
   * [Buttercup](https://buttercup.pw/) - A free, open-source and cross-platform password manager

@@ -1,10 +1,179 @@
-# 07 - Fundamental Developer Tools
+# 07 - Fundamental Developer Skills
+
+## Software Development Methods
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Software Development Process
+> - 5\. Personal Skill > 5\.2 Conceptual Skill > Adaptability
+
+### Agile Development
+
+* [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) - An umbrella term for approaches to developing software that reflect the values and principles agreed upon by The Agile Alliance
+  * [Agile Manifesto](https://agilemanifesto.org/) - A document that proclaims better ways of developing software by valuing individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan
+  * [Software prototyping](https://en.wikipedia.org/wiki/Software_prototyping) - The activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed
+  * [Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product) - A version of a product with just enough features to be usable by early customers who can then provide feedback for future product development
+  * [User story](https://en.wikipedia.org/wiki/User_story) - An informal, natural language description of features of a software system
+    * [Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/) - A practice where the Card is a token representing the requirement, the Conversation is where details are teased out, and the Confirmation is the acceptance test for the story
+  * [INVEST of PBI](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) - A mnemonic created by Bill Wake as a reminder of the characteristics of a good quality Product Backlog Item (PBI)
+    * Independent: The PBI should be self-contained
+    * Negotiable: Draft PBIs are not explicit contracts and should leave space for discussion
+    * Valuable: A PBI must deliver value to the stakeholders
+    * Estimable: You must always be able to estimate the size of a PBI
+    * Small: PBIs should not be so big as to become impossible to plan/task/order within a level of accuracy
+    * Testable: The PBI or its related description must provide the necessary information to make test development possible
+* Key Methodologies
+  * [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) - A software development methodology which is intended to improve software quality and responsiveness to changing customer requirements
+  * [Scrum](https://www.scrum.org/learning-series/what-is-scrum/) - A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value
+  * [Acceptance test-driven development](https://en.wikipedia.org/wiki/Acceptance_test-driven_development) - A development methodology based on communication between the business customers, the developers, and the testers
+    * [Three Amigos](https://agilealliance.org/glossary/three-amigos/) - A meeting where the product owner, developer, and quality tester come together to establish clarity on the scope of the project
+  * [Behavior driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) - An agile software development process that encourages collaboration among developers, quality assurance testers, and customer representatives in a software project
+    * [Specification by example](https://en.wikipedia.org/wiki/Specification_by_example) - A collaborative approach to defining requirements and business-oriented functional tests for software products based on capturing and illustrating requirements using realistic examples instead of abstract statements
+* Key Practices
+  * [Refactoring](https://refactoring.com/) - A disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior
+    * [Software rot](https://en.wikipedia.org/wiki/Software_rot) - The tendency for software to deteriorate in quality, performance, or usefulness over time
+    * [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) - A concept in software development that reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer
+      * [Technical Debt Ratio](https://brainhub.eu/library/technical-debt-ratio) - A metric used to measure the cost of fixing the existing technical debt in a codebase compared to the cost of developing the entire codebase from scratch
+  * [Test driven development](https://en.wikipedia.org/wiki/Test-driven_development) - A software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases
+* Tools for ATDD/BDD
+  * [Gauge](https://gauge.org/index.html) - A free and open source test automation framework that takes the pain out of writing and maintaining acceptance tests
+  * [Cucumber](https://cucumber.io/) - A tool that supports Behaviour-Driven Development (BDD) by reading executable specifications written in plain text and validating that the software does what those specifications say
+    * [Gherkin Syntax](https://cucumber.io/docs/gherkin/) - A set of grammar rules that makes plain text structured enough for Cucumber to understand
+    * [cucumber-ruby](https://github.com/cucumber/cucumber-ruby) - The Ruby implementation of Cucumber
+  * [RSpec](https://rspec.info/) - A testing tool for the Ruby programming language, created for behavior-driven development (BDD)
+  * [Behave](https://behave.readthedocs.io/en/latest/) - A tool for behavior-driven development (BDD) in Python, using tests written in a natural language style, backed up by Python code
+
+### Lean Development
+
+* [Lean software development](https://en.wikipedia.org/wiki/Lean_software_development) - A translation of lean manufacturing principles and practices to the software development domain
+  * [Continual improvement process](https://en.wikipedia.org/wiki/Continual_improvement_process) - An ongoing effort to improve products, services, or processes
+  * [OODA loop](https://en.wikipedia.org/wiki/OODA_loop) - A four-step approach to decision-making that focuses on filtering available information, putting it in context and quickly making the most appropriate decision while also understanding that changes can be made as more data becomes available
+* [Lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) - A production method aimed primarily at reducing times within the production system as well as response times from suppliers and to customers
+  * The 7 Wastes: The activities that add no value for the customer
+  * [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping) - A lean-management method for analyzing the current state and designing a future state for the series of events that take a product or service from the beginning of the specific process until it reaches the customer
+* [Toyota Production System](https://en.wikipedia.org/wiki/Toyota_Production_System) - An integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices
+  * [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) - A lean method to manage and improve work across human systems
+  * [Kaizen](https://en.wikipedia.org/wiki/Kaizen) - A philosophy that focuses on continuous, incremental improvement of all functions and involves all employees from the CEO to the assembly line workers
+  * [Autonomation](https://en.wikipedia.org/wiki/Autonomation) - The practice of designing equipment to partially automate a process and to automatically stop when a problem is detected, allowing operators to fix the issue immediately
+  * [Heijunka](https://en.wikipedia.org/wiki/Heijunka) - A method for smoothing out production by leveling both the volume and the product mix
+  * [Genchi Genbutsu](https://en.wikipedia.org/wiki/Genchi_Genbutsu) - A principle that suggests that to truly understand a situation, one needs to go to the "real place" where the work is done, observe the process, and verify the facts for themselves
+  * [Andon (manufacturing)](https://en.wikipedia.org/wiki/Andon_(manufacturing)) - A visual management system used to indicate the status of a production line
+  * [Muda (Japanese term)](https://en.wikipedia.org/wiki/Muda_(Japanese_term)) - A key concept in lean process management as one of the three types of deviation from optimal allocation of resources, meaning futility, uselessness, or wastefulness
+* [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) - A management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints
+
+### DevOps & Engineering Productivity
+
+* Concepts
+  * [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - A conceptual model for approaching DevOps that stands for Culture, Automation, Lean, Measurement, and Sharing
+* Cultural & Organizational Foundations
+  * [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/) - A type of culture characterized by a high degree of trust and cooperation, a shared sense of responsibility for the mission, and a focus on learning and continuous improvement
+* Technical Practices
+  * [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) - A powerful technique, allowing teams to modify system behavior without changing code
+  * [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) - A technique that reduces downtime and risk by running two identical production environments called Blue and Green
+  * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure
+  * [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - A software development practice that seeks to apply the same principles of version control, testing, and deployment to enhance maintainability and scalability of all aspects of the development lifecycle, including networking infrastructure, documentation, and configuration
+
+### Release Automation
+
+* [semantic-release](https://semantic-release.gitbook.io/semantic-release) - A fully automated version management and package publishing tool that determines the next version number, generates release notes, and publishes the package based on formalized commit messages
+* [Release Please](https://github.com/googleapis/release-please) - A tool that automates changelog generation, the creation of GitHub releases, and version bumps for your projects based on Conventional Commits
+* [GoReleaser](https://goreleaser.com/) - A release automation tool for Go projects
+* [Changesets](https://github.com/changesets/changesets) - A tool to manage versioning and changelogs with a focus on monorepos
+
+### Release Conventions & Standards
+
+* [keep a changelog](https://keepachangelog.com/) - A file which contains a curated, chronologically ordered list of notable changes for each version of a project
+* [Conventional Commits](https://www.conventionalcommits.org/) - A lightweight convention on top of commit messages that provides an easy set of rules for creating an explicit commit history
+* [Semantic Versioning](https://semver.org/) - A simple set of rules and requirements that dictate how version numbers are assigned and incremented
+* [CalVer](https://calver.org/) - A versioning convention based on your project's release calendar, instead of arbitrary numbers
+
+## The Open Ecosystem
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Team Development
+
+### Open Source
+
+* [Open Source Initiative](https://opensource.org/) - A non-profit organization dedicated to promoting and protecting open source software and communities
+* Major Public Licenses
+  * [MIT](https://en.wikipedia.org/wiki/MIT_License) - A permissive software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s
+  * [BSD](https://en.wikipedia.org/wiki/BSD_licenses) - A family of permissive free software licenses, imposing minimal restrictions on the use and distribution of covered software
+  * [Apache](https://en.wikipedia.org/wiki/Apache_License) - A permissive free software license written by the Apache Software Foundation (ASF), allowing users to use, distribute, and modify software without concern for royalties
+  * [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) - A series of widely used free software licenses, or copyleft licenses, that guarantee end users the freedom to run, study, share, and modify the software
+  * [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A free-software license published by the Free Software Foundation (FSF) that allows developers and companies to use and integrate a software component released under it into their own (even proprietary) software without being required to release the source code of their own components
+  * [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) - A free, copyleft license for software and other kinds of works, specifically designed to ensure that if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there
+  * [SSPL](https://www.mongodb.com/licensing/server-side-public-license) - A strong copyleft software license that mandates that any entity offering the licensed software as a service must release the complete source code of the entire service
+* Principles & Adages
+  * [Linus's law](https://en.wikipedia.org/wiki/Linus%27s_law) - The assertion that 'given enough eyeballs, all bugs are shallow', which is a key principle in open source development
+* Source Repositories
+  * [GitHub](https://github.com/) - The AI-powered developer platform to build, scale, and deliver secure software
+  * [GitLab.com](https://about.gitlab.com/) - The DevSecOps Platform that empowers organizations to maximize the overall return on software development
+* Package Registries
+  * [CTAN](https://ctan.org/) - The Comprehensive TEX Archive Network
+  * [CPAN](https://www.cpan.org/) - The Comprehensive Perl Archive Network
+  * [CRAN](https://cran.r-project.org/) - The Comprehensive R Archive Network
+  * [PyPI](https://pypi.org/) - A repository of software for the Python programming language
+  * [RubyGems.org](https://rubygems.org/) - The Ruby community's gem hosting service
+  * [npm Registry](https://www.npmjs.com/) - The world's largest software registry
+  * [JSR](https://jsr.io/) - The open-source package registry for modern JavaScript and TypeScript
+  * [pkg.go.dev](https://pkg.go.dev/) - Your source for information about Go packages and modules
+  * [crates.io](https://crates.io/) - The Rust community's crate registry
+  * [LuaRocks](https://luarocks.org/) - The package manager for Lua modules
+  * [Hackage](https://hackage.haskell.org/) - The Haskell community's central package archive of open source software
+    * [Stackage](https://www.stackage.org/) - A curated set of packages from Hackage
+  * [NuGet Gallery](https://www.nuget.org/) - The package manager for .NET
+  * [Maven Central](https://central.sonatype.com/) - The World's Largest and Oldest Component Repository
+  * [ConanCenter](https://conan.io/center) - The central repository where you can find all the open source packages created by the community
+  * [Anaconda Hub](https://www.anaconda.com/products) - The Hub for Data Science and AI Collaboration
+
+### Open Data
+
+* Tools and Licenses
+  * [Creative Commons](https://creativecommons.org/) - A nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world's pressing challenges
+  * [Open Data Commons](https://opendatacommons.org/) - The home of a set of legal tools and licenses to help you publish, provide and use open data
+* Open Data Registries
+  * [Hugging Face Hub](https://huggingface.co/docs/hub/index) - A platform with over 900k models, 200k datasets, and 300k demos in which people can easily collaborate in their ML workflows
+  * [Data.gov](https://data.gov/) - The home of the U.S. Government's open data
+  * [Kaggle](https://www.kaggle.com/) - The world's largest data science community with powerful tools and resources to help you achieve your data science goals
+  * [Registry of Open Data on AWS](https://registry.opendata.aws/) - A service that makes it easy for people to find datasets that are publicly available through AWS services
+  * [OpenML](https://www.openml.org/) - An open, collaborative, frictionless, and automated machine learning environment
+  * [OpenStreetMap](https://www.openstreetmap.org/about) - A map of the world, created by people like you and free to use under an open license
+* Data Search Engines
+  * [Google Dataset search](https://datasetsearch.research.google.com/) - A search engine that enables users to find datasets stored across thousands of repositories on the Web
+
+### Community & Governance
+
+* Umbrella Open Source Foundations
+  * [Linux Foundation](https://www.linuxfoundation.org/) - A non-profit organization that supports, protects, and standardizes Linux by providing a neutral, trusted hub for developers to code, manage, and scale open technology projects
+  * [Apache Software Foundation](https://www.apache.org/) - A nonprofit corporation to support Apache software projects, including the Apache HTTP Server
+  * [Eclipse Foundation](https://www.eclipse.org/) - A provider of a business-friendly environment for open source software collaboration and innovation for a global community of individuals and organizations
+* Technology-Specific Foundations
+  * [OpenJS Foundation](https://openjsf.org/) - The neutral home for more than 40 open source projects, including Appium, Dojo, jQuery, Node.js, and webpack
+  * [Rust Foundation](https://foundation.rust-lang.org/) - An independent non-profit organization dedicated to stewarding and growing the Rust programming language and ecosystem
+  * [Python Software Foundation](https://www.python.org/psf/) - The charitable organization behind the Python programming language
+  * [PyTorch Foundation](https://pytorch.org/foundation) - A community-driven hub for open-source AI
+* Cloud & AI
+  * [Cloud Native Computing Foundation](https://www.cncf.io/) - An open source software foundation dedicated to making cloud native computing universal and sustainable
+  * [Agentic AI Foundation (AAIF)](https://aaif.io/) - A neutral, open foundation to ensure this critical capability evolves transparently, collaboratively, and in ways that advance the adoption of leading open source AI projects
+* Web & Data Standards
+  * [World Wide Web Consortium](https://www.w3.org/) - An international community that develops open standards to ensure the long-term growth of the Web
+  * [WHATWG](https://whatwg.org/) - A community of people interested in evolving HTML and related technologies
+  * [The Open Group](https://www.opengroup.org/) - A global consortium that enables the achievement of business objectives through technology standards
+* Ethical & Digital Rights
+  * [Free Software Foundation](https://www.fsf.org/) - A nonprofit with a worldwide mission to promote computer user freedom
+* Community Governance & Codes of Conduct
+  * [Debian Constitution](https://www.debian.org/devel/constitution) - A document that describes the structure of organisation for decision-making in the Debian Project
+  * [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - A set of guidelines that covers behavior as a member of the Ubuntu Community
+  * [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) - A set of guidelines that outline expectations for participants within the Mozilla community
+  * [Contributor Covenant](https://www.contributor-covenant.org/) - A code of conduct for contributors to free/open source software projects, created by Coraline Ada Ehmke
 
 ## Shell & Terminal
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 ### Bash & Other Shells
 
@@ -31,6 +200,7 @@
   * [direnv](https://direnv.net/) - An extension for your shell that can load and unload environment variables depending on the current directory
   * [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command
   * [Atuin](https://atuin.sh/) - A tool that replaces your existing shell history with a SQLite database, records additional context for your commands, and optionally syncs your shell history between all of your machines
+  * [wttr.in](https://github.com/chubin/wttr.in) - A console-oriented weather forecast service that delivers weather information through command-line tools like curl, httpie, or wget
 * Search Tools
   * [findutils](https://www.gnu.org/software/findutils/) - The basic directory searching utilities of the GNU operating system
   * [fzf](https://github.com/junegunn/fzf) - A general-purpose command-line fuzzy finder
@@ -96,7 +266,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Computer Science
 
 ### Python
 
@@ -122,6 +292,8 @@
     * [dotenv](https://github.com/theskumar/python-dotenv) - A library that reads key-value pairs from a .env file and can set them as environment variables
     * [Pydantic](https://docs.pydantic.dev/) - A data validation and settings management library for Python
     * [Tenacity](https://github.com/jd/tenacity) - A general-purpose retrying library for Python
+  * Development Tools
+    * [IPython](https://ipython.org/) - A rich interactive interface to Python with a history mechanism, tab completion, and special magic commands
 
 ### JavaScript & TypeScript
 
@@ -173,6 +345,8 @@
   * Libraries
     * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
     * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
+  * Development Tools
+    * [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - A tool to interactively execute Ruby expressions read from the standard input
 * [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
   * Core Features
     * [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl
@@ -189,78 +363,11 @@
   * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
   * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
 
-## CLI/TUI Development
-
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
-
-* Bash
-  * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
-  * [tput](https://www.man7.org/linux/man-pages/man1/tput.1.html) - A command to initialize a terminal or query the terminfo database
-  * [dialog](https://invisible-island.net/dialog/dialog.html) - A program that can be used to create nice user interfaces for shell scripts
-  * [Gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts
-  * [FIGlet](http://www.figlet.org/) - A program for making large letters out of ordinary text
-  * [lolcat](https://github.com/busyloop/lolcat) - A program that concatenates files, or standard input, to standard output and adds rainbow coloring
-  * [cfonts](https://github.com/dominikwilkowski/cfonts) - A tool to print sexy fonts in your console
-* Perl
-  * [Getopt::Long](https://metacpan.org/pod/Getopt::Long) - A module that implements an extended getopt function called GetOptions()
-  * [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor) - A module to colorize text using ANSI escape sequences
-  * [Text::ANSITable](https://metacpan.org/pod/Text::ANSITable) - A module to create a formatted table using ASCII characters and ANSI colors
-* Python
-  * [argparse](https://docs.python.org/3/library/argparse.html) - The module for parsing command-line arguments
-  * [getopt](https://docs.python.org/3/library/getopt.html) - The C-style parser for command line options
-  * [click](https://palletsprojects.com/p/click/) - A Python package for creating beautiful command line interfaces in a composable way with as little code as necessary
-  * [Colorama](https://github.com/tartley/colorama) - A simple cross-platform API for printing colored terminal text from Python
-  * [Typer](https://typer.tiangolo.com/) - A library for building CLI applications that users will love using and developers will love creating
-  * [Asciimatics](https://github.com/peterbrittain/asciimatics) - A package that provides a cross-platform, full-screen terminal API for building text-based user interfaces
-  * [Python Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/en/master/) - A library for building powerful interactive command line and terminal applications in Python
-  * [Questionary](https://github.com/tmbo/questionary) - A Python library for building interactive command line prompts
-  * [Urwid](https://urwid.org/) - A console user interface library for Python
-  * [Textual](https://textual.textualize.io/) - A Rapid Application Development framework for Python, built by Textualize.io
-    * [Rich](https://github.com/Textualize/rich) - A Python library for rich text and beautiful formatting in the terminal
-* Ruby
-  * [OptionParser](https://github.com/ruby/optparse) - A class for command-line option analysis
-  * [colorize](https://github.com/fazibear/colorize) - A gem for colorizing text using ANSI escape sequences
-  * [TTY](https://ttytoolkit.org/) - A suite of gems that provide a wide range of tools for building interactive command-line applications
-  * [thor](https://github.com/rails/thor) - A toolkit for building powerful command-line interfaces
-  * [dry-cli](https://dry-rb.org/gems/dry-cli/) - A general-purpose framework for developing Command Line Interface (CLI) applications that represents commands as objects and offers support for arguments, options, and forwarding variadic arguments to sub-commands
-  * [Clamp](https://github.com/mdub/clamp) - A minimal framework for command-line utilities that handles parsing command-line arguments and generating help
-* Javascript
-  * [yargs](https://yargs.js.org/) - A library for building interactive command line tools by parsing arguments and generating an elegant user interface
-  * [minimist](https://github.com/minimistjs/minimist) - A tool to parse argument options
-  * [chalk](https://github.com/chalk/chalk) - A terminal string styling tool
-  * [cli-progress](https://github.com/npkgz/cli-progress) - An easy to use progress-bar for command-line/terminal applications
-  * [FIGLet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec
-  * [Ink](https://github.com/vadimdemedes/ink) - A React-based library for building CLI applications
-  * [gradient-string](https://github.com/bokub/gradient-string) - A library for creating beautiful gradients in terminal output
-* Go
-  * [Fang](https://github.com/charmbracelet/fang) - The CLI starter kit. A small, experimental library for batteries-included Cobra applications
-  * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - A Go framework for building terminal apps based on The Elm Architecture
-    * [Lip Gloss](https://github.com/charmbracelet/lipgloss) - A declarative library for defining styles and layouts in terminal applications
-    * [Bubbles](https://github.com/charmbracelet/bubbles) - A collection of common terminal user interface components
-  * [Huh](https://github.com/charmbracelet/huh) - A simple, powerful, and elegant TUI library for building terminal forms and prompts
-  * [pflag](https://github.com/spf13/pflag) - A drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
-  * [color](https://github.com/fatih/color) - A package for Go that lets you use colorized outputs in terms of ANSI escape sequences
-  * [Cobra](https://cobra.dev/) - A framework for creating powerful modern CLI applications
-  * [urfave/cli](https://cli.urfave.org/) - A simple, fast, and fun package for building command line apps in Go
-  * [viper](https://github.com/spf13/viper) - A complete configuration solution for Go applications
-  * [Wish](https://github.com/charmbracelet/wish) - A tiny SSH server for your programs
-  * [Wishlist](https://github.com/charmbracelet/wishlist) - An SSH directory for your private hostkeys and favorite SSH commands
-  * [go-tui](https://www.go-tui.dev/) - A framework for building declarative terminal user interfaces (TUIs) in Go
-* Rust
-  * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
-  * [Ratatui](https://ratatui.rs/) - A Rust library for cooking up delicious terminal user interfaces
-  * [R3BL](https://r3bl.com/) - A suite of libraries for building modern terminal apps with Rust
-  * [Ansic](https://github.com/zeonzip/ansic) - A modern, efficient and compile time ansi macro and utilities crate for Rust
-* C
-  * [ncurses](https://invisible-island.net/ncurses/) - A programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner
-
 ## Version Control System
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 * Concepts
   * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
@@ -318,7 +425,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 * GUI-based
   * [Visual Studio Code](https://code.visualstudio.com/) - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux
@@ -379,7 +486,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 * Concepts
   * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
@@ -430,7 +537,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Computer Science & Team Development
+> - 3\. Technology > 3\.1 Software Development > Team Development
 
 ### AI Productivity Tools
 
@@ -453,6 +560,7 @@
   * [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal
     * [Conductor](https://github.com/gemini-cli-extensions/conductor) - The official project management tool for Gemini CLI
     * [Sandboxing](https://geminicli.com/docs/cli/sandbox/) - A feature that isolates potentially dangerous operations from your host system, providing a security barrier between AI operations and your environment, using macOS Seatbelt or container-based methods for isolation
+  * [Antigravity CLI](https://github.com/google-antigravity/antigravity-cli) - A terminal-based AI coding agent that understands codebases, makes edits with permission, and executes commands directly from the terminal
   * [Aider](https://aider.chat/) - An AI pair programming tool in your terminal that lets you start a new project or build on your existing codebase
   * [Letta Code](https://docs.letta.com/letta-code) - A memory-first coding agent that lives in your terminal
   * [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - A terminal coding agent built on the Deep Agents SDK
@@ -487,6 +595,7 @@
   * [Terminal-Bench](https://www.tbench.ai/) - A collection of harbor-native benchmark tasks for quantifying AI agents' terminal mastery, covering software engineering, machine learning, security, and data science
 * Context Providers
   * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors
+  * [LeanCTX](https://leanctx.com/) - An open-source context compression tool that reduces AI coding assistant token usage by compressing file reads and shell output by up to 99%, working with 29+ AI tools like Cursor and Claude Code
 * Semantic Code Retrieval
   * [Serena](https://github.com/oraios/serena) - A powerful coding agent toolkit providing semantic retrieval and editing capabilities
 * Session Tracking

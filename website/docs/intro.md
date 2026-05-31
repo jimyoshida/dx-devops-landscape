@@ -6,18 +6,36 @@ sidebar_position: 1
 
 This site aims to provide a comprehensive overview of concepts, techniques, tools, platforms, and frameworks related to DX (Digital Transformation), featuring Software Development and DevOps spaces, spanning the following 12 categories:
 
-- [01 - Software Development, Management & Business](skills/section01.md)
+- [01 - Business Transformation](skills/section01.md)
 - [02 - Web Application Development](skills/section02.md)
 - [03 - Cloud & Cloud-Native Computing](skills/section03.md)
 - [04 - Security & Privacy](skills/section04.md)
 - [05 - Data Science & Engineering](skills/section05.md)
 - [06 - AI, Machine Learning & LLM](skills/section06.md)
-- [07 - Fundamental Developer Tools](skills/section07.md)
+- [07 - Fundamental Developer Skills](skills/section07.md)
 - [08 - OS & Network Basics](skills/section08.md)
 - [09 - Programming Concepts & Paradigms](skills/section09.md)
 - [10 - Advanced Programming](skills/section10.md)
 - [11 - Specialized Development Domains](skills/section11.md)
-- [12 - Interdisciplinary Foundations](skills/section12.md)
+- [12 - Personal Skills](skills/section12.md)
+
+## Timelines
+
+In addition to the skill categories above, this site provides [chronological timelines](timelines/2025-present.md) documenting significant technology events, product releases, and industry milestones from 1930 to the present. Each entry is categorized by domain using emojis:
+
+- 🏢 Business Administration, Development Methodology, Management
+- 🌐 Web Technology incl. Web Frameworks
+- ☁️ Cloud, Cloud Native, Container, DevOps/SRE
+- 🔐 Security, Privacy
+- 🐛 Malware, Virus, Security Incident
+- 📊 Data Science, Databases, Data Platforms
+- 🧠 AI, Machine Learning, Large Language Models
+- 🖥️ Shell, Scripting, Terminal, IDE, Developer Productivity
+- ⚙️ System Administration, OS, VM, Network Infrastructure
+- 📜 Programming Paradigms, Programming Concepts, Libraries
+- 🩷 Others
+
+These timelines help trace the evolution of technologies listed in the skill sections and provide historical context for understanding current trends in software development and digital transformation.
 
 ## Coverage for IPA DSS-P
 
@@ -27,6 +45,23 @@ The IPA (Information-technology Promotion Agency, Japan) is a policy implementat
 It plays a central role in Japan's national IT strategy, including **Human Resource Development** (administering national IT examinations), **Information Security Measures**, and establishing **Guidelines for Digital Transformation (DX)**.
 
 The **DSS-P** referenced in this document is a public standard defined by the IPA to accelerate DX in Japanese companies. It is widely adopted by many Japanese enterprises as a benchmark for talent development and hiring.
+
+The table below shows the primary DSS-P category covered by each skill section:
+
+| Section | Title | Primary DSS-P Category |
+|---------|-------|------------------------|
+| 01 | Business Transformation | 1. Business Transformation |
+| 02 | Web Application Development | 3. Technology |
+| 03 | Cloud & Cloud-Native Computing | 3. Technology |
+| 04 | Security & Privacy | 4. Security |
+| 05 | Data Science & Engineering | 2. Data Preparation & Utilization |
+| 06 | AI, Machine Learning & LLM | 2. Data Preparation & Utilization |
+| 07 | Fundamental Developer Skills | 3. Technology |
+| 08 | OS & Network Basics | 3. Technology |
+| 09 | Programming Concepts & Paradigms | 3. Technology |
+| 10 | Advanced Programming | 3. Technology |
+| 11 | Specialized Development Domains | 3. Technology |
+| 12 | Personal Skills | 5. Personal Skill |
 
 ## Principles
 

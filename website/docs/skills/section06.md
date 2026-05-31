@@ -4,7 +4,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding of Data and AI
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
 
 * AI Paradigms
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
@@ -232,7 +232,7 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
 
 * Core Concepts
   * [Vision Language Models (VLM)](https://huggingface.co/blog/vlms) - An exciting class of models that can understand images and text
@@ -301,6 +301,7 @@
 > **Relevant DSS-P Skills:**
 >
 > - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
 
 ### Standards & Protocols
 
@@ -359,6 +360,7 @@
 * Memory Systems
   * [Mem0](https://mem0.ai/) - An AI memory layer for LLM applications that aims to provide personalized AI experiences
   * [Graphiti](https://www.getzep.com/product/open-source/) - An open-source Python framework for building temporally-aware context graphs
+  * [Hindsight](https://hindsight.vectorize.io/) - A memory system designed specifically for AI agents that enables them to retain, recall, and reason about information across multiple sessions using multi-strategy retrieval and automatic knowledge consolidation
 * Search & Data Extraction
   * [Firecrawl](https://www.firecrawl.dev/) - An API service that takes a URL, crawls it, and converts it into clean markdown or structured data
   * [Tavily Search](https://tavily.com/) - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
@@ -371,8 +373,8 @@
 
 > **Relevant DSS-P Skills:**
 >
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization & SRE Process
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+> - 3\. Technology > 3\.1 Software Development > SRE Process
+> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
 
 ### ML Lifecycle & MLOps Platforms
 
