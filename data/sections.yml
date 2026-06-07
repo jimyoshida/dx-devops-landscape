@@ -242,10 +242,6 @@ section07: Fundamental Developer Skills
     # Terminal Emulators
     # Terminal Utilities
     # Linux or Unix-like environments on Windows
-  # Scripting Languages
-    # Python
-    # JavaScript & TypeScript
-    # Ruby, Perl & Others
   # Version Control System
     # Git Hosting Services
     # Branching Models
@@ -311,10 +307,6 @@ section09: Programming Concepts & Paradigms
     # Architectural Styles
     # Architecture Description
     # Domain-Driven Design (DDD)
-  # Mathematical Logic
-    # Foundational Concepts
-    # Logical Systems
-    # Branches of Mathematical Logic
   # Core Programming Concepts
     # Language Mechanics & Execution
     # Memory Management
@@ -325,6 +317,10 @@ section09: Programming Concepts & Paradigms
     # Object-oriented Programming
     # Functional Programming
     # Reactive Programming & Others
+  # Scripting Languages
+    # Python
+    # JavaScript & TypeScript
+    # Ruby, Perl & Others
   # Asynchronous & Concurrency
   # Language Analysis
   # Program Translation
@@ -419,6 +415,10 @@ section12: Personal Skills
   # Foundational Thinking & Logic
     # Logic
     # Informal Logic
+  # Mathematical Logic
+    # Foundational Concepts
+    # Logical Systems
+    # Branches of Mathematical Logic
   # Documentation & Knowledge Management
     # Knowledge Management
     # Architectural Documentation

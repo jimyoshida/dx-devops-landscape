@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://dx-devops-landscape-5b09aa.gitlab.io/',
+  url: 'https://jimyoshida.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/dx-devops-landscape/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

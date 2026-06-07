@@ -258,7 +258,6 @@
   * [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes) - The official operator for the Elastic Stack on Kubernetes
   * [Rook](https://rook.io/) - An open source cloud-native storage orchestrator for Kubernetes
 * Dashboards
-  * [Kubernetes Lens IDE](https://k8slens.dev/) - The Kubernetes IDE
   * [k9s](https://k9scli.io/) - A terminal based UI to interact with your Kubernetes cluster
   * [KDash](https://kdash.cli.rs/) - A simple terminal dashboard for Kubernetes built with Rust
   * [Seabird](https://getseabird.github.io/) - The native desktop app that simplifies working with Kubernetes
@@ -349,7 +348,6 @@
   * [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks
   * [V8 isolates](https://v8.dev/docs/embed#isolates) - An independent instance of the engine with its own heap and its own garbage collector
 * Serverless Computing
-  * [OpenFaaS](https://www.openfaas.com/) - A framework that makes it easy for developers to deploy event-driven functions and microservices to Kubernetes
   * [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
 * Service Mesh & Discovery
   * [Gateway API](https://gateway-api.sigs.k8s.io/) - The next generation of Kubernetes Ingress, Load Balancing, and Service Mesh APIs
@@ -357,7 +355,6 @@
     * [Kiali](https://kiali.io/) - The service mesh observability and configuration tool for Istio
   * [Linkerd](https://linkerd.io/) - An ultralight, security-first service mesh for Kubernetes
   * [Hashicorp Consul](https://www.consul.io/) - A service networking solution to connect and secure services across any runtime platform and public or private cloud
-  * [Traefik Mesh](https://traefik.io/traefik-mesh/) - A straight-forward, easy to configure, and non-invasive service mesh
 * Edge Proxies & Ingress
   * [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
   * [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller

@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run
+# in-progress and latest queued.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # Build on every push/PR that is not the default branch (mirrors the GitLab
+  # `test` stage). Also runs as the build step for deploys on `main`.
+  test:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    container:
+      image: jimyoshida/node-make-extra:node22
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        working-directory: website
+        run: |
+          yarn install
+          make
+
+  # Build and deploy to GitHub Pages on the default branch (mirrors the GitLab
+  # `pages` stage).
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    container:
+      image: jimyoshida/node-make-extra:node22
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        working-directory: website
+        run: |
+          yarn install
+          make
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/build
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

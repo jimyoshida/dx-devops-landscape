@@ -68,70 +68,6 @@
     * [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
 * [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 
-## Mathematical Logic
-
-> **Relevant DSS-P Skills:**
->
-> - 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
-
-### Foundational Concepts
-
-* [Formal system](https://en.wikipedia.org/wiki/Formal_system) - An abstract structure and formalization of an axiomatic system used for deducing, using rules of inference, theorems from axioms by a set of inference rules
-* [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - The two theorems of mathematical logic that demonstrate the inherent limitations of every formal axiomatic system capable of modelling basic arithmetic
-* Logic Principles
-  * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - A pair of transformation rules that are both valid rules of inference
-  * [Law of noncontradiction](https://en.wikipedia.org/wiki/Law_of_noncontradiction) - The law that states that for any given proposition, the proposition and its negation cannot both be simultaneously true
-  * [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle) - The principle that for every proposition, either this proposition or its negation is true
-  * [Peirce's law](https://en.wikipedia.org/wiki/Peirce%27s_law) - The principle in classical logic that the law of excluded middle holds for any proposition
-  * [Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction) - A form of indirect proof that establishes the truth of a proposition by showing that assuming the proposition to be false leads to a contradiction
-
-### Logical Systems
-
-* [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus) - A branch of logic that deals with propositions (which can be true or false) and relations between propositions, including the construction of arguments based on them
-  * conjunction, disjunction, implication, biconditional and negation
-  * [Tautology](https://en.wikipedia.org/wiki/Tautology_(logic)) - A formula that is true regardless of the interpretation of its component terms, with only the logical constants having a fixed meaning
-* [First order logic](https://en.wikipedia.org/wiki/First-order_logic) - A collection of formal systems used in mathematics, philosophy, linguistics, and computer science
-  * universal quantification and existential quantification
-* [Higher order logic](https://en.wikipedia.org/wiki/Higher-order_logic) - A form of logic that is distinguished from first-order logic by additional quantifiers and, sometimes, stronger semantics
-* [Modal logic](https://en.wikipedia.org/wiki/Modal_logic) - A type of logic that is used to represent statements about possibility and necessity
-
-### Branches of Mathematical Logic
-
-* [Set theory](https://en.wikipedia.org/wiki/Set_theory) - The branch of mathematical logic that studies sets, which can be informally described as collections of objects
-* Naive set theory
-  * [Set](https://en.wikipedia.org/wiki/Set_(mathematics)) - A collection of different things; these things are called elements or members of the set and are typically mathematical objects of any kind
-  * [Function (a.k.a. Map)](https://en.wikipedia.org/wiki/Function_(mathematics)) - A binary relation between two sets that associates every element of the first set to exactly one element of the second set
-  * [Operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) - A function from a set to itself
-    * [Idempotence](https://en.wikipedia.org/wiki/Idempotence) - The property of certain operations in which they can be applied multiple times without changing the result beyond the initial application
-  * [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set) - A grouping of a set's elements into non-empty, disjoint subsets (called "blocks" or "cells") such that every element is in exactly one subset
-  * [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) - A binary relation (reflexive, symmetric, and transitive) that partitions a set into disjoint equivalence classes
-* Axiomatic set theory
-  * [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory) - An axiomatic system that was proposed in the early twentieth century in order to formulate a theory of sets free of paradoxes such as Russell's paradox
-    * Ordinals & Cardinals
-* [Type Theory](https://en.wikipedia.org/wiki/Type_theory) - A formal system that provides an alternative foundation for mathematics (like Set Theory) and is the basis for typed functional programming and proof assistants.
-  * [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry–Howard_correspondence) - The direct relationship between computer programs and mathematical proofs
-* [Proof Theory](https://en.wikipedia.org/wiki/Proof_theory) - A major branch of mathematical logic that represents proofs as formal mathematical objects, facilitating their analysis by mathematical techniques
-  * [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus) - A deductive system for proving theorems
-  * [Natural deduction](https://en.wikipedia.org/wiki/Natural_deduction) - A kind of proof calculus in which logical reasoning is expressed by inference rules closely related to the "natural" way of reasoning
-* [Computability Theory](https://en.wikipedia.org/wiki/Computability_theory) - A branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees
-  * [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system in mathematical logic for expressing computation based on function abstraction and application
-  * [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules
-* [Model Theory](https://en.wikipedia.org/wiki/Model_theory) - The study of the relationship between formal theories (collections of sentences in a formal language) and their models (structures in which the sentences are true)
-
-* Logic Applications
-  * [Constraint satisfaction problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) - Mathematical questions defined as a set of objects whose state must satisfy a number of constraints or limitations
-  * [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) - The problem of determining whether a mathematical formula is satisfiable
-  * [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving) - A subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs
-  * [Formal verification](https://en.wikipedia.org/wiki/Formal_verification) - the act of proving or disproving the correctness of a system with respect to a certain formal specification or property, using formal methods of mathematics
-    * [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic) - A formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs
-
-* Formal Logic Tools
-  * [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - A reference work that organizes scholars in philosophy and related fields from around the world to create and maintain up-to-date content
-  * [SMT-LIB](https://smt-lib.org/index.shtml) - A command language for interacting with SMT solvers via a textual interface
-  * [MiniZinc](https://www.minizinc.org/) - A free and open-source constraint modeling language
-  * [P](https://p-org.github.io/P/) - A state machine based programming language for formally modeling and specifying complex distributed systems
-  * [Lean](https://leanprover.github.io/) - An interactive theorem prover and programming language based on the Calculus of Constructions
-
 ## Core Programming Concepts
 
 > **Relevant DSS-P Skills:**
@@ -237,6 +173,107 @@
     * [Elm](https://elm-lang.org/) - A delightful language for reliable web applications
 * [Aspect-oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) - A programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns
   * [Cross-cutting concern](https://en.wikipedia.org/wiki/Cross-cutting_concern) - An aspect of a program that affect several modules, without the possibility of being encapsulated in any of them
+
+## Scripting Languages
+
+> **Relevant DSS-P Skills:**
+>
+> - 3\. Technology > 3\.1 Software Development > Computer Science
+
+### Python
+
+* [Python](https://www.python.org/) - A programming language that lets you work quickly and integrate systems more effectively
+  * Core Features
+    * [Python import system](https://docs.python.org/3/reference/import.html) - The mechanism that organizes Python code into modules and packages, facilitating code reuse and structuring large applications
+    * [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
+    * [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
+      * [typing module](https://docs.python.org/3/library/typing.html) - The standard library module providing runtime support for type hints
+      * [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
+    * [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
+    * [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
+      * [contextlib](https://docs.python.org/3/library/contextlib.html) - A module that provides utilities for common tasks involving the with statement
+    * [Generators](https://peps.python.org/pep-0255/) - A simple and powerful way to create iterators, defined using a function with the yield statement
+    * [Decorators](https://peps.python.org/pep-0318/) - A syntax using the '@' symbol for transforming functions and methods, often used for modifying or enhancing them non-intrusively
+    * [Coroutine](https://peps.python.org/pep-0492/) - A specialized generator function, defined with `async def`, that can suspend and resume its execution, enabling cooperative multitasking
+    * [Lambda](https://peps.python.org/pep-0312/) - A small anonymous function defined using the `lambda` keyword, restricted to a single expression
+    * [Data Classes](https://peps.python.org/pep-0557/) - A module and decorator providing a concise way to create classes primarily used to store data, automatically generating special methods
+    * [Pattern Matching](https://docs.python.org/3/reference/compound_stmts.html#match) - A feature providing functionality similar to switch statements, allowing matching of values against complex patterns including sequences, mappings, and object structures
+    * [Unpacking Operator](https://peps.python.org/pep-0448/) - The extended usages of the `*` iterable unpacking operator and `**` dictionary unpacking operators to allow unpacking in more positions, an arbitrary number of times, and in additional circumstances
+  * Key Libraries
+    * [pathlib](https://docs.python.org/3/library/pathlib.html) - The module offering classes representing filesystem paths with semantics appropriate for different operating systems
+    * [dotenv](https://github.com/theskumar/python-dotenv) - A library that reads key-value pairs from a .env file and can set them as environment variables
+    * [Pydantic](https://docs.pydantic.dev/) - A data validation and settings management library for Python
+    * [Tenacity](https://github.com/jd/tenacity) - A general-purpose retrying library for Python
+  * Development Tools
+    * [IPython](https://ipython.org/) - A rich interactive interface to Python with a history mechanism, tab completion, and special magic commands
+
+### JavaScript & TypeScript
+
+* [JavaScript/ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - The standard that defines the ECMAScript Language
+  * Module System
+    * [CommonJS](http://commonjs.org/) - A project with the goal of specifying an ecosystem for JavaScript outside the browser
+    * [ES modules](https://nodejs.org/api/esm.html) - The official standard format to package JavaScript code for reuse
+    * [UMD](https://github.com/umdjs/umd/) - The patterns for Universal Module Definition for use in the browser, and in AMD and CommonJS-based systems
+  * Core Features
+    * [Event-driven](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events) - A programming paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs
+    * [Spread and rest operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - The syntax that allows an iterable such as an array expression or string to be expanded in places where zero or more arguments or elements are expected
+    * [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) - An object returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
+  * Key Libraries
+    * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
+    * [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
+    * [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
+    * [zx](https://google.github.io/zx/) - A tool for writing better scripts
+    * [Zod](https://zod.dev/) - A TypeScript-first schema validation with static type inference
+    * [yup](https://github.com/jquense/yup) - A schema builder for runtime value parsing and validation
+  * [Typescript](https://www.typescriptlang.org/index.html) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
+    * [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - A way to combine multiple types into one
+    * [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - A name for any type
+    * [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) - A way to tell the compiler 'trust me, I know what I'm doing'
+    * [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) - A generic type which uses a union of PropertyKeys to iterate through keys of another type to create a new one
+    * [Nominal typing techniques](https://michalzalecki.com/nominal-typing-in-typescript/) - A way to simulate nominal types in TypeScript, which by default has a structural type system
+    * [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) - The files where you define the types for a library
+    * [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) - A special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter
+  * TS Type Utilities
+    * [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - A tool to compile JSONSchema to TypeScript type declarations
+    * [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - The FromSchema method lets you infer TS types directly from JSON schemas
+* Tutorials & Practices
+  * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
+  * [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
+  * [Callback Hell](http://callbackhell.com/) - The nesting of callback functions when dealing with asynchronous logic
+  * [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
+  * [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
+
+### Ruby, Perl & Others
+
+* [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
+  * Core Features
+    * [Percent notation](https://docs.ruby-lang.org/en/master/syntax/literals_rdoc.html) - A concise syntax for generating various literal types, such as strings, arrays, and regular expressions, using a percent sign and delimiters
+    * [Fiber](https://docs.ruby-lang.org/en/master/Fiber.html) - A lightweight concurrency primitive that allows for cooperative multitasking by pausing and resuming execution
+    * [proc](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-proc) - A mechanism to encapsulate a block of code into an object that can be stored, passed, and executed
+    * [lambda](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-lambda) - A specialized block object that enforces strict argument checking and localized return behavior
+    * [then](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-then) - A method that yields the object itself to a block and returns the result, facilitating functional-style method chaining
+    * [define_method](https://docs.ruby-lang.org/en/master/Module.html#method-i-define_method) - The ability to create and register methods at runtime using `define_method`, enhancing code flexibility and reducing repetition
+    * [instance_eval](https://docs.ruby-lang.org/en/master/BasicObject.html#method-i-instance_eval) - A method that evaluates a block or string within the context of a specific object instance, granting access to its internal scope and private methods
+  * Libraries
+    * [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
+    * [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
+  * Development Tools
+    * [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - A tool to interactively execute Ruby expressions read from the standard input
+* [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
+  * Core Features
+    * [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl
+    * [Built-in regex](https://metacpan.org/dist/perl/view/pod/perlre.pod) - The syntax of regular expressions in Perl
+    * [Context](https://perldoc.perl.org/perldata#Context) - A property of expressions that determines how they behave when evaluated
+    * [Scalar values](https://perldoc.perl.org/perldata#Scalar-values) - A single item of data
+      * [Reference](https://perldoc.perl.org/perlreftut#Making-References) - A scalar data type that 'points' to another piece of data
+    * [Quote-like operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#Simpler-Quote-Like-Operators) - A set of generic quoting operators
+    * [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - The operators used for input and output operations, such as reading from a filehandle
+* [Tcl](https://www.tcl-lang.org/) - A dynamic programming language and a graphical user interface toolkit used for a wide range of applications
+  * [Event-driven by design](https://wiki.tcl-lang.org/page/event+loop) - The built-in event loop that makes it ideal for GUIs and networking
+* [Lua](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
+* [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
+  * [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
+  * [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
 
 ## Asynchronous & Concurrency
 
