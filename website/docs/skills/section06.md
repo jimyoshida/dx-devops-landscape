@@ -2,9 +2,11 @@
 
 ## Foundations of AI & Machine Learning
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
+
+:::
 
 * AI Paradigms
   * [Symbolic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence) - The collection of all methods in artificial intelligence research that are based on high-level symbolic (human-readable) representations of problems, logic and search
@@ -30,9 +32,11 @@
 
 ## Machine Learning
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
+:::
 
 ### Learning Paradigms
 
@@ -79,9 +83,11 @@
 
 ## Neural Networks and Deep Learning
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
+:::
 
 * Neural Network Fundamentals
   * [Neural network](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)) - The computational models used in machine learning for finding patterns in data
@@ -119,9 +125,11 @@
 
 ## Natural Language Processing (NLP)
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
+:::
 
 * Linguistics Foundations
   * [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) - The study of words, how they are formed, and their relationship to other words in the same language
@@ -151,9 +159,11 @@
 
 ## Computer Vision
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
+:::
 
 ### Image Processing & Fundamentals
 
@@ -194,9 +204,11 @@
 
 ## Speech & Audio Processing
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Machine Learning and Deep Learning
+
+:::
 
 ### Automatic Speech Recognition (ASR)
 
@@ -230,9 +242,11 @@
 
 ## Generative AI & Large Language Models (LLMs)
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
+
+:::
 
 * Core Concepts
   * [Vision Language Models (VLM)](https://huggingface.co/blog/vlms) - An exciting class of models that can understand images and text
@@ -298,10 +312,12 @@
 
 ## Agentic AI
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
+
+:::
 
 ### Standards & Protocols
 
@@ -371,10 +387,12 @@
 
 ## MLOps & LLMOps
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > SRE Process
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > SRE Process
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > AI Implementation and Operation
+
+:::
 
 ### ML Lifecycle & MLOps Platforms
 

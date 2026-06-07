@@ -2,10 +2,12 @@
 
 ## Project Management
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Program / Project Management
-> - 1\. Business Transformation > 1\.2 Product Management > Product Scope and Priority Management
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.3 Management of Transformation Activities > Program / Project Management
+- 1\. Business Transformation > 1\.2 Product Management > Product Scope and Priority Management
+
+:::
 
 ### Project Planning & Estimation
 
@@ -64,12 +66,14 @@
 
 ## Product Management
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.2 Product Management > Requirement Analysis and Management
-> - 1\. Business Transformation > 1\.2 Product Management > Product Vision / Roadmap Formulation
-> - 1\. Business Transformation > 1\.2 Product Management > Marketing
-> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Product Lifecycle Management
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.2 Product Management > Requirement Analysis and Management
+- 1\. Business Transformation > 1\.2 Product Management > Product Vision / Roadmap Formulation
+- 1\. Business Transformation > 1\.2 Product Management > Marketing
+- 1\. Business Transformation > 1\.3 Management of Transformation Activities > Product Lifecycle Management
+
+:::
 
 ### Product Strategy
 
@@ -149,10 +153,12 @@
 
 ## Metrics & Performance
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.2 Product Management > Design and Operation of Product Performance Metrics
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.2 Product Management > Design and Operation of Product Performance Metrics
+- 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
+
+:::
 
 ### Goal Setting Frameworks
 
@@ -178,11 +184,13 @@
 
 ## Enterprise Strategy & Architecture
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business and Enterprise Architecture Design
-> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Risk & Compliance
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
+- 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business and Enterprise Architecture Design
+- 1\. Business Transformation > 1\.3 Management of Transformation Activities > Risk & Compliance
+
+:::
 
 ### Enterprise Architecture & Administration
 
@@ -243,9 +251,11 @@
 
 ## Enterprise AI & Productivity
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
+
+:::
 
 ### General Autonomous Agents
 
@@ -284,10 +294,12 @@
 
 ## Human-Centered Design
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.4 Design > Customer / User / Stakeholder Understanding
-> - 1\. Business Transformation > 1\.4 Design > Digital Product Design
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.4 Design > Customer / User / Stakeholder Understanding
+- 1\. Business Transformation > 1\.4 Design > Digital Product Design
+
+:::
 
 ### Core Principles & User Experience (UX)
 
@@ -371,10 +383,12 @@
 
 ## Systems Thinking: Economics, Game Theory & Finance
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
-> - 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Understanding of Business Environment and Management Strategy
+- 1\. Business Transformation > 1\.1 Strategy Understanding and Architecture Design > Business Value Definition / ROI Estimation and Decision Support
+
+:::
 
 ### Economics & Game Theory
 

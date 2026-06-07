@@ -2,9 +2,11 @@
 
 ## Web Platform Fundamentals
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Web Application Core Technology
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Web Application Core Technology
+
+:::
 
 ### Web Concepts
 
@@ -74,10 +76,12 @@
 
 ## Frontend Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Front-end System Development
-> - 1\. Business Transformation > 1\.4 Design > Digital Product Design
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Front-end System Development
+- 1\. Business Transformation > 1\.4 Design > Digital Product Design
+
+:::
 
 ### UI Frameworks & Core Libraries
 
@@ -181,10 +185,12 @@
 
 ## Full-stack & Static Site Frameworks
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Front-end System Development
-> - 3\. Technology > 3\.1 Software Development > Back-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Front-end System Development
+- 3\. Technology > 3\.1 Software Development > Back-end System Development
+
+:::
 
 ### Full-stack Frameworks
 
@@ -220,9 +226,11 @@
 
 ## Backend Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Back-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Back-end System Development
+
+:::
 
 ### API Architectural Styles
 
@@ -286,9 +294,11 @@
 
 ## Web Infrastructure
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 ### Web Server & Proxy
 
@@ -329,9 +339,11 @@
 
 ## Decentralized Web
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.2 Digital Technology > Other Advanced Technologies
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.2 Digital Technology > Other Advanced Technologies
+
+:::
 
 ### Blockchain Technology
 
@@ -367,10 +379,12 @@
 
 ## Development & Testing Tools
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 ### Web/HTTP Clients
 

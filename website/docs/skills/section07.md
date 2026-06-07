@@ -2,10 +2,12 @@
 
 ## Software Development Methods
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Software Development Process
-> - 5\. Personal Skill > 5\.2 Conceptual Skill > Adaptability
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Software Development Process
+- 5\. Personal Skill > 5\.2 Conceptual Skill > Adaptability
+
+:::
 
 ### Agile Development
 
@@ -89,9 +91,11 @@
 
 ## The Open Ecosystem
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 ### Open Source
 
@@ -170,10 +174,12 @@
 
 ## Shell & Terminal
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 ### Bash & Other Shells
 
@@ -264,9 +270,11 @@
 
 ## Version Control System
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 * Concepts
   * [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - A form of version control where the complete codebase, including its full history, is mirrored on every developer's computer
@@ -322,9 +330,11 @@
 
 ## Integrated Development Environment (IDE)
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 * GUI-based
   * [Visual Studio Code](https://code.visualstudio.com/) - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux
@@ -383,9 +393,11 @@
 
 ## Code Quality & Refactoring
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 * Concepts
   * [SQALE method](https://en.wikipedia.org/wiki/SQALE) - A method to support the evaluation of the quality of a software source code
@@ -434,9 +446,11 @@
 
 ## Developer AI & Productivity
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 ### AI Productivity Tools
 

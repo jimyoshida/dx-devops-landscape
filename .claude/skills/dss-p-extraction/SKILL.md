@@ -7,10 +7,7 @@ disable-model-invocation: true
 
 When the user provides `dss_*_skills.pdf` and extract the skills, read it and do the followings.
 
-Optimize the layout: Group the 67 skills under clear hierarchical headers ( # N. Category  ->  ## N.M Sub-category ) and formatted individual skills
-into concise tables ( Skill Item ,  Description ,  Learning Items Example ).
-
-Added an anchor-linked Table of Contents at the top of the markdown for quick navigation.
+Optimize the layout: Group the 67 skills under clear hierarchical headers ( # N. Category  ->  ## N.M Sub-category ) and formatted individual skills into concise tables ( Skill Item ,  Description ,  Learning Items Example ).
 
 <Example>
 
@@ -26,3 +23,6 @@ Added an anchor-linked Table of Contents at the top of the markdown for quick na
 ```
 
 </Example>
+
+Create a markdown file with the above content and save it as `dss-p-extraction.md` in the project root directory.
+Note that <br> is not accepted in MDX. Use <br /> instead.

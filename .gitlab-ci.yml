@@ -15,6 +15,11 @@ test:
 
 pages:
   stage: deploy
+  variables:
+    # GitLab Pages serves this project at the domain root, so assets must be
+    # referenced from '/'. $CI_PAGES_URL is the full URL GitLab serves from.
+    BASE_URL: "/"
+    SITE_URL: "$CI_PAGES_URL"
   script:
   - cd website
   - yarn install

@@ -2,10 +2,12 @@
 
 ## Foundational Thinking & Logic
 
-> **Relevant DSS-P Skills:**
->
-> - 5\. Personal Skill > 5\.2 Conceptual Skill > Creative Problem Solving
-> - 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
+:::note[Relevant DSS-P Skills]
+
+- 5\. Personal Skill > 5\.2 Conceptual Skill > Creative Problem Solving
+- 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
+
+:::
 
 ### Logic
 
@@ -28,9 +30,11 @@
 
 ## Mathematical Logic
 
-> **Relevant DSS-P Skills:**
->
-> - 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
+:::note[Relevant DSS-P Skills]
+
+- 5\. Personal Skill > 5\.2 Conceptual Skill > Critical Thinking
+
+:::
 
 ### Foundational Concepts
 
@@ -90,10 +94,12 @@
 
 ## Documentation & Knowledge Management
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
-> - 5\. Personal Skill > 5\.1 Human Skill > Collaboration
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+- 5\. Personal Skill > 5\.1 Human Skill > Collaboration
+
+:::
 
 * [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
 * [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
@@ -190,10 +196,12 @@
 
 ## Interpersonal & Team Leadership
 
-> **Relevant DSS-P Skills:**
->
-> - 5\. Personal Skill > 5\.1 Human Skill > Leadership
-> - 5\. Personal Skill > 5\.1 Human Skill > Collaboration
+:::note[Relevant DSS-P Skills]
+
+- 5\. Personal Skill > 5\.1 Human Skill > Leadership
+- 5\. Personal Skill > 5\.1 Human Skill > Collaboration
+
+:::
 
 ### Team Dynamics & Communication
 
@@ -237,9 +245,11 @@
 
 ## Individual Psychology & Performance
 
-> **Relevant DSS-P Skills:**
->
-> - 5\. Personal Skill > 5\.2 Conceptual Skill > Adaptability
+:::note[Relevant DSS-P Skills]
+
+- 5\. Personal Skill > 5\.2 Conceptual Skill > Adaptability
+
+:::
 
 ### Personal Performance
 

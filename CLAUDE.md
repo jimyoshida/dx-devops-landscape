@@ -50,14 +50,16 @@ Day-to-day work happens on the `draft` branch. Use the `release` skill to squash
 The 12 markdown files under the `website/docs/skills/` directory contain the skill items categorized.
 
 Each markdown level 1 header should have 6 to 10 level 2 headers as subsections.
-Each level 2 header must start with a "Relevant DSS-P Skills" blockquote mapping
+Each level 2 header must start with a "Relevant DSS-P Skills" admonition mapping
 the subsection to skills from `website/docs/dss-p-v2-skills.md` (the IPA DX Promotion
 Skill Standard). Example:
 
 ```markdown
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3.1 Software Development > Computer Science & Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3.1 Software Development > Computer Science & Team Development
+
+:::
 ```
 
 Each level 2 header can have up to 6 level 3 headers as subsections.

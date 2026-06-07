@@ -2,9 +2,11 @@
 
 ## Procedural & Systems Programming
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Rust Language
 
@@ -52,9 +54,11 @@
 
 ## Functional & Hybrid Programming
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Functional-first & Multi-paradigm Languages
 
@@ -87,9 +91,11 @@
 
 ## Data & Format Standards
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Text Format & Character Code
 
@@ -167,9 +173,11 @@ support
 
 ## Text Processing & Manipulation
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Regular Expression
 
@@ -239,9 +247,11 @@ support
 
 ## Debugging
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * Debuggers
   * Python
@@ -288,9 +298,11 @@ support
 
 ## Test Frameworks & Tools
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Software Development Process
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Software Development Process
+
+:::
 
 * Test Concepts and Best Practices
   * [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - A way of thinking about how different kinds of tests should be used to create a balanced portfolio
@@ -370,10 +382,12 @@ support
 
 ## Build Automation
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 * Build Automation Tools
   * [GNU Make](https://www.gnu.org/software/make/) - A tool which controls the generation of executables and other non-source files of a program
@@ -417,9 +431,11 @@ support
 
 ## Package Dependency Management
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * JavaScript & Web Ecosystem
   * [npm CLI](https://www.npmjs.com/) - The world's largest software registry
@@ -457,9 +473,11 @@ support
 
 ## Virtual Environment
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * Virtual Environment Managers
   * [Python venv](https://docs.python.org/3/library/venv.html) - A module for the creation of virtual environments

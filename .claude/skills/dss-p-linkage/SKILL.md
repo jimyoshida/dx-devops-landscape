@@ -16,10 +16,12 @@ File: website/docs/skills/section04.md
 ```markdown
 ## Governance, Risk, and Compliance (GRC)
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.1 Security Management > Security Management
-> - 4\. Security > 4\.1 Security Management > Privacy Protection
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.1 Security Management > Security Management
+- 4\. Security > 4\.1 Security Management > Privacy Protection
+
+:::
 ```
 
 </Example>

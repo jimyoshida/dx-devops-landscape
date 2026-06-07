@@ -12,11 +12,13 @@ const config = {
   tagline: 'A comprehensive skill reference for the age of AI-driven development',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://jimyoshida.github.io/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/dx-devops-landscape/',
+  // Set the production url of your site here.
+  // Overridable per-deploy via SITE_URL (e.g. GitLab Pages sets $CI_PAGES_URL).
+  url: process.env.SITE_URL || 'https://jimyoshida.github.io/',
+  // Set the /<baseUrl>/ pathname under which your site is served.
+  // GitHub Pages serves this project under '/<projectName>/'; GitLab Pages
+  // serves it at the domain root, so the GitLab pipeline sets BASE_URL='/'.
+  baseUrl: process.env.BASE_URL || '/dx-devops-landscape/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -31,7 +33,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ja'],
   },
 
   presets: [
@@ -70,6 +72,10 @@ const config = {
             label: 'Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/jimyoshida/dx-devops-landscape',
             label: 'GitHub',

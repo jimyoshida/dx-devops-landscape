@@ -2,30 +2,9 @@
 sidebar_position: 2
 ---
 
-# DX Promotion Skill Standard (IPA)
+# DX Promotion Skill Standard v2.0 (IPA)
 
 *Common Skill List & Explanations*
-
-## Table of Contents
-
-- [1. Business Transformation](#1-business-transformation)
-  - [1.1 Strategy Understanding and Architecture Design](#11-strategy-understanding-and-architecture-design)
-  - [1.2 Product Management](#12-product-management)
-  - [1.3 Management of Transformation Activities](#13-management-of-transformation-activities)
-  - [1.4 Design](#14-design)
-- [2. Data Preparation & Utilization](#2-data-preparation-utilization)
-  - [2.1 Strategic Utilization of Data and AI](#21-strategic-utilization-of-data-and-ai)
-  - [2.2 AI and Data Science](#22-ai-and-data-science)
-  - [2.3 Data Management](#23-data-management)
-- [3. Technology](#3-technology)
-  - [3.1 Software Development](#31-software-development)
-  - [3.2 Digital Technology](#32-digital-technology)
-- [4. Security](#4-security)
-  - [4.1 Security Management](#41-security-management)
-  - [4.2 Security Technology](#42-security-technology)
-- [5. Personal Skill](#5-personal-skill)
-  - [5.1 Human Skill](#51-human-skill)
-  - [5.2 Conceptual Skill](#52-conceptual-skill)
 
 ## 1. Business Transformation
 

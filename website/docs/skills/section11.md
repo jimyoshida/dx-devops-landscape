@@ -2,9 +2,11 @@
 
 ## Business & Productivity Application SDKs
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Service Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Service Utilization
+
+:::
 
 ### Project & Work Management
 
@@ -59,9 +61,11 @@
 
 ## Developer Tools Integration SDKs
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 ### Version Control & DevOps
 
@@ -88,9 +92,11 @@
 
 ## Computer Graphics & Game Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Front-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Front-end System Development
+
+:::
 
 ### 3D Graphics
 
@@ -110,9 +116,11 @@
 
 ## Binary & Media Processing
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Back-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Back-end System Development
+
+:::
 
 ### Binary Format Tools
 
@@ -169,9 +177,11 @@
 
 ## Document Processing
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Back-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Back-end System Development
+
+:::
 
 ### Business Document Formats
 
@@ -216,10 +226,12 @@
 
 ## CLI/TUI Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
-> - 3\. Technology > 3\.1 Software Development > Team Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+- 3\. Technology > 3\.1 Software Development > Team Development
+
+:::
 
 * Bash
   * [built-in getopts etc.](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html) - A set of commands that are part of the shell itself
@@ -284,9 +296,11 @@
 
 ## Desktop App Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Front-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Front-end System Development
+
+:::
 
 ### Client OS & Environments
 
@@ -341,9 +355,11 @@
 
 ## Mobile App Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Front-end System Development
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Front-end System Development
+
+:::
 
 ### Mobile Platforms & Native SDKs
 
@@ -386,9 +402,11 @@
 
 ## Internet of Things (IoT)
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.2 Digital Technology > Physical Computing
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.2 Digital Technology > Physical Computing
+
+:::
 
 ### IoT Concepts
 
@@ -435,9 +453,11 @@
 
 ## Low-Code & No-Code Development
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Service Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Service Utilization
+
+:::
 
 ### Business Application Platforms
 

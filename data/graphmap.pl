@@ -15,8 +15,8 @@ my @LIGHT = (
     '#ECFCCB', '#FDF4FF',
 );
 
-my ($sec_n, $sub_n, $ssub_n) = (0, 0, 0);
-my ($cur_sec, $cur_sub);
+my ($sec_n, $sub_n) = (0, 0);
+my $cur_sec;
 my (@nodes, @edges);
 
 while (<>) {
@@ -25,20 +25,14 @@ while (<>) {
         my $label = $1;
         $label =~ s/ - /\\n/;   # "01\nLong Title" fits the ellipse better
         my $id = "s$sec_n";
-        $cur_sec = $id; $cur_sub = undef;
+        $cur_sec = $id;
         push @nodes, { id => $id, level => 1, label => $label, sec => $sec_n };
         push @edges, ['root', $id];
     } elsif (/^## (.+)/) {
         $sub_n++;
         my $id = "s${sec_n}b$sub_n";
-        $cur_sub = $id;
         push @nodes, { id => $id, level => 2, label => $1, sec => $sec_n };
         push @edges, [$cur_sec, $id] if $cur_sec;
-    } elsif (/^### (.+)/) {
-        $ssub_n++;
-        my $id = "s${sec_n}c$ssub_n";
-        push @nodes, { id => $id, level => 3, label => $1, sec => $sec_n };
-        push @edges, [($cur_sub // $cur_sec), $id];
     }
 }
 
@@ -69,8 +63,6 @@ for my $si (sort { $a <=> $b } keys %by_sec) {
         } elsif ($n->{level} == 2) {
             print "    $n->{id} [label=\"$lbl\", shape=box, style=\"filled,rounded\",\n";
             print "      fillcolor=white, fontsize=9];\n";
-        } else {
-            print "    $n->{id} [label=\"$lbl\", shape=plaintext, fontsize=7];\n";
         }
     }
     print "  }\n\n";

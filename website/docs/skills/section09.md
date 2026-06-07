@@ -2,9 +2,11 @@
 
 ## Software Design & Architecture
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Software Design Methodology
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Software Design Methodology
+
+:::
 
 ### Design Principles
 
@@ -70,9 +72,11 @@
 
 ## Core Programming Concepts
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Language Mechanics & Execution
 
@@ -130,9 +134,11 @@
 
 ## Programming Paradigms
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Object-oriented Programming
 
@@ -176,9 +182,11 @@
 
 ## Scripting Languages
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 ### Python
 
@@ -277,9 +285,11 @@
 
 ## Asynchronous & Concurrency
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing) - A form of computing in which several computations are executed concurrently instead of sequentially
   * [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - A computer program component that generalizes subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed
@@ -293,9 +303,11 @@
 
 ## Language Analysis
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * Concepts
   * [Formal language](https://en.wikipedia.org/wiki/Formal_language) - A set of words, i.e. finite strings of letters, symbols, or tokens
@@ -319,9 +331,11 @@
 
 ## Program Translation
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * Concepts
   * [Compiler](https://en.wikipedia.org/wiki/Compiler) - A computer program that translates computer code written in one programming language into another language
@@ -357,9 +371,11 @@
 
 ## Program Execution
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * Concepts
   * [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - The part of a program that runs on a computer, for the language in which the program was written
@@ -401,9 +417,11 @@
 
 ## Algorithm & Computational Complexity
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Computer Science
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Computer Science
+
+:::
 
 * Concepts
   * [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - A set of computational problems of related resource-based complexity

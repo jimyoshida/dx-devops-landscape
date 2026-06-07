@@ -2,10 +2,12 @@
 
 ## Security Foundations
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.1 Security Management > Security System Construction and Operation
-> - 4\. Security > 4\.1 Security Management > Security Management
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.1 Security Management > Security System Construction and Operation
+- 4\. Security > 4\.1 Security Management > Security Management
+
+:::
 
 * [Information security](https://en.wikipedia.org/wiki/Information_security) - The practice of protecting information by mitigating information risks
 * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - A weakness which can be exploited by a threat actor
@@ -36,9 +38,11 @@
 
 ## Cryptography & Data Protection
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+
+:::
 
 ### Core Cryptography
 
@@ -149,10 +153,12 @@
 
 ## Identity & Access Management (IAM)
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Improvement of Data Quality and Safety
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Improvement of Data Quality and Safety
+
+:::
 
 ### Integrated IAM
 
@@ -231,9 +237,11 @@
 
 ## Secure Development Lifecycle (DevSecOps)
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+
+:::
 
 ### Secure Design & Modeling
 
@@ -331,10 +339,12 @@
 
 ## Runtime & Operational Security
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.1 Security Management > Incident Response and Business Continuity
-> - 4\. Security > 4\.2 Security Technology > Security Operation, Maintenance, and Monitoring
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.1 Security Management > Incident Response and Business Continuity
+- 4\. Security > 4\.2 Security Technology > Security Operation, Maintenance, and Monitoring
+
+:::
 
 ### Cloud-Native Application Protection (CNAPP)
 
@@ -388,9 +398,11 @@
 
 ## Secure Communications & Networking
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+
+:::
 
 ### Transport Layer Security (TLS)
 
@@ -463,11 +475,13 @@
 
 ## Governance, Risk, and Compliance (GRC)
 
-> **Relevant DSS-P Skills:**
->
-> - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Risk & Compliance
-> - 4\. Security > 4\.1 Security Management > Security Management
-> - 4\. Security > 4\.1 Security Management > Privacy Protection
+:::note[Relevant DSS-P Skills]
+
+- 1\. Business Transformation > 1\.3 Management of Transformation Activities > Risk & Compliance
+- 4\. Security > 4\.1 Security Management > Security Management
+- 4\. Security > 4\.1 Security Management > Privacy Protection
+
+:::
 
 ### Data Governance
 
@@ -520,10 +534,12 @@
 
 ## System & Personal Security
 
-> **Relevant DSS-P Skills:**
->
-> - 4\. Security > 4\.1 Security Management > Security System Construction and Operation
-> - 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+:::note[Relevant DSS-P Skills]
+
+- 4\. Security > 4\.1 Security Management > Security System Construction and Operation
+- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
+
+:::
 
 ### OS & Endpoint Security
 

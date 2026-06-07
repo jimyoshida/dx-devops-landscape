@@ -2,9 +2,11 @@
 
 ## Cloud Computing
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 ### Computing & Storage (IaaS)
 
@@ -59,9 +61,11 @@
 
 ## Configuration as Code
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 ### Infrastructure as Code (IaC)
 
@@ -107,9 +111,11 @@
 
 ## Containerization
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 * [Containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) - A form of operating-system-level virtualization
 * Linux Distros for Containers
@@ -175,9 +181,11 @@
 
 ## WebAssembly
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.2 Digital Technology > Other Advanced Technologies
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.2 Digital Technology > Other Advanced Technologies
+
+:::
 
 * Standards
   * [WebAssembly](https://webassembly.org/) - A binary instruction format for a stack-based virtual machine
@@ -203,9 +211,11 @@
 
 ## Kubernetes
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 * [Kubernetes](https://kubernetes.io/) - An open-source system for automating deployment, scaling, and management of containerized applications
 * Master node
@@ -299,9 +309,11 @@
 
 ## Cloud-Native Computing
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+
+:::
 
 * [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
 
@@ -367,9 +379,11 @@
 
 ## CI/CD & GitOps
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > SRE Process
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > SRE Process
+
+:::
 
 ### Delivery & Deployment
 
@@ -408,9 +422,11 @@
 
 ## System Observability
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > SRE Process
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > SRE Process
+
+:::
 
 ### Instrumentation & Platforms
 
@@ -482,9 +498,11 @@
 
 ## SRE (Site Reliability Engineering)
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > SRE Process
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > SRE Process
+
+:::
 
 * [Site Reliability Engineering](https://landing.google.com/sre/) - A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems
   * [Service Level Objectives (SLOs)](https://sre.google/sre-book/service-level-objectives/) - A target value or range of values for a service level that is measured by a service level indicator (SLI)
@@ -537,9 +555,11 @@
 
 ## Performance & Load Testing
 
-> **Relevant DSS-P Skills:**
->
-> - 3\. Technology > 3\.1 Software Development > SRE Process
+:::note[Relevant DSS-P Skills]
+
+- 3\. Technology > 3\.1 Software Development > SRE Process
+
+:::
 
 * [Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
 

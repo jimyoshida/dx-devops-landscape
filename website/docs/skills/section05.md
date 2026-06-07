@@ -2,9 +2,11 @@
 
 ## Foundational Concepts
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
+
+:::
 
 ### General Data Concepts & Principles
 
@@ -46,9 +48,11 @@
 
 ## Data Science Toolkit
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+
+:::
 
 ### Programming Languages & Libraries
 
@@ -98,9 +102,11 @@
 
 ## Data Visualization
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+
+:::
 
 ### Common Chart Types
 
@@ -140,9 +146,11 @@
 
 ## Distributed Systems
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+
+:::
 
 ### Distributed Computing Principles
 
@@ -194,9 +202,11 @@
 
 ## Mathematics & Statistics
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.2 AI and Data Science > Mathematical Statistics, Multivariate Analysis, and Data Visualization
+
+:::
 
 ### Base Mathematics
 
@@ -260,10 +270,12 @@
 
 ## Data Formats & Architecture
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Improvement of Data Quality and Safety
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Improvement of Data Quality and Safety
+
+:::
 
 ### Data Formats & Table Formats
 
@@ -305,9 +317,11 @@
 
 ## Relational Databases (SQL)
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+
+:::
 
 ### SQL Fundamentals
 
@@ -387,9 +401,11 @@
 
 ## NoSQL & Specialized Databases
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+
+:::
 
 ### NoSQL Data Models
 
@@ -437,9 +453,11 @@
 
 ## Data Processing & Messaging
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.3 Data Management > Data Engineering (Design, Collection, Integration, Provision)
+
+:::
 
 ### Enterprise Integration
 
@@ -491,9 +509,11 @@
 
 ## Data Analytics & Search
 
-> **Relevant DSS-P Skills:**
->
-> - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
+:::note[Relevant DSS-P Skills]
+
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
+
+:::
 
 ### Search Engines & Platforms
 
