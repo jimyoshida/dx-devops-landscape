@@ -24,6 +24,7 @@
   * [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) - The selection of a best element, with regard to some criteria, from some set of available alternatives
   * [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) - A first-order iterative algorithm for minimizing a differentiable multivariate function
   * [Loss function](https://en.wikipedia.org/wiki/Loss_function) - A function that maps an event or values of one or more variables onto a real number intuitively representing some cost associated with the event
+  * [Pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition) - The task of assigning a class to an observation based on patterns extracted from data
   * [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering) - A preprocessing step in supervised machine learning and statistical modeling which transforms raw data into a more effective set of inputs
   * [Overfitting](https://en.wikipedia.org/wiki/Overfitting) - The production of an analysis that corresponds too closely to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably
   * [Bias–variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) - The relationship between a model's complexity, the accuracy of its predictions, and how well it can make predictions on previously unseen data

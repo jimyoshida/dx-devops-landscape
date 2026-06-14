@@ -48,20 +48,20 @@ The **DSS-P** referenced in this document is a public standard defined by the IP
 
 The table below shows the primary DSS-P category covered by each skill section:
 
-| Section | Title | Primary DSS-P Category |
-|---------|-------|------------------------|
-| 01 | Business Transformation | 1. Business Transformation |
-| 02 | Web Application Development | 3. Technology |
-| 03 | Cloud & Cloud-Native Computing | 3. Technology |
-| 04 | Security & Privacy | 4. Security |
-| 05 | Data Science & Engineering | 2. Data Preparation & Utilization |
-| 06 | AI, Machine Learning & LLM | 2. Data Preparation & Utilization |
-| 07 | Fundamental Developer Skills | 3. Technology |
-| 08 | OS & Network Basics | 3. Technology |
-| 09 | Programming Concepts & Paradigms | 3. Technology |
-| 10 | Advanced Programming | 3. Technology |
-| 11 | Specialized Development Domains | 3. Technology |
-| 12 | Personal Skills | 5. Personal Skill |
+| Section - Title | Primary DSS-P Category |
+|-----------------|------------------------|
+| 01 - Business Transformation | 1. Business Transformation |
+| 02 - Web Application Development | 3. Technology |
+| 03 - Cloud & Cloud-Native Computing | 3. Technology |
+| 04 - Security & Privacy | 4. Security |
+| 05 - Data Science & Engineering | 2. Data Preparation & Utilization |
+| 06 - AI, Machine Learning & LLM | 2. Data Preparation & Utilization |
+| 07 - Fundamental Developer Skills | 3. Technology |
+| 08 - OS & Network Basics | 3. Technology |
+| 09 - Programming Concepts & Paradigms | 3. Technology |
+| 10 - Advanced Programming | 3. Technology |
+| 11 - Specialized Development Domains | 3. Technology |
+| 12 - Personal Skills | 5. Personal Skill |
 
 ## Principles
 

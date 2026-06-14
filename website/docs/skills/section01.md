@@ -97,6 +97,7 @@
 
 ### Requirements Analysis
 
+* [Business analysis](https://en.wikipedia.org/wiki/Business_analysis) - A professional discipline focused on identifying business needs and determining solutions to business problems
 * [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
   * [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
     * [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
@@ -106,6 +107,7 @@
 ### Marketing & Customer Experience
 
 * [Marketing](https://en.wikipedia.org/wiki/Marketing) - A process of acquiring, satisfying, and retaining customers, often involving creating, communicating, delivering, and exchanging offerings that have value for various stakeholders
+  * [Market research](https://en.wikipedia.org/wiki/Market_research) - An organized effort to gather information about target markets and customers
   * [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
     * [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
   * [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
@@ -404,6 +406,7 @@
 * [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) - The observation that adding one or more roads to a road network can slow down overall traffic flow through it
 * [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) - A solution concept of a non-cooperative game involving two or more players in which each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy
 * [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency) - A state of allocation of resources from which it is impossible to reallocate so as to make any one individual or preference criterion better off without making at least one individual or preference criterion worse off
+* [Operations research](https://en.wikipedia.org/wiki/Operations_research) - A discipline that deals with the development and application of analytical methods to improve management and decision-making
 
 ### Finance & Accounting
 

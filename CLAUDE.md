@@ -139,7 +139,7 @@ make test_write  # Run write.pl unit tests (requires ruby)
 `sections.yml` maps section IDs (e.g., `section01`) to their hierarchical subsection titles. When section titles change:
 
 1. Run `make read` to extract the updated section structure from skill files into `sections.yml`
-2. Run `make write` to propagate those changes back across all skill and doc files
+2. Run `make write` to propagate those changes back across all skill files and `website/docs/intro.md`
 3. Or simply run `make` to do both in one step
 
 The digest markdown used for the mindmap is generated during the website build (see `website/Makefile`).
@@ -154,6 +154,11 @@ The following user-invocable skills are available for maintaining this repositor
 - `check-end-of-life` — Check if listed software/services are still actively maintained
 - `research-timeline` — Research history and timeline events for a technology item
 - `release` — Merge `draft` onto `main` with squash commit and push to remotes
+- `dss-p-coverage` — Evaluate how much this site's skill list covers each DSS-P skill category
+- `dss-p-linkage` — Fill in "Relevant DSS-P Skills" admonition blocks for section level-2 headings
+- `dss-p-extraction` — Extract DSS-P skills from a PDF into a structured English markdown table
+- `dss-p-extraction-jp` — Same as above but preserving original Japanese
+- `docusaurus-i18n` — Handle i18n/translation workflow for the Docusaurus site
 
 ## AI Prompts (`prompts/`)
 

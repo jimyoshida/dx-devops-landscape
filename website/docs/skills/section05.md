@@ -13,12 +13,15 @@
 * [Data](https://en.wikipedia.org/wiki/Data_(computer_science)) - Any sequence of one or more symbols; datum is a single symbol of data
 * [Metadata](https://en.wikipedia.org/wiki/Metadata) - The data that provides information about other data, but not the content of the data
 * [Big data](https://en.wikipedia.org/wiki/Big_data) - The data sets that are too large or complex to be dealt with by traditional data-processing application software
+* [Unstructured data](https://en.wikipedia.org/wiki/Unstructured_data) - The information that either does not have a pre-defined data model or is not organized in a pre-defined manner
 * [Data model](https://en.wikipedia.org/wiki/Data_model) - An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
+  * [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) - An abstract description of interrelated things of interest in a specific domain of knowledge
 * [Data orientation](https://en.wikipedia.org/wiki/Data_orientation) - A perspective of data that emphasizes the data itself, rather than the applications that use the data
 * [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) - A class of models representing purported structural and/or functional relationships between data, information, knowledge, and wisdom
 * [Garbage in, garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) - A concept in computer science and information and communications technology that the quality of the output is determined by the quality of the input
 * [Data cleansing](https://en.wikipedia.org/wiki/Data_cleansing) - The process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database
 * [Data lifecycle management](https://en.wikipedia.org/wiki/Data_lifecycle_management) - A policy-based approach to managing the flow of an information system's data throughout its life cycle
+* [Master data](https://en.wikipedia.org/wiki/Master_data) - The data about the business entities that provide context for business transactions
 * [Master data management](https://en.wikipedia.org/wiki/Master_data_management) - A technology-enabled discipline in which business and IT work together to ensure the uniformity, accuracy, stewardship, semantic consistency and accountability of the enterprise's official shared master data assets
 * [Data quality](https://en.wikipedia.org/wiki/Data_quality) - A measure of the condition of data based on factors such as accuracy, completeness, consistency, reliability and whether it's up to date
 * [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) - The practice of structuring information models and associated data schema such that every data element is mastered (or edited) in only one place
@@ -42,6 +45,8 @@
 * [Data Catalog](https://en.wikipedia.org/wiki/Data_catalog) - A centralized metadata repository that helps organizations manage and discover data assets
 * [Data Stewardship](https://en.wikipedia.org/wiki/Data_stewardship) - A set of practices and processes for managing an organization's data assets to ensure quality, security, and compliance
 * [Data Privacy](https://en.wikipedia.org/wiki/Information_privacy) - The right and ability of an individual to determine what happens to information about themselves
+* [Data Security](https://en.wikipedia.org/wiki/Data_security) - The process of securing digital information to protect it from online threats
+* [ISO 8000](https://en.wikipedia.org/wiki/ISO_8000) - The international standard for data quality and master data
 * [Data Contract](https://docs.getdbt.com/docs/collaborate/govern/model-contracts) - An explicit agreement on data structure, quality, and semantics between data producers and consumers
 * [Schema Evolution](https://en.wikipedia.org/wiki/Schema_evolution) - The process of modifying a database schema while maintaining compatibility with existing data and applications
 * [Dimensional Modeling](https://en.wikipedia.org/wiki/Dimensional_modeling) - A database design technique used to optimize data warehouses for analytical queries using facts and dimensions
@@ -252,7 +257,11 @@
 
 * [Statistics](https://en.wikipedia.org/wiki/Statistics) - A discipline that concerns the collection, organization, analysis, interpretation, and presentation of data
   * [Sampling](https://en.wikipedia.org/wiki/Sampling_(statistics)) - The selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population
+    * [Sampling error](https://en.wikipedia.org/wiki/Sampling_error) - The error caused by observing a sample instead of the whole population
   * [Errors and residuals](https://en.wikipedia.org/wiki/Errors_and_residuals) - The measures of the deviation of an observed value of an element of a statistical sample from its "true value"
+  * [Frequency](https://en.wikipedia.org/wiki/Frequency_(statistics)) - The number of times the observation has occurred or been recorded in an experiment or study
+    * [Contingency table](https://en.wikipedia.org/wiki/Contingency_table) - A type of table in a matrix format that displays the multivariate frequency distribution of the variables
+  * [Confounding](https://en.wikipedia.org/wiki/Confounding) - A variable that influences both the dependent variable and independent variable, causing a spurious association
   * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) - A measure of the amount of variation of the values of a variable about its average
   * [Root mean square deviation](https://en.wikipedia.org/wiki/Root_mean_square_deviation) - The square root of the average of the squared differences between the predicted values and the actual values
   * [F-score](https://en.wikipedia.org/wiki/F-score) - A measure of predictive performance in statistical analysis of binary classification and information retrieval systems
@@ -295,6 +304,8 @@
 * [Data lakehouse](https://www.databricks.com/blog/2020/01/30/what-is-a-data-lakehouse.html) - A new, open architecture that combines the best elements of data lakes and data warehouses
 * [Medallion Architecture](https://www.databricks.com/glossary/medallion-architecture) - A data design pattern used to logically organize data in a lakehouse
 * [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) - An open standard process model that describes common approaches used by data mining experts
+* [Data architecture](https://en.wikipedia.org/wiki/Data_architecture) - A set of models, policies, rules, and standards that govern which data is collected and how it is stored, arranged, integrated, and put to use in data systems and in organizations
+* [DAMA-DMBOK](https://dama.org/dmbok2r-infographics/) - The DAMA Guide to the Data Management Body of Knowledge, outlining frameworks and terminology across thirteen functional areas of managing data
 
 ### Data Governance & Metadata Management
 
@@ -526,6 +537,7 @@
 * Search Platforms and Tools
   * [Azure AI Search](https://azure.microsoft.com/en-us/products/ai-services/ai-search) - A fully managed, cloud-hosted service that unifies access to enterprise and web content for AI-powered search and retrieval-augmented generation
     * [Reciprocal Rank Fusion (RRF)](https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking) - An algorithm that evaluates the search scores from multiple, previously executed queries to produce a unified result set
+    * [BM25 relevance scoring](https://learn.microsoft.com/en-us/azure/search/index-similarity-and-scoring) - The Okapi BM25 ranking function used to compute the relevance scores of matching documents in full text search
   * [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
     * [Painless](https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html) - A simple, secure scripting language designed specifically for use with the engine
     * [ES|QL](https://www.elastic.co/docs/explore-analyze/query-filter/languages/esql) - A piped language that allows you to filter, transform, and analyze data stored in the engine

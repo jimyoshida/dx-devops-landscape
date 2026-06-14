@@ -110,6 +110,8 @@
   * [Obsidian](https://obsidian.md/) - A free and flexible application for private thoughts, allowing users to store notes on their device, connect ideas, and organize knowledge with a customizable interface through plugins and themes
   * [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) - A system of note-taking and personal knowledge management for research, study, and writing, consisting of small, interconnected items of information stored on slips or cards
   * [Memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking tool built for quick capture that is markdown-native and lightweight
+* Feed Aggregation
+  * [FreshRSS](https://freshrss.org/index.html) - A free, self-hostable aggregator for RSS and Atom feeds
 * Content Management Systems (CMS)
   * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
   * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - A web-based collaboration and document management platform that enables organizations to securely store, share, and manage content

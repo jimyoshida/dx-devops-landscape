@@ -119,6 +119,7 @@
 
 * [IANA WHOIS Service](https://www.iana.org/whois) - A service to look up the registration data of a domain name or IP address
 * [Registration Data Access Protocol (RDAP)](https://en.wikipedia.org/wiki/Registration_Data_Access_Protocol) - A computer network communications protocol that delivers registration data from Domain Name Registries and Regional Internet Registries
+* [Domain drop catching](https://en.wikipedia.org/wiki/Domain_drop_catching) - The practice of registering a domain name once registration has lapsed, immediately after expiry
 
 ### Server & Resolver Implementations
 
@@ -410,6 +411,9 @@
   * [Dante](https://www.inet.no/dante/) - A SOCKS server and SOCKS client, implementing RFC 1928 and related standards
   * [tun2socks](https://github.com/xjasonlyu/tun2socks) - A SOCKS proxy for TCP and UDP, that handles all connections from a TUN device
   * [proxychains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy
+* Tunneling
+  * [cloudflared](https://github.com/cloudflare/cloudflared) - The command-line client for Cloudflare Tunnel, a daemon that proxies traffic from the Cloudflare network to your origins
+  * [ngrok](https://ngrok.com/) - A unified ingress platform that delivers reverse proxy, API gateway, and secure tunnels to expose local applications to the internet
 
 ## File Sharing & Remote Access
 

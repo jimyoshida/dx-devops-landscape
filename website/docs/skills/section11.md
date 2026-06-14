@@ -413,6 +413,8 @@
 * [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things) - The network of physical objects—'things'—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet
 * [Edge computing](https://en.wikipedia.org/wiki/Edge_computing) - A distributed computing paradigm that brings computation and data storage closer to the sources of data
 * [Machine to machine](https://en.wikipedia.org/wiki/Machine_to_machine) - The direct communication between devices using any communications channel, including wired and wireless
+* [Cyber-physical system](https://en.wikipedia.org/wiki/Cyber-physical_system) - A mechanism controlled or monitored by computer-based algorithms, tightly integrated with the internet and its users
+* [Digital twin](https://en.wikipedia.org/wiki/Digital_twin) - A digital model of an intended or actual real-world physical product, system, or process that serves as its digital counterpart for purposes such as simulation, testing, monitoring, and maintenance
 * [Firmware](https://en.wikipedia.org/wiki/Firmware) - A specific class of computer software that provides the low-level control for a device's specific hardware
 * [Over-the-air update](https://en.wikipedia.org/wiki/Over-the-air_update) - The wireless delivery of new software, firmware, or other data to mobile devices
 
