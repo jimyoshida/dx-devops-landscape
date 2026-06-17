@@ -13,7 +13,11 @@ description: >
 
 Supports the translation workflow for Markdown documents using the i18n feature of Docusaurus 3.
 **Primarily intended for use via a VSCode extension (GitHub Copilot Chat, etc.)**.
-Claude translates the Markdown directly and writes the files to the correct i18n paths.
+
+To save Claude's token usage, the actual Markdown translation is delegated to the
+Antigravity CLI (`agy`) via the `call-agy-cli.py` helper script — Claude only issues
+the command and places the output at the correct i18n path, rather than translating
+the document body itself.
 
 ---
 
@@ -90,7 +94,7 @@ This command automatically generates JSON files under `i18n/ja/`.
 
 ### Step 4: Translate and Save the Markdown
 
-**Claude translates directly and writes out the files.**
+**The Antigravity CLI translates the Markdown; Claude runs the script and writes the output to the correct path.**
 
 #### Identifying the Target Locale
 
@@ -112,54 +116,68 @@ If unspecified, either target all files under `docs/`, or confirm with the user.
 
 #### Translation Rules
 
-1. **Preserve the frontmatter** — keep key names like `title:`, `sidebar_label:`, `id:` as-is. Translate only the values.
-2. **Do not translate code blocks** — leave anything enclosed in ` ``` ` untouched.
-3. **Do not change URLs or paths** — leave link hrefs and image paths as-is.
-4. **Do not translate MDX component props** — preserve the tag structure of `<Component prop="value">`. Translate only the text nodes.
-5. **Do not translate admonition labels** — keep keywords like `:::note`, `:::warning` as-is.
-6. **Translate DSS-P skill names using the official Japanese translation** — when the source contains a `:::note[Relevant DSS-P Skills]` admonition, translate the skill category/subcategory/item names by looking them up in `website/i18n/ja/docusaurus-plugin-content-docs/current/dss-p-v2-skills.md`. Use the exact heading and table cell text from that file. Do not freely translate these names.
+The translation rules (preserve frontmatter keys, leave code blocks / URLs / MDX
+props / admonition labels untouched, use the official DSS-P Japanese names, etc.)
+live in `.claude/skills/docusaurus-i18n/translation-rules.md`. The CLI reads that
+file directly, so Claude does not need to re-state the rules.
 
-**Example:**
-```markdown
-<!-- Source (English) -->
----
-title: Getting Started
-sidebar_label: Quick Start
----
+#### Translating and Writing Out the File
 
-# Getting Started
+Delegate the translation to the Antigravity CLI via `call-agy-cli.py` and redirect
+its stdout to the target i18n path. The script prints **only** the translated
+Markdown to stdout (diagnostics, including the echoed command, go to stderr), so it
+can be piped straight to a file. `agy` is asked to wrap its answer in marker lines
+and the script strips its agentic narration, leaving just the Markdown.
 
-Run the following command:
-
-\```bash
-npm install
-\```
-```
-
-```markdown
-<!-- Translated (Japanese) -->
----
-title: はじめに
-sidebar_label: クイックスタート
----
-
-# はじめに
-
-以下のコマンドを実行してください：
-
-\```bash
-npm install
-\```
-```
-
-#### Writing Out the File
-
-Save the translated Markdown to the correct path:
+One-time setup of the script's virtualenv (provides `python-dotenv` and `colorama`):
 
 ```bash
-mkdir -p i18n/ja/docusaurus-plugin-content-docs/current/$(dirname <relative path>)
-# then write out the file
+SKILL_DIR=.claude/skills/docusaurus-i18n
+python3 -m venv "$SKILL_DIR/.venv"
+"$SKILL_DIR/.venv/bin/pip" install python-dotenv colorama
 ```
+
+Then, for each file. **Write to a temporary file first and move it into place only
+on success** — a timeout or error otherwise leaves an empty redirect target, which
+would wipe a previously translated file:
+
+```bash
+SKILL_DIR=.claude/skills/docusaurus-i18n
+SRC=website/docs/intro.md
+DST=website/i18n/ja/docusaurus-plugin-content-docs/current/intro.md
+TMP=$(mktemp)
+
+if "$SKILL_DIR/.venv/bin/python" "$SKILL_DIR/call-agy-cli.py" \
+     "Read the translation rules at $PWD/$SKILL_DIR/translation-rules.md and apply them to the markdown file at $PWD/$SRC. Output only the translated markdown." \
+     > "$TMP" && [ -s "$TMP" ] && ! grep -q 'AGY-OUTPUT' "$TMP"; then
+  mkdir -p "$(dirname "$DST")"
+  mv "$TMP" "$DST"
+else
+  echo "Translation failed or empty; leaving $DST untouched." >&2
+  rm -f "$TMP"
+fi
+```
+
+> **Token savings**: the document body never passes through Claude — `agy` reads
+> the source file and the rules file itself and emits the translation. Claude's job
+> is only to compute the correct `SRC`/`DST` paths and run the command.
+>
+> **Model override**: set `ANTIGRAVITY_MODEL` (run `agy models` for display names)
+> or `ANTIGRAVITY_CLI` if the `agy` binary is not on `PATH`.
+>
+> **Timeout for large files**: the script aborts the CLI after `AGY_TIMEOUT`
+> seconds (default 600). In `--print` mode `agy` emits its answer only at the very
+> end, so a run that is killed mid-way produces **no** output — never a partial file.
+>
+> **Runtime is unpredictable and can be very long**: agentic reasoning effort
+> dominates, not file size. Small files (≲100 lines) usually finish in a minute or
+> two, but some moderate files trigger a pathologically long agentic loop — a
+> ~200-line / 19 KB timeline failed to finish within **30 min** on the high-effort
+> default. A faster variant (`ANTIGRAVITY_MODEL="Gemini 3.5 Flash (Low)"`) helps but
+> is not guaranteed. If a file keeps hitting `AGY_TIMEOUT`, **split it into smaller
+> chunks** (e.g. per `##` section), translate each, and concatenate — small inputs
+> are reliable. Reserve higher effort for content needing careful term lookups
+> (e.g. DSS-P skill names).
 
 ### Step 5: Check Translation Status
 
@@ -238,6 +256,6 @@ After working, always report the following to the user:
 
 - **Do not change frontmatter key names.** Translate only the values.
 - **Do not translate code blocks, URLs, or component tags.**
-- The `write-translations` command generates only JSON (UI strings). Claude is responsible for translating the Markdown.
+- The `write-translations` command generates only JSON (UI strings). Markdown translation is delegated to the Antigravity CLI via `call-agy-cli.py` (see Step 4).
 - Before changing `docusaurus.config.js`, show the proposed changes to the user and get approval.
 - When there are many files (10 or more), confirm with the user before translating.

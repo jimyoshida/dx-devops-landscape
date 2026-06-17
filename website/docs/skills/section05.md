@@ -559,6 +559,7 @@
   * [Amazon Redshift](https://aws.amazon.com/redshift/) - A fully managed, petabyte-scale data warehouse service in the cloud
   * [Amazon Athena](https://aws.amazon.com/athena/) - An interactive query service that makes it easy to analyze data directly in Amazon S3 and other data stores using standard SQL
   * [Databricks](https://www.databricks.com/product/data-intelligence-platform) - The platform that allows your entire organization to use data and AI
+  * [Snowflake](https://www.snowflake.com/en/) - The AI Data Cloud that mobilizes data with near-unlimited scale to power analytics, applications, and AI in a single fully managed platform
   * [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) - An end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence
     * [Microsoft OneLake](https://learn.microsoft.com/en-us/fabric/onelake/) - A single, unified, logical data lake for your whole organization
     * [Lakehouse vs Data Warehouse](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-lakehouse-warehouse) - A guide for choosing between a lakehouse and a data warehouse based on data volume, structure, and processing requirements

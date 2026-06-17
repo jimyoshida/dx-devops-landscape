@@ -442,3 +442,5 @@
   * [x11vnc](https://github.com/LibVNC/x11vnc) - A VNC server for X11
   * [TightVNC](https://www.tightvnc.com/) - A free remote desktop application
 * [Mosh](https://mosh.org/) - A replacement for interactive SSH terminals
+* Mesh VPN
+  * [Tailscale](https://tailscale.com/) - A Zero Trust identity-based connectivity platform that replaces your legacy VPN, SASE, and PAM and connects remote teams, multi-cloud environments, CI/CD pipelines, Edge & IoT devices, and AI workloads

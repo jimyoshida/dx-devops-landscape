@@ -353,6 +353,7 @@
   * [Genkit](https://genkit.dev/) - The AI framework for building full-stack applications with integrated support for agents, RAG, and tool use
   * [LangChain](https://www.langchain.com/) - A framework for developing applications powered by large language models
   * [LlamaIndex](https://www.llamaindex.ai/) - A developer-first agent framework that rapidly accelerates time-to-production of GenAI applications with trusted low and high-level abstractions
+    * [LlamaParse](https://www.llamaindex.ai/llamaparse) - A document parser that turns even the most complex layouts, tables, charts, handwriting, checkboxes, and images into clean markdown
   * [PydanticAI](https://pydantic.dev/pydantic-ai) - A Python agent framework for building production-grade applications with Generative AI, emphasizing type safety and structured outputs
 
 ### Agent Development Kits (ADK)
