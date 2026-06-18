@@ -14,10 +14,10 @@ description: >
 Supports the translation workflow for Markdown documents using the i18n feature of Docusaurus 3.
 **Primarily intended for use via a VSCode extension (GitHub Copilot Chat, etc.)**.
 
-To save Claude's token usage, the actual Markdown translation is delegated to the
-Antigravity CLI (`agy`) via the `call-agy-cli.py` helper script — Claude only issues
-the command and places the output at the correct i18n path, rather than translating
-the document body itself.
+To save the main session's token usage, the actual Markdown translation is delegated
+to a separate headless Claude Code CLI process running a cheap model (Haiku) via the
+`translate.py` helper script — Claude only issues the command and places the output
+at the correct i18n path, rather than translating the document body itself.
 
 ---
 
@@ -94,7 +94,7 @@ This command automatically generates JSON files under `i18n/ja/`.
 
 ### Step 4: Translate and Save the Markdown
 
-**The Antigravity CLI translates the Markdown; Claude runs the script and writes the output to the correct path.**
+**A headless Claude CLI (Haiku) translates the Markdown; Claude runs the script and writes the output to the correct path.**
 
 #### Identifying the Target Locale
 
@@ -118,16 +118,17 @@ If unspecified, either target all files under `docs/`, or confirm with the user.
 
 The translation rules (preserve frontmatter keys, leave code blocks / URLs / MDX
 props / admonition labels untouched, use the official DSS-P Japanese names, etc.)
-live in `.claude/skills/docusaurus-i18n/translation-rules.md`. The CLI reads that
-file directly, so Claude does not need to re-state the rules.
+live in `.claude/skills/docusaurus-i18n/translation-rules.md`. The headless CLI reads
+that file directly, so Claude does not need to re-state the rules.
 
 #### Translating and Writing Out the File
 
-Delegate the translation to the Antigravity CLI via `call-agy-cli.py` and redirect
+Delegate the translation to a headless Claude CLI via `translate.py` and redirect
 its stdout to the target i18n path. The script prints **only** the translated
 Markdown to stdout (diagnostics, including the echoed command, go to stderr), so it
-can be piped straight to a file. `agy` is asked to wrap its answer in marker lines
-and the script strips its agentic narration, leaving just the Markdown.
+can be piped straight to a file. The rules file asks the model to wrap its answer in
+marker lines, and the script emits only the text between them — discarding any
+preamble or outer ```` ``` ```` fence the model occasionally adds.
 
 One-time setup of the script's virtualenv (provides `python-dotenv` and `colorama`):
 
@@ -136,6 +137,18 @@ SKILL_DIR=.claude/skills/docusaurus-i18n
 python3 -m venv "$SKILL_DIR/.venv"
 "$SKILL_DIR/.venv/bin/pip" install python-dotenv colorama
 ```
+
+**Always run the command in the foreground and wait for it to finish.** Do **not**
+launch it as a background task. Background tasks in this environment commit their
+stdout and file writes *lazily and asynchronously* — the "completed" notification can
+fire while the output buffer is still empty and the destination file has not yet
+landed, which looks exactly like a failure. Acting on that false signal leads to
+spurious reruns; spawning overlapping reruns (or deleting their temp files mid-flight)
+then causes real failures. Running in the foreground makes the write happen in the
+same context you verify from, with no commit lag. Haiku is fast enough that even a
+~450-line file finishes well within the foreground timeout. If a file is genuinely
+too large, split it by `##` section (see *Reliability* below) — keep each chunk in
+the foreground.
 
 Then, for each file. **Write to a temporary file first and move it into place only
 on success** — a timeout or error otherwise leaves an empty redirect target, which
@@ -147,9 +160,9 @@ SRC=website/docs/intro.md
 DST=website/i18n/ja/docusaurus-plugin-content-docs/current/intro.md
 TMP=$(mktemp)
 
-if "$SKILL_DIR/.venv/bin/python" "$SKILL_DIR/call-agy-cli.py" \
+if "$SKILL_DIR/.venv/bin/python" "$SKILL_DIR/translate.py" \
      "Read the translation rules at $PWD/$SKILL_DIR/translation-rules.md and apply them to the markdown file at $PWD/$SRC. Output only the translated markdown." \
-     > "$TMP" && [ -s "$TMP" ] && ! grep -q 'AGY-OUTPUT' "$TMP"; then
+     > "$TMP" && [ -s "$TMP" ] && ! grep -q 'TRANSLATION-BEGIN' "$TMP"; then
   mkdir -p "$(dirname "$DST")"
   mv "$TMP" "$DST"
 else
@@ -158,26 +171,23 @@ else
 fi
 ```
 
-> **Token savings**: the document body never passes through Claude — `agy` reads
-> the source file and the rules file itself and emits the translation. Claude's job
-> is only to compute the correct `SRC`/`DST` paths and run the command.
+> **Token savings**: the document body never passes through the main session — the
+> headless CLI reads the source file and the rules file itself and emits the
+> translation. Claude's job is only to compute the correct `SRC`/`DST` paths and run
+> the command.
 >
-> **Model override**: set `ANTIGRAVITY_MODEL` (run `agy models` for display names)
-> or `ANTIGRAVITY_CLI` if the `agy` binary is not on `PATH`.
+> **Model / binary override**: set `TRANSLATE_MODEL` (a `claude --model` alias or
+> full name; default `haiku`) or `CLAUDE_CLI` if the `claude` binary is not on `PATH`.
 >
-> **Timeout for large files**: the script aborts the CLI after `AGY_TIMEOUT`
-> seconds (default 600). In `--print` mode `agy` emits its answer only at the very
-> end, so a run that is killed mid-way produces **no** output — never a partial file.
+> **Timeout**: the script aborts the CLI after `TRANSLATE_TIMEOUT` seconds
+> (default 600) and reports a clear message. In `-p` mode `claude` emits its answer
+> only at the very end, so a run killed mid-way produces **no** output — never a
+> partial file (hence the temp-file-then-move pattern above).
 >
-> **Runtime is unpredictable and can be very long**: agentic reasoning effort
-> dominates, not file size. Small files (≲100 lines) usually finish in a minute or
-> two, but some moderate files trigger a pathologically long agentic loop — a
-> ~200-line / 19 KB timeline failed to finish within **30 min** on the high-effort
-> default. A faster variant (`ANTIGRAVITY_MODEL="Gemini 3.5 Flash (Low)"`) helps but
-> is not guaranteed. If a file keeps hitting `AGY_TIMEOUT`, **split it into smaller
-> chunks** (e.g. per `##` section), translate each, and concatenate — small inputs
-> are reliable. Reserve higher effort for content needing careful term lookups
-> (e.g. DSS-P skill names).
+> **Reliability**: Haiku translates faithfully and fast — a ~200-line / 19 KB
+> timeline completes in well under three minutes. If you ever hit a very large file
+> that approaches the timeout, split it by `##` section, translate each, and
+> concatenate.
 
 ### Step 5: Check Translation Status
 
@@ -256,6 +266,6 @@ After working, always report the following to the user:
 
 - **Do not change frontmatter key names.** Translate only the values.
 - **Do not translate code blocks, URLs, or component tags.**
-- The `write-translations` command generates only JSON (UI strings). Markdown translation is delegated to the Antigravity CLI via `call-agy-cli.py` (see Step 4).
+- The `write-translations` command generates only JSON (UI strings). Markdown translation is delegated to a headless Claude CLI (Haiku) via `translate.py` (see Step 4).
 - Before changing `docusaurus.config.js`, show the proposed changes to the user and get approval.
 - When there are many files (10 or more), confirm with the user before translating.

@@ -27,3 +27,19 @@ The contents must be in original Japanese.
 
 Create a markdown file with the above content and save it as `dss-p-extraction-jp.md` in the project root directory.
 Note that <br> is not accepted in MDX. Use <br /> instead.
+
+In addition, create a YAML file containing only the Japanese skill item names
+(the `スキル項目` column values, without the surrounding `**`) and save it as
+`dss-p-extraction-jp.yml` in the project root directory. Preserve the same
+hierarchy and order as the markdown, keying each category and sub-category so
+the items remain grouped under their section.
+
+<Example>
+
+```yaml
+3. テクノロジー:
+  3.1 ソフトウェア開発:
+    - コンピュータサイエンス
+```
+
+</Example>
