@@ -1,8 +1,5 @@
 ---
-name: dss-p-extraction
 description: DSS-P Skill Extraction Command
-version: 1.0.0
-disable-model-invocation: true
 ---
 
 When the user provides `dss_*_skills.pdf` and extract the skills, read it and do the followings.

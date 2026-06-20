@@ -43,7 +43,7 @@ GitLab CI is configured in `.gitlab-ci.yml`. On non-default branches it runs `ma
 
 ## Branch Workflow
 
-Day-to-day work happens on the `draft` branch. Use the `release` skill to squash-merge `draft` onto `main` and push to remotes. The skill also syncs `main` back into `draft` afterward.
+Day-to-day work happens on the `draft` branch. Use the `/release` command to squash-merge `draft` onto `main` and push to remotes. The command also syncs `main` back into `draft` afterward.
 
 ## Skill Files
 
@@ -146,19 +146,24 @@ The digest markdown used for the mindmap is generated during the website build (
 
 ## Project Skills (`.claude/skills/`)
 
-The following user-invocable skills are available for maintaining this repository:
+The following model-invocable skills are available for maintaining this repository:
 
 - `insert-items` — Find the proper subsection and insert new skill items with verified URLs
 - `suggest-items-for` — Suggest missing items for a given subsection
 - `check-classification` — Review and suggest improvements to section classification
 - `check-end-of-life` — Check if listed software/services are still actively maintained
 - `research-timeline` — Research history and timeline events for a technology item
-- `release` — Merge `draft` onto `main` with squash commit and push to remotes
-- `dss-p-coverage` — Evaluate how much this site's skill list covers each DSS-P skill category
-- `dss-p-linkage` — Fill in "Relevant DSS-P Skills" admonition blocks for section level-2 headings
-- `dss-p-extraction` — Extract DSS-P skills from a PDF into a structured English markdown table
-- `dss-p-extraction-jp` — Same as above but preserving original Japanese
 - `docusaurus-i18n` — Handle i18n/translation workflow for the Docusaurus site
+
+## Project Commands (`.claude/commands/`)
+
+The following slash commands are user-invoked only (not auto-invoked by the model):
+
+- `/release` — Merge `draft` onto `main` with squash commit and push to remotes
+- `/dss-p-coverage` — Evaluate how much this site's skill list covers each DSS-P skill category
+- `/dss-p-linkage` — Fill in "Relevant DSS-P Skills" admonition blocks for section level-2 headings
+- `/dss-p-extraction` — Extract DSS-P skills from a PDF into a structured English markdown table
+- `/dss-p-extraction-jp` — Same as above but preserving original Japanese
 
 ## AI Prompts (`prompts/`)
 

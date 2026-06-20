@@ -1,6 +1,6 @@
 = DX Skill Landscape & Timeline - {pdfdate}
 Hajime Yoshida <jimyoshida@dummy.com>
-:pdfdate: 2026-03-09
+:pdfdate: {docdate}
 :doctype: article
 :toc: macro
 :toclevels: 3
@@ -42,6 +42,10 @@ include::tmp/docs/timelines/1985-99.adoc[]
 
 include::tmp/docs/timelines/2000-09.adoc[]
 
-include::tmp/docs/timelines/2010-19.adoc[]
+include::tmp/docs/timelines/2010-14.adoc[]
 
-include::tmp/docs/timelines/2020-present.adoc[]
+include::tmp/docs/timelines/2015-19.adoc[]
+
+include::tmp/docs/timelines/2020-24.adoc[]
+
+include::tmp/docs/timelines/2025-present.adoc[]

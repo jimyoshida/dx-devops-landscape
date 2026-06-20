@@ -133,9 +133,11 @@
 :::
 
 * Linguistics Foundations
+  * [Computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics) - An interdisciplinary field concerned with the computational modelling of natural language, as well as the study of appropriate computational approaches to linguistic questions
   * [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) - The study of words, how they are formed, and their relationship to other words in the same language
   * [Syntax](https://en.wikipedia.org/wiki/Syntax) - A linguistic field that is the study of how words and morphemes combine to form larger units like phrases and sentences
   * [Semantics](https://en.wikipedia.org/wiki/Semantics) - The study of linguistic meaning, examining how words acquire meaning and how complex expressions derive meaning from their constituent parts
+  * [Distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics) - A research area that develops and studies theories and methods for quantifying and categorizing semantic similarities between linguistic items based on their distributional properties in large samples of language data
   * [Symbol grounding problem](https://en.wikipedia.org/wiki/Symbol_grounding_problem) - The challenge of connecting abstract symbols to the real-world objects or concepts they represent
 
 ### Concepts & Vector Representations

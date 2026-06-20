@@ -2,18 +2,6 @@
 
 Translate the given Docusaurus Markdown file into Japanese, following these rules.
 
-Wrap the final translated Markdown between these exact marker lines, each on its
-own line, with nothing after the closing marker:
-
-```
-===TRANSLATION-BEGIN===
-<translated markdown here>
-===TRANSLATION-END===
-```
-
-Put no preamble or commentary between the markers — only the translated Markdown
-itself, and do not wrap that Markdown in an outer code fence.
-
 1. **Preserve the frontmatter** — keep key names like `title:`, `sidebar_label:`, `id:` as-is. Translate only the values.
 2. **Do not translate code blocks** — leave anything enclosed in ` ``` ` untouched.
 3. **Do not change URLs or paths** — leave link hrefs and image paths as-is.

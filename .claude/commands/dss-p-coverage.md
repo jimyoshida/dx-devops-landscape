@@ -1,8 +1,5 @@
 ---
-name: dss-p-coverage
 description: DSS-P Skill Coverage Check Command
-version: 1.0.0
-disable-model-invocation: true
 ---
 
 For each DSS-P skill category in `website\docs\dss-p-v2-skills.md`, evaluate how much this site's skill list covers the category.

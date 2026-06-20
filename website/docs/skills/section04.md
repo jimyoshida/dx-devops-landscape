@@ -24,11 +24,11 @@
 * [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - A type of Trojan horse designed to gather information from a system
 * [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - A malware that turns networked devices running Linux into remotely controlled bots that can be used as part of a botnet in large-scale network attacks
 * [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - A social engineering technique that tricks users into running malicious commands on their devices by taking advantage of their target's tendency to solve minor technical issues
+* [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 
 ### Modern Security Architectures
 
 * [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - An approach to the design and implementation of IT systems where trust is never granted implicitly and verification is required for everyone
-* [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication) - A process in which both parties in a communications link authenticate each other
 
 ### Security Training & Competitions
 
@@ -59,6 +59,7 @@
 * [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) - Algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext
 * Block Cipher
   * [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) - A specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001
+* Stream Cipher
   * [Salsa20 ChaCha](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant) - A variant of Salsa20 that increases the diffusion per round while achieving the same or slightly better performance
 * MAC (Message Authentication Code)
   * [HMAC](https://en.wikipedia.org/wiki/HMAC) - A specific type of message authentication code (MAC) involving a cryptographic hash function and a secret cryptographic key
@@ -108,10 +109,10 @@
 * [Let's Encrypt](https://letsencrypt.org/) - A nonprofit Certificate Authority providing TLS certificates
   * [certbot](https://certbot.eff.org/) - A free, open source software tool for automatically using Let's Encrypt certificates on manually-administrated websites to enable HTTPS
   * [lego](https://go-acme.github.io/lego/) - A Let's Encrypt client and ACME library written in Go
-  * [cfssl](https://github.com/cloudflare/cfssl#readme) - Cloudflare's PKI toolkit
 * [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) - A communications protocol for automating interactions between certificate authorities and their users' web servers
 * [mkcert.org](https://mkcert.org/) - A simple tool for making locally-trusted development certificates
 * [cert-manager](https://cert-manager.io) - A powerful and extensible X.509 certificate controller for Kubernetes and OpenShift
+* [cfssl](https://github.com/cloudflare/cfssl#readme) - Cloudflare's PKI toolkit
 
 ### Secrets Management
 
@@ -183,7 +184,9 @@
 ### Authentication (AuthN)
 
 * [Authentication](https://en.wikipedia.org/wiki/Authentication) - The act of proving an assertion, such as the identity of a computer system user
+* [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication) - A process in which both parties in a communications link authenticate each other
 * [Multi-factor authentication (MFA)](https://en.wikipedia.org/wiki/Multi-factor_authentication) - A method that requires multiple verification methods for access
+* [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A security protocol designed to be an additional security layer for online credit and debit card transactions
 * [Single sign-on (SSO)](https://en.wikipedia.org/wiki/Single_sign-on) - A service that allows one login for multiple applications
 * Protocols & Standards
   * [OpenID Connect](https://openid.net/connect/) - A simple identity layer on top of the OAuth 2.0 protocol
@@ -269,6 +272,23 @@
   * [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) - A set of guidelines for the use of the C programming language in safety-critical embedded systems, originally developed for the automotive industry
   * [CERT Secure Coding Standards](https://en.wikipedia.org/wiki/CERT_Secure_Coding_Standards) - A collection of programming security guidelines for C, C++, Java, Perl, and other languages published by Carnegie Mellon's CERT
 
+### Web Application Security
+
+* Security Mechanisms & Policies
+  * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
+  * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
+  * [CSP (Content Security Policy)](https://content-security-policy.com/) - An added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks
+  * [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking
+  * [Cross-origin isolation](https://web.dev/articles/cross-origin-isolation-guide) - A web security feature that allows a web page to use powerful features like SharedArrayBuffer and performance.measureUserAgentSpecificMemory()
+* Common Vulnerabilities & Attacks
+  * [Cross-site request forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) - A type of malicious exploit of a website where unauthorized commands are submitted from a user that the web application trusts
+  * [Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) - A type of security vulnerability typically found in web applications
+  * [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding) - A type of attack that allows a malicious web page to bypass the same-origin policy by exploiting the Domain Name System
+  * [SSRF (Server-side request forgery)](https://en.wikipedia.org/wiki/Server-side_request_forgery) - A type of exploit where an attacker can abuse the functionality on the server to read or modify internal resources
+* Privacy & Transparency
+  * [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
+  * [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
+
 ### Application Security Testing (AST)
 
 * Static Analysis (SAST)
@@ -281,7 +301,6 @@
   * [ZAP](https://zaproxy.org/) - The world's most widely used web app scanner, free and open source, and a community based GitHub Top 1000 project that anyone can contribute to
   * [Nuclei](https://github.com/projectdiscovery/nuclei) - A fast and customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL
   * [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
-  * [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
 * Secret Detection
   * [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A tool that scans your repository's history for secrets
   * [Gitleaks](https://gitleaks.io/) - A SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
@@ -426,24 +445,6 @@
   * [ssh-audit](https://github.com/jtesta/ssh-audit) - A tool for SSH server & client configuration auditing
   * [keychain](https://www.funtoo.org/Funtoo:Keychain) - A manager for ssh-agent, typically started from ~/.bash_profile
 
-### Web Application Security
-
-* [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) - A security protocol designed to be an additional security layer for online credit and debit card transactions
-* Security Mechanisms & Policies
-  * [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
-  * [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
-  * [CSP (Content Security Policy)](https://content-security-policy.com/) - An added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks
-  * [HSTS (HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking
-  * [Cross-origin isolation](https://web.dev/articles/cross-origin-isolation-guide) - A web security feature that allows a web page to use powerful features like SharedArrayBuffer and performance.measureUserAgentSpecificMemory()
-* Common Vulnerabilities & Attacks
-  * [Cross-site request forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) - A type of malicious exploit of a website where unauthorized commands are submitted from a user that the web application trusts
-  * [Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) - A type of security vulnerability typically found in web applications
-  * [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding) - A type of attack that allows a malicious web page to bypass the same-origin policy by exploiting the Domain Name System
-  * [SSRF (Server-side request forgery)](https://en.wikipedia.org/wiki/Server-side_request_forgery) - A type of exploit where an attacker can abuse the functionality on the server to read or modify internal resources
-* Privacy & Transparency
-  * [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
-  * [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
-
 ### Firewalls & Network Protection
 
 * Web Application Firewall (WAF)
@@ -492,6 +493,7 @@
 
 ### AI Governance & Security
 
+* [ISO/IEC 42001](https://www.iso.org/standard/42001) - The world's first AI management system standard, specifying requirements for establishing, implementing, maintaining and continually improving an Artificial Intelligence Management System (AIMS) within organizations
 * [METR](https://metr.org/) - A research nonprofit that scientifically measures whether and when AI systems might threaten catastrophic harm to society
 * [Microsoft Agent 365](https://www.microsoft.com/en-us/microsoft-agent-365) - A centralized governance and management platform designed to oversee autonomous AI agents within an enterprise environment
 
@@ -507,7 +509,7 @@
 * Security & Privacy Frameworks
   * [NIST SP 800-53](https://en.wikipedia.org/wiki/NIST_Special_Publication_800-53) - A catalog of security and privacy controls for all U.S. federal information systems except those related to national security
   * [OSCAL](https://pages.nist.gov/OSCAL/) - The Open Security Controls Assessment Language, a NIST-led initiative that provides open, machine-readable formats (XML, JSON, YAML) to automate security and compliance processes
-  * [ISO/IEC 27001 / 27002](https://en.wikipedia.org/wiki/ISO/IEC_27001) - The international standard for information security management systems
+  * [ISO/IEC 27001](https://www.iso.org/standard/27001) - The international standard for information security management systems
 * Industry & Audit Standards
   * [PCI-DSS](https://www.pcisecuritystandards.org/document_library/) - The global standard for payment card data security
   * [SOC 2](https://soc2.co.uk/) - A voluntary compliance standard for service organizations which specifies how organizations should manage customer data
@@ -515,6 +517,7 @@
 * Hardening & Implementation Guides
   * [Security Technical Implementation Guides (STIGs)](https://www.cyber.mil/stigs/) - The configuration standards for DOD IA and IA-enabled devices/systems
   * [CIS Controls and Benchmarks](https://www.cisecurity.org/) - A publication of best practice guidelines for computer security
+  * [NIST SP 800-190](https://csrc.nist.gov/pubs/sp/800/190/final) - The Application Container Security Guide, which explains the potential security concerns associated with the use of containers and provides recommendations for addressing these concerns
 
 ### Vulnerability Management & Reporting
 

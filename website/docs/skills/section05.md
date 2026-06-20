@@ -378,6 +378,7 @@
   * [Azure SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/) - An intelligent, scalable, relational database service built for the cloud
   * [Google Cloud SQL](https://cloud.google.com/sql) - A fully-managed database service that helps you set up, maintain, manage, and administer your relational databases on Google Cloud
   * [Neon](https://neon.tech/) - A serverless, fault-tolerant, and scalable Postgres with a generous free tier
+  * [Turso](https://turso.tech/) - A SQLite-compatible database built on a ground-up rewrite of SQLite, lightweight enough to multiply and fast enough to run anywhere
 
 ### Connectivity & Tooling
 
@@ -388,6 +389,7 @@
     * [Jdbi](https://jdbi.org/) - A library that provides a more idiomatic way to use the Java Database Connectivity API
   * [Object-Relational Mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) - A programming technique for converting data between incompatible type systems using object-oriented programming languages
     * [Prisma](https://www.prisma.io/) - A next-generation ORM that makes it easy to build reliable and scalable applications with databases
+    * [Drizzle ORM](https://orm.drizzle.team/) - A lightweight and performant TypeScript ORM with developer experience in mind
     * [Hibernate](https://hibernate.org/orm/) - An object-relational mapping tool for the Java programming language
     * [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL
     * [GORM](https://gorm.io/) - The fantastic ORM library for Golang aims to be developer friendly

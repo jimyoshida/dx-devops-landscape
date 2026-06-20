@@ -1,8 +1,5 @@
 ---
-name: dss-p-linkage
 description: DSS-P Skill Linkage Command
-version: 1.0.0
-disable-model-invocation: true
 ---
 
 For each section file's level 2 heading, list the relevant DSS-P skills in the "Relevant DSS-P Skills" block section.

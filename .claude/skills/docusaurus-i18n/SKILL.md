@@ -15,9 +15,10 @@ Supports the translation workflow for Markdown documents using the i18n feature 
 **Primarily intended for use via a VSCode extension (GitHub Copilot Chat, etc.)**.
 
 To save the main session's token usage, the actual Markdown translation is delegated
-to a separate headless Claude Code CLI process running a cheap model (Haiku) via the
-`translate.py` helper script — Claude only issues the command and places the output
-at the correct i18n path, rather than translating the document body itself.
+to the `docusaurus-translator` subagent, which runs on a cheap model (Haiku) in its
+own context. The subagent reads the source file and the rules itself and writes the
+translation directly to the correct i18n path — Claude only computes the `SRC`/`DST`
+paths and launches the agent, rather than translating the document body itself.
 
 ---
 
@@ -94,7 +95,7 @@ This command automatically generates JSON files under `i18n/ja/`.
 
 ### Step 4: Translate and Save the Markdown
 
-**A headless Claude CLI (Haiku) translates the Markdown; Claude runs the script and writes the output to the correct path.**
+**The `docusaurus-translator` subagent (Haiku) translates the Markdown and writes it to the correct path; Claude only computes the paths and launches the agent.**
 
 #### Identifying the Target Locale
 
@@ -118,76 +119,44 @@ If unspecified, either target all files under `docs/`, or confirm with the user.
 
 The translation rules (preserve frontmatter keys, leave code blocks / URLs / MDX
 props / admonition labels untouched, use the official DSS-P Japanese names, etc.)
-live in `.claude/skills/docusaurus-i18n/translation-rules.md`. The headless CLI reads
+live in `.claude/skills/docusaurus-i18n/translation-rules.md`. The subagent reads
 that file directly, so Claude does not need to re-state the rules.
 
 #### Translating and Writing Out the File
 
-Delegate the translation to a headless Claude CLI via `translate.py` and redirect
-its stdout to the target i18n path. The script prints **only** the translated
-Markdown to stdout (diagnostics, including the echoed command, go to stderr), so it
-can be piped straight to a file. The rules file asks the model to wrap its answer in
-marker lines, and the script emits only the text between them — discarding any
-preamble or outer ```` ``` ```` fence the model occasionally adds.
+For each file, compute its `SRC` and `DST` paths (see the table above), then launch
+the **`docusaurus-translator`** subagent (Task tool, `subagent_type:
+docusaurus-translator`). The agent runs on Haiku in its own context, reads `SRC` and
+the rules file, and writes the translated Markdown directly to `DST`, returning only
+a one-line confirmation. Pass the **absolute** `SRC` and `DST` paths in the prompt,
+for example:
 
-One-time setup of the script's virtualenv (provides `python-dotenv` and `colorama`):
-
-```bash
-SKILL_DIR=.claude/skills/docusaurus-i18n
-python3 -m venv "$SKILL_DIR/.venv"
-"$SKILL_DIR/.venv/bin/pip" install python-dotenv colorama
+```
+Translate this Docusaurus document to Japanese.
+SRC: /abs/path/website/docs/intro.md
+DST: /abs/path/website/i18n/ja/docusaurus-plugin-content-docs/current/intro.md
 ```
 
-**Always run the command in the foreground and wait for it to finish.** Do **not**
-launch it as a background task. Background tasks in this environment commit their
-stdout and file writes *lazily and asynchronously* — the "completed" notification can
-fire while the output buffer is still empty and the destination file has not yet
-landed, which looks exactly like a failure. Acting on that false signal leads to
-spurious reruns; spawning overlapping reruns (or deleting their temp files mid-flight)
-then causes real failures. Running in the foreground makes the write happen in the
-same context you verify from, with no commit lag. Haiku is fast enough that even a
-~450-line file finishes well within the foreground timeout. If a file is genuinely
-too large, split it by `##` section (see *Reliability* below) — keep each chunk in
-the foreground.
-
-Then, for each file. **Write to a temporary file first and move it into place only
-on success** — a timeout or error otherwise leaves an empty redirect target, which
-would wipe a previously translated file:
-
-```bash
-SKILL_DIR=.claude/skills/docusaurus-i18n
-SRC=website/docs/intro.md
-DST=website/i18n/ja/docusaurus-plugin-content-docs/current/intro.md
-TMP=$(mktemp)
-
-if "$SKILL_DIR/.venv/bin/python" "$SKILL_DIR/translate.py" \
-     "Read the translation rules at $PWD/$SKILL_DIR/translation-rules.md and apply them to the markdown file at $PWD/$SRC. Output only the translated markdown." \
-     > "$TMP" && [ -s "$TMP" ] && ! grep -q 'TRANSLATION-BEGIN' "$TMP"; then
-  mkdir -p "$(dirname "$DST")"
-  mv "$TMP" "$DST"
-else
-  echo "Translation failed or empty; leaving $DST untouched." >&2
-  rm -f "$TMP"
-fi
-```
+Translate **one file per agent invocation**. You may launch several invocations in a
+single turn to translate files in parallel; each writes its own `DST`, so they do not
+interfere.
 
 > **Token savings**: the document body never passes through the main session — the
-> headless CLI reads the source file and the rules file itself and emits the
-> translation. Claude's job is only to compute the correct `SRC`/`DST` paths and run
-> the command.
+> subagent reads the source file and the rules file itself and writes the
+> translation. Claude's job is only to compute the correct `SRC`/`DST` paths and
+> launch the agent.
 >
-> **Model / binary override**: set `TRANSLATE_MODEL` (a `claude --model` alias or
-> full name; default `haiku`) or `CLAUDE_CLI` if the `claude` binary is not on `PATH`.
+> **Model override**: the model is pinned to `haiku` in the agent's frontmatter
+> (`.claude/agents/docusaurus-translator.md`). Change it there, or pass a `model`
+> override on the Task call, to use a different model.
 >
-> **Timeout**: the script aborts the CLI after `TRANSLATE_TIMEOUT` seconds
-> (default 600) and reports a clear message. In `-p` mode `claude` emits its answer
-> only at the very end, so a run killed mid-way produces **no** output — never a
-> partial file (hence the temp-file-then-move pattern above).
+> **No partial writes**: the agent writes `DST` only after it has the complete
+> translation, so a failed or interrupted run leaves any existing `DST` untouched —
+> there is no temp-file-then-move dance to manage.
 >
-> **Reliability**: Haiku translates faithfully and fast — a ~200-line / 19 KB
-> timeline completes in well under three minutes. If you ever hit a very large file
-> that approaches the timeout, split it by `##` section, translate each, and
-> concatenate.
+> **Reliability**: Haiku translates faithfully and fast. If you ever hit a very large
+> file that risks the agent's timeout, split it by `##` section, translate each
+> chunk in its own invocation, and concatenate the results.
 
 ### Step 5: Check Translation Status
 
@@ -266,6 +235,6 @@ After working, always report the following to the user:
 
 - **Do not change frontmatter key names.** Translate only the values.
 - **Do not translate code blocks, URLs, or component tags.**
-- The `write-translations` command generates only JSON (UI strings). Markdown translation is delegated to a headless Claude CLI (Haiku) via `translate.py` (see Step 4).
+- The `write-translations` command generates only JSON (UI strings). Markdown translation is delegated to the `docusaurus-translator` subagent (Haiku) (see Step 4).
 - Before changing `docusaurus.config.js`, show the proposed changes to the user and get approval.
 - When there are many files (10 or more), confirm with the user before translating.

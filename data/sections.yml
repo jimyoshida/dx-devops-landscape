@@ -117,6 +117,7 @@ section04: Security & Privacy
   # Secure Development Lifecycle (DevSecOps)
     # Secure Design & Modeling
     # Secure Development Practices
+    # Web Application Security
     # Application Security Testing (AST)
     # Infrastructure as Code (IaC) Security
     # Software Supply Chain Security (SSCS)
@@ -128,7 +129,6 @@ section04: Security & Privacy
   # Secure Communications & Networking
     # Transport Layer Security (TLS)
     # Secure Shell (SSH)
-    # Web Application Security
     # Firewalls & Network Protection
     # Email & DNS Security
   # Governance, Risk, and Compliance (GRC)

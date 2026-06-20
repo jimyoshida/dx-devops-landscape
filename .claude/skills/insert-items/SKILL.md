@@ -6,8 +6,15 @@ version: 1.0.0
 
 # Insert new items into the proper sections
 
-For each skill/concept/tool/platform item provided or inferred from context, find the most proper website URL. That site must be verified.
-And find its most proper subsection of the skill set (e.g., section03.md -> Cloud-Native Computing > Cloud-Native Infrastructure).
-You may create a new subsection if there is no proper one for the item.
-Then insert the new Markdown hyperlink element based on the document convention in the subsection.
-Explain why the subsection is selected for the item.
+For each skill/concept/tool/platform item provided or inferred from context:
+
+1. Find its most proper website URL — the item's own project/product home or its English Wikipedia article — and verify the site is reachable.
+2. Find its most proper subsection of the skill set (e.g., `section03.md` -> Cloud-Native Computing > Cloud-Native Infrastructure). Create a new subsection only when no existing one fits, and never use a generic title like "Libraries" or "Cloud Services" (use a grouping item instead).
+3. Insert the item, then explain why that subsection was selected.
+
+Format each item to match the document convention:
+
+- A Markdown link whose label is the concise linked website title, followed by ` - ` and an abstract description.
+- Quote the description from the linked site as much as possible; start it with "A" or "The", omit the trailing period, and do not repeat the item name in it.
+
+Keep the markup clean per markdownlint: no duplicate headings (MD024), blank lines around lists (MD032), and a single trailing newline (MD047).

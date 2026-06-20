@@ -303,6 +303,7 @@
 * Hook Management
   * [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks
   * [Lefthook](https://lefthook.dev/) - A fast, polyglot Git hooks manager for any type of project
+  * [Husky](https://typicode.github.io/husky/) - Ultra-fast modern native git hooks
 
 ### Git Hosting Services
 
@@ -509,6 +510,7 @@
 * Context Providers
   * [Context7](https://context7.com/) - An AI agent and tool designed to provide up-to-date documentation for LLMs and AI code editors
   * [LeanCTX](https://leanctx.com/) - An open-source context compression tool that reduces AI coding assistant token usage by compressing file reads and shell output by up to 99%, working with 29+ AI tools like Cursor and Claude Code
+  * [Context Mode](https://github.com/mksglu/context-mode) - Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction
 * Semantic Code Retrieval
   * [Serena](https://github.com/oraios/serena) - A powerful coding agent toolkit providing semantic retrieval and editing capabilities
 * Session Tracking
