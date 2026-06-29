@@ -16,7 +16,7 @@
   * [Gantt Chart](https://en.wikipedia.org/wiki/Gantt_chart) - A bar chart illustrating a project schedule, displaying tasks on the vertical axis and time intervals on the horizontal axis, with bar widths indicating activity durations and often showing task dependencies
   * [Program evaluation and review technique (PERT)](https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique) - A statistical tool used in project management to analyze and represent the tasks involved in completing a project
   * [Work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) - A deliverable-oriented breakdown of a project into smaller components
-  * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix (RAM)... describes the participation by various roles in completing tasks or deliverables for a project or business process
+  * [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) - A responsibility assignment matrix that describes the participation by various roles in completing tasks or deliverables for a project or business process
     * Responsible, Accountable, Consulted, Informed
   * [Software development effort estimation](https://en.wikipedia.org/wiki/Software_development_effort_estimation) - The process of predicting the most realistic amount of effort (expressed in terms of person-hours or money) required to develop or maintain software based on incomplete, uncertain and noisy input
     * [Hofstadter's law](https://en.wikipedia.org/wiki/Hofstadter%27s_law) - A self-referential adage about the difficulty of accurately estimating the time required to complete complex tasks
@@ -31,31 +31,33 @@
   * [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
   * [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
 
-### Tools
+### Work & Issue Tracking
 
-* Issue Tracking & Project Management
+* Issue Tracking & Task Boards
   * [Jira](https://www.atlassian.com/software/jira) - A software application used for issue tracking and project management that helps teams plan, assign, track, report, and manage work
     * [JiraCLI](https://github.com/ankitpokhrel/jira-cli) - An interactive command line tool for Atlassian Jira that will help you avoid Jira UI to some extent
-  * [Asana](https://asana.com/) - The platform for human and AI collaboration that helps teams coordinate work and keep projects moving
-  * [Notion](https://www.notion.so/) - An all-in-one workspace for notes, docs, wikis, projects, and collaboration that combines knowledge management with task and project tracking
-  * [Trello](https://trello.com/) - A visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards to organize tasks
-  * [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
+  * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
   * [Fizzy](https://www.fizzy.do/) - A modern spin on kanban for tracking anything such as bugs, issues, ideas, and small projects
   * [GitLab Issue Board](https://docs.gitlab.com/ee/user/project/issue_board.html) - A user interface that displays issues in columns that correspond to their workflow statuses
   * [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) - A feature that enables you to connect with users through email, without requiring them to have a GitLab account
   * [Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/) - A service that provides a customizable platform for managing work items, allowing teams to collaborate effectively and streamline their workflow
   * [GitHub Issues](https://github.com/features/issues) - A tracking tool that helps you manage your work on GitHub
   * [Redmine](https://www.redmine.org/) - A free and open source, web-based project management and issue tracking tool
+* Collaborative Work Management
+  * [Asana](https://asana.com/) - The platform for human and AI collaboration that helps teams coordinate work and keep projects moving
+  * [monday.com](https://monday.com/) - A secure work platform where people and agents drive results together across departments and use cases
+  * [ClickUp](https://clickup.com/) - An all-in-one productivity platform that brings apps, AI, projects, and chat together to replace all software
+  * [Trello](https://trello.com/) - A visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards to organize tasks
+  * [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
 
-* Team Collaboration & Communication
+### Team Collaboration
+
+* Messaging & Meetings
   * [Slack](https://slack.com/) - A cloud-based team collaboration platform that brings conversations, tools, and files together in one place
   * [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) - A collaboration platform that combines workplace chat, meetings, file storage, and application integration
   * [Discord](https://discord.com/) - A voice, video, and text communication service used by communities, friend groups, and businesses to stay connected
   * [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
   * [Zoom](https://zoom.us/) - A video communications platform that provides video meetings, voice calls, webinars, and chat
-  * [Twilio](https://www.twilio.com/) - A customer engagement platform that provides programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions
-  * [Dropbox](https://www.dropbox.com/) - A file hosting service that offers cloud storage, file synchronization, personal cloud, and client software
-  * [Box](https://www.box.com/) - An enterprise cloud content management platform that enables organizations to securely manage and share content while collaborating with internal and external users
 
 ### Standards & Maturity
 
@@ -86,15 +88,6 @@
   * [Subscription business model](https://en.wikipedia.org/wiki/Subscription_business_model) - A business model in which a customer must pay a recurring price at regular intervals for access to a product or service
   * [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
   * [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas) - A one-page business modeling tool for entrepreneurs to quickly outline their business idea
-* [IT service management](https://en.wikipedia.org/wiki/IT_service_management) - The activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers
-* Tools
-  * [Linear](https://linear.app/) - A purposeful tool for product development, featuring issues, cycles, and product roadmaps
-  * [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
-  * [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
-  * [Gamma](https://gamma.app/) - A new medium for presenting ideas, powered by AI
-* Related Standards
-  * [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
-  * [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
 
 ### Requirements Analysis
 
@@ -114,13 +107,6 @@
   * [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
   * [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out) - The feeling of apprehension that one is either not in the know about or missing out on information, events, experiences, or life decisions that could make one's life better
   * [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) - A manipulative propaganda tactic used in sales, marketing, public relations, politics, polling, and cults
-  * Tag management
-    * [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) - A tag management system that allows you to quickly and easily update measurement codes and related code fragments known as tags on your website or mobile app
-  * Analytics tools
-    * [Google Analytics](https://developers.google.com/analytics) - The go-to platform for millions of website and app owners seeking to gain a deeper understanding of their website and app performance
-    * [Plausible](https://plausible.io/) - Intuitive, lightweight and open source web analytics
-    * [Umami](https://umami.is/) - A simple, fast, privacy-focused alternative to Google Analytics
-    * [Ackee](https://ackee.electerious.com/) - Self-hosted, privacy-focused analytics tool for those who care about privacy
   * User experience research
     * [Card sorting](https://en.wikipedia.org/wiki/Card_sorting) - A method used to help design or evaluate the information architecture of a site
     * [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) - A way to compare multiple versions of a single variable, for example by testing a subject's response to variant A against variant B, and determining which of the variants is more effective
@@ -129,16 +115,6 @@
     * Indicators
       * [Click through rate](https://en.wikipedia.org/wiki/Click-through_rate) - The ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement
       * [Conversion rate](https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate) - The percentage of users who take a desired action
-    * Platforms
-      * [Google Ads](https://ads.google.com/home/) - An online advertising platform where advertisers bid to display brief advertisements, service offerings, product listings, or videos to web users
-      * [Google AdSence](https://adsense.google.com/start/) - A program run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience
-  * Experiment platform
-    * [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
-  * Email Distribution & Marketing
-    * [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
-    * [Mailchimp](https://mailchimp.com/) - An all-in-one marketing platform for small businesses that helps manage and talk to clients, customers, and audiences with email marketing
-    * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
-    * [BillionMail](https://www.billionmail.com/) - An open-source MailServer and email marketing solution that is fully self-hosted and dev-friendly
   * Concepts and Frameworks
     * [Brand](https://en.wikipedia.org/wiki/Brand) - A name, term, design, symbol or any other feature that distinguishes one seller's goods or service from those of other sellers
     * [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - A customer's cognitive, emotional, sensory, and behavioral responses during all stages of interaction with a product or service
@@ -153,6 +129,37 @@
     * [Affinity diagram](https://en.wikipedia.org/wiki/Affinity_diagram) - A business tool used to organize ideas and data
     * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) - A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members
     * [SCAMPER](https://en.wikipedia.org/wiki/SCAMPER) - A structured way of assisting students to think out of the box and enhance their knowledge
+
+### Marketing Technology
+
+* Tag Management
+  * [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) - A tag management system that allows you to quickly and easily update measurement codes and related code fragments known as tags on your website or mobile app
+* Web Analytics
+  * [Google Analytics](https://developers.google.com/analytics) - The go-to platform for millions of website and app owners seeking to gain a deeper understanding of their website and app performance
+  * [Plausible](https://plausible.io/) - Intuitive, lightweight and open source web analytics
+  * [Umami](https://umami.is/) - A simple, fast, privacy-focused alternative to Google Analytics
+  * [Ackee](https://ackee.electerious.com/) - Self-hosted, privacy-focused analytics tool for those who care about privacy
+* Advertising Platforms
+  * [Google Ads](https://ads.google.com/home/) - An online advertising platform where advertisers bid to display brief advertisements, service offerings, product listings, or videos to web users
+  * [Google AdSence](https://adsense.google.com/start/) - A program run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience
+* Experimentation & Optimization
+  * [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
+* Email Marketing & Delivery
+  * [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
+  * [Mailchimp](https://mailchimp.com/) - An all-in-one marketing platform for small businesses that helps manage and talk to clients, customers, and audiences with email marketing
+  * [listmonk](https://listmonk.app/) - Self-hosted newsletter and mailing list manager
+  * [BillionMail](https://www.billionmail.com/) - An open-source MailServer and email marketing solution that is fully self-hosted and dev-friendly
+
+### Product Roadmapping
+
+* [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+
+### IT Service Management
+
+* [IT service management](https://en.wikipedia.org/wiki/IT_service_management) - The activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers
+* [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
+* [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
+* [ITIL (Information Technology Infrastructure Library)](https://en.wikipedia.org/wiki/ITIL) - A set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business
 
 ## Metrics & Performance
 
@@ -252,10 +259,38 @@
   * [Financial risk management](https://en.wikipedia.org/wiki/Financial_risk_management) - The practice of protecting economic value in a firm by managing exposure to financial risk - principally credit risk and market risk, as well as some aspects of operational risk
   * [ISO 31000 (Risk management)](https://en.wikipedia.org/wiki/ISO_31000) - A set of international standards for risk management that provides a consistent vocabulary and methodology for assessing and managing risk
 
+### Knowledge Management
+
+* Personal Knowledge Management
+  * [Obsidian](https://obsidian.md/) - A free and flexible application for private thoughts, allowing users to store notes on their device, connect ideas, and organize knowledge with a customizable interface through plugins and themes
+  * [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) - A system of note-taking and personal knowledge management for research, study, and writing, consisting of small, interconnected items of information stored on slips or cards
+  * [Memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking tool built for quick capture that is markdown-native and lightweight
+* Collaborative Knowledge Management
+  * [Notion](https://www.notion.so/) - An all-in-one workspace for notes, docs, wikis, projects, and collaboration that combines knowledge management with task and project tracking
+  * [Coda](https://coda.io/) - An all-in-one collaborative workspace that brings teams and tools together for a more organized work day
+  * [Confluence](https://www.atlassian.com/software/confluence) - One place for all your ideas, docs, knowledge, and teammates
+* Feed Aggregation
+  * [FreshRSS](https://freshrss.org/index.html) - A free, self-hostable aggregator for RSS and Atom feeds
+* Content Management Systems (CMS)
+  * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
+  * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
+  * [Drupal](https://www.drupal.org/) - A free and open-source web content management system written in PHP and distributed under the GNU General Public License
+* Content Collaboration & File Sync
+  * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - A web-based collaboration and document management platform that enables organizations to securely store, share, and manage content
+  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
+  * [Box](https://www.box.com/) - An enterprise cloud content management platform that enables organizations to securely manage and share content while collaborating with internal and external users
+  * [Dropbox](https://www.dropbox.com/) - A file hosting service that offers cloud storage, file synchronization, personal cloud, and client software
+* Wiki Systems
+  * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
+  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
+  * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
+  * [Outline](https://www.getoutline.com/) - The knowledge base platform that helps teams organize documents, collaborate in real-time, and search across their workspace with AI-powered question answering
+
 ## Enterprise AI & Productivity
 
 :::note[Relevant DSS-P Skills]
 
+- 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Understanding and Utilization of Data and AI
 - 2\. Data Preparation & Utilization > 2\.1 Strategic Utilization of Data and AI > Data / AI Utilization Strategy Design
 
 :::
@@ -282,6 +317,10 @@
 
 * [Dify](https://dify.ai/) - An open-source LLM app development platform
 * [OpenWebUI](https://openwebui.com/) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline
+
+### AI Content & Document Generation
+
+* [Gamma](https://gamma.app/) - A new medium for presenting ideas, powered by AI
 
 ### AI Agent Registries
 
@@ -314,6 +353,8 @@
 * Prototyping
   * [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
   * [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
+* User Research Methodologies
+  * [Extreme users](https://en.wikipedia.org/wiki/Extreme_users) - A user-centered design methodology that focuses on studying users at the extremes of the usage spectrum to inform design solutions that benefit both edge cases and typical users
 
 ### Cognitive & Behavioral Psychology
 

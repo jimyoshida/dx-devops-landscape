@@ -2,12 +2,16 @@ section01: Business Transformation
   # Project Management
     # Project Planning & Estimation
     # Prioritization
-    # Tools
+    # Work & Issue Tracking
+    # Team Collaboration
     # Standards & Maturity
   # Product Management
     # Product Strategy
     # Requirements Analysis
     # Marketing & Customer Experience
+    # Marketing Technology
+    # Product Roadmapping
+    # IT Service Management
   # Metrics & Performance
     # Goal Setting Frameworks
     # Performance Measurement
@@ -15,10 +19,12 @@ section01: Business Transformation
     # Enterprise Architecture & Administration
     # Strategic Management
     # Risk Management
+    # Knowledge Management
   # Enterprise AI & Productivity
     # General Autonomous Agents
     # Enterprise AI Assistants
     # Self-Hosted AI Platforms
+    # AI Content & Document Generation
     # AI Agent Registries
   # Human-Centered Design
     # Core Principles & User Experience (UX)
@@ -419,8 +425,7 @@ section12: Personal Skills
     # Foundational Concepts
     # Logical Systems
     # Branches of Mathematical Logic
-  # Documentation & Knowledge Management
-    # Knowledge Management
+  # Documentation
     # Architectural Documentation
     # Lightweight Markup & Writing Styles
     # Documentation Tooling

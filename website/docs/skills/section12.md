@@ -92,7 +92,7 @@
   * [P](https://p-org.github.io/P/) - A state machine based programming language for formally modeling and specifying complex distributed systems
   * [Lean](https://leanprover.github.io/) - An interactive theorem prover and programming language based on the Calculus of Constructions
 
-## Documentation & Knowledge Management
+## Documentation
 
 :::note[Relevant DSS-P Skills]
 
@@ -103,25 +103,6 @@
 
 * [Technical writing](https://en.wikipedia.org/wiki/Technical_writing) - A type of writing where the author is writing about a particular subject that requires direction, instruction, or explanation
 * [Divio Documentation System](https://docs.divio.com/documentation-system/) - A framework that proposes that all documentation should be explicitly structured according to its purpose, into four distinct types: tutorials, how-to guides, technical reference and explanation
-
-### Knowledge Management
-
-* Personal Knowledge Management
-  * [Obsidian](https://obsidian.md/) - A free and flexible application for private thoughts, allowing users to store notes on their device, connect ideas, and organize knowledge with a customizable interface through plugins and themes
-  * [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) - A system of note-taking and personal knowledge management for research, study, and writing, consisting of small, interconnected items of information stored on slips or cards
-  * [Memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking tool built for quick capture that is markdown-native and lightweight
-* Feed Aggregation
-  * [FreshRSS](https://freshrss.org/index.html) - A free, self-hostable aggregator for RSS and Atom feeds
-* Content Management Systems (CMS)
-  * [Content management system](https://en.wikipedia.org/wiki/Content_management_system) - A computer software used to manage the creation and modification of digital content
-  * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - A web-based collaboration and document management platform that enables organizations to securely store, share, and manage content
-  * [Nextcloud](https://nextcloud.com/) - The industry-leading, fully open-source, on-premise content collaboration platform
-  * [WordPress](https://wordpress.org/) - A free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS
-* Wiki Systems
-  * [Wiki software](https://en.wikipedia.org/wiki/Wiki_software) - A collaborative software that runs a wiki, which allows users to create and collaboratively edit pages or entries via a web browser
-  * [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) - A free and open-source wiki software
-  * [Ibis](https://ibis.wiki/) - A federated encyclopedia which uses the ActivityPub protocol, just like Mastodon or Lemmy
-  * [Outline](https://www.getoutline.com/) - The knowledge base platform that helps teams organize documents, collaborate in real-time, and search across their workspace with AI-powered question answering
 
 ### Architectural Documentation
 

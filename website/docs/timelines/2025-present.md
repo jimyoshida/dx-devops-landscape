@@ -14,6 +14,8 @@ sidebar_position: 7
 
 🧠 Devin 2.0 was released on April 3, 2025, introducing a new agent-native IDE experience that lets users run multiple parallel Devins, while cutting the starting price from $500 to $20 per month.
 
+☁️ Heroku Fir, the next generation of the Heroku platform built on cloud-native technologies including Cloud Native Buildpacks and native OpenTelemetry, became generally available on April 14, 2025.
+
 🧠 GitHub officially announced the rollout of the Agent Mode to all users on April 4, 2025, which included support for the Model Context Protocol (MCP) and the introduction of the Copilot code review agent.
 
 ☁️ On May 6, 2025, Grafana k6 v1.0.0 was released after 9 years of iteration and countless community contributions.
@@ -91,6 +93,8 @@ sidebar_position: 7
 🧠 Support for Anthropic's Claude models within the GitHub Copilot Agent and enhanced multi-agent session management were introduced in the January 2026 release (v1.109) of Visual Studio Code.
 
 🧠 GPT-5.3-Codex, a large language model by OpenAI focused on code generation, speed, and the ability to search repositories, run terminal commands, and debug code, was released on February 5, 2026. Positioned against Anthropic's Claude Opus 4.6 and reported to be 25% faster on technical benchmarks, it was initially available only to ChatGPT Pro subscribers.
+
+☁️ On February 6, 2026, Salesforce moved Heroku into sustaining engineering mode, ceasing new feature development and limiting the platform to maintenance, security patches, and stability fixes only.
 
 🧠 The February 2026 release (v1.110) of Visual Studio Code introduced "Agent Plugins," experimental "Agentic Browser Tools," and the ability for agents to share memory across different sessions for GitHub Copilot.
 

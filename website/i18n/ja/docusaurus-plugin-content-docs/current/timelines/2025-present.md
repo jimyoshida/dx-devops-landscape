@@ -14,6 +14,8 @@ sidebar_position: 7
 
 🧠 Devin 2.0 は 2025 年 4 月 3 日にリリースされ、複数の Devin を並列実行できる新しいエージェントネイティブ IDE 体験を導入するとともに、開始価格を月額 500 ドルから 20 ドルへ引き下げました。
 
+☁️ Cloud Native BuildpacksやネイティブOpenTelemetryなどのクラウドネイティブ技術で構築された次世代Herokuプラットフォーム、Heroku Firが2025年4月14日に一般提供を開始しました。
+
 🧠 GitHub は 2025 年 4 月 4 日にすべてのユーザーへの Agent Mode のロールアウトを公式に発表しました。Model Context Protocol（MCP）のサポートと Copilot コードレビューエージェントの導入が含まれていました。
 
 ☁️ 2025 年 5 月 6 日に、Grafana k6 v1.0.0 が 9 年間の反復と数え切れないコミュニティの貢献を経てリリースされました。
@@ -91,6 +93,8 @@ sidebar_position: 7
 🧠 Anthropic の Claude モデルの GitHub Copilot Agent 内でのサポートおよび強化されたマルチエージェントセッション管理は Visual Studio Code の 2026 年 1 月リリース（v1.109）で導入されました。
 
 🧠 GPT-5.3-Codex は、コード生成、速度、リポジトリ検索、ターミナルコマンドの実行、コードのデバッグに重点を置いた OpenAI の大規模言語モデルであり、2026 年 2 月 5 日にリリースされました。Anthropic の Claude Opus 4.6 に対抗するものと位置づけられ、技術ベンチマークで 25% 高速と報告され、当初は ChatGPT Pro 加入者のみに提供されました。
+
+☁️ 2026年2月6日、SalesforceはHerokuを維持エンジニアリングモードに移行し、新機能開発を停止してメンテナンス、セキュリティパッチ、安定性修正のみに限定しました。
 
 🧠 Visual Studio Code の 2026 年 2 月リリース（v1.110）では「Agent Plugins」、実験的な「Agentic Browser Tools」、および GitHub Copilot のエージェントが異なるセッション間でメモリを共有する機能が導入されました。
 
