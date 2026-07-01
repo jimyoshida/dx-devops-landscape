@@ -14,7 +14,7 @@ clean:
 
 pdf/tmp/%.adoc: %.md
 	mkdir -p $(@D)
-	perl pdf/rmemojis.pl < $< | pandoc --from=markdown-smart --to=asciidoc --wrap=none > $@
+	perl pdf/preprocess.pl < $< | pandoc --from=markdown-smart --to=asciidoc --wrap=none > $@
 
 # PDF Dest Files 
 ALLPDF := static/usr/docs/all.pdf

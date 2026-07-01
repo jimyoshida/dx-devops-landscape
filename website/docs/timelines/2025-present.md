@@ -14,6 +14,8 @@ sidebar_position: 7
 
 🧠 Devin 2.0 was released on April 3, 2025, introducing a new agent-native IDE experience that lets users run multiple parallel Devins, while cutting the starting price from $500 to $20 per month.
 
+🔐 GitHub unbundled GitHub Advanced Security on April 1, 2025, making it available as two standalone products: GitHub Secret Protection ($19/month per active committer) and GitHub Code Security ($30/month per active committer), broadening access to GitHub Team plan customers.
+
 ☁️ Heroku Fir, the next generation of the Heroku platform built on cloud-native technologies including Cloud Native Buildpacks and native OpenTelemetry, became generally available on April 14, 2025.
 
 🧠 GitHub officially announced the rollout of the Agent Mode to all users on April 4, 2025, which included support for the Model Context Protocol (MCP) and the introduction of the Copilot code review agent.
@@ -21,6 +23,8 @@ sidebar_position: 7
 ☁️ On May 6, 2025, Grafana k6 v1.0.0 was released after 9 years of iteration and countless community contributions.
 
 🧠 On May 17, 2025, GitHub announced the GitHub Copilot coding agent, a more autonomous mode of operation that can be assigned issues and open pull requests on a developer's behalf.
+
+🧠 At Microsoft Build 2025 on May 19, 2025, GitHub announced that GitHub Copilot now includes an asynchronous coding agent, embedded directly in GitHub and accessible from VS Code, which excels at low-to-medium complexity tasks by spinning up secure development environments powered by GitHub Actions.
 
 🧠 Claude Code, Anthropic's AI-powered command-line coding assistant, was first introduced as a beta research preview alongside Claude 3.7 Sonnet on February 24, 2025. It then became generally available on May 22, 2025.
 
@@ -48,6 +52,8 @@ sidebar_position: 7
 
 📊 PostgreSQL 18 was released on September 25, 2025, introducing asynchronous I/O (AIO) to significantly enhance the performance of concurrent I/O tasks.
 
+🖥️ GitHub Copilot CLI was announced as entering public preview on September 25, 2025, bringing the Copilot coding agent directly to the terminal with terminal-native development, GitHub integration, agentic capabilities, MCP-powered extensibility, and user control features.
+
 🧠 On September 29, 2025, Anthropic enhanced the tool with Claude Code v2.0, introducing checkpoints, a native VS Code extension, terminal UX improvements, and the Claude Agent SDK.
 
 🧠 Anthropic's Skills API (`anthropic-beta: skills-2025-10-02`) was officially introduced on October 2, 2025, providing a standardized way to package workflow instructions, executable code, and documentation into reusable capabilities for Claude via `SKILL.md` files.
@@ -68,8 +74,6 @@ sidebar_position: 7
 
 🧠 Support for the Model Context Protocol (MCP) within the Anthropic Skills framework was achieved on November 20, 2025, allowing skills to seamlessly interact with external tools and data sources via standardized MCP servers.
 
-🧠 Clawdbot (later rebranded as OpenClaw), an open-source AI agent framework created by Peter Steinberger, was first released on November 24, 2025. It gained immediate viral attention, reaching 9,000 GitHub stars within its first 24 hours.
-
 🌐 Anthropic announced the acquisition of Bun on December 2, 2025, with the aim of using the runtime to power its agentic workflows and developer tools.
 
 🏢 The Agentic AI Foundation (AAIF) was founded on December 9, 2025 as a new foundation under the Linux Foundation umbrella to provide neutral governance for the rapidly evolving ecosystem of AI agents.
@@ -86,8 +90,6 @@ sidebar_position: 7
 
 🖥️ The Gemini CLI Skills feature was officially promoted to the stable channel in the v0.26.0 release on January 27, 2026, which also introduced the built-in `skill-creator` tool for generating new agent capabilities.
 
-🧠 Following trademark complaints from Anthropic, Clawdbot was rebranded as Moltbot on January 27, 2026. Three days later, on January 30, 2026, the project was officially renamed to OpenClaw, hitting 100,000 GitHub stars around the same time.
-
 🖥️ In late January 2026, the Gemini CLI added the `/rewind` command and persistent tool execution policies to complement the new agentic workflows enabled by the Skills framework.
 
 🧠 Support for Anthropic's Claude models within the GitHub Copilot Agent and enhanced multi-agent session management were introduced in the January 2026 release (v1.109) of Visual Studio Code.
@@ -98,11 +100,9 @@ sidebar_position: 7
 
 🧠 The February 2026 release (v1.110) of Visual Studio Code introduced "Agent Plugins," experimental "Agentic Browser Tools," and the ability for agents to share memory across different sessions for GitHub Copilot.
 
-🧠 NanoClaw v1.1.0, a lightweight containerized alternative to OpenClaw built on Anthropic's Agent SDK with messaging app integration, was released on February 23, 2026, as its first documented release, introducing an upstream-update skill and fixing a critical path-traversal vulnerability.
+🖥️ GitHub Copilot CLI became generally available for all Copilot subscribers on February 25, 2026, after five months of public preview during which hundreds of improvements were shipped based on user feedback.
 
 🧠 On March 9, 2026, Microsoft announced "Microsoft 365 Copilot Wave 3," introducing "Copilot Cowork"—an autonomous agentic workflow system—alongside "Agent 365," a dedicated control plane for enterprise-wide agent management and governance.
-
-🧠 OpenClaw v2026.3.12 was released on March 12, 2026, introducing a major architectural shift with a new provider-plugin system and a centralized dashboard for managing agent activities.
 
 🧠 The existence of a model named Claude Mythos became publicly known on March 26, 2026, due to leaked blog post drafts.
 
@@ -111,8 +111,6 @@ sidebar_position: 7
 🧠 On April 7, 2026, Anthropic announced Project Glasswing, releasing Mythos Preview to 11 companies.
 
 ⚙️ Linux 7.0 was released on April 12, 2026, as the latest major stable version, continuing the kernel's evolution with advanced hardware support and further integration of memory-safe programming languages.
-
-🧠 NanoClaw v2.0.0 was released on April 22, 2026, as a ground-up architectural rewrite featuring a new entity model, dual-database session design, and a Bun-based runner.
 
 🧠 GPT-5.5, a major update to OpenAI's GPT-5 series, was released on April 23, 2026, representing a significant leap in capabilities with improved reasoning, multimodal understanding, and agentic features. API availability was announced on April 24, 2026, bringing the latest model to developers through OpenAI's API endpoints.
 
