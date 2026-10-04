@@ -309,6 +309,9 @@
   - [eksctl](https://eksctl.io/) - Amazon EKS の公式 CLI です
 - バッチ & ジョブスケジューリング
   - [Kueue](https://kueue.sigs.k8s.io/) - バッチ、HPC、AI/ML ワークロードのためのクォータとリソース共有を管理する、Kubernetes ネイティブなシステムです
+- マルチクラスター管理
+  - [Karmada](https://karmada.io/) - 複数のクラスターやクラウドにまたがってクラウドネイティブアプリケーションを実行するための、オープンなマルチクラウド・マルチクラスター Kubernetes オーケストレーションシステムです
+  - 💲 [Azure Kubernetes Fleet Manager](https://azure.microsoft.com/en-us/products/kubernetes-fleet-manager/) - Kubernetes クラスターを大規模にシームレスに管理するサービスです
 
 ## クラウドネイティブコンピューティング
 
@@ -424,6 +427,7 @@
   - 🪙 [GitHub Packages](https://github.com/features/packages) - ソフトウェアパッケージをプライベートまたはパブリックにホストできる、ソフトウェアパッケージホスティングサービスです
   - 🔒 [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - 高度なリポジトリマネージャーです
   - 💲 [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - パブリックおよびプライベートのソースから Maven、npm、NuGet、Python のパッケージフィードを作成・共有できるサービスです
+  - 🪙 [vlt](https://www.vlt.io/) - スコープ付きおよびプライベートのパッケージを公開し、すべての開発者と CI 環境にパブリックおよびプライベートの JavaScript 依存関係の一貫した取得元を提供する、素早く動くチーム向けの JavaScript パッケージレジストリです
 
 ## システムオブザーバビリティ
 

@@ -104,7 +104,7 @@
   - [Stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) - An iterative method for optimizing an objective function with suitable smoothness properties
   - [Dropout (neural networks)](https://en.wikipedia.org/wiki/Dropout_(neural_networks)) - A regularization technique for reducing overfitting in artificial neural networks by preventing complex co-adaptations on training data
   - [Fine tuning](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) - An approach to transfer learning in which the weights of a pre-trained model are trained on new data
-  - [LoRA (machine learning)](https://en.wikipedia.org/wiki/Low-rank_adaptation) - A parameter-efficient fine-tuning technique for adapting pre-trained models to specific tasks with significantly fewer computational resources
+    - [LoRA (machine learning)](https://en.wikipedia.org/wiki/LoRA_(machine_learning)) - A parameter-efficient fine-tuning technique for adapting pre-trained models to specific tasks with significantly fewer computational resources
 
 ### Architectures
 
@@ -268,11 +268,13 @@
 - 🪙 [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
 - 🪙 [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
 - 🪙 [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
+- 💲 [TypeSafe AI](https://typesafe.ai/) - An AI lab building machine-native intelligence infrastructure for automation, whose System One models return structured answers to typed questions to make decisions within software
+  - [Kev](https://github.com/jaredpalmer/kev) - A family of small decision models compatible with the System One API that you can train and run yourself
 - Open Models
   - [Llama](https://www.llama.com/) - The open-source AI models you can fine-tune, distill and deploy anywhere
   - [Gemma](https://deepmind.google/models/gemma/) - A family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models
   - 🪙 [Mistral](https://mistral.ai/models) - A family of open-source and commercial generative AI models
-  - [OLMo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
+  - [Olmo](https://allenai.org/olmo) - A state-of-the-art, truly open language model and framework to build and study the science of language models
   - [Kimi K3](https://github.com/MoonshotAI/Kimi-K3) - An open-weight, native multimodal agentic model with 2.8 trillion parameters and a 1-million-token context window
   - [DeepSeek V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) - A Mixture-of-Experts (MoE) language model with 1.6T parameters (49B activated), a 1-million-token context window, and MIT-licensed open weights
 
@@ -297,11 +299,11 @@
 
 - [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) - A technique that enables large language models to retrieve and incorporate new information from external data sources
   - [dsRAG](https://github.com/D-Star-AI/dsRAG) - A high-performance retrieval engine for unstructured data
+  - [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
 - Model Compression
   - [Knowledge Distillation](https://en.wikipedia.org/wiki/Knowledge_distillation) - The process of transferring knowledge from a large machine learning model to a smaller one
   - [AWQ (Activation-aware Weight Quantization)](https://github.com/mit-han-lab/llm-awq) - An efficient and accurate low-bit weight quantization (INT3/4) for LLM compression and acceleration
   - [Pruning (artificial neural network)](https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)) - The practice of removing parameters from an existing artificial neural network
-- [GraphRAG](https://microsoft.github.io/graphrag/) - A data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs
 - [Prompt Engineering Guide](https://www.promptingguide.ai/) - A comprehensive resource for learning and applying prompt engineering techniques to effectively utilize large language models and build AI agents
 - [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/) - A structured method for crafting clear and precise AI prompts by defining context, role, action, format, and tone
 
@@ -383,6 +385,7 @@
 - Agent Platforms & Services
   - 💲 [Foundry Agent Service](https://azure.microsoft.com/en-us/products/ai-foundry/agent-service) - A platform to securely design, deploy, and scale AI agents with governance and observability for enterprise transformation
   - [Moltbook](https://www.moltbook.com/) - A social network for AI agents where AI agents share, discuss, and upvote
+  - [AX](https://agentexecutor.io/) - A command-line tool and runtime that sandboxes agentic tasks, wires up their workspaces, fences their network, and runs a large number of them per cluster
 - Interoperability
   - [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
 - Pre-built Agents & Collections
@@ -430,7 +433,7 @@
   - [LM Studio](https://lmstudio.ai/) - A desktop app for developing and experimenting with LLMs locally on your computer
   - [LocalAI](https://localai.io/) - The free, Open Source OpenAI alternative
   - [Ollama](https://ollama.com/) - A tool designed for deploying and managing large language models (LLMs) locally
-  - [llama.cpp](https://github.com/ggml-org/llama.cpp) - A dependency-free C/C++ implementation for running LLM inference across hardware from Apple Silicon to NVIDIA GPUs
+  - [llama.cpp](https://llama.app/) - A dependency-free C/C++ implementation for running LLM inference across hardware from Apple Silicon to NVIDIA GPUs
   - [Jan](https://jan.ai/) - An open-source ChatGPT alternative that runs AI models locally on your computer
 - Production Serving Engines
   - [vLLM](https://vllm.ai/) - A high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs)
@@ -455,3 +458,4 @@
   - 🪙 [Braintrust](https://www.braintrust.dev/) - The enterprise AI platform that provides an evaluation and observability platform for developers building with LLMs
   - [Ragas](https://docs.ragas.io/) - A library that helps you move from vibe checks to systematic evaluation loops for your AI applications
   - [DeepEval](https://www.deepeval.com/) - The LLM evaluation framework with research-backed metrics and pytest-native evaluations that run in CI/CD
+  - 🪙 [Promptfoo](https://www.promptfoo.dev/) - An open-source automated testing tool that finds and fixes AI risk in development through LLM evals and red teaming

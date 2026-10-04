@@ -251,6 +251,7 @@
   - [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) - A conceptualisation of the needs (or goals) that motivate human behavior
   - [Cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - A systematic pattern of deviation from norm or rationality in judgment
     - [Anchoring effect](https://en.wikipedia.org/wiki/Anchoring_effect) - A psychological phenomenon in which an individual's judgments or decisions are influenced by a reference point or "anchor" which can be completely irrelevant
+    - [Recency bias](https://en.wikipedia.org/wiki/Recency_bias) - A memory bias that favors recent events over historic ones, giving greater importance to the most recent event
   - [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) - The phenomenon that people remember unfinished or interrupted tasks better than completed tasks
   - [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network) - A large-scale brain network; known for being active when a person is not focused on the outside world and the brain is at wakeful rest
   - [Situation awareness](https://en.wikipedia.org/wiki/Situation_awareness) - The understanding of an environment, its elements, and how it changes with respect to time or other factors

@@ -37,9 +37,11 @@
     - [lo](https://github.com/samber/lo) - A Lodash-style Go library
     - [fp-go](https://github.com/repeale/fp-go) - A collection of Functional Programming helpers
     - [shortuuid](https://github.com/lithammer/shortuuid) - A generator library for concise, unambiguous and URL-safe UUIDs
+    - [golang-set](https://github.com/deckarep/golang-set) - A simple, battle-tested and generic set type for the Go language
   - Tools
     - [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - A CLI tool to make treemaps of size of Go executable
     - [mvm](https://mvm.sh/) - A fast virtual machine for Go and beyond that enables users to run Go programs directly from source code without compilation
+    - [wasm2go](https://github.com/goccy/wasm2go) - An AOT compiler that translates WebAssembly binaries into standalone Go source code with Plan9 Assembly
   - Tutorials
     - [Effective Go](https://golang.org/doc/effective_go.html) - A document that gives tips for writing clear, idiomatic Go code
     - [Go by Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
@@ -158,6 +160,7 @@
     - [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny) - A Perl class for reading and writing YAML-style files, written with as little code as possible
     - [PyYAML](https://github.com/yaml/pyyaml) - A YAML parser and emitter for Python
   - [StrictYAML](https://hitchdev.com/strictyaml/) - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
+  - [KYAML](https://kubernetes.io/docs/reference/encodings/kyaml/) - A safer and less ambiguous subset of YAML, designed specifically for Kubernetes
   - [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - A JS library to parse and stringify JSONC (JSON with comments)
   - [CUE](https://cuelang.org/) - An open-source data validation language and inference engine with its roots in logic programming
 - Other Configuration Languages
@@ -450,7 +453,7 @@
   - [dpmland](https://dpmland.deno.dev/) - A simple, modern and easy way to manage the Deno modules and dependencies
   - [Bun package manager](https://bun.sh/package-manager) - A fast, npm-compatible package manager built into Bun
   - [orogene](https://orogene.dev/) - A next-generation package manager for the JavaScript ecosystem
-  - [vlt](https://www.vlt.io/home) - A JavaScript package registry for teams that move fast, serving npm-compatible packages together with a secure npm mirror and a fully resolved dependency graph
+  - 🪙 [vlt](https://www.vlt.io/) - A JavaScript package registry for teams that move fast, serving npm-compatible packages together with a secure npm mirror and a fully resolved dependency graph
 - Python Development
   - [pip](https://pip.pypa.io/) - The package installer for Python
   - [poetry](https://python-poetry.org/) - A tool for dependency management and packaging in Python

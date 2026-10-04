@@ -366,6 +366,7 @@
   - [TiDB](https://www.pingcap.com/tidb/) - トランザクション処理と分析処理を組み合わせたハイブリッドワークロード (HTAP) をサポートするオープンソースの分散 SQL データベースです
 - 組み込み / インプロセス
   - [SQLite](https://www.sqlite.org/index.html) - 小型で高速、自己完結型、高信頼性、フル機能のデータベースエンジンを実装した C 言語ライブラリです
+    - [Write-Ahead Logging](https://www.sqlite.org/wal.html) - アトミックなコミットとロールバックを実現する、デフォルトのロールバックジャーナルに代わる方式で、読み取りと書き込みを並行して進められます
   - [PGlite](https://pglite.dev/) - TypeScript/JavaScript クライアントライブラリにパッケージ化された WASM ビルドであり、ブラウザ、Node.js、Bun でデータベースを実行できるようにします
   - [DuckDB](https://duckdb.org/) - インプロセスで動作する SQL OLAP データベース管理システムです
   - [H2 Database Engine](https://www.h2database.com/html/main.html) - 組み込みモードとサーバーモード、インメモリデータベース、約 2.5 MB という小さな jar ファイルサイズを備えた、非常に高速なオープンソースの Java SQL データベースです
@@ -545,6 +546,8 @@
 - 回答エンジン
   - 🪙 [Wolfram|Alpha](https://www.wolframalpha.com/) - 画期的なアルゴリズム、ナレッジベース、AI テクノロジーを使って専門家レベルの回答を計算する計算知識エンジンです
   - 🪙 [Perplexity AI](https://www.perplexity.ai/) - あらゆる質問に対して正確で信頼でき、リアルタイムな回答を提供する AI 駆動の回答エンジンです
+- パーソナル検索エンジン
+  - [Hister](https://hister.org/) - 訪問したページや保存しているファイルを、自分で管理できるプライベートな全文検索インデックスに変えるセルフホスト型検索エンジンです
 - 検索プラットフォームとツール
   - 💲 [Azure AI Search](https://azure.microsoft.com/en-us/products/ai-services/ai-search) - AI を活用した検索と検索拡張生成のために、エンタープライズコンテンツと Web コンテンツへのアクセスを統一する、フルマネージドのクラウドホスト型サービスです
     - [Reciprocal Rank Fusion (RRF)](https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking) - 過去に実行された複数のクエリの検索スコアを評価し、統一された結果セットを生成するアルゴリズムです

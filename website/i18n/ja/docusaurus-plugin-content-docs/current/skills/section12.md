@@ -251,6 +251,7 @@
   - [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) - 人間の行動を動機づける欲求 (または目標) の概念化です
   - [Cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) - 判断における規範や合理性からの逸脱の体系的なパターンです
     - [Anchoring effect](https://en.wikipedia.org/wiki/Anchoring_effect) - 個人の判断や意思決定が、まったく無関係であり得る基準点すなわち「アンカー」に影響される心理現象です
+    - [Recency bias](https://en.wikipedia.org/wiki/Recency_bias) - 過去の出来事よりも最近の出来事を重視し、最も新しい出来事により大きな重要性を与える記憶バイアスです
   - [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) - 人が完了したタスクよりも未完了・中断されたタスクをよく記憶しているという現象です
   - [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network) - 大規模な脳ネットワークであり、人が外の世界に集中しておらず脳が覚醒状態で休息しているときに活動することで知られています
   - [Situation awareness](https://en.wikipedia.org/wiki/Situation_awareness) - 環境とその要素、および時間やその他の要因に応じてそれがどのように変化するかについての理解です

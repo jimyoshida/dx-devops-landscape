@@ -106,6 +106,7 @@
 ### 2D Graphics
 
 - [PixiJS](https://pixijs.com/) - An advanced, open-source 2D rendering engine designed for creating stunning visual experiences on the web
+- [Skia](https://skia.org/) - An open source 2D graphics library which provides common APIs that work across a variety of hardware and software platforms
 
 ### Graphics APIs
 

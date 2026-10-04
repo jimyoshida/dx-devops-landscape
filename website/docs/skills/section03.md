@@ -309,6 +309,9 @@
   - [eksctl](https://eksctl.io/) - The official CLI for Amazon EKS
 - Batch & Job Scheduling
   - [Kueue](https://kueue.sigs.k8s.io/) - A Kubernetes-native system that manages quotas and resource sharing for batch, HPC, and AI/ML workloads
+- Multi-Cluster Management
+  - [Karmada](https://karmada.io/) - The open, multi-cloud, multi-cluster Kubernetes orchestration system for running cloud-native applications across multiple clusters and clouds
+  - 💲 [Azure Kubernetes Fleet Manager](https://azure.microsoft.com/en-us/products/kubernetes-fleet-manager/) - A service that seamlessly manages Kubernetes clusters at scale
 
 ## Cloud-Native Computing
 
@@ -424,6 +427,7 @@
   - 🪙 [GitHub Packages](https://github.com/features/packages) - A software package hosting service that allows you to host your software packages privately or publicly
   - 🔒 [Nexus Repository Manager 3](https://help.sonatype.com/repomanager3) - A sophisticated repository manager
   - 💲 [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/) - A service that enables you to create and share Maven, npm, NuGet, and Python package feeds from public and private sources
+  - 🪙 [vlt](https://www.vlt.io/) - A JavaScript package registry for teams that move fast, publishing scoped and private packages and giving every developer and CI environment a consistent source for public and private JavaScript dependencies
 
 ## System Observability
 

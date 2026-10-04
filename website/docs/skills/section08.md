@@ -114,6 +114,7 @@
 
 - [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) - The hierarchical and decentralized naming system used to identify computers, services, and other resources reachable through the Internet or other Internet Protocol networks
 - [mDNS](https://en.wikipedia.org/wiki/Multicast_DNS) - A protocol that resolves hostnames to IP addresses within small networks that do not include a local name server
+- [Zone file](https://en.wikipedia.org/wiki/Zone_file) - A text file that describes a DNS zone, containing mappings between domain names and IP addresses and other resources in the form of resource records
 
 ### Domain Registration & Lookup
 
@@ -136,11 +137,11 @@
 - Part of BIND
   - [dig](https://linux.die.net/man/1/dig) - A flexible tool for interrogating DNS name servers
   - [nslookup](https://linux.die.net/man/1/nslookup) - A program to query Internet domain name servers
-- [dog](https://github.com/ogham/dog) - A command-line DNS client
 - [Doggo](https://doggo.mrkaran.dev/docs/) - A modern command-line DNS client (like dig) written in Go
 
 - Managed DNS Services
   - 💲 [Amazon Route53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System web service
+    - [cli53](https://github.com/barnybug/cli53) - A command line tool for Amazon Route 53 that provides import and export from BIND format and simple command line management of Route 53 domains
   - 💲 [Google Cloud DNS](https://cloud.google.com/dns/) - A high-performance, resilient, global Domain Name System service that publishes your domain names to the global DNS in a cost-effective way
 
 ## Email System
@@ -155,6 +156,7 @@
 - [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) - A communication protocol for electronic mail transmission
 - [POP](https://en.wikipedia.org/wiki/Post_Office_Protocol) - An application-layer Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server
 - [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) - An Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection
+- [RFC 822](https://www.w3.org/Protocols/rfc822/) - The standard that specifies a syntax for text messages that are sent among computer users, within the framework of electronic mail
 - [MIME](https://en.wikipedia.org/wiki/MIME) - A standard that extends the format of email messages to support text in character sets other than ASCII
   - [Quoted-printable encoding](https://en.wikipedia.org/wiki/Quoted-printable) - An encoding that represents data in the 8-bit ASCII character set, so that it can be sent using a 7-bit data path
   - [Base64](https://en.wikipedia.org/wiki/Base64) - A group of binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation
@@ -198,7 +200,7 @@
 
 - Cloud Services
   - 💲 [Amazon SES](https://aws.amazon.com/ses/) - A cost-effective, flexible, and scalable email service that enables developers to send mail from within any application
-  - 💲 [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
+  - 💲 [SendGrid](https://www.twilio.com/en-us/sendgrid) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
 
 ## Unix-like Operating Systems
 
@@ -296,8 +298,8 @@
   - [Graphics processing unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit) - A specialized electronic circuit designed for accelerating graphics rendering and parallel computing tasks, widely used for 3D graphics, AI/ML workloads, and video processing
   - [Neural processing unit (NPU)](https://en.wikipedia.org/wiki/Neural_processing_unit) - A specialized hardware designed to accelerate artificial intelligence and machine learning applications through efficient execution of neural networks and computer vision tasks
 - CPU Architectures
-  - [x86-64](https://en.m.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
-  - [ARM64](https://en.m.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
+  - [x86-64](https://en.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
+  - [ARM64](https://en.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
 - CPU Extensions
   - [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
   - [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
@@ -352,13 +354,13 @@
 ### Time Synchronization
 
 - [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) - A networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks
-- [chrony](https://chrony.tuxfamily.org/) - A versatile implementation of the Network Time Protocol
+- [chrony](https://chrony-project.org/) - A versatile implementation of the Network Time Protocol
 - [pool.ntp.org](https://www.ntppool.org/en/) - A big virtual cluster of timeservers providing reliable easy to use NTP service for millions of clients
 
 ### Modern CLI Alternatives
 
 - [gdu](https://github.com/dundee/gdu) - A fast disk usage analyzer with a console interface written in Go
-- [lsd](https://github.com/Peltoche/lsd) - A rewrite of GNU ls with a lot of added features like colors, icons, tree-view, and more formatting options
+- [lsd](https://github.com/lsd-rs/lsd) - A rewrite of GNU ls with a lot of added features like colors, icons, tree-view, and more formatting options
 - [eza](https://eza.rocks/) - A modern replacement for ls
 - [broot](https://dystroy.org/broot/) - A new way to see and navigate directory trees
 - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
@@ -366,18 +368,17 @@
 - [dua](https://github.com/byron/dua-cli) - A tool to view disk space usage and delete unwanted data, fast
 - [duf](https://github.com/muesli/duf) - A better 'df' alternative
 - [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
-- [htop](https://hisham.hm/htop/) - An interactive process viewer for Unix systems
+- [htop](https://htop.dev/) - An interactive process viewer for Unix systems
 - [btop++](https://github.com/aristocratos/btop) - A resource monitor for Linux, macOS, and FreeBSD
 - [glances](https://nicolargo.github.io/glances/) - A cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface
-- [neofetch](https://github.com/dylanaraps/neofetch) - A command-line system information tool
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) - A maintained, feature-rich and performance oriented, neofetch like system information tool
 
 ### Package Management Tools
 
 - [dpkg](https://salsa.debian.org/dpkg-team/dpkg) - The base package management system for Debian
   - [apt](https://salsa.debian.org/apt-team/apt) - A command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions
-- [Pacman](https://archlinux.org/pacman/) - A utility which manages software packages in Linux
+- [Pacman](https://pacman.archlinux.page/) - A utility which manages software packages in Linux
   - [Yay](https://github.com/Jguer/yay) - An AUR Helper Written in Go
-- [yum](http://yum.baseurl.org/) - An automatic updater and package installer/remover for rpm systems
 - [dnf](https://github.com/rpm-software-management/dnf) - The next-generation version of yum
 - [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
 - [pipx](https://pipx.pypa.io/stable/) - A tool to install and run Python applications in isolated environments
@@ -418,7 +419,7 @@
 - [SOCKS Proxy](https://en.wikipedia.org/wiki/SOCKS) - An Internet protocol that exchanges network packets between a client and server through a proxy server
   - [Dante](https://www.inet.no/dante/) - A SOCKS server and SOCKS client, implementing RFC 1928 and related standards
   - [tun2socks](https://github.com/xjasonlyu/tun2socks) - A SOCKS proxy for TCP and UDP, that handles all connections from a TUN device
-  - [proxychains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy
+  - [proxychains-ng](https://github.com/rofl0r/proxychains-ng) - A preloader which hooks calls to sockets in dynamically linked programs and redirects them through one or more SOCKS/HTTP proxies
 - Tunneling
   - [cloudflared](https://github.com/cloudflare/cloudflared) - The command-line client for Cloudflare Tunnel, a daemon that proxies traffic from the Cloudflare network to your origins
   - 🪙 [ngrok](https://ngrok.com/) - A unified ingress platform that delivers reverse proxy, API gateway, and secure tunnels to expose local applications to the internet
@@ -443,7 +444,7 @@
 ### Remote Access Servers and Protocols
 
 - [SSH](https://en.wikipedia.org/wiki/Secure_Shell) - A cryptographic network protocol for operating network services securely over an unsecured network
-  - [openssh](https://openssh.com/) - The premier connectivity tool for remote login with the SSH protocol
+  - [openssh](https://www.openssh.org/) - The premier connectivity tool for remote login with the SSH protocol
 - [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol) - A proprietary protocol developed by Microsoft which provides a user with a graphical interface to connect to another computer over a network connection
   - [xrdp](https://github.com/neutrinolabs/xrdp) - An open-source Remote Desktop Protocol server
 - [RFB](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst) - A simple protocol for remote access to graphical user interfaces

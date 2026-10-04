@@ -272,6 +272,7 @@
     - [ruby-git](https://github.com/ruby-git/ruby-git) - git バイナリへのシステムコールをラップすることで Git リポジトリを作成、読み取り、操作できる Ruby ライブラリです
   - 開発ツール
     - [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - 標準入力から読み込んだ Ruby の式を対話的に実行するツールです
+    - [Pry](https://pry.github.io/) - シンタックスハイライト、柔軟なプラグインアーキテクチャ、実行時呼び出し、ソースとドキュメントの閲覧機能を備えた、Ruby 標準 IRB シェルの強力な代替です
 - [Perl](https://www.perl.org/) - 2 つの高水準で汎用的、インタプリタ型かつ動的なプログラミング言語のファミリーです
   - コア機能
     - [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - Perl にとって特別な意味を持つ変数です

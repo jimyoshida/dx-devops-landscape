@@ -272,6 +272,7 @@
     - [ruby-git](https://github.com/ruby-git/ruby-git) - A Ruby library that can be used to create, read and manipulate Git repositories by wrapping system calls to the git binary
   - Development Tools
     - [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - A tool to interactively execute Ruby expressions read from the standard input
+    - [Pry](https://pry.github.io/) - A powerful alternative to the standard IRB shell for Ruby, with syntax highlighting, a flexible plugin architecture, runtime invocation and source and documentation browsing
 - [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
   - Core Features
     - [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl

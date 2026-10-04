@@ -37,9 +37,11 @@
     - [lo](https://github.com/samber/lo) - Lodash スタイルの Go ライブラリです
     - [fp-go](https://github.com/repeale/fp-go) - 関数型プログラミングのヘルパー集です
     - [shortuuid](https://github.com/lithammer/shortuuid) - 簡潔で曖昧さがなく URL セーフな UUID を生成するライブラリです
+    - [golang-set](https://github.com/deckarep/golang-set) - Go 言語向けの、シンプルで実績があるジェネリックなセット型です
   - ツール
     - [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - Go 実行ファイルのサイズのツリーマップを作成する CLI ツールです
     - [mvm](https://mvm.sh/) - コンパイルなしでソースコードから直接 Go プログラムを実行できるようにする、Go 用の高速な仮想マシンです
+    - [wasm2go](https://github.com/goccy/wasm2go) - WebAssembly バイナリを Plan9 アセンブリ付きのスタンドアロンな Go ソースコードに変換する AOT コンパイラです
   - チュートリアル
     - [Effective Go](https://golang.org/doc/effective_go.html) - 明確でイディオマティックな Go コードを書くためのヒントを提供するドキュメントです
     - [Go by Example](https://gobyexample.com/) - 注釈付きのサンプルプログラムを使った Go の実践的な入門です
@@ -158,6 +160,7 @@
     - [YAML::Tiny](https://metacpan.org/pod/YAML::Tiny) - できる限り少ないコードで書かれた、YAML スタイルのファイルを読み書きするための Perl クラスです
     - [PyYAML](https://github.com/yaml/pyyaml) - Python 用の YAML パーサーおよびエミッターです
   - [StrictYAML](https://hitchdev.com/strictyaml/) - YAML 仕様の制限されたサブセットを解析・検証する、型安全な YAML パーサーです
+  - [KYAML](https://kubernetes.io/docs/reference/encodings/kyaml/) - Kubernetes 向けに設計された、より安全で曖昧さの少ない YAML のサブセットです
   - [JSON with comments](https://github.com/muhammadmuzzammil1998/jsonc) - JSONC (コメント付き JSON) を解析・文字列化する JS ライブラリです
   - [CUE](https://cuelang.org/) - 論理プログラミングにルーツを持つ、オープンソースのデータ検証言語兼推論エンジンです
 - その他の設定言語
@@ -450,7 +453,7 @@
   - [dpmland](https://dpmland.deno.dev/) - Deno のモジュールと依存関係を管理するための、シンプルでモダン、かつ簡単な方法です
   - [Bun package manager](https://bun.sh/package-manager) - Bun に組み込まれた、高速で npm 互換のパッケージマネージャーです
   - [orogene](https://orogene.dev/) - JavaScript エコシステム向けの次世代パッケージマネージャーです
-  - [vlt](https://www.vlt.io/home) - npm 互換パッケージを安全な npm ミラーおよび完全に解決された依存関係グラフとともに提供する、素早く動くチーム向けの JavaScript パッケージレジストリです
+  - 🪙 [vlt](https://www.vlt.io/) - npm 互換パッケージを安全な npm ミラーおよび完全に解決された依存関係グラフとともに提供する、素早く動くチーム向けの JavaScript パッケージレジストリです
 - Python 開発
   - [pip](https://pip.pypa.io/) - Python 向けのパッケージインストーラーです
   - [poetry](https://python-poetry.org/) - Python における依存関係管理とパッケージングのためのツールです

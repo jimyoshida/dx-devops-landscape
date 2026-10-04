@@ -104,7 +104,7 @@
   - [Stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) - 適切な平滑性プロパティを持つ目的関数を最適化するための反復的な方法です
   - [Dropout (neural networks)](https://en.wikipedia.org/wiki/Dropout_(neural_networks)) - 訓練データに対する複雑な共適応を防ぐことで、人工ニューラルネットワークの過学習を低減する正則化手法です
   - [Fine tuning](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) - 転移学習へのアプローチで、事前学習されたモデルの重みが新しいデータで学習されます
-  - [LoRA (machine learning)](https://en.wikipedia.org/wiki/Low-rank_adaptation) - 事前学習されたモデルを特定のタスクに適応させるためのパラメータ効率的なファインチューニング技法で、大幅に少ない計算リソースを使用します
+    - [LoRA (machine learning)](https://en.wikipedia.org/wiki/LoRA_(machine_learning)) - 事前学習されたモデルを特定のタスクに適応させるためのパラメータ効率的なファインチューニング技法で、大幅に少ない計算リソースを使用します
 
 ### アーキテクチャ
 
@@ -268,11 +268,13 @@
 - 🪙 [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - Google の最新 Gemini モデルへのアクセスを提供する API です
 - 🪙 [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - Hugging Face Hub でホストされているモデルで推論を許可する API です
 - 🪙 [OpenRouter](https://openrouter.ai/) - LLM 向けの統合インターフェイスです
+- 💲 [TypeSafe AI](https://typesafe.ai/) - 自動化のためのマシンネイティブなインテリジェンス基盤を構築する AI ラボで、その System One モデルは型付きの質問に構造化された回答を返し、ソフトウェア内での意思決定を可能にします
+  - [Kev](https://github.com/jaredpalmer/kev) - System One API と互換性があり、自分で学習・実行できる小型の意思決定モデルのファミリーです
 - オープンモデル
   - [Llama](https://www.llama.com/) - どこでもファインチューニング、蒸留、デプロイできるオープンソース AI モデルです
   - [Gemma](https://deepmind.google/models/gemma/) - Gemini モデルの作成に使用されたのと同じ研究と技術から構築された軽量で最先端のオープンモデルのファミリーです
   - 🪙 [Mistral](https://mistral.ai/models) - オープンソースおよび商用の生成 AI モデルのファミリーです
-  - [OLMo](https://allenai.org/olmo) - 最先端で本当にオープンな言語モデルと言語モデルの科学を構築および研究するためのフレームワークです
+  - [Olmo](https://allenai.org/olmo) - 最先端で本当にオープンな言語モデルと言語モデルの科学を構築および研究するためのフレームワークです
   - [Kimi K3](https://github.com/MoonshotAI/Kimi-K3) - 2.8 兆パラメータと 100 万トークンのコンテキストウィンドウを備えた、オープンウェイトのネイティブマルチモーダルエージェントモデルです
   - [DeepSeek V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) - 1.6 兆パラメータ (アクティブ 490 億) と 100 万トークンのコンテキストウィンドウを備えた、MIT ライセンスでオープンウェイトの Mixture-of-Experts (MoE) 言語モデルです
 
@@ -297,11 +299,11 @@
 
 - [Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) - 大規模言語モデルが外部データソースから新しい情報を取得および組み込むことを可能にする技法です
   - [dsRAG](https://github.com/D-Star-AI/dsRAG) - 非構造化データ用の高パフォーマンス検索エンジンです
+  - [GraphRAG](https://microsoft.github.io/graphrag/) - LLM の力を使用して非構造化テキストから有意で構造化されたデータを抽出するように設計されたデータパイプラインおよび変換スイートです
 - モデル圧縮
   - [Knowledge Distillation](https://en.wikipedia.org/wiki/Knowledge_distillation) - 大規模な機械学習モデルから小さいモデルへの知識転送のプロセスです
   - [AWQ (Activation-aware Weight Quantization)](https://github.com/mit-han-lab/llm-awq) - LLM 圧縮と加速のための効率的で正確な低ビット重み量子化(INT3/4)です
   - [Pruning (artificial neural network)](https://en.wikipedia.org/wiki/Pruning_(artificial_neural_network)) - 既存の人工ニューラルネットワークからパラメータを削除する慣行です
-- [GraphRAG](https://microsoft.github.io/graphrag/) - LLM の力を使用して非構造化テキストから有意で構造化されたデータを抽出するように設計されたデータパイプラインおよび変換スイートです
 - [Prompt Engineering Guide](https://www.promptingguide.ai/) - 大規模言語モデルを効果的に利用し、AI エージェントを構築するためのプロンプトエンジニアリング技法の学習と適用のための包括的なリソースです
 - [CRAFT framework](https://www.geeky-gadgets.com/ai-prompt-writing/) - コンテキスト、役割、アクション、形式、トーンを定義することで、明確で正確な AI プロンプトを作成するための構造化された方法です
 
@@ -383,6 +385,7 @@
 - エージェントプラットフォームとサービス
   - 💲 [Foundry Agent Service](https://azure.microsoft.com/en-us/products/ai-foundry/agent-service) - エンタープライズ変革のためのガバナンスと可観測性を備えた AI エージェントを安全に設計、デプロイ、スケールするためのプラットフォームです
   - [Moltbook](https://www.moltbook.com/) - AI エージェントが共有、議論、投票するソーシャルネットワークです
+  - [AX](https://agentexecutor.io/) - エージェントタスクをサンドボックス化し、ワークスペースを構成し、ネットワークを制限したうえで、クラスターあたり多数のタスクを実行するコマンドラインツール兼ランタイムです
 - 相互運用性
   - [FastMCP](https://github.com/jlowin/fastmcp) - Model Context Protocol(MCP)サーバーとクライアントをビルドするための Python フレームワークです
 - 事前構築済みエージェント & コレクション
@@ -430,7 +433,7 @@
   - [LM Studio](https://lmstudio.ai/) - コンピュータでローカルに LLM を開発し、実験するためのデスクトップアプリです
   - [LocalAI](https://localai.io/) - 無料のオープンソース OpenAI 代替です
   - [Ollama](https://ollama.com/) - LLM をローカルにデプロイして管理するために設計されたツールです
-  - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Apple Silicon から NVIDIA GPU まで、ハードウェア全体で LLM 推論を実行するための依存関係なし C/C++ 実装です
+  - [llama.cpp](https://llama.app/) - Apple Silicon から NVIDIA GPU まで、ハードウェア全体で LLM 推論を実行するための依存関係なし C/C++ 実装です
   - [Jan](https://jan.ai/) - コンピュータでローカルに AI モデルを実行する ChatGPT 代替のオープンソースです
 - 本番サービングエンジン
   - [vLLM](https://vllm.ai/) - 大規模言語モデル(LLM)の高スループットでメモリ効率的な推論とサービングエンジンです
@@ -455,3 +458,4 @@
   - 🪙 [Braintrust](https://www.braintrust.dev/) - LLM でビルドする開発者向けの評価および可観測性プラットフォームを提供するエンタープライズ AI プラットフォームです
   - [Ragas](https://docs.ragas.io/) - AI アプリケーションの体感チェックから体系的な評価ループへの移行を支援するライブラリです
   - [DeepEval](https://www.deepeval.com/) - 研究を支持するメトリクスを備えた LLM 評価フレームワークで、CI/CD で実行される pytest ネイティブ評価です
+  - 🪙 [Promptfoo](https://www.promptfoo.dev/) - LLM の評価とレッドチーミングを通じて、開発段階で AI のリスクを発見・修正するオープンソースの自動テストツールです

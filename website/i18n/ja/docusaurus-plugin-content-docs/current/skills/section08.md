@@ -114,6 +114,7 @@
 
 - [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) - インターネットや他のインターネットプロトコルネットワークを通じて到達可能なコンピュータ、サービス、その他のリソースを識別するために使用される、階層的かつ分散化されたネーミングシステムです
 - [mDNS](https://en.wikipedia.org/wiki/Multicast_DNS) - ローカルネームサーバーを含まない小規模なネットワーク内で、ホスト名を IP アドレスに解決するプロトコルです
+- [Zone file](https://en.wikipedia.org/wiki/Zone_file) - DNS ゾーンを記述するテキストファイルで、ドメイン名と IP アドレスなどのリソースとの対応をリソースレコードの形式で保持します
 
 ### ドメイン登録と検索
 
@@ -136,11 +137,11 @@
 - BIND の一部
   - [dig](https://linux.die.net/man/1/dig) - DNS ネームサーバーに問い合わせるための柔軟なツールです
   - [nslookup](https://linux.die.net/man/1/nslookup) - インターネットドメインネームサーバーに問い合わせるプログラムです
-- [dog](https://github.com/ogham/dog) - コマンドライン DNS クライアントです
 - [Doggo](https://doggo.mrkaran.dev/docs/) - Go で書かれた、モダンなコマンドライン DNS クライアント (dig のようなもの) です
 
 - マネージド DNS サービス
   - 💲 [Amazon Route53](https://aws.amazon.com/route53/) - 高可用性でスケーラブルなクラウド Domain Name System Web サービスです
+    - [cli53](https://github.com/barnybug/cli53) - BIND 形式でのインポート・エクスポートと、Route 53 ドメインのシンプルなコマンドライン管理を提供する Amazon Route 53 用コマンドラインツールです
   - 💲 [Google Cloud DNS](https://cloud.google.com/dns/) - コスト効率よくドメイン名をグローバル DNS に公開する、高性能でレジリエントなグローバル Domain Name System サービスです
 
 ## メールシステム
@@ -155,6 +156,7 @@
 - [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) - 電子メール送信のための通信プロトコルです
 - [POP](https://en.wikipedia.org/wiki/Post_Office_Protocol) - メールクライアントがメールサーバーから電子メールを取得するために使用される、アプリケーション層のインターネット標準プロトコルです
 - [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) - メールクライアントが TCP/IP 接続を介してメールサーバーから電子メールメッセージを取得するために使用される、インターネット標準プロトコルです
+- [RFC 822](https://www.w3.org/Protocols/rfc822/) - 電子メールの枠組みの中で、コンピューター利用者間で送信されるテキストメッセージの構文を規定する標準です
 - [MIME](https://en.wikipedia.org/wiki/MIME) - ASCII 以外の文字セットのテキストをサポートするために、電子メールメッセージの形式を拡張する標準です
   - [Quoted-printable encoding](https://en.wikipedia.org/wiki/Quoted-printable) - 7 ビットのデータパスを使用して送信できるように、8 ビット ASCII 文字セットでデータを表現するエンコーディングです
   - [Base64](https://en.wikipedia.org/wiki/Base64) - バイナリデータを基数 64 表現に変換することで ASCII 文字列形式として表現する、バイナリ-テキストエンコーディング方式群です
@@ -198,7 +200,7 @@
 
 - クラウドサービス
   - 💲 [Amazon SES](https://aws.amazon.com/ses/) - 開発者が任意のアプリケーション内からメールを送信できる、コスト効率が良く柔軟でスケーラブルなメールサービスです
-  - 💲 [SendGrid](https://sendgrid.com/) - 大規模なトランザクションメールおよびマーケティングメールの信頼性の高い配信を提供する、クラウドベースのメール配信プラットフォームです
+  - 💲 [SendGrid](https://www.twilio.com/en-us/sendgrid) - 大規模なトランザクションメールおよびマーケティングメールの信頼性の高い配信を提供する、クラウドベースのメール配信プラットフォームです
 
 ## Unix 系オペレーティングシステム
 
@@ -296,8 +298,8 @@
   - [Graphics processing unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit) - グラフィックスレンダリングと並列コンピューティングタスクの高速化のために設計された特殊な電子回路で、3D グラフィックス、AI/ML ワークロード、動画処理に広く使用されています
   - [Neural processing unit (NPU)](https://en.wikipedia.org/wiki/Neural_processing_unit) - ニューラルネットワークとコンピュータビジョンタスクを効率的に実行することで、人工知能と機械学習アプリケーションを高速化するために設計された特殊なハードウェアです
 - CPU アーキテクチャ
-  - [x86-64](https://en.m.wikipedia.org/wiki/X86-64) - x86 命令セットの 64 ビット版です
-  - [ARM64](https://en.m.wikipedia.org/wiki/AArch64) - ARM アーキテクチャファミリーの 64 ビット拡張です
+  - [x86-64](https://en.wikipedia.org/wiki/X86-64) - x86 命令セットの 64 ビット版です
+  - [ARM64](https://en.wikipedia.org/wiki/AArch64) - ARM アーキテクチャファミリーの 64 ビット拡張です
 - CPU 拡張機能
   - [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
   - [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
@@ -352,13 +354,13 @@
 ### 時刻同期
 
 - [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) - パケット交換方式で遅延が可変のデータネットワーク越しに、コンピュータシステム間でクロックを同期するためのネットワーキングプロトコルです
-- [chrony](https://chrony.tuxfamily.org/) - Network Time Protocol の汎用的な実装です
+- [chrony](https://chrony-project.org/) - Network Time Protocol の汎用的な実装です
 - [pool.ntp.org](https://www.ntppool.org/en/) - 何百万ものクライアントに信頼性が高く使いやすい NTP サービスを提供する、タイムサーバーの大規模な仮想クラスタです
 
 ### モダンな CLI 代替ツール
 
 - [gdu](https://github.com/dundee/gdu) - Go で書かれた、コンソールインターフェースを備えた高速なディスク使用量アナライザーです
-- [lsd](https://github.com/Peltoche/lsd) - 色、アイコン、ツリービュー、その他の書式オプションなど多くの機能を追加した GNU ls の書き換え版です
+- [lsd](https://github.com/lsd-rs/lsd) - 色、アイコン、ツリービュー、その他の書式オプションなど多くの機能を追加した GNU ls の書き換え版です
 - [eza](https://eza.rocks/) - ls のモダンな代替です
 - [broot](https://dystroy.org/broot/) - ディレクトリツリーを閲覧・移動する新しい方法です
 - [bat](https://github.com/sharkdp/bat) - 翼の生えた cat(1) のクローンです
@@ -366,18 +368,17 @@
 - [dua](https://github.com/byron/dua-cli) - ディスク容量の使用状況を確認し、不要なデータを高速に削除するツールです
 - [duf](https://github.com/muesli/duf) - より優れた 'df' の代替です
 - [procs](https://github.com/dalance/procs) - Rust で書かれた ps のモダンな代替です
-- [htop](https://hisham.hm/htop/) - Unix システム向けの対話的なプロセスビューアです
+- [htop](https://htop.dev/) - Unix システム向けの対話的なプロセスビューアです
 - [btop++](https://github.com/aristocratos/btop) - Linux、macOS、FreeBSD 向けのリソースモニターです
 - [glances](https://nicolargo.github.io/glances/) - curses または Web ベースのインターフェースを通じて大量の監視情報を提示することを目指す、クロスプラットフォームな監視ツールです
-- [neofetch](https://github.com/dylanaraps/neofetch) - コマンドラインシステム情報ツールです
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) - メンテナンスが継続されている、機能豊富で性能を重視した、neofetch に似たシステム情報ツールです
 
 ### パッケージ管理ツール
 
 - [dpkg](https://salsa.debian.org/dpkg-team/dpkg) - Debian の基本パッケージ管理システムです
   - [apt](https://salsa.debian.org/apt-team/apt) - Ubuntu、Debian、および関連する Linux ディストリビューションで deb パッケージのインストール、更新、削除などの管理を行うコマンドラインユーティリティです
-- [Pacman](https://archlinux.org/pacman/) - Linux でソフトウェアパッケージを管理するユーティリティです
+- [Pacman](https://pacman.archlinux.page/) - Linux でソフトウェアパッケージを管理するユーティリティです
   - [Yay](https://github.com/Jguer/yay) - Go で書かれた AUR ヘルパーです
-- [yum](http://yum.baseurl.org/) - rpm システム向けの自動アップデーターおよびパッケージインストーラー/リムーバーです
 - [dnf](https://github.com/rpm-software-management/dnf) - yum の次世代版です
 - [Homebrew](https://brew.sh/) - macOS (または Linux) に欠けていたパッケージマネージャーです
 - [pipx](https://pipx.pypa.io/stable/) - 分離された環境で Python アプリケーションをインストール・実行するツールです
@@ -418,7 +419,7 @@
 - [SOCKS Proxy](https://en.wikipedia.org/wiki/SOCKS) - プロキシサーバーを介してクライアントとサーバー間でネットワークパケットを交換するインターネットプロトコルです
   - [Dante](https://www.inet.no/dante/) - RFC 1928 および関連標準を実装した SOCKS サーバー兼 SOCKS クライアントです
   - [tun2socks](https://github.com/xjasonlyu/tun2socks) - TUN デバイスからのすべての接続を処理する、TCP・UDP 向けの SOCKS プロキシです
-  - [proxychains](https://github.com/haad/proxychains) - 任意のアプリケーションが行う TCP 接続を、TOR や他の SOCKS4、SOCKS5、HTTP(S) プロキシなどのプロキシ経由に強制するツールです
+  - [proxychains-ng](https://github.com/rofl0r/proxychains-ng) - 動的リンクされたプログラムのソケット呼び出しをフックし、1 つ以上の SOCKS/HTTP プロキシ経由にリダイレクトするプリローダーです
 - トンネリング
   - [cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare ネットワークからオリジンへトラフィックをプロキシするデーモンである Cloudflare Tunnel のコマンドラインクライアントです
   - 🪙 [ngrok](https://ngrok.com/) - ローカルアプリケーションをインターネットに公開するために、リバースプロキシ、API ゲートウェイ、セキュアなトンネルを提供する統合イングレスプラットフォームです
@@ -443,7 +444,7 @@
 ### リモートアクセスサーバーとプロトコル
 
 - [SSH](https://en.wikipedia.org/wiki/Secure_Shell) - 保護されていないネットワーク越しにネットワークサービスを安全に運用するための暗号化ネットワークプロトコルです
-  - [openssh](https://openssh.com/) - SSH プロトコルによるリモートログインのための第一級の接続ツールです
+  - [openssh](https://www.openssh.org/) - SSH プロトコルによるリモートログインのための第一級の接続ツールです
 - [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol) - ネットワーク接続越しに他のコンピュータへ接続するためのグラフィカルインターフェースをユーザーに提供する、Microsoft が開発した独自プロトコルです
   - [xrdp](https://github.com/neutrinolabs/xrdp) - オープンソースの Remote Desktop Protocol サーバーです
 - [RFB](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst) - グラフィカルユーザーインターフェースへのリモートアクセスのためのシンプルなプロトコルです

@@ -366,6 +366,7 @@
   - [TiDB](https://www.pingcap.com/tidb/) - An open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads
 - Embedded / In-Process
   - [SQLite](https://www.sqlite.org/index.html) - A C-language library that implements a small, fast, self-contained, high-reliability, and full-featured database engine
+    - [Write-Ahead Logging](https://www.sqlite.org/wal.html) - An alternative to the default rollback journal for implementing atomic commit and rollback, letting readers and writers proceed concurrently
   - [PGlite](https://pglite.dev/) - A WASM build packaged into a TypeScript/JavaScript client library, that enables you to run the database in the browser, Node.js and Bun
   - [DuckDB](https://duckdb.org/) - An in-process SQL OLAP database management system
   - [H2 Database Engine](https://www.h2database.com/html/main.html) - A very fast, open source Java SQL database offering embedded and server modes, in-memory databases, and a small footprint of around 2.5 MB jar file size
@@ -545,6 +546,8 @@
 - Answer Engines
   - 🪙 [Wolfram|Alpha](https://www.wolframalpha.com/) - A computational knowledge engine that computes expert-level answers using breakthrough algorithms, knowledgebase and AI technology
   - 🪙 [Perplexity AI](https://www.perplexity.ai/) - An AI-powered answer engine that provides accurate, trusted, and real-time answers to any question
+- Personal Search Engines
+  - [Hister](https://hister.org/) - A self-hosted search engine that turns the pages you visit and the files you keep into a private, full content search index that you control
 - Search Platforms and Tools
   - 💲 [Azure AI Search](https://azure.microsoft.com/en-us/products/ai-services/ai-search) - A fully managed, cloud-hosted service that unifies access to enterprise and web content for AI-powered search and retrieval-augmented generation
     - [Reciprocal Rank Fusion (RRF)](https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking) - An algorithm that evaluates the search scores from multiple, previously executed queries to produce a unified result set
