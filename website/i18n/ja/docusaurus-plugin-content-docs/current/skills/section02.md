@@ -290,6 +290,7 @@
     - [Apache Tomcat](https://tomcat.apache.org/) - オープンソースのウェブサーバーおよびサーブレットコンテナです
   - [Spring](https://spring.io/) - Java をシンプルでモダン、生産的、リアクティブ、そしてクラウド対応にするプロジェクトです
     - [Spring Boot](https://spring.io/projects/spring-boot) - Spring プラットフォームとサードパーティライブラリに対して見解を示すことで、最小限の手間で開発を始められるようにするツールです
+  - [Quarkus](https://quarkus.io/) - 高速かつ効率的なクラウドネイティブアプリケーションを構築するための Java フレームワークで、Kubernetes ネイティブであり、JVM とネイティブ実行ファイルの両方のデプロイをサポートします
 - .NET バックエンドフレームワーク
   - [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - .NET と C# を使ってウェブアプリケーションやサービスを構築するための、無料でクロスプラットフォームなオープンソースフレームワークです
 - Elixir バックエンドフレームワーク

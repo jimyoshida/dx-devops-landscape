@@ -270,6 +270,8 @@
     - [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
     - [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
     - [ruby-git](https://github.com/ruby-git/ruby-git) - A Ruby library that can be used to create, read and manipulate Git repositories by wrapping system calls to the git binary
+    - [ChunkyPNG](https://github.com/wvanbergen/chunky_png) - A library providing read/write access to PNG images in pure Ruby, without requiring RMagick or any other image library
+    - [pure_jpeg](https://github.com/peterc/pure_jpeg) - A pure Ruby JPEG encoder and decoder with no native dependencies
   - Development Tools
     - [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - A tool to interactively execute Ruby expressions read from the standard input
     - [Pry](https://pry.github.io/) - A powerful alternative to the standard IRB shell for Ruby, with syntax highlighting, a flexible plugin architecture, runtime invocation and source and documentation browsing
@@ -370,6 +372,7 @@
   - Static binary executable
 - [GopherJS](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript
 - [Bunster](https://bunster.netlify.app/) - A shell compiler that turns your scripts into a self-contained executable programs
+- [Spinel](https://github.com/matz/spinel) - A Ruby AOT compiler that compiles Ruby source code into standalone native executables by performing whole-program type inference and generating optimized C code
 
 ### Linkers (Standalone)
 
@@ -408,12 +411,16 @@
   - [Pyodide](https://pyodide.org/en/stable/) - A Python distribution for the browser and Node.js based on WebAssembly
 - Ruby
   - CRuby (default)
+    - [RubyInstaller for Windows](https://rubyinstaller.org/) - A self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more
   - [JRuby](https://www.jruby.org/) - An implementation of the Ruby programming language atop the Java Virtual Machine
+- Perl
+  - [Strawberry Perl for Windows](https://strawberryperl.com/) - A perl environment for MS Windows containing all you need to run and develop perl applications
 - 🪙 [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html) - The most proven, trusted, and secure development platform for modern application development
   - [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html) - The primary Java Virtual Machine for desktops and servers, produced by Oracle Corporation
   - [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html) - The Java Management Extensions technology which is a standard part of the Java Platform
   - [JDK tools](https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html) - The command-line tools to create and build applications
   - [GraalVM](https://oracle.com/java/graalvm/) - An advanced JDK with ahead-of-time Native Image compilation
+  - [TornadoVM](https://www.tornadovm.org/) - A plugin to OpenJDK and GraalVM that JIT-compiles JVM bytecode to CUDA, OpenCL and Metal to run Java on GPUs and other hardware accelerators
   - [OpenJDK](https://openjdk.org/) - The place to collaborate on an open-source implementation of the Java Platform, Standard Edition
   - [Eclipse Temurin](https://adoptium.net/temurin/) - The open-source, enterprise-ready, and TCK-certified builds of OpenJDK
 - [.NET](https://dotnet.microsoft.com/en-us/) - The free, open-source, cross-platform framework for building modern apps and powerful cloud services

@@ -272,6 +272,8 @@
     - [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) - ある単一の観測変数について、観測されたデータの 2 つの集合と測定された現象との間に統計的な関係や有意性が存在しないことを示唆する典型的な統計理論です
     - [Confidence interval (CI)](https://en.wikipedia.org/wiki/Confidence_interval) - 母平均のような未知の統計パラメータの真の値を (反復サンプリングにおいて) 含む可能性が高い値の範囲です
     - [P-value](https://en.wikipedia.org/wiki/P-value) - 帰無仮説が正しいと仮定した場合に、実際に観測された結果と同程度以上に極端な検定結果が得られる確率です
+    - [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) - 統計学における多重比較の問題に対処する手法で、数学者カルロ・エミリオ・ボンフェローニにちなんで名付けられました
+      - [Holm–Bonferroni method](https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) - 多重比較の問題に対処する段階的な手法で、ファミリーワイズエラー率を制御し、Bonferroni 補正より一様に検出力が高い手法です
 - 数値解析手法
   - [Significant figures](https://en.wikipedia.org/wiki/Significant_figures) - 位取り記数法で書かれた数値のうち、特定の量を伝える上で信頼性と必要性の両方を担う特定の桁です
 - リソース

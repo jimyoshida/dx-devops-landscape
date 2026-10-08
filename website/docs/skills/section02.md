@@ -290,6 +290,7 @@
     - [Apache Tomcat](https://tomcat.apache.org/) - An open-source web server and servlet container
   - [Spring](https://spring.io/) - A project that makes Java simple, modern, productive, reactive, and cloud-ready
     - [Spring Boot](https://spring.io/projects/spring-boot) - A tool that takes an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss
+  - [Quarkus](https://quarkus.io/) - A Java framework for building fast, efficient, cloud-native applications that is Kubernetes-native and supports JVM and native executable deployments
 - .NET Backend Frameworks
   - [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - A free, cross-platform, open source framework for building web apps and services with .NET and C#
 - Elixir Backend Frameworks

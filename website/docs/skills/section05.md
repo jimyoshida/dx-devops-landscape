@@ -272,6 +272,8 @@
     - [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) - A typical statistical theory which suggests that no statistical relationship and significance exists in a set of given single observed variable, between two sets of observed data and measured phenomena
     - [Confidence interval (CI)](https://en.wikipedia.org/wiki/Confidence_interval) - A range of values which is likely to contain (in repeated sampling) the true value of an unknown statistical parameter, such as a population mean
     - [P-value](https://en.wikipedia.org/wiki/P-value) - The probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct
+    - [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) - A method to counteract the multiple comparisons problem in statistics, named after the mathematician Carlo Emilio Bonferroni
+      - [Holm–Bonferroni method](https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) - A stepwise method to counteract the problem of multiple comparisons, controlling the family-wise error rate and uniformly more powerful than the Bonferroni correction
 - Numerical methods
   - [Significant figures](https://en.wikipedia.org/wiki/Significant_figures) - The specific digits within a number that is written in positional notation that carry both reliability and necessity in conveying a particular quantity
 - Resources

@@ -270,6 +270,8 @@
     - [io-event](https://socketry.github.io/io-event/) - イベントループを構築するための低レベルなクロスプラットフォームプリミティブです
     - [Async](https://socketry.github.io/async/) - io-event に基づく、Ruby 用の組み合わせ可能な非同期 I/O フレームワークです
     - [ruby-git](https://github.com/ruby-git/ruby-git) - git バイナリへのシステムコールをラップすることで Git リポジトリを作成、読み取り、操作できる Ruby ライブラリです
+    - [ChunkyPNG](https://github.com/wvanbergen/chunky_png) - 純粋な Ruby で PNG 画像の読み書きを可能にするライブラリで、RMagick などの画像ライブラリを必要としません
+    - [pure_jpeg](https://github.com/peterc/pure_jpeg) - ネイティブ依存関係を持たない、純粋な Ruby 製の JPEG エンコーダー兼デコーダーです
   - 開発ツール
     - [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - 標準入力から読み込んだ Ruby の式を対話的に実行するツールです
     - [Pry](https://pry.github.io/) - シンタックスハイライト、柔軟なプラグインアーキテクチャ、実行時呼び出し、ソースとドキュメントの閲覧機能を備えた、Ruby 標準 IRB シェルの強力な代替です
@@ -370,6 +372,7 @@
   - 静的バイナリ実行ファイル
 - [GopherJS](https://github.com/gopherjs/gopherjs) - Go から JavaScript へのコンパイラです
 - [Bunster](https://bunster.netlify.app/) - シェルスクリプトを自己完結型の実行可能プログラムに変換するシェルコンパイラです
+- [Spinel](https://github.com/matz/spinel) - プログラム全体の型推論を行い最適化された C コードを生成することで、Ruby ソースコードをスタンドアロンのネイティブ実行ファイルにコンパイルする Ruby AOT コンパイラです
 
 ### リンカ (スタンドアロン)
 
@@ -408,12 +411,16 @@
   - [Pyodide](https://pyodide.org/en/stable/) - WebAssembly をベースとした、ブラウザと Node.js のための Python ディストリビューションです
 - Ruby
   - CRuby (default)
+    - [RubyInstaller for Windows](https://rubyinstaller.org/) - Ruby 言語、実行環境、重要なドキュメントなどを含む、自己完結型の Windows 向けインストーラーです
   - [JRuby](https://www.jruby.org/) - Java Virtual Machine 上で動作する Ruby プログラミング言語の実装です
+- Perl
+  - [Strawberry Perl for Windows](https://strawberryperl.com/) - Perl アプリケーションの実行と開発に必要なものがすべて揃った、MS Windows 向けの Perl 環境です
 - 🪙 [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html) - 現代的なアプリケーション開発のための、最も実績があり信頼性が高く安全な開発プラットフォームです
   - [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html) - Oracle Corporation が提供する、デスクトップとサーバー向けの主要な Java Virtual Machine です
   - [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html) - Java Platform の標準的な一部である Java Management Extensions 技術です
   - [JDK tools](https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html) - アプリケーションを作成しビルドするためのコマンドラインツールです
   - [GraalVM](https://oracle.com/java/graalvm/) - アヘッドオブタイムの Native Image コンパイルを備えた先進的な JDK です
+  - [TornadoVM](https://www.tornadovm.org/) - JVM バイトコードを CUDA、OpenCL、Metal に JIT コンパイルし、Java を GPU などのハードウェアアクセラレーター上で実行する OpenJDK および GraalVM 向けのプラグインです
   - [OpenJDK](https://openjdk.org/) - Java Platform, Standard Edition のオープンソース実装を共同開発するための場です
   - [Eclipse Temurin](https://adoptium.net/temurin/) - OpenJDK のオープンソースでエンタープライズ対応かつ TCK 認定済みのビルドです
 - [.NET](https://dotnet.microsoft.com/en-us/) - モダンなアプリと強力なクラウドサービスを構築するための、無料でオープンソースのクロスプラットフォームフレームワークです

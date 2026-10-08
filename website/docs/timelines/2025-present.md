@@ -116,6 +116,8 @@ sidebar_position: 7
 
 🐛 On March 24, 2026, the threat actor group TeamPCP published two malicious versions of LiteLLM, 1.82.7 and 1.82.8, to the Python Package Index, where they remained live for about 40 minutes and executed on every Python invocation. The compromise originated with Aqua Security's Trivy scanner and propagated into LiteLLM's build system through an unrevoked automation token. A CloudSEK analysis published on August 11, 2026 reconstructed an exposure of more than 2,500 organizations and 434,000 CI/CD pipelines, calling it the largest AI infrastructure supply chain breach of the year, though the firm cautioned that the figures describe reconstructed exposure rather than confirmed compromise.
 
+🏢 Martin Fowler published the bliki entry "Architecture Decision Record" on March 24, 2026, defining an ADR as a short document that captures and explains a single decision relevant to a product or ecosystem, and noting that Nygard did not originate the decision log but made the case for a lightweight document focused on the decision itself.
+
 🧠 The existence of a model named Claude Mythos became publicly known on March 26, 2026, due to leaked blog post drafts.
 
 🧠 Microsoft Agent Framework 1.0, a modern AI orchestration framework designed for building autonomous agentic workflows, was first released as an open-source project on April 3, 2026.
@@ -129,6 +131,8 @@ sidebar_position: 7
 🧠 GPT-5.5, a major update to OpenAI's GPT-5 series, was released on April 23, 2026, representing a significant leap in capabilities with improved reasoning, multimodal understanding, and agentic features. API availability was announced on April 24, 2026, bringing the latest model to developers through OpenAI's API endpoints.
 
 🧠 Google announced Antigravity 2.0 at Google I/O on May 19, 2026, introducing Antigravity CLI as a Go-based terminal agent that replaces Gemini CLI, providing a lightweight interface to the same agent runtime used by the desktop app.
+
+☁️ On May 21, 2026, the Cloud Native Computing Foundation announced that OpenTelemetry, the second most active CNCF project after Kubernetes, had graduated, seven years after the merger of OpenTracing and OpenCensus.
 
 🧠 On June 2, 2026, Anthropic expanded access to Claude Mythos for cyber-security, making it available to 150 organisations.
 

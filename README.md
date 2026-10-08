@@ -91,7 +91,6 @@ Install the following dependencies on Ubuntu (tested with 26.04):
 ```bash
 sudo apt install pandoc asciidoctor-pdf
 sudo apt install graphviz libgvplugin-neato-layout8  # libgvplugin-neato-layout8 for sfdp support
-sudo apt install libyaml-tiny-perl
 ```
 
 Then build from the `website/` directory:

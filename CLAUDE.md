@@ -10,7 +10,7 @@ A Docusaurus 3 site (`website/`) that curates a categorized list of DX/software-
 skills and tools (`website/docs/skills/section01.md` … `section12.md`) alongside chronological
 technology-history timelines (`website/docs/timelines/*.md`). The same source markdown is also
 compiled into a single PDF (plus a Japanese-language PDF from the `i18n/ja` translations), a
-mindmap, and a dependency graph. `data/` holds Perl tooling that keeps section titles consistent
+mindmap, and a dependency graph. `data/` holds Ruby tooling that keeps section titles consistent
 across all of the derived files.
 
 ## Build & Development Commands
@@ -20,7 +20,6 @@ Local builds on Ubuntu require these system packages (already bundled in the CI 
 ```bash
 sudo apt install pandoc asciidoctor-pdf
 sudo apt install graphviz libgvplugin-neato-layout8
-sudo apt install libyaml-tiny-perl
 ```
 
 All build commands run from the `website/` directory.
@@ -166,15 +165,15 @@ Class emojis:
 
 ## Data Directory (`data/`)
 
-Contains Perl scripts for maintaining skill classification data:
+Contains Ruby scripts for maintaining skill classification data:
 
 ```bash
 cd data
 make read        # Extract section titles from skill files → sections.yml
 make write       # Apply sections.yml classifications back to skill files + intro.md
-make intro_sync  # Splice intro.md's body into the top-level README.md (sync_intro.pl)
+make intro_sync  # Splice intro.md's body into the top-level README.md (sync_intro.rb)
 make             # Default target `release`: read, then write, then intro_sync
-make test_write  # Run write.pl unit tests (requires ruby)
+make test_write  # Run write.rb unit tests (minitest)
 ```
 
 `sections.yml` is the single source of truth for the section/subsection hierarchy — it maps
