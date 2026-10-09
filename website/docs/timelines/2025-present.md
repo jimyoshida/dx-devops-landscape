@@ -48,8 +48,6 @@ sidebar_position: 7
 
 🧠 General availability of the GitHub Copilot coding agent and MCP support was achieved in the stable Visual Studio Code June release (v1.102) on July 9, 2025.
 
-🧠 On August 6, 2025, Jules was officially out of beta and launched publicly, powered by Gemini 2.5.
-
 🧠 GPT-5 is a multimodal large language model developed by OpenAI and the fifth in its series of generative pre-trained transformer (GPT) foundation models. Preceded in the series by GPT-4, it was launched on August 7, 2025, combining reasoning capabilities and non-reasoning functionality under a common interface.
 
 🧠 The August update (v1.104) of Visual Studio Code, released on September 12, 2025, added "Auto" model selection and introduced support for `AGENTS.md` files to provide custom instructions for the GitHub Copilot Agent.
@@ -122,7 +120,7 @@ sidebar_position: 7
 
 🧠 Microsoft Agent Framework 1.0, a modern AI orchestration framework designed for building autonomous agentic workflows, was first released as an open-source project on April 3, 2026.
 
-🧠 On April 7, 2026, Anthropic announced Project Glasswing, releasing Mythos Preview to 11 companies.
+🧠 On April 7, 2026, Anthropic announced Project Glasswing, an initiative that brings together Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software. Anthropic gave these 11 partners access to Claude Mythos Preview, its unreleased frontier model, to find and fix vulnerabilities in critical software.
 
 ⚙️ Linux 7.0 was released on April 12, 2026, as the latest major stable version, continuing the kernel's evolution with advanced hardware support and further integration of memory-safe programming languages.
 

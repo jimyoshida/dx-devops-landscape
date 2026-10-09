@@ -200,7 +200,6 @@
     - [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - The methods, identified by leading and trailing double underscores, that allow classes to implement operations invoked by special syntax
     - [Type Hints](https://peps.python.org/pep-0484/) - A standard syntax for type annotations of variables, function parameters, and return values, used for static analysis
       - [typing module](https://docs.python.org/3/library/typing.html) - The standard library module providing runtime support for type hints
-      - [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
     - [f-string](https://peps.python.org/pep-0498/) - A type of string literal, prefixed with 'f' or 'F', which allows embedding expressions inside string constants using minimal syntax
     - [with statement](https://peps.python.org/pep-0343/) - A statement that simplifies exception handling by encapsulating standard uses of try/finally statements for resource management
       - [contextlib](https://docs.python.org/3/library/contextlib.html) - A module that provides utilities for common tasks involving the with statement
@@ -218,6 +217,7 @@
     - [Tenacity](https://github.com/jd/tenacity) - A general-purpose retrying library for Python
   - Development Tools
     - [IPython](https://ipython.org/) - A rich interactive interface to Python with a history mechanism, tab completion, and special magic commands
+    - [Mypy](https://mypy-lang.org/) - An optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
 
 ### JavaScript & TypeScript
 
@@ -232,11 +232,13 @@
     - [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) - An object returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
   - Key Libraries
     - [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras
-    - [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
-    - [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
-    - [zx](https://google.github.io/zx/) - A tool for writing better scripts
-    - [Zod](https://zod.dev/) - A TypeScript-first schema validation with static type inference
-    - [yup](https://github.com/jquense/yup) - A schema builder for runtime value parsing and validation
+    - Shell Scripting
+      - [dax](https://github.com/dsherret/dax) - Cross-platform shell tools for Deno and Node.js inspired by zx
+      - [Bun Shell](https://bun.sh/docs/runtime/shell) - A built-in shell-like interface for running shell scripts
+      - [zx](https://google.github.io/zx/) - A tool for writing better scripts
+    - Schema Validation
+      - [Zod](https://zod.dev/) - A TypeScript-first schema validation with static type inference
+      - [yup](https://github.com/jquense/yup) - A schema builder for runtime value parsing and validation
   - [Typescript](https://www.typescriptlang.org/index.html) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
     - [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - A way to combine multiple types into one
     - [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - A name for any type
@@ -248,14 +250,14 @@
   - TS Type Utilities
     - [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - A tool to compile JSONSchema to TypeScript type declarations
     - [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - The FromSchema method lets you infer TS types directly from JSON schemas
-- Tutorials & Practices
-  - [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
-  - [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
-  - [Callback Hell](http://callbackhell.com/) - The nesting of callback functions when dealing with asynchronous logic
-  - [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
-  - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
+  - Tutorials & Practices
+    - [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - A repository with articles about 33 concepts every JavaScript developer should know
+    - [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects
+    - [Callback Hell](http://callbackhell.com/) - The nesting of callback functions when dealing with asynchronous logic
+    - [NodeSchool](https://nodeschool.io/) - A set of open source workshops that teach web software skills
+    - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - A summary and curation of the top-ranked content on Node.js best practices
 
-### Ruby, Perl & Others
+### Ruby
 
 - [Ruby](https://www.ruby-lang.org/en/) - A dynamic, open source programming language with a focus on simplicity and productivity
   - Core Features
@@ -266,15 +268,21 @@
     - [then](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-then) - A method that yields the object itself to a block and returns the result, facilitating functional-style method chaining
     - [define_method](https://docs.ruby-lang.org/en/master/Module.html#method-i-define_method) - The ability to create and register methods at runtime using `define_method`, enhancing code flexibility and reducing repetition
     - [instance_eval](https://docs.ruby-lang.org/en/master/BasicObject.html#method-i-instance_eval) - A method that evaluates a block or string within the context of a specific object instance, granting access to its internal scope and private methods
-  - Libraries
+    - [Ractor](https://docs.ruby-lang.org/en/master/Ractor.html) - An actor-model abstraction that can run in parallel with other ractors without sharing all objects, avoiding data races
+    - [Refinements](https://docs.ruby-lang.org/en/master/syntax/refinements_rdoc.html) - A mechanism to extend classes locally, reducing the global side effects of monkey patching
+    - [Enumerable](https://docs.ruby-lang.org/en/master/Enumerable.html) - A module that provides methods useful to a collection class for querying, fetching, searching, filtering, sorting, and iterating
+  - Key Libraries
     - [io-event](https://socketry.github.io/io-event/) - The low level cross-platform primitives for constructing event loops
     - [Async](https://socketry.github.io/async/) - A composable asynchronous I/O framework for Ruby based on io-event
-    - [ruby-git](https://github.com/ruby-git/ruby-git) - A Ruby library that can be used to create, read and manipulate Git repositories by wrapping system calls to the git binary
-    - [ChunkyPNG](https://github.com/wvanbergen/chunky_png) - A library providing read/write access to PNG images in pure Ruby, without requiring RMagick or any other image library
-    - [pure_jpeg](https://github.com/peterc/pure_jpeg) - A pure Ruby JPEG encoder and decoder with no native dependencies
+    - [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) - The modern concurrency tools for Ruby including agents, futures, promises, thread pools, and supervisors, inspired by Erlang, Clojure, Scala, Haskell, F#, C#, and Java
+    - [dotenv (Ruby)](https://github.com/bkeepers/dotenv) - A Ruby gem to load environment variables from .env
   - Development Tools
     - [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - A tool to interactively execute Ruby expressions read from the standard input
     - [Pry](https://pry.github.io/) - A powerful alternative to the standard IRB shell for Ruby, with syntax highlighting, a flexible plugin architecture, runtime invocation and source and documentation browsing
+    - [Sorbet](https://sorbet.org/) - A fast, powerful type checker designed for Ruby
+
+### Perl & Other Scripting Languages
+
 - [Perl](https://www.perl.org/) - A family of two high-level, general-purpose, interpreted, dynamic programming languages
   - Core Features
     - [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - The variables that have a special meaning to Perl
@@ -287,9 +295,6 @@
 - [Tcl](https://www.tcl-lang.org/) - A dynamic programming language and a graphical user interface toolkit used for a wide range of applications
   - [Event-driven by design](https://wiki.tcl-lang.org/page/event+loop) - The built-in event loop that makes it ideal for GUIs and networking
 - [Lua](https://www.lua.org/) - A powerful, efficient, lightweight, embeddable scripting language
-- [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
-  - [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
-  - [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
 
 ## Asynchronous & Concurrency
 

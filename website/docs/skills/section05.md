@@ -197,6 +197,8 @@
   - 💲 [Google Cloud Storage](https://cloud.google.com/storage/) - A RESTful online file storage web service for storing and accessing data on Google Cloud Platform infrastructure
   - 🪙 [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - The service letting you upload and share user generated content, such as images and video
   - 🪙 [Supabase Storage](https://supabase.com/docs/guides/storage) - The service making it simple to store and serve large files like photos and videos
+  - 🪙 [Vercel Blob](https://vercel.com/docs/vercel-blob) - An object storage service for uploading files at build time or at runtime, with private and public access modes
+  - 🪙 [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/) - A highly-available data store for blobs and unstructured data, optimized for frequent reads and infrequent writes and usable as a simple key/value store
   - Self-hosted (advanced)
     - [Ceph](https://ceph.com/en/) - An open-source, distributed storage system
     - 🔒 [MinIO](https://min.io/) - A high-performance, S3 compatible object store
@@ -386,6 +388,7 @@
   - 💲 [Google Cloud SQL](https://cloud.google.com/sql) - A fully-managed database service that helps you set up, maintain, manage, and administer your relational databases on Google Cloud
   - 🪙 [Neon](https://neon.tech/) - A serverless, fault-tolerant, and scalable Postgres with a generous free tier
   - 🪙 [Turso](https://turso.tech/) - A SQLite-compatible database built on a ground-up rewrite of SQLite, lightweight enough to multiply and fast enough to run anywhere
+  - 🪙 [Netlify Database](https://docs.netlify.com/build/data-and-storage/netlify-db/) - A fully managed Postgres database built into the platform that automatically handles provisioning, migrations, and branching
 
 ### Connectivity & Tooling
 

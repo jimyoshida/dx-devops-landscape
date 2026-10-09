@@ -268,6 +268,7 @@
 - 🪙 [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - Google の最新 Gemini モデルへのアクセスを提供する API です
 - 🪙 [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - Hugging Face Hub でホストされているモデルで推論を許可する API です
 - 🪙 [OpenRouter](https://openrouter.ai/) - LLM 向けの統合インターフェイスです
+- 🪙 [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) - あらゆるインフラから複数プロバイダーの AI モデルを呼び出せるマネージドゲートウェイで、認証情報、リクエストログ、支出予算、ルーティング、プロバイダーのフェイルオーバーを一元化します
 - 💲 [TypeSafe AI](https://typesafe.ai/) - 自動化のためのマシンネイティブなインテリジェンス基盤を構築する AI ラボで、その System One モデルは型付きの質問に構造化された回答を返し、ソフトウェア内での意思決定を可能にします
   - [Kev](https://github.com/jaredpalmer/kev) - System One API と互換性があり、自分で学習・実行できる小型の意思決定モデルのファミリーです
 - オープンモデル
@@ -287,6 +288,7 @@
 ### モデルインターフェース SDK とクライアント
 
 - ライブラリ & SDK
+  - [AI SDK](https://ai-sdk.dev/) - AI アプリケーションとエージェントを構築するための TypeScript ツールキットです
   - [Go OpenAI](https://github.com/sashabaranov/go-openai) - OpenAI API の Go クライアントライブラリです
   - [Google Gen AI SDK](https://github.com/googleapis/python-genai) - Google の生成 AI モデル用の Python SDK です
   - [Instructor](https://python.useinstructor.com/) - 大規模言語モデル(LLM)から構造化された検証済みデータを抽出するために設計された Python ライブラリです

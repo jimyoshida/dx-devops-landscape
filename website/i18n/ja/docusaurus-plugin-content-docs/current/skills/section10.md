@@ -77,6 +77,10 @@
 - [Elixir](https://elixir-lang.org/) - スケーラブルで保守しやすいアプリケーションを構築するための動的な関数型言語です
   - [Process](https://elixir-lang.org/getting-started/processes.html) - 分離されており、メッセージを介して情報をやり取りする軽量な実行スレッドです
 - [Power Fx](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - Microsoft Power Platform 全体で使用される、汎用的で強く型付けされた宣言型かつ関数型のローコード言語です
+- [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) - 長い歴史と、完全に括弧で囲まれた独特の前置記法を持つプログラミング言語のファミリーです
+  - [S-expression](https://en.wikipedia.org/wiki/S-expression) - 入れ子になったリスト (木構造) データのための記法です
+  - [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - 一部のプログラミング言語が持つ性質で、プログラムの主要な表現がその言語自体のプリミティブな型のデータ構造でもあるというものです
+  - [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - Emacs テキストエディタを拡張・カスタマイズするために使用されるプログラミング言語です
 
 ### マルチパラダイム・ハイブリッド言語
 
@@ -89,6 +93,7 @@
 - [Scala](https://www.scala-lang.org/) - 一般的なプログラミングパターンを簡潔でエレガントかつ型安全な方法で表現できるように設計された、モダンなマルチパラダイムプログラミング言語です
   - [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - 静的型付けの環境でオブジェクト指向プログラミングと関数型プログラミングを融合させた言語の特性です
 - [Groovy](http://groovy-lang.org/) - 静的型付けと静的コンパイルの機能を備えた、Java プラットフォーム向けの強力でオプション型付け可能な動的言語です
+- [Kotlin](https://kotlinlang.org/) - JetBrains が開発した、簡潔なマルチプラットフォーム言語です
 - [Dart](https://dart.dev/) - あらゆるプラットフォームで高速なアプリを実現する、クライアント最適化言語です
 
 ## データ・フォーマット標準
@@ -167,6 +172,7 @@
   - [TOML](https://toml.io/en/) - 読みやすいミニマルな設定ファイルフォーマットです
     - [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny) - ミニマルな、純粋な Perl 製の TOML パーサー兼シリアライザです
     - [Python tomllib](https://docs.python.org/3/library/tomllib.html) - TOML を解析するためのインターフェースを提供するモジュールです
+    - [toml-rb](https://github.com/emancu/toml-rb) - ランタイム依存のない純粋な Ruby 製の TOML パーサー兼ダンパーです
   - [HCL](https://github.com/hashicorp/hcl) - 人間にもマシンにも優しい構造化された設定言語を作成するためのツールキットです
 - 関連ツール
   - [yj](https://github.com/sclevine/yj) - YAML、TOML、JSON、HCL 間の変換を行うコマンドラインインターフェースツールです

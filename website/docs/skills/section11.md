@@ -159,6 +159,7 @@
   - [Pillow](https://python-pillow.github.io/) - The friendly PIL (Python Imaging Library) fork that adds image processing capabilities to your Python interpreter
   - [RMagick](https://rmagick.github.io/) - A binding from Ruby to the ImageMagick image manipulation library
   - [MiniMagick](https://github.com/minimagick/minimagick) - A ruby wrapper for ImageMagick command line
+  - [ChunkyPNG](https://github.com/wvanbergen/chunky_png) - A library providing read/write access to PNG images in pure Ruby, without requiring RMagick or any other image library
   - [pure_jpeg](https://github.com/peterc/pure_jpeg) - A pure Ruby JPEG encoder and decoder library with no native dependencies
 
 ### Compression & Archiving
@@ -412,6 +413,7 @@
   - 🪙 [Firebase](https://firebase.google.com/) - An app development platform that helps you build and grow apps and games users love
   - [Supabase](https://supabase.com/) - A Postgres development platform that provides a database, authentication, instant APIs, edge functions, real-time subscriptions, storage, and vector embeddings
   - 🪙 [AWS Amplify](https://aws.amazon.com/amplify/) - A complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS
+  - 🪙 [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) - A serverless form handling that manages forms without extra API calls or additional JavaScript, using built-in form detection at deploy time
 
 ## Internet of Things (IoT)
 

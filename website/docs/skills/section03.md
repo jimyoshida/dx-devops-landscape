@@ -31,8 +31,7 @@
 - 🪙 [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/) - An HTTP-based service for hosting web applications, REST APIs, and mobile back ends
 - 💲 [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services
 - 🪙 [Google Cloud App Engine](https://cloud.google.com/appengine/) - A fully managed, serverless platform for developing and hosting web applications at scale
-- 🪙 [Vercel](https://vercel.com/) - A frontend cloud platform that provides the developer experience and infrastructure to build, deploy, and scale the web
-- 🪙 [Netlify](https://www.netlify.com/) - A composable web platform that enables enterprises and teams to build, deploy, and scale modern web experiences on a global edge network
+- 💲 [Heroku](https://www.heroku.com/) - A fully managed application platform that provides scalable app hosting so you can stay focused on building great apps
 - [Coolify](https://coolify.io/) - An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway
 
 ### Cloud Command Line Interfaces
@@ -341,6 +340,9 @@
 - 🪙 [AWS Lambda](https://aws.amazon.com/lambda/) - A serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers
 - 🪙 [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - An event-driven, serverless compute platform that helps you develop more efficiently using the programming language of your choice
 - 🪙 [Google Cloud Run Functions](https://cloud.google.com/functions) - A serverless execution environment for building and connecting cloud services
+- 🪙 [Vercel Functions](https://vercel.com/docs/functions) - A way to build API routes, webhooks, and agent request handlers that scale with traffic without managing servers
+  - [Fluid compute](https://vercel.com/docs/fluid-compute) - An execution model for functions that blends serverless flexibility and server-like capabilities through optimized concurrency and reduced cold starts
+- 🪙 [Netlify Functions](https://docs.netlify.com/build/functions/overview/) - A way to build full-stack applications without having to manage servers, on infrastructure that automatically scales as you grow
 
 ### Advanced Runtimes & Isolation
 
@@ -379,7 +381,6 @@
   - [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
   - [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
   - [Contour](https://projectcontour.io/) - A high performance ingress controller for Kubernetes that provides the control plane for the Envoy edge and service proxy
-  - [Apache APISIX](https://apisix.apache.org/) - An open source API Gateway to help you manage microservices, delivering the ultimate performance, security, and scalable platform for all your APIs and microservices
 - Cloud-Native Networking
   - [Project Calico](https://projectcalico.org/) - An open-source project that provides secure network connectivity, network security, and observability for containers, virtual machines, and native host-based workloads
   - [Cilium](https://cilium.io/) - An open-source project that provides networking, security, and observability for cloud-native environments
@@ -408,6 +409,9 @@
   - 💲 [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/) - A cloud service that you can use to automatically build and test your code project and make it available to other users
 - Application Deployment
   - [Kamal](https://kamal-deploy.org/) - A tool to deploy web apps anywhere
+- Preview Deployments
+  - 🪙 [Vercel Preview Deployments](https://vercel.com/docs/deployments/environments) - A deployment created for every push to a non-production branch or pull request, with an automatically generated URL for testing and collaboration without affecting the live site
+  - 🪙 [Netlify Deploy Previews](https://docs.netlify.com/deploy/deploy-types/deploy-previews/) - A type of deploy that lets you preview and share changes for feedback before they go live
 
 ### GitOps & Cloud-Native
 

@@ -60,8 +60,6 @@
   - [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML `<canvas>` element
   - [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) - A JavaScript API for rendering high-performance interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
   - [Web Neural Network API (WebNN)](https://www.w3.org/TR/webnn/) - An emerging web standard that allows web apps and frameworks to accelerate deep neural networks with on-device hardware such as GPUs, CPUs, or NPUs
-- Site Analyzers
-  - 🪙 [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
 ### Web Application Architectures
 
@@ -105,6 +103,7 @@
       - [Portals](https://react.dev/reference/react-dom/createPortal) - A feature that provides a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component
       - [Suspense](https://react.dev/reference/react/Suspense) - A component that lets you specify a loading indicator for a part of the component tree
       - [Error Boundary](https://react.dev/reference/react/Component#error-boundaries) - A React component that catches JavaScript errors anywhere in their child component tree
+      - [Server Components](https://react.dev/reference/rsc/server-components) - A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app or SSR server
   - [Preact](https://preactjs.com/) - A fast 3kB alternative to React with the same modern API
   - [Vue.js](https://vuejs.org/) - A JavaScript framework for building user interfaces
   - [Angular](https://angular.dev/) - A web framework that empowers developers to build fast, reliable applications
@@ -127,7 +126,6 @@
   - [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
     - [React-Redux](https://react-redux.js.org/) - The official React binding for Redux
   - [Zustand](https://github.com/pmndrs/zustand) - A small, fast, and scalable barebones state-management solution using simplified flux principles
-  - [Recoil](https://recoiljs.org/) - A state management library for React
   - [XState](https://stately.ai/docs) - A library for creating, interpreting, and executing finite state machines and statecharts
 - Routing
   - [React Router](https://reactrouter.com/) - A user-obsessed, standards-focused, multi-strategy router you can deploy anywhere
@@ -164,7 +162,6 @@
     - 🪙 [Tiptap](https://tiptap.dev/) - The headless and open source editor framework designed for web developers
   - Interaction & Media
     - [Swiper.js](https://swiperjs.com/) - The most modern mobile touch slider with hardware accelerated transitions and amazing native behavior
-    - [Hammer.js](https://hammerjs.github.io/) - A javascript library for multi-touch gestures
   - Canvas & Whiteboarding
     - 🔒 [tldraw](https://tldraw.dev/) - A React-based SDK for building whiteboards, diagrams, and canvas tools with a high-performance web canvas
 
@@ -199,7 +196,8 @@
 
 - JS/TS Full-stack Frameworks
   - [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
-  - [Nuxt.js](https://nuxtjs.org/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
+    - [App Router](https://nextjs.org/docs/app) - A file-system based router that uses React's latest features such as Server Components, Suspense, Server Functions, and more
+  - [Nuxt](https://nuxt.com/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
   - [Astro](https://astro.build/) - The web framework for content-driven websites
   - [Fresh](https://fresh.deno.dev/) - A next generation web framework, built for speed, reliability, and simplicity
 - Rust Full-Stack Frameworks
@@ -313,15 +311,20 @@
   - [Apache HTTP Server](https://httpd.apache.org/) - A project to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows
   - [Caddy](https://caddyserver.com/) - A powerful, extensible platform to serve your sites, services, and apps, written in Go
   - [HAProxy](https://www.haproxy.org/) - A free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications
+- Static File Servers
   - [nodejs http-server](https://github.com/http-party/http-server#readme) - A simple static HTTP server
-  - [goshs](https://github.com/patrickhener/goshs) - A feature-rich single-binary file server for red teamers and developers supporting HTTP/S, WebDAV, SFTP, SMB, LDAP/S, NTLM hash capture, DNS/SMTP callbacks, TLS, authentication, and share links
-- API Management
-  - 🪙 [Unkey](https://www.unkey.com/) - An open-source API management platform designed to help developers secure, manage, and scale their APIs
-  - 🔒 [Kong API gateway](https://konghq.com/products/kong-gateway) - A lightweight, fast, and flexible cloud-native API gateway
-  - 💲 [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments
-  - 💲 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
-  - 💲 [Google Cloud Apigee](https://cloud.google.com/apigee) - The platform for developing and managing API services
-  - 🔒 [Gravitee](https://www.gravitee.io/) - A unified API visibility and governance platform that provides a single pane of glass for managing, securing, and governing APIs across any infrastructure
+- Forward Proxy Servers
+  - [Squid](http://www.squid-cache.org/) - A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more
+
+### API Gateways & Management
+
+- 🪙 [Unkey](https://www.unkey.com/) - An open-source API management platform designed to help developers secure, manage, and scale their APIs
+- 🔒 [Kong API gateway](https://konghq.com/products/kong-gateway) - A lightweight, fast, and flexible cloud-native API gateway
+- 💲 [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) - A hybrid, multicloud management platform for APIs across all environments
+- 💲 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale
+- 💲 [Google Cloud Apigee](https://cloud.google.com/apigee) - The platform for developing and managing API services
+- 🔒 [Gravitee](https://www.gravitee.io/) - A unified API visibility and governance platform that provides a single pane of glass for managing, securing, and governing APIs across any infrastructure
+- [Apache APISIX](https://apisix.apache.org/) - An open source API Gateway to help you manage microservices, delivering the ultimate performance, security, and scalable platform for all your APIs and microservices
 
 ### CDN & Edge Computing
 
@@ -329,19 +332,29 @@
   - [Web cache](https://en.wikipedia.org/wiki/Web_cache) - An information technology for the temporary storage (caching) of web documents, such as HTML pages and images, to reduce bandwidth usage, server load, and perceived lag
   - [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) - A geographically distributed network of proxy servers and their data centers
     - [Point of presence](https://en.wikipedia.org/wiki/Point_of_presence) - An artificial demarcation point or interface point between communicating entities
-- Forward Proxy Servers
-  - [Squid](http://www.squid-cache.org/) - A caching proxy for the Web supporting HTTP, HTTPS, FTP, and more
 - CDN Providers
   - 🪙 [Cloudflare](https://www.cloudflare.com/) - A global network designed to make everything you connect to the Internet secure, private, fast, and reliable
-    - 🪙 [Cloudflare Workers](https://workers.cloudflare.com/) - A serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure
-    - [Cloudflare Workers Bindings](https://developers.cloudflare.com/workers/runtime-apis/bindings/) - A mechanism that allows your Worker to interact with resources on the Cloudflare Developer Platform, providing better performance and fewer restrictions than REST APIs for accessing resources from Workers
   - 🪙 [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - A content delivery network (CDN) service built for high performance, security, and developer convenience
-    - 💲 [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
   - 💲 [Google Cloud CDN](https://cloud.google.com/cdn) - A content delivery network (CDN) that accelerates delivery of your web and video content
   - 💲 [Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/) - A modern cloud content delivery network (CDN) that provides a secure and scalable entry point for fast delivery of your global web applications and content
+- Edge Functions & Middleware
+  - 🪙 [Cloudflare Workers](https://workers.cloudflare.com/) - A serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure
+    - [Cloudflare Workers Bindings](https://developers.cloudflare.com/workers/runtime-apis/bindings/) - A mechanism that allows your Worker to interact with resources on the Cloudflare Developer Platform, providing better performance and fewer restrictions than REST APIs for accessing resources from Workers
+  - 💲 [Lambda@Edge](https://aws.amazon.com/lambda/edge/) - A feature of Amazon CloudFront that lets you run code closer to users of your application
+  - 🪙 [Vercel Routing Middleware](https://vercel.com/docs/routing-middleware) - A mechanism that executes code before a request is processed on a site, running globally before the cache to personalize statically generated content
+  - 🪙 [Netlify Edge Functions](https://docs.netlify.com/build/edge-functions/overview/) - A feature that connects the platform and workflow with an open runtime standard at the network edge to build fast, personalized web experiences
+- Image CDN
+  - 🪙 [Netlify Image CDN](https://docs.netlify.com/build/image-cdn/overview/) - A service that transforms images on demand without impacting build times and negotiates the most efficient image format for the requesting client
 - JAMstack Hosting
   - 🪙 [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
-  - 🪙 [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites
+  - 🪙 [GitHub Pages](https://pages.github.com/) - A service that hosts websites for you and your projects directly from your GitHub repository
+  - 🪙 [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites, with Cloudflare now recommending Workers for new projects
+  - 🪙 [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) - A feature to upload and serve static files such as HTML, CSS and images as part of a Worker, automatically cached and distributed across the global network
+  - 🪙 [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) - A service that streamlines full-stack development from source code to global high availability
+  - 🪙 [AWS Amplify Hosting](https://aws.amazon.com/amplify/hosting/) - A scalable, secure, and reliable hosting service for modern web apps that quickly deploys server-side rendered apps, static apps and SPAs
+  - 🪙 [Firebase Hosting](https://firebase.google.com/products/hosting) - A fast, secure hosting for static websites, optimized for static and single-page web apps and deployed in seconds using a global CDN
+  - 🪙 [Vercel Deployments](https://vercel.com/docs/deployments) - The result of a successful build of your project, created from Git, Vercel CLI, Vercel Drop, deploy hooks or the REST API, with a unique URL for previewing changes in a live environment
+  - 🪙 [Netlify Deploys](https://docs.netlify.com/deploy/create-deploys/) - A new version of your site or app that Netlify builds on its infrastructure and gives a URL, deployed as a preview or as a production version designed to go live at your primary domain
 
 ## Decentralized Web
 
@@ -363,7 +376,7 @@
 - [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
 - [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
 - [Solidity](https://en.wikipedia.org/wiki/Solidity) - A programming language for implementing smart contracts on various blockchain platforms, most notably Ethereum
-- [Web3.js](https://web3js.org/) - A TypeScript/JavaScript library that enables developers to connect to and interact with Ethereum and other EVM-compatible blockchains
+- [viem](https://viem.sh/) - A library to build reliable Ethereum apps and libraries with lightweight, composable, and type-safe modules
 - [ethers.js](https://ethers.org/) - A simple, compact and complete JavaScript library for all your Ethereum needs
 - [MetaMask](https://metamask.io/) - A crypto wallet that enables users to buy, sell, swap, and store cryptocurrencies while maintaining control over their data and assets
 - [WalletConnect](https://walletconnect.com/) - An open-source protocol that establishes encrypted connections between mobile cryptocurrency wallets and desktop-based decentralized applications
@@ -401,7 +414,6 @@
   - [hurl](https://hurl.dev/) - A command line tool that runs HTTP requests defined in a simple plain text format
   - [httpie cli](https://httpie.io/cli) - A simple yet powerful command-line HTTP and API testing client for the API era
   - [wuzz](https://github.com/asciimoo/wuzz) - An interactive CLI tool for HTTP inspection
-  - [httptap](https://github.com/monasticacademy/httptap) - A tool to view the HTTP and HTTPS requests made by any Linux program
 - HTTP Client Libraries
   - [Python Requests](https://docs.python-requests.org/en/latest/) - An elegant and simple HTTP library for Python, built for human beings
   - [JS Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
@@ -413,27 +425,30 @@
   - [httpx](https://gitlab.com/os85/httpx) - An HTTP client library for the Ruby programming language
   - [wreq-ruby](https://github.com/SearchApi/wreq-ruby) - An easy and powerful Ruby HTTP client with advanced browser fingerprinting that accurately emulates various browsers with precise TLS/HTTP2 signatures
   - [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - An ergonomic, async HTTP client
-- GraphQL Libraries
+- GraphQL Clients
   - [URQL](https://commerce.nearform.com/open-source/urql/) - The highly customizable and versatile GraphQL client for React, Svelte, Vue, or plain JavaScript
 - API Testing Platforms
   - 🪙 [Bruno](https://www.usebruno.com/) - A Git-integrated, fully offline, and open-source API client
   - 🪙 [Postman/Newman](https://www.postman.com/) - An API platform for building and using APIs
-- Classic Web Automation
-  - [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
-  - [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy
 
 ### Web Debugging Tools
 
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
-- [Firefox Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - A set of web developer tools built into Firefox that allow you to examine, edit, and debug HTML, CSS, and JavaScript
-- [React Developer Tools](https://react.dev/learn/react-developer-tools) - A browser extension and standalone debugger that allows developers to inspect React components, edit props and state, and identify performance problems in React applications
-- [Vue.js devtools](https://devtools.vuejs.org/) - A browser extension for debugging Vue.js applications that provides component inspection and state management debugging
-- [Redux DevTools](https://github.com/reduxjs/redux-devtools) - A development tool that provides power-ups for Redux development workflow, including hot reloading, action replay, and customizable UI
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - An open-source, automated tool that helps improve web page quality by auditing performance, accessibility, SEO, and best practices
-- 🪙 [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
-- 💲 [Charles Proxy](https://www.charlesproxy.com/) - An HTTP proxy/monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and headers
-- [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy that can intercept, inspect, modify, and replay web traffic for debugging, testing, and penetration testing purposes
-- 🪙 [Requestly](https://requestly.com/) - An HTTP interceptor that allows developers to modify URLs, headers, and API responses in real-time for debugging and testing
+- Browser Developer Tools
+  - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A set of web developer tools built directly into the Google Chrome browser
+  - [Firefox Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/) - A set of web developer tools built into Firefox that allow you to examine, edit, and debug HTML, CSS, and JavaScript
+- Framework Developer Tools
+  - [React Developer Tools](https://react.dev/learn/react-developer-tools) - A browser extension and standalone debugger that allows developers to inspect React components, edit props and state, and identify performance problems in React applications
+  - [Vue.js devtools](https://devtools.vuejs.org/) - A browser extension for debugging Vue.js applications that provides component inspection and state management debugging
+  - [Redux DevTools](https://github.com/reduxjs/redux-devtools) - A development tool that provides power-ups for Redux development workflow, including hot reloading, action replay, and customizable UI
+- Debugging Proxies & Interceptors
+  - 🪙 [Fiddler](https://www.telerik.com/fiddler) - A free web debugging proxy for any browser, system or platform
+  - 💲 [Charles Proxy](https://www.charlesproxy.com/) - An HTTP proxy/monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and headers
+  - [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy that can intercept, inspect, modify, and replay web traffic for debugging, testing, and penetration testing purposes
+  - 🪙 [Requestly](https://requestly.com/) - An HTTP interceptor that allows developers to modify URLs, headers, and API responses in real-time for debugging and testing
+  - [httptap](https://github.com/monasticacademy/httptap) - A tool to view the HTTP and HTTPS requests made by any Linux program
+- Site Auditing & Analysis
+  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - An open-source, automated tool that helps improve web page quality by auditing performance, accessibility, SEO, and best practices
+  - 🪙 [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
 ### Web Test Automation Frameworks
 
@@ -447,17 +462,23 @@
     - [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
   - [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
   - [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - A low-level API that allows external tools to instrument, inspect, debug, and profile Chromium-based browsers
-  - [Karma](https://karma-runner.github.io) - A test runner that spawns a web server and executes source code against test code for each of the connected browsers
+  - [Web Test Runner](https://modern-web.dev/docs/test-runner/overview/) - A test runner for web applications that runs tests in real browsers with headless browser support, module mocking, and parallel execution
   - Supporting Tools
     - [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
 - Accessibility Testing
   - [axe-core](https://www.deque.com/axe/) - An accessibility testing engine for websites and other HTML-based user interfaces
 - AI-powered Web Automation
   - [browser-use](https://docs.browser-use.com/) - An open-source Python library that allows AI agents to interact with web browsers using natural language
-- Web Scraping
+
+### Web Scraping & Crawling
+
+- Scraping Frameworks
   - [Crawlee](https://crawlee.dev/) - A web scraping and browser automation library
   - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - A Python library designed for quick turnaround projects like screen-scraping
   - [Scrapy](https://scrapy.org/) - An open source and collaborative framework for extracting the data you need from websites
   - [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   - [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
   - [Trafilatura](https://trafilatura.readthedocs.io/en/latest/) - A Python package and command-line tool to gather text on the Web
+- Classic Web Automation
+  - [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
+  - [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy

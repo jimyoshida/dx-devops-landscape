@@ -197,6 +197,8 @@
   - 💲 [Google Cloud Storage](https://cloud.google.com/storage/) - Google Cloud Platform のインフラストラクチャ上でデータを保存・アクセスするための RESTful なオンラインファイルストレージ Web サービスです
   - 🪙 [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - 画像や動画などのユーザー生成コンテンツをアップロード・共有できるようにするサービスです
   - 🪙 [Supabase Storage](https://supabase.com/docs/guides/storage) - 写真や動画のような大容量ファイルの保存・配信をシンプルにするサービスです
+  - 🪙 [Vercel Blob](https://vercel.com/docs/vercel-blob) - ビルド時または実行時にファイルをアップロードするためのオブジェクトストレージサービスで、プライベートとパブリックのアクセスモードを備えます
+  - 🪙 [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/) - 頻繁な読み取りと少ない書き込みに最適化された、Blob と非構造化データのための高可用性データストアで、シンプルなキー/バリューストアとしても使えます
   - セルフホスト型 (上級)
     - [Ceph](https://ceph.com/en/) - オープンソースの分散ストレージシステムです
     - 🔒 [MinIO](https://min.io/) - 高性能で S3 互換のオブジェクトストアです
@@ -386,6 +388,7 @@
   - 💲 [Google Cloud SQL](https://cloud.google.com/sql) - Google Cloud 上でリレーショナルデータベースのセットアップ、保守、管理、運用を支援するフルマネージドのデータベースサービスです
   - 🪙 [Neon](https://neon.tech/) - サーバーレスで耐障害性があり、寛大な無料枠を備えたスケーラブルな Postgres です
   - 🪙 [Turso](https://turso.tech/) - SQLite をゼロから書き直した上に構築された SQLite 互換のデータベースであり、複製しても軽量で、どこで実行しても十分に高速です
+  - 🪙 [Netlify Database](https://docs.netlify.com/build/data-and-storage/netlify-db/) - プロビジョニング、マイグレーション、ブランチングを自動で処理する、プラットフォームに組み込まれたフルマネージドの Postgres データベースです
 
 ### 接続性 & ツール
 

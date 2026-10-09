@@ -288,6 +288,13 @@
   - [gitoxide](https://github.com/GitoxideLabs/gitoxide) - イディオマティックで無駄がなく、高速かつ安全な Git の純粋な Rust 実装です
   - [TortoiseGit](https://tortoisegit.org/) - Git 向けの Windows シェルインターフェイスで、TortoiseSVN をベースにしています
   - [git lfs](https://git-lfs.com/) - 大きなファイルをバージョン管理するためのオープンソース Git 拡張機能です
+- Git クライアントライブラリ
+  - [go-git](https://github.com/go-git/go-git) - 純粋な Go で書かれた、高い拡張性を持つ Git 実装ライブラリです
+  - [GitPython](https://github.com/gitpython-developers/GitPython) - git-porcelain のような高レベルから git-plumbing のような低レベルまで、Git リポジトリを操作するために使用される Python ライブラリです
+  - [Dulwich](https://www.dulwich.io/) - Git バイナリを必要としない、Git ファイルフォーマットとプロトコルの純粋な Python 実装です
+  - [isomorphic-git](https://isomorphic-git.org/) - Node とブラウザ向けの純粋な JavaScript による Git 実装です
+  - [simple-git](https://github.com/steveukx/git-js) - あらゆる Node.js アプリケーションで git コマンドを実行するための軽量なインターフェースです
+  - [ruby-git](https://github.com/ruby-git/ruby-git) - git バイナリへのシステムコールをラップすることで Git リポジトリを作成、読み取り、操作できる Ruby ライブラリです
 - ターミナル & UI ツール
   - [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - 現在の git リポジトリに関する情報を表示する bash プロンプトです
   - [lazygit](https://github.com/jesseduffield/lazygit) - git コマンド向けのシンプルなターミナル UI です

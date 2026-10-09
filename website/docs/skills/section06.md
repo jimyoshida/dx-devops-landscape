@@ -268,6 +268,7 @@
 - 🪙 [Gemini Developer APIs](https://ai.google.dev/gemini-api/docs) - The API that gives you access to the latest Gemini models from Google
 - 🪙 [Hugging Face Serverless Inference API](https://huggingface.co/docs/api-inference/index) - The API allowing inference on models hosted on the Hugging Face Hub
 - 🪙 [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs
+- 🪙 [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) - A managed gateway to call AI models across providers from any infrastructure, centralizing credentials, request logs, spend budgets, routing, and provider failover
 - 💲 [TypeSafe AI](https://typesafe.ai/) - An AI lab building machine-native intelligence infrastructure for automation, whose System One models return structured answers to typed questions to make decisions within software
   - [Kev](https://github.com/jaredpalmer/kev) - A family of small decision models compatible with the System One API that you can train and run yourself
 - Open Models
@@ -287,6 +288,7 @@
 ### Model Interface SDKs & Clients
 
 - Libraries & SDKs
+  - [AI SDK](https://ai-sdk.dev/) - The TypeScript toolkit for building AI applications and agents
   - [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
   - [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
   - [Instructor](https://python.useinstructor.com/) - A Python library designed to extract structured, validated data from Large Language Models (LLMs)

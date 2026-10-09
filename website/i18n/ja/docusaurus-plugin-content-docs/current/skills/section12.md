@@ -138,10 +138,10 @@
     - [mdterm](https://github.com/bahdotsh/mdterm) - Rust で書かれたターミナルベースの Markdown ビューアであり、シンタックスハイライト、スタイル付きフォーマット、対話的なナビゲーションを備えて Markdown ファイルをレンダリングします
     - [Grip](https://github.com/joeyespo/grip) - README ファイルを GitHub にプッシュする前にローカルでレンダリングするコマンドラインサーバーアプリケーションです
     - [markmap](https://markmap.js.org/) - Markdown とマインドマップを組み合わせたものです
-    - [Marp](https://marp.app/) - プレーンな Markdown で書ける、最もシンプルな Markdown プレゼンテーション作成ツールです
-      - [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - Markdown 向けのオールインワンツールです (キーボードショートカット、目次、自動プレビューなど)
-      - [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - Visual Studio Code 向けの超強力な Markdown 拡張機能です
-      - [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - (neo)vim 向けの Markdown プレビュープラグインです
+    - [Marp](https://marp.app/) - 美しいスライドデッキを直感的に作成できる Markdown プレゼンテーションエコシステムです
+    - [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - Markdown 向けのオールインワンツールです (キーボードショートカット、目次、自動プレビューなど)
+    - [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - Visual Studio Code 向けの超強力な Markdown 拡張機能です
+    - [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - (neo)vim 向けの Markdown プレビュープラグインです
     - ガイド
       - [Markdown Guide](https://www.markdownguide.org/) - Markdown の使い方を説明する、無料でオープンソースのリファレンスガイドです
   - [DocUtils](https://docutils.sourceforge.io/) - プレーンテキストのドキュメントを HTML、LaTeX、man ページ、OpenDocument、XML などの有用な形式に変換するための、オープンソースのテキスト処理システムです

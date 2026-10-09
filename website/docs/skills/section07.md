@@ -288,6 +288,13 @@
   - [gitoxide](https://github.com/GitoxideLabs/gitoxide) - An idiomatic, lean, fast & safe pure Rust implementation of Git
   - [TortoiseGit](https://tortoisegit.org/) - A Windows Shell Interface to Git and based on TortoiseSVN
   - [git lfs](https://git-lfs.com/) - An open source Git extension for versioning large files
+- Git Client Libraries
+  - [go-git](https://github.com/go-git/go-git) - A highly extensible Git implementation library written in pure Go
+  - [GitPython](https://github.com/gitpython-developers/GitPython) - A Python library used to interact with Git repositories, high-level like git-porcelain, or low-level like git-plumbing
+  - [Dulwich](https://www.dulwich.io/) - A pure-Python implementation of the Git file formats and protocols, with no Git binary required
+  - [isomorphic-git](https://isomorphic-git.org/) - A pure JavaScript implementation of Git for Node and browsers
+  - [simple-git](https://github.com/steveukx/git-js) - A lightweight interface for running git commands in any Node.js application
+  - [ruby-git](https://github.com/ruby-git/ruby-git) - A Ruby library that can be used to create, read and manipulate Git repositories by wrapping system calls to the git binary
 - Terminal & UI Tools
   - [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - A bash prompt that displays information about the current git repository
   - [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands

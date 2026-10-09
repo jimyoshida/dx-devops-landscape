@@ -159,6 +159,7 @@
   - [Pillow](https://python-pillow.github.io/) - Python インタープリタに画像処理機能を追加する、親しみやすい PIL (Python Imaging Library) のフォークです
   - [RMagick](https://rmagick.github.io/) - Ruby から ImageMagick 画像操作ライブラリへのバインディングです
   - [MiniMagick](https://github.com/minimagick/minimagick) - ImageMagick コマンドライン向けの Ruby ラッパーです
+  - [ChunkyPNG](https://github.com/wvanbergen/chunky_png) - 純粋な Ruby で PNG 画像の読み書きを可能にするライブラリで、RMagick などの画像ライブラリを必要としません
   - [pure_jpeg](https://github.com/peterc/pure_jpeg) - ネイティブ依存のない純粋な Ruby 製 JPEG エンコーダー・デコーダーライブラリです
 
 ### 圧縮・アーカイブ
@@ -412,6 +413,7 @@
   - 🪙 [Firebase](https://firebase.google.com/) - ユーザーに愛されるアプリやゲームの構築・成長を支援するアプリ開発プラットフォームです
   - [Supabase](https://supabase.com/) - データベース、認証、インスタント API、エッジ関数、リアルタイムサブスクリプション、ストレージ、ベクトル埋め込みを提供する Postgres 開発プラットフォームです
   - 🪙 [AWS Amplify](https://aws.amazon.com/amplify/) - フロントエンドの Web・モバイル開発者が AWS 上でフルスタックアプリケーションを簡単に構築、出荷、ホストできる完全なソリューションです
+  - 🪙 [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) - デプロイ時の組み込みフォーム検出により、追加の API 呼び出しや JavaScript なしでフォームを管理できるサーバーレスのフォーム処理です
 
 ## モノのインターネット (IoT)
 

@@ -31,8 +31,7 @@
 - 🪙 [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/) - ウェブアプリケーション、REST API、モバイルバックエンドをホストするための HTTP ベースのサービスです
 - 💲 [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - ウェブアプリケーションやサービスのデプロイとスケーリングを簡単に行えるサービスです
 - 🪙 [Google Cloud App Engine](https://cloud.google.com/appengine/) - ウェブアプリケーションを大規模に開発・ホストするためのフルマネージドなサーバーレスプラットフォームです
-- 🪙 [Vercel](https://vercel.com/) - ウェブの構築、デプロイ、スケーリングのための開発者体験とインフラストラクチャを提供するフロントエンドクラウドプラットフォームです
-- 🪙 [Netlify](https://www.netlify.com/) - 企業やチームがグローバルなエッジネットワーク上でモダンなウェブ体験を構築、デプロイ、スケールできるようにするコンポーザブルなウェブプラットフォームです
+- 💲 [Heroku](https://www.heroku.com/) - 優れたアプリの構築に集中できるよう、スケーラブルなアプリホスティングを提供するフルマネージドのアプリケーションプラットフォームです
 - [Coolify](https://coolify.io/) - Vercel、Heroku、Netlify、Railway に代わる、オープンソース & セルフホスト可能な代替手段です
 
 ### クラウドコマンドラインインターフェース
@@ -341,6 +340,9 @@
 - 🪙 [AWS Lambda](https://aws.amazon.com/lambda/) - サーバーのプロビジョニングや管理を行うことなく、事実上あらゆる種類のアプリケーションやバックエンドサービスのコードを実行できる、サーバーレスでイベント駆動型のコンピューティングサービスです
 - 🪙 [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - 好みのプログラミング言語を使ってより効率的に開発できるようにする、イベント駆動型のサーバーレスコンピューティングプラットフォームです
 - 🪙 [Google Cloud Run Functions](https://cloud.google.com/functions) - クラウドサービスの構築と接続のためのサーバーレス実行環境です
+- 🪙 [Vercel Functions](https://vercel.com/docs/functions) - サーバーを管理せずに、トラフィックに応じてスケールする API ルート、Webhook、エージェントのリクエストハンドラーを構築する手段です
+  - [Fluid compute](https://vercel.com/docs/fluid-compute) - 最適化された並行処理とコールドスタートの削減によって、サーバーレスの柔軟性とサーバーのような機能を併せ持つ関数の実行モデルです
+- 🪙 [Netlify Functions](https://docs.netlify.com/build/functions/overview/) - 成長に合わせて自動でスケールするインフラの上で、サーバーを管理せずにフルスタックアプリケーションを構築する手段です
 
 ### 高度なランタイム & 分離
 
@@ -379,7 +381,6 @@
   - [Envoy Proxy](https://www.envoyproxy.io/) - オープンソースのエッジ・サービスプロキシです
   - [Traefik proxy](https://traefik.io/traefik/) - 主要なモダンオープンソースのリバースプロキシ兼 Ingress コントローラーです
   - [Contour](https://projectcontour.io/) - Envoy のエッジ・サービスプロキシのコントロールプレーンを提供する、Kubernetes 向けの高性能な Ingress コントローラーです
-  - [Apache APISIX](https://apisix.apache.org/) - マイクロサービスの管理を支援し、すべての API とマイクロサービスに究極のパフォーマンス、セキュリティ、スケーラビリティを提供するプラットフォームである、オープンソースの API ゲートウェイです
 - クラウドネイティブネットワーキング
   - [Project Calico](https://projectcalico.org/) - コンテナ、仮想マシン、ネイティブホストベースのワークロード向けに、安全なネットワーク接続、ネットワークセキュリティ、オブザーバビリティを提供する、オープンソースプロジェクトです
   - [Cilium](https://cilium.io/) - クラウドネイティブ環境向けにネットワーキング、セキュリティ、オブザーバビリティを提供する、オープンソースプロジェクトです
@@ -408,6 +409,9 @@
   - 💲 [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/) - コードプロジェクトを自動的にビルド・テストし、他のユーザーが利用できるようにするために使用できるクラウドサービスです
 - アプリケーションデプロイ
   - [Kamal](https://kamal-deploy.org/) - どこにでもウェブアプリをデプロイできるツールです
+- プレビューデプロイ
+  - 🪙 [Vercel Preview Deployments](https://vercel.com/docs/deployments/environments) - 本番以外のブランチへのプッシュやプルリクエストごとに作成されるデプロイで、自動生成された URL により本番サイトに影響を与えずにテストと共同作業ができます
+  - 🪙 [Netlify Deploy Previews](https://docs.netlify.com/deploy/deploy-types/deploy-previews/) - 公開前に変更をプレビューして共有し、フィードバックを得られるデプロイの一種です
 
 ### GitOps & クラウドネイティブ
 

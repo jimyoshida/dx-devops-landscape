@@ -460,6 +460,7 @@
 - Web Application Firewall (WAF)
   - 💲 [AWS WAF](https://aws.amazon.com/waf/) - A web application firewall that helps protect your web applications or APIs against common web exploits and bots
   - 💲 [Azure Web Application Firewall](https://azure.microsoft.com/en-us/products/web-application-firewall/) - A cloud-native service that protects web apps from common web-hacking techniques and vulnerabilities
+  - 🪙 [Vercel Firewall](https://vercel.com/docs/vercel-firewall) - A multi-layered security system that combines platform-wide DDoS mitigation with a customizable Web Application Firewall
 - Network-level Protection
   - 💲 [AWS Shield](https://aws.amazon.com/shield/) - A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS
   - 💲 [Azure DDoS Protection](https://azure.microsoft.com/en-us/products/ddos-protection) - A service that provides countermeasures against the most sophisticated DDoS threats

@@ -138,10 +138,10 @@
     - [mdterm](https://github.com/bahdotsh/mdterm) - A terminal-based Markdown viewer written in Rust that renders Markdown files with syntax highlighting, styled formatting, and interactive navigation
     - [Grip](https://github.com/joeyespo/grip) - A command-line server application that renders local README files before you push them to GitHub
     - [markmap](https://markmap.js.org/) - A combination of Markdown and mindmap
-    - [Marp](https://marp.app/) - The simplest Markdown presentation writer with plain Markdown
-      - [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - An all-in-one tool for Markdown (keyboard shortcuts, table of contents, auto preview, and more)
-      - [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
-      - [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - A markdown preview plugin for (neo)vim
+    - [Marp](https://marp.app/) - The Markdown Presentation Ecosystem that provides an intuitive experience for creating beautiful slide decks
+    - [Markdown all-in-one](https://github.com/yzhang-gh/vscode-markdown) - An all-in-one tool for Markdown (keyboard shortcuts, table of contents, auto preview, and more)
+    - [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) - A SUPER POWERFUL markdown extension for Visual Studio Code
+    - [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim) - A markdown preview plugin for (neo)vim
     - Guides
       - [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown
   - [DocUtils](https://docutils.sourceforge.io/) - An open-source text processing system for processing plaintext documentation into useful formats, such as HTML, LaTeX, man-pages, open-document, or XML

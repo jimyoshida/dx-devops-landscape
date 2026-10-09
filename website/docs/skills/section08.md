@@ -440,6 +440,7 @@
   - [vsftpd](https://security.appspot.com/vsftpd.html) - A GPL licensed FTP server for UNIX-like systems, including Linux
 - [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) - A network protocol that provides file access, file transfer, and file management over any reliable data stream
   - 🔒 [SFTPGo](https://sftpgo.com/) - A fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support
+- [goshs](https://github.com/patrickhener/goshs) - A feature-rich single-binary file server for red teamers and developers supporting HTTP/S, WebDAV, SFTP, SMB, LDAP/S, NTLM hash capture, DNS/SMTP callbacks, TLS, authentication, and share links
 
 ### Remote Access Servers and Protocols
 

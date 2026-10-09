@@ -48,8 +48,6 @@ sidebar_position: 7
 
 🧠 GitHub Copilot コーディングエージェントと MCP のサポートは、2025 年 7 月 9 日の Visual Studio Code の 6 月安定版リリース (v1.102) で一般提供となりました。
 
-🧠 2025 年 8 月 6 日、Jules は正式にベータを終えて一般に公開され、Gemini 2.5 を基盤としています。
-
 🧠 GPT-5 は OpenAI が開発したマルチモーダルな大規模言語モデルで、生成事前学習トランスフォーマー (GPT) の基盤モデルシリーズでは 5 番目にあたります。シリーズでは GPT-4 に続くもので、2025 年 8 月 7 日に公開され、推論を伴う機能と伴わない機能を共通のインターフェースのもとにまとめました。
 
 🧠 2025 年 9 月 12 日にリリースされた Visual Studio Code の 8 月アップデート (v1.104) は、「Auto」によるモデル選択を追加し、GitHub Copilot Agent へ独自の指示を与えるための `AGENTS.md` ファイルのサポートを導入しました。
@@ -122,7 +120,7 @@ sidebar_position: 7
 
 🧠 自律的なエージェント型ワークフローを構築するために設計された現代的な AI オーケストレーションフレームワークである Microsoft Agent Framework 1.0 は、2026 年 4 月 3 日にオープンソースプロジェクトとして最初に公開されました。
 
-🧠 2026 年 4 月 7 日、Anthropic は Project Glasswing を発表し、Mythos Preview を 11 社へ提供しました。
+🧠 2026 年 4 月 7 日、Anthropic は Project Glasswing を発表しました。これは世界で最も重要なソフトウェアを守るために、Amazon Web Services、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorganChase、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networks を結集する取り組みです。Anthropic はこれら 11 のパートナーに、未公開のフロンティアモデルである Claude Mythos Preview へのアクセスを提供し、重要なソフトウェアの脆弱性の発見と修正に役立てました。
 
 ⚙️ Linux 7.0 は 2026 年 4 月 12 日に最新のメジャー安定版としてリリースされ、先進的なハードウェアのサポートとメモリ安全なプログラミング言語のさらなる統合によって、カーネルの進化を引き続き前へ進めました。
 

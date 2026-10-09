@@ -460,6 +460,7 @@
 - Web アプリケーションファイアウォール (WAF)
   - 💲 [AWS WAF](https://aws.amazon.com/waf/) - Web アプリケーションや API を一般的な Web エクスプロイトやボットから保護する Web アプリケーションファイアウォールです
   - 💲 [Azure Web Application Firewall](https://azure.microsoft.com/en-us/products/web-application-firewall/) - 一般的な Web ハッキング手法や脆弱性から Web アプリを保護するクラウドネイティブサービスです
+  - 🪙 [Vercel Firewall](https://vercel.com/docs/vercel-firewall) - プラットフォーム全体の DDoS 緩和とカスタマイズ可能な Web アプリケーションファイアウォールを組み合わせた多層のセキュリティシステムです
 - ネットワークレベルの保護
   - 💲 [AWS Shield](https://aws.amazon.com/shield/) - AWS 上で稼働するアプリケーションを保護するマネージド型の分散サービス拒否 (DDoS) 保護サービスです
   - 💲 [Azure DDoS Protection](https://azure.microsoft.com/en-us/products/ddos-protection) - 最も高度な DDoS の脅威に対する対策を提供するサービスです

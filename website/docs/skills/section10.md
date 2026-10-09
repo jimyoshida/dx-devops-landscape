@@ -77,6 +77,10 @@
 - [Elixir](https://elixir-lang.org/) - A dynamic, functional language for building scalable and maintainable applications
   - [Process](https://elixir-lang.org/getting-started/processes.html) - A lightweight thread of execution that is isolated and exchanges information via messages
 - [Power Fx](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - A low-code language used across Microsoft Power Platform that is a general-purpose, strong-typed, declarative, and functional programming language
+- [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) - A family of programming languages with a long history and a distinctive, fully parenthesized prefix notation
+  - [S-expression](https://en.wikipedia.org/wiki/S-expression) - A notation for nested list (tree-structured) data
+  - [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - A property of some programming languages in which the primary representation of programs is also a data structure in a primitive type of the language itself
+  - [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - The programming language used to extend and customize the Emacs text editor
 
 ### Multi-paradigm & Hybrid Languages
 
@@ -89,6 +93,7 @@
 - [Scala](https://www.scala-lang.org/) - A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way
   - [Hybrid OO/functional](https://docs.scala-lang.org/tour/tour-of-scala.html) - A characteristic of a language that fuses object-oriented and functional programming in a statically typed setting
 - [Groovy](http://groovy-lang.org/) - A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform
+- [Kotlin](https://kotlinlang.org/) - A concise, multiplatform language developed by JetBrains
 - [Dart](https://dart.dev/) - A client-optimized language for fast apps on any platform
 
 ## Data & Format Standards
@@ -167,6 +172,7 @@
   - [TOML](https://toml.io/en/) - A minimal configuration file format that's easy to read
     - [TOML::Tiny](https://metacpan.org/pod/TOML::Tiny) - A minimal, pure perl TOML parser and serializer
     - [Python tomllib](https://docs.python.org/3/library/tomllib.html) - A module that provides an interface for parsing TOML
+    - [toml-rb](https://github.com/emancu/toml-rb) - A pure Ruby TOML parser and dumper with no runtime dependencies
   - [HCL](https://github.com/hashicorp/hcl) - A toolkit for creating structured configuration languages that are both human- and machine-friendly
 - Related Tools
   - [yj](https://github.com/sclevine/yj) - A command-line interface tool to convert between YAML, TOML, JSON, and HCL

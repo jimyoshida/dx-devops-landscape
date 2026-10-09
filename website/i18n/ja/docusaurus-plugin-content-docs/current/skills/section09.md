@@ -200,7 +200,6 @@
     - [Special method names](https://docs.python.org/3/reference/datamodel.html#specialnames) - 先頭と末尾に二重アンダースコアが付くことで識別される、特殊な構文によって呼び出される操作をクラスが実装できるようにするメソッドです
     - [Type Hints](https://peps.python.org/pep-0484/) - 変数、関数パラメータ、戻り値の型注釈のための標準的な構文であり、静的解析に使用されます
       - [typing module](https://docs.python.org/3/library/typing.html) - 型ヒントに対する実行時サポートを提供する標準ライブラリモジュールです
-      - [Mypy](https://mypy-lang.org/) - 動的型付けと静的型付けの利点を組み合わせることを目指す、Python 用のオプションの静的型チェッカーです
     - [f-string](https://peps.python.org/pep-0498/) - 'f' または 'F' を接頭辞に持つ文字列リテラルの一種で、最小限の構文で文字列定数の中に式を埋め込むことができます
     - [with statement](https://peps.python.org/pep-0343/) - リソース管理のための try/finally 文の標準的な使用をカプセル化することで、例外処理を簡略化する文です
       - [contextlib](https://docs.python.org/3/library/contextlib.html) - with 文を伴う一般的なタスクのためのユーティリティを提供するモジュールです
@@ -218,6 +217,7 @@
     - [Tenacity](https://github.com/jd/tenacity) - Python 向けの汎用リトライライブラリです
   - 開発ツール
     - [IPython](https://ipython.org/) - 履歴機能、タブ補完、特殊なマジックコマンドを備えた、Python に対するリッチな対話型インターフェースです
+    - [Mypy](https://mypy-lang.org/) - 動的型付けと静的型付けの利点を組み合わせることを目指す、Python 用のオプションの静的型チェッカーです
 
 ### JavaScript と TypeScript
 
@@ -232,11 +232,13 @@
     - [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) - ジェネレータ関数によって返されるオブジェクトで、イテラブルプロトコルとイテレータプロトコルの両方に準拠します
   - 主要ライブラリ
     - [Lodash](https://lodash.com/) - モジュール性、パフォーマンス、追加機能を提供するモダンな JavaScript ユーティリティライブラリです
-    - [dax](https://github.com/dsherret/dax) - zx に触発された、Deno と Node.js のためのクロスプラットフォームシェルツールです
-    - [Bun Shell](https://bun.sh/docs/runtime/shell) - シェルスクリプトを実行するための組み込みのシェルライクなインターフェースです
-    - [zx](https://google.github.io/zx/) - より良いスクリプトを書くためのツールです
-    - [Zod](https://zod.dev/) - 静的型推論を備えた TypeScript ファーストのスキーマ検証ライブラリです
-    - [yup](https://github.com/jquense/yup) - 実行時の値の解析と検証のためのスキーマビルダーです
+    - シェルスクリプティング
+      - [dax](https://github.com/dsherret/dax) - zx に触発された、Deno と Node.js のためのクロスプラットフォームシェルツールです
+      - [Bun Shell](https://bun.sh/docs/runtime/shell) - シェルスクリプトを実行するための組み込みのシェルライクなインターフェースです
+      - [zx](https://google.github.io/zx/) - より良いスクリプトを書くためのツールです
+    - スキーマ検証
+      - [Zod](https://zod.dev/) - 静的型推論を備えた TypeScript ファーストのスキーマ検証ライブラリです
+      - [yup](https://github.com/jquense/yup) - 実行時の値の解析と検証のためのスキーマビルダーです
   - [Typescript](https://www.typescriptlang.org/index.html) - JavaScript を基盤として構築される強く型付けされたプログラミング言語で、あらゆる規模でより優れたツールを提供します
     - [Union Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) - 複数の型を 1 つに組み合わせる方法です
     - [Type Aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases) - 任意の型に対する名前です
@@ -248,14 +250,14 @@
   - TS 型ユーティリティ
     - [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - JSONSchema を TypeScript の型宣言にコンパイルするツールです
     - [Json Schema to TS](https://github.com/thomasaribart/json-schema-to-ts) - FromSchema メソッドにより JSON スキーマから TS の型を直接推論できます
-- チュートリアルと実践
-  - [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - すべての JavaScript 開発者が知っておくべき 33 の概念に関する記事をまとめたリポジトリです
-  - [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - JavaScript プロジェクトのためのベストプラクティス集です
-  - [Callback Hell](http://callbackhell.com/) - 非同期処理を扱う際にコールバック関数がネストしていくことです
-  - [NodeSchool](https://nodeschool.io/) - Web ソフトウェアのスキルを教える一連のオープンソースワークショップです
-  - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - Node.js のベストプラクティスに関する上位ランクのコンテンツをまとめたものです
+  - チュートリアルと実践
+    - [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) - すべての JavaScript 開発者が知っておくべき 33 の概念に関する記事をまとめたリポジトリです
+    - [JS Project Guidelines](https://github.com/elsewhencode/project-guidelines) - JavaScript プロジェクトのためのベストプラクティス集です
+    - [Callback Hell](http://callbackhell.com/) - 非同期処理を扱う際にコールバック関数がネストしていくことです
+    - [NodeSchool](https://nodeschool.io/) - Web ソフトウェアのスキルを教える一連のオープンソースワークショップです
+    - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - Node.js のベストプラクティスに関する上位ランクのコンテンツをまとめたものです
 
-### Ruby、Perl とその他
+### Ruby
 
 - [Ruby](https://www.ruby-lang.org/en/) - シンプルさと生産性に重点を置いた動的なオープンソースプログラミング言語です
   - コア機能
@@ -266,15 +268,21 @@
     - [then](https://docs.ruby-lang.org/en/master/Kernel.html#method-i-then) - オブジェクト自身をブロックに渡してその結果を返すメソッドで、関数型スタイルのメソッドチェーンを容易にします
     - [define_method](https://docs.ruby-lang.org/en/master/Module.html#method-i-define_method) - `define_method` を使用して実行時にメソッドを作成・登録する機能で、コードの柔軟性を高め重複を減らします
     - [instance_eval](https://docs.ruby-lang.org/en/master/BasicObject.html#method-i-instance_eval) - 特定のオブジェクトインスタンスのコンテキスト内でブロックや文字列を評価し、その内部スコープとプライベートメソッドへのアクセスを可能にするメソッドです
-  - ライブラリ
+    - [Ractor](https://docs.ruby-lang.org/en/master/Ractor.html) - 他の Ractor と並列に実行でき、すべてのオブジェクトを共有しないことでデータ競合を回避するアクターモデルの抽象化です
+    - [Refinements](https://docs.ruby-lang.org/en/master/syntax/refinements_rdoc.html) - クラスをローカルに拡張し、モンキーパッチによるグローバルな副作用を減らす仕組みです
+    - [Enumerable](https://docs.ruby-lang.org/en/master/Enumerable.html) - 問い合わせ、取得、検索とフィルタリング、ソート、反復処理など、コレクションクラスに役立つメソッドを提供するモジュールです
+  - 主要ライブラリ
     - [io-event](https://socketry.github.io/io-event/) - イベントループを構築するための低レベルなクロスプラットフォームプリミティブです
     - [Async](https://socketry.github.io/async/) - io-event に基づく、Ruby 用の組み合わせ可能な非同期 I/O フレームワークです
-    - [ruby-git](https://github.com/ruby-git/ruby-git) - git バイナリへのシステムコールをラップすることで Git リポジトリを作成、読み取り、操作できる Ruby ライブラリです
-    - [ChunkyPNG](https://github.com/wvanbergen/chunky_png) - 純粋な Ruby で PNG 画像の読み書きを可能にするライブラリで、RMagick などの画像ライブラリを必要としません
-    - [pure_jpeg](https://github.com/peterc/pure_jpeg) - ネイティブ依存関係を持たない、純粋な Ruby 製の JPEG エンコーダー兼デコーダーです
+    - [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) - Erlang、Clojure、Scala、Haskell、F#、C#、Java に着想を得た、エージェント、フューチャー、プロミス、スレッドプール、スーパーバイザーなどを含む Ruby 向けのモダンな並行処理ツールです
+    - [dotenv (Ruby)](https://github.com/bkeepers/dotenv) - .env から環境変数を読み込むための Ruby gem です
   - 開発ツール
     - [IRB (Interactive Ruby)](https://ruby.github.io/irb/) - 標準入力から読み込んだ Ruby の式を対話的に実行するツールです
     - [Pry](https://pry.github.io/) - シンタックスハイライト、柔軟なプラグインアーキテクチャ、実行時呼び出し、ソースとドキュメントの閲覧機能を備えた、Ruby 標準 IRB シェルの強力な代替です
+    - [Sorbet](https://sorbet.org/) - Ruby 向けに設計された高速で強力な型チェッカーです
+
+### Perl とその他のスクリプト言語
+
 - [Perl](https://www.perl.org/) - 2 つの高水準で汎用的、インタプリタ型かつ動的なプログラミング言語のファミリーです
   - コア機能
     - [Special variables](https://metacpan.org/dist/perl/view/pod/perlvar.pod) - Perl にとって特別な意味を持つ変数です
@@ -287,9 +295,6 @@
 - [Tcl](https://www.tcl-lang.org/) - 幅広い用途に使用される動的プログラミング言語とグラフィカルユーザーインターフェースツールキットです
   - [Event-driven by design](https://wiki.tcl-lang.org/page/event+loop) - GUI とネットワーキングに最適な組み込みのイベントループです
 - [Lua](https://www.lua.org/) - 強力で効率的、軽量かつ組み込み可能なスクリプト言語です
-- [Emacs Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/) - Emacs テキストエディタを拡張・カスタマイズするために使用されるプログラミング言語です
-  - [S-expression](https://en.wikipedia.org/wiki/S-expression) - 入れ子になったリスト (木構造) データのための記法です
-  - [Homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity) - 一部のプログラミング言語が持つ性質で、プログラムの主要な表現がその言語自体のプリミティブな型のデータ構造でもあるというものです
 
 ## 非同期処理と並行性
 

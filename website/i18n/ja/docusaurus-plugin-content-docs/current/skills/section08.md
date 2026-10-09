@@ -440,6 +440,7 @@
   - [vsftpd](https://security.appspot.com/vsftpd.html) - Linux を含む UNIX 系システム向けの GPL ライセンスの FTP サーバーです
 - [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) - 信頼性のあるデータストリーム越しにファイルアクセス、ファイル転送、ファイル管理を提供するネットワークプロトコルです
   - 🔒 [SFTPGo](https://sftpgo.com/) - フル機能で高度に設定可能な SFTP サーバーで、オプションで HTTP/S、FTP/S、WebDAV をサポートします
+- [goshs](https://github.com/patrickhener/goshs) - HTTP/S、WebDAV、SFTP、SMB、LDAP/S、NTLM ハッシュキャプチャ、DNS/SMTP コールバック、TLS、認証、共有リンクをサポートする、レッドチームや開発者向けの機能豊富なシングルバイナリのファイルサーバーです
 
 ### リモートアクセスサーバーとプロトコル
 
