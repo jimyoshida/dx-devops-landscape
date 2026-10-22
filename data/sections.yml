@@ -1,12 +1,11 @@
 section01: Business Transformation
   # Project Management
     # Project Planning & Estimation
-    # Prioritization
     # Work & Issue Tracking
-    # Team Collaboration
     # Process Maturity & Quality Standards
   # Product Management
     # Product Strategy & Roadmapping
+    # Prioritization
     # Requirements Analysis
     # Marketing & Customer Experience
     # Marketing Technology
@@ -18,10 +17,11 @@ section01: Business Transformation
     # Enterprise Architecture
     # Enterprise Applications
     # Organizational Change Management
-    # Strategic Analysis & Business Intelligence
+    # Strategic Analysis
     # Risk Management
     # IT Service Management
-  # Knowledge & Content Management
+  # Collaboration & Knowledge Management
+    # Team Communication
     # Personal Knowledge Management
     # Collaborative Workspaces & Wikis
     # Content Management Systems
@@ -31,26 +31,25 @@ section01: Business Transformation
     # Enterprise AI Assistants
     # Self-Hosted AI Platforms
     # AI Content & Document Generation
-    # AI Agent Registries
   # Human-Centered Design
-    # Core Principles & User Experience (UX)
+    # UX Principles & Prototyping
     # User Research & Ideation
     # Cognitive & Behavioral Psychology
-    # Visual Design & Typography
+    # Visual Design
+    # Typography & Font Technology
     # Design Systems & Design Tools
-    # Web Experience & Performance
   # Economics, Game Theory & Finance
     # Economics & Game Theory
     # Corporate Finance & Markets
     # Accounting & Financial Reporting
 section02: Web Application Development
   # Web Platform Fundamentals
-    # Web Concepts
+    # Web Standards & Protocols
     # Browser Technologies & DOM
     # Web Application Architectures
   # Frontend Development
     # UI Frameworks & Core Libraries
-    # State, Routing & Logic
+    # State, Routing & Templating
     # Styling & UI Components
     # Build & Development Tooling
   # Full-stack & Static Site Frameworks
@@ -59,11 +58,14 @@ section02: Web Application Development
     # Headless CMS
   # Backend Development
     # API Architectural Styles
+    # API Specification & Design
+    # Server Gateway Interfaces
     # Backend Frameworks
   # Web Infrastructure
     # Web Server & Proxy
     # API Gateways & Management
     # CDN & Edge Computing
+    # Static Site Hosting
   # Decentralized Web
     # Blockchain Technology
     # Decentralized Social
@@ -71,63 +73,69 @@ section02: Web Application Development
     # Web/HTTP Clients
     # Web Debugging Tools
     # Web Test Automation Frameworks
+    # Web Performance, Accessibility & SEO
     # Web Scraping & Crawling
 section03: Cloud & Cloud-Native Computing
   # Cloud Computing
     # Computing & Storage (IaaS)
     # Networking
     # Application Hosting Platform (PaaS)
-    # Cloud Command Line Interfaces
-    # Cloud Emulators
+    # Cloud Developer Tooling
     # Private Cloud & On-Premises IaaS
     # Cloud Architecture Frameworks
   # Configuration as Code
     # Infrastructure as Code (IaC)
-    # AI-driven Infrastructure
-    # Configuration Management & Automation
-    # Image Building
-    # Ecosystem & Vendor Tools
+    # Vendor-native IaC
+    # Configuration Management & Image Building
   # Containerization
     # Engines & Runtimes
-    # Image Management
-    # Environment & Management
+    # Image Management & Distribution
+    # Local Container Environments & Tooling
   # WebAssembly
   # Kubernetes
     # Core Concepts & Components
+    # Networking & Service Mesh
+    # Application Packaging & Delivery
+    # Operators & Cluster Extensions
     # Operations & Management
     # CLI & Local Environments
-    # Ecosystem & Extensions
   # Cloud-Native Computing
     # Container as a Service (CaaS)
     # Function as a Service (FaaS)
+    # Serverless & Event-driven Runtimes
     # Advanced Runtimes & Isolation
-    # Cloud-Native Infrastructure
   # CI/CD & GitOps
-    # Delivery & Deployment
-    # GitOps & Cloud-Native
-    # Integrations & Registries
+    # Continuous Integration & Delivery
+    # GitOps & Progressive Delivery
+    # Artifact & Package Registries
   # System Observability
-    # Instrumentation & Platforms
+    # Instrumentation & Telemetry Standards
     # Telemetry Shipment
     # Telemetry Collection & Storage
+    # Alerting
+    # Visualization & Dashboards
+    # Observability Platforms
   # SRE (Site Reliability Engineering)
-    # Fleet Management & Operations
+    # Fleet Management & Automation
+    # Backup & Disaster Recovery
+    # Incident Management & Postmortems
     # Chaos Engineering
     # FinOps
-  # Performance & Load Testing
-    # Performance Testing Tools
+    # Performance & Load Testing
 section04: Security & Privacy
   # Security Foundations
+    # Security Models & Architectures
     # Common Threats & Attack Vectors
-    # Modern Security Architectures
     # Security Training & Competitions
   # Cryptography & Data Protection
-    # Core Cryptography
+    # Hashing & Key Derivation
+    # Symmetric-key Cryptography
+    # Public-key Cryptography
     # Public Key Infrastructure (PKI)
     # Secrets Management
     # Applied Cryptography & Tools
   # Identity & Access Management (IAM)
-    # Integrated IAM
+    # Identity Management & Directory Services
     # Authentication (AuthN)
     # Authorization (AuthZ)
   # Secure Development Lifecycle (DevSecOps)
@@ -140,8 +148,9 @@ section04: Security & Privacy
   # Runtime & Operational Security
     # Cloud-Native Application Protection (CNAPP)
     # Security Operations & Monitoring (SecOps)
-    # Policy Enforcement
+    # Policy & Compliance as Code
     # Digital Forensics & Incident Response (DFIR)
+    # Host & Endpoint Hardening
   # Secure Communications & Networking
     # Transport Layer Security (TLS)
     # Secure Shell (SSH)
@@ -150,11 +159,9 @@ section04: Security & Privacy
   # Governance, Risk, and Compliance (GRC)
     # Data Governance
     # AI Governance & Security
+    # Privacy Engineering
     # Regulations & Standards
     # Vulnerability Management & Reporting
-  # System & Personal Security
-    # OS & Endpoint Security
-    # Personal Security Tools
 section05: Data Science & Engineering
   # Foundational Concepts
     # General Data Concepts & Principles

@@ -34,18 +34,19 @@
 - 💲 [Heroku](https://www.heroku.com/) - A fully managed application platform that provides scalable app hosting so you can stay focused on building great apps
 - [Coolify](https://coolify.io/) - An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway
 
-### Cloud Command Line Interfaces
+### Cloud Developer Tooling
 
-- [AWS CLI](https://aws.amazon.com/cli/) - A unified tool to manage your AWS services
-- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) - A cross-platform command-line tool for managing Azure resources with interactive commands or scripts
-- [Azure Developer CLI (azd)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) - An open-source tool that accelerates your path from a local development environment to Azure
-- [Google Cloud CLI (gcloud)](https://cloud.google.com/cli) - A set of tools to create and manage Google Cloud resources and services
-- [Vercel CLI](https://vercel.com/docs/cli) - A command-line interface used to manage and configure Vercel Projects, deploy apps, and replicate the deployment environment locally
-- [Netlify CLI](https://cli.netlify.com/) - A command-line interface to configure continuous deployment, run a local development server, and deploy sites on Netlify
-
-### Cloud Emulators
-
-- 🔒 [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
+- Command Line Interfaces
+  - [AWS CLI](https://aws.amazon.com/cli/) - A unified tool to manage your AWS services
+  - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) - A cross-platform command-line tool for managing Azure resources with interactive commands or scripts
+  - [Azure Developer CLI (azd)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) - An open-source tool that accelerates your path from a local development environment to Azure
+  - [Google Cloud CLI (gcloud)](https://cloud.google.com/cli) - A set of tools to create and manage Google Cloud resources and services
+  - [Vercel CLI](https://vercel.com/docs/cli) - A command-line interface used to manage and configure Vercel Projects, deploy apps, and replicate the deployment environment locally
+  - [Netlify CLI](https://cli.netlify.com/) - A command-line interface to configure continuous deployment, run a local development server, and deploy sites on Netlify
+- Local Emulators
+  - 🔒 [LocalStack](https://www.localstack.cloud/) - A fully functional local cloud stack to develop and test your cloud and serverless apps offline
+- Resource Query Tools
+  - [Azure Resource Graph](https://azure.microsoft.com/en-us/get-started/azure-portal/resource-graph) - A powerful management tool to query, explore, and analyze your cloud resources at scale
 
 ### Private Cloud & On-Premises IaaS
 
@@ -71,24 +72,6 @@
 - 🔒 [Hashicorp Terraform](https://www.terraform.io/) - An infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently
 - [OpenTofu](https://opentofu.org/) - An open-source, community-driven fork of Terraform that provides a stable, drop-in replacement for building and managing infrastructure
 - 🔒 [Pulumi](https://www.pulumi.com/) - An infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure
-
-### AI-driven Infrastructure
-
-- 💲 [Spacelift Intent](https://spacelift.io/platform/intent) - An AI-powered tool that allows users to provision and manage cloud infrastructure using natural language
-
-### Configuration Management & Automation
-
-- [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
-- [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
-- 🔒 [Rudder](https://www.rudder.io/) - An open-source, continuous configuration and compliance platform for IT infrastructure automation
-- [cloud-init](https://cloud-init.io/) - The standard for customising cloud instances
-
-### Image Building
-
-- 🔒 [Hashicorp Packer](https://packer.io/) - A tool for creating identical machine images for multiple platforms from a single source configuration
-
-### Ecosystem & Vendor Tools
-
 - Terraform/OpenTofu Ecosystem
   - [Terraform/OpenTofu Provider: Core Functions](https://github.com/northwood-labs/terraform-provider-corefunc) - A Terraform/OpenTofu provider for performing core functions
   - [Terragrunt](https://terragrunt.gruntwork.io/) - A thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state
@@ -97,14 +80,26 @@
   - 🪙 [GitLab-managed Terraform/OpenTofu state](https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html) - A feature that allows you to store your Terraform state files in GitLab
   - [terraform-docs](https://terraform-docs.io/) - A utility to generate documentation from Terraform modules in various output formats
   - [Atlantis](https://www.runatlantis.io/) - A self-hosted golang application that listens for Terraform pull request events via webhooks
-- Vendor-specific Tools
-  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - A service that helps you model and set up your Amazon Web Services resources
-  - [AWS CDK](https://aws.amazon.com/cdk/) - An open source software development framework to define your cloud application resources using familiar programming languages
-  - [AWS SAM](https://aws.amazon.com/serverless/sam/) - An open-source framework for building serverless applications
-  - [SST](https://sst.dev/) - A framework that makes it easy to build full-stack applications on AWS with a specialized focus on serverless and event-driven architectures
-  - [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
-    - [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
-    - [Azure Resource Graph](https://azure.microsoft.com/en-us/get-started/azure-portal/resource-graph) - A powerful management tool to query, explore, and analyze your cloud resources at scale
+- AI-assisted Provisioning
+  - 💲 [Spacelift Intent](https://spacelift.io/platform/intent) - An AI-powered tool that allows users to provision and manage cloud infrastructure using natural language
+
+### Vendor-native IaC
+
+- [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - A service that helps you model and set up your Amazon Web Services resources
+- [AWS CDK](https://aws.amazon.com/cdk/) - An open source software development framework to define your cloud application resources using familiar programming languages
+- [AWS SAM](https://aws.amazon.com/serverless/sam/) - An open-source framework for building serverless applications
+- [SST](https://sst.dev/) - A framework that makes it easy to build full-stack applications on AWS with a specialized focus on serverless and event-driven architectures
+- [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) - The deployment and management service for Azure
+  - [Bicep language](https://github.com/Azure/bicep) - A domain-specific language (DSL) that uses declarative syntax to deploy Azure resources
+
+### Configuration Management & Image Building
+
+- [Ansible](https://www.ansible.com/) - An open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes
+- [SaltStack](https://saltproject.io/) - A Python-based, open-source software for event-driven IT automation, remote task execution, and configuration management
+- 🔒 [Rudder](https://www.rudder.io/) - An open-source, continuous configuration and compliance platform for IT infrastructure automation
+- Machine Image & Instance Provisioning
+  - 🔒 [Hashicorp Packer](https://packer.io/) - A tool for creating identical machine images for multiple platforms from a single source configuration
+  - [cloud-init](https://cloud-init.io/) - The standard for customising cloud instances
 
 ## Containerization
 
@@ -145,7 +140,7 @@
   - [runc](https://github.com/opencontainers/runc) - A CLI tool for spawning and running containers according to the OCI specification
   - [crun](https://github.com/containers/crun) - A fast and lightweight fully featured OCI runtime and C library for running containers
 
-### Image Management
+### Image Management & Distribution
 
 - Image Building Tools
   - [Docker Build](https://docs.docker.com/build/) - A part of the Docker Engine that automates the process of creating a Docker image from a Dockerfile and a context
@@ -164,8 +159,10 @@
   - 💲 [Amazon ECR](https://aws.amazon.com/ecr/) - A fully managed container registry that makes it easy to store, manage, share, and deploy your container images and artifacts
   - 💲 [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/) - A private registry for managing container images and related artifacts
   - [Harbor](https://goharbor.io/) - An open source registry that secures artifacts with policies and role-based access control
+- Image Distribution
+  - [Nydus](https://nydus.dev/) - A powerful opensource filesystem solution to form a high-efficiency image distribution system for Cloud Native workloads, such as container images, software packages, etc
 
-### Environment & Management
+### Local Container Environments & Tooling
 
 - Container Management Tools
   - [Podman Desktop](https://podman-desktop.io/) - The best free and open source tool for developers to work with containers and Kubernetes, simplifying container management, streamlining Kubernetes workflows, and transitioning from local development to production with ease
@@ -197,13 +194,11 @@
   - [Wasmer](https://wasmer.io/) - A blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere
   - [WasmEdge](https://wasmedge.org/) - A lightweight, high-performance, and extensible runtime for cloud native, edge, and decentralized applications
   - [WebAssembly Micro Runtime (WAMR)](https://github.com/bytecodealliance/wasm-micro-runtime) - A lightweight standalone runtime with small footprint and highly configurable features for embedded, IoT, edge, and Trusted Execution Environment use
-
 - Toolchains & Languages
   - [Emscripten](https://emscripten.org/) - A complete compiler toolchain to WebAssembly, using LLVM, with a special focus on speed, size, and the Web platform
   - [AssemblyScript](https://www.assemblyscript.org/) - A TypeScript-like language for WebAssembly
   - [TinyGo](https://tinygo.org/) - A Go compiler for small places, bringing the language to embedded systems and WebAssembly
   - [Binaryen](https://github.com/WebAssembly/binaryen) - A compiler and toolchain infrastructure library for WebAssembly, written in C++
-
 - Cloud & Edge Platforms
   - [wasmCloud](https://wasmcloud.com/) - An open source CNCF project to build polyglot applications composed of reusable WebAssembly components across cloud, Kubernetes, and edge
   - [Fermyon Spin](https://www.fermyon.com/spin) - The developer tool for building WebAssembly microservices and web applications
@@ -217,19 +212,20 @@
 :::
 
 - [Kubernetes](https://kubernetes.io/) - An open-source system for automating deployment, scaling, and management of containerized applications
-- Master node
-  - kube-apiserver - Responsible for API services
-  - kube-scheduler - Responsible for scheduling
-  - kube-controller-manager - Responsible for container orchestration
-- Compute node
-  - kubelet - watches the API server for pods on that node and makes sure they are running
-  - cAdvisor - collects metrics about pods running on that particular node
-  - kube-proxy - watches the API server for pods/services changes in order to maintain the network up to date
-  - container runtime - responsible for managing container images and running containers on that node
+- [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/) - An overview of the key components that make up a Kubernetes cluster
+  - Control plane
+    - kube-apiserver - Responsible for API services
+    - kube-scheduler - Responsible for scheduling
+    - kube-controller-manager - Responsible for container orchestration
+  - Worker node
+    - kubelet - watches the API server for pods on that node and makes sure they are running
+    - cAdvisor - collects metrics about pods running on that particular node
+    - kube-proxy - watches the API server for pods/services changes in order to maintain the network up to date
+    - container runtime - responsible for managing container images and running containers on that node
 - Interface Standards
-  - CNI (Container Networking Interface)
-  - CSI (Container Storage Interface)
-  - CRI (Container Runtime Interface)
+  - [CNI (Container Network Interface)](https://www.cni.dev/) - A CNCF project that consists of a specification and libraries for writing plugins to configure network interfaces in Linux containers
+  - [CSI (Container Storage Interface)](https://kubernetes-csi.github.io/docs/) - A standard for exposing arbitrary block and file storage systems to containerized workloads on container orchestration systems like Kubernetes
+  - [CRI (Container Runtime Interface)](https://kubernetes.io/docs/concepts/architecture/cri/) - A plugin interface which enables the kubelet to use a wide variety of container runtimes
 
 ### Core Concepts & Components
 
@@ -240,9 +236,9 @@
     - [taint and toleration](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) - A mechanism that allows you to ensure that pods are not placed on inappropriate nodes
     - [lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) - The lifecycle of a Pod
     - [liveness probe](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) - A probe the kubelet uses to know when to restart a container
-    - requests and limits
-    - eviction
-  - Deployment, ReplicaSet, StatefulSet, DaemonSet
+    - [requests and limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) - A specification of how much of each resource a container needs and the maximum amount it is allowed to use
+    - [eviction](https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/) - The process by which the kubelet proactively terminates pods to reclaim resources on nodes
+  - [Workload Management](https://kubernetes.io/docs/concepts/workloads/controllers/) (Deployment, ReplicaSet, StatefulSet, DaemonSet) - The built-in APIs for declarative management of your workloads and the components of those workloads
   - [Kubernetes network model](https://kubernetes.io/docs/concepts/services-networking/) - A set of fundamental requirements and principles for networking in a Kubernetes cluster
     - Service, Ingress, Ingress Controllers
   - [Storage](https://kubernetes.io/docs/concepts/storage/) - A powerful volume subsystem with an API that abstracts how storage is provided and consumed
@@ -253,12 +249,37 @@
     - [Kubernetes RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) - A method of regulating access to computer or network resources based on the roles of individual users within an enterprise
     - [PodDisruptionBudget](https://kubernetes.io/docs/tasks/run-application/configure-pdb/) - An object that limits the number of concurrent disruptions that your application experiences, allowing for high availability
     - [Security context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/) - A definition of privilege and access control settings for a Pod or Container
-- Autoscaling
+- Scheduling & Autoscaling
   - [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) - The component that automatically scales the number of Pods in a replication controller, deployment, replica set or stateful set based on observed CPU utilization
   - [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master) - A tool that automatically adjusts the size of the Kubernetes cluster
   - [Karpenter](https://karpenter.sh/) - A flexible, high-performance Kubernetes cluster autoscaler
+  - [Kueue](https://kueue.sigs.k8s.io/) - A Kubernetes-native system that manages quotas and resource sharing for batch, HPC, and AI/ML workloads
 
-### Operations & Management
+### Networking & Service Mesh
+
+- Service Mesh & Discovery
+  - [Gateway API](https://gateway-api.sigs.k8s.io/) - The next generation of Kubernetes Ingress, Load Balancing, and Service Mesh APIs
+  - [Istio](https://istio.io/) - An open source service mesh that layers transparently onto existing distributed applications
+    - [Kiali](https://kiali.io/) - The service mesh observability and configuration tool for Istio
+  - 🔒 [Linkerd](https://linkerd.io/) - An ultralight, security-first service mesh for Kubernetes
+  - 🔒 [Hashicorp Consul](https://www.consul.io/) - A service networking solution to connect and secure services across any runtime platform and public or private cloud
+- Edge Proxies & Ingress
+  - [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
+  - [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
+  - [Contour](https://projectcontour.io/) - A high performance ingress controller for Kubernetes that provides the control plane for the Envoy edge and service proxy
+- CNI Plugins
+  - [Project Calico](https://projectcalico.org/) - An open-source project that provides secure network connectivity, network security, and observability for containers, virtual machines, and native host-based workloads
+  - [Cilium](https://cilium.io/) - An open-source project that provides networking, security, and observability for cloud-native environments
+  - [Flannel](https://github.com/flannel-io/flannel) - A simple and easy way to configure a layer 3 network fabric designed for Kubernetes
+
+### Application Packaging & Delivery
+
+- [Helm](https://helm.sh/) - The package manager for Kubernetes
+- [Kustomize](https://kustomize.io/) - A standalone tool to customize Kubernetes objects through a kustomization file
+- [Artifact Hub](https://artifacthub.io/) - A web-based application designed to facilitate the finding, installing, and publishing of Cloud Native packages and configurations
+- [Skaffold](https://skaffold.dev/) - A command line tool that facilitates continuous development for container-based applications
+
+### Operators & Cluster Extensions
 
 - K8s Operators
   - [Prometheus Operator](https://prometheus-operator.dev/) - The operator that creates/configures/manages Prometheus clusters atop Kubernetes
@@ -267,11 +288,28 @@
   - [OpenTelemetry Operator](https://opentelemetry.io/docs/kubernetes/operator/) - An implementation of a Kubernetes Operator for OpenTelemetry
   - 🔒 [Elastic Cloud on Kubernetes (ECK)](https://www.elastic.co/elastic-cloud-kubernetes) - The official operator for the Elastic Stack on Kubernetes
   - [Rook](https://rook.io/) - An open source cloud-native storage orchestrator for Kubernetes
+- Operator & Controller Development
+  - [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) - A framework for building Kubernetes APIs using custom resource definitions (CRDs)
+- Cloud Resource Management
+  - [Crossplane](https://crossplane.io/) - A cloud-native framework for platform engineering that enables users to build their own APIs and services with control planes, extending Kubernetes to manage any resource anywhere
+- Platform Extensions
+  - [kube-fencing](https://github.com/kvaps/kube-fencing) - A solution for fencing of stateful application's nodes in Kubernetes
+  - [KubeVirt](https://kubevirt.io/) - A virtual machine management add-on for Kubernetes
+
+### Operations & Management
+
 - Dashboards
   - [k9s](https://k9scli.io/) - A terminal based UI to interact with your Kubernetes cluster
   - [KDash](https://kdash.cli.rs/) - A simple terminal dashboard for Kubernetes built with Rust
   - [Seabird](https://getseabird.github.io/) - The native desktop app that simplifies working with Kubernetes
   - [Headlamp](https://headlamp.dev/) - A user-friendly Kubernetes UI focused on extensibility
+- Resource Optimization
+  - [Goldilocks](https://goldilocks.docs.fairwinds.com/) - A utility that can help you identify a starting point for resource requests and limits
+- Multi-Cluster & Fleet Management
+  - [Karmada](https://karmada.io/) - The open, multi-cloud, multi-cluster Kubernetes orchestration system for running cloud-native applications across multiple clusters and clouds
+  - 💲 [Azure Kubernetes Fleet Manager](https://azure.microsoft.com/en-us/products/kubernetes-fleet-manager/) - A service that seamlessly manages Kubernetes clusters at scale
+- Vendor-specific Tools
+  - [eksctl](https://eksctl.io/) - The official CLI for Amazon EKS
 
 ### CLI & Local Environments
 
@@ -287,31 +325,6 @@
   - [Minikube](https://minikube.sigs.k8s.io/docs/) - A tool that lets you run Kubernetes locally
   - [Kind](https://kind.sigs.k8s.io/) - A tool for running local Kubernetes clusters using Docker container “nodes”
 
-### Ecosystem & Extensions
-
-- Application Packaging & Configuration
-  - [Helm](https://helm.sh/) - The package manager for Kubernetes
-  - [Kustomize](https://kustomize.io/) - A standalone tool to customize Kubernetes objects through a kustomization file
-  - [Artifact Hub](https://artifacthub.io/) - A web-based application designed to facilitate the finding, installing, and publishing of Cloud Native packages and configurations
-- Cloud Resource Management
-  - [Crossplane](https://crossplane.io/) - A cloud-native framework for platform engineering that enables users to build their own APIs and services with control planes, extending Kubernetes to manage any resource anywhere
-- Developer Workflow Tools
-  - [Skaffold](https://skaffold.dev/) - A command line tool that facilitates continuous development for container-based applications
-- Platform Extensions
-  - [kube-fencing](https://github.com/kvaps/kube-fencing) - A solution for fencing of stateful application's nodes in Kubernetes
-  - [KubeVirt](https://kubevirt.io/) - A virtual machine management add-on for Kubernetes
-- Operator & Controller Development
-  - [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) - A framework for building Kubernetes APIs using custom resource definitions (CRDs)
-- Resource Optimization
-  - [Goldilocks](https://goldilocks.docs.fairwinds.com/) - A utility that can help you identify a starting point for resource requests and limits
-- Vendor-specific Tools
-  - [eksctl](https://eksctl.io/) - The official CLI for Amazon EKS
-- Batch & Job Scheduling
-  - [Kueue](https://kueue.sigs.k8s.io/) - A Kubernetes-native system that manages quotas and resource sharing for batch, HPC, and AI/ML workloads
-- Multi-Cluster Management
-  - [Karmada](https://karmada.io/) - The open, multi-cloud, multi-cluster Kubernetes orchestration system for running cloud-native applications across multiple clusters and clouds
-  - 💲 [Azure Kubernetes Fleet Manager](https://azure.microsoft.com/en-us/products/kubernetes-fleet-manager/) - A service that seamlessly manages Kubernetes clusters at scale
-
 ## Cloud-Native Computing
 
 :::note[Relevant DSS-P Skills]
@@ -319,8 +332,6 @@
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 :::
-
-- [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
 
 ### Container as a Service (CaaS)
 
@@ -344,6 +355,13 @@
   - [Fluid compute](https://vercel.com/docs/fluid-compute) - An execution model for functions that blends serverless flexibility and server-like capabilities through optimized concurrency and reduced cold starts
 - 🪙 [Netlify Functions](https://docs.netlify.com/build/functions/overview/) - A way to build full-stack applications without having to manage servers, on infrastructure that automatically scales as you grow
 
+### Serverless & Event-driven Runtimes
+
+- [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) - A cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
+- [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
+- [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
+- [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks
+
 ### Advanced Runtimes & Isolation
 
 - Sandboxed Runtimes
@@ -358,33 +376,9 @@
   - [Docker Sandboxes](https://github.com/docker/sandboxes-releases) - The isolated, disposable environments designed to run AI coding agents in lightweight microVMs for enhanced security and system protection
   - 💲 [Daytona](https://www.daytona.io/) - The secure infrastructure platform for running AI-generated code in isolated sandbox environments with sub-90ms creation times
   - 🪙 [Modal](https://modal.com/) - An AI infrastructure platform that provides a serverless cloud for engineers to build and scale compute-intensive applications in thousands of isolated sandboxes
+  - [V8 isolates](https://v8.dev/docs/embed#isolates) - An independent instance of the engine with its own heap and its own garbage collector
 - Virtualization & Container Storage
   - [virtiofs](https://virtio-fs.gitlab.io/) - A shared file system that lets virtual machines access a directory tree on the host
-- Image Services & Distribution
-  - [Nydus](https://nydus.dev/) - A powerful opensource filesystem solution to form a high-efficiency image distribution system for Cloud Native workloads, such as container images, software packages, etc
-
-### Cloud-Native Infrastructure
-
-- App Runtimes & Scaling
-  - [KEDA (Kubernetes Event-driven Autoscaling)](https://keda.sh/) - A single-purpose and lightweight component that can be added into any cluster to provide event-driven scale for any container running in the environment
-  - [Dapr (Distributed Application Runtime)](https://dapr.io/) - A portable, event-driven runtime that makes it easy for any developer to build resilient, stateless, and stateful applications that run on the cloud and edge and embraces the diversity of languages and developer frameworks
-  - [V8 isolates](https://v8.dev/docs/embed#isolates) - An independent instance of the engine with its own heap and its own garbage collector
-- Serverless Computing
-  - [Knative](https://knative.dev/) - A Kubernetes-based platform to build, deploy, and manage modern serverless workloads
-- Service Mesh & Discovery
-  - [Gateway API](https://gateway-api.sigs.k8s.io/) - The next generation of Kubernetes Ingress, Load Balancing, and Service Mesh APIs
-  - [Istio](https://istio.io/) - An open source service mesh that layers transparently onto existing distributed applications
-    - [Kiali](https://kiali.io/) - The service mesh observability and configuration tool for Istio
-  - 🔒 [Linkerd](https://linkerd.io/) - An ultralight, security-first service mesh for Kubernetes
-  - 🔒 [Hashicorp Consul](https://www.consul.io/) - A service networking solution to connect and secure services across any runtime platform and public or private cloud
-- Edge Proxies & Ingress
-  - [Envoy Proxy](https://www.envoyproxy.io/) - An open source edge and service proxy
-  - [Traefik proxy](https://traefik.io/traefik/) - A leading modern open source reverse proxy and ingress controller
-  - [Contour](https://projectcontour.io/) - A high performance ingress controller for Kubernetes that provides the control plane for the Envoy edge and service proxy
-- Cloud-Native Networking
-  - [Project Calico](https://projectcalico.org/) - An open-source project that provides secure network connectivity, network security, and observability for containers, virtual machines, and native host-based workloads
-  - [Cilium](https://cilium.io/) - An open-source project that provides networking, security, and observability for cloud-native environments
-  - [Flannel](https://github.com/flannel-io/flannel) - A simple and easy way to configure a layer 3 network fabric designed for Kubernetes
 
 ## CI/CD & GitOps
 
@@ -394,9 +388,12 @@
 
 :::
 
-### Delivery & Deployment
+### Continuous Integration & Delivery
 
-- Continuous Delivery Tools
+- [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) - The practice of integrating source code changes frequently and ensuring that the integrated codebase is in a workable state
+- [Continuous delivery](https://en.wikipedia.org/wiki/Continuous_delivery) - A software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time
+- [Continuous deployment](https://en.wikipedia.org/wiki/Continuous_deployment) - A software engineering approach in which software functionalities are delivered frequently and through automated deployments
+- CI/CD Platforms
   - 💲 [Harness](https://harness.io/) - A modern software delivery platform that uses AI and automation to streamline CI/CD, GitOps, and cloud cost management
   - [Jenkins](https://www.jenkins.io/) - An open source automation server which enables developers around the world to reliably build, test, and deploy their software
     - [Pipeline Graph View](https://plugins.jenkins.io/pipeline-graph-view/) - A plugin that adds a visual representation of Jenkins pipelines, showing each stage of a run in a clear and easy-to-follow graph format
@@ -413,8 +410,9 @@
   - 🪙 [Vercel Preview Deployments](https://vercel.com/docs/deployments/environments) - A deployment created for every push to a non-production branch or pull request, with an automatically generated URL for testing and collaboration without affecting the live site
   - 🪙 [Netlify Deploy Previews](https://docs.netlify.com/deploy/deploy-types/deploy-previews/) - A type of deploy that lets you preview and share changes for feedback before they go live
 
-### GitOps & Cloud-Native
+### GitOps & Progressive Delivery
 
+- [OpenGitOps](https://opengitops.dev/) - A set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps
 - GitOps Style CD
   - [ArgoCD](https://argo-cd.readthedocs.io/) - A declarative, GitOps continuous delivery tool for Kubernetes
   - [FluxCD](https://fluxcd.io/) - A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy
@@ -423,7 +421,7 @@
   - [KubeVela](https://kubevela.io/) - A modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable
   - [Flagger](https://flagger.app/) - A progressive delivery tool that automates the release process for applications running on Kubernetes
 
-### Integrations & Registries
+### Artifact & Package Registries
 
 - Private Package Registries
   - 💲 [JFrog Artifactory](https://jfrog.com/artifactory/) - A universal DevOps repository manager that allows you to store, manage, and distribute your software artifacts and their dependencies
@@ -441,30 +439,13 @@
 
 :::
 
-### Instrumentation & Platforms
+### Instrumentation & Telemetry Standards
 
 - Concepts
   - [Observability](https://en.wikipedia.org/wiki/Observability_(software)) - A measure of how well internal states of a system can be inferred from knowledge of its external outputs
 - Instrumentation Libraries
   - [OpenTelemetry](https://opentelemetry.io/) - A vendor-neutral open source Observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs
-  - [Jaeger](https://www.jaegertracing.io/) - An open source, distributed tracing platform used to monitor and troubleshoot workflows in complex distributed systems
   - [Micrometer](https://micrometer.io/) - A metrics instrumentation library for JVM-based applications
-- Monitoring Tools
-  - [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
-- Managed Platforms
-  - 💲 [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - A comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments
-    - [Kusto Query Language](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/) - A powerful tool to explore your data and discover patterns, identify anomalies and outliers, create statistical models, and more
-    - 💲 [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - A feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals
-  - 💲 [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers
-  - 💲 [Datadog](https://www.datadoghq.com/) - The integrated platform for monitoring & security
-  - 🪙 [Sentry](https://sentry.io/) - An application monitoring platform that provides error tracking and performance monitoring to help developers see what matters and solve issues faster
-- Self-hosted (advanced)
-  - 🔒 [SigNoz](https://signoz.io/) - An open-source Datadog or New Relic alternative for logs, metrics, traces, dashboards, alerts, and more
-- Visualization Tools
-  - [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
-    - [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
-    - [gcx](https://github.com/grafana/gcx) - A CLI tool that provides structured access to Grafana resources—dashboards, alerts, SLOs, metrics, logs, and traces—and integrates with AI coding agents for observability-driven development workflows across Grafana Cloud, Enterprise, and self-hosted instances
-  - 🔒 [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
 
 ### Telemetry Shipment
 
@@ -486,29 +467,56 @@
 
 ### Telemetry Collection & Storage
 
-- Datastore and Alerting Tools
+- Telemetry Datastores
   - [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit
     - [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) - The Prometheus Query Language
     - [promtool](https://prometheus.io/docs/prometheus/latest/command-line/promtool/) - The command line utility for the Prometheus server
-    - [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) - A collection of copy-pasteable Prometheus alerting rules spanning over 90 services and exporters
-  - [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) - A tool that handles alerts sent by client applications such as the Prometheus server
-    - [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A CLI tool for interacting with the Alertmanager API
   - 🔒 [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) - A time series database built from the ground up to handle high write and query loads
     - [InfluxQL](https://docs.influxdata.com/influxdb/v1/query_language/) - An SQL-like query language for interacting with data in InfluxDB
     - [influx cli](https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/) - The command line interface for InfluxDB 2.0
   - [Grafana Mimir](https://grafana.com/oss/mimir/) - An open source, horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus
+    - [Mimir ruler](https://grafana.com/docs/mimir/latest/references/architecture/components/ruler/) - The component that evaluates PromQL expressions defined in recording and alerting rules
   - [Grafana Loki](https://grafana.com/oss/loki/) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus
     - [LogQL](https://grafana.com/docs/loki/latest/query/) - The query language for Loki
       - [LogCLI](https://grafana.com/docs/loki/latest/query/logcli/) - The command line interface for Loki
+    - [Loki ruler](https://grafana.com/docs/loki/latest/alert/) - The component that continually evaluates a set of configurable queries and performs an action based on the result
   - [Grafana Tempo](https://grafana.com/oss/tempo/) - An open source, easy-to-use and high-scale distributed tracing backend
     - [TraceQL](https://grafana.com/docs/tempo/latest/traceql/) - A query language designed for selecting traces
+  - [Jaeger](https://www.jaegertracing.io/) - An open source, distributed tracing platform used to monitor and troubleshoot workflows in complex distributed systems
   - 🔒 [ElasticSearch](https://www.elastic.co/elasticsearch/) - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
     - [Elastic Common Schema](https://www.elastic.co/guide/en/ecs/current/index.html) - An open source specification, developed with support from the Elastic user community
     - [Ingest pipelines](https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html) - A feature that lets you perform common transformations on your data before indexing
     - [Dissect and Grok](https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html) - The processors that let you extract structured fields out of a single text field
   - [Graphite](https://grafana.com/oss/graphite/) - A highly scalable real-time graphing system
-  - [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) - A feature that allows you to create and manage alerts for your data
+
+### Alerting
+
+- [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) - A tool that handles alerts sent by client applications such as the Prometheus server
+  - [amtool](https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool) - A CLI tool for interacting with the Alertmanager API
+- [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) - A feature that allows you to create and manage alerts for your data
+- [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) - A collection of copy-pasteable Prometheus alerting rules spanning over 90 services and exporters
+
+### Visualization & Dashboards
+
+- [Grafana](https://grafana.com/oss/grafana/) - The open source data visualization and monitoring solution
+  - [Grafonnet](https://grafana.github.io/grafonnet/) - A Jsonnet library for generating Grafana dashboards
+  - [gcx](https://github.com/grafana/gcx) - A CLI tool that provides structured access to Grafana resources—dashboards, alerts, SLOs, metrics, logs, and traces—and integrates with AI coding agents for observability-driven development workflows across Grafana Cloud, Enterprise, and self-hosted instances
+- 🔒 [Kibana](https://www.elastic.co/kibana) - A free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack
+
+### Observability Platforms
+
+- Managed Platforms
+  - 💲 [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - A comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments
+    - [Kusto Query Language](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/) - A powerful tool to explore your data and discover patterns, identify anomalies and outliers, create statistical models, and more
+    - 💲 [App Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - A feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals
+  - 💲 [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers
+  - 💲 [Datadog](https://www.datadoghq.com/) - The integrated platform for monitoring & security
+  - 🪙 [Sentry](https://sentry.io/) - An application monitoring platform that provides error tracking and performance monitoring to help developers see what matters and solve issues faster
+- Self-hosted Platforms
+  - 🔒 [SigNoz](https://signoz.io/) - An open-source Datadog or New Relic alternative for logs, metrics, traces, dashboards, alerts, and more
   - 🔒 [OpenObserve](https://openobserve.ai/) - An open-source observability platform designed for modern applications
+- Uptime Monitoring
+  - [Uptime Kuma](https://uptime.kuma.pet/) - An easy-to-use self-hosted monitoring tool
 
 ## SRE (Site Reliability Engineering)
 
@@ -522,28 +530,38 @@
   - [Service Level Objectives (SLOs)](https://sre.google/sre-book/service-level-objectives/) - A target value or range of values for a service level that is measured by a service level indicator (SLI)
   - [Dickerson's Hierarchy of Service Reliability](https://sre.google/sre-book/part-III-practices/) - A model that illustrates the foundational elements required to build and maintain reliable services, often visualized as a pyramid
   - [The Four Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/) - The four key metrics (Latency, Traffic, Errors, and Saturation) that Google SREs use for monitoring user-facing systems
-- [Ishikawa diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram) - A causal diagram created by Kaoru Ishikawa that shows the potential causes of a specific event
 
-### Fleet Management & Operations
+### Fleet Management & Automation
 
 - Fleet Management
   - 💲 [AWS Systems Manager](https://aws.amazon.com/systems-manager/) - A secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments
   - 💲 [Azure Automation](https://azure.microsoft.com/en-us/products/automation) - A cloud-based automation and configuration service that supports consistent management across your Azure and non-Azure environments
     - 💲 [Azure Update Manager](https://learn.microsoft.com/en-us/azure/update-manager/) - A unified service to help manage and govern updates for all your machines
-- Backup
-  - Vendor-specific Tools
-    - 💲 [AWS Backup](https://aws.amazon.com/backup/) - A fully managed service that centralizes and automates data protection across AWS services, in the cloud, and on premises
-    - 💲 [Azure Backup](https://azure.microsoft.com/en-us/products/backup/) - A service that provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud
-  - K8s-specific Tools
-    - [Velero](https://velero.io/) - An open source tool to safely back up and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes
-  - Generic
-    - [Barman](https://pgbarman.org/) - A disaster recovery solution for PostgreSQL databases, designed to ensure business continuity by simplifying online hot backups
-    - [Restic](https://restic.net/) - A fast, secure, efficient backup program
 - Runbook Automation
   - 🔒 [RunDeck](https://www.rundeck.com/) - An open source automation platform that helps you automate routine operational procedures in data center or cloud environments
 - AIOps & Autonomous Agents
   - 💲 [Azure SRE Agent](https://aka.ms/sreagent) - An AI-powered service designed to automate Site Reliability Engineering practices by monitoring, diagnosing, and helping resolve incidents
   - [Mezmo Aura](https://www.mezmo.com/aura) - An open-source agentic harness designed specifically for Site Reliability Engineering (SRE) and production AI operations
+
+### Backup & Disaster Recovery
+
+- Vendor-specific Tools
+  - 💲 [AWS Backup](https://aws.amazon.com/backup/) - A fully managed service that centralizes and automates data protection across AWS services, in the cloud, and on premises
+  - 💲 [Azure Backup](https://azure.microsoft.com/en-us/products/backup/) - A service that provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud
+- K8s-specific Tools
+  - [Velero](https://velero.io/) - An open source tool to safely back up and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes
+- Generic
+  - [Barman](https://pgbarman.org/) - A disaster recovery solution for PostgreSQL databases, designed to ensure business continuity by simplifying online hot backups
+  - [Restic](https://restic.net/) - A fast, secure, efficient backup program
+
+### Incident Management & Postmortems
+
+- [Incident Management (SRE Book)](https://sre.google/sre-book/managing-incidents/) - The practice of limiting the disruption caused by an incident and restoring normal business operations as quickly as possible
+- [Postmortem Culture (SRE Book)](https://sre.google/sre-book/postmortem-culture/) - A blameless written record of an incident, its impact, the actions taken to mitigate or resolve it, the root causes, and the follow-up actions to prevent the incident from recurring
+- [Ishikawa diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram) - A causal diagram created by Kaoru Ishikawa that shows the potential causes of a specific event
+- On-call & Incident Response Tools
+  - 🪙 [PagerDuty](https://www.pagerduty.com/) - An incident management platform that provides reliable notifications, automatic escalations, on-call scheduling, and other functionality to help teams detect and fix infrastructure problems quickly
+  - [GoAlert](https://github.com/target/goalert) - An open source on-call scheduling, automated escalation, and notification tool
 
 ### Chaos Engineering
 
@@ -567,28 +585,22 @@
   - [OpenCost](https://www.opencost.io/) - The open source solution for monitoring Kubernetes spend
   - [Cloud Custodian](https://cloudcustodian.io/) - A rules engine for managing public cloud accounts and resources
 
-## Performance & Load Testing
-
-:::note[Relevant DSS-P Skills]
-
-- 3\. Technology > 3\.1 Software Development > SRE Process
-
-:::
+### Performance & Load Testing
 
 - [Performance Testing](https://en.wikipedia.org/wiki/Software_performance_testing) - The practice of evaluating how a system performs in terms of responsiveness and stability under a particular workload
-
-### Performance Testing Tools
-
-- [Hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
-- [Locust](https://locust.io/) - An easy-to-use, distributed, user load testing tool
-- [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
-- 🔒 [Gatling](https://gatling.io/) - The load testing tool for programmers that helps engineering teams shift performance concerns left
-- [Apache Jmeter](https://jmeter.apache.org/) - A pure Java application designed to load test functional behavior and measure performance
-- [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) - A tool for benchmarking your Apache Hypertext Transfer Protocol (HTTP) server
-- [stress-ng](https://github.com/ColinIanKing/stress-ng) - A tool that imposes configurable amounts of CPU, memory, I/O, and disk stress on the system
-- [sysbench](https://github.com/akopytov/sysbench) - A scriptable multi-threaded benchmark tool based on LuaJIT
-- [fio](https://github.com/axboe/fio) - A tool that will spawn a number of threads or processes doing a particular type of I/O action as specified by the user
-- [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
-- [Speedtest CLI](https://www.speedtest.net/apps/cli) - A command line interface that measures internet connection performance metrics like download, upload, latency and packet loss natively without relying on a web browser
-- [plow](https://github.com/six-ddc/plow) - An HTTP(S) benchmarking tool written in Golang that conducts load testing with concurrent connections while displaying real-time performance metrics through both a web UI and terminal interface
-- [loadgen-rs](https://github.com/git001/loadgen-rs) - A h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) with commandline mode and distributed mode
+- Load Testing Tools
+  - [Locust](https://locust.io/) - An easy-to-use, distributed, user load testing tool
+  - [Grafana k6](https://k6.io/) - The open-source load testing tool that makes performance testing easy and productive for engineering teams
+  - 🔒 [Gatling](https://gatling.io/) - The load testing tool for programmers that helps engineering teams shift performance concerns left
+  - [Apache Jmeter](https://jmeter.apache.org/) - A pure Java application designed to load test functional behavior and measure performance
+  - [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) - A tool for benchmarking your Apache Hypertext Transfer Protocol (HTTP) server
+  - [plow](https://github.com/six-ddc/plow) - An HTTP(S) benchmarking tool written in Golang that conducts load testing with concurrent connections while displaying real-time performance metrics through both a web UI and terminal interface
+  - [loadgen-rs](https://github.com/git001/loadgen-rs) - A h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) with commandline mode and distributed mode
+- System Benchmarking Tools
+  - [Hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+  - [stress-ng](https://github.com/ColinIanKing/stress-ng) - A tool that imposes configurable amounts of CPU, memory, I/O, and disk stress on the system
+  - [sysbench](https://github.com/akopytov/sysbench) - A scriptable multi-threaded benchmark tool based on LuaJIT
+  - [fio](https://github.com/axboe/fio) - A tool that will spawn a number of threads or processes doing a particular type of I/O action as specified by the user
+- Network Throughput Tools
+  - [iPerf](https://iperf.fr/) - The ultimate speed test tool for TCP, UDP and SCTP
+  - [Speedtest CLI](https://www.speedtest.net/apps/cli) - A command line interface that measures internet connection performance metrics like download, upload, latency and packet loss natively without relying on a web browser

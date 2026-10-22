@@ -587,6 +587,13 @@
     - [Lakehouse vs Data Warehouse](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-lakehouse-warehouse) - データ量、構造、処理要件に基づいてレイクハウスとデータウェアハウスのどちらを選ぶべきかを判断するためのガイドです
   - 💲 [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - データウェアハウスとビッグデータシステム全体にわたってインサイト獲得までの時間を短縮するエンタープライズ分析サービスです
   - 🪙 [Google Cloud BigQuery](https://cloud.google.com/bigquery) - データから最大限の価値を引き出すのに役立つ、マルチエンジン、マルチフォーマット、マルチクラウドを念頭に設計されたフルマネージドで AI 対応のデータ分析プラットフォームです
+- ビジネスインテリジェンスプラットフォーム
+  - 💲 [Tableau](https://www.tableau.com/) - 問題解決のためにデータを見て、理解し、行動することを人々に助けるビジュアル分析プラットフォームです
+  - 🔒 [Metabase](https://www.metabase.com/) - スタートアップの本番データベースから大規模なデータウェアハウスまで対応するように作られた、データベースのためのクエリおよび可視化レイヤーです
+  - 💲 [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - セルフサービスとエンタープライズのビジネスインテリジェンスのための、統合されたスケーラブルなプラットフォームです
+    - [DAX](https://learn.microsoft.com/en-us/dax/) - 計算列、メジャー、カスタムテーブルを作成するために Microsoft Power BI 全体で使用されるプログラミング言語です
+  - 🪙 [Looker Studio](https://cloud.google.com/looker-studio) - データをカスタマイズ可能で情報豊富なレポートやダッシュボードに変える、旧 Google Data Studio として知られるビジネスインテリジェンスおよびデータ可視化プラットフォームです
+  - 💲 [Exploratory Desktop](https://exploratory.io/) - さまざまなデータソースへのアクセス、データのクレンジングと変換、データの可視化と分析を実現する、シンプルで使いやすい UI 体験です
   - 💲 [Amazon QuickSight](https://aws.amazon.com/quicksight/) - ユーザーがさまざまなエンタープライズデータソースからデータを分析し、可視化を作成し、インサイトを得られるようにする AI 駆動のビジネスインテリジェンスサービスです
 
 ### セマンティックレイヤー

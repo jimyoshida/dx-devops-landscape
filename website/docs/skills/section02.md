@@ -8,7 +8,7 @@
 
 :::
 
-### Web Concepts
+### Web Standards & Protocols
 
 - [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - An information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet
   - [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - A text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access
@@ -20,23 +20,12 @@
     - [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie) - A small piece of data that a server sends to a user's web browser
   - [HTML](https://html.spec.whatwg.org/) - The World Wide Web's core markup language
   - [CSS](https://www.w3.org/Style/CSS/) - A simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents
+    - [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/) - A CSS module that allows elements to be transformed in two-dimensional space
+    - [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/) - A CSS module that allows elements to be transformed in three-dimensional space
 - Real-time & Messaging Protocols
   - [WebSockets](https://websockets.spec.whatwg.org/) - A technology that makes it possible to open a two-way interactive communication session between the user's browser and a server
   - [WebRTC](https://webrtc.org/) - A free and open-source project providing web browsers and mobile applications with real-time communication (RTC)
   - [Server-sent events](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) - A technology to enable servers to push data to web pages over HTTP or using dedicated server-push protocols
-- Data & Event Specifications
-  - [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
-  - [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
-  - [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
-  - [TypeSpec](https://typespec.io/) - A minimal language that helps developers describe API shapes in a familiar way
-  - API Tooling
-    - [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
-- Crawler & Indexing Controls
-  - [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) - A standard used by websites to indicate to visiting web crawlers and other web robots which portions of the website they are allowed to visit
-- Web Performance Concepts
-  - [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - A mechanism to resolve domain names before a user tries to follow a link
-- Web Application Types
-  - [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
 
 ### Browser Technologies & DOM
 
@@ -60,6 +49,8 @@
   - [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - The means for drawing graphics via JavaScript and the HTML `<canvas>` element
   - [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) - A JavaScript API for rendering high-performance interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
   - [Web Neural Network API (WebNN)](https://www.w3.org/TR/webnn/) - An emerging web standard that allows web apps and frameworks to accelerate deep neural networks with on-device hardware such as GPUs, CPUs, or NPUs
+- WebAssembly Runtimes
+  - [PyScript](https://pyscript.net/) - A free Open Source Software (OSS) that facilitates the creation, deployment, and sharing of Python applications
 
 ### Web Application Architectures
 
@@ -72,6 +63,7 @@
 - [Server-side rendering](https://en.wikipedia.org/wiki/Server-side_rendering) - An approach where static HTML is sent from the server to the client, and client-side JavaScript then makes the web page dynamic by attaching event handlers in a process called hydration
 - [Incremental Static Regeneration](https://nextjs.org/docs/pages/guides/incremental-static-regeneration) - A technique that enables static-generation on a per-page basis without needing to rebuild the entire site, allowing updates to static content after deployment
 - [JAMstack](https://jamstack.org/) - An architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability
+- [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly
 
 ## Frontend Development
 
@@ -111,7 +103,6 @@
   - [Ember.js](https://emberjs.com/) - A framework for ambitious web developers
 - HTML-First Frameworks
   - [htmx](https://htmx.org/) - A library that allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes
-  - [htm](https://github.com/developit/htm) - A JSX alternative using standard tagged templates, with no transpiler necessary
 - Framework-agnostic Core Libraries
   - [TanStack](https://tanstack.com/) - A collection of high-quality, framework-agnostic open-source libraries for web development
     - [TanStack Query](https://tanstack.com/query) - A powerful asynchronous state management for TS/JS, React, Solid, Vue, Svelte and Angular
@@ -120,7 +111,7 @@
     - [TanStack Form](https://tanstack.com/form) - A type-safe and framework-agnostic form state management for React, Vue, Solid, and Svelte
     - [TanStack Virtual](https://tanstack.com/virtual) - A headless UI for virtualizing large lists and grids in React, Vue, Svelte, Solid and JS
 
-### State, Routing & Logic
+### State, Routing & Templating
 
 - State Management
   - [Redux](https://redux.js.org/) - A JS library for predictable and maintainable global state management
@@ -132,8 +123,7 @@
 - Syntax & Templating
   - [JSX](https://react.dev/learn/writing-markup-with-jsx) - A syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file
   - [MDX](https://mdxjs.com/) - An authorable format that lets you seamlessly write JSX in your Markdown documents
-- WASM Runtimes
-  - [PyScript](https://pyscript.net/) - A free Open Source Software (OSS) that facilitates the creation, deployment, and sharing of Python applications
+  - [htm](https://github.com/developit/htm) - A JSX alternative using standard tagged templates, with no transpiler necessary
 
 ### Styling & UI Components
 
@@ -149,9 +139,6 @@
     - [Linaria](https://linaria.dev/) - A zero-runtime CSS in JS library
   - Preprocessors
     - [Sass language](https://sass-lang.com/) - A stylesheet language that's compiled to CSS
-  - Transforms
-    - [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/) - A CSS module that allows elements to be transformed in two-dimensional space
-    - [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/) - A CSS module that allows elements to be transformed in three-dimensional space
 - UI Component Libraries
   - 🪙 [templUI](https://templui.io/) - A growing collection of beautifully designed UI components for Go and templ
   - 🪙 [Material UI](https://mui.com/material-ui/) - An open-source React component library that implements Google's Material Design
@@ -197,6 +184,7 @@
 - JS/TS Full-stack Frameworks
   - [Next.js](https://nextjs.org/) - A React framework for building full-stack web applications
     - [App Router](https://nextjs.org/docs/app) - A file-system based router that uses React's latest features such as Server Components, Suspense, Server Functions, and more
+  - [Modern.js](https://modernjs.dev/) - A progressive React framework for modern web development
   - [Nuxt](https://nuxt.com/) - A free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js
   - [Astro](https://astro.build/) - The web framework for content-driven websites
   - [Fresh](https://fresh.deno.dev/) - A next generation web framework, built for speed, reliability, and simplicity
@@ -238,9 +226,40 @@
 - [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) - A software architectural style that was created to guide the design and development of the architecture for the World Wide Web
 - [SOAP (legacy)](https://en.wikipedia.org/wiki/SOAP) - A messaging protocol specification for exchanging structured information in the implementation of web services
 - [GraphQL](https://graphql.org/) - A query language for APIs and a runtime for fulfilling those queries with your existing data
+  - [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
 - [gRPC](https://grpc.io/) - A modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment
 - [json-rpc](https://www.jsonrpc.org/) - A stateless, light-weight remote procedure call (RPC) protocol
+- [tRPC](https://trpc.io/) - A tool that allows you to easily build & consume fully typesafe APIs without schemas or code generation
 - [Webhook](https://en.wikipedia.org/wiki/Webhook) - A method of augmenting or altering the behavior of a web page or web application with custom callbacks
+
+### API Specification & Design
+
+- [OpenAPI spec](https://www.openapis.org/) - A standard, language-agnostic interface to HTTP APIs
+  - [Redocly CLI](https://redocly.com/) - An open-source command-line tool that helps you lint, bundle, and preview OpenAPI definitions
+- [TypeSpec](https://typespec.io/) - A minimal language that helps developers describe API shapes in a familiar way
+- [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - A JSON format that describes changes to be made to a target JSON document
+- [CloudEvents](https://cloudevents.io/) - A specification for describing event data in a common way
+
+### Server Gateway Interfaces
+
+- CGI (legacy)
+  - [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - A module for the execution of CGI scripts
+  - [CGI.pm](https://metacpan.org/pod/CGI) - A module to handle Common Gateway Interface requests and responses
+- FastCGI (legacy)
+  - [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - A high performance alternative to mod_cgi or mod_cgid
+  - [FCGI.pm](https://metacpan.org/pod/FCGI) - A module for FastCGI applications
+- Python Server Interfaces
+  - [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - The Web Server Gateway Interface
+    - [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
+  - [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html) - A spiritual successor to WSGI, the long-standing Python standard for compatibility between web servers, frameworks, and applications
+    - [Uvicorn](https://www.uvicorn.org/) - A lightning-fast ASGI server implementation for Python, using uvloop and httptools for high performance
+    - [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI and WSGI web server based on the sans-io hyper, h11, h2, and wsproto libraries with support for HTTP/1, HTTP/2, and HTTP/3
+- Ruby Server Interfaces
+  - [Rack](https://rack.github.io/) - A modular Ruby web server interface
+    - [Puma](https://puma.io/) - A fast, concurrent web server for Ruby & Rack
+    - [Falcon](https://socketry.github.io/falcon/) - A multi-process, multi-fiber rack-compatible HTTP server built on top of async, async-container and async-http
+- Java Servlet Containers
+  - [Apache Tomcat](https://tomcat.apache.org/) - An open-source web server and servlet container
 
 ### Backend Frameworks
 
@@ -250,8 +269,6 @@
   - [Koa](https://koajs.com/) - A new web framework designed by the team behind Express
   - [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications
   - [Hono](https://hono.dev/) - A small, simple, and ultrafast web framework for the Edges
-- API Tools
-  - [tRPC](https://trpc.io/) - A tool that allows you to easily build & consume fully typesafe APIs without schemas or code generation
 - Go Backend Frameworks
   - [Echo](https://echo.labstack.com/) - A high performance, extensible, minimalist Go web framework
   - [Fiber](https://gofiber.io/) - An Express inspired web framework built on top of Fasthttp, the fastest HTTP engine for Go, designed to ease development with performance in mind
@@ -259,33 +276,18 @@
   - [Gorilla web toolkit](https://www.gorillatoolkit.org/) - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
   - [Yokai](https://ankorstore.github.io/yokai/) - A simple, modular and observable Go framework for backend applications
   - [Kratos](https://github.com/go-kratos/kratos) - A lightweight Go framework for building cloud-native microservices, with APIs for transport, middleware, registry, configuration, logging, and code generation
-- Python Backend Frameworks & Servers
-  - [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - The Web Server Gateway Interface
-    - [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX
-    - [Flask](https://palletsprojects.com/p/flask/) - A lightweight WSGI web application framework
-  - [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html) - A spiritual successor to WSGI, the long-standing Python standard for compatibility between web servers, frameworks, and applications
-    - [Uvicorn](https://www.uvicorn.org/) - A lightning-fast ASGI server implementation for Python, using uvloop and httptools for high performance
-    - [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - An ASGI and WSGI web server based on the sans-io hyper, h11, h2, and wsproto libraries with support for HTTP/1, HTTP/2, and HTTP/3
-    - [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
+- Python Backend Frameworks
+  - [Flask](https://palletsprojects.com/p/flask/) - A lightweight WSGI web application framework
+  - [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints
     - [SlowAPI](https://github.com/laurents/slowapi) - A small library to rate limit your ASGI applications
-- Ruby Backend Frameworks & Servers
+- Ruby Backend Frameworks
   - [Ruby on Rails](https://rubyonrails.org/) - A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern
-  - [Rack](https://rack.github.io/) - A modular Ruby web server interface
-    - [Puma](https://puma.io/) - A fast, concurrent web server for Ruby & Rack
-    - [Falcon](https://socketry.github.io/falcon/) - A multi-process, multi-fiber rack-compatible HTTP server built on top of async, async-container and async-http
-    - [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
-  - 🔒 [Sidekiq](https://sidekiq.org/) - A simple, efficient background processing tool for Ruby
-  - [Shrine](https://shrinerb.com/) - A file attachment toolkit for Ruby applications
-- Perl Backend Frameworks (legacy)
-  - Classic CGI
-    - [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - A module for the execution of CGI scripts
-    - [CGI.pm](https://metacpan.org/pod/CGI) - A module to handle Common Gateway Interface requests and responses
-  - Fast CGI
-    - [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - A high performance alternative to mod_cgi or mod_cgid
-    - [FCGI.pm](https://metacpan.org/pod/FCGI) - A module for FastCGI applications
+  - [Sinatra](https://sinatrarb.com/) - A DSL for quickly creating web applications in Ruby with minimal effort
+  - Background Jobs & File Attachments
+    - 🔒 [Sidekiq](https://sidekiq.org/) - A simple, efficient background processing tool for Ruby
+    - [Shrine](https://shrinerb.com/) - A file attachment toolkit for Ruby applications
 - Java Backend Frameworks
   - [Jakarta EE](https://jakarta.ee/) - A set of specifications that define Java APIs for enterprise software development
-    - [Apache Tomcat](https://tomcat.apache.org/) - An open-source web server and servlet container
   - [Spring](https://spring.io/) - A project that makes Java simple, modern, productive, reactive, and cloud-ready
     - [Spring Boot](https://spring.io/projects/spring-boot) - A tool that takes an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss
   - [Quarkus](https://quarkus.io/) - A Java framework for building fast, efficient, cloud-native applications that is Kubernetes-native and supports JVM and native executable deployments
@@ -293,8 +295,6 @@
   - [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - A free, cross-platform, open source framework for building web apps and services with .NET and C#
 - Elixir Backend Frameworks
   - [Phoenix](https://www.phoenixframework.org/) - A web framework for building rich, interactive web applications quickly with less code and fewer moving parts, used to craft APIs, HTML5 apps, and more at scale
-- GraphQL Servers
-  - [Apollo Server](https://www.apollographql.com/docs/apollo-server) - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
 
 ## Web Infrastructure
 
@@ -345,16 +345,18 @@
   - 🪙 [Netlify Edge Functions](https://docs.netlify.com/build/edge-functions/overview/) - A feature that connects the platform and workflow with an open runtime standard at the network edge to build fast, personalized web experiences
 - Image CDN
   - 🪙 [Netlify Image CDN](https://docs.netlify.com/build/image-cdn/overview/) - A service that transforms images on demand without impacting build times and negotiates the most efficient image format for the requesting client
-- JAMstack Hosting
-  - 🪙 [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
-  - 🪙 [GitHub Pages](https://pages.github.com/) - A service that hosts websites for you and your projects directly from your GitHub repository
-  - 🪙 [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites, with Cloudflare now recommending Workers for new projects
-  - 🪙 [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) - A feature to upload and serve static files such as HTML, CSS and images as part of a Worker, automatically cached and distributed across the global network
-  - 🪙 [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) - A service that streamlines full-stack development from source code to global high availability
-  - 🪙 [AWS Amplify Hosting](https://aws.amazon.com/amplify/hosting/) - A scalable, secure, and reliable hosting service for modern web apps that quickly deploys server-side rendered apps, static apps and SPAs
-  - 🪙 [Firebase Hosting](https://firebase.google.com/products/hosting) - A fast, secure hosting for static websites, optimized for static and single-page web apps and deployed in seconds using a global CDN
-  - 🪙 [Vercel Deployments](https://vercel.com/docs/deployments) - The result of a successful build of your project, created from Git, Vercel CLI, Vercel Drop, deploy hooks or the REST API, with a unique URL for previewing changes in a live environment
-  - 🪙 [Netlify Deploys](https://docs.netlify.com/deploy/create-deploys/) - A new version of your site or app that Netlify builds on its infrastructure and gives a URL, deployed as a preview or as a production version designed to go live at your primary domain
+
+### Static Site Hosting
+
+- 🪙 [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - A feature that allows you to publish static websites directly from a repository in GitLab
+- 🪙 [GitHub Pages](https://pages.github.com/) - A service that hosts websites for you and your projects directly from your GitHub repository
+- 🪙 [Cloudflare Pages](https://pages.cloudflare.com/) - A JAMstack platform for frontend developers to collaborate and deploy websites, with Cloudflare now recommending Workers for new projects
+- 🪙 [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) - A feature to upload and serve static files such as HTML, CSS and images as part of a Worker, automatically cached and distributed across the global network
+- 🪙 [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) - A service that streamlines full-stack development from source code to global high availability
+- 🪙 [AWS Amplify Hosting](https://aws.amazon.com/amplify/hosting/) - A scalable, secure, and reliable hosting service for modern web apps that quickly deploys server-side rendered apps, static apps and SPAs
+- 🪙 [Firebase Hosting](https://firebase.google.com/products/hosting) - A fast, secure hosting for static websites, optimized for static and single-page web apps and deployed in seconds using a global CDN
+- 🪙 [Vercel Deployments](https://vercel.com/docs/deployments) - The result of a successful build of your project, created from Git, Vercel CLI, Vercel Drop, deploy hooks or the REST API, with a unique URL for previewing changes in a live environment
+- 🪙 [Netlify Deploys](https://docs.netlify.com/deploy/create-deploys/) - A new version of your site or app that Netlify builds on its infrastructure and gives a URL, deployed as a preview or as a production version designed to go live at your primary domain
 
 ## Decentralized Web
 
@@ -366,41 +368,47 @@
 
 ### Blockchain Technology
 
-- [Web3](https://en.wikipedia.org/wiki/Web3) - An idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics
-- [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - A distributed ledger with growing lists of records
-  - [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - A proof-of-work system used to limit email spam and denial-of-service attacks
-  - [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - A form of cryptographic proof in which one party proves to others that a certain amount of a specific computational effort has been expended
-- [Smart contract](https://en.wikipedia.org/wiki/Smart_contract) - A computer program or transaction protocol designed to automatically execute, control, or document events and actions according to contract terms
-- [Bitcoin](https://bitcoin.org/) - A decentralized digital currency that can be transferred on the peer-to-peer bitcoin network
-- [Ethereum](https://ethereum.org/) - A global, decentralized network that provides direct ownership of digital assets, data, and identity without requiring permission from any central authority
-- [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
-- [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
-- [Solidity](https://en.wikipedia.org/wiki/Solidity) - A programming language for implementing smart contracts on various blockchain platforms, most notably Ethereum
-- [viem](https://viem.sh/) - A library to build reliable Ethereum apps and libraries with lightweight, composable, and type-safe modules
-- [ethers.js](https://ethers.org/) - A simple, compact and complete JavaScript library for all your Ethereum needs
-- [MetaMask](https://metamask.io/) - A crypto wallet that enables users to buy, sell, swap, and store cryptocurrencies while maintaining control over their data and assets
-- [WalletConnect](https://walletconnect.com/) - An open-source protocol that establishes encrypted connections between mobile cryptocurrency wallets and desktop-based decentralized applications
-- [Hardhat](https://hardhat.org/) - A development environment for Ethereum and EVM-compatible blockchains that helps developers compile, deploy, test, and debug Solidity smart contracts
+- Blockchain Concepts
+  - [Web3](https://en.wikipedia.org/wiki/Web3) - An idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics
+  - [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - A distributed ledger with growing lists of records
+    - [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - A proof-of-work system used to limit email spam and denial-of-service attacks
+    - [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - A form of cryptographic proof in which one party proves to others that a certain amount of a specific computational effort has been expended
+  - [Smart contract](https://en.wikipedia.org/wiki/Smart_contract) - A computer program or transaction protocol designed to automatically execute, control, or document events and actions according to contract terms
+  - [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - A unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity
+  - [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - A member-owned community without centralized leadership managed by decentralized computer programs with voting and finances handled through a blockchain
+- Blockchain Networks
+  - [Bitcoin](https://bitcoin.org/) - A decentralized digital currency that can be transferred on the peer-to-peer bitcoin network
+  - [Ethereum](https://ethereum.org/) - A global, decentralized network that provides direct ownership of digital assets, data, and identity without requiring permission from any central authority
+- Smart Contract Development
+  - [Solidity](https://en.wikipedia.org/wiki/Solidity) - A programming language for implementing smart contracts on various blockchain platforms, most notably Ethereum
+  - [Hardhat](https://hardhat.org/) - A development environment for Ethereum and EVM-compatible blockchains that helps developers compile, deploy, test, and debug Solidity smart contracts
+  - [viem](https://viem.sh/) - A library to build reliable Ethereum apps and libraries with lightweight, composable, and type-safe modules
+  - [ethers.js](https://ethers.org/) - A simple, compact and complete JavaScript library for all your Ethereum needs
+- Crypto Wallets
+  - [MetaMask](https://metamask.io/) - A crypto wallet that enables users to buy, sell, swap, and store cryptocurrencies while maintaining control over their data and assets
+  - [WalletConnect](https://walletconnect.com/) - An open-source protocol that establishes encrypted connections between mobile cryptocurrency wallets and desktop-based decentralized applications
 
 ### Decentralized Social
 
-- [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
-- [AT Protocol](https://atproto.com/) - An open data network for building social applications where users own their identities and content is represented as interlinked JSON records
-- [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
-- [Mastodon](https://joinmastodon.org/) - A free, open-source, decentralized social media platform that puts users in control of their feeds without algorithms or ads, allowing independent servers to interoperate through the ActivityPub protocol
-- [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
-- [Nostr](https://nostr.com/) - An open, decentralized social protocol that uses cryptographic signatures to enable censorship-resistant communication across multiple independent servers called relays
-- [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) - An open standard and communication protocol for real-time communication that enables seamless communication between different service providers
-- [PeerTube](https://joinpeertube.org/) - A free, open-source tool for creating independent video hosting platforms that connect to form a decentralized network, offering an alternative to centralized services
-- [Lemmy](https://join-lemmy.org/) - A decentralized discussion platform that allows users to control their experience without corporate tracking or advertising
-- [Diaspora](https://diasporafoundation.org/) - A nonprofit, user-owned, distributed social network consisting of independently owned nodes called pods that interoperate to form the network
-- [Secure Scuttlebutt](https://scuttlebutt.nz/) - A decentralized social network platform that enables local community development free from corporate data harvesting
+- Decentralized Social Protocols
+  - [ActivityPub](https://activitypub.rocks/) - A decentralized social networking protocol based on the ActivityStreams 2.0 data format
+  - [AT Protocol](https://atproto.com/) - An open data network for building social applications where users own their identities and content is represented as interlinked JSON records
+  - [Nostr](https://nostr.com/) - An open, decentralized social protocol that uses cryptographic signatures to enable censorship-resistant communication across multiple independent servers called relays
+  - [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) - An open standard and communication protocol for real-time communication that enables seamless communication between different service providers
+  - [Secure Scuttlebutt](https://scuttlebutt.nz/) - A decentralized social network platform that enables local community development free from corporate data harvesting
+- Social Networks & Platforms
+  - [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - An ensemble of interconnected servers that are used for web publishing and file hosting, but which can communicate with each other
+  - [Mastodon](https://joinmastodon.org/) - A free, open-source, decentralized social media platform that puts users in control of their feeds without algorithms or ads, allowing independent servers to interoperate through the ActivityPub protocol
+  - [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - A microblogging social media service and a public benefit corporation based in the United States
+  - [PeerTube](https://joinpeertube.org/) - A free, open-source tool for creating independent video hosting platforms that connect to form a decentralized network, offering an alternative to centralized services
+  - [Lemmy](https://join-lemmy.org/) - A decentralized discussion platform that allows users to control their experience without corporate tracking or advertising
+  - [Diaspora](https://diasporafoundation.org/) - A nonprofit, user-owned, distributed social network consisting of independently owned nodes called pods that interoperate to form the network
 
 ## Development & Testing Tools
 
 :::note[Relevant DSS-P Skills]
 
-- 3\. Technology > 3\.1 Software Development > Computer Science
+- 3\. Technology > 3\.1 Software Development > Web Application Core Technology
 - 3\. Technology > 3\.1 Software Development > Team Development
 
 :::
@@ -419,11 +427,9 @@
   - [JS Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
   - [Go Resty](https://github.com/go-resty/resty) - A simple HTTP and REST client library for Go
   - [Go FastHTTP](https://github.com/valyala/fasthttp) - A fast HTTP package for Go
-  - [Surf](https://github.com/enetx/surf) - An advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass
   - [Typhoeus](https://github.com/typhoeus/typhoeus) - A library that wraps libcurl in order to make fast and reliable requests
   - [Ruby Net](https://docs.ruby-lang.org/en/master/Net.html) - A collection of classes that implement client-side internet protocols
   - [httpx](https://gitlab.com/os85/httpx) - An HTTP client library for the Ruby programming language
-  - [wreq-ruby](https://github.com/SearchApi/wreq-ruby) - An easy and powerful Ruby HTTP client with advanced browser fingerprinting that accurately emulates various browsers with precise TLS/HTTP2 signatures
   - [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - An ergonomic, async HTTP client
 - GraphQL Clients
   - [URQL](https://commerce.nearform.com/open-source/urql/) - The highly customizable and versatile GraphQL client for React, Svelte, Vue, or plain JavaScript
@@ -446,8 +452,7 @@
   - [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy that can intercept, inspect, modify, and replay web traffic for debugging, testing, and penetration testing purposes
   - 🪙 [Requestly](https://requestly.com/) - An HTTP interceptor that allows developers to modify URLs, headers, and API responses in real-time for debugging and testing
   - [httptap](https://github.com/monasticacademy/httptap) - A tool to view the HTTP and HTTPS requests made by any Linux program
-- Site Auditing & Analysis
-  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - An open-source, automated tool that helps improve web page quality by auditing performance, accessibility, SEO, and best practices
+- Technology Profiling
   - 🪙 [Wappalyzer](https://www.wappalyzer.com/) - A technology profiler that shows you what websites are built with
 
 ### Web Test Automation Frameworks
@@ -457,18 +462,35 @@
   - [Playwright](https://playwright.dev/) - A framework for reliable end-to-end testing for modern web apps with a single API for Chromium, Firefox, and WebKit
     - [Playwright for Go](https://playwright-community.github.io/playwright-go/) - A Go library to automate Chromium, Firefox and WebKit with a single API
   - 🪙 [Cypress](https://www.cypress.io/) - An open-source, JavaScript-based testing framework that enables developers to write, run, and debug end-to-end and component tests directly in the browser for modern web applications
-  - [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
-    - [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
-    - [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
   - [Selenium IDE](https://www.selenium.dev/selenium-ide/) - An open source record and playback test automation for the web
-  - [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - A low-level API that allows external tools to instrument, inspect, debug, and profile Chromium-based browsers
+  - Browser Automation Protocols
+    - [WebDriver](https://www.w3.org/TR/webdriver2/) - A remote control interface that enables introspection and control of user agents
+      - [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - A tool that drives a browser natively, as a user would, either locally or on a remote machine
+      - [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
+    - [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - A low-level API that allows external tools to instrument, inspect, debug, and profile Chromium-based browsers
   - [Web Test Runner](https://modern-web.dev/docs/test-runner/overview/) - A test runner for web applications that runs tests in real browsers with headless browser support, module mocking, and parallel execution
   - Supporting Tools
     - [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - A new flavor of Chrome that specifically targets web app testing and automation use cases
-- Accessibility Testing
-  - [axe-core](https://www.deque.com/axe/) - An accessibility testing engine for websites and other HTML-based user interfaces
 - AI-powered Web Automation
   - [browser-use](https://docs.browser-use.com/) - An open-source Python library that allows AI agents to interact with web browsers using natural language
+
+### Web Performance, Accessibility & SEO
+
+- Site Auditing
+  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - An open-source, automated tool that helps improve web page quality by auditing performance, accessibility, SEO, and best practices
+- Web Performance Concepts
+  - [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - A mechanism to resolve domain names before a user tries to follow a link
+  - [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
+    - Largest Contentful Paint (LCP)
+    - Interaction to Next Paint (INP)
+    - Cumulative Layout Shift (CLS)
+- Accessibility Standards
+  - [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
+  - [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
+- Accessibility Testing
+  - [axe-core](https://github.com/dequelabs/axe-core) - An accessibility testing engine for websites and other HTML-based user interfaces
+- Crawler & Indexing Controls
+  - [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) - A standard used by websites to indicate to visiting web crawlers and other web robots which portions of the website they are allowed to visit
 
 ### Web Scraping & Crawling
 
@@ -479,6 +501,9 @@
   - [Colly](https://go-colly.org/) - A Golang framework for building web scrapers
   - [Katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
   - [Trafilatura](https://trafilatura.readthedocs.io/en/latest/) - A Python package and command-line tool to gather text on the Web
+- Browser-impersonating HTTP Clients
+  - [Surf](https://github.com/enetx/surf) - An advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass
+  - [wreq-ruby](https://github.com/SearchApi/wreq-ruby) - An easy and powerful Ruby HTTP client with advanced browser fingerprinting that accurately emulates various browsers with precise TLS/HTTP2 signatures
 - Classic Web Automation
   - [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - A module that helps you automate interaction with a website
   - [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - A ruby library that makes automated web interaction easy

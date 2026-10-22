@@ -199,7 +199,7 @@
 ### PDF 処理
 
 - ツール
-  - [Docling](https://github.com/docling-project/docling) - 多様なフォーマットを解析し、文書処理を簡素化する強力なライブラリです
+  - [Docling](https://docling-project.github.io/docling/) - 多様なフォーマットを解析し、文書処理を簡素化する強力なライブラリです
   - [Ghostscript](https://www.ghostscript.com/) - Adobe Systems の PostScript および Portable Document Format ページ記述言語向けのインタープリタを基盤とするソフトウェアスイートです
   - [qpdf](https://qpdf.sourceforge.io/) - PDF ファイルに対して内容を保ったまま変換を行う、コマンドラインツールおよび C++ ライブラリです
   - [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - PDF を扱うためのコマンドラインツールです

@@ -8,7 +8,7 @@
 
 :::
 
-### ウェブの基本概念
+### ウェブ標準とプロトコル
 
 - [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) - ドキュメントやその他のウェブリソースが Uniform Resource Locator (URL) によって識別され、ハイパーテキストリンクで相互にリンクされ、インターネット経由でアクセスできる情報空間です
   - [Hypertext](https://en.wikipedia.org/wiki/Hypertext) - コンピュータのディスプレイやその他の電子機器に表示されるテキストで、読者がすぐにアクセスできる他のテキストへの参照 (ハイパーリンク) を持つものです
@@ -20,23 +20,12 @@
     - [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie) - サーバーがユーザーのウェブブラウザに送信する小さなデータです
   - [HTML](https://html.spec.whatwg.org/) - World Wide Web の中核となるマークアップ言語です
   - [CSS](https://www.w3.org/Style/CSS/) - ウェブドキュメントにスタイル (フォント、色、間隔など) を付加するためのシンプルな仕組みです
+    - [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/) - 要素を 2 次元空間で変形できるようにする CSS モジュールです
+    - [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/) - 要素を 3 次元空間で変形できるようにする CSS モジュールです
 - リアルタイムおよびメッセージングプロトコル
   - [WebSockets](https://websockets.spec.whatwg.org/) - ユーザーのブラウザとサーバーの間で双方向のインタラクティブな通信セッションを開くことを可能にする技術です
   - [WebRTC](https://webrtc.org/) - ウェブブラウザやモバイルアプリケーションにリアルタイム通信 (RTC) を提供する無料でオープンソースのプロジェクトです
   - [Server-sent events](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) - サーバーが HTTP または専用のサーバープッシュプロトコルを使ってウェブページにデータをプッシュできるようにする技術です
-- データおよびイベントの仕様
-  - [CloudEvents](https://cloudevents.io/) - イベントデータを共通の方法で記述するための仕様です
-  - [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - 対象の JSON ドキュメントに加える変更を記述する JSON フォーマットです
-  - [OpenAPI spec](https://www.openapis.org/) - HTTP API のための標準的で言語に依存しないインターフェースです
-  - [TypeSpec](https://typespec.io/) - 開発者が慣れ親しんだ方法で API の形状を記述できるようにする最小限の言語です
-  - API ツーリング
-    - [Redocly CLI](https://redocly.com/) - OpenAPI 定義のリント、バンドル、プレビューを助けるオープンソースのコマンドラインツールです
-- クローラーとインデックスの制御
-  - [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) - ウェブサイトを訪問するウェブクローラーやその他のウェブロボットに対して、サイトのどの部分へのアクセスが許可されているかを示すために用いられる標準です
-- ウェブパフォーマンスの概念
-  - [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - ユーザーがリンクをたどろうとする前にドメイン名を解決しておく仕組みです
-- ウェブアプリケーションの種類
-  - [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - HTML、CSS、JavaScript、WebAssembly など共通のウェブ技術を用いて構築され、ウェブを通じて配信されるアプリケーションソフトウェアの一種です
 
 ### ブラウザ技術と DOM
 
@@ -60,6 +49,8 @@
   - [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - JavaScript と HTML の `<canvas>` 要素を使ってグラフィックスを描画するための手段です
   - [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) - プラグインを使わずに互換性のあるあらゆるウェブブラウザ内で高性能なインタラクティブ 3D および 2D グラフィックスをレンダリングするための JavaScript API です
   - [Web Neural Network API (WebNN)](https://www.w3.org/TR/webnn/) - GPU、CPU、NPU などのオンデバイスハードウェアを使ってウェブアプリやフレームワークがディープニューラルネットワークを高速化できるようにする、新しく登場したウェブ標準です
+- WebAssembly ランタイム
+  - [PyScript](https://pyscript.net/) - Python アプリケーションの作成、デプロイ、共有を容易にする無料のオープンソースソフトウェア (OSS) です
 
 ### ウェブアプリケーションアーキテクチャ
 
@@ -72,6 +63,7 @@
 - [Server-side rendering](https://en.wikipedia.org/wiki/Server-side_rendering) - サーバーから静的な HTML をクライアントに送信し、その後クライアント側の JavaScript がハイドレーションと呼ばれる過程でイベントハンドラーを付与してウェブページを動的にする手法です
 - [Incremental Static Regeneration](https://nextjs.org/docs/pages/guides/incremental-static-regeneration) - サイト全体を再構築することなくページ単位で静的生成を行える技術で、デプロイ後も静的コンテンツを更新できます
 - [JAMstack](https://jamstack.org/) - ウェブ体験レイヤーをデータやビジネスロジックから切り離し、柔軟性、スケーラビリティ、パフォーマンス、保守性を向上させるアーキテクチャアプローチです
+- [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app) - HTML、CSS、JavaScript、WebAssembly など共通のウェブ技術を用いて構築され、ウェブを通じて配信されるアプリケーションソフトウェアの一種です
 
 ## フロントエンド開発
 
@@ -111,7 +103,6 @@
   - [Ember.js](https://emberjs.com/) - 野心的なウェブ開発者のためのフレームワークです
 - HTML ファーストなフレームワーク
   - [htmx](https://htmx.org/) - 属性を使うことで HTML から直接 AJAX、CSS Transitions、WebSockets、Server Sent Events にアクセスできるようにするライブラリです
-  - [htm](https://github.com/developit/htm) - トランスパイラーを必要としない、標準のタグ付きテンプレートを使った JSX の代替手段です
 - フレームワーク非依存のコアライブラリ
   - [TanStack](https://tanstack.com/) - ウェブ開発のための高品質でフレームワークに依存しないオープンソースライブラリ群です
     - [TanStack Query](https://tanstack.com/query) - TS/JS、React、Solid、Vue、Svelte、Angular 向けの強力な非同期状態管理ライブラリです
@@ -120,7 +111,7 @@
     - [TanStack Form](https://tanstack.com/form) - React、Vue、Solid、Svelte 向けの型安全でフレームワークに依存しないフォーム状態管理ライブラリです
     - [TanStack Virtual](https://tanstack.com/virtual) - React、Vue、Svelte、Solid、JS で大きなリストやグリッドを仮想化するためのヘッドレス UI です
 
-### 状態管理、ルーティング、ロジック
+### 状態管理、ルーティング、テンプレート
 
 - 状態管理
   - [Redux](https://redux.js.org/) - 予測可能で保守しやすいグローバルな状態管理のための JS ライブラリです
@@ -132,8 +123,7 @@
 - 構文とテンプレート
   - [JSX](https://react.dev/learn/writing-markup-with-jsx) - JavaScript ファイルの中に HTML のようなマークアップを書けるようにする JavaScript の構文拡張です
   - [MDX](https://mdxjs.com/) - Markdown ドキュメントの中にシームレスに JSX を書けるようにする執筆用フォーマットです
-- WASM ランタイム
-  - [PyScript](https://pyscript.net/) - Python アプリケーションの作成、デプロイ、共有を容易にする無料のオープンソースソフトウェア (OSS) です
+  - [htm](https://github.com/developit/htm) - トランスパイラーを必要としない、標準のタグ付きテンプレートを使った JSX の代替手段です
 
 ### スタイリングと UI コンポーネント
 
@@ -149,9 +139,6 @@
     - [Linaria](https://linaria.dev/) - ゼロランタイムの CSS-in-JS ライブラリです
   - プリプロセッサ
     - [Sass language](https://sass-lang.com/) - CSS にコンパイルされるスタイルシート言語です
-  - 変形
-    - [CSS Transforms 1](https://www.w3.org/TR/css-transforms-1/) - 要素を 2 次元空間で変形できるようにする CSS モジュールです
-    - [CSS Transforms 2](https://www.w3.org/TR/css-transforms-2/) - 要素を 3 次元空間で変形できるようにする CSS モジュールです
 - UI コンポーネントライブラリ
   - 🪙 [templUI](https://templui.io/) - Go と templ 向けの、美しくデザインされた UI コンポーネント集です
   - 🪙 [Material UI](https://mui.com/material-ui/) - Google の Material Design を実装したオープンソースの React コンポーネントライブラリです
@@ -197,6 +184,7 @@
 - JS/TS フルスタックフレームワーク
   - [Next.js](https://nextjs.org/) - フルスタックのウェブアプリケーションを構築するための React フレームワークです
     - [App Router](https://nextjs.org/docs/app) - Server Components、Suspense、Server Functions などの React の最新機能を活用する、ファイルシステムベースのルーターです
+  - [Modern.js](https://modernjs.dev/) - モダンなウェブ開発のためのプログレッシブな React フレームワークです
   - [Nuxt](https://nuxt.com/) - Vue.js を使って型安全で高性能、本番運用に耐えるフルスタックウェブアプリケーションやウェブサイトを直感的かつ拡張可能な方法で作成できる、無料のオープンソースフレームワークです
   - [Astro](https://astro.build/) - コンテンツ主導のウェブサイトのためのウェブフレームワークです
   - [Fresh](https://fresh.deno.dev/) - 速度、信頼性、シンプルさのために構築された次世代ウェブフレームワークです
@@ -238,9 +226,40 @@
 - [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) - World Wide Web のアーキテクチャの設計と開発を導くために作られたソフトウェアアーキテクチャスタイルです
 - [SOAP (legacy)](https://en.wikipedia.org/wiki/SOAP) - ウェブサービスの実装において構造化された情報を交換するためのメッセージングプロトコル仕様です
 - [GraphQL](https://graphql.org/) - API のためのクエリ言語であり、既存のデータを使ってそれらのクエリを満たすためのランタイムです
+  - [Apollo Server](https://www.apollographql.com/docs/apollo-server) - あらゆる GraphQL クライアントと互換性のある、オープンソースで仕様に準拠した GraphQL サーバーです
 - [gRPC](https://grpc.io/) - あらゆる環境で動作できる、モダンでオープンソースかつ高性能なリモートプロシージャコール (RPC) フレームワークです
 - [json-rpc](https://www.jsonrpc.org/) - ステートレスで軽量なリモートプロシージャコール (RPC) プロトコルです
+- [tRPC](https://trpc.io/) - スキーマやコード生成なしに完全に型安全な API を簡単に構築・利用できるようにするツールです
 - [Webhook](https://en.wikipedia.org/wiki/Webhook) - カスタムコールバックによってウェブページやウェブアプリケーションの挙動を拡張・変更する方法です
+
+### API 仕様と設計
+
+- [OpenAPI spec](https://www.openapis.org/) - HTTP API のための標準的で言語に依存しないインターフェースです
+  - [Redocly CLI](https://redocly.com/) - OpenAPI 定義のリント、バンドル、プレビューを助けるオープンソースのコマンドラインツールです
+- [TypeSpec](https://typespec.io/) - 開発者が慣れ親しんだ方法で API の形状を記述できるようにする最小限の言語です
+- [JSON Merge Patch](https://datatracker.ietf.org/doc/html/rfc7396) - 対象の JSON ドキュメントに加える変更を記述する JSON フォーマットです
+- [CloudEvents](https://cloudevents.io/) - イベントデータを共通の方法で記述するための仕様です
+
+### サーバーゲートウェイインターフェース
+
+- CGI (レガシー)
+  - [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - CGI スクリプトの実行のためのモジュールです
+  - [CGI.pm](https://metacpan.org/pod/CGI) - Common Gateway Interface のリクエストとレスポンスを扱うためのモジュールです
+- FastCGI (レガシー)
+  - [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - mod_cgi や mod_cgid に代わる高性能な選択肢です
+  - [FCGI.pm](https://metacpan.org/pod/FCGI) - FastCGI アプリケーションのためのモジュールです
+- Python サーバーインターフェース
+  - [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - Web Server Gateway Interface の略です
+    - [Gunicorn](https://gunicorn.org/) - UNIX 向けの Python WSGI HTTP サーバーです
+  - [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html) - ウェブサーバー、フレームワーク、アプリケーション間の互換性のための長年の Python 標準である WSGI の精神的な後継です
+    - [Uvicorn](https://www.uvicorn.org/) - uvloop と httptools を使って高性能を実現する、Python 向けの超高速な ASGI サーバー実装です
+    - [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - sans-io の hyper、h11、h2、wsproto ライブラリをベースにした ASGI/WSGI ウェブサーバーで、HTTP/1、HTTP/2、HTTP/3 をサポートします
+- Ruby サーバーインターフェース
+  - [Rack](https://rack.github.io/) - モジュール式の Ruby ウェブサーバーインターフェースです
+    - [Puma](https://puma.io/) - Ruby と Rack のための高速で並行処理に対応したウェブサーバーです
+    - [Falcon](https://socketry.github.io/falcon/) - async、async-container、async-http の上に構築された、マルチプロセス・マルチファイバーで Rack と互換性のある HTTP サーバーです
+- Java サーブレットコンテナ
+  - [Apache Tomcat](https://tomcat.apache.org/) - オープンソースのウェブサーバーおよびサーブレットコンテナです
 
 ### バックエンドフレームワーク
 
@@ -250,8 +269,6 @@
   - [Koa](https://koajs.com/) - Express の開発チームが設計した新しいウェブフレームワークです
   - [Nest.js](https://nestjs.com/) - 効率的で信頼性が高くスケーラブルなサーバーサイドアプリケーションを構築するための先進的な Node.js フレームワークです
   - [Hono](https://hono.dev/) - エッジ向けの小さくシンプルで超高速なウェブフレームワークです
-- API ツール
-  - [tRPC](https://trpc.io/) - スキーマやコード生成なしに完全に型安全な API を簡単に構築・利用できるようにするツールです
 - Go バックエンドフレームワーク
   - [Echo](https://echo.labstack.com/) - 高性能で拡張性のあるミニマリストな Go のウェブフレームワークです
   - [Fiber](https://gofiber.io/) - Go 向けで最速の HTTP エンジンである Fasthttp の上に構築された、Express に着想を得たウェブフレームワークで、パフォーマンスを意識した開発を容易にするよう設計されています
@@ -259,33 +276,18 @@
   - [Gorilla web toolkit](https://www.gorillatoolkit.org/) - HTTP ベースのアプリケーションを書くための便利で組み合わせ可能なパッケージ群を提供するツールキットです
   - [Yokai](https://ankorstore.github.io/yokai/) - バックエンドアプリケーションのためのシンプルでモジュール式、可観測性を備えた Go フレームワークです
   - [Kratos](https://github.com/go-kratos/kratos) - トランスポート、ミドルウェア、レジストリ、設定、ロギング、コード生成のための API を備えた、クラウドネイティブなマイクロサービスを構築するための軽量な Go フレームワークです
-- Python バックエンドフレームワークとサーバー
-  - [WSGI](https://wsgi.readthedocs.io/en/latest/index.html) - Web Server Gateway Interface の略です
-    - [Gunicorn](https://gunicorn.org/) - UNIX 向けの Python WSGI HTTP サーバーです
-    - [Flask](https://palletsprojects.com/p/flask/) - 軽量な WSGI ウェブアプリケーションフレームワークです
-  - [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html) - ウェブサーバー、フレームワーク、アプリケーション間の互換性のための長年の Python 標準である WSGI の精神的な後継です
-    - [Uvicorn](https://www.uvicorn.org/) - uvloop と httptools を使って高性能を実現する、Python 向けの超高速な ASGI サーバー実装です
-    - [Hypercorn](https://hypercorn.readthedocs.io/en/latest/) - sans-io の hyper、h11、h2、wsproto ライブラリをベースにした ASGI/WSGI ウェブサーバーで、HTTP/1、HTTP/2、HTTP/3 をサポートします
-    - [FastAPI](https://fastapi.tiangolo.com/) - 標準的な Python の型ヒントに基づいて Python で API を構築するための、モダンで高速 (高性能) なウェブフレームワークです
+- Python バックエンドフレームワーク
+  - [Flask](https://palletsprojects.com/p/flask/) - 軽量な WSGI ウェブアプリケーションフレームワークです
+  - [FastAPI](https://fastapi.tiangolo.com/) - 標準的な Python の型ヒントに基づいて Python で API を構築するための、モダンで高速 (高性能) なウェブフレームワークです
     - [SlowAPI](https://github.com/laurents/slowapi) - ASGI アプリケーションにレート制限をかけるための小さなライブラリです
-- Ruby バックエンドフレームワークとサーバー
+- Ruby バックエンドフレームワーク
   - [Ruby on Rails](https://rubyonrails.org/) - Model-View-Controller (MVC) パターンに従ったデータベース連携のウェブアプリケーションを作成するために必要なすべてを含むウェブアプリケーションフレームワークです
-  - [Rack](https://rack.github.io/) - モジュール式の Ruby ウェブサーバーインターフェースです
-    - [Puma](https://puma.io/) - Ruby と Rack のための高速で並行処理に対応したウェブサーバーです
-    - [Falcon](https://socketry.github.io/falcon/) - async、async-container、async-http の上に構築された、マルチプロセス・マルチファイバーで Rack と互換性のある HTTP サーバーです
-    - [Sinatra](https://sinatrarb.com/) - 最小限の手間で Ruby のウェブアプリケーションを素早く作成するための DSL です
-  - 🔒 [Sidekiq](https://sidekiq.org/) - Ruby 向けのシンプルで効率的なバックグラウンド処理ツールです
-  - [Shrine](https://shrinerb.com/) - Ruby アプリケーションのためのファイル添付ツールキットです
-- Perl バックエンドフレームワーク (レガシー)
-  - クラシック CGI
-    - [mod_cgi](https://httpd.apache.org/docs/current/mod/mod_cgi.html) - CGI スクリプトの実行のためのモジュールです
-    - [CGI.pm](https://metacpan.org/pod/CGI) - Common Gateway Interface のリクエストとレスポンスを扱うためのモジュールです
-  - Fast CGI
-    - [mod_fcgid](https://httpd.apache.org/mod_fcgid/) - mod_cgi や mod_cgid に代わる高性能な選択肢です
-    - [FCGI.pm](https://metacpan.org/pod/FCGI) - FastCGI アプリケーションのためのモジュールです
+  - [Sinatra](https://sinatrarb.com/) - 最小限の手間で Ruby のウェブアプリケーションを素早く作成するための DSL です
+  - バックグラウンドジョブとファイル添付
+    - 🔒 [Sidekiq](https://sidekiq.org/) - Ruby 向けのシンプルで効率的なバックグラウンド処理ツールです
+    - [Shrine](https://shrinerb.com/) - Ruby アプリケーションのためのファイル添付ツールキットです
 - Java バックエンドフレームワーク
   - [Jakarta EE](https://jakarta.ee/) - エンタープライズソフトウェア開発のための Java API を定義する仕様の集合です
-    - [Apache Tomcat](https://tomcat.apache.org/) - オープンソースのウェブサーバーおよびサーブレットコンテナです
   - [Spring](https://spring.io/) - Java をシンプルでモダン、生産的、リアクティブ、そしてクラウド対応にするプロジェクトです
     - [Spring Boot](https://spring.io/projects/spring-boot) - Spring プラットフォームとサードパーティライブラリに対して見解を示すことで、最小限の手間で開発を始められるようにするツールです
   - [Quarkus](https://quarkus.io/) - 高速かつ効率的なクラウドネイティブアプリケーションを構築するための Java フレームワークで、Kubernetes ネイティブであり、JVM とネイティブ実行ファイルの両方のデプロイをサポートします
@@ -293,8 +295,6 @@
   - [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) - .NET と C# を使ってウェブアプリケーションやサービスを構築するための、無料でクロスプラットフォームなオープンソースフレームワークです
 - Elixir バックエンドフレームワーク
   - [Phoenix](https://www.phoenixframework.org/) - より少ないコードと少ない可動部分で、リッチでインタラクティブなウェブアプリケーションを素早く構築でき、API や HTML5 アプリなどを大規模に作り上げるために使われるウェブフレームワークです
-- GraphQL サーバー
-  - [Apollo Server](https://www.apollographql.com/docs/apollo-server) - あらゆる GraphQL クライアントと互換性のある、オープンソースで仕様に準拠した GraphQL サーバーです
 
 ## ウェブインフラストラクチャ
 
@@ -345,16 +345,18 @@
   - 🪙 [Netlify Edge Functions](https://docs.netlify.com/build/edge-functions/overview/) - プラットフォームとワークフローをネットワークエッジのオープンなランタイム標準と結び付け、高速でパーソナライズされたウェブ体験を構築する機能です
 - 画像 CDN
   - 🪙 [Netlify Image CDN](https://docs.netlify.com/build/image-cdn/overview/) - ビルド時間に影響を与えずにオンデマンドで画像を変換し、リクエスト元のクライアントに最も効率的な画像フォーマットをネゴシエートするサービスです
-- JAMstack ホスティング
-  - 🪙 [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - GitLab のリポジトリから静的ウェブサイトを直接公開できるようにする機能です
-  - 🪙 [GitHub Pages](https://pages.github.com/) - あなたとあなたのプロジェクトのウェブサイトを GitHub リポジトリから直接ホスティングするサービスです
-  - 🪙 [Cloudflare Pages](https://pages.cloudflare.com/) - フロントエンド開発者が共同作業しながらウェブサイトをデプロイできる JAMstack プラットフォームで、新規プロジェクトには Cloudflare が Workers を推奨しています
-  - 🪙 [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) - HTML、CSS、画像などの静的ファイルを Worker の一部としてアップロード・配信する機能で、グローバルネットワーク全体で自動的にキャッシュ・配信されます
-  - 🪙 [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) - ソースコードからグローバルな高可用性まで、フルスタック開発を効率化するサービスです
-  - 🪙 [AWS Amplify Hosting](https://aws.amazon.com/amplify/hosting/) - サーバーサイドレンダリングアプリ、静的アプリ、SPA を素早くデプロイできる、モダンなウェブアプリ向けのスケーラブルで安全かつ信頼性の高いホスティングサービスです
-  - 🪙 [Firebase Hosting](https://firebase.google.com/products/hosting) - 静的サイトやシングルページウェブアプリ向けに最適化され、グローバル CDN を使って数秒でデプロイできる、高速で安全な静的ウェブサイトホスティングです
-  - 🪙 [Vercel Deployments](https://vercel.com/docs/deployments) - Git、Vercel CLI、Vercel Drop、デプロイフック、REST API から作成できる、プロジェクトのビルド成功の結果で、ライブ環境で変更をプレビューするための一意の URL が付与されます
-  - 🪙 [Netlify Deploys](https://docs.netlify.com/deploy/create-deploys/) - Netlify のインフラでビルドされ URL が付与されるサイトやアプリの新しいバージョンで、プレビュー版、またはプライマリドメインで公開する本番版としてデプロイできます
+
+### 静的サイトホスティング
+
+- 🪙 [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) - GitLab のリポジトリから静的ウェブサイトを直接公開できるようにする機能です
+- 🪙 [GitHub Pages](https://pages.github.com/) - あなたとあなたのプロジェクトのウェブサイトを GitHub リポジトリから直接ホスティングするサービスです
+- 🪙 [Cloudflare Pages](https://pages.cloudflare.com/) - フロントエンド開発者が共同作業しながらウェブサイトをデプロイできる JAMstack プラットフォームで、新規プロジェクトには Cloudflare が Workers を推奨しています
+- 🪙 [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) - HTML、CSS、画像などの静的ファイルを Worker の一部としてアップロード・配信する機能で、グローバルネットワーク全体で自動的にキャッシュ・配信されます
+- 🪙 [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) - ソースコードからグローバルな高可用性まで、フルスタック開発を効率化するサービスです
+- 🪙 [AWS Amplify Hosting](https://aws.amazon.com/amplify/hosting/) - サーバーサイドレンダリングアプリ、静的アプリ、SPA を素早くデプロイできる、モダンなウェブアプリ向けのスケーラブルで安全かつ信頼性の高いホスティングサービスです
+- 🪙 [Firebase Hosting](https://firebase.google.com/products/hosting) - 静的サイトやシングルページウェブアプリ向けに最適化され、グローバル CDN を使って数秒でデプロイできる、高速で安全な静的ウェブサイトホスティングです
+- 🪙 [Vercel Deployments](https://vercel.com/docs/deployments) - Git、Vercel CLI、Vercel Drop、デプロイフック、REST API から作成できる、プロジェクトのビルド成功の結果で、ライブ環境で変更をプレビューするための一意の URL が付与されます
+- 🪙 [Netlify Deploys](https://docs.netlify.com/deploy/create-deploys/) - Netlify のインフラでビルドされ URL が付与されるサイトやアプリの新しいバージョンで、プレビュー版、またはプライマリドメインで公開する本番版としてデプロイできます
 
 ## 分散型ウェブ
 
@@ -366,41 +368,47 @@
 
 ### ブロックチェーン技術
 
-- [Web3](https://en.wikipedia.org/wiki/Web3) - 分散化、ブロックチェーン技術、トークンベースの経済などの概念を組み込んだ、World Wide Web の新しいイテレーションに関する構想です
-- [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - 増え続けるレコードのリストを持つ分散型台帳です
-  - [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - 迷惑メールやサービス拒否攻撃を制限するために使われるプルーフオブワークシステムです
-  - [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - ある当事者が特定の計算作業を一定量費やしたことを他者に証明する、暗号学的な証明の一形態です
-- [Smart contract](https://en.wikipedia.org/wiki/Smart_contract) - 契約条件に従ってイベントやアクションを自動的に実行、制御、記録するように設計されたコンピュータプログラムまたはトランザクションプロトコルです
-- [Bitcoin](https://bitcoin.org/) - ピアツーピアの bitcoin ネットワーク上で送金できる分散型のデジタル通貨です
-- [Ethereum](https://ethereum.org/) - 中央の権威による許可を必要とせずに、デジタル資産、データ、アイデンティティを直接所有できるようにするグローバルな分散型ネットワークです
-- [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - ブロックチェーンに記録され、所有権と真正性を証明するために使われる一意のデジタル識別子です
-- [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - 中央集権的な指導者を持たず、投票や資金管理をブロックチェーン上で処理する分散型のコンピュータプログラムによって運営される、メンバー所有のコミュニティです
-- [Solidity](https://en.wikipedia.org/wiki/Solidity) - Ethereum をはじめとするさまざまなブロックチェーンプラットフォーム上でスマートコントラクトを実装するためのプログラミング言語です
-- [viem](https://viem.sh/) - 軽量で組み合わせ可能、型安全なモジュールによって、信頼性の高い Ethereum アプリやライブラリを構築するためのライブラリです
-- [ethers.js](https://ethers.org/) - Ethereum に関するあらゆるニーズに応える、シンプルでコンパクト、かつ完成度の高い JavaScript ライブラリです
-- [MetaMask](https://metamask.io/) - ユーザーが自分のデータや資産を管理し続けながら暗号資産の購入、売却、交換、保管を行えるようにする暗号資産ウォレットです
-- [WalletConnect](https://walletconnect.com/) - モバイルの暗号資産ウォレットとデスクトップベースの分散型アプリケーションの間に暗号化された接続を確立するオープンソースプロトコルです
-- [Hardhat](https://hardhat.org/) - Ethereum や EVM 互換ブロックチェーンのための開発環境で、開発者が Solidity のスマートコントラクトをコンパイル、デプロイ、テスト、デバッグするのを助けます
+- ブロックチェーンの概念
+  - [Web3](https://en.wikipedia.org/wiki/Web3) - 分散化、ブロックチェーン技術、トークンベースの経済などの概念を組み込んだ、World Wide Web の新しいイテレーションに関する構想です
+  - [Blockchain](https://en.wikipedia.org/wiki/Blockchain) - 増え続けるレコードのリストを持つ分散型台帳です
+    - [Hashcash](https://en.wikipedia.org/wiki/Hashcash) - 迷惑メールやサービス拒否攻撃を制限するために使われるプルーフオブワークシステムです
+    - [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work) - ある当事者が特定の計算作業を一定量費やしたことを他者に証明する、暗号学的な証明の一形態です
+  - [Smart contract](https://en.wikipedia.org/wiki/Smart_contract) - 契約条件に従ってイベントやアクションを自動的に実行、制御、記録するように設計されたコンピュータプログラムまたはトランザクションプロトコルです
+  - [Non-fungible token](https://en.wikipedia.org/wiki/Non-fungible_token) - ブロックチェーンに記録され、所有権と真正性を証明するために使われる一意のデジタル識別子です
+  - [Decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) - 中央集権的な指導者を持たず、投票や資金管理をブロックチェーン上で処理する分散型のコンピュータプログラムによって運営される、メンバー所有のコミュニティです
+- ブロックチェーンネットワーク
+  - [Bitcoin](https://bitcoin.org/) - ピアツーピアの bitcoin ネットワーク上で送金できる分散型のデジタル通貨です
+  - [Ethereum](https://ethereum.org/) - 中央の権威による許可を必要とせずに、デジタル資産、データ、アイデンティティを直接所有できるようにするグローバルな分散型ネットワークです
+- スマートコントラクト開発
+  - [Solidity](https://en.wikipedia.org/wiki/Solidity) - Ethereum をはじめとするさまざまなブロックチェーンプラットフォーム上でスマートコントラクトを実装するためのプログラミング言語です
+  - [Hardhat](https://hardhat.org/) - Ethereum や EVM 互換ブロックチェーンのための開発環境で、開発者が Solidity のスマートコントラクトをコンパイル、デプロイ、テスト、デバッグするのを助けます
+  - [viem](https://viem.sh/) - 軽量で組み合わせ可能、型安全なモジュールによって、信頼性の高い Ethereum アプリやライブラリを構築するためのライブラリです
+  - [ethers.js](https://ethers.org/) - Ethereum に関するあらゆるニーズに応える、シンプルでコンパクト、かつ完成度の高い JavaScript ライブラリです
+- 暗号資産ウォレット
+  - [MetaMask](https://metamask.io/) - ユーザーが自分のデータや資産を管理し続けながら暗号資産の購入、売却、交換、保管を行えるようにする暗号資産ウォレットです
+  - [WalletConnect](https://walletconnect.com/) - モバイルの暗号資産ウォレットとデスクトップベースの分散型アプリケーションの間に暗号化された接続を確立するオープンソースプロトコルです
 
 ### 分散型ソーシャル
 
-- [ActivityPub](https://activitypub.rocks/) - ActivityStreams 2.0 のデータフォーマットに基づく分散型ソーシャルネットワーキングプロトコルです
-- [AT Protocol](https://atproto.com/) - ユーザーが自分のアイデンティティを所有し、コンテンツが相互にリンクした JSON レコードとして表現される、ソーシャルアプリケーション構築のためのオープンなデータネットワークです
-- [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - ウェブ公開やファイルホスティングに使われつつ、互いに通信できる相互接続されたサーバー群の集合です
-- [Mastodon](https://joinmastodon.org/) - アルゴリズムや広告に頼ることなくユーザーが自分のフィードを管理でき、独立したサーバー同士が ActivityPub プロトコルを通じて相互運用できるようにする、無料でオープンソースの分散型ソーシャルメディアプラットフォームです
-- [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - アメリカに拠点を置くマイクロブログ型ソーシャルメディアサービスであり、公益法人でもあります
-- [Nostr](https://nostr.com/) - 暗号署名を用いることで、リレーと呼ばれる複数の独立したサーバーにまたがる検閲耐性のある通信を可能にする、オープンな分散型ソーシャルプロトコルです
-- [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) - 異なるサービスプロバイダー間でシームレスな通信を可能にする、リアルタイム通信のためのオープン標準かつ通信プロトコルです
-- [PeerTube](https://joinpeertube.org/) - 独立した動画ホスティングプラットフォームを作成できる無料でオープンソースのツールで、それらが接続して分散型ネットワークを形成し、中央集権的なサービスに代わる選択肢を提供します
-- [Lemmy](https://join-lemmy.org/) - 企業による追跡や広告に頼ることなく、ユーザーが自分の体験をコントロールできるようにする分散型ディスカッションプラットフォームです
-- [Diaspora](https://diasporafoundation.org/) - pod と呼ばれる独立して所有されたノードが相互運用してネットワークを形成する、非営利でユーザー所有の分散型ソーシャルネットワークです
-- [Secure Scuttlebutt](https://scuttlebutt.nz/) - 企業によるデータ収集から解放された、地域コミュニティの発展を可能にする分散型ソーシャルネットワークプラットフォームです
+- 分散型ソーシャルプロトコル
+  - [ActivityPub](https://activitypub.rocks/) - ActivityStreams 2.0 のデータフォーマットに基づく分散型ソーシャルネットワーキングプロトコルです
+  - [AT Protocol](https://atproto.com/) - ユーザーが自分のアイデンティティを所有し、コンテンツが相互にリンクした JSON レコードとして表現される、ソーシャルアプリケーション構築のためのオープンなデータネットワークです
+  - [Nostr](https://nostr.com/) - 暗号署名を用いることで、リレーと呼ばれる複数の独立したサーバーにまたがる検閲耐性のある通信を可能にする、オープンな分散型ソーシャルプロトコルです
+  - [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) - 異なるサービスプロバイダー間でシームレスな通信を可能にする、リアルタイム通信のためのオープン標準かつ通信プロトコルです
+  - [Secure Scuttlebutt](https://scuttlebutt.nz/) - 企業によるデータ収集から解放された、地域コミュニティの発展を可能にする分散型ソーシャルネットワークプラットフォームです
+- ソーシャルネットワークとプラットフォーム
+  - [Fediverse](https://en.wikipedia.org/wiki/Fediverse) - ウェブ公開やファイルホスティングに使われつつ、互いに通信できる相互接続されたサーバー群の集合です
+  - [Mastodon](https://joinmastodon.org/) - アルゴリズムや広告に頼ることなくユーザーが自分のフィードを管理でき、独立したサーバー同士が ActivityPub プロトコルを通じて相互運用できるようにする、無料でオープンソースの分散型ソーシャルメディアプラットフォームです
+  - [Bluesky](https://en.wikipedia.org/wiki/Bluesky) - アメリカに拠点を置くマイクロブログ型ソーシャルメディアサービスであり、公益法人でもあります
+  - [PeerTube](https://joinpeertube.org/) - 独立した動画ホスティングプラットフォームを作成できる無料でオープンソースのツールで、それらが接続して分散型ネットワークを形成し、中央集権的なサービスに代わる選択肢を提供します
+  - [Lemmy](https://join-lemmy.org/) - 企業による追跡や広告に頼ることなく、ユーザーが自分の体験をコントロールできるようにする分散型ディスカッションプラットフォームです
+  - [Diaspora](https://diasporafoundation.org/) - pod と呼ばれる独立して所有されたノードが相互運用してネットワークを形成する、非営利でユーザー所有の分散型ソーシャルネットワークです
 
 ## 開発・テストツール
 
 :::note[Relevant DSS-P Skills]
 
-- 3\. テクノロジー > 3\.1 ソフトウェア開発 > コンピュータサイエンス
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > Webアプリケーション基本技術
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > チーム開発
 
 :::
@@ -419,11 +427,9 @@
   - [JS Axios](https://axios-http.com/) - Node.js とブラウザのための Promise ベースの HTTP クライアントです
   - [Go Resty](https://github.com/go-resty/resty) - Go のためのシンプルな HTTP/REST クライアントライブラリです
   - [Go FastHTTP](https://github.com/valyala/fasthttp) - Go のための高速な HTTP パッケージです
-  - [Surf](https://github.com/enetx/surf) - Chrome/Firefox ブラウザのなりすまし、QUIC フィンガープリンティングを伴う HTTP/3、JA3/JA4 の TLS エミュレーション、アンチボット回避機能を備えた、高度な Go 製 HTTP クライアントです
   - [Typhoeus](https://github.com/typhoeus/typhoeus) - libcurl をラップして高速かつ信頼性の高いリクエストを行うためのライブラリです
   - [Ruby Net](https://docs.ruby-lang.org/en/master/Net.html) - クライアント側のインターネットプロトコルを実装するクラス群です
   - [httpx](https://gitlab.com/os85/httpx) - Ruby 言語のための HTTP クライアントライブラリです
-  - [wreq-ruby](https://github.com/SearchApi/wreq-ruby) - 精緻な TLS/HTTP2 シグネチャでさまざまなブラウザを正確にエミュレートする高度なブラウザフィンガープリンティングを備えた、簡単かつ強力な Ruby HTTP クライアントです
   - [Rust reqwest](https://docs.rs/reqwest/latest/reqwest/) - 扱いやすい非同期 HTTP クライアントです
 - GraphQL クライアント
   - [URQL](https://commerce.nearform.com/open-source/urql/) - React、Svelte、Vue、あるいは素の JavaScript 向けの、高度にカスタマイズ可能で汎用性の高い GraphQL クライアントです
@@ -446,8 +452,7 @@
   - [mitmproxy](https://mitmproxy.org/) - デバッグ、テスト、ペネトレーションテストの目的でウェブトラフィックを傍受、検査、変更、再生できる、無料でオープンソースのインタラクティブな HTTPS プロキシです
   - 🪙 [Requestly](https://requestly.com/) - 開発者がデバッグやテストのために URL やヘッダー、API レスポンスをリアルタイムで変更できるようにする HTTP インターセプターです
   - [httptap](https://github.com/monasticacademy/httptap) - 任意の Linux プログラムが行う HTTP および HTTPS リクエストを可視化するツールです
-- サイト監査と分析
-  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - パフォーマンス、アクセシビリティ、SEO、ベストプラクティスを監査することでウェブページの品質向上を助ける、オープンソースの自動化ツールです
+- 技術プロファイリング
   - 🪙 [Wappalyzer](https://www.wappalyzer.com/) - ウェブサイトが何で構築されているかを示すテクノロジープロファイラーです
 
 ### ウェブテスト自動化フレームワーク
@@ -457,18 +462,35 @@
   - [Playwright](https://playwright.dev/) - Chromium、Firefox、WebKit に対して単一の API でモダンなウェブアプリの信頼性の高いエンドツーエンドテストを行うためのフレームワークです
     - [Playwright for Go](https://playwright-community.github.io/playwright-go/) - 単一の API で Chromium、Firefox、WebKit を自動化する Go ライブラリです
   - 🪙 [Cypress](https://www.cypress.io/) - モダンなウェブアプリケーションに対して、ブラウザ内で直接エンドツーエンドテストやコンポーネントテストを記述、実行、デバッグできるようにする、オープンソースの JavaScript ベースのテストフレームワークです
-  - [WebDriver](https://www.w3.org/TR/webdriver2/) - ユーザーエージェントの内部調査と制御を可能にする、遠隔操作インターフェースです
-    - [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - ローカルまたはリモートのマシン上で、ユーザーがするようにブラウザをネイティブに操作するツールです
-    - [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - 双方向 WebDriver プロトコルのことで、ユーザーエージェントを遠隔操作するための仕組みです
   - [Selenium IDE](https://www.selenium.dev/selenium-ide/) - ウェブのためのオープンソースの記録・再生型テスト自動化ツールです
-  - [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - 外部ツールが Chromium ベースのブラウザを計測、検査、デバッグ、プロファイリングできるようにする低レベル API です
+  - ブラウザ自動化プロトコル
+    - [WebDriver](https://www.w3.org/TR/webdriver2/) - ユーザーエージェントの内部調査と制御を可能にする、遠隔操作インターフェースです
+      - [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) - ローカルまたはリモートのマシン上で、ユーザーがするようにブラウザをネイティブに操作するツールです
+      - [WebDriver BiDi](https://www.w3.org/TR/webdriver-bidi/) - 双方向 WebDriver プロトコルのことで、ユーザーエージェントを遠隔操作するための仕組みです
+    - [Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/) - 外部ツールが Chromium ベースのブラウザを計測、検査、デバッグ、プロファイリングできるようにする低レベル API です
   - [Web Test Runner](https://modern-web.dev/docs/test-runner/overview/) - ヘッドレスブラウザ対応、モジュールのモック、並列実行を備え、実際のブラウザでテストを実行するウェブアプリケーション向けのテストランナーです
   - サポートツール
     - [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) - ウェブアプリのテストや自動化のユースケースを特に対象とした、新しいタイプの Chrome です
-- アクセシビリティテスト
-  - [axe-core](https://www.deque.com/axe/) - ウェブサイトやその他の HTML ベースのユーザーインターフェースのためのアクセシビリティテストエンジンです
 - AI 活用のウェブ自動化
   - [browser-use](https://docs.browser-use.com/) - AI エージェントが自然言語を使ってウェブブラウザとやり取りできるようにする、オープンソースの Python ライブラリです
+
+### ウェブパフォーマンス、アクセシビリティ、SEO
+
+- サイト監査
+  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - パフォーマンス、アクセシビリティ、SEO、ベストプラクティスを監査することでウェブページの品質向上を助ける、オープンソースの自動化ツールです
+- ウェブパフォーマンスの概念
+  - [DNS Prefetching](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/dns-prefetch) - ユーザーがリンクをたどろうとする前にドメイン名を解決しておく仕組みです
+  - [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - すべての Web ページに適用され、すべてのサイト所有者が測定すべきであり、すべての Google ツールで表示される、Web Vitals のサブセットです
+    - Largest Contentful Paint (LCP)
+    - Interaction to Next Paint (INP)
+    - Cumulative Layout Shift (CLS)
+- アクセシビリティ標準
+  - [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - 開発者が HTML ページのアクセシビリティツリーを変更 (そして将来的には探索) できるようにする JavaScript API です
+  - [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - Accessible Rich Internet Applications と呼ばれる Web 標準のスイートです
+- アクセシビリティテスト
+  - [axe-core](https://github.com/dequelabs/axe-core) - ウェブサイトやその他の HTML ベースのユーザーインターフェースのためのアクセシビリティテストエンジンです
+- クローラーとインデックスの制御
+  - [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) - ウェブサイトを訪問するウェブクローラーやその他のウェブロボットに対して、サイトのどの部分へのアクセスが許可されているかを示すために用いられる標準です
 
 ### ウェブスクレイピングとクローリング
 
@@ -479,6 +501,9 @@
   - [Colly](https://go-colly.org/) - ウェブスクレイパーを構築するための Golang フレームワークです
   - [Katana](https://github.com/projectdiscovery/katana) - 次世代のクローリングおよびスパイダリングフレームワークです
   - [Trafilatura](https://trafilatura.readthedocs.io/en/latest/) - ウェブ上のテキストを収集するための Python パッケージおよびコマンドラインツールです
+- ブラウザ偽装 HTTP クライアント
+  - [Surf](https://github.com/enetx/surf) - Chrome/Firefox ブラウザのなりすまし、QUIC フィンガープリンティングを伴う HTTP/3、JA3/JA4 の TLS エミュレーション、アンチボット回避機能を備えた、高度な Go 製 HTTP クライアントです
+  - [wreq-ruby](https://github.com/SearchApi/wreq-ruby) - 精緻な TLS/HTTP2 シグネチャでさまざまなブラウザを正確にエミュレートする高度なブラウザフィンガープリンティングを備えた、簡単かつ強力な Ruby HTTP クライアントです
 - クラシックなウェブオートメーション
   - [Mechanize](https://metacpan.org/pod/WWW::Mechanize) - ウェブサイトとのやり取りを自動化するのに役立つモジュールです
   - [Mechanize (Ruby)](https://github.com/sparklemotion/mechanize) - 自動化されたウェブ操作を簡単にする Ruby ライブラリです

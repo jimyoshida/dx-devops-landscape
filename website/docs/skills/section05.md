@@ -587,6 +587,13 @@
     - [Lakehouse vs Data Warehouse](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-lakehouse-warehouse) - A guide for choosing between a lakehouse and a data warehouse based on data volume, structure, and processing requirements
   - 💲 [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/) - An enterprise analytics service that accelerates time to insight across data warehouses and big data systems
   - 🪙 [Google Cloud BigQuery](https://cloud.google.com/bigquery) - A fully managed, AI-ready data analytics platform that helps you maximize value from your data and is designed to be multi-engine, multi-format, and multi-cloud
+- Business Intelligence Platforms
+  - 💲 [Tableau](https://www.tableau.com/) - The visual analytics platform that helps people see, understand, and act on data to solve problems
+  - 🔒 [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
+  - 💲 [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
+    - [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
+  - 🪙 [Looker Studio](https://cloud.google.com/looker-studio) - A business intelligence and data visualization platform, formerly known as Google Data Studio, that turns your data into customizable, informative reports and dashboards
+  - 💲 [Exploratory Desktop](https://exploratory.io/) - A Simple and Easy-to-Use UI experience to access various data sources, clean and transform data, visualize and analyze data
   - 💲 [Amazon QuickSight](https://aws.amazon.com/quicksight/) - An AI-powered business intelligence service that enables users to analyze data, create visualizations, and gain insights from various enterprise data sources
 
 ### Semantic Layer

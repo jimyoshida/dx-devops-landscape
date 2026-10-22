@@ -210,6 +210,7 @@
   - [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - A declaration emphasizing the importance of well-crafted software, continuous value addition, professional community, and productive partnerships in software development
 - Feedback Models
   - [DESC feedback model](https://workmotion.com/academy-post/the-desc-feedback-model/) - A communication tool for providing constructive feedback by describing the behavior, expressing the impact, specifying the desired change, and explaining the consequences
+  - [Rubric](https://en.wikipedia.org/wiki/Rubric_(academic)) - A scoring tool used to evaluate the quality of responses
 
 ### Organizational Behavior
 

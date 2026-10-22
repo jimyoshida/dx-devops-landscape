@@ -292,6 +292,7 @@
   - [Go OpenAI](https://github.com/sashabaranov/go-openai) - The Go client libraries for OpenAI API
   - [Google Gen AI SDK](https://github.com/googleapis/python-genai) - The Python SDK for Google's generative AI models
   - [Instructor](https://python.useinstructor.com/) - A Python library designed to extract structured, validated data from Large Language Models (LLMs)
+  - [LangExtract](https://github.com/google/langextract) - A Python library for extracting structured information from unstructured text using LLMs, with source grounding and interactive visualization
   - [OmniAI](https://github.com/ksylvest/omniai) - A minimalist library for interfacing with LLMs
   - [Outlines](https://dottxt-ai.github.io/outlines/latest/) - A library that guarantees structured outputs during generation directly from any large language model by enforcing compliance with JSON Schema, regular expressions, or context-free grammars
   - [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - A Ruby wrapper for the OpenAI API
@@ -374,7 +375,7 @@
 ### Agent Development Kits (ADK)
 
 - [Agent Package Manager (APM)](https://microsoft.github.io/apm/) - An open-source dependency manager for AI agents that provides a single source of truth for skills, prompts, and instructions
-- [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - A flexible and modular framework for developing and deploying AI agents
+- [Agent Development Kit (ADK)](https://adk.dev/) - A flexible and modular framework for developing and deploying AI agents
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - The Agent SDK gives you the same tools, agent loop, and context management that power Claude Code, programmable in Python and TypeScript
 - [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - The modular capabilities that extend an agent's functionality by packaging instructions, metadata, and optional resources
 - [Fantasy](https://github.com/charmbracelet/fantasy) - A Go library for building AI agents with multiple providers and models through a single API
@@ -390,6 +391,14 @@
   - [AX](https://agentexecutor.io/) - A command-line tool and runtime that sandboxes agentic tasks, wires up their workspaces, fences their network, and runs a large number of them per cluster
 - Interoperability
   - [FastMCP](https://github.com/jlowin/fastmcp) - A Pythonic framework for building Model Context Protocol (MCP) servers and clients
+- Agent Skills Registries
+  - [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
+  - [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
+  - [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
+- MCP (Model Context Protocol) Registries
+  - [Official MCP Registry](https://registry.modelcontextprotocol.io/) - A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
+  - [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
+  - [Claude Plugins](https://claude.com/plugins) - A directory that bundles tools, skills, and integrations for one-click installation
 - Pre-built Agents & Collections
   - [agency-agents](https://github.com/msitarzewski/agency-agents) - A growing collection of meticulously crafted AI agent personalities designed to act as specialized experts with unique voices, proven workflows, and measurable deliverables
 - Memory Systems

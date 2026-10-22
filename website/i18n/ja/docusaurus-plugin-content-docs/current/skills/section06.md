@@ -292,6 +292,7 @@
   - [Go OpenAI](https://github.com/sashabaranov/go-openai) - OpenAI API の Go クライアントライブラリです
   - [Google Gen AI SDK](https://github.com/googleapis/python-genai) - Google の生成 AI モデル用の Python SDK です
   - [Instructor](https://python.useinstructor.com/) - 大規模言語モデル(LLM)から構造化された検証済みデータを抽出するために設計された Python ライブラリです
+  - [LangExtract](https://github.com/google/langextract) - ソースグラウンディングとインタラクティブな可視化を備えた、LLM を使用して非構造化テキストから構造化情報を抽出するための Python ライブラリです
   - [OmniAI](https://github.com/ksylvest/omniai) - LLM とのインターフェイスのための最小限のライブラリです
   - [Outlines](https://dottxt-ai.github.io/outlines/latest/) - JSON スキーマ、正規表現、またはコンテキストフリー文法への準拠を強制することにより、任意の大規模言語モデルからの生成中に構造化出力を保証するライブラリです
   - [Ruby OpenAI](https://github.com/alexrudall/ruby-openai) - OpenAI API 用の Ruby ラッパーです
@@ -374,7 +375,7 @@
 ### エージェント開発キット (ADK)
 
 - [Agent Package Manager (APM)](https://microsoft.github.io/apm/) - スキル、プロンプト、および指示の単一の情報源を提供する AI エージェント向けのオープンソース依存関係マネージャーです
-- [Agent Development Kit (ADK)](https://google.github.io/adk-docs/) - AI エージェント開発とデプロイメント向けの柔軟でモジュラーなフレームワークです
+- [Agent Development Kit (ADK)](https://adk.dev/) - AI エージェント開発とデプロイメント向けの柔軟でモジュラーなフレームワークです
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - Claude Code を強力にするのと同じツール、エージェントループ、コンテキスト管理を提供する Agent SDK で、Python と TypeScript でプログラム可能です
 - [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - 命令、メタデータ、およびオプションのリソースをパッケージ化することで、エージェントの機能を拡張するモジュラー機能です
 - [Fantasy](https://github.com/charmbracelet/fantasy) - 単一の API を通じて複数のプロバイダーとモデルで AI エージェントを構築するための Go ライブラリです
@@ -390,6 +391,14 @@
   - [AX](https://agentexecutor.io/) - エージェントタスクをサンドボックス化し、ワークスペースを構成し、ネットワークを制限したうえで、クラスターあたり多数のタスクを実行するコマンドラインツール兼ランタイムです
 - 相互運用性
   - [FastMCP](https://github.com/jlowin/fastmcp) - Model Context Protocol(MCP)サーバーとクライアントをビルドするための Python フレームワークです
+- エージェントスキルレジストリ
+  - [The Agent Skills Directory](https://skills.sh/) - AI エージェント向けの再利用可能な機能を提供する、オープンなエージェントスキルエコシステムです
+  - [Anthropic Agent Skills](https://github.com/anthropics/skills) - 専門的なタスクと再現可能なワークフローを可能にする指示、スクリプト、リソースを含む、Claude 向けの Anthropic のスキル実装を収めた公開リポジトリです
+  - [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - オープンな SKILL.md 標準に基づき、モジュール化された AI エージェント機能の発見と共有のために設計された、コミュニティ主導のマーケットプレイスです
+- MCP (Model Context Protocol) レジストリ
+  - [Official MCP Registry](https://registry.modelcontextprotocol.io/) - Model Context Protocol organization によって保守される、公式のリファレンス MCP サーバー実装のコレクションです
+  - [MCP Registry](https://mcp-registry.org/) - 公開されている MCP サーバーの検索可能な Web ディレクトリです
+  - [Claude Plugins](https://claude.com/plugins) - ワンクリックインストールのために、ツール、スキル、統合をバンドルするディレクトリです
 - 事前構築済みエージェント & コレクション
   - [agency-agents](https://github.com/msitarzewski/agency-agents) - ユニークな音声、証明されたワークフロー、測定可能な成果物を持つ特殊な専門家として機能するように設計された、精密に作成された AI エージェント個性の成長するコレクションです
 - メモリシステム

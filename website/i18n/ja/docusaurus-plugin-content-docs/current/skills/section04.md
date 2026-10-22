@@ -12,23 +12,31 @@
 - [Information security](https://en.wikipedia.org/wiki/Information_security) - 情報リスクを軽減することで情報を保護する実践です
 - [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - 脅威アクターに悪用され得る弱点です
 - [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security)) - 脆弱性によって助長される潜在的な悪意ある行為やイベントです
+
+### セキュリティモデルとアーキテクチャ
+
+- [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - 信頼が暗黙的に付与されることは決してなく、すべての人に検証が要求される IT システムの設計・実装へのアプローチです
 - [Shared Responsibility Model](https://www.crowdstrike.com/en-us/cybersecurity-101/cloud-security/shared-responsibility/) - クラウド環境のあらゆる側面を保護するためのクラウドサービスプロバイダー (CSP) と顧客の責任を明示するセキュリティ・コンプライアンスフレームワークです
+- [The 4 Cs of Cloud-Native Systems](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code) - クラウドネイティブアプリケーションに多層的な保護を提供するために、セキュリティ戦略を 4 つの層に分割する多層防御アプローチです
 
 ### 一般的な脅威と攻撃ベクトル
 
-- [Malware](https://en.wikipedia.org/wiki/Malware) - コンピュータ、サーバー、クライアント、コンピュータネットワークに意図的に混乱を引き起こすよう設計されたあらゆるソフトウェアです
-- [Ransomware](https://en.wikipedia.org/wiki/Ransomware) - 身代金が支払われない限り被害者の個人データを公開する、またはそのアクセスを永久にブロックすると脅迫する、暗号ウイルス学に由来するマルウェアの一種です
-- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) - 人々を心理的に操作し、行動を実行させたり機密情報を漏らさせたりすることです
-- [Phishing](https://en.wikipedia.org/wiki/Phishing) - 攻撃者が機密情報を明かすよう人を騙すために設計された詐欺メッセージを送るソーシャルエンジニアリングの一種です
-- [Business Email Compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - 攻撃者が高位の経営幹部になりすまし、従業員や顧客を騙して送金や機密データの引き渡しをさせようとするフィッシング攻撃の一種です
-- [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - システムから情報を収集するよう設計されたトロイの木馬の一種です
-- [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - Linux を実行するネットワーク接続デバイスを、大規模ネットワーク攻撃でボットネットの一部として使用できる遠隔操作可能なボットに変えるマルウェアです
-- [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - 対象者が軽微な技術的問題を解決しようとする傾向を利用して、デバイス上で悪意あるコマンドを実行させるよう騙すソーシャルエンジニアリング技術です
-- [Evilginx](https://github.com/kgretzky/evilginx2) - ログイン認証情報とセッションクッキーをフィッシングするために使用される中間者攻撃フレームワークです
-
-### 現代のセキュリティアーキテクチャ
-
-- [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - 信頼が暗黙的に付与されることは決してなく、すべての人に検証が要求される IT システムの設計・実装へのアプローチです
+- マルウェア
+  - [Malware](https://en.wikipedia.org/wiki/Malware) - コンピュータ、サーバー、クライアント、コンピュータネットワークに意図的に混乱を引き起こすよう設計されたあらゆるソフトウェアです
+  - [Ransomware](https://en.wikipedia.org/wiki/Ransomware) - 身代金が支払われない限り被害者の個人データを公開する、またはそのアクセスを永久にブロックすると脅迫する、暗号ウイルス学に由来するマルウェアの一種です
+  - [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - システムから情報を収集するよう設計されたトロイの木馬の一種です
+  - [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - Linux を実行するネットワーク接続デバイスを、大規模ネットワーク攻撃でボットネットの一部として使用できる遠隔操作可能なボットに変えるマルウェアです
+- ソーシャルエンジニアリング
+  - [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) - 人々を心理的に操作し、行動を実行させたり機密情報を漏らさせたりすることです
+  - [Phishing](https://en.wikipedia.org/wiki/Phishing) - 攻撃者が機密情報を明かすよう人を騙すために設計された詐欺メッセージを送るソーシャルエンジニアリングの一種です
+  - [Business Email Compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - 攻撃者が高位の経営幹部になりすまし、従業員や顧客を騙して送金や機密データの引き渡しをさせようとするフィッシング攻撃の一種です
+  - [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - 対象者が軽微な技術的問題を解決しようとする傾向を利用して、デバイス上で悪意あるコマンドを実行させるよう騙すソーシャルエンジニアリング技術です
+  - [Evilginx](https://github.com/kgretzky/evilginx2) - ログイン認証情報とセッションクッキーをフィッシングするために使用される中間者攻撃フレームワークです
+- 敵対者ナレッジベース
+  - [MITRE ATT&CK](https://attack.mitre.org/) - 敵対者の戦術と技術に関する世界中でアクセス可能なナレッジベースです
+    - Tactics: 敵対者が攻撃中に達成しようとする高レベルの目的や目標です
+    - Techniques: 敵対者が戦術的目標を達成するための具体的な方法や手段です
+    - Procedures: 敵対者が作戦で利用する技術の具体的な実装やバリエーションです
 
 ### セキュリティトレーニングとコンペティション
 
@@ -44,17 +52,16 @@
 
 :::
 
-### 中核となる暗号技術
-
-#### ハッシュ化
+### ハッシュ化と鍵導出
 
 - ハッシュ関数
   - [MD5](https://en.wikipedia.org/wiki/MD5) - 暗号学的には破られているものの、今なお広く使用されている 128 ビットのハッシュ値を生成するハッシュ関数です
   - [SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512)](https://en.wikipedia.org/wiki/SHA-2) - アメリカ国家安全保障局 (NSA) が設計した暗号学的ハッシュ関数群です
+- パスワードハッシュ化と鍵導出
   - [Bcrypt](https://en.wikipedia.org/wiki/Bcrypt) - Blowfish 暗号をベースとしたパスワードハッシュ関数です
   - [Scrypt](https://en.wikipedia.org/wiki/Scrypt) - Colin Percival が作成したパスワードベースの鍵導出関数です
 
-#### 共通鍵暗号
+### 共通鍵暗号
 
 - [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) - 平文の暗号化と暗号文の復号の両方に同一の暗号鍵を使用する暗号アルゴリズムです
 - ブロック暗号
@@ -68,12 +75,12 @@
   - [GCM (Galois/Counter Mode)](https://en.wikipedia.org/wiki/Galois/Counter_Mode) - その性能の高さから広く採用されている共通鍵ブロック暗号の運用モードです
   - [CCM](https://en.wikipedia.org/wiki/CCM_mode) - 認証と機密性の両方を提供するよう設計されたブロック暗号の運用モードです
 
-#### 公開鍵暗号
+### 公開鍵暗号
 
-- [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - デジタルメッセージや文書の真正性を検証するための数学的スキームです
 - [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) - 鍵のペアを使用する暗号システムです
   - [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) - セキュアなデータ伝送のために広く使用されている公開鍵暗号システムです
   - [EdDSA](https://en.wikipedia.org/wiki/EdDSA) - ツイストエドワーズ曲線に基づく Schnorr 署名の変種を用いたデジタル署名方式です
+- [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - デジタルメッセージや文書の真正性を検証するための数学的スキームです
 - 鍵合意
   - [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) - 公開チャネル上で暗号鍵を安全に交換する方法です
   - [Elliptic-curve Diffie-Hellman](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman) - 安全でないチャネル上で 2 者が共有秘密を確立できる鍵合意プロトコルです
@@ -84,35 +91,37 @@
   - [RSASSA-PKCS1-v1_5](https://en.wikipedia.org/wiki/PKCS_1) - PKCS #1 のバージョン 1.5 で初めて標準化された付録付き署名方式 (SSA) で、Jager 他 (2018 年) によれば偽造不可能であると考えられています
   - [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm) - デジタル署名のための公開鍵暗号システムであり連邦情報処理標準でもあり、モジュラー冪乗と離散対数問題という数学的概念に基づいています
   - [ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) - 楕円曲線暗号を利用した Digital Signature Algorithm (DSA) の変種です
-- 鍵フォーマット
+- 標準とフォーマット
   - [PKCS #1: RSA Cryptography Specifications](https://en.wikipedia.org/wiki/PKCS_1) - 公開鍵暗号のための RSA アルゴリズムの基本的な定義と実装に関する推奨事項を提供する標準です
   - [PKCS #12: Personal Information Exchange Syntax](https://en.wikipedia.org/wiki/PKCS_12) - 複数の暗号オブジェクトを 1 つのファイルに格納するためのファイル形式です
-- 暗号標準とフォーマット
   - [Cryptographic Message Syntax](https://en.wikipedia.org/wiki/Cryptographic_Message_Syntax) - あらゆる形式のデジタルデータをデジタル署名、ダイジェスト化、認証、暗号化するために暗号方式やプロトコルで使用される、暗号学的に保護されたメッセージのための IETF 標準です
+- [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - 量子コンピュータによる暗号解読攻撃に対して安全であると考えられている暗号アルゴリズムです
 
 ### 公開鍵基盤 (PKI)
 
 - [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure) - デジタル証明書の作成、管理、配布、使用、保管、失効に必要な役割、ポリシー、ハードウェア、ソフトウェア、手順の集合です
 - [Certificate authority (CA)](https://en.wikipedia.org/wiki/Certificate_authority) - デジタル証明書を保管、署名、発行するエンティティです
-- Registration authority (RA)
-- Validation authority (VA)
+- [Registration authority (RA)](https://en.wikipedia.org/wiki/Registration_authority) - デジタル証明書に対するユーザーの要求を検証し、認証局に発行を指示するネットワーク上の機関です
+- [Validation authority (VA)](https://en.wikipedia.org/wiki/Validation_authority) - X.509 標準に記載された仕組みに従ってデジタル証明書の有効性を検証するサービスを提供するエンティティです
+- [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate) - 公開鍵の有効性を証明するために使用される電子文書です
+  - [Domain Validated (DV)](https://en.wikipedia.org/wiki/Domain-validated_certificate) - DNS ドメインに対する何らかの管理権を証明することで申請者のドメイン名が検証される、主に Transport Layer Security に使用される X.509 公開鍵証明書です
+  - [Organization Validated (OV)](https://en.wikipedia.org/wiki/Public_key_certificate#Organization_validation) - ドメインの管理権に加えて、申請組織の法的な実在性を認証局が検証する証明書です
+  - [Extended Validation (EV)](https://en.wikipedia.org/wiki/Extended_Validation_Certificate) - 所有者の法的実体を証明し、EV 証明書を発行できる認証局の鍵で署名された、X.509 標準に準拠する証明書です
 - プロトコルと標準
+  - [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) - 認証局とそのユーザーの Web サーバー間のやり取りを自動化するための通信プロトコルです
   - [Simple Certificate Enrollment Protocol](https://en.wikipedia.org/wiki/Simple_Certificate_Enrollment_Protocol) - X.509 証明書を安全かつ自動化された方法で登録するためのプロトコルです
 - 検証と登録
   - [Domain Control Validation](https://github.com/digicert/domain-control-validation) - 証明書を要求する人物や組織が証明書に記載されたドメインを実際に管理していることを認証局 (CA) が検証するために用いるプロセスです
+- 認証局とクライアント
+  - [Let's Encrypt](https://letsencrypt.org/) - TLS 証明書を提供する非営利の認証局です
+    - [certbot](https://certbot.eff.org/) - 手動管理のウェブサイトで HTTPS を有効化するために Let's Encrypt 証明書を自動的に利用する無料のオープンソースソフトウェアツールです
+    - [lego](https://go-acme.github.io/lego/) - Go で書かれた Let's Encrypt クライアントおよび ACME ライブラリです
+- 証明書管理ツール
+  - [mkcert.org](https://mkcert.org/) - ローカルで信頼される開発用証明書を作成するためのシンプルなツールです
+  - [cert-manager](https://cert-manager.io) - Kubernetes と OpenShift 向けの強力で拡張可能な X.509 証明書コントローラーです
+  - [cfssl](https://github.com/cloudflare/cfssl#readme) - Cloudflare の PKI ツールキットです
 - 信頼ストア
   - [Certifi](https://certifi.io/) - TLS ホストの身元を検証しつつ SSL 証明書の信頼性を検証するために厳選されたルート証明書のコレクションです
-- [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate) - 公開鍵の有効性を証明するために使用される電子文書です
-  - Domain Validated (DV)
-  - Organization Validated (OV)
-  - Extended Validation (EV)
-- [Let's Encrypt](https://letsencrypt.org/) - TLS 証明書を提供する非営利の認証局です
-  - [certbot](https://certbot.eff.org/) - 手動管理のウェブサイトで HTTPS を有効化するために Let's Encrypt 証明書を自動的に利用する無料のオープンソースソフトウェアツールです
-  - [lego](https://go-acme.github.io/lego/) - Go で書かれた Let's Encrypt クライアントおよび ACME ライブラリです
-- [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) - 認証局とそのユーザーの Web サーバー間のやり取りを自動化するための通信プロトコルです
-- [mkcert.org](https://mkcert.org/) - ローカルで信頼される開発用証明書を作成するためのシンプルなツールです
-- [cert-manager](https://cert-manager.io) - Kubernetes と OpenShift 向けの強力で拡張可能な X.509 証明書コントローラーです
-- [cfssl](https://github.com/cloudflare/cfssl#readme) - Cloudflare の PKI ツールキットです
 
 ### シークレット管理
 
@@ -124,23 +133,24 @@
   - [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - 一方向に暗号化された Secrets のための Kubernetes コントローラーおよびツールです
   - [Secrets Store CSI Driver](https://secrets-store-csi-driver.sigs.k8s.io/) - エンタープライズグレードの外部シークレットストアに保存された複数のシークレット、鍵、証明書をボリュームとして Pod にマウントできるようにするドライバーです
   - [External Secrets Operator](https://external-secrets.io/latest/) - AWS Secrets Manager、HashiCorp Vault、Google Secrets Manager、Azure Key Vault、IBM Cloud Secrets Manager などの外部シークレット管理システムを統合する Kubernetes オペレーターです
-- ベンダーサービス
+- 鍵管理サービス
   - 💲 [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) - クラウドアプリやサービスで使用される暗号鍵やその他のシークレットを保護するクラウドサービスです
-  - 💲 [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - API キー、パスワード、証明書などの機密データのための安全で便利なストレージシステムです
   - 💲 [AWS Key Management Service](https://aws.amazon.com/kms/) - 暗号鍵の作成と管理を容易にするサービスです
+- クラウドシークレットストア
+  - 💲 [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - API キー、パスワード、証明書などの機密データのための安全で便利なストレージシステムです
   - 💲 [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) - アプリケーション、サービス、IT リソースへのアクセスを保護するシークレット管理サービスです
+- 個人向けパスワードマネージャー
+  - 💲 [1Password](https://1password.com/) - 人間と AI エージェントの両方にわたって ID、認証情報、シークレットを管理するパスワードマネージャーおよびセキュアボールトプラットフォームです
+  - [pass](https://www.passwordstore.org/) - 標準的な unix パスワードマネージャーです
+  - [gokey](https://github.com/cloudflare/gokey) - Go で書かれたシンプルなボールトレスパスワードマネージャーです
+  - [Buttercup](https://buttercup.pw/) - 無料、オープンソース、クロスプラットフォームのパスワードマネージャーです
 
 ### 応用暗号技術とツール
 
-- 高度な暗号技術トピック
-  - [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - 量子コンピュータによる暗号解読攻撃に対して安全であると考えられている暗号アルゴリズムです
-  - 情報ハイディング
-    - [Steganography](https://en.wikipedia.org/wiki/Steganography) - ファイル、メッセージ、画像、動画を別のファイル、メッセージ、画像、動画の中に隠す実践です
-    - [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - 音声、動画、画像データなど、ノイズに耐性のある信号にひそかに埋め込まれる一種のマーカーです
-
-- コンテンツ来歴と真正性
+- コンテンツ来歴と情報ハイディング
+  - [Steganography](https://en.wikipedia.org/wiki/Steganography) - ファイル、メッセージ、画像、動画を別のファイル、メッセージ、画像、動画の中に隠す実践です
+  - [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - 音声、動画、画像データなど、ノイズに耐性のある信号にひそかに埋め込まれる一種のマーカーです
   - [C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org/) - 発行者、制作者、消費者がデジタルコンテンツの出所と編集履歴を確認できるようにするオープンな技術標準です
-
 - エンドツーエンド暗号化ツール
   - [age](https://github.com/FiloSottile/age) - シンプルでモダン、かつ安全なファイル暗号化ツール、フォーマット、Go ライブラリです
   - [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) - データ通信に暗号学的なプライバシーと認証を提供するデータ暗号化・復号コンピュータプログラムです
@@ -148,7 +158,6 @@
   - [keys.openpgp.org](https://keys.openpgp.org/about) - OpenPGP のための公開鍵サーバーです
   - [GnuPG](https://gnupg.org/) - PGP 暗号ソフトウェアスイートの代替となるフリーソフトウェアです
   - [Gpg4win](https://www.gpg4win.org/) - OpenPGP の助けを借りてメールやファイルの安全な転送を容易にする Windows 向けソフトウェアパッケージです
-
 - 暗号ライブラリ
   - [PyCryptodome](https://www.pycryptodome.org/) - 自己完結型の暗号プリミティブの Python パッケージです
   - [Python cryptography](https://cryptography.io/en/latest/) - Python 開発者に暗号プリミティブとレシピを提供するよう設計されたパッケージです
@@ -164,7 +173,7 @@
 
 :::
 
-### 統合 IAM
+### ID 管理とディレクトリサービス
 
 - [Identity management](https://en.wikipedia.org/wiki/Identity_management) - 企業内の適切な人物がテクノロジーリソースへの適切なアクセス権を持つことを保証するためのポリシーとテクノロジーの枠組みです
 - セルフホスト型 IAM プラットフォーム
@@ -215,7 +224,6 @@
   - [Dex](https://dexidp.io/) - フェデレーテッドな OpenID Connect プロバイダーです
   - 🪙 [Firebase Authentication](https://firebase.google.com/docs/auth) - アプリのユーザーを認証するためのバックエンドサービス、使いやすい SDK、既製の UI ライブラリを提供するサービスです
   - 🪙 [Supabase Auth](https://supabase.com/docs/guides/database/overview) - Supabase プロジェクトのユーザー管理とアクセス制御を提供するサービスです
-  - 🪙 [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - Web ホストがウェブサイトへの人間によるアクセスと自動化されたアクセスを区別できるようにする CAPTCHA システムです
   - [Microsoft Authentication Library (MSAL)](https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-overview) - 開発者がアプリケーションに認証・認可を統合するのを助けるライブラリです
   - [Application Default Credentials (ADC)](https://cloud.google.com/docs/authentication/provide-credentials-adc) - Google Cloud クライアントライブラリがアプリケーション環境に基づいて認証情報を自動的に検出するために使用する仕組みです
   - [Limen](https://limenauth.dev/) - セッション、パスワードハッシュ化、OAuth、CSRF 保護を提供する、Go 向けの軽量で組み合わせ可能な認証・認可ライブラリです
@@ -255,10 +263,6 @@
 - [Threat modeling](https://en.wikipedia.org/wiki/Threat_model) - 仮想的な攻撃者の視点から潜在的な脅威を特定、列挙、優先順位付けするプロセスです
 - [OWASP Threat Modeling](https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/) - 開発ライフサイクルに脅威モデリングを組み込むための OWASP Security Culture プロジェクトによるガイダンスです
 - [STRIDE model](https://en.wikipedia.org/wiki/STRIDE_%28security%29) - コンピュータセキュリティの脅威を 6 つのカテゴリに分類するための記憶術です
-- [MITRE ATT&CK](https://attack.mitre.org/) - 敵対者の戦術と技術に関する世界中でアクセス可能なナレッジベースです
-  - Tactics: 敵対者が攻撃中に達成しようとする高レベルの目的や目標です
-  - Techniques: 敵対者が戦術的目標を達成するための具体的な方法や手段です
-  - Procedures: 敵対者が作戦で利用する技術の具体的な実装やバリエーションです
 - モデリングツール
   - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - 無料でオープンソース、クロスプラットフォームの脅威モデリングアプリケーションです
   - [threatspec](https://threatspec.org/) - 脅威モデルをコードとして定義できるツールです
@@ -277,6 +281,7 @@
 
 ### Web アプリケーションセキュリティ
 
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/) - Web アプリケーションにとって最も重大なセキュリティリスクについての幅広い合意を表す、開発者と Web アプリケーションセキュリティのための標準的な啓発文書です
 - セキュリティメカニズムとポリシー
   - [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - Web アプリケーションセキュリティモデルにおける重要な概念です
   - [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - Web ページ上の制限されたリソースを別のドメインからリクエストできるようにするメカニズムです
@@ -288,9 +293,8 @@
   - [Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) - Web アプリケーションでよく見られるセキュリティ脆弱性の一種です
   - [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding) - 悪意ある Web ページがドメインネームシステムを悪用して同一オリジンポリシーを回避できるようにする攻撃の一種です
   - [SSRF (Server-side request forgery)](https://en.wikipedia.org/wiki/Server-side_request_forgery) - 攻撃者がサーバー上の機能を悪用して内部リソースを読み取ったり変更したりできる悪用の一種です
-- プライバシーと透明性
-  - [Privacy sandbox](https://developers.google.com/privacy-sandbox) - オンラインでの人々のプライバシーを保護し、企業や開発者に活気あるデジタルビジネスを構築するツールを提供する Google の取り組みです
-  - [security.txt](https://securitytxt.org/) - ウェブサイトが研究者向けにセキュリティポリシーを定義できるようにする提案標準です
+- ボット対策
+  - 🪙 [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - Web ホストがウェブサイトへの人間によるアクセスと自動化されたアクセスを区別できるようにする CAPTCHA システムです
 
 ### アプリケーションセキュリティテスト (AST)
 
@@ -306,7 +310,7 @@
 - 動的解析 (DAST)
   - [ZAP](https://zaproxy.org/) - 世界で最も広く使われている Web アプリスキャナーで、無料かつオープンソースであり、誰もが貢献できるコミュニティベースの GitHub Top 1000 プロジェクトでもあります
   - [Nuclei](https://github.com/projectdiscovery/nuclei) - シンプルな YAML ベースの DSL 上に構築され、世界中のセキュリティコミュニティによって支えられている高速でカスタマイズ可能な脆弱性スキャナーです
-  - [sqlmap](https://github.com/sqlmapproject/sqlmap) - SQL インジェクションの欠陥の検出・悪用とデータベースサーバーの乗っ取りを自動化するオープンソースのペネトレーションテストツールです
+  - 🪙 [Burp Suite](https://portswigger.net/burp) - 業界最高水準の脆弱性スキャン、ペネトレーションテスト、Web アプリセキュリティプラットフォームです
 - シークレット検出
   - 🪙 [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - リポジトリの履歴をスキャンしてシークレットを検出するツールです
   - [Gitleaks](https://gitleaks.io/) - git リポジトリ内にハードコードされたパスワード、API キー、トークンなどのシークレットを検出・防止する SAST ツールです
@@ -314,14 +318,18 @@
   - [Talisman](https://thoughtworks.github.io/talisman/) - 潜在的なシークレットや機密情報がコミットされないようリポジトリにフックをインストールするツールです
   - [TruffleHog](https://github.com/trufflesecurity/trufflehog) - コミット履歴やブランチを深く掘り下げて環境内のシークレットをスキャンするツールです
   - [Whispers](https://github.com/Skyscanner/whispers) - ハードコードされた認証情報を探すために様々な一般的なデータ形式を解析するよう設計された静的コード解析ツールです
-- AI オーケストレーションによるペネトレーションテスト
-  - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - 大規模言語モデル (LLM) を活用した自動ペネトレーションテストフレームワークです
-  - [PentAGI](https://github.com/vxcontrol/pentagi) - 自動セキュリティテスト向けに設計された、オープンソースで完全自律型の AI エージェントシステムです
-  - [Strix](https://github.com/usestrix/strix) - 実際のハッカーのように振る舞い、コードを動的に実行し、脆弱性を発見して実際の概念実証によって検証する自律型 AI エージェント群です
-  - [CAI](https://github.com/aliasrobotics/cai) - セキュリティ専門家が AI 駆動の攻撃・防御自動化を構築・展開できるようにする軽量なオープンソースフレームワークです
-  - [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - AI エージェントが自動ペネトレーションテスト、脆弱性発見、バグバウンティの自動化、セキュリティ研究のために 150 種類以上のサイバーセキュリティツールを自律的に実行できるようにする高度な MCP サーバーです
-  - [Zen AI Pentest](https://shadd0wtaka.github.io/Zen-Ai-Pentest/) - 最先端の言語モデルとプロフェッショナルなセキュリティツールを組み合わせた自律型 AI 駆動のペネトレーションテストフレームワークです
-  - [Project Glasswing](https://www.anthropic.com/glasswing) - 重要なソフトウェアインフラの脆弱性を自律的に発見できる、防御的サイバーセキュリティ向けの Anthropic の Claude Mythos Preview モデルへのアクセスを提供する取り組みです
+- ペネトレーションテスト
+  - [Penetration test](https://en.wikipedia.org/wiki/Penetration_test) - システムのセキュリティを評価するために実施される、コンピュータシステムに対する承認済みの模擬サイバー攻撃です
+  - [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - 世界で最も使われているペネトレーションテストフレームワークです
+  - [sqlmap](https://github.com/sqlmapproject/sqlmap) - SQL インジェクションの欠陥の検出・悪用とデータベースサーバーの乗っ取りを自動化するオープンソースのペネトレーションテストツールです
+  - AI オーケストレーションによるペネトレーションテスト
+    - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - 大規模言語モデル (LLM) を活用した自動ペネトレーションテストフレームワークです
+    - [PentAGI](https://github.com/vxcontrol/pentagi) - 自動セキュリティテスト向けに設計された、オープンソースで完全自律型の AI エージェントシステムです
+    - [Strix](https://github.com/usestrix/strix) - 実際のハッカーのように振る舞い、コードを動的に実行し、脆弱性を発見して実際の概念実証によって検証する自律型 AI エージェント群です
+    - [CAI](https://github.com/aliasrobotics/cai) - セキュリティ専門家が AI 駆動の攻撃・防御自動化を構築・展開できるようにする軽量なオープンソースフレームワークです
+    - [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - AI エージェントが自動ペネトレーションテスト、脆弱性発見、バグバウンティの自動化、セキュリティ研究のために 150 種類以上のサイバーセキュリティツールを自律的に実行できるようにする高度な MCP サーバーです
+    - [Zen AI Pentest](https://shadd0wtaka.github.io/Zen-Ai-Pentest/) - 最先端の言語モデルとプロフェッショナルなセキュリティツールを組み合わせた自律型 AI 駆動のペネトレーションテストフレームワークです
+    - [Project Glasswing](https://www.anthropic.com/glasswing) - 重要なソフトウェアインフラの脆弱性を自律的に発見できる、防御的サイバーセキュリティ向けの Anthropic の Claude Mythos Preview モデルへのアクセスを提供する取り組みです
 
 ### Infrastructure as Code (IaC) セキュリティ
 
@@ -333,8 +341,6 @@
 - [kubesec](https://kubesec.io/) - Kubernetes リソースのセキュリティリスク分析です
 - [PSRule](https://microsoft.github.io/PSRule/stable/) - Infrastructure as Code (IaC) をテスト・検証するコマンドを備えたクロスプラットフォームの PowerShell モジュールです
   - [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/) - PSRule を使用して Azure リソースと Infrastructure as Code (IaC) を検証するルール群です
-- [ComplianceAsCode](https://github.com/ComplianceAsCode/content) - SCAP、Bash、Ansible など様々な形式でセキュリティ自動化コンテンツを提供するプロジェクトです
-- [complyctl](https://github.com/complytime/complyctl) - OSCAL を使用してコンプライアンス評価活動を効率化するコマンドラインツールです
 
 ### ソフトウェアサプライチェーンセキュリティ (SSCS)
 
@@ -378,7 +384,6 @@
 
 ### クラウドネイティブアプリケーション保護 (CNAPP)
 
-- [The 4 Cs of Cloud-Native Systems](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code) - クラウドネイティブアプリケーションに多層的な保護を提供するために、セキュリティ戦略を 4 つの層に分割する多層防御アプローチです
 - 💲 [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - クラウドベースのアプリケーションを保護するために設計された一連のセキュリティ対策とプラクティスを備えたクラウドネイティブアプリケーション保護プラットフォーム (CNAPP) です
 - クラウドセキュリティポスチャー管理 (CSPM)
   - 💲 [AWS Security Hub](https://aws.amazon.com/security-hub/) - セキュリティのベストプラクティスチェックを実行し、アラートを集約し、自動修復を可能にするクラウドセキュリティポスチャー管理 (CSPM) サービスです
@@ -387,8 +392,6 @@
   - 💲 [Amazon Inspector](https://aws.amazon.com/inspector/) - AWS にデプロイされたアプリケーションのセキュリティとコンプライアンスの向上を支援する自動セキュリティ評価サービスです
   - [Falco](https://falco.org/) - クラウドネイティブランタイムセキュリティプロジェクトです
   - [Tracee](https://aquasecurity.github.io/tracee/latest/) - Linux 向けの強力なランタイムセキュリティ・フォレンジックツールです
-  - [ClamAV](https://www.clamav.net/) - トロイの木馬、ウイルス、マルウェア、その他の悪意ある脅威を検出するオープンソースのアンチウイルスエンジンです
-  - [YARA](https://virustotal.github.io/yara/) - マルウェア研究者のためのパターンマッチングの万能ツールです
 
 ### セキュリティ運用と監視 (SecOps)
 
@@ -404,8 +407,11 @@
   - [Sigma Detection Format](https://sigmahq.io/) - 関連するログイベントを分かりやすく記述できる汎用的でオープンなシグネチャフォーマットです
   - 💲 [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - AWS アカウントの運用・リスク監査、ガバナンス、コンプライアンスを実現する AWS サービスです
   - 💲 [AWS Config](https://aws.amazon.com/config/) - AWS リソースの構成を評価、監査、査定できるサービスです
+- マルウェア検出と分析
+  - [ClamAV](https://www.clamav.net/) - トロイの木馬、ウイルス、マルウェア、その他の悪意ある脅威を検出するオープンソースのアンチウイルスエンジンです
+  - [YARA](https://virustotal.github.io/yara/) - マルウェア研究者のためのパターンマッチングの万能ツールです
 
-### ポリシー適用
+### ポリシーとコンプライアンスのコード化
 
 - [Open Policy Agent (OPA)](https://www.openpolicyagent.org/) - スタック全体にわたるポリシー適用を統一するオープンソースの汎用ポリシーエンジンです
   - [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/) - OPA 向けのポリシーを記述するために使用される高水準の宣言型言語です
@@ -415,6 +421,9 @@
 - Kubernetes ポリシーエンジン
   - [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - Open Policy Agent (OPA) によって実行されるポリシーを強制するカスタマイズ可能な検証用 Webhook です
   - [Kyverno](https://kyverno.io/) - Kubernetes 向けに設計されたポリシーエンジンです
+- コンプライアンスのコード化
+  - [ComplianceAsCode](https://github.com/ComplianceAsCode/content) - SCAP、Bash、Ansible など様々な形式でセキュリティ自動化コンテンツを提供するプロジェクトです
+  - [complyctl](https://github.com/complytime/complyctl) - OSCAL を使用してコンプライアンス評価活動を効率化するコマンドラインツールです
 
 ### デジタルフォレンジックとインシデント対応 (DFIR)
 
@@ -425,6 +434,25 @@
 - ツールとプラットフォーム
   - [Volatility](https://github.com/volatilityfoundation/volatility3) - 揮発性メモリ (RAM) サンプルからデジタルアーティファクトを抽出するための、世界で最も広く使用されているフレームワークです
   - [Autopsy](https://github.com/sleuthkit/autopsy) - デジタルフォレンジックプラットフォームであり、The Sleuth Kit やその他のデジタルフォレンジックツールへのグラフィカルインターフェースです
+
+### ホストとエンドポイントの堅牢化
+
+- エクスプロイト緩和策
+  - [Address space layout randomization (ASLR)](https://en.wikipedia.org/wiki/Address_space_layout_randomization) - プロセスの主要なデータ領域のアドレス空間の位置をランダムに配置することでメモリの脆弱性の悪用を防ぐ、メモリ保護に関わるコンピュータセキュリティ技術です
+  - [W^X](https://en.wikipedia.org/wiki/W%5EX) - プロセスのアドレス空間内のすべてのページが書き込み可能または実行可能のいずれかであり、両方を同時に満たさないことを保証するセキュリティ機能です
+  - [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - プログラムの実行フローをリダイレクトする様々なマルウェア攻撃を防ぐコンピュータセキュリティ技術の総称です
+- ハードウェアの信頼の基点
+  - [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - 統合された暗号鍵によってハードウェアを保護するよう設計された専用マイクロコントローラーである、セキュアな暗号プロセッサの仕様です
+- Linux 強制アクセス制御
+  - [SELinux](https://selinuxproject.org/page/Main_Page) - 様々な Linux ディストリビューションに追加されたカーネル修正とユーザースペースツールの集合です
+  - [AppArmor](https://apparmor.net/) - システム管理者がプログラムごとのプロファイルでプログラムの機能を制限できるようにする Linux カーネルセキュリティモジュールです
+- サンドボックス化
+  - [bubblewrap](https://github.com/containers/bubblewrap) - Flatpak や類似のプロジェクトで使用される、低レベルで非特権のサンドボックスツールです
+- Linux きめ細かなアクセス制御
+  - [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - スーパーユーザーの権限の一部をプロセスに付与しつつ、すべては付与しない機能です
+- ホストコンプライアンススキャン
+  - [OpenSCAP](https://www.open-scap.org/) - Security Content Automation Protocol (SCAP) のオープンソース実装です
+  - [Lynis](https://cisofy.com/lynis/) - Linux、macOS、Unix ベースの OS で動作するシステム向けのセキュリティ監査ツールです
 
 ## セキュアな通信とネットワーキング
 
@@ -508,6 +536,17 @@
 - [METR](https://metr.org/) - AI システムが社会に破滅的な害をもたらす脅威となるかどうか、またそれがいつになるかを科学的に測定する研究非営利団体です
 - 💲 [Microsoft Agent 365](https://www.microsoft.com/en-us/microsoft-agent-365) - 企業環境内の自律型 AI エージェントを監督するために設計された集中型のガバナンス・管理プラットフォームです
 
+### プライバシーエンジニアリング
+
+- [Privacy by design](https://en.wikipedia.org/wiki/Privacy_by_design) - エンジニアリングプロセス全体を通じてプライバシーを考慮することを求める、システムエンジニアリングへのアプローチです
+- [Privacy-enhancing technologies](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies) - 個人データの利用を最小化し、データセキュリティを最大化し、個人に力を与えることで、基本的なデータ保護原則を体現する技術です
+- データの非識別化
+  - [Data anonymization](https://en.wikipedia.org/wiki/Data_anonymization) - プライバシー保護を目的とした情報サニタイズの一種で、データが記述する人々が匿名のままとなるようデータセットから個人識別情報を除去することです
+  - [Pseudonymization](https://en.wikipedia.org/wiki/Pseudonymization) - データレコード内の個人識別情報フィールドを 1 つ以上の人工的な識別子、すなわち仮名に置き換える、データ管理および非識別化の手順です
+  - [Differential privacy](https://en.wikipedia.org/wiki/Differential_privacy) - 個々のデータ主体のプライバシーを保護しつつ、データセットに関する統計情報を公開するための数学的に厳密なフレームワークです
+- Web プライバシー
+  - [Privacy sandbox](https://developers.google.com/privacy-sandbox) - オンラインでの人々のプライバシーを保護し、企業や開発者に活気あるデジタルビジネスを構築するツールを提供する Google の取り組みです
+
 ### 規制と標準
 
 - 法律と規制
@@ -533,7 +572,9 @@
 
 ### 脆弱性管理とレポーティング
 
-- [Bug bounty program](https://en.wikipedia.org/wiki/Bug_bounty_program) - 脆弱性やバグをアプリケーションの開発者に発見・報告した倫理的ハッカーに与えられる金銭的報酬です
+- 脆弱性開示
+  - [Bug bounty program](https://en.wikipedia.org/wiki/Bug_bounty_program) - 脆弱性やバグをアプリケーションの開発者に発見・報告した倫理的ハッカーに与えられる金銭的報酬です
+  - [security.txt](https://securitytxt.org/) - ウェブサイトが研究者向けにセキュリティポリシーを定義できるようにする提案標準です
 - 識別子と列挙
   - [CVE (Common Vulnerabilities and Exposures)](https://cve.mitre.org/cve/) - 公に知られている情報セキュリティの脆弱性とエクスポージャーに関する参照方法を提供するシステムです
   - [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/) - ソフトウェアの弱点や脆弱性のためのカテゴリシステムです
@@ -548,36 +589,3 @@
   - [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol/) - 自動化された設定、脆弱性、パッチのチェックをサポートする多目的な仕様のフレームワークです
   - [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/) - 標準に基づく脆弱性管理データの米国政府リポジトリです
   - [SARIF](https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html) - 静的解析ツールの出力のための標準フォーマットです
-
-## システムとパーソナルセキュリティ
-
-:::note[Relevant DSS-P Skills]
-
-- 4\. セキュリティ > 4\.1 セキュリティマネジメント > セキュリティ体制構築・運営
-- 4\. セキュリティ > 4\.2 セキュリティ技術 > セキュア設計・開発・構築
-
-:::
-
-### OS とエンドポイントセキュリティ
-
-- [Address space layout randomization (ASLR)](https://en.wikipedia.org/wiki/Address_space_layout_randomization) - プロセスの主要なデータ領域のアドレス空間の位置をランダムに配置することでメモリの脆弱性の悪用を防ぐ、メモリ保護に関わるコンピュータセキュリティ技術です
-- [W^X](https://en.wikipedia.org/wiki/W%5EX) - プロセスのアドレス空間内のすべてのページが書き込み可能または実行可能のいずれかであり、両方を同時に満たさないことを保証するセキュリティ機能です
-- [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - プログラムの実行フローをリダイレクトする様々なマルウェア攻撃を防ぐコンピュータセキュリティ技術の総称です
-- [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - 統合された暗号鍵によってハードウェアを保護するよう設計された専用マイクロコントローラーである、セキュアな暗号プロセッサの仕様です
-- Linux 強制アクセス制御
-  - [SELinux](https://selinuxproject.org/page/Main_Page) - 様々な Linux ディストリビューションに追加されたカーネル修正とユーザースペースツールの集合です
-  - [AppArmor](https://apparmor.net/) - システム管理者がプログラムごとのプロファイルでプログラムの機能を制限できるようにする Linux カーネルセキュリティモジュールです
-  - [bubblewrap](https://github.com/containers/bubblewrap) - Flatpak や類似のプロジェクトで使用される、低レベルで非特権のサンドボックスツールです
-- Linux きめ細かなアクセス制御
-  - [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - スーパーユーザーの権限の一部をプロセスに付与しつつ、すべては付与しない機能です
-- 一般的なスキャン
-  - [OpenSCAP](https://www.open-scap.org/) - Security Content Automation Protocol (SCAP) のオープンソース実装です
-  - [Lynis](https://cisofy.com/lynis/) - Linux、macOS、Unix ベースの OS で動作するシステム向けのセキュリティ監査ツールです
-
-### パーソナルセキュリティツール
-
-- パスワードマネージャー
-  - 💲 [1Password](https://1password.com/) - 人間と AI エージェントの両方にわたって ID、認証情報、シークレットを管理するパスワードマネージャーおよびセキュアボールトプラットフォームです
-  - [pass](https://www.passwordstore.org/) - 標準的な unix パスワードマネージャーです
-  - [gokey](https://github.com/cloudflare/gokey) - Go で書かれたシンプルなボールトレスパスワードマネージャーです
-  - [Buttercup](https://buttercup.pw/) - 無料、オープンソース、クロスプラットフォームのパスワードマネージャーです

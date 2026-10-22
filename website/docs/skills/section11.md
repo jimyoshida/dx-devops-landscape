@@ -199,7 +199,7 @@
 ### PDF Processing
 
 - Tools
-  - [Docling](https://github.com/docling-project/docling) - A powerful library which simplifies document processing, parsing diverse formats
+  - [Docling](https://docling-project.github.io/docling/) - A powerful library which simplifies document processing, parsing diverse formats
   - [Ghostscript](https://www.ghostscript.com/) - A suite of software based on an interpreter for Adobe Systems' PostScript and Portable Document Format page description languages
   - [qpdf](https://qpdf.sourceforge.io/) - A command-line tool and C++ library that performs content-preserving transformations on PDF files
   - [pdftk server](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - A command-line tool for working with PDFs

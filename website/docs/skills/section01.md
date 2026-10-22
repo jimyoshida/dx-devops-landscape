@@ -5,7 +5,6 @@
 :::note[Relevant DSS-P Skills]
 
 - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Program / Project Management
-- 1\. Business Transformation > 1\.2 Product Management > Product Scope and Priority Management
 
 :::
 
@@ -25,13 +24,6 @@
     - [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) - A consensus-based, gamified technique for estimating, mostly used for timeboxing in Agile principles
     - [Fermi problem](https://en.wikipedia.org/wiki/Fermi_problem) - An estimation problem in physics or engineering education, designed to teach dimensional analysis or approximation of extreme scientific calculations
   - [Systems development life cycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) - A conceptual model used in project management that describes the stages involved in an information system development project
-
-### Prioritization
-
-- [Prioritization](https://en.wikipedia.org/wiki/Prioritization) - The activity that arranges items or activities in order of urgency
-  - [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) - A simple scoring system for product prioritization that stands for Reach, Impact, Confidence, and Effort
-  - [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
-  - [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
 
 ### Work & Issue Tracking
 
@@ -53,15 +45,6 @@
   - 🪙 [Trello](https://trello.com/) - A visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards to organize tasks
   - 🪙 [Airtable](https://www.airtable.com/) - A platform that combines the flexibility of a spreadsheet with the power of a database to help teams manage their work
 
-### Team Collaboration
-
-- Messaging & Meetings
-  - 🪙 [Slack](https://slack.com/) - A cloud-based team collaboration platform that brings conversations, tools, and files together in one place
-  - 💲 [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) - A collaboration platform that combines workplace chat, meetings, file storage, and application integration
-  - 🪙 [Discord](https://discord.com/) - A voice, video, and text communication service used by communities, friend groups, and businesses to stay connected
-  - 🔒 [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
-  - 🪙 [Zoom](https://zoom.us/) - A video communications platform that provides video meetings, voice calls, webinars, and chat
-
 ### Process Maturity & Quality Standards
 
 - [CMMI (Capability Maturity Model Integration)](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration) - A process level improvement training and appraisal program
@@ -69,6 +52,7 @@
 - [ISO/IEC 12207 (Software life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_12207) - The international standard for software lifecycle processes that defines all the processes required for developing and maintaining software systems
 - [ISO/IEC 15288 (System life cycle processes)](https://en.wikipedia.org/wiki/ISO/IEC_15288) - The technical standard in systems engineering which covers processes and lifecycle stages
 - [ISO/IEC 15504 (Process assessment)](https://en.wikipedia.org/wiki/ISO/IEC_15504) - A set of technical standards documents for the computer software development process and related business management functions
+- [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
 
 ## Product Management
 
@@ -76,6 +60,7 @@
 
 - 1\. Business Transformation > 1\.2 Product Management > Requirement Analysis and Management
 - 1\. Business Transformation > 1\.2 Product Management > Product Vision / Roadmap Formulation
+- 1\. Business Transformation > 1\.2 Product Management > Product Scope and Priority Management
 - 1\. Business Transformation > 1\.2 Product Management > Marketing
 - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Product Lifecycle Management
 
@@ -90,10 +75,19 @@
 - [Business model](https://en.wikipedia.org/wiki/Business_model) - The rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts
   - [Direct-to-consumer](https://en.wikipedia.org/wiki/Direct-to-consumer) - A business model of selling products directly to customers and thereby bypassing any third-party retailers, wholesalers, or intermediaries
   - [Subscription business model](https://en.wikipedia.org/wiki/Subscription_business_model) - A business model in which a customer must pay a recurring price at regular intervals for access to a product or service
+  - [Revenue model](https://en.wikipedia.org/wiki/Revenue_model) - A framework for generating financial income
   - [Business model canvas](https://en.wikipedia.org/wiki/Business_model_canvas) - A strategic management template for developing new or documenting existing business models
   - [Lean Canvas](https://www.leanfoundry.com/tools/lean-canvas) - A one-page business modeling tool for entrepreneurs to quickly outline their business idea
+  - [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas) - A tool to help you create products and services customers want
 - [Technology roadmap](https://en.wikipedia.org/wiki/Technology_roadmap) - A flexible planning schedule to support strategic and long-range planning, by matching short-term and long-term goals with specific technology solutions
   - 💲 [Aha!](https://www.aha.io/) - A suite of product development software that helps teams build and market products customers love
+
+### Prioritization
+
+- [Prioritization](https://en.wikipedia.org/wiki/Prioritization) - The activity that arranges items or activities in order of urgency
+  - [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) - A simple scoring system for product prioritization that stands for Reach, Impact, Confidence, and Effort
+  - [Kano model](https://en.wikipedia.org/wiki/Kano_model) - A theory for product development and customer satisfaction developed in the 1980s by Noriaki Kano
+  - [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) - A prioritization technique used in management, business analysis, project management, and software development
 
 ### Requirements Analysis
 
@@ -101,30 +95,21 @@
 - [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis) - The process of determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting requirements of the various stakeholders
   - [Requirement](https://en.wikipedia.org/wiki/Requirement) - A documented need of what a product or service should be or do
     - [Non-functional requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) - A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors
-- Related Standards
-  - [ISO/IEC 25010 (Systems and software Quality Requirements and Evaluation)](https://en.wikipedia.org/wiki/ISO/IEC_25010) - The international standard for systems and software quality requirements and evaluation that defines system and software quality models
 
 ### Marketing & Customer Experience
 
 - [Marketing](https://en.wikipedia.org/wiki/Marketing) - A process of acquiring, satisfying, and retaining customers, often involving creating, communicating, delivering, and exchanging offerings that have value for various stakeholders
   - [Market research](https://en.wikipedia.org/wiki/Market_research) - An organized effort to gather information about target markets and customers
+  - [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
+  - [Brand](https://en.wikipedia.org/wiki/Brand) - A name, term, design, symbol or any other feature that distinguishes one seller's goods or service from those of other sellers
   - [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) - The process of improving the quality and quantity of website traffic to a website or a web page from search engines
     - [Google Search Central](https://developers.google.com/search) - The home for everything you need to help users find your site on Google Search
-  - [Marketing mix](https://en.wikipedia.org/wiki/Marketing_mix) - A foundation model for businesses, historically centered around product, price, place, and promotion
+- Consumer Psychology
   - [Fear of missing out (FOMO)](https://en.wikipedia.org/wiki/Fear_of_missing_out) - The feeling of apprehension that one is either not in the know about or missing out on information, events, experiences, or life decisions that could make one's life better
   - [Fear, uncertainty, and doubt (FUD)](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) - A manipulative propaganda tactic used in sales, marketing, public relations, politics, polling, and cults
   - [Mere-exposure effect](https://en.wikipedia.org/wiki/Mere-exposure_effect) - A psychological phenomenon by which people tend to develop a liking or disliking for things merely because they are familiar with them
-  - Advertising
-    - Indicators
-      - [Click through rate](https://en.wikipedia.org/wiki/Click-through_rate) - The ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement
-      - [Conversion rate](https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate) - The percentage of users who take a desired action
-  - Concepts and Frameworks
-    - [Brand](https://en.wikipedia.org/wiki/Brand) - A name, term, design, symbol or any other feature that distinguishes one seller's goods or service from those of other sellers
-    - [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - A customer's cognitive, emotional, sensory, and behavioral responses during all stages of interaction with a product or service
-    - [Customer service](https://en.wikipedia.org/wiki/Customer_service) - The assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely
-    - [Value chain](https://en.wikipedia.org/wiki/Value_chain) - A progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer
-  - Tools for Strategy
-    - [Value proposition canvas](https://www.strategyzer.com/library/the-value-proposition-canvas) - A tool to help you create products and services customers want
+- [Customer experience](https://en.wikipedia.org/wiki/Customer_experience) - A customer's cognitive, emotional, sensory, and behavioral responses during all stages of interaction with a product or service
+  - [Customer service](https://en.wikipedia.org/wiki/Customer_service) - The assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely
 
 ### Marketing Technology
 
@@ -145,6 +130,7 @@
   - 🪙 [Google Ads](https://ads.google.com/home/) - An online advertising platform where advertisers bid to display brief advertisements, service offerings, product listings, or videos to web users
   - [Google AdSense](https://adsense.google.com/start/) - A program run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience
 - Experimentation & Optimization
+  - [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) - A way to compare multiple versions of a single variable, for example by testing a subject's response to variant A against variant B, and determining which of the variants is more effective
   - 💲 [Optimizely](https://www.optimizely.com/) - A leading digital experience platform (DXP) that provides a single, unified platform that offers you the scalability and security you need to drive your business into the future
 - Email Marketing & Delivery
   - 💲 [SendGrid](https://sendgrid.com/) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
@@ -179,7 +165,8 @@
 ### Product & Customer Metrics
 
 - [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score) - A market research metric that is based on a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague
-- [Rubric](https://en.wikipedia.org/wiki/Rubric_(academic)) - A scoring tool used to evaluate the quality of responses
+- [Click through rate](https://en.wikipedia.org/wiki/Click-through_rate) - The ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement
+- [Conversion rate](https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate) - The percentage of users who take a desired action
 
 ### Engineering Performance Metrics
 
@@ -238,20 +225,13 @@
 - [Kotter's 8-step change model](https://www.kotterinc.com/methodology/8-steps/) - A set of tools and strategies designed to help organizations effectively implement and sustain change
 - [Prosci ADKAR Model](https://www.prosci.com/methodology/adkar) - A goal-oriented change management model that guides individual and organizational change
 
-### Strategic Analysis & Business Intelligence
+### Strategic Analysis
 
-- Strategic Analysis Frameworks
-  - [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - The grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
-  - [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A decision-making technique used in strategic planning and management that identifies the strengths, weaknesses, opportunities, and threats of an organization or project
-  - [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
-  - [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
-- Business Intelligence Platforms
-  - 💲 [Tableau](https://www.tableau.com/) - The visual analytics platform that helps people see, understand, and act on data to solve problems
-  - 🔒 [Metabase](https://www.metabase.com/) - The querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses
-  - 💲 [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - A unified, scalable platform for self-service and enterprise business intelligence
-    - [DAX](https://learn.microsoft.com/en-us/dax/) - A programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables
-  - 🪙 [Looker Studio](https://cloud.google.com/looker-studio) - A business intelligence and data visualization platform, formerly known as Google Data Studio, that turns your data into customizable, informative reports and dashboards
-  - 💲 [Exploratory Desktop](https://exploratory.io/) - A Simple and Easy-to-Use UI experience to access various data sources, clean and transform data, visualize and analyze data
+- [MECE principle](https://en.wikipedia.org/wiki/MECE_principle) - The grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE)
+- [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis) - A decision-making technique used in strategic planning and management that identifies the strengths, weaknesses, opportunities, and threats of an organization or project
+- [PEST analysis](https://en.wikipedia.org/wiki/PEST_analysis) - A framework of external macro-environmental factors (political, economic, social and technological) used in strategic management and market research
+- [Porter's five forces analysis](https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis) - A method of analyzing the competitive environment of a business, rooted in industrial organization economics, that identifies five forces determining competitive intensity and industry attractiveness
+- [Value chain](https://en.wikipedia.org/wiki/Value_chain) - A progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer
 
 ### Risk Management
 
@@ -270,13 +250,22 @@
   - [ISO/IEC 20000 (Service management)](https://en.wikipedia.org/wiki/ISO/IEC_20000) - The international standard for IT service management that specifies the requirements for establishing, implementing, maintaining, and continually improving a service management system
   - 💲 [ServiceNow](https://www.servicenow.com/) - A cloud-based, AI-powered platform for digital workflows that connects people, functions, and systems across the enterprise
 
-## Knowledge & Content Management
+## Collaboration & Knowledge Management
 
 :::note[Relevant DSS-P Skills]
 
 - 1\. Business Transformation > 1\.3 Management of Transformation Activities > Business Modeling and Collaboration
 
 :::
+
+### Team Communication
+
+- Messaging & Meetings
+  - 🪙 [Slack](https://slack.com/) - A cloud-based team collaboration platform that brings conversations, tools, and files together in one place
+  - 💲 [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) - A collaboration platform that combines workplace chat, meetings, file storage, and application integration
+  - 🪙 [Discord](https://discord.com/) - A voice, video, and text communication service used by communities, friend groups, and businesses to stay connected
+  - 🔒 [Mattermost](https://mattermost.com/) - An open source collaboration platform for developers, offering secure messaging, project management, and workflow orchestration
+  - 🪙 [Zoom](https://zoom.us/) - A video communications platform that provides video meetings, voice calls, webinars, and chat
 
 ### Personal Knowledge Management
 
@@ -352,17 +341,6 @@
 - 💲 [Napkin AI](https://www.napkin.ai/) - The visual AI for business storytelling that turns your text into visuals so sharing your ideas is quick and effective
 - 🪙 [NotebookLM](https://notebooklm.google/) - The AI research tool and thinking partner that can analyze your sources, turn complexity into clarity and transform your content
 
-### AI Agent Registries
-
-- Agent Skills Registries
-  - [The Agent Skills Directory](https://skills.sh/) - An open agent skills ecosystem providing reusable capabilities for AI agents
-  - [Anthropic Agent Skills](https://github.com/anthropics/skills) - A public repository containing Anthropic's implementation of skills for Claude, including instructions, scripts, and resources that enable specialized tasks and repeatable workflows
-  - [SkillsMP (Skills Management Platform)](https://skillsmp.com/) - A community-driven marketplace designed for discovering and sharing modular AI agent capabilities based on the open SKILL.md standard
-- MCP (Model Context Protocol) Registries
-  - [Official MCP Registry](https://registry.modelcontextprotocol.io/) - A collection of official reference MCP server implementations maintained by the Model Context Protocol organization
-  - [MCP Registry](https://mcp-registry.org/) - A searchable web directory of published MCP servers
-  - [Claude Plugins](https://claude.com/plugins) - A directory that bundles tools, skills, and integrations for one-click installation
-
 ## Human-Centered Design
 
 :::note[Relevant DSS-P Skills]
@@ -372,15 +350,14 @@
 
 :::
 
-### Core Principles & User Experience (UX)
+### UX Principles & Prototyping
 
 - [User experience](https://en.wikipedia.org/wiki/User_experience) - A person's emotions and attitudes about using a particular product, system or service
 - [Usability](https://en.wikipedia.org/wiki/Usability) - The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use
 - [User interface design](https://en.wikipedia.org/wiki/User_interface_design) - A craft in which designers perform an important function in creating the user experience
 - [Design thinking](https://en.wikipedia.org/wiki/Design_thinking) - The set of cognitive, strategic and practical processes by which design concepts are developed
 - [Accessibility](https://en.wikipedia.org/wiki/Accessibility) - The design of products, devices, services, or environments for people with disabilities
-  - [Accessibility Object Model (AOM)](https://wicg.github.io/aom/) - A JavaScript API to allow developers to modify (and eventually explore) the accessibility tree for an HTML page
-  - [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - The Accessible Rich Internet Applications suite of web standards
+- [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
 - Prototyping
   - [Paper prototyping](https://en.wikipedia.org/wiki/Paper_prototyping) - A widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs
   - [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) - A skeletal outline of a webpage
@@ -390,7 +367,6 @@
 - Research Methodologies
   - [Extreme users](https://en.wikipedia.org/wiki/Extreme_users) - A user-centered design methodology that focuses on studying users at the extremes of the usage spectrum to inform design solutions that benefit both edge cases and typical users
   - [Card sorting](https://en.wikipedia.org/wiki/Card_sorting) - A method used to help design or evaluate the information architecture of a site
-  - [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) - A way to compare multiple versions of a single variable, for example by testing a subject's response to variant A against variant B, and determining which of the variants is more effective
   - [Diary studies](https://www.nngroup.com/articles/diary-studies/) - A research method in which people record their experiences and activities over time
   - [Persona](https://en.wikipedia.org/wiki/Persona_(user_experience)) - A fictional character created to represent a user type relationship
 - Ideation Techniques
@@ -419,57 +395,52 @@
   - [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect) - A demonstration of interference in the reaction time of a task
   - [Fitts's law](https://en.wikipedia.org/wiki/Fitts%27s_law) - A predictive model of human movement primarily used in human–computer interaction and ergonomics
 
-### Visual Design & Typography
+### Visual Design
 
-- Typography
-  - [Typography](https://en.wikipedia.org/wiki/Typography) - The art and technique of arranging type to make written language legible, readable and appealing when displayed
+- [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
+  - [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
+    - [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
+    - [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
+- Icon Libraries
+  - [Lucide](https://lucide.dev/) - A beautiful and consistent icon library for various platforms and frameworks
+
+### Typography & Font Technology
+
+- [Typography](https://en.wikipedia.org/wiki/Typography) - The art and technique of arranging type to make written language legible, readable and appealing when displayed
   - [Web Typography](https://en.wikipedia.org/wiki/Web_typography) - The use of fonts on the World Wide Web
   - [Microsoft Typography](https://learn.microsoft.com/en-us/typography/) - A comprehensive resource for font technology and typefaces, providing technical specifications, developer tools, and design guidelines for Microsoft products
-- Visual Foundations
-  - [Color space](https://en.wikipedia.org/wiki/Color_space) - A specific organization of colors
-    - [ICC profile](https://en.wikipedia.org/wiki/ICC_profile) - A set of data that characterizes a color input or output device, or a color space
-      - [sRGB](https://en.wikipedia.org/wiki/SRGB) - A standard RGB color space that HP and Microsoft created cooperatively in 1996 for use on monitors, printers, and the Internet
-      - [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) - The two most common cylindrical-coordinate representations of points in an RGB color model
-  - [Lucide](https://lucide.dev/) - A beautiful and consistent icon library for various platforms and frameworks
-- Font Rendering & Technologies
-  - Font Standards
-    - [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
-    - [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
-    - [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
-    - [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
-  - Open Fonts
-    - [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
-    - [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
-  - Libraries & Engines
-    - [FreeType](https://freetype.org/) - A freely available software library to render fonts
-    - [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
-    - [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
-    - [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
-  - Rendering Technologies & APIs
-    - [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
-    - [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
+- Font Standards
+  - [TrueType](https://en.wikipedia.org/wiki/TrueType) - An outline font standard developed by Apple and Microsoft in the late 1980s as a competitor to Adobe's Type 1 fonts used in PostScript
+  - [OpenType](https://en.wikipedia.org/wiki/OpenType) - A scalable computer font format developed by Microsoft and Adobe as an extension of the TrueType format, supporting advanced typographic features and multi-platform compatibility
+  - [WOFF (Web Open Font Format)](https://en.wikipedia.org/wiki/Web_Open_Font_Format) - A font format for use in web pages, developed by Mozilla and others, that provides a compressed wrapper for TrueType and OpenType fonts to improve web performance
+  - [Variable Fonts](https://en.wikipedia.org/wiki/Variable_font) - An evolution of the OpenType font specification that enables a single font file to behave like multiple fonts by defining variations in weight, width, and other axes
+- Open Fonts
+  - [Noto Fonts](https://fonts.google.com/noto) - A global font collection for all modern and ancient languages
+  - [Orbitron](https://fonts.google.com/specimen/Orbitron) - A geometric sans-serif typeface intended for display purposes
+- Libraries & Engines
+  - [FreeType](https://freetype.org/) - A freely available software library to render fonts
+  - [HarfBuzz](https://harfbuzz.github.io/) - A widely used open-source text-shaping engine that converts Unicode text into the glyphs and positions required for proper rendering across various scripts and languages
+  - [Pango](https://en.wikipedia.org/wiki/Pango) - An open-source library for laying out and rendering of text, with an emphasis on internationalization and support for complex scripts
+  - [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) - A library for configuring and customizing font access, used primarily on Linux and other Unix-like systems to provide consistent font matching and substitution
+- Rendering Technologies & APIs
+  - [ClearType](https://en.wikipedia.org/wiki/ClearType) - A subpixel rendering technology developed by Microsoft to improve the readability of text on liquid-crystal displays (LCDs) by utilizing the individual subpixels of each pixel
+  - [DirectWrite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal) - A high-performance text-layout and font-rendering API from Microsoft that supports hardware-accelerated rendering and high-quality typography for modern applications
 
 ### Design Systems & Design Tools
 
 - Visual Design Tools
   - 💲 [Claude Design](https://claude.ai/design) - A visual design tool that lets users collaborate with Claude to create polished designs, prototypes, slides, and marketing materials through natural conversation and iterative refinement
   - 🪙 [Figma Design](https://www.figma.com/) - A powerful, collaborative design tool for teams
-  - 💲 [Locofy.ai](https://www.locofy.ai/) - Design to code in a flash
+- AI Prototyping & App Builders
+  - 💲 [Figma Make](https://www.figma.com/make/) - An AI-powered prompt-to-app tool that turns ideas into working prototypes, apps, and websites that can be polished directly on the Figma canvas
   - 💲 [Uizard](https://uizard.io/) - An AI-powered design tool that lets you generate prototypes, screens, and themes from text prompts
-  - 💲 [Anything](https://www.create.xyz/) - An AI app builder that turns your words into mobile apps, sites, tools, and products built with code
+  - 💲 [Locofy.ai](https://www.locofy.ai/) - Design to code in a flash
   - 💲 [v0](https://v0.app/) - An AI-powered full-stack web application builder that generates working applications in minutes and publishes them as live websites in seconds
+  - 💲 [Anything](https://www.create.xyz/) - An AI app builder that turns your words into mobile apps, sites, tools, and products built with code
 - Design Systems & Guidelines
   - [Material Design](https://m3.material.io/) - Google's open-source design system for building beautiful, usable products
   - [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) - A set of recommendations to help you create apps that look and behave consistently across all Apple platforms
   - [GNOME HIG](https://developer.gnome.org/hig/) - A guide for creating high-quality, consistent, and usable applications for the GNOME desktop
-
-### Web Experience & Performance
-
-- [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design) - An approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes
-- [Core Web Vitals](https://web.dev/articles/vitals#core-web-vitals) - The subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools
-  - Largest Contentful Paint (LCP)
-  - Interaction to Next Paint (INP)
-  - Cumulative Layout Shift (CLS)
 
 ## Economics, Game Theory & Finance
 
@@ -482,35 +453,40 @@
 
 ### Economics & Game Theory
 
-- [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
-- [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
-- [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
-- [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost) - A cost that has already been incurred and cannot be recovered
-- [Choice architecture](https://en.wikipedia.org/wiki/Choice_architecture) - The design of different ways in which choices can be presented to decision makers, and the impact of that presentation on decision-making
-  - [Nudge theory](https://en.wikipedia.org/wiki/Nudge_theory) - A concept in behavioral economics and related behavioral sciences that proposes adaptive designs of the decision environment as ways to influence the behavior and decision-making of groups or individuals
-- [Principal–agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem) - The conflict in priorities between a person or group and the representative authorized to act on their behalf
-- [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
-- [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
-- [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
-  - [Network effect](https://en.wikipedia.org/wiki/Network_effect) - The phenomenon by which the value or utility a user derives from a good or service depends on the number of users of compatible products
-- [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) - The observation that adding one or more roads to a road network can slow down overall traffic flow through it
-- [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) - A solution concept of a non-cooperative game involving two or more players in which each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy
-- [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency) - A state of allocation of resources from which it is impossible to reallocate so as to make any one individual or preference criterion better off without making at least one individual or preference criterion worse off
-- [Operations research](https://en.wikipedia.org/wiki/Operations_research) - A discipline that deals with the development and application of analytical methods to improve management and decision-making
+- Markets & Macroeconomics
+  - [Market](https://en.wikipedia.org/wiki/Market_(economics)) - A composition of systems, institutions, procedures, social relations or infrastructures whereby parties engage in exchange
+  - [Inflation](https://en.wikipedia.org/wiki/Inflation) - An increase in the general price level of goods and services in an economy over a period of time
+  - [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
+  - [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate
+  - [Central bank](https://en.wikipedia.org/wiki/Central_bank) - An institution that manages the monetary policy of a country or monetary union
+  - [Induced demand](https://en.wikipedia.org/wiki/Induced_demand) - The phenomenon that after supply increases, more of a good is consumed
+- Behavioral Economics
+  - [Prospect theory](https://en.wikipedia.org/wiki/Prospect_theory) - A theory of behavioral economics and behavioral finance which states that people make decisions based on the potential value of losses and gains rather than the final outcome
+  - [Sunk cost](https://en.wikipedia.org/wiki/Sunk_cost) - A cost that has already been incurred and cannot be recovered
+  - [Choice architecture](https://en.wikipedia.org/wiki/Choice_architecture) - The design of different ways in which choices can be presented to decision makers, and the impact of that presentation on decision-making
+    - [Nudge theory](https://en.wikipedia.org/wiki/Nudge_theory) - A concept in behavioral economics and related behavioral sciences that proposes adaptive designs of the decision environment as ways to influence the behavior and decision-making of groups or individuals
+- Game Theory & Decision Science
+  - [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) - A solution concept of a non-cooperative game involving two or more players in which each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy
+  - [Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency) - A state of allocation of resources from which it is impossible to reallocate so as to make any one individual or preference criterion better off without making at least one individual or preference criterion worse off
+  - [Principal–agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem) - The conflict in priorities between a person or group and the representative authorized to act on their behalf
+  - [Information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) - A situation in which one party in a transaction has more or better information than the other
+  - [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) - The observation that adding one or more roads to a road network can slow down overall traffic flow through it
+  - [Operations research](https://en.wikipedia.org/wiki/Operations_research) - A discipline that deals with the development and application of analytical methods to improve management and decision-making
+- Network Economics
+  - [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) - The value of a telecommunications network is proportional to the square of the number of connected users of the system (n2)
+    - [Network effect](https://en.wikipedia.org/wiki/Network_effect) - The phenomenon by which the value or utility a user derives from a good or service depends on the number of users of compatible products
 
 ### Corporate Finance & Markets
 
-- [Currency](https://en.wikipedia.org/wiki/Currency) - A standardization of money in any form, in use or circulation as a medium of exchange
-- [Interest](https://en.wikipedia.org/wiki/Interest) - The payment from a debtor or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum (that is, the amount borrowed), at a particular rate
-- [Central bank](https://en.wikipedia.org/wiki/Central_bank) - An institution that manages the monetary policy of a country or monetary union
-- [Revenue model](https://en.wikipedia.org/wiki/Revenue_model) - A framework for generating financial income
 - [Financial capital](https://en.wikipedia.org/wiki/Financial_capital) - An economic resource measured in terms of money used by entrepreneurs and businesses to buy what they need to make their products or to provide their services
   - [Venture capital](https://en.wikipedia.org/wiki/Venture_capital) - A form of private equity financing that is provided by venture capital firms or funds to startups, early-stage, and emerging companies that have been deemed to have high growth potential
 - Markets & Securities
   - [Stock market](https://en.wikipedia.org/wiki/Stock_market) - The aggregation of buyers and sellers of stocks, which represent ownership claims on businesses
   - [Stock](https://en.wikipedia.org/wiki/Stock) - Shares that divide ownership of a corporation, representing fractional ownership and typically conferring rights to earnings, liquidation proceeds, or voting power
   - [Dividend](https://en.wikipedia.org/wiki/Dividend) - The distribution of profits by a corporation to its shareholders from current year profit or retained earnings
-- Contracts
+  - [Liquidity](https://en.wikipedia.org/wiki/Market_liquidity) - A market's feature whereby an individual or firm can quickly purchase or sell an asset without causing a drastic change in the asset's price
+  - [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - A type of currency which uses digital files as money
+- Credit & Derivatives
   - [Credit](https://en.wikipedia.org/wiki/Credit) - The trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately
   - [Debt](https://en.wikipedia.org/wiki/Debt) - An obligation that requires one party, the debtor, to pay money or otherwise return value to another party, the creditor
     - [Discounting](https://en.wikipedia.org/wiki/Discounting) - A mechanism in which a debtor obtains the right to delay payments to a creditor, for a defined period of time, in exchange for a charge or fee
@@ -518,7 +494,6 @@
   - [Spot](https://en.wikipedia.org/wiki/Spot_contract) - A contract of buying or selling a commodity, security or currency for immediate settlement
   - [Futures](https://en.wikipedia.org/wiki/Futures_contract) - A standardized legal contract to buy or sell something at a predetermined price for delivery at a specified time in the future
   - [Option](https://en.wikipedia.org/wiki/Option_(finance)) - A contract which conveys to its owner, the holder, the right, but not the obligation, to buy or sell a specific quantity of an underlying asset or instrument at a specified strike price on or before a specified date
-- [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - A type of currency which uses digital files as money
 
 ### Accounting & Financial Reporting
 
@@ -538,7 +513,6 @@
   - [EBITDA](https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization) - A measure of a company's profitability of the operating business only, before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base
   - [Operating margin](https://en.wikipedia.org/wiki/Operating_margin) - The ratio of operating income to net sales, usually expressed in percent
   - [Burn rate](https://en.wikipedia.org/wiki/Burn_rate) - The rate at which a company consumes its cash, typically expressed monthly and used for startups to measure how fast a company will use up its shareholder capital
-  - [Liquidity](https://en.wikipedia.org/wiki/Market_liquidity) - A market's feature whereby an individual or firm can quickly purchase or sell an asset without causing a drastic change in the asset's price
   - [Valuation](https://en.wikipedia.org/wiki/Valuation_(finance)) - The process of determining the value of a potential investment, asset, or security
 - Accounting Standards & Processes
   - [Generally Accepted Accounting Principles](https://en.wikipedia.org/wiki/Generally_Accepted_Accounting_Principles) - Accounting standards that prescribe in detail what accruals must be made, how financial statements are to be presented, and what additional disclosures are required

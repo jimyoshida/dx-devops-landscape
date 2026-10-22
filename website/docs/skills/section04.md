@@ -12,23 +12,31 @@
 - [Information security](https://en.wikipedia.org/wiki/Information_security) - The practice of protecting information by mitigating information risks
 - [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)) - A weakness which can be exploited by a threat actor
 - [Threat](https://en.wikipedia.org/wiki/Threat_(computer_security)) - A potential negative action or event facilitated by a vulnerability
+
+### Security Models & Architectures
+
+- [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - An approach to the design and implementation of IT systems where trust is never granted implicitly and verification is required for everyone
 - [Shared Responsibility Model](https://www.crowdstrike.com/en-us/cybersecurity-101/cloud-security/shared-responsibility/) - A security and compliance framework that outlines the responsibilities of cloud service providers (CSPs) and customers for securing every aspect of the cloud environment
+- [The 4 Cs of Cloud-Native Systems](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code) - A defense-in-depth approach that divides security strategies into four distinct layers to provide multilayered protection for cloud-native applications
 
 ### Common Threats & Attack Vectors
 
-- [Malware](https://en.wikipedia.org/wiki/Malware) - Any software intentionally designed to cause disruption to a computer, server, client, or computer network
-- [Ransomware](https://en.wikipedia.org/wiki/Ransomware) - A type of malware from cryptovirology that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid
-- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) - The psychological manipulation of people into performing actions or divulging confidential information
-- [Phishing](https://en.wikipedia.org/wiki/Phishing) - A type of social engineering where an attacker sends a fraudulent message designed to trick a person into revealing sensitive information
-- [Business Email Compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - A type of phishing attack in which an attacker impersonates a high-level executive and attempts to trick an employee or customer into transferring money or sensitive data
-- [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - A type of Trojan horse designed to gather information from a system
-- [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - A malware that turns networked devices running Linux into remotely controlled bots that can be used as part of a botnet in large-scale network attacks
-- [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - A social engineering technique that tricks users into running malicious commands on their devices by taking advantage of their target's tendency to solve minor technical issues
-- [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
-
-### Modern Security Architectures
-
-- [Zero trust security model](https://en.wikipedia.org/wiki/Zero_trust_security_model) - An approach to the design and implementation of IT systems where trust is never granted implicitly and verification is required for everyone
+- Malware
+  - [Malware](https://en.wikipedia.org/wiki/Malware) - Any software intentionally designed to cause disruption to a computer, server, client, or computer network
+  - [Ransomware](https://en.wikipedia.org/wiki/Ransomware) - A type of malware from cryptovirology that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid
+  - [Infostealer](https://en.wikipedia.org/wiki/Infostealer) - A type of Trojan horse designed to gather information from a system
+  - [Mirai (malware)](https://en.wikipedia.org/wiki/Mirai_(malware)) - A malware that turns networked devices running Linux into remotely controlled bots that can be used as part of a botnet in large-scale network attacks
+- Social Engineering
+  - [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) - The psychological manipulation of people into performing actions or divulging confidential information
+  - [Phishing](https://en.wikipedia.org/wiki/Phishing) - A type of social engineering where an attacker sends a fraudulent message designed to trick a person into revealing sensitive information
+  - [Business Email Compromise (BEC)](https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec) - A type of phishing attack in which an attacker impersonates a high-level executive and attempts to trick an employee or customer into transferring money or sensitive data
+  - [Think before you Click(Fix)](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/) - A social engineering technique that tricks users into running malicious commands on their devices by taking advantage of their target's tendency to solve minor technical issues
+  - [Evilginx](https://github.com/kgretzky/evilginx2) - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
+- Adversary Knowledge Bases
+  - [MITRE ATT&CK](https://attack.mitre.org/) - A globally-accessible knowledge base of adversary tactics and techniques
+    - Tactics: The high-level objectives or goals that an adversary aims to achieve during an attack
+    - Techniques: The specific methods or ways adversaries achieve their tactical objectives
+    - Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations
 
 ### Security Training & Competitions
 
@@ -44,17 +52,16 @@
 
 :::
 
-### Core Cryptography
+### Hashing & Key Derivation
 
-#### Hashing
-
-- Hash Function
+- Hash Functions
   - [MD5](https://en.wikipedia.org/wiki/MD5) - A cryptographically broken but still widely used hash function producing a 128-bit hash value
   - [SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512)](https://en.wikipedia.org/wiki/SHA-2) - A set of cryptographic hash functions designed by the United States National Security Agency (NSA)
+- Password Hashing & Key Derivation
   - [Bcrypt](https://en.wikipedia.org/wiki/Bcrypt) - A password-hashing function based on the Blowfish cipher
   - [Scrypt](https://en.wikipedia.org/wiki/Scrypt) - A password-based key derivation function created by Colin Percival
 
-#### Symmetric-key Cryptography
+### Symmetric-key Cryptography
 
 - [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) - Algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext
 - Block Cipher
@@ -68,12 +75,12 @@
   - [GCM (Galois/Counter Mode)](https://en.wikipedia.org/wiki/Galois/Counter_Mode) - A mode of operation for symmetric-key cryptographic block ciphers which is widely adopted for its performance
   - [CCM](https://en.wikipedia.org/wiki/CCM_mode) - A mode of operation for cryptographic block ciphers designed to provide both authentication and confidentiality
 
-#### Public-key Cryptography
+### Public-key Cryptography
 
-- [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - A mathematical scheme for verifying the authenticity of digital messages or documents
 - [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) - A cryptographic system that uses pairs of keys
   - [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) - A public-key cryptosystem that is widely used for secure data transmission
   - [EdDSA](https://en.wikipedia.org/wiki/EdDSA) - A digital signature scheme using a variant of Schnorr signature based on twisted Edwards curves
+- [Digital signature](https://en.wikipedia.org/wiki/Digital_signature) - A mathematical scheme for verifying the authenticity of digital messages or documents
 - Key Agreement
   - [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) - A method of securely exchanging cryptographic keys over a public channel
   - [Elliptic-curve Diffie-Hellman](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman) - A key agreement protocol that allows two parties to establish a shared secret over an insecure channel
@@ -84,35 +91,37 @@
   - [RSASSA-PKCS1-v1_5](https://en.wikipedia.org/wiki/PKCS_1) - A Signature Scheme with Appendix (SSA) was first standardized in version 1.5 of PKCS #1 and is considered unforgeable according to Jager et al. (2018)
   - [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm) - A public-key cryptosystem and Federal Information Processing Standard for digital signatures, it is based on the mathematical concept of modular exponentiation and the discrete logarithm problem
   - [ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) - A variant of the Digital Signature Algorithm (DSA) that utilizes elliptic-curve cryptography
-- Key formats
+- Standards & Formats
   - [PKCS #1: RSA Cryptography Specifications](https://en.wikipedia.org/wiki/PKCS_1) - A standard that provides the basic definitions of and recommendations for implementing the RSA algorithm for public-key cryptography
   - [PKCS #12: Personal Information Exchange Syntax](https://en.wikipedia.org/wiki/PKCS_12) - A file format for storing multiple cryptographic objects in a single file
-- Cryptographic Standards & Formats
   - [Cryptographic Message Syntax](https://en.wikipedia.org/wiki/Cryptographic_Message_Syntax) - The IETF's standard for cryptographically protected messages, used by cryptographic schemes and protocols to digitally sign, digest, authenticate, or encrypt any form of digital data
+- [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - Cryptographic algorithms that are thought to be secure against a cryptanalytic attack by a quantum computer
 
 ### Public Key Infrastructure (PKI)
 
 - [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure) - A set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke digital certificates
 - [Certificate authority (CA)](https://en.wikipedia.org/wiki/Certificate_authority) - An entity that stores, signs, and issues digital certificates
-- Registration authority (RA)
-- Validation authority (VA)
+- [Registration authority (RA)](https://en.wikipedia.org/wiki/Registration_authority) - An authority in a network that verifies user requests for a digital certificate and tells the certificate authority to issue it
+- [Validation authority (VA)](https://en.wikipedia.org/wiki/Validation_authority) - An entity that provides a service used to verify the validity of a digital certificate per the mechanisms described in the X.509 standard
+- [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate) - An electronic document used to prove the validity of a public key
+  - [Domain Validated (DV)](https://en.wikipedia.org/wiki/Domain-validated_certificate) - An X.509 public key certificate typically used for Transport Layer Security where the domain name of the applicant is validated by proving some control over a DNS domain
+  - [Organization Validated (OV)](https://en.wikipedia.org/wiki/Public_key_certificate#Organization_validation) - A certificate for which the certificate authority validates the legal identity of the requesting organization in addition to its control of the domain
+  - [Extended Validation (EV)](https://en.wikipedia.org/wiki/Extended_Validation_Certificate) - A certificate conforming to the X.509 standard that proves the legal entity of the owner and is signed by a certificate authority key that can issue EV certificates
 - Protocols & Standards
+  - [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) - A communications protocol for automating interactions between certificate authorities and their users' web servers
   - [Simple Certificate Enrollment Protocol](https://en.wikipedia.org/wiki/Simple_Certificate_Enrollment_Protocol) - A protocol for enrolling X.509 certificates in a secure and automated manner
 - Validation & Enrollment
   - [Domain Control Validation](https://github.com/digicert/domain-control-validation) - A process used by certificate authorities (CAs) to verify that the person or organization requesting a certificate has control over the domain(s) listed in the certificate
+- Certificate Authorities & Clients
+  - [Let's Encrypt](https://letsencrypt.org/) - A nonprofit Certificate Authority providing TLS certificates
+    - [certbot](https://certbot.eff.org/) - A free, open source software tool for automatically using Let's Encrypt certificates on manually-administrated websites to enable HTTPS
+    - [lego](https://go-acme.github.io/lego/) - A Let's Encrypt client and ACME library written in Go
+- Certificate Management Tools
+  - [mkcert.org](https://mkcert.org/) - A simple tool for making locally-trusted development certificates
+  - [cert-manager](https://cert-manager.io) - A powerful and extensible X.509 certificate controller for Kubernetes and OpenShift
+  - [cfssl](https://github.com/cloudflare/cfssl#readme) - Cloudflare's PKI toolkit
 - Trust Stores
   - [Certifi](https://certifi.io/) - A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts
-- [Public key certificate](https://en.wikipedia.org/wiki/Public_key_certificate) - An electronic document used to prove the validity of a public key
-  - Domain Validated (DV)
-  - Organization Validated (OV)
-  - Extended Validation (EV)
-- [Let's Encrypt](https://letsencrypt.org/) - A nonprofit Certificate Authority providing TLS certificates
-  - [certbot](https://certbot.eff.org/) - A free, open source software tool for automatically using Let's Encrypt certificates on manually-administrated websites to enable HTTPS
-  - [lego](https://go-acme.github.io/lego/) - A Let's Encrypt client and ACME library written in Go
-- [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) - A communications protocol for automating interactions between certificate authorities and their users' web servers
-- [mkcert.org](https://mkcert.org/) - A simple tool for making locally-trusted development certificates
-- [cert-manager](https://cert-manager.io) - A powerful and extensible X.509 certificate controller for Kubernetes and OpenShift
-- [cfssl](https://github.com/cloudflare/cfssl#readme) - Cloudflare's PKI toolkit
 
 ### Secrets Management
 
@@ -124,23 +133,24 @@
   - [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
   - [Secrets Store CSI Driver](https://secrets-store-csi-driver.sigs.k8s.io/) - A driver that allows Kubernetes to mount multiple secrets, keys, and certs stored in enterprise-grade external secrets stores into pods as a volume
   - [External Secrets Operator](https://external-secrets.io/latest/) - A Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, and IBM Cloud Secrets Manager
-- Vendor Services
+- Key Management Services
   - 💲 [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) - A cloud service to safeguard cryptographic keys and other secrets used by cloud apps and services
-  - 💲 [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - A secure and convenient storage system for API keys, passwords, certificates, and other sensitive data
   - 💲 [AWS Key Management Service](https://aws.amazon.com/kms/) - A service that makes it easy for you to create and manage cryptographic keys
+- Cloud Secrets Stores
+  - 💲 [Google Cloud Secret Manager](https://cloud.google.com/security/products/secret-manager) - A secure and convenient storage system for API keys, passwords, certificates, and other sensitive data
   - 💲 [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) - A secrets management service that helps you protect access to your applications, services, and IT resources
+- Personal Password Managers
+  - 💲 [1Password](https://1password.com/) - A password manager and secure vault platform for identities, credentials, and secrets across humans and AI agents
+  - [pass](https://www.passwordstore.org/) - The standard unix password manager
+  - [gokey](https://github.com/cloudflare/gokey) - A simple vaultless password manager in Go
+  - [Buttercup](https://buttercup.pw/) - A free, open-source and cross-platform password manager
 
 ### Applied Cryptography & Tools
 
-- Advanced Cryptography Topics
-  - [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) - Cryptographic algorithms that are thought to be secure against a cryptanalytic attack by a quantum computer
-  - Information Hiding
-    - [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of concealing a file, message, image, or video within another file, message, image, or video
-    - [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - A kind of marker covertly embedded in a noise-tolerant signal such as an audio, video or image data
-
-- Content Provenance & Authenticity
+- Content Provenance & Information Hiding
+  - [Steganography](https://en.wikipedia.org/wiki/Steganography) - The practice of concealing a file, message, image, or video within another file, message, image, or video
+  - [Digital watermarking](https://en.wikipedia.org/wiki/Digital_watermarking) - A kind of marker covertly embedded in a noise-tolerant signal such as an audio, video or image data
   - [C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org/) - An open technical standard for publishers, creators and consumers to establish the origin and edits of digital content
-
 - End-to-end Encryption Tools
   - [age](https://github.com/FiloSottile/age) - A simple, modern and secure file encryption tool, format, and Go library
   - [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) - A data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication
@@ -148,7 +158,6 @@
   - [keys.openpgp.org](https://keys.openpgp.org/about) - A public key server for OpenPGP
   - [GnuPG](https://gnupg.org/) - A free software replacement for the PGP cryptographic software suite
   - [Gpg4win](https://www.gpg4win.org/) - A Windows software package that facilitates the secure transport of emails and files with the help of OpenPGP
-
 - Cryptographic Libraries
   - [PyCryptodome](https://www.pycryptodome.org/) - A self-contained Python package of cryptographic primitives
   - [Python cryptography](https://cryptography.io/en/latest/) - A package designed to expose cryptographic primitives and recipes to Python developers
@@ -164,7 +173,7 @@
 
 :::
 
-### Integrated IAM
+### Identity Management & Directory Services
 
 - [Identity management](https://en.wikipedia.org/wiki/Identity_management) - A framework of policies and technologies for ensuring that the proper people in an enterprise have the appropriate access to technology resources
 - Self-hosted IAM Platforms
@@ -215,7 +224,6 @@
   - [Dex](https://dexidp.io/) - A Federated OpenID Connect Provider
   - 🪙 [Firebase Authentication](https://firebase.google.com/docs/auth) - A service that provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app
   - 🪙 [Supabase Auth](https://supabase.com/docs/guides/database/overview) - A service that provides user management and access control for Supabase projects
-  - 🪙 [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - A CAPTCHA system that enables web hosts to distinguish between human and automated access to websites
   - [Microsoft Authentication Library (MSAL)](https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-overview) - A library that helps developers integrate authentication and authorization into applications
   - [Application Default Credentials (ADC)](https://cloud.google.com/docs/authentication/provide-credentials-adc) - A mechanism used by Google Cloud client libraries to automatically find credentials based on the application environment
   - [Limen](https://limenauth.dev/) - A lightweight, composable authentication and authorization library for Go that provides sessions, password hashing, OAuth, and CSRF protection
@@ -255,10 +263,6 @@
 - [Threat modeling](https://en.wikipedia.org/wiki/Threat_model) - A process by which potential threats can be identified, enumerated, and prioritized from a hypothetical attacker's point of view
 - [OWASP Threat Modeling](https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/) - Guidance from the OWASP Security Culture project on integrating threat modeling into the development lifecycle
 - [STRIDE model](https://en.wikipedia.org/wiki/STRIDE_%28security%29) - A mnemonic for categorizing computer security threats into six categories
-- [MITRE ATT&CK](https://attack.mitre.org/) - A globally-accessible knowledge base of adversary tactics and techniques
-  - Tactics: The high-level objectives or goals that an adversary aims to achieve during an attack
-  - Techniques: The specific methods or ways adversaries achieve their tactical objectives
-  - Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations
 - Modeling Tools
   - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - A free, open-source, cross-platform threat modeling application
   - [threatspec](https://threatspec.org/) - A tool that allows you to define threat models as code
@@ -277,6 +281,7 @@
 
 ### Web Application Security
 
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/) - A standard awareness document for developers and web application security that represents a broad consensus about the most critical security risks to web applications
 - Security Mechanisms & Policies
   - [SOP (Same-origin policy)](https://en.wikipedia.org/wiki/Same-origin_policy) - An important concept in the web application security model
   - [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) - A mechanism that allows restricted resources on a web page to be requested from another domain
@@ -288,9 +293,8 @@
   - [Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) - A type of security vulnerability typically found in web applications
   - [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding) - A type of attack that allows a malicious web page to bypass the same-origin policy by exploiting the Domain Name System
   - [SSRF (Server-side request forgery)](https://en.wikipedia.org/wiki/Server-side_request_forgery) - A type of exploit where an attacker can abuse the functionality on the server to read or modify internal resources
-- Privacy & Transparency
-  - [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
-  - [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
+- Bot Mitigation
+  - 🪙 [ReCAPTCHA](https://en.wikipedia.org/wiki/ReCAPTCHA) - A CAPTCHA system that enables web hosts to distinguish between human and automated access to websites
 
 ### Application Security Testing (AST)
 
@@ -306,7 +310,7 @@
 - Dynamic Analysis (DAST)
   - [ZAP](https://zaproxy.org/) - The world's most widely used web app scanner, free and open source, and a community based GitHub Top 1000 project that anyone can contribute to
   - [Nuclei](https://github.com/projectdiscovery/nuclei) - A fast and customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL
-  - [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
+  - 🪙 [Burp Suite](https://portswigger.net/burp) - The class-leading vulnerability scanning, penetration testing, and web app security platform
 - Secret Detection
   - 🪙 [GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) - A tool that scans your repository's history for secrets
   - [Gitleaks](https://gitleaks.io/) - A SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
@@ -314,14 +318,18 @@
   - [Talisman](https://thoughtworks.github.io/talisman/) - A tool that installs a hook to your repository to ensure that potential secrets or sensitive information do not get committed
   - [TruffleHog](https://github.com/trufflesecurity/trufflehog) - A tool that scans your environment for secrets, digging deep into commit history and branches
   - [Whispers](https://github.com/Skyscanner/whispers) - A static code analysis tool designed for parsing various common data formats in search of hardcoded credentials
-- AI-orchestrated Penetration Testing
-  - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - An automated penetration testing framework powered by Large Language Models (LLMs)
-  - [PentAGI](https://github.com/vxcontrol/pentagi) - An open-source, fully autonomous AI agent system designed for automated security testing
-  - [Strix](https://github.com/usestrix/strix) - A set of autonomous AI agents that act like real hackers to run code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts
-  - [CAI](https://github.com/aliasrobotics/cai) - A lightweight, open-source framework that empowers security professionals to build and deploy AI-powered offensive and defensive automation
-  - [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - An advanced MCP server that lets AI agents autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research
-  - [Zen AI Pentest](https://shadd0wtaka.github.io/Zen-Ai-Pentest/) - An autonomous, AI-powered penetration testing framework that combines cutting-edge language models with professional security tools
-  - [Project Glasswing](https://www.anthropic.com/glasswing) - An initiative providing access to Anthropic's Claude Mythos Preview model for defensive cybersecurity, capable of autonomously finding vulnerabilities in critical software infrastructure
+- Penetration Testing
+  - [Penetration test](https://en.wikipedia.org/wiki/Penetration_test) - An authorized simulated cyberattack on a computer system, performed to evaluate the security of the system
+  - [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - The world's most used penetration testing framework
+  - [sqlmap](https://github.com/sqlmapproject/sqlmap) - An open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
+  - AI-orchestrated Penetration Testing
+    - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - An automated penetration testing framework powered by Large Language Models (LLMs)
+    - [PentAGI](https://github.com/vxcontrol/pentagi) - An open-source, fully autonomous AI agent system designed for automated security testing
+    - [Strix](https://github.com/usestrix/strix) - A set of autonomous AI agents that act like real hackers to run code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts
+    - [CAI](https://github.com/aliasrobotics/cai) - A lightweight, open-source framework that empowers security professionals to build and deploy AI-powered offensive and defensive automation
+    - [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - An advanced MCP server that lets AI agents autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research
+    - [Zen AI Pentest](https://shadd0wtaka.github.io/Zen-Ai-Pentest/) - An autonomous, AI-powered penetration testing framework that combines cutting-edge language models with professional security tools
+    - [Project Glasswing](https://www.anthropic.com/glasswing) - An initiative providing access to Anthropic's Claude Mythos Preview model for defensive cybersecurity, capable of autonomously finding vulnerabilities in critical software infrastructure
 
 ### Infrastructure as Code (IaC) Security
 
@@ -333,8 +341,6 @@
 - [kubesec](https://kubesec.io/) - A security risk analysis for Kubernetes resources
 - [PSRule](https://microsoft.github.io/PSRule/stable/) - A cross-platform PowerShell module with commands to test and verify infrastructure as code (IaC)
   - [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/) - A suite of rules to validate Azure resources and infrastructure as code (IaC) using PSRule
-- [ComplianceAsCode](https://github.com/ComplianceAsCode/content) - A project that provides security automation content in various formats like SCAP, Bash, and Ansible
-- [complyctl](https://github.com/complytime/complyctl) - A command-line tool that uses OSCAL to streamline compliance assessment activities
 
 ### Software Supply Chain Security (SSCS)
 
@@ -378,7 +384,6 @@
 
 ### Cloud-Native Application Protection (CNAPP)
 
-- [The 4 Cs of Cloud-Native Systems](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code) - A defense-in-depth approach that divides security strategies into four distinct layers to provide multilayered protection for cloud-native applications
 - 💲 [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/services/defender-for-cloud/) - A cloud-native application protection platform (CNAPP) with a set of security measures and practices designed to protect cloud-based applications
 - Cloud Security Posture Management (CSPM)
   - 💲 [AWS Security Hub](https://aws.amazon.com/security-hub/) - A cloud security posture management (CSPM) service that performs security best practice checks, aggregates alerts, and enables automated remediation
@@ -387,8 +392,6 @@
   - 💲 [Amazon Inspector](https://aws.amazon.com/inspector/) - An automated security assessment service that helps improve the security and compliance of applications deployed on AWS
   - [Falco](https://falco.org/) - The cloud-native runtime security project
   - [Tracee](https://aquasecurity.github.io/tracee/latest/) - A powerful runtime security and forensics tool for Linux
-  - [ClamAV](https://www.clamav.net/) - An open source antivirus engine for detecting trojans, viruses, malware & other malicious threats
-  - [YARA](https://virustotal.github.io/yara/) - The pattern matching swiss knife for malware researchers
 
 ### Security Operations & Monitoring (SecOps)
 
@@ -404,8 +407,11 @@
   - [Sigma Detection Format](https://sigmahq.io/) - A generic and open signature format that allows you to describe relevant log events in a straightforward manner
   - 💲 [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - An AWS service that helps you enable operational and risk auditing, governance, and compliance of your AWS account
   - 💲 [AWS Config](https://aws.amazon.com/config/) - A service that enables you to assess, audit, and evaluate the configurations of your AWS resources
+- Malware Detection & Analysis
+  - [ClamAV](https://www.clamav.net/) - An open source antivirus engine for detecting trojans, viruses, malware & other malicious threats
+  - [YARA](https://virustotal.github.io/yara/) - The pattern matching swiss knife for malware researchers
 
-### Policy Enforcement
+### Policy & Compliance as Code
 
 - [Open Policy Agent (OPA)](https://www.openpolicyagent.org/) - An open source, general-purpose policy engine that unifies policy enforcement across the stack
   - [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/) - A high-level declarative language used to write policies for OPA
@@ -415,6 +421,9 @@
 - Kubernetes Policy Engines
   - [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/) - A customizable validating webhook that enforces policies executed by the Open Policy Agent (OPA)
   - [Kyverno](https://kyverno.io/) - A policy engine designed for Kubernetes
+- Compliance as Code
+  - [ComplianceAsCode](https://github.com/ComplianceAsCode/content) - A project that provides security automation content in various formats like SCAP, Bash, and Ansible
+  - [complyctl](https://github.com/complytime/complyctl) - A command-line tool that uses OSCAL to streamline compliance assessment activities
 
 ### Digital Forensics & Incident Response (DFIR)
 
@@ -425,6 +434,25 @@
 - Tools & Platforms
   - [Volatility](https://github.com/volatilityfoundation/volatility3) - The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples
   - [Autopsy](https://github.com/sleuthkit/autopsy) - A digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools
+
+### Host & Endpoint Hardening
+
+- Exploit Mitigations
+  - [Address space layout randomization (ASLR)](https://en.wikipedia.org/wiki/Address_space_layout_randomization) - A computer security technique involved in memory protection that prevents exploitation of memory vulnerabilities by randomly arranging the address space positions of key data areas of a process
+  - [W^X](https://en.wikipedia.org/wiki/W%5EX) - A security feature that ensures that every page in a process's address space is either writable or executable, but not both
+  - [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
+- Hardware Root of Trust
+  - [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - A specification for a secure cryptoprocessor, a dedicated microcontroller designed to secure hardware through integrated cryptographic keys
+- Linux Mandatory Access Control
+  - [SELinux](https://selinuxproject.org/page/Main_Page) - A set of kernel modifications and user-space tools that have been added to various Linux distributions
+  - [AppArmor](https://apparmor.net/) - A Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles
+- Sandboxing
+  - [bubblewrap](https://github.com/containers/bubblewrap) - A low-level unprivileged sandboxing tool used by Flatpak and similar projects
+- Linux Fine-grained Access Control
+  - [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - A feature that grants some of the power of the superuser to a process, while not granting all of them
+- Host Compliance Scanning
+  - [OpenSCAP](https://www.open-scap.org/) - An open source implementation of the Security Content Automation Protocol (SCAP)
+  - [Lynis](https://cisofy.com/lynis/) - A security auditing tool for systems running Linux, macOS, or Unix-based operating system
 
 ## Secure Communications & Networking
 
@@ -508,6 +536,17 @@
 - [METR](https://metr.org/) - A research nonprofit that scientifically measures whether and when AI systems might threaten catastrophic harm to society
 - 💲 [Microsoft Agent 365](https://www.microsoft.com/en-us/microsoft-agent-365) - A centralized governance and management platform designed to oversee autonomous AI agents within an enterprise environment
 
+### Privacy Engineering
+
+- [Privacy by design](https://en.wikipedia.org/wiki/Privacy_by_design) - An approach to systems engineering which calls for privacy to be taken into account throughout the whole engineering process
+- [Privacy-enhancing technologies](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies) - The technologies that embody fundamental data protection principles by minimizing personal data use, maximizing data security, and empowering individuals
+- Data De-identification
+  - [Data anonymization](https://en.wikipedia.org/wiki/Data_anonymization) - A type of information sanitization whose intent is privacy protection, removing personally identifiable information from data sets so that the people whom the data describe remain anonymous
+  - [Pseudonymization](https://en.wikipedia.org/wiki/Pseudonymization) - A data management and de-identification procedure by which personally identifiable information fields within a data record are replaced by one or more artificial identifiers, or pseudonyms
+  - [Differential privacy](https://en.wikipedia.org/wiki/Differential_privacy) - A mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects
+- Web Privacy
+  - [Privacy sandbox](https://developers.google.com/privacy-sandbox) - Google's initiative to create web technologies that protect people's privacy online and give companies and developers the tools to build thriving digital businesses
+
 ### Regulations & Standards
 
 - Laws & Regulations
@@ -533,7 +572,9 @@
 
 ### Vulnerability Management & Reporting
 
-- [Bug bounty program](https://en.wikipedia.org/wiki/Bug_bounty_program) - A monetary reward given to ethical hackers for successfully discovering and reporting a vulnerability or bug to the application's developer
+- Vulnerability Disclosure
+  - [Bug bounty program](https://en.wikipedia.org/wiki/Bug_bounty_program) - A monetary reward given to ethical hackers for successfully discovering and reporting a vulnerability or bug to the application's developer
+  - [security.txt](https://securitytxt.org/) - A proposed standard which allows websites to define security policies for researchers
 - Identifiers & Enumerations
   - [CVE (Common Vulnerabilities and Exposures)](https://cve.mitre.org/cve/) - A system that provides a reference-method for publicly known information-security vulnerabilities and exposures
   - [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/) - A category system for software weaknesses and vulnerabilities
@@ -548,36 +589,3 @@
   - [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol/) - A multi-purpose framework of specifications that supports automated configuration, vulnerability and patch checking
   - [NVD (U.S. National Vulnerability Database)](https://nvd.nist.gov/) - The U.S. government repository of standards based vulnerability management data
   - [SARIF](https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html) - A standard format for the output of static analysis tools
-
-## System & Personal Security
-
-:::note[Relevant DSS-P Skills]
-
-- 4\. Security > 4\.1 Security Management > Security System Construction and Operation
-- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
-
-:::
-
-### OS & Endpoint Security
-
-- [Address space layout randomization (ASLR)](https://en.wikipedia.org/wiki/Address_space_layout_randomization) - A computer security technique involved in memory protection that prevents exploitation of memory vulnerabilities by randomly arranging the address space positions of key data areas of a process
-- [W^X](https://en.wikipedia.org/wiki/W%5EX) - A security feature that ensures that every page in a process's address space is either writable or executable, but not both
-- [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) - A general term for computer security techniques that prevent a wide variety of malware attacks from redirecting the flow of execution of a program
-- [TPM (Trusted Platform Module)](https://en.wikipedia.org/wiki/Trusted_Platform_Module) - A specification for a secure cryptoprocessor, a dedicated microcontroller designed to secure hardware through integrated cryptographic keys
-- Linux Mandatory Access Control
-  - [SELinux](https://selinuxproject.org/page/Main_Page) - A set of kernel modifications and user-space tools that have been added to various Linux distributions
-  - [AppArmor](https://apparmor.net/) - A Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles
-  - [bubblewrap](https://github.com/containers/bubblewrap) - A low-level unprivileged sandboxing tool used by Flatpak and similar projects
-- Linux Fine-grained Access Control
-  - [Linux capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html) - A feature that grants some of the power of the superuser to a process, while not granting all of them
-- General Scanning
-  - [OpenSCAP](https://www.open-scap.org/) - An open source implementation of the Security Content Automation Protocol (SCAP)
-  - [Lynis](https://cisofy.com/lynis/) - A security auditing tool for systems running Linux, macOS, or Unix-based operating system
-
-### Personal Security Tools
-
-- Password Managers
-  - 💲 [1Password](https://1password.com/) - A password manager and secure vault platform for identities, credentials, and secrets across humans and AI agents
-  - [pass](https://www.passwordstore.org/) - The standard unix password manager
-  - [gokey](https://github.com/cloudflare/gokey) - A simple vaultless password manager in Go
-  - [Buttercup](https://buttercup.pw/) - A free, open-source and cross-platform password manager

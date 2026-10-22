@@ -210,6 +210,7 @@
   - [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) - ソフトウェア開発における、質の高いソフトウェア、継続的な価値の追加、専門家コミュニティ、生産的なパートナーシップの重要性を強調する宣言です
 - フィードバックモデル
   - [DESC feedback model](https://workmotion.com/academy-post/the-desc-feedback-model/) - 行動を説明し、その影響を伝え、望む変化を明示し、結果を説明することによって建設的なフィードバックを行うためのコミュニケーションツールです
+  - [Rubric](https://en.wikipedia.org/wiki/Rubric_(academic)) - 回答の質を評価するために使用されるスコアリングツールです
 
 ### 組織行動
 

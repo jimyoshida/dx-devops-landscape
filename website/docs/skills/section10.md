@@ -384,6 +384,8 @@
 - Multi-Environment Test Runners
   - [nox](https://nox.thea.codes/) - A command-line tool that automates testing in multiple Python environments, similar to tox
   - [tox](https://tox.wiki/en) - A command-line driven automated testing tool for Python
+- Architecture Testing
+  - [ArchUnit](https://www.archunit.org/) - A free, simple and extensible library for checking the architecture of your Java code using any plain Java unit test framework
 
 ### Mutation Testing
 
