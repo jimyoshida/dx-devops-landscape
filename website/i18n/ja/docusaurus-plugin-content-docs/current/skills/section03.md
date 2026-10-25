@@ -443,6 +443,7 @@
 
 - コンセプト
   - [Observability](https://en.wikipedia.org/wiki/Observability_(software)) - システムの外部出力に関する知識から、その内部状態をどれだけよく推測できるかを示す尺度です
+  - [Distributed Tracing](https://opentelemetry.io/docs/concepts/observability-primer/#distributed-traces) - 特にマイクロサービスアーキテクチャで構築されたアプリケーションのプロファイリングとモニタリングのための手法です
 - インストゥルメンテーションライブラリ
   - [OpenTelemetry](https://opentelemetry.io/) - トレース、メトリクス、ログなどのテレメトリデータをインストゥルメント化、生成、収集、エクスポートするための、ベンダー中立なオープンソースのオブザーバビリティフレームワークです
   - [Micrometer](https://micrometer.io/) - JVM ベースのアプリケーション向けのメトリクスインストゥルメンテーションライブラリです

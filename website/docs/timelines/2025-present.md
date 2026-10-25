@@ -38,6 +38,8 @@ sidebar_position: 7
 
 🧠 The release of Claude 4 (Opus and Sonnet) on May 22, 2025, further integrated computer use capabilities into the model's core agentic workflows, featuring improved pixel-counting and reduced latency.
 
+📊 The final release of Delta Lake 4.0.0 arrived on June 9, 2025, adding the variant data type for semi-structured data, catalog-managed tables in preview, and Delta Connect for running Delta operations over the Spark Connect protocol
+
 🧠 On June 17, 2025, Google announced general availability for 2.5 Pro and Flash. They also introduced Gemini 2.5 Flash-Lite that same day, a model optimized for speed and cost-efficiency.
 
 🖥️ Gemini CLI was officially launched by Google on June 25, 2025, as an open-source command-line interface for Gemini 2.5 Pro, enabling AI-powered coding, debugging, research, and more directly in terminal environments.

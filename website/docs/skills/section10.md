@@ -150,6 +150,7 @@
   - [Nokogiri](https://nokogiri.org/) - A Ruby library that makes it easy and painless to work with XML and HTML, providing tools for reading, writing, modifying, and querying documents
 - [logfmt](https://brandur.org/logfmt) - A log format that is simple, fast, and easy for humans and machines to parse
 - [JSON Lines](https://jsonlines.org/) - A convenient format for storing structured data that may be processed one record at a time
+- [BSON](https://bsonspec.org/) - A bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments
 - Related Tools
   - [fx](https://fx.wtf/) - A terminal JSON viewer
   - [jnv](https://github.com/ynqa/jnv) - An interactive JSON viewer and jq filter editor designed for navigating JSON

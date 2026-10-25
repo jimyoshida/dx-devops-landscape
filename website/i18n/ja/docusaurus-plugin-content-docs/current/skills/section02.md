@@ -404,6 +404,11 @@
   - [Lemmy](https://join-lemmy.org/) - 企業による追跡や広告に頼ることなく、ユーザーが自分の体験をコントロールできるようにする分散型ディスカッションプラットフォームです
   - [Diaspora](https://diasporafoundation.org/) - pod と呼ばれる独立して所有されたノードが相互運用してネットワークを形成する、非営利でユーザー所有の分散型ソーシャルネットワークです
 
+### 分散型ストレージ
+
+- [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) - Web をより速く、安全に、そしてよりオープンにすることを目的として設計された、ピアツーピアのハイパーメディアプロトコルです
+  - [Kubo](https://github.com/ipfs/kubo) - IPFS の Go 言語による実装です
+
 ## 開発・テストツール
 
 :::note[Relevant DSS-P Skills]

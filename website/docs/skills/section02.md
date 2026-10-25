@@ -404,6 +404,11 @@
   - [Lemmy](https://join-lemmy.org/) - A decentralized discussion platform that allows users to control their experience without corporate tracking or advertising
   - [Diaspora](https://diasporafoundation.org/) - A nonprofit, user-owned, distributed social network consisting of independently owned nodes called pods that interoperate to form the network
 
+### Decentralized Storage
+
+- [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) - A peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open
+  - [Kubo](https://github.com/ipfs/kubo) - A Go implementation of IPFS
+
 ## Development & Testing Tools
 
 :::note[Relevant DSS-P Skills]

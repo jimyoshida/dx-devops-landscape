@@ -69,6 +69,7 @@ section02: Web Application Development
   # Decentralized Web
     # Blockchain Technology
     # Decentralized Social
+    # Decentralized Storage
   # Development & Testing Tools
     # Web/HTTP Clients
     # Web Debugging Tools
@@ -166,50 +167,50 @@ section05: Data Science & Engineering
   # Foundational Concepts
     # General Data Concepts & Principles
     # Core Data Engineering & Database Concepts
-    # Data Governance, Quality & Architecture
-  # Data Science Toolkit
-    # Programming Languages & Libraries
-    # Specialized & Scientific Tools
-    # Data Sources & Geospatial
-    # Spreadsheet & Collaborative Data Platforms
-    # Interactive Computing Environments
-  # Data Visualization
-    # Common Chart Types
-    # Visualization Tools & Libraries
-    # Dashboarding & Web Apps
-  # Distributed Systems
-    # Distributed Computing Principles
-    # Consensus & Replication Strategies
-    # Distributed Patterns & Observability
-    # Distributed Storage Systems
+    # Data Modeling
+    # Data Analysis Process Models
   # Mathematics & Statistics
     # Base Mathematics
     # Probability & Information Theory
     # Statistics & Numerical Methods
-  # Data Formats & Architecture
-    # Data Formats & Table Formats
-    # Data Architectures & Methodologies
-    # Data Governance & Metadata Management
-    # Data Quality & Validation
-    # Data Versioning & Schema Management
+  # Data Science Toolkit
+    # Programming Languages & Libraries
+    # Specialized & Scientific Tools
+    # Spreadsheet & Collaborative Data Platforms
+    # Interactive Computing Environments
+  # Data Visualization & Business Intelligence
+    # Common Chart Types
+    # Visualization Tools & Libraries
+    # Dashboarding & Web Apps
+    # Business Intelligence
+    # Semantic Layer
+  # Data Management & Governance
+    # Data Governance & Stewardship
+    # Master Data & Data Quality
+    # Metadata Management & Data Catalogs
+    # Data Contracts & Schema Management
   # Relational Databases (SQL)
     # SQL Fundamentals
     # Database Management Systems (DBMS)
-    # Cloud & Managed Services
     # Connectivity & Tooling
-  # NoSQL & Specialized Databases
+  # NoSQL, Search & Specialized Databases
     # NoSQL Data Models
     # Vector & AI Databases
-    # Cloud NoSQL Services
+    # Search Engines & Information Retrieval
+  # Distributed Systems
+    # Distributed Computing Principles
+    # Consensus & Replication Strategies
   # Data Processing & Messaging
     # Enterprise Integration
     # Message Queuing & Event Streaming
     # Batch Processing (ETL/ELT)
     # Stream Processing
-  # Data Analytics & Search
-    # Search Engines & Platforms
-    # Analytics Engines & Platforms
-    # Semantic Layer
+  # Data Lakehouse Architecture
+    # Lakehouse Concepts & Patterns
+    # Lakehouse Storage Layer
+    # Open File & Table Formats
+    # Query Engines & Catalogs
+    # Lakehouse & Cloud Data Platforms
 section06: AI, Machine Learning & LLM
   # Foundations of AI & Machine Learning
   # Machine Learning

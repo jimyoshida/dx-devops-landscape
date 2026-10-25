@@ -38,6 +38,8 @@
 - [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - ソフトウェア設計において特定の文脈内で頻繁に発生する問題に対する、一般的で再利用可能な解決策です
 - [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - オブジェクト指向システムにおけるクラスの責務の構造化を助ける、ソフトウェア設計・分析で使用されるアーキテクチャパターンです
 - [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - データストアの読み取り操作と更新操作を分離するパターンです
+- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - アプリケーションの状態に対するすべての変更を不変のイベント列として保存するパターンです
+- [Circuit Breaker Pattern](https://martinfowler.com/bliki/CircuitBreaker.html) - 分散システムにおける連鎖的な障害を防ぐための設計パターンです
 - [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - メソッドチェーンに基づいてオブジェクト指向 API を設計する手法であり、ソースコードの可読性を通常の文章に近づけることを目標としています
 - [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - 関連するプログラムロジックを 3 つの相互接続された要素に分割する、ユーザーインターフェース開発によく使われるソフトウェア設計パターンです
 - [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - オブジェクトや関数が依存する他のオブジェクトや関数を受け取る設計パターンです

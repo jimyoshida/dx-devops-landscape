@@ -150,6 +150,7 @@
   - [Nokogiri](https://nokogiri.org/) - ドキュメントの読み取り、書き込み、変更、クエリのためのツールを提供し、XML と HTML の操作を簡単で苦労なく行えるようにする Ruby ライブラリです
 - [logfmt](https://brandur.org/logfmt) - シンプルで高速、かつ人間にもマシンにも解析しやすいログフォーマットです
 - [JSON Lines](https://jsonlines.org/) - 一度に 1 レコードずつ処理できる構造化データを保存するための便利なフォーマットです
+- [BSON](https://bsonspec.org/) - JSON ライクなドキュメントをバイナリエンコードしたシリアライゼーション形式です
 - 関連ツール
   - [fx](https://fx.wtf/) - ターミナル向けの JSON ビューアーです
   - [jnv](https://github.com/ynqa/jnv) - JSON のナビゲーション用に設計された、対話型の JSON ビューアーおよび jq フィルターエディタです

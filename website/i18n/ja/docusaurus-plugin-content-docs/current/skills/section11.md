@@ -411,9 +411,13 @@
     - [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment) - モバイルアプリから QR コードをスキャンして決済を行う非接触型の決済方法です
 - Backend-as-a-Service (BaaS)
   - 🪙 [Firebase](https://firebase.google.com/) - ユーザーに愛されるアプリやゲームの構築・成長を支援するアプリ開発プラットフォームです
+    - 🪙 [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - 画像や動画などのユーザー生成コンテンツをアップロード・共有できるようにするサービスです
   - [Supabase](https://supabase.com/) - データベース、認証、インスタント API、エッジ関数、リアルタイムサブスクリプション、ストレージ、ベクトル埋め込みを提供する Postgres 開発プラットフォームです
+    - 🪙 [Supabase Storage](https://supabase.com/docs/guides/storage) - 写真や動画のような大容量ファイルの保存・配信をシンプルにするサービスです
   - 🪙 [AWS Amplify](https://aws.amazon.com/amplify/) - フロントエンドの Web・モバイル開発者が AWS 上でフルスタックアプリケーションを簡単に構築、出荷、ホストできる完全なソリューションです
   - 🪙 [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) - デプロイ時の組み込みフォーム検出により、追加の API 呼び出しや JavaScript なしでフォームを管理できるサーバーレスのフォーム処理です
+  - 🪙 [Vercel Blob](https://vercel.com/docs/vercel-blob) - ビルド時または実行時にファイルをアップロードするためのオブジェクトストレージサービスで、プライベートとパブリックのアクセスモードを備えます
+  - 🪙 [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/) - 頻繁な読み取りと少ない書き込みに最適化された、Blob と非構造化データのための高可用性データストアで、シンプルなキー/バリューストアとしても使えます
 
 ## モノのインターネット (IoT)
 
@@ -486,6 +490,7 @@
 - 💲 [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - あらゆるデバイス向けのプロフェッショナルグレードのアプリを迅速かつ効率的に構築するプラットフォームです
 - 💲 [AppSheet](https://about.appsheet.com/home/) - 生産性を高める強力なアプリケーションと自動化の構築を支援する、ノーコードプラットフォームです
 - 💲 [OutSystems](https://www.outsystems.com/) - 重要なエンタープライズアプリケーションの開発を加速する、高性能なローコードプラットフォームです
+- 🔒 [NocoBase](https://www.nocobase.com/) - 複雑な業務アプリケーションや社内ツールの構築向けに設計された、拡張性を最優先するオープンソースのノーコードプラットフォームです
 
 ### ワークフロー・連携自動化
 

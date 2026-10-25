@@ -411,9 +411,13 @@
     - [QR code payment](https://en.wikipedia.org/wiki/QR_code_payment) - A contactless payment method where a payment is performed by scanning a QR code from a mobile app
 - Backend-as-a-Service (BaaS)
   - 🪙 [Firebase](https://firebase.google.com/) - An app development platform that helps you build and grow apps and games users love
+    - 🪙 [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - The service letting you upload and share user generated content, such as images and video
   - [Supabase](https://supabase.com/) - A Postgres development platform that provides a database, authentication, instant APIs, edge functions, real-time subscriptions, storage, and vector embeddings
+    - 🪙 [Supabase Storage](https://supabase.com/docs/guides/storage) - The service making it simple to store and serve large files like photos and videos
   - 🪙 [AWS Amplify](https://aws.amazon.com/amplify/) - A complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS
   - 🪙 [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) - A serverless form handling that manages forms without extra API calls or additional JavaScript, using built-in form detection at deploy time
+  - 🪙 [Vercel Blob](https://vercel.com/docs/vercel-blob) - An object storage service for uploading files at build time or at runtime, with private and public access modes
+  - 🪙 [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/) - A highly-available data store for blobs and unstructured data, optimized for frequent reads and infrequent writes and usable as a simple key/value store
 
 ## Internet of Things (IoT)
 
@@ -486,6 +490,7 @@
 - 💲 [Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps) - A platform to rapidly and efficiently build professional-grade apps for any device
 - 💲 [AppSheet](https://about.appsheet.com/home/) - The no-code platform that helps build powerful applications and automations to boost productivity
 - 💲 [OutSystems](https://www.outsystems.com/) - A high-performance low-code platform that accelerates the development of critical enterprise applications
+- 🔒 [NocoBase](https://www.nocobase.com/) - A scalability-first, open-source no-code platform designed for building complex business applications and internal tools
 
 ### Workflow & Integration Automation
 

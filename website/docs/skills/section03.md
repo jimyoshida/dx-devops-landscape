@@ -443,6 +443,7 @@
 
 - Concepts
   - [Observability](https://en.wikipedia.org/wiki/Observability_(software)) - A measure of how well internal states of a system can be inferred from knowledge of its external outputs
+  - [Distributed Tracing](https://opentelemetry.io/docs/concepts/observability-primer/#distributed-traces) - A method for profiling and monitoring applications, especially those built using microservices architecture
 - Instrumentation Libraries
   - [OpenTelemetry](https://opentelemetry.io/) - A vendor-neutral open source Observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs
   - [Micrometer](https://micrometer.io/) - A metrics instrumentation library for JVM-based applications
