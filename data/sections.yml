@@ -214,41 +214,51 @@ section05: Data Science & Engineering
 section06: AI, Machine Learning & LLM
   # Foundations of AI & Machine Learning
   # Machine Learning
-    # Learning Paradigms
+    # Supervised Learning
+    # Unsupervised Learning & Anomaly Detection
+    # Reinforcement Learning & Probabilistic Models
+    # Model Evaluation & Tuning
+    # Forecasting & Recommender Systems
   # Neural Networks and Deep Learning
-    # Architectures
+    # Neural Network Fundamentals
+    # Deep Learning Training & Optimization
+    # Neural Network Architectures
+    # Explainable AI & Model Visualization
   # Natural Language Processing (NLP)
-    # Concepts & Vector Representations
+    # Computational Linguistics
+    # Information Retrieval & Text Similarity
+    # Text Representation & Embeddings
+    # Morphological Analysis & Text Segmentation
   # Computer Vision
-    # Image Processing & Fundamentals
-    # 3D Vision & Geometry
-    # Object Detection & Recognition
-    # Pose & Body Estimation
-    # Face & Biometric Recognition
+    # Image Processing
+    # Object Detection & Segmentation
+    # Human Pose & Face Analysis
+    # 3D Vision & Point Clouds
     # OCR & Text Recognition
   # Speech & Audio Processing
     # Automatic Speech Recognition (ASR)
     # Text-to-Speech (TTS) & Voice Synthesis
     # Audio Processing & Tools
-    # Voice Activity Detection & Audio Enhancement
-    # Speaker Identification & Voice Biometrics
+    # Speaker Diarization & Voice Activity Detection
   # Generative AI & Large Language Models (LLMs)
-    # Model Providers & Aggregators
-    # Standards & Model Formats
-    # Model Interface SDKs & Clients
-    # Techniques & Methods
-    # Development Tools & Utilities
+    # Model Providers & AI Gateways
+    # LLM Client SDKs & Structured Output
+    # Prompt Engineering
+    # Retrieval-Augmented Generation (RAG)
+    # Model Adaptation & Compression
     # Benchmarking & Analysis
   # Agentic AI
-    # Standards & Protocols
-    # Agentic Patterns & Techniques
-    # Agent Orchestration & Frameworks
+    # Agent Standards & Protocols
+    # Agentic Patterns & Memory
+    # Agent Orchestration Frameworks
     # Agent Development Kits (ADK)
-    # Supporting Services & Platforms
+    # Agent Skills & MCP Ecosystem
+    # Agent Platforms & Tools
   # MLOps & LLMOps
-    # ML Lifecycle & MLOps Platforms
-    # LLM Serving & Runtimes
-    # LLMOps & Observability
+    # ML Lifecycle & Managed AI Platforms
+    # Model Serving & Inference Runtimes
+    # LLM Observability
+    # LLM Evaluation
 section07: Fundamental Developer Skills
   # Software Development Methods
     # Agile Development
