@@ -210,6 +210,7 @@
   - [sd](https://github.com/chmln/sd) - 直感的な検索・置換コマンドラインツールです
   - [GNU diffutils](https://www.gnu.org/software/diffutils/) - ファイル間の差分を見つけるための複数のプログラムからなるパッケージです
   - [colordiff](https://www.colordiff.org/) - diff と同じ出力を、可読性を高める色付きのシンタックスハイライト付きで生成するツールです
+  - [jc](https://kellyjonbrazil.github.io/jc/docs/) - 一般的なコマンドラインツールやファイル形式の出力を JSON または Dictionary に変換する CLI ツール兼 Python ライブラリです
 
 ### 表形式データ
 

@@ -27,16 +27,14 @@
 - 主要な方法論
   - [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) - ソフトウェアの品質と、顧客要件の変化への対応力を向上させることを目的としたソフトウェア開発方法論です
   - [Scrum](https://www.scrum.org/learning-series/what-is-scrum/) - 人々が生産的かつ創造的に、可能な限り最高価値のプロダクトを届けながら、複雑で適応を要する問題に対処できるフレームワークです
-  - [Acceptance test-driven development](https://en.wikipedia.org/wiki/Acceptance_test-driven_development) - ビジネス顧客、開発者、テスターの間のコミュニケーションに基づいた開発方法論です
-    - [Three Amigos](https://agilealliance.org/glossary/three-amigos/) - プロダクトオーナー、開発者、品質テスターが集まり、プロジェクトのスコープについて明確化を図るミーティングです
-  - [Behavior driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) - ソフトウェアプロジェクトにおいて、開発者、品質保証テスター、顧客代表者間の協調を促すアジャイルソフトウェア開発プロセスです
-    - [Specification by example](https://en.wikipedia.org/wiki/Specification_by_example) - 抽象的な記述の代わりに現実的な例を用いて要件を捉え説明することに基づいて、ソフトウェアプロダクトの要件とビジネス指向の機能テストを定義する協調的アプローチです
-- 主要なプラクティス
-  - [Refactoring](https://refactoring.com/) - 既存のコードベースを再構築するための規律あるテクニックで、外部の振る舞いを変えずに内部構造を変更します
-    - [Software rot](https://en.wikipedia.org/wiki/Software_rot) - ソフトウェアが時間の経過とともに品質、パフォーマンス、または有用性が劣化していく傾向です
-    - [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) - より時間のかかるより良いアプローチを使う代わりに、今簡単な（限定的な）解決策を選ぶことで生じる追加的な手戻りの暗黙的なコストを反映した、ソフトウェア開発における概念です
-      - [Technical Debt Ratio](https://brainhub.eu/library/technical-debt-ratio) - コードベース全体をゼロから開発するコストと比較して、既存の技術的負債を修正するコストを測定するために使用されるメトリクスです
-  - [Test driven development](https://en.wikipedia.org/wiki/Test-driven_development) - ソフトウェアが完全に開発される前にソフトウェア要件をテストケースに変換し、すべてのテストケースに対してソフトウェアを繰り返しテストすることであらゆるソフトウェア開発を追跡する、ソフトウェア開発プロセスです
+
+### テスト駆動開発と振る舞い駆動開発
+
+- [Test driven development](https://en.wikipedia.org/wiki/Test-driven_development) - ソフトウェアが完全に開発される前にソフトウェア要件をテストケースに変換し、すべてのテストケースに対してソフトウェアを繰り返しテストすることであらゆるソフトウェア開発を追跡する、ソフトウェア開発プロセスです
+- [Acceptance test-driven development](https://en.wikipedia.org/wiki/Acceptance_test-driven_development) - ビジネス顧客、開発者、テスターの間のコミュニケーションに基づいた開発方法論です
+  - [Three Amigos](https://agilealliance.org/glossary/three-amigos/) - プロダクトオーナー、開発者、品質テスターが集まり、プロジェクトのスコープについて明確化を図るミーティングです
+- [Behavior driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) - ソフトウェアプロジェクトにおいて、開発者、品質保証テスター、顧客代表者間の協調を促すアジャイルソフトウェア開発プロセスです
+  - [Specification by example](https://en.wikipedia.org/wiki/Specification_by_example) - 抽象的な記述の代わりに現実的な例を用いて要件を捉え説明することに基づいて、ソフトウェアプロダクトの要件とビジネス指向の機能テストを定義する協調的アプローチです
 - ATDD/BDD 向けツール
   - [Gauge](https://gauge.org/index.html) - 受け入れテストの作成と保守の手間を取り除く、無料でオープンソースのテスト自動化フレームワークです
   - [Cucumber](https://cucumber.io/) - プレーンテキストで書かれた実行可能な仕様を読み取り、ソフトウェアがその仕様どおりに動作することを検証することで、ビヘイビア駆動開発 (BDD) をサポートするツールです
@@ -64,7 +62,7 @@
   - [Muda (Japanese term)](https://en.wikipedia.org/wiki/Muda_(Japanese_term)) - リソースの最適な配分からの逸脱を表す 3 種類のうちの 1 つとして、リーンプロセスマネジメントにおける重要な概念であり、無駄、無用、浪費を意味します
 - [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) - 管理可能などんなシステムも、ごく少数の制約によってその目標達成がより制限されているとみなす経営パラダイムです
 
-### DevOps とエンジニアリング生産性
+### DevOps の文化とプラクティス
 
 - 概念
   - [CALMS framework](https://www.atlassian.com/devops/frameworks/calms-framework) - Culture（文化）、Automation（自動化）、Lean（リーン）、Measurement（測定）、Sharing（共有）の略で、DevOps へのアプローチのための概念モデルです
@@ -76,20 +74,6 @@
   - [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) - 変更を全インフラストラクチャに展開する前に、少数のユーザーサブセットに徐々に展開することで、本番環境に新しいソフトウェアバージョンを導入するリスクを削減するテクニックです
   - [Everything as code](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/everything-as-code.html) - ネットワークインフラストラクチャ、ドキュメント、構成を含む開発ライフサイクルのあらゆる側面の保守性とスケーラビリティを向上させるために、バージョン管理、テスト、デプロイメントと同じ原則を適用しようとするソフトウェア開発プラクティスです
 
-### リリース自動化
-
-- [semantic-release](https://semantic-release.gitbook.io/semantic-release) - 形式化されたコミットメッセージに基づいて次のバージョン番号を決定し、リリースノートを生成し、パッケージを公開する、完全に自動化されたバージョン管理・パッケージ公開ツールです
-- [Release Please](https://github.com/googleapis/release-please) - Conventional Commits に基づいて、プロジェクトの変更履歴生成、GitHub リリースの作成、バージョンアップを自動化するツールです
-- [GoReleaser](https://goreleaser.com/) - Go プロジェクト向けのリリース自動化ツールです
-- [Changesets](https://github.com/changesets/changesets) - モノレポに重点を置いたバージョニングと変更履歴を管理するツールです
-
-### リリースの慣習と標準
-
-- [keep a changelog](https://keepachangelog.com/) - プロジェクトの各バージョンにおける注目すべき変更点を、時系列順に整理してまとめたファイルです
-- [Conventional Commits](https://www.conventionalcommits.org/) - 明示的なコミット履歴を作成するための簡単なルールセットを提供する、コミットメッセージ上の軽量な規約です
-- [Semantic Versioning](https://semver.org/) - バージョン番号の割り当て方と増分方法を規定する、シンプルなルールと要件のセットです
-- [CalVer](https://calver.org/) - 恣意的な番号の代わりに、プロジェクトのリリースカレンダーに基づいたバージョニング規約です
-
 ## オープンエコシステム
 
 :::note[Relevant DSS-P Skills]
@@ -98,7 +82,7 @@
 
 :::
 
-### オープンソース
+### オープンソースライセンス
 
 - [Open Source Initiative](https://opensource.org/) - オープンソースソフトウェアとそのコミュニティの推進と保護に専念する非営利団体です
 - 主要なパブリックライセンス
@@ -111,26 +95,25 @@
   - [SSPL](https://www.mongodb.com/licensing/server-side-public-license) - ライセンスされたソフトウェアをサービスとして提供する事業者に対し、サービス全体の完全なソースコードの公開を義務付ける、強力なコピーレフトソフトウェアライセンスです
 - 原則と格言
   - [Linus's law](https://en.wikipedia.org/wiki/Linus%27s_law) - 「十分な目玉があれば、すべてのバグは深刻ではない」という主張であり、オープンソース開発における重要な原則です
-- ソースリポジトリ
-  - 🪙 [GitHub](https://github.com/) - 安全なソフトウェアを構築、拡張、提供するための AI 駆動の開発者プラットフォームです
-  - 🪙 [GitLab.com](https://about.gitlab.com/) - 組織がソフトウェア開発の全体的な投資対効果を最大化できるようにする DevSecOps プラットフォームです
-- パッケージレジストリ
-  - [CTAN](https://ctan.org/) - Comprehensive TEX Archive Network です
-  - [CPAN](https://www.cpan.org/) - Comprehensive Perl Archive Network です
-  - [CRAN](https://cran.r-project.org/) - Comprehensive R Archive Network です
-  - [PyPI](https://pypi.org/) - Python プログラミング言語向けのソフトウェアリポジトリです
-  - [RubyGems.org](https://rubygems.org/) - Ruby コミュニティの gem ホスティングサービスです
-  - [npm Registry](https://www.npmjs.com/) - 世界最大のソフトウェアレジストリです
-  - [JSR](https://jsr.io/) - モダンな JavaScript と TypeScript 向けのオープンソースパッケージレジストリです
-  - [pkg.go.dev](https://pkg.go.dev/) - Go のパッケージとモジュールに関する情報源です
-  - [crates.io](https://crates.io/) - Rust コミュニティの crate レジストリです
-  - [LuaRocks](https://luarocks.org/) - Lua モジュール向けのパッケージマネージャーです
-  - [Hackage](https://hackage.haskell.org/) - Haskell コミュニティのオープンソースソフトウェアの中心的なパッケージアーカイブです
-    - [Stackage](https://www.stackage.org/) - Hackage からのパッケージの厳選されたセットです
-  - [NuGet Gallery](https://www.nuget.org/) - .NET 向けのパッケージマネージャーです
-  - [Maven Central](https://central.sonatype.com/) - 世界最大かつ最古のコンポーネントリポジトリです
-  - [ConanCenter](https://conan.io/center) - コミュニティによって作成されたすべてのオープンソースパッケージを見つけられる中心的なリポジトリです
-  - 🪙 [Anaconda Hub](https://www.anaconda.com/products) - データサイエンスと AI コラボレーションのためのハブです
+
+### 公開パッケージレジストリ
+
+- [CTAN](https://ctan.org/) - Comprehensive TEX Archive Network です
+- [CPAN](https://www.cpan.org/) - Comprehensive Perl Archive Network です
+- [CRAN](https://cran.r-project.org/) - Comprehensive R Archive Network です
+- [PyPI](https://pypi.org/) - Python プログラミング言語向けのソフトウェアリポジトリです
+- [RubyGems.org](https://rubygems.org/) - Ruby コミュニティの gem ホスティングサービスです
+- [npm Registry](https://www.npmjs.com/) - 世界最大のソフトウェアレジストリです
+- [JSR](https://jsr.io/) - モダンな JavaScript と TypeScript 向けのオープンソースパッケージレジストリです
+- [pkg.go.dev](https://pkg.go.dev/) - Go のパッケージとモジュールに関する情報源です
+- [crates.io](https://crates.io/) - Rust コミュニティの crate レジストリです
+- [LuaRocks](https://luarocks.org/) - Lua モジュール向けのパッケージマネージャーです
+- [Hackage](https://hackage.haskell.org/) - Haskell コミュニティのオープンソースソフトウェアの中心的なパッケージアーカイブです
+  - [Stackage](https://www.stackage.org/) - Hackage からのパッケージの厳選されたセットです
+- [NuGet Gallery](https://www.nuget.org/) - .NET 向けのパッケージマネージャーです
+- [Maven Central](https://central.sonatype.com/) - 世界最大かつ最古のコンポーネントリポジトリです
+- [ConanCenter](https://conan.io/center) - コミュニティによって作成されたすべてのオープンソースパッケージを見つけられる中心的なリポジトリです
+- 🪙 [Anaconda Hub](https://www.anaconda.com/products) - データサイエンスと AI コラボレーションのためのハブです
 
 ### オープンデータ
 
@@ -147,7 +130,7 @@
 - データ検索エンジン
   - [Google Dataset search](https://datasetsearch.research.google.com/) - Web 上の何千ものリポジトリに保存されているデータセットをユーザーが見つけられるようにする検索エンジンです
 
-### コミュニティとガバナンス
+### オープンソース財団
 
 - 傘下組織となるオープンソース財団
   - [Linux Foundation](https://www.linuxfoundation.org/) - 開発者がオープンテクノロジープロジェクトのコーディング、管理、拡張を行うための中立で信頼できるハブを提供することで、Linux を支援、保護、標準化する非営利団体です
@@ -161,12 +144,15 @@
 - クラウドと AI
   - [Cloud Native Computing Foundation](https://www.cncf.io/) - クラウドネイティブコンピューティングを普遍的で持続可能なものにすることに専念するオープンソースソフトウェア財団です
   - [Agentic AI Foundation (AAIF)](https://aaif.io/) - この重要な能力が透明かつ協調的に、そして主要なオープンソース AI プロジェクトの採用を促進する形で進化することを保証するための、中立でオープンな財団です
-- Web とデータの標準
+- 倫理とデジタル権利
+  - [Free Software Foundation](https://www.fsf.org/) - コンピューターユーザーの自由を推進するという世界規模の使命を持つ非営利団体です
+
+### 標準化団体とコミュニティガバナンス
+
+- 標準化団体
   - [World Wide Web Consortium](https://www.w3.org/) - Web の長期的な成長を保証するオープンスタンダードを開発する国際的なコミュニティです
   - [WHATWG](https://whatwg.org/) - HTML と関連技術の進化に関心を持つ人々のコミュニティです
   - [The Open Group](https://www.opengroup.org/) - 技術標準を通じてビジネス目標の達成を可能にするグローバルコンソーシアムです
-- 倫理とデジタル権利
-  - [Free Software Foundation](https://www.fsf.org/) - コンピューターユーザーの自由を推進するという世界規模の使命を持つ非営利団体です
 - コミュニティガバナンスと行動規範
   - [Debian Constitution](https://www.debian.org/devel/constitution) - Debian プロジェクトにおける意思決定のための組織構造を説明した文書です
   - [Ubuntu Code of Conduct](https://ubuntu.com/community/code-of-conduct) - Ubuntu コミュニティの一員としての行動を対象とした一連のガイドラインです
@@ -197,32 +183,33 @@
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/) - コマンドラインシェル、スクリプト言語、構成管理フレームワークで構成されたクロスプラットフォームのタスク自動化ソリューションです
 - [nushell](https://www.nushell.sh/) - 新しいタイプのシェルです
 
-### シェルユーティリティ
+### シェル生産性ツール
 
 - 汎用シェルユーティリティ
-  - [coreutils](https://www.gnu.org/software/coreutils/) = cat、ls、rm など Unix 系オペレーティングシステムに必要な多くの基本ツールを含む GNU ソフトウェアパッケージです
+  - [coreutils](https://www.gnu.org/software/coreutils/) - cat、ls、rm など Unix 系オペレーティングシステムに必要な多くの基本ツールを含む GNU ソフトウェアパッケージです
   - [GNU parallel](https://www.gnu.org/software/parallel/) - 1 台以上のコンピューターを使用してジョブを並列実行するためのシェルツールです
   - [rlwrap](https://github.com/hanslub42/rlwrap) - readline ラッパーです
   - [bash-completion](https://github.com/scop/bash-completion) - bash 向けのプログラム可能な補完関数のコレクションです
   - [direnv](https://direnv.net/) - 現在のディレクトリに応じて環境変数をロード・アンロードできるシェルの拡張機能です
   - [zoxide](https://github.com/ajeetdsouza/zoxide) - よりスマートな cd コマンドです
   - [Atuin](https://atuin.sh/) - 既存のシェル履歴を SQLite データベースに置き換え、コマンドの追加コンテキストを記録し、オプションですべてのマシン間でシェル履歴を同期するツールです
-  - [wttr.in](https://github.com/chubin/wttr.in) - curl、httpie、wget などのコマンドラインツールを通じて気象情報を提供する、コンソール指向の天気予報サービスです
 - 検索ツール
   - [findutils](https://www.gnu.org/software/findutils/) - GNU オペレーティングシステムの基本的なディレクトリ検索ユーティリティです
   - [fzf](https://github.com/junegunn/fzf) - 汎用のコマンドラインファジーファインダーです
   - [fd](https://github.com/sharkdp/fd) - find に代わるシンプルで高速、かつユーザーフレンドリーなツールです
   - [grep](https://www.gnu.org/software/grep/) - 正規表現に一致する行をプレーンテキストデータセットから検索するコマンドラインユーティリティです
   - [ripgrep](https://github.com/BurntSushi/ripgrep) - 現在のディレクトリを再帰的に検索し、正規表現パターンを探す行指向の検索ツールです
-- シェルフレームワークとカスタマイズ
-  - [starship](https://starship.rs/) - あらゆるシェル向けの、ミニマルで高速、無限にカスタマイズ可能なプロンプトです
-  - [oh-my-bash](https://github.com/ohmybash/oh-my-bash) - BASH 構成を管理するための、オープンソースでコミュニティ主導のフレームワークです
-  - [oh-my-zsh](https://ohmyz.sh/) - Zsh 構成を管理するための、愉快でオープンソース、コミュニティ主導のフレームワークです
-  - [Zim Framework](https://zimfw.sh/) - 高速性とモジュール式の拡張機能を備えた Zsh 構成フレームワークです
-  - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - Zsh 向けのテーマですが、現在はサポートが非常に限定的で、新機能の開発予定はありません
-  - [Pure](https://github.com/sindresorhus/pure) - 美しくミニマルで高速な ZSH プロンプトです
 - シェルチュートリアル
   - [LinuxCommand.com](https://www.linuxcommand.org/) - Linux コマンドラインの使い方を学ぶのに役立つよう設計された、書籍やその他の資料を掲載したサイトです
+
+### シェルフレームワークとプロンプト
+
+- [starship](https://starship.rs/) - あらゆるシェル向けの、ミニマルで高速、無限にカスタマイズ可能なプロンプトです
+- [oh-my-bash](https://github.com/ohmybash/oh-my-bash) - BASH 構成を管理するための、オープンソースでコミュニティ主導のフレームワークです
+- [oh-my-zsh](https://ohmyz.sh/) - Zsh 構成を管理するための、愉快でオープンソース、コミュニティ主導のフレームワークです
+- [Zim Framework](https://zimfw.sh/) - 高速性とモジュール式の拡張機能を備えた Zsh 構成フレームワークです
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - Zsh 向けのテーマですが、現在はサポートが非常に限定的で、新機能の開発予定はありません
+- [Pure](https://github.com/sindresorhus/pure) - 美しくミニマルで高速な ZSH プロンプトです
 
 ### ターミナルエミュレーター
 
@@ -239,14 +226,17 @@
 - 技術とプロトコル
   - [Pseudoterminal](https://en.wikipedia.org/wiki/Pseudoterminal) - プログラムが端末をエミュレートするために使用する、端末のようなインターフェイスを提供する一対の疑似デバイスです
   - [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code) - ビデオテキスト端末上でカーソル位置、色、フォントスタイル、その他のオプションを制御するためのインバンドシグナリングの標準です
+    - [aha](https://github.com/theZiz/aha) - Ansi HTML Adapter です
+    - [NO_COLOR](https://no-color.org/) - コマンドラインソフトウェアで ANSI カラーを無効化するための環境変数です
   - [kitty keyboard protocol](https://sw.kovidgoyal.net/kitty/keyboard-protocol/) - 端末がその中で実行されているアプリケーションにキーボードイベントを送信するためのプロトコルです
   - [iTerm2 image protocol](https://iterm2.com/documentation-images.html) - ターミナル内にインラインで画像を表示するためのカスタムエスケープコードです
+  - [ConPTY](https://learn.microsoft.com/en-us/windows/console/pseudoconsoles) - アプリケーションがキャラクターモードのアプリケーションのホストとなることを可能にするデバイスの種類です
 - ターミナルフォント
   - [Nerd Fonts](https://www.nerdfonts.com/) - 開発者向けフォントに多数のグリフをパッチ適用するプロジェクトです
   - [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono) - Share ファミリーに基づいた等幅サンセリフ体です
   - [Cascadia Code](https://github.com/microsoft/cascadia-code) - プログラミング用合字を含む、楽しく新しい等幅フォントです
 
-### ターミナルユーティリティ
+### ターミナルマルチプレクサとコンソールファイルマネージャー
 
 - マルチプレクサとセッション管理
   - [screen](https://www.gnu.org/software/screen/) - 複数のプロセス間で物理端末を多重化するフルスクリーンウィンドウマネージャーです
@@ -260,9 +250,8 @@
   - [ranger](https://github.com/ranger/ranger) - コンソール向けの VIM に着想を得たファイルマネージャーです
   - [superfile](https://superfile.netlify.app/) - 非常に洗練されたモダンなターミナルファイルマネージャーです
 
-### Windows 上の Linux/Unix 系環境
+### Windows 上の Unix 系環境
 
-- [ConPTY](https://learn.microsoft.com/en-us/windows/console/pseudoconsoles) - アプリケーションがキャラクターモードのアプリケーションのホストとなることを可能にするデバイスの種類です
 - [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - 別の仮想マシンやデュアルブートを必要とせずに、Windows マシン上で GNU/Linux 環境を実行できるようにする Windows の機能です
   - [WSLg](https://github.com/microsoft/wslg) - 完全に統合されたデスクトップ体験の中で、Windows 上で Linux GUI アプリケーション (X11 と Wayland) を実行するサポートを可能にするプロジェクトです
 - [Git for Windows](https://gitforwindows.org/) - Git SCM の全機能セットを Windows にもたらす、軽量なネイティブツール群です
@@ -276,9 +265,11 @@
 
 :::
 
+### Git の基礎
+
 - 概念
   - [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) - 完全な履歴を含むコードベース全体が、すべての開発者のコンピューターにミラーリングされるバージョン管理の形態です
-- コア VCS とクライアント
+- Git と互換実装
   - [Git](https://git-scm.com/) - 小規模から非常に大規模なプロジェクトまで、あらゆるものを高速かつ効率的に扱うために設計された、無料でオープンソースの分散型バージョン管理システムです
     - local repository、remote repository
     - branch、tag、worktree
@@ -286,8 +277,17 @@
     - staging、commit
   - [Jujutsu (jj)](https://www.jj-vcs.dev/latest/) - シンプルかつ強力な Git 互換の VCS です
   - [gitoxide](https://github.com/GitoxideLabs/gitoxide) - イディオマティックで無駄がなく、高速かつ安全な Git の純粋な Rust 実装です
-  - [TortoiseGit](https://tortoisegit.org/) - Git 向けの Windows シェルインターフェイスで、TortoiseSVN をベースにしています
   - [git lfs](https://git-lfs.com/) - 大きなファイルをバージョン管理するためのオープンソース Git 拡張機能です
+
+### Git クライアント、UI、ライブラリ
+
+- GUI とターミナルのクライアント
+  - [TortoiseGit](https://tortoisegit.org/) - Git 向けの Windows シェルインターフェイスで、TortoiseSVN をベースにしています
+  - [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - 現在の git リポジトリに関する情報を表示する bash プロンプトです
+  - [lazygit](https://github.com/jesseduffield/lazygit) - git コマンド向けのシンプルなターミナル UI です
+  - [gitui](https://github.com/gitui-org/gitui#readme) - git GUI の快適さを、そのままターミナルで提供するツールです
+  - [giff](https://github.com/bahdotsh/giff) - ブランチ間の変更を表示・管理できる、対話的なリベース機能を備えたターミナルベースの Git 差分ビューアーです
+  - [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - Git 向けの改良されたシーケンスエディターです
 - Git クライアントライブラリ
   - [go-git](https://github.com/go-git/go-git) - 純粋な Go で書かれた、高い拡張性を持つ Git 実装ライブラリです
   - [GitPython](https://github.com/gitpython-developers/GitPython) - git-porcelain のような高レベルから git-plumbing のような低レベルまで、Git リポジトリを操作するために使用される Python ライブラリです
@@ -295,28 +295,40 @@
   - [isomorphic-git](https://isomorphic-git.org/) - Node とブラウザ向けの純粋な JavaScript による Git 実装です
   - [simple-git](https://github.com/steveukx/git-js) - あらゆる Node.js アプリケーションで git コマンドを実行するための軽量なインターフェースです
   - [ruby-git](https://github.com/ruby-git/ruby-git) - git バイナリへのシステムコールをラップすることで Git リポジトリを作成、読み取り、操作できる Ruby ライブラリです
-- ターミナル & UI ツール
-  - [Informative git prompt for bash and fish](https://github.com/magicmonty/bash-git-prompt) - 現在の git リポジトリに関する情報を表示する bash プロンプトです
-  - [lazygit](https://github.com/jesseduffield/lazygit) - git コマンド向けのシンプルなターミナル UI です
-  - [gitui](https://github.com/gitui-org/gitui#readme) - git GUI の快適さを、そのままターミナルで提供するツールです
-  - [giff](https://github.com/bahdotsh/giff) - ブランチ間の変更を表示・管理できる、対話的なリベース機能を備えたターミナルベースの Git 差分ビューアーです
-  - [Git Interactive Rebase Tool](https://gitrebasetool.mitmaro.ca/) - Git 向けの改良されたシーケンスエディターです
-- 履歴とメンテナンスツール
-  - [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - Git リポジトリ履歴から不要なデータを除去するための、git-filter-branch に代わるよりシンプルで高速なツールです
-  - [git filter-repo](https://github.com/newren/git-filter-repo) - 履歴を書き換えるための汎用的なツールです
-  - [degit](https://github.com/Rich-Harris/degit) - シンプルなプロジェクトのひな形作成です
-- コミットと変更履歴のツール
-  - [Git Lint](https://alchemists.io/projects/git-lint) - クリーンで読みやすく、デバッグ可能で保守可能なプロジェクト履歴を維持することで、Git コミットをリントするコマンドラインインターフェイスです
-  - [commitlint](https://commitlint.js.org/) - コミットメッセージをリントすることで、チームがコミット規約を遵守する助けとなるツールです
-  - [git cliff](https://git-cliff.org/) - 高度にカスタマイズ可能な変更履歴生成ツールです
+
+### Git フックとリポジトリのメンテナンス
+
 - フック管理
   - [pre-commit](https://pre-commit.com/) - 多言語対応の pre-commit フックを管理・保守するためのフレームワークです
   - [Lefthook](https://lefthook.dev/) - あらゆる種類のプロジェクト向けの、高速で多言語対応の Git フックマネージャーです
   - [Husky](https://typicode.github.io/husky/) - 超高速でモダンなネイティブ git フックです
   - [lint-staged](https://github.com/lint-staged/lint-staged#readme) - ステージされた Git ファイルに対して、フォーマッタやリンターなどのタスクを実行するツールです
+- 履歴とメンテナンスツール
+  - [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) - Git リポジトリ履歴から不要なデータを除去するための、git-filter-branch に代わるよりシンプルで高速なツールです
+  - [git filter-repo](https://github.com/newren/git-filter-repo) - 履歴を書き換えるための汎用的なツールです
+  - [degit](https://github.com/Rich-Harris/degit) - シンプルなプロジェクトのひな形作成です
+
+### コミット規約とリリース自動化
+
+- 規約と標準
+  - [Conventional Commits](https://www.conventionalcommits.org/) - 明示的なコミット履歴を作成するための簡単なルールセットを提供する、コミットメッセージ上の軽量な規約です
+  - [Semantic Versioning](https://semver.org/) - バージョン番号の割り当て方と増分方法を規定する、シンプルなルールと要件のセットです
+  - [CalVer](https://calver.org/) - 恣意的な番号の代わりに、プロジェクトのリリースカレンダーに基づいたバージョニング規約です
+  - [keep a changelog](https://keepachangelog.com/) - プロジェクトの各バージョンにおける注目すべき変更点を、時系列順に整理してまとめたファイルです
+- コミットのリント
+  - [Git Lint](https://alchemists.io/projects/git-lint) - クリーンで読みやすく、デバッグ可能で保守可能なプロジェクト履歴を維持することで、Git コミットをリントするコマンドラインインターフェイスです
+  - [commitlint](https://commitlint.js.org/) - コミットメッセージをリントすることで、チームがコミット規約を遵守する助けとなるツールです
+- 変更履歴とリリースの自動化
+  - [git cliff](https://git-cliff.org/) - 高度にカスタマイズ可能な変更履歴生成ツールです
+  - [semantic-release](https://semantic-release.gitbook.io/semantic-release) - 形式化されたコミットメッセージに基づいて次のバージョン番号を決定し、リリースノートを生成し、パッケージを公開する、完全に自動化されたバージョン管理・パッケージ公開ツールです
+  - [Release Please](https://github.com/googleapis/release-please) - Conventional Commits に基づいて、プロジェクトの変更履歴生成、GitHub リリースの作成、バージョンアップを自動化するツールです
+  - [GoReleaser](https://goreleaser.com/) - Go プロジェクト向けのリリース自動化ツールです
+  - [Changesets](https://github.com/changesets/changesets) - モノレポに重点を置いたバージョニングと変更履歴を管理するツールです
 
 ### Git ホスティングサービス
 
+- 🪙 [GitHub](https://github.com/) - 安全なソフトウェアを構築、拡張、提供するための AI 駆動の開発者プラットフォームです
+  - [GitHub CLI](https://cli.github.com/) - プルリクエスト、Issue、GitHub Actions、その他の GitHub 機能をターミナルにもたらすオープンソースツールで、すべての作業を一箇所で行えます
 - 🪙 [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/) - コードとプロジェクトの共同作業のための単一の信頼できる情報源です
   - [GitLab CLI](https://gitlab.com/gitlab-org/cli) - GitLab をターミナルにもたらすオープンソースツールで、すでに git やコードで作業している場所のすぐそばで使用できます
 - [Gitea](https://about.gitea.com/products/gitea/) - Git ホスティング、コードレビュー、チームコラボレーション、パッケージレジストリ、CI/CD を含む、手間のかからないセルフホスト型のオールインワンソフトウェア開発サービスです
@@ -324,24 +336,21 @@
 - [Forgejo](https://forgejo.org/) - セルフホスト型の軽量なソフトウェアフォージです
 - [Soft Serve](https://github.com/charmbracelet/soft-serve) - コマンドライン向けの、美味しくセルフホスト可能な Git サーバーです
 - 💲 [Azure Repos](https://learn.microsoft.com/en-us/azure/devops/repos/) - コードを管理するために使用できる一連のバージョン管理ツールです
-- 🪙 [GitHub](https://github.com/) - 安全なソフトウェアを構築、拡張、提供するための AI 駆動の開発者プラットフォームです
-  - [GitHub CLI](https://cli.github.com/) - プルリクエスト、Issue、GitHub Actions、その他の GitHub 機能をターミナルにもたらすオープンソースツールで、すべての作業を一箇所で行えます
 
-### ブランチングモデル
+### ブランチングモデルとコードレビュー
 
-- [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) - プロジェクトのリリースを中心に構築されたブランチモデルで、長期間存続する develop ブランチと main ブランチに加え、feature・release・hotfix ブランチを用いて並行開発を整理します
-- [Trunk Based Development](https://trunkbaseddevelopment.com/) - 開発者が「trunk」と呼ばれる単一のブランチでコードを協業し、文書化されたテクニックを用いて他の長期的な開発ブランチを作成する圧力に抵抗する、ソースコード管理のブランチングモデルです
-- [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) - 頻繁にデプロイするチーム向けに設計された軽量なブランチベースのワークフローです
-- [GitLab Flow](https://docs.gitlab.co.jp/ee/topics/gitlab_flow.html) - 機能駆動開発と機能ブランチを Issue トラッキングと組み合わせた、GitFlow に代わるよりシンプルな方法です
+- ブランチングモデル
+  - [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) - プロジェクトのリリースを中心に構築されたブランチモデルで、長期間存続する develop ブランチと main ブランチに加え、feature・release・hotfix ブランチを用いて並行開発を整理します
+  - [Trunk Based Development](https://trunkbaseddevelopment.com/) - 開発者が「trunk」と呼ばれる単一のブランチでコードを協業し、文書化されたテクニックを用いて他の長期的な開発ブランチを作成する圧力に抵抗する、ソースコード管理のブランチングモデルです
+  - [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) - 頻繁にデプロイするチーム向けに設計された軽量なブランチベースのワークフローです
+  - [GitLab Flow](https://docs.gitlab.co.jp/ee/topics/gitlab_flow.html) - 機能駆動開発と機能ブランチを Issue トラッキングと組み合わせた、GitFlow に代わるよりシンプルな方法です
+- コードレビュー
+  - [Google Engineering Practices Documentation](https://google.github.io/eng-practices/) - レビュアーと変更作成者の両方に向けた、Google のコードレビュープロセスとポリシーの包括的なガイドです
+  - [Conventional Comments](https://conventionalcomments.org/) - 明瞭性の向上、誤解の低減、コメントの機械可読化のために、コードレビューフィードバックの構造化されたフォーマットを提供する標準です
+  - [Danger](https://github.com/danger/danger) - コードレビューにおけるチームの規範を自動化するツールです
+  - [Gerrit](https://www.gerritcodereview.com/) - Git ベースの開発のための、オープンソースのパッチセット単位のコードレビュープラットフォームです
 
-### コードレビュー
-
-- [Google Engineering Practices Documentation](https://google.github.io/eng-practices/) - レビュアーと変更作成者の両方に向けた、Google のコードレビュープロセスとポリシーの包括的なガイドです
-- [Conventional Comments](https://conventionalcomments.org/) - 明瞭性の向上、誤解の低減、コメントの機械可読化のために、コードレビューフィードバックの構造化されたフォーマットを提供する標準です
-- [Danger](https://github.com/danger/danger) - コードレビューにおけるチームの規範を自動化するツールです
-- [Gerrit](https://www.gerritcodereview.com/) - Git ベースの開発のための、オープンソースのパッチセット単位のコードレビュープラットフォームです
-
-## 統合開発環境 (IDE)
+## エディタと IDE
 
 :::note[Relevant DSS-P Skills]
 
@@ -349,52 +358,48 @@
 
 :::
 
-- GUI ベース
+### デスクトップとクラウドの IDE
+
+- デスクトップ IDE
   - [Eclipse IDE](https://www.eclipseide.org/) - 業界に支えられコミュニティ主導で開発され、豊富なプラットフォームプラグインによる高い拡張性を備えた、無料でオープンソースの IDE です
   - [Visual Studio Code](https://code.visualstudio.com/) - デスクトップ上で動作し、Windows、macOS、Linux で利用できる、軽量ながら強力なソースコードエディターです
     - [Awesome VS Code](https://viatsko.github.io/awesome-vscode/) - 素晴らしい VS Code パッケージとリソースの厳選リストです
     - 🪙 [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Visual Studio Code に組み込まれた Git 機能を強化する拡張機能です
     - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - リポジトリの Git グラフを表示し、そのグラフから Git アクションを実行するための拡張機能です
-  - AI アシスタンスプラグイン
-    - 🪙 [GitHub Copilot](https://github.com/features/copilot/) - より速く、より少ない労力でコードを書く手助けをする AI ペアプログラマーです
-      - [Awesome GitHub Copilot](https://awesome-copilot.github.com/) - 体験を向上させるための、コミュニティが貢献したエージェント、指示、スキル、フック、ワークフロー、プラグイン、キャンバス拡張機能、ツールのコレクションです
-    - 🪙 [Gemini Code Assist](https://cloud.google.com/products/gemini/code-assist) - 開発ライフサイクル全体を対象とした AI 駆動のアシスタントです
-    - 🪙 [Amazon Q Developer](https://aws.amazon.com/q/developer/) - ソフトウェア開発向けの、最も高性能な生成 AI 駆動のアシスタントです
-    - [Cline](https://cline.bot/) - 最先端の AI モデルを VS Code エディターに直接もたらすオープンソースの AI コーディングエージェントです
-  - AI 統合 IDE
-    - 🪙 [Cursor](https://www.cursor.com/) - プロプライエタリモデルおよび最先端モデルとのシームレスでエージェント的な統合のために設計された、VS Code の AI ネイティブなフォークです
-    - 🪙 [Devin Desktop](https://devin.ai/desktop) - AI ネイティブなコードエディタで、以前は Windsurf として提供されており、2026 年 6 月に Cognition の自律エージェントプラットフォームに統合されました
-    - 🪙 [Zed](https://zed.dev/) - 人間と AI との高パフォーマンスな協業のために設計された次世代コードエディターです
-- Web ベース
+- クラウドと Web ベースの IDE
   - [code-server](https://github.com/coder/code-server) - リモートサーバー上で動作し、あらゆる Web ブラウザーからアクセスできる VS Code インスタンスです
   - 🪙 [GitHub Codespaces](https://github.com/features/codespaces) - GitHub にネイティブな、完全に構成済みの安全なクラウド開発環境で、より速くコーディングを始められます
-  - 🪙 [Replit](https://replit.com/) - コーディング不要で、アイデアを数分でアプリに変えるプラットフォームです
-- ターミナルベース
-  - [Vim](https://www.vim.org/) - あらゆる種類のテキストの作成と変更を非常に効率的に行えるように構築された、高度に設定可能なテキストエディターです
-    - [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - カーソルを移動するコマンドと、テキストを削除・変更するために使用されるコマンドです
-    - [vim-plug](https://junegunn.github.io/vim-plug/) - Vim の事実上の標準プラグインマネージャーです
-    - [NERDTree](https://github.com/preservim/nerdtree) - vim 向けのツリーエクスプローラープラグインです
-  - [Neovim](https://neovim.io/) - 超拡張可能な Vim ベースのテキストエディターです
-    - [LazyVim](https://www.lazyvim.org/) - 💤 lazy.nvim を利用した Neovim セットアップで、構成のカスタマイズと拡張を容易にします
-      - [lazy.nvim](https://lazy.folke.io/) - Neovim 向けのモダンなプラグインマネージャーです
-    - [NvChad](https://nvchad.com/) - 堅実なデフォルト設定と美しい UI を提供する超高速な Neovim 構成です
-    - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - ファイルシステムやその他のツリー状構造を管理するための Neovim プラグインです
-    - [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) - Neovim 向けのカラフルなウィンドウ区切りです
-    - [mason.nvim](https://github.com/mason-org/mason.nvim) - LSP サーバー、DAP サーバー、リンター、フォーマッターなどの外部エディターツールを単一のインターフェイスで簡単に管理できる Neovim プラグインです
-    - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - リストに対する高度に拡張可能なファジーファインダーです
-    - [flash.nvim](https://github.com/folke/flash.nvim) - 検索ラベル、強化された文字モーション、Treesitter 統合でコードナビゲーションを助けるプラグインです
-    - [nvim-llama](https://github.com/jpmcb/nvim-llama) - Neovim 向けの Ollama へのシンプルなインターフェイスです
-  - [Helix](https://helix-editor.com/) - モーダルエディターであり、異なるタスクに対して異なるモードを持つことを意味します
-  - [GNU Emacs](https://www.gnu.org/software/emacs/) - 拡張可能でカスタマイズ可能な、フリー/リブレなテキストエディター、そしてそれ以上のものです
-    - [MELPA](https://melpa.org/#/) - Milkypostman's Emacs Lisp Package Archive です
-    - [doomemacs](https://github.com/doomemacs/core) - 頑固な火星人ハッカーのための Emacs フレームワークです
-    - [neotree](https://github.com/jaypei/emacs-neotree) - Emacs 向けのツリーエクスプローラーです
-    - [Treemacs](https://github.com/Alexander-Miller/treemacs) - Emacs 向けのツリーレイアウトファイルエクスプローラーです
-    - [Spacemacs](https://www.spacemacs.org/#) - コミュニティ主導の Emacs ディストリビューションです
-  - チュートリアルとチートシート
-    - [OpenVim](https://openvim.com/) - インタラクティブな Vim チュートリアルです
-    - 💲 [Vim Adventures](https://vim-adventures.com/) - VIM のキーボードショートカットに基づいたオンラインゲームです
-    - [Vim Cheat Sheet](https://vim.rtorr.com/) - Vim コマンドのクイックリファレンスガイドです
+
+### Vim とモーダルエディタ
+
+- [Vim](https://www.vim.org/) - あらゆる種類のテキストの作成と変更を非常に効率的に行えるように構築された、高度に設定可能なテキストエディターです
+  - [motion and operators](https://vimdoc.sourceforge.net/htmldoc/motion.html) - カーソルを移動するコマンドと、テキストを削除・変更するために使用されるコマンドです
+  - [vim-plug](https://junegunn.github.io/vim-plug/) - Vim の事実上の標準プラグインマネージャーです
+  - [NERDTree](https://github.com/preservim/nerdtree) - vim 向けのツリーエクスプローラープラグインです
+- [Neovim](https://neovim.io/) - 超拡張可能な Vim ベースのテキストエディターです
+  - [LazyVim](https://www.lazyvim.org/) - 💤 lazy.nvim を利用した Neovim セットアップで、構成のカスタマイズと拡張を容易にします
+    - [lazy.nvim](https://lazy.folke.io/) - Neovim 向けのモダンなプラグインマネージャーです
+  - [NvChad](https://nvchad.com/) - 堅実なデフォルト設定と美しい UI を提供する超高速な Neovim 構成です
+  - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - ファイルシステムやその他のツリー状構造を管理するための Neovim プラグインです
+  - [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) - Neovim 向けのカラフルなウィンドウ区切りです
+  - [mason.nvim](https://github.com/mason-org/mason.nvim) - LSP サーバー、DAP サーバー、リンター、フォーマッターなどの外部エディターツールを単一のインターフェイスで簡単に管理できる Neovim プラグインです
+  - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - リストに対する高度に拡張可能なファジーファインダーです
+  - [flash.nvim](https://github.com/folke/flash.nvim) - 検索ラベル、強化された文字モーション、Treesitter 統合でコードナビゲーションを助けるプラグインです
+  - [nvim-llama](https://github.com/jpmcb/nvim-llama) - Neovim 向けの Ollama へのシンプルなインターフェイスです
+- [Helix](https://helix-editor.com/) - モーダルエディターであり、異なるタスクに対して異なるモードを持つことを意味します
+- チュートリアルとチートシート
+  - [OpenVim](https://openvim.com/) - インタラクティブな Vim チュートリアルです
+  - 💲 [Vim Adventures](https://vim-adventures.com/) - VIM のキーボードショートカットに基づいたオンラインゲームです
+  - [Vim Cheat Sheet](https://vim.rtorr.com/) - Vim コマンドのクイックリファレンスガイドです
+
+### Emacs
+
+- [GNU Emacs](https://www.gnu.org/software/emacs/) - 拡張可能でカスタマイズ可能な、フリー/リブレなテキストエディター、そしてそれ以上のものです
+  - [MELPA](https://melpa.org/#/) - Milkypostman's Emacs Lisp Package Archive です
+  - [doomemacs](https://github.com/doomemacs/core) - 頑固な火星人ハッカーのための Emacs フレームワークです
+  - [neotree](https://github.com/jaypei/emacs-neotree) - Emacs 向けのツリーエクスプローラーです
+  - [Treemacs](https://github.com/Alexander-Miller/treemacs) - Emacs 向けのツリーレイアウトファイルエクスプローラーです
+  - [Spacemacs](https://www.spacemacs.org/#) - コミュニティ主導の Emacs ディストリビューションです
 
 ### 言語サーバー
 
@@ -416,16 +421,22 @@
 
 :::
 
+### コード品質の概念とメトリクス
+
 - 概念
   - [SQALE method](https://en.wikipedia.org/wiki/SQALE) - ソフトウェアソースコードの品質評価を支援するための手法です
   - [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) - プログラムの複雑さを示すために使用されるソフトウェアメトリクスです
   - [Code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) - 外部から見た動作を変えることなく、既存のソースコードを再構成するプロセスです
+    - [Refactoring](https://refactoring.com/) - 既存のコードベースを再構築するための規律あるテクニックで、外部の振る舞いを変えずに内部構造を変更します
   - [Code smell](https://en.wikipedia.org/wiki/Code_smell) - より深い問題を示唆するソースコードの特徴です
+  - [Software rot](https://en.wikipedia.org/wiki/Software_rot) - ソフトウェアが時間の経過とともに品質、パフォーマンス、または有用性が劣化していく傾向です
+  - [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) - より時間のかかるより良いアプローチを使う代わりに、今簡単な（限定的な）解決策を選ぶことで生じる追加的な手戻りの暗黙的なコストを反映した、ソフトウェア開発における概念です
+    - [Technical Debt Ratio](https://brainhub.eu/library/technical-debt-ratio) - コードベース全体をゼロから開発するコストと比較して、既存の技術的負債を修正するコストを測定するために使用されるメトリクスです
 - コードメトリクスツール
   - [scc](https://github.com/boyter/scc/) - 多くのプログラミング言語でコード行数をカウントするツールです
   - [cloc](https://github.com/AlDanial/cloc) - 多くのプログラミング言語で空白行、コメント行、ソースコードの物理行をカウントするツールです
 
-### 分析プラットフォーム
+### コード分析とカバレッジのプラットフォーム
 
 - 🔒 [SonarQube Server](https://www.sonarsource.com/products/sonarqube/) - 30 以上の言語、フレームワーク、IaC プラットフォームでコーディング上の問題を検出するために設計された、オンプレミスの分析ツールです
 - 💲 [CodeScene](https://codescene.com/) - 静的解析にとどまらず、Code Health メトリクスとチームのコードへの関わり方に関する行動分析を通じてソフトウェアの品質を可視化するコード分析プラットフォームです
@@ -433,41 +444,39 @@
 - 🪙 [GitLab Code Coverage](https://docs.gitlab.com/ee/ci/testing/code_coverage.html) - テストでカバーされているコードの割合を示すレポートです
 - 🪙 [GitLab Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) - CodeClimate Engines を使用してプロジェクトのコード品質分析を提供する機能です
 
-### フォーマッター
+### リンターとフォーマッター
 
-- [EditorConfig](https://editorconfig.org/) - コーディングスタイルを定義するためのファイル形式であり、エディターがそのファイル形式を読み取り、定義されたスタイルを遵守できるようにするテキストエディタープラグインのコレクションです
-- [Prettier](https://prettier.io/) - 独自の意見を持ったコードフォーマッターです
-- [Ruff](https://docs.astral.sh/ruff/) - Rust で書かれた、非常に高速な Python リンター兼コードフォーマッターです
-- [Biome](https://biomejs.dev/) - JavaScript、TypeScript、JSX、JSON、HTML、CSS、GraphQL 向けの高速なフォーマッターと高性能なリンターを提供する Web 向けツールチェーンです
-- [gofmt](https://pkg.go.dev/cmd/gofmt) - タブでインデントを行い、空白で位置を揃えて Go プログラムを整形するツールです
-- [clang-format](https://clang.llvm.org/docs/ClangFormat.html) - C/C++/Java/JavaScript/JSON/Objective-C/Protobuf/C# のコードを整形するツールです
+- フォーマッター
+  - [Prettier](https://prettier.io/) - 独自の意見を持ったコードフォーマッターです
+  - [gofmt](https://pkg.go.dev/cmd/gofmt) - タブでインデントを行い、空白で位置を揃えて Go プログラムを整形するツールです
+  - [clang-format](https://clang.llvm.org/docs/ClangFormat.html) - C/C++/Java/JavaScript/JSON/Objective-C/Protobuf/C# のコードを整形するツールです
+- リンター
+  - [ESLint](https://eslint.org/) - JavaScript コードの問題を見つけて修正する手助けをするオープンソースプロジェクトです
+  - [Pylint](https://pylint.readthedocs.io/) - Python 2 または 3 向けの静的コード解析ツールです
+  - [Staticcheck](https://staticcheck.dev/) - Go プログラミング言語向けの最先端のリンターです
+  - [revive](https://revive.run/) - Go 向けの高速で拡張可能な静的コード解析フレームワークです
+  - [golangci-lint](https://golangci-lint.run/) - Go 向けの高速なリンターランナーです
+  - [Rust Clippy](https://doc.rust-lang.org/clippy/) - よくある間違いを検出し、Rust コードを改善するためのリントのコレクションです
+  - [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - PowerShell モジュールとスクリプト向けの静的コードチェッカーです
+  - [ShellCheck](https://www.shellcheck.net/) - bash/sh シェルスクリプトに対して警告と提案を行う GPLv3 のツールです
+  - [Stylelint](https://stylelint.io/) - エラーを回避し、規約を徹底するのに役立つ強力な CSS リンターです
+  - [vacuum](https://quobix.com/vacuum/) - 超高速で軽量な OpenAPI リンター兼品質チェックツールです
+  - [yamllint](https://github.com/adrienverge/yamllint) - YAML ファイル向けのリンターです
+  - [ls-lint](https://ls-lint.org/) - 非常に高速なファイル・ディレクトリ名リンターです
+- リンター兼フォーマッター
+  - [Ruff](https://docs.astral.sh/ruff/) - Rust で書かれた、非常に高速な Python リンター兼コードフォーマッターです
+  - [Biome](https://biomejs.dev/) - JavaScript、TypeScript、JSX、JSON、HTML、CSS、GraphQL 向けの高速なフォーマッターと高性能なリンターを提供する Web 向けツールチェーンです
+  - [RuboCop](https://github.com/rubocop/rubocop) - Ruby の静的コード解析ツール（別名リンター）兼コードフォーマッターです
 
-### リンター
-
-- [ESLint](https://eslint.org/) - JavaScript コードの問題を見つけて修正する手助けをするオープンソースプロジェクトです
-- [Biome](https://biomejs.dev/) - JavaScript、TypeScript、JSX、JSON、HTML、CSS、GraphQL 向けの高速なフォーマッターと高性能なリンターを提供する Web 向けツールチェーンです
-- [Pylint](https://pylint.readthedocs.io/) - Python 2 または 3 向けの静的コード解析ツールです
-- [Ruff](https://docs.astral.sh/ruff/) - Rust で書かれた、非常に高速な Python リンター兼コードフォーマッターです
-- [Staticcheck](https://staticcheck.dev/) - Go プログラミング言語向けの最先端のリンターです
-- [revive](https://revive.run/) - Go 向けの高速で拡張可能な静的コード解析フレームワークです
-- [golangci-lint](https://golangci-lint.run/) - Go 向けの高速なリンターランナーです
-- [RuboCop](https://github.com/rubocop/rubocop) - Ruby の静的コード解析ツール（別名リンター）兼コードフォーマッターです
-- [Rust Clippy](https://doc.rust-lang.org/clippy/) - よくある間違いを検出し、Rust コードを改善するためのリントのコレクションです
-- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - PowerShell モジュールとスクリプト向けの静的コードチェッカーです
-- [ShellCheck](https://www.shellcheck.net/) - bash/sh シェルスクリプトに対して警告と提案を行う GPLv3 のツールです
-- [Stylelint](https://stylelint.io/) - エラーを回避し、規約を徹底するのに役立つ強力な CSS リンターです
-- [vacuum](https://quobix.com/vacuum/) - 超高速で軽量な OpenAPI リンター兼品質チェックツールです
-- [yamllint](https://github.com/adrienverge/yamllint) - YAML ファイル向けのリンターです
-- [ls-lint](https://ls-lint.org/) - 非常に高速なファイル・ディレクトリ名リンターです
-
-### コーディングスタイルガイド
+### コーディングスタイルガイドと規約
 
 - [Google Style Guides](https://google.github.io/styleguide/) - さまざまなプログラミング言語でソースコードを書くための一連の規約を提供する文書のコレクションです
 - [Style Guide for Python](https://peps.python.org/pep-0008/) - メインの Python ディストリビューションの標準ライブラリを構成する Python コードのコーディング規約を示す文書です
 - [Ruby Style Guide](https://rubystyle.guide/) - Ruby プログラミング言語向けのコミュニティ主導のスタイルガイドです
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) - JavaScript に対する、おおむね理にかなったアプローチです
+- [EditorConfig](https://editorconfig.org/) - コーディングスタイルを定義するためのファイル形式であり、エディターがそのファイル形式を読み取り、定義されたスタイルを遵守できるようにするテキストエディタープラグインのコレクションです
 
-## 開発者 AI と生産性
+## AI 支援開発
 
 :::note[Relevant DSS-P Skills]
 
@@ -475,7 +484,7 @@
 
 :::
 
-### AI 生産性ツール
+### LLM コマンドラインツール
 
 - [gptcli](https://github.com/evilpan/gptcli) - ChatGPT 向けのコマンドラインインターフェイスです
 - [ShellGPT](https://github.com/TheR1D/shell_gpt) - AI 大規模言語モデル (LLM) を活用したコマンドライン生産性ツールです
@@ -485,50 +494,70 @@
 - [AI Commits](https://github.com/Nutlope/aicommits) - AI であなたに代わって git コミットメッセージを書く CLI です
 - [lootbox](https://github.com/jx-codes/lootbox) - 「Code Mode」に着想を得た CLI で、LLM がツール呼び出しを使う代わりに TypeScript コードを書いて API を呼び出します
 
-### 開発エージェント
+### AI コーディングアシスタントと AI ネイティブ IDE
 
-- CLI コーディングエージェント
-  - 💲 [Claude Code](https://code.claude.com/docs) - コードベースを読み取り、ファイルを編集し、コマンドを実行し、開発ツールと統合する、エージェント的なコーディングツールです
-    - [Plan Mode](https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis) - 読み取り専用の操作でコードベースを分析して計画を立てるよう Claude に指示するモードで、コードベースの探索、複雑な変更の計画、安全なコードレビューに最適です
-    - [Hooks](https://code.claude.com/docs/en/hooks) - エージェントのライフサイクルの特定のポイントで自動的に実行される、ユーザー定義のシェルコマンドまたは LLM プロンプトです
-    - [Subagents](https://code.claude.com/docs/en/sub-agents) - 特定の種類のタスクを処理する専門化された AI アシスタントで、独自のコンテキストの中でカスタムプロンプトとツールアクセスを備えて実行されます
-    - [Sandboxing](https://code.claude.com/docs/en/sandboxing) - より安全で自律的なエージェント実行のためにファイルシステムとネットワークの分離を提供する機能で、OS レベルのプリミティブを使用してこれらの分離を実施し、絶え間ない権限プロンプトを削減します
-    - [Auto-memory](https://code.claude.com/docs/en/memory#auto-memory) - ビルドコマンド、デバッグの知見、アーキテクチャに関するメモ、ユーザーの好みに関するノートを手動介入なしで保存することで、エージェントがセッションをまたいで自動的に知識を蓄積できるようにする機能です
-  - 🪙 [Antigravity CLI](https://github.com/google-antigravity/antigravity-cli) - コードベースを理解し、許可を得て編集を行い、ターミナルから直接コマンドを実行する、ターミナルベースの AI コーディングエージェントです
-    - [Conductor](https://github.com/gemini-cli-extensions/conductor) - 最新の AI コーディングエージェント全般に対応する、プロジェクト管理のためのエージェントプラグインです
-  - 🪙 [GitHub Copilot CLI](https://github.com/github/copilot-cli) - Copilot コーディングエージェントの力を直接ターミナルにもたらすツールです
-  - 🪙 [Cursor CLI](https://cursor.com/cli) - ターミナルから直接開発を進められるよう構築されたツールで、どの環境でも同じコマンドを使用できます
-  - 🪙 [Amp](https://ampcode.com/) - あらゆる場所で動作するコーディングエージェント兼開発環境です
-  - [Aider](https://aider.chat/) - 新しいプロジェクトを始めたり、既存のコードベース上に構築したりできる、ターミナル内の AI ペアプログラミングツールです
-  - [Letta Code](https://docs.letta.com/letta-code) - ターミナルに常駐する、メモリファーストのコーディングエージェントです
-  - [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - Deep Agents SDK 上に構築されたターミナルコーディングエージェントです
-  - [OpenCode.ai](https://opencode.ai/) - 実際のリポジトリ内でコードの理解、編集、出荷を支援する対話的な TUI を提供する、ターミナル向けのオープンソース AI コーディングエージェントです
-  - 💲 [OpenAI Codex](https://github.com/openai/codex) - ターミナルで動作する軽量なコーディングエージェントで、ローカルなコーディングアシスタントを提供します
-  - 💲 [Kimi Code](https://www.kimi.com/code) - あらゆる開発ワークフローに組み込めるよう設計された Moonshot AI 製の CLI コーディングエージェントで、コードベース分析、ファイル操作、Web 検索、並列サブエージェントタスク処理をサポートし、kimi-k2.6 モデルを搭載しています
-  - [Crush](https://github.com/charmbracelet/crush) - お気に入りのターミナル向けの華やかな AI コーディングエージェントです 💘
-  - [ForgeCode](https://forgecode.dev/) - 調査、計画、実行のためのマルチエージェントアーキテクチャを備えた ZSH 統合コーディングハーネスで、複数の LLM プロバイダーをサポートし、Terminal-Bench で最上位にランクされています
-- デスクトップコーディングエージェント
-  - [goose](https://block.github.io/goose/) - エンジニアリングタスクをシームレスに自動化するローカル AI エージェントです
-  - [Open Interpreter](https://www.openinterpreter.com/) - コンピューター上でドキュメントを読み取り、編集し、作成できるエージェントと共に作業できるオープンソースのデスクトップエージェントです
-  - [Agent Zero](https://www.agent-zero.ai/) - コードを書いて実行し、自身のコンピューター環境を管理し、自らの行動から学習することで複雑なタスクを解決する動的なツールセットを使用する、オープンソースの個人向け AI エージェントです
-  - [AionUI](https://github.com/iOfficeAI/AionUi) - ドキュメント生成機能を備えた、AI コーディングエージェント向けの Cowork アプリです
+- AI アシスタンスプラグイン
+  - 🪙 [GitHub Copilot](https://github.com/features/copilot/) - より速く、より少ない労力でコードを書く手助けをする AI ペアプログラマーです
+    - [Awesome GitHub Copilot](https://awesome-copilot.github.com/) - 体験を向上させるための、コミュニティが貢献したエージェント、指示、スキル、フック、ワークフロー、プラグイン、キャンバス拡張機能、ツールのコレクションです
+  - 🪙 [Amazon Q Developer](https://aws.amazon.com/q/developer/) - ソフトウェア開発向けの、最も高性能な生成 AI 駆動のアシスタントです
+  - [Cline](https://cline.bot/) - 最先端の AI モデルを VS Code エディターに直接もたらすオープンソースの AI コーディングエージェントです
+- AI 統合 IDE
+  - 🪙 [Cursor](https://www.cursor.com/) - プロプライエタリモデルおよび最先端モデルとのシームレスでエージェント的な統合のために設計された、VS Code の AI ネイティブなフォークです
+  - 🪙 [Devin Desktop](https://devin.ai/desktop) - AI ネイティブなコードエディタで、以前は Windsurf として提供されており、2026 年 6 月に Cognition の自律エージェントプラットフォームに統合されました
+  - 🪙 [Zed](https://zed.dev/) - 人間と AI との高パフォーマンスな協業のために設計された次世代コードエディターです
+  - 🪙 [Antigravity](https://antigravity.google/) - エージェント的な開発プラットフォームです
+
+### CLI コーディングエージェント
+
+- 💲 [Claude Code](https://code.claude.com/docs) - コードベースを読み取り、ファイルを編集し、コマンドを実行し、開発ツールと統合する、エージェント的なコーディングツールです
+  - [Plan Mode](https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis) - 読み取り専用の操作でコードベースを分析して計画を立てるよう Claude に指示するモードで、コードベースの探索、複雑な変更の計画、安全なコードレビューに最適です
+  - [Hooks](https://code.claude.com/docs/en/hooks) - エージェントのライフサイクルの特定のポイントで自動的に実行される、ユーザー定義のシェルコマンドまたは LLM プロンプトです
+  - [Subagents](https://code.claude.com/docs/en/sub-agents) - 特定の種類のタスクを処理する専門化された AI アシスタントで、独自のコンテキストの中でカスタムプロンプトとツールアクセスを備えて実行されます
+  - [Sandboxing](https://code.claude.com/docs/en/sandboxing) - より安全で自律的なエージェント実行のためにファイルシステムとネットワークの分離を提供する機能で、OS レベルのプリミティブを使用してこれらの分離を実施し、絶え間ない権限プロンプトを削減します
+  - [Auto-memory](https://code.claude.com/docs/en/memory#auto-memory) - ビルドコマンド、デバッグの知見、アーキテクチャに関するメモ、ユーザーの好みに関するノートを手動介入なしで保存することで、エージェントがセッションをまたいで自動的に知識を蓄積できるようにする機能です
+- 💲 [OpenAI Codex](https://github.com/openai/codex) - ターミナルで動作する軽量なコーディングエージェントで、ローカルなコーディングアシスタントを提供します
+- 🪙 [Antigravity CLI](https://github.com/google-antigravity/antigravity-cli) - コードベースを理解し、許可を得て編集を行い、ターミナルから直接コマンドを実行する、ターミナルベースの AI コーディングエージェントです
+  - [Conductor](https://github.com/gemini-cli-extensions/conductor) - 最新の AI コーディングエージェント全般に対応する、プロジェクト管理のためのエージェントプラグインです
+- 🪙 [GitHub Copilot CLI](https://github.com/github/copilot-cli) - Copilot コーディングエージェントの力を直接ターミナルにもたらすツールです
+- 🪙 [Cursor CLI](https://cursor.com/cli) - ターミナルから直接開発を進められるよう構築されたツールで、どの環境でも同じコマンドを使用できます
+- 🪙 [Amp](https://ampcode.com/) - あらゆる場所で動作するコーディングエージェント兼開発環境です
+- [Aider](https://aider.chat/) - 新しいプロジェクトを始めたり、既存のコードベース上に構築したりできる、ターミナル内の AI ペアプログラミングツールです
+- [Letta Code](https://docs.letta.com/letta-code) - ターミナルに常駐する、メモリファーストのコーディングエージェントです
+- [Deep Agents CLI](https://docs.langchain.com/oss/python/deepagents/cli/overview) - Deep Agents SDK 上に構築されたターミナルコーディングエージェントです
+- [OpenCode.ai](https://opencode.ai/) - 実際のリポジトリ内でコードの理解、編集、出荷を支援する対話的な TUI を提供する、ターミナル向けのオープンソース AI コーディングエージェントです
+- 💲 [Kimi Code](https://www.kimi.com/code) - CLI、VS Code 拡張機能、デスクトップクライアントとして提供される Moonshot AI 製の AI コーディングエージェントで、コードベース分析、ファイル操作、Web 検索、並列サブエージェントタスク処理をサポートしています
+- [Crush](https://github.com/charmbracelet/crush) - お気に入りのターミナル向けの華やかな AI コーディングエージェントです 💘
+- [ForgeCode](https://forgecode.dev/) - 調査、計画、実行のためのマルチエージェントアーキテクチャを備えた ZSH 統合コーディングハーネスで、複数の LLM プロバイダーをサポートし、Terminal-Bench で最上位にランクされています
+
+### 自律型とデスクトップのコーディングエージェント
+
 - 自律型コーディングエージェント
   - [SWE-agent](https://swe-agent.com/latest/) - 一連の言語モデルを搭載した、GitHub リポジトリのバグや問題を修正するツールです
   - [mini-swe-agent](https://mini-swe-agent.com/latest/) - SWE-agent のより小型でアクセスしやすいバージョンです
   - 🪙 [Devin](https://devin.ai/) - 独自のサンドボックス環境内で複雑なエンジニアリングタスクを支援なしで処理できる自律型 AI ソフトウェアエンジニアです
   - 🪙 [Jules](https://jules.google/) - 自律型コーディングエージェントです
-  - 🪙 [Replit Agent](https://replit.com/products/agent) - IDE 内であなたと共に学習し作業できる最初の開発者エージェントです
+- デスクトップコーディングエージェント
+  - [goose](https://block.github.io/goose/) - エンジニアリングタスクをシームレスに自動化するローカル AI エージェントです
+  - [Open Interpreter](https://www.openinterpreter.com/) - コンピューター上でドキュメントを読み取り、編集し、作成できるエージェントと共に作業できるオープンソースのデスクトップエージェントです
+  - [Agent Zero](https://www.agent-zero.ai/) - コードを書いて実行し、自身のコンピューター環境を管理し、自らの行動から学習することで複雑なタスクを解決する動的なツールセットを使用する、オープンソースの個人向け AI エージェントです
+  - [AionUI](https://github.com/iOfficeAI/AionUi) - ドキュメント生成機能を備えた、AI コーディングエージェント向けの Cowork アプリです
 
-### サポートツールとインフラストラクチャ
+### コーディングエージェントのプラットフォームとベンチマーク
 
 - プラットフォーム
   - [OpenHands](https://docs.all-hands.dev/) - AI を搭載したソフトウェア開発エージェント向けのプラットフォームです
   - 🪙 [Port](https://www.getport.io/) - エンジニアリングのあらゆる側面を加速する自律的なワークフローを構築するためのエージェント的な開発者ポータルです
-  - 🪙 [Antigravity](https://antigravity.google/) - エージェント的な開発プラットフォームです
   - 🪙 [Warp](https://www.warp.dev/) - 開発を自動化するためのオープンプラットフォームです
+  - 🪙 [Replit](https://replit.com/) - コーディング不要で、アイデアを数分でアプリに変えるプラットフォームです
+    - 🪙 [Replit Agent](https://replit.com/products/agent) - IDE 内であなたと共に学習し作業できる最初の開発者エージェントです
+- セッショントラッキング
+  - [Entire](https://entire.io/) - git ワークフローにフックし、プッシュのたびに AI エージェントセッションをキャプチャして、コードがどのように書かれたか、各コミットの背後にある意図の検索可能な記録を作成する CLI ツールです
 - ベンチマーク
   - [SWE-bench](https://www.swebench.com/SWE-bench/) - GitHub から収集された実世界のソフトウェア問題で大規模言語モデルを評価するためのベンチマークです
   - [Terminal-Bench](https://www.tbench.ai/) - ソフトウェアエンジニアリング、機械学習、セキュリティ、データサイエンスをカバーする、AI エージェントのターミナル習熟度を定量化するための harbor ネイティブなベンチマークタスクのコレクションです
+
+### コンテキストエンジニアリングツール
+
 - コンテキストプロバイダー
   - 🪙 [Context7](https://context7.com/) - LLM と AI コードエディター向けに最新のドキュメントを提供するために設計された AI エージェント兼ツールです
   - [LeanCTX](https://leanctx.com/) - ファイル読み取りとシェル出力を最大 99% 圧縮することで AI コーディングアシスタントのトークン使用量を削減する、オープンソースのコンテキスト圧縮ツールで、Cursor や Claude Code など 29 以上の AI ツールで動作します
@@ -536,5 +565,3 @@
   - [RTK](https://github.com/rtk-ai/rtk) - 一般的な開発コマンドで LLM のトークン消費を 60〜90% 削減する CLI プロキシです
 - セマンティックコード検索
   - [Serena](https://github.com/oraios/serena) - セマンティック検索と編集機能を提供する強力なコーディングエージェントツールキットです
-- セッショントラッキング
-  - [Entire](https://entire.io/) - git ワークフローにフックし、プッシュのたびに AI エージェントセッションをキャプチャして、コードがどのように書かれたか、各コミットの背後にある意図の検索可能な記録を作成する CLI ツールです

@@ -210,6 +210,7 @@
   - [sd](https://github.com/chmln/sd) - An intuitive find and replace command-line tool
   - [GNU diffutils](https://www.gnu.org/software/diffutils/) - A package of several programs for finding the differences between files
   - [colordiff](https://www.colordiff.org/) - A tool that produces the same output as diff but with coloured syntax highlighting to improve readability
+  - [jc](https://kellyjonbrazil.github.io/jc/docs/) - A CLI tool and Python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries
 
 ### Tabular Data
 

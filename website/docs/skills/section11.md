@@ -167,6 +167,7 @@
 - Tools
   - [GNU Gzip](https://www.gnu.org/software/gzip/) - A popular data compression program
   - [GNU tar](https://www.gnu.org/software/tar/) - A program that provides the ability to create tar archives, as well as various other kinds of manipulation
+  - [GNU sharutils](https://www.gnu.org/software/sharutils/) - A set of utilities for creating and unpacking shell archives
   - [Info-Zip](https://sourceforge.net/projects/infozip/) - A set of open-source software for handling ZIP archives
   - [P7ZIP](https://p7zip.sourceforge.net/) - A port of 7za.exe for POSIX systems
 - Libraries

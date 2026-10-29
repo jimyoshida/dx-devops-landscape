@@ -4,6 +4,7 @@
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. Technology > 3\.1 Software Development > Computer Science
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 :::
@@ -14,13 +15,26 @@
 - [Environment variable](https://en.wikipedia.org/wiki/Environment_variable) - A named variable whose value is set outside the program, typically through functionality built into the operating system or a microservice
 - [POSIX standard](https://en.wikipedia.org/wiki/POSIX) - A family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems
 
+### Computer Architecture
+
+- Processing Units
+  - [Central processing unit (CPU)](https://en.wikipedia.org/wiki/Central_processing_unit) - The primary processor in a computer that executes program instructions by performing arithmetic, logic, controlling, and input/output operations
+  - [Graphics processing unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit) - A specialized electronic circuit designed for accelerating graphics rendering and parallel computing tasks, widely used for 3D graphics, AI/ML workloads, and video processing
+  - [Neural processing unit (NPU)](https://en.wikipedia.org/wiki/Neural_processing_unit) - A specialized hardware designed to accelerate artificial intelligence and machine learning applications through efficient execution of neural networks and computer vision tasks
+- CPU Architectures
+  - [x86-64](https://en.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
+  - [ARM64](https://en.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
+- CPU Extensions
+  - [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions) - An extension to the x86 instruction set architecture for microprocessors from Intel designed to work on matrices to accelerate artificial intelligence and machine learning workloads
+- [Interrupt](https://en.wikipedia.org/wiki/Interrupt) - A request for the processor to interrupt currently executing code, so that the event can be processed in a timely manner
+
 ### Process Management
 
 - [Process](https://en.wikipedia.org/wiki/Process_(computing)) - The instance of a computer program that is being executed by one or more threads
   - [Thread](https://en.wikipedia.org/wiki/Thread_(computing)) - The smallest sequence of programmed instructions that can be managed independently by a scheduler
+    - [Pthreads](https://en.wikipedia.org/wiki/Pthreads) - An execution model that exists independently from a programming language, as well as a parallel execution model
   - [Scheduling](https://en.wikipedia.org/wiki/Scheduling_(computing)) - The action of assigning resources to perform tasks
   - [Context switch](https://en.wikipedia.org/wiki/Context_switch) - The process of storing the state of a process or thread, so that it can be restored and resume execution at a later point
-  - [Interrupt](https://en.wikipedia.org/wiki/Interrupt) - A request for the processor to interrupt currently executing code, so that the event can be processed in a timely manner
 
 ### Inter-Process Communication (IPC)
 
@@ -38,7 +52,7 @@
   - [Page fault](https://en.wikipedia.org/wiki/Page_fault) - A type of exception raised by computer hardware when a running program accesses a memory page that is not currently mapped by the memory management unit into the virtual address space of a process
   - [Resident set size (RSS)](https://en.wikipedia.org/wiki/Resident_set_size) - The portion of memory occupied by a process that is held in main memory
   - [Working set size (WSS)](https://en.wikipedia.org/wiki/Working_set_size) - The set of pages in the virtual address space of the process that are currently resident in main memory
-- [Page cache](https://en.wikipedia.org/wiki/Cache_(computing)) - A hardware or software component that stores data so that future requests for that data can be served faster
+- [Page cache](https://en.wikipedia.org/wiki/Page_cache) - A transparent cache for the pages originating from a secondary storage device such as a hard disk drive or a solid-state drive
 
 ### Storage Management
 
@@ -60,11 +74,14 @@
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. Technology > 3\.1 Software Development > Computer Science
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 :::
 
 - [The OSI Model](https://en.wikipedia.org/wiki/OSI_model) - A conceptual model that provides a common basis for the coordination of standards development for the purpose of systems interconnection
+- [The Internet](https://en.wikipedia.org/wiki/Internet) - The global system of interconnected computer networks that uses the Internet protocol suite to communicate between networks and devices
+- [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) - A distributed computing or networking architecture in which participants share resources directly without reliance on a centralized administrative system
 
 ### Link Layer (L2)
 
@@ -75,19 +92,15 @@
 
 ### Internet Layer (L3)
 
-- [The Internet](https://en.wikipedia.org/wiki/Internet) - The global system of interconnected computer networks that uses the Internet protocol suite to communicate between networks and devices
 - [IP](https://en.wikipedia.org/wiki/Internet_Protocol) - The network layer communications protocol in the Internet protocol suite
-  - [Link-local address](https://en.wikipedia.org/wiki/Link-local_address) - A network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to
   - [IP-multicast](https://en.wikipedia.org/wiki/IP_multicast) - A method of sending Internet Protocol datagrams to a group of interested receivers in a single transmission
+  - [IPv4](https://en.wikipedia.org/wiki/IPv4) - The first version of the Internet Protocol as a standalone specification
+    - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) - A supporting protocol in the Internet protocol suite
+    - [NAT](https://en.wikipedia.org/wiki/Network_address_translation) - A method of mapping an IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device
   - [IPv6](https://en.wikipedia.org/wiki/IPv6) - The most recent version of the Internet Protocol, the communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet
     - [Unique local address](https://en.wikipedia.org/wiki/Unique_local_address) - An IPv6 address in the address block fc00::/7
-  - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) - A supporting protocol in the Internet protocol suite
-  - [ICMPv6](https://en.wikipedia.org/wiki/ICMPv6) - The implementation of the Internet Control Message Protocol for Internet Protocol version 6
-  - [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) - A network management protocol used on Internet Protocol networks for automatically assigning IP addresses and other communication parameters to devices connected to the network
-  - [DHCPv6](https://en.wikipedia.org/wiki/DHCPv6) - A network protocol for configuring Internet Protocol version 6 hosts with IP addresses, IP prefixes and other configuration data required to operate in an IPv6 network
-  - [NAT](https://en.wikipedia.org/wiki/Network_address_translation) - A method of mapping an IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device
-  - [NAT64](https://en.wikipedia.org/wiki/NAT64) - An IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts
-  - [NDP](https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol) - A protocol in the Internet protocol suite used with Internet Protocol Version 6
+    - [ICMPv6](https://en.wikipedia.org/wiki/ICMPv6) - The implementation of the Internet Control Message Protocol for Internet Protocol version 6
+    - [NAT64](https://en.wikipedia.org/wiki/NAT64) - An IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts
 - Routing
   - [Routing table](https://en.wikipedia.org/wiki/Routing_table) - A data table stored in a router or a network host that lists the routes to particular network destinations
   - [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) - A method for allocating IP addresses and for IP routing
@@ -100,14 +113,18 @@
 - [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) - A core member of the Internet protocol suite
 - [QUIC](https://quicwg.org/) - A UDP-based, stream-multiplexing, encrypted transport protocol
 
-### Network Architectures
+### Network Host Configuration
 
-- [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) - A distributed computing or networking architecture in which participants share resources directly without reliance on a centralized administrative system
+- [Link-local address](https://en.wikipedia.org/wiki/Link-local_address) - A network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to
+- [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) - A network management protocol used on Internet Protocol networks for automatically assigning IP addresses and other communication parameters to devices connected to the network
+- [DHCPv6](https://en.wikipedia.org/wiki/DHCPv6) - A network protocol for configuring Internet Protocol version 6 hosts with IP addresses, IP prefixes and other configuration data required to operate in an IPv6 network
+- [NDP](https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol) - A protocol in the Internet protocol suite used with Internet Protocol Version 6
 
 ## Domain Name System (DNS)
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. Technology > 3\.1 Software Development > Web Application Core Technology
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 :::
@@ -127,7 +144,6 @@
 - [BIND (dnsutils)](https://www.isc.org/bind/) - A very flexible, full-featured DNS system
 - [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) - A lightweight, easy to configure DNS forwarder, DHCP and router advertisement server
 - [CoreDNS](https://coredns.io/) - A DNS server that chains plugins
-- [systemd-resolved](https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html) - A system service that provides network name resolution to local applications
 - mDNS Implementations
   - [Avahi](https://www.avahi.org/) - A system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite
   - [Bonjour](https://developer.apple.com/bonjour/) - Apple's implementation of zero-configuration networking
@@ -139,16 +155,19 @@
   - [nslookup](https://linux.die.net/man/1/nslookup) - A program to query Internet domain name servers
 - [Doggo](https://doggo.mrkaran.dev/docs/) - A modern command-line DNS client (like dig) written in Go
 
-- Managed DNS Services
-  - 💲 [Amazon Route53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System web service
-    - [cli53](https://github.com/barnybug/cli53) - A command line tool for Amazon Route 53 that provides import and export from BIND format and simple command line management of Route 53 domains
-  - 💲 [Google Cloud DNS](https://cloud.google.com/dns/) - A high-performance, resilient, global Domain Name System service that publishes your domain names to the global DNS in a cost-effective way
+### Managed DNS Hosting
+
+- 💲 [Amazon Route53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System web service
+  - [cli53](https://github.com/barnybug/cli53) - A command line tool for Amazon Route 53 that provides import and export from BIND format and simple command line management of Route 53 domains
+- 💲 [Google Cloud DNS](https://cloud.google.com/dns/) - A high-performance, resilient, global Domain Name System service that publishes your domain names to the global DNS in a cost-effective way
 
 ## Email System
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. Technology > 3\.1 Software Development > Back-end System Development
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+- 3\. Technology > 3\.1 Software Development > Service Utilization
 
 :::
 
@@ -163,42 +182,42 @@
 
 ### Mailbox Formats
 
-- Unix Mbox
-- Maildir
+- [Mbox](https://en.wikipedia.org/wiki/Mbox) - A generic term for a family of related file formats used for holding collections of email messages
+- [Maildir](https://en.wikipedia.org/wiki/Maildir) - A common way of storing email messages on a file system, rather than in a database
 
 ### Server Software (MTA/MDA)
 
 - [Postfix](https://www.postfix.org/) - A mail server that started life at IBM research as an alternative to the widely-used Sendmail program
 - [Maddy Mail Server](https://github.com/foxcpp/maddy) - An all-in-one mail server that implements all functionality required to run a mail service
-- Testing Servers
-  - [Mailpit](https://mailpit.axllent.org/) - A small, fast, low memory, zero-dependency, multi-platform email testing tool & API for developers
-- IMAP
+- IMAP/POP3 Servers (MDA)
   - [Cyrus IMAP](https://www.cyrusimap.org/) - A highly scalable enterprise mail system designed for use in small to large enterprise environments
   - [Dovecot](https://www.dovecot.org/) - An open source IMAP and POP3 email server for Linux/UNIX-like systems
 
-### Client Software & Utilities
+### Mail Clients (MUA)
 
-- TUI Clients & Utilities
+- TUI Clients
   - [mailutils](https://mailutils.org/) - A set of libraries and utilities for handling electronic mail
     - [mail command](https://mailutils.org/manual/html_section/mail.html) - A command to send and receive mail
   - [Himalaya](https://github.com/pimalaya/himalaya) - A CLI application for email management, built in Rust, that allows users to interact with emails through shell commands, with support for IMAP, Maildir, SMTP, OAuth 2.0, and PGP encryption
   - [Mutt](http://www.mutt.org/) - A small but very powerful text based program for reading and sending electronic mail under unix operating systems
-  - [swaks](http://www.jetmore.org/john/code/swaks/) - A featureful, flexible, scriptable, transaction-oriented SMTP test tool
-  - [msmtp](https://marlam.de/msmtp/) - An SMTP client that transmits mail to an SMTP server for delivery, designed to be configured as a sendmail replacement for mail clients
   - [Pop](https://github.com/charmbracelet/pop) - A library for sending emails from your terminal
-  - [GNU sharutils](https://www.gnu.org/software/sharutils/) - A set of utilities for creating and unpacking shell archives
-- Libraries
-  - [go-mail](https://github.com/wneessen/go-mail/wiki) - A simple to use, yet feature rich mail library for Go
 - GUI Clients
   - [Thunderbird](https://www.thunderbird.net/en-US/) - A free email application that’s easy to set up and customize
   - [Sylpheed](https://sylpheed.sraoss.jp/en/) - A simple, lightweight but featureful, and easy-to-use e-mail client
+- Mail Libraries
+  - [go-mail](https://github.com/wneessen/go-mail/wiki) - A simple to use, yet feature rich mail library for Go
 
-### Spam Test and Reputation
+### SMTP Testing & Sending Tools
 
+- [swaks](http://www.jetmore.org/john/code/swaks/) - A featureful, flexible, scriptable, transaction-oriented SMTP test tool
+- [msmtp](https://marlam.de/msmtp/) - An SMTP client that transmits mail to an SMTP server for delivery, designed to be configured as a sendmail replacement for mail clients
+- [Mailpit](https://mailpit.axllent.org/) - A small, fast, low memory, zero-dependency, multi-platform email testing tool & API for developers
 - 🪙 [mail-tester](https://www.mail-tester.com/) - A free online service that allows you to test your emails for Spam, Malformed Content and Mail Server Configuration problems
-- [Spamhaus Project](https://www.spamhaus.org/) - A non-profit organization that tracks spam and related cyber threats
 
-- Cloud Services
+### Email Deliverability
+
+- [Spamhaus Project](https://www.spamhaus.org/) - A non-profit organization that tracks spam and related cyber threats
+- Email Delivery Services
   - 💲 [Amazon SES](https://aws.amazon.com/ses/) - A cost-effective, flexible, and scalable email service that enables developers to send mail from within any application
   - 💲 [SendGrid](https://www.twilio.com/en-us/sendgrid) - A cloud-based email delivery platform that provides reliable transactional and marketing email delivery at scale
 
@@ -206,29 +225,31 @@
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. Technology > 3\.1 Software Development > Computer Science
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
 
 :::
 
 - [The Linux Kernel](https://www.kernel.org/) - The main component of a Linux operating system and is the core interface between a computer's hardware and its processes
-  - Threads
-    - [Pthreads](https://en.wikipedia.org/wiki/Pthreads) - An execution model that exists independently from a programming language, as well as a parallel execution model
-  - Filesystems
-    - [Ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
-    - [XFS](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
-    - [Btrfs](https://en.wikipedia.org/wiki/Btrfs) - A copy-on-write filesystem for Linux with advanced features including snapshots, RAID, and self-healing
-    - [UnionFS](https://en.wikipedia.org/wiki/UnionFS) - A filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems
-    - [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
-    - [proc.5](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
-    - [sysfs.5](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
-  - Container Support
-    - [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html) - A Linux kernel feature which allow processes to be organized into hierarchical groups whose usage of various types of resources can then be limited and monitored
-    - [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html) - A wrapper for a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource
-    - [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html) - The userspace interface for the Linux kernel containment features
-    - [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html) - A command that executes a program in the namespaces of other processes
-  - [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
-    - [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
-  - [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
+
+### Linux Kernel Subsystems
+
+- Filesystems
+  - [Ext4](https://en.wikipedia.org/wiki/Ext4) - The default file system for many major Linux distributions
+  - [XFS](https://en.wikipedia.org/wiki/XFS) - A high-performance journaling file system created by Silicon Graphics, Inc
+  - [Btrfs](https://en.wikipedia.org/wiki/Btrfs) - A copy-on-write filesystem for Linux with advanced features including snapshots, RAID, and self-healing
+  - [UnionFS](https://en.wikipedia.org/wiki/UnionFS) - A filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems
+  - [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) - A union mount filesystem implementation for Linux
+  - [proc.5](https://man7.org/linux/man-pages/man5/proc.5.html) - A virtual filesystem that provides an interface to kernel data structures
+  - [sysfs.5](https://man7.org/linux/man-pages/man5/sysfs.5.html) - A virtual filesystem that exports information about various kernel subsystems, hardware devices, and associated device drivers
+- Container Support
+  - [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html) - A Linux kernel feature which allow processes to be organized into hierarchical groups whose usage of various types of resources can then be limited and monitored
+  - [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html) - A wrapper for a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource
+  - [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html) - The userspace interface for the Linux kernel containment features
+  - [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html) - A command that executes a program in the namespaces of other processes
+- [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - An interface for userspace programs to export a filesystem to the Linux kernel
+  - [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - A FUSE filesystem that allows you to mount an Amazon S3 bucket as a local filesystem
+- [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - A revolutionary technology with origins in the Linux kernel that can run sandboxed programs in a privileged context
 
 ### Linux Distributions
 
@@ -255,7 +276,7 @@
 - [NetBSD](https://www.netbsd.org/) - A free, fast, secure, and highly portable Unix-like Open Source operating system
 - [OpenBSD](https://www.openbsd.org/) - A free and open-source, Unix-like operating system as a fork of NetBSD that emphasizes extremely high security and cryptography
 
-### System Services & Auth
+### Init & System Services
 
 - [Systemd](https://www.freedesktop.org/wiki/Software/systemd/) - A system and service manager for Linux operating systems
   - [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#) - A system service that collects and stores logging data
@@ -263,7 +284,6 @@
   - [networkd](https://www.freedesktop.org/software/systemd/man/latest/systemd-networkd.html#) - A system service that manages networks
   - [resolved](https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.html#) - A system service that provides network name resolution to local applications
   - [timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.html#) - A system service that may be used to synchronize the local system clock with a remote Network Time Protocol server
-- [linux-pam](https://github.com/linux-pam/linux-pam) - A system of libraries that handle the authentication tasks of applications and services in a Linux system
 
 ## Machine Virtualization
 
@@ -276,39 +296,26 @@
 - [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - The act of creating a virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources
 - [libvirt](https://libvirt.org/) - A toolkit to manage virtualization platforms
 
-### Type-1 Hypervisors
+### Bare-Metal Hypervisors
 
 - [KVM](https://www.linux-kvm.org/page/Main_Page) - A full virtualization solution for Linux on x86 hardware containing virtualization extensions
 - [Hyper-V](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview) - A hardware virtualization product from Microsoft
 - 🔒 [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - A complete, open-source server management platform for enterprise virtualization
+- Hardware Assistance
+  - [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization) - The use of hardware-assisted virtualization capabilities on an x86/x86-64 CPU
 
-### Type-2 Hypervisors
+### Hosted Hypervisors & Emulators
 
 - [VirtualBox](https://www.virtualbox.org/) - A powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use
 - [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
-
-### CPU Emulators
-
-- [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
-
-### Computer Hardware
-
-- Processing Units
-  - [Central processing unit (CPU)](https://en.wikipedia.org/wiki/Central_processing_unit) - The primary processor in a computer that executes program instructions by performing arithmetic, logic, controlling, and input/output operations
-  - [Graphics processing unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit) - A specialized electronic circuit designed for accelerating graphics rendering and parallel computing tasks, widely used for 3D graphics, AI/ML workloads, and video processing
-  - [Neural processing unit (NPU)](https://en.wikipedia.org/wiki/Neural_processing_unit) - A specialized hardware designed to accelerate artificial intelligence and machine learning applications through efficient execution of neural networks and computer vision tasks
-- CPU Architectures
-  - [x86-64](https://en.wikipedia.org/wiki/X86-64) - A 64-bit version of the x86 instruction set
-  - [ARM64](https://en.wikipedia.org/wiki/AArch64) - The 64-bit extension of the ARM architecture family
-- CPU Extensions
-  - [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
-  - [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
 
 ## Linux Host Administration
 
 :::note[Relevant DSS-P Skills]
 
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+- 3\. Technology > 3\.1 Software Development > SRE Process
+- 4\. Security > 4\.2 Security Technology > Security Operation, Maintenance, and Monitoring
 
 :::
 
@@ -319,16 +326,20 @@
   - [lsns](https://man7.org/linux/man-pages/man8/lsns.8.html) - A command that lists information about all the currently accessible namespaces or about the given namespace
   - [swapon](https://man7.org/linux/man-pages/man8/swapon.8.html) - A command used to specify devices on which paging and swapping are to take place
 - [rsync](https://rsync.samba.org/) - An open source utility that provides fast incremental file transfer
+
+### User & Privilege Management
+
 - [sudo](https://www.sudo.ws/) - A system administrator to delegate authority to give certain users the ability to run some commands as root or another user
 - [shadow-utils](https://github.com/shadow-maint/shadow) - includes the necessary programs for converting UNIX password files to the shadow password format, plus programs for managing user and group accounts
   - [useradd](https://man7.org/linux/man-pages/man8/useradd.8.html) - A low level utility for adding users
-- [jc](https://kellyjonbrazil.github.io/jc/docs/) - A CLI tool and Python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries
-- [aha](https://github.com/theZiz/aha) - An Ansi HTML Adapter
-  - [NO_COLOR](https://no-color.org/) - An environment variable to disable ANSI color in command-line software
+- [linux-pam](https://github.com/linux-pam/linux-pam) - A system of libraries that handle the authentication tasks of applications and services in a Linux system
+
+### Logging & Job Scheduling
+
+- [Syslog](https://en.wikipedia.org/wiki/Syslog) - A standard for message logging
+- [logrotate](https://github.com/logrotate/logrotate) - allows for the automatic rotation compression, removal and mailing of log files
 - [Vixie Cron](https://github.com/vixie/cron) - An open source implementation of POSIX Cron
   - [Crontab.guru](https://crontab.guru/) - A quick and simple editor for cron schedule expressions
-- [logrotate](https://github.com/logrotate/logrotate) - allows for the automatic rotation compression, removal and mailing of log files
-- [Syslog](https://en.wikipedia.org/wiki/Syslog) - A standard for message logging
 
 ### Process & System Monitoring
 
@@ -350,12 +361,11 @@
   - [Monit](https://mmonit.com/monit/) - A small Open Source utility for managing and monitoring Unix systems
   - [atop](https://github.com/Atoptool/atop#atop) - An ASCII full-screen performance monitor for Linux
   - [smem](https://www.selenic.com/smem/) - A tool that can give numerous reports on memory usage on Linux systems
-
-### Time Synchronization
-
-- [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) - A networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks
-- [chrony](https://chrony-project.org/) - A versatile implementation of the Network Time Protocol
-- [pool.ntp.org](https://www.ntppool.org/en/) - A big virtual cluster of timeservers providing reliable easy to use NTP service for millions of clients
+- Modern Monitors
+  - [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
+  - [htop](https://htop.dev/) - An interactive process viewer for Unix systems
+  - [btop++](https://github.com/aristocratos/btop) - A resource monitor for Linux, macOS, and FreeBSD
+  - [glances](https://nicolargo.github.io/glances/) - A cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface
 
 ### Modern CLI Alternatives
 
@@ -367,31 +377,32 @@
 - [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
 - [dua](https://github.com/byron/dua-cli) - A tool to view disk space usage and delete unwanted data, fast
 - [duf](https://github.com/muesli/duf) - A better 'df' alternative
-- [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
-- [htop](https://htop.dev/) - An interactive process viewer for Unix systems
-- [btop++](https://github.com/aristocratos/btop) - A resource monitor for Linux, macOS, and FreeBSD
-- [glances](https://nicolargo.github.io/glances/) - A cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) - A maintained, feature-rich and performance oriented, neofetch like system information tool
 
 ### Package Management Tools
 
-- [dpkg](https://salsa.debian.org/dpkg-team/dpkg) - The base package management system for Debian
-  - [apt](https://salsa.debian.org/apt-team/apt) - A command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions
-- [Pacman](https://pacman.archlinux.page/) - A utility which manages software packages in Linux
-  - [Yay](https://github.com/Jguer/yay) - An AUR Helper Written in Go
-- [dnf](https://github.com/rpm-software-management/dnf) - The next-generation version of yum
-- [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
-- [pipx](https://pipx.pypa.io/stable/) - A tool to install and run Python applications in isolated environments
-- [Flatpak](https://flatpak.org/) - A system for building, distributing, and running sandboxed desktop applications on Linux
-- [Snapcraft](https://snapcraft.io/) - A software packaging and deployment system developed by Canonical for operating systems that use the Linux kernel
-- [arkade](https://github.com/alexellis/arkade) - A portable marketplace for downloading your favourite devops CLIs and installing helm charts to your Kubernetes cluster
-- [Plaza](https://github.com/StaszeKrk/plaza) - A customizable, riceable terminal UI for finding, installing, and managing packages across pacman, AUR, apt, dnf, and Flatpak
+- Distribution Package Managers
+  - [dpkg](https://salsa.debian.org/dpkg-team/dpkg) - The base package management system for Debian
+    - [apt](https://salsa.debian.org/apt-team/apt) - A command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions
+  - [Pacman](https://pacman.archlinux.page/) - A utility which manages software packages in Linux
+    - [Yay](https://github.com/Jguer/yay) - An AUR Helper Written in Go
+  - [dnf](https://github.com/rpm-software-management/dnf) - The next-generation version of yum
+- Sandboxed App Formats
+  - [Flatpak](https://flatpak.org/) - A system for building, distributing, and running sandboxed desktop applications on Linux
+  - [Snapcraft](https://snapcraft.io/) - A software packaging and deployment system developed by Canonical for operating systems that use the Linux kernel
+- Cross-Platform Installers
+  - [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
+  - [pipx](https://pipx.pypa.io/stable/) - A tool to install and run Python applications in isolated environments
+  - [arkade](https://github.com/alexellis/arkade) - A portable marketplace for downloading your favourite devops CLIs and installing helm charts to your Kubernetes cluster
+- Package Manager Frontends
+  - [Plaza](https://github.com/StaszeKrk/plaza) - A customizable, riceable terminal UI for finding, installing, and managing packages across pacman, AUR, apt, dnf, and Flatpak
 
 ## Linux Network Administration
 
 :::note[Relevant DSS-P Skills]
 
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+- 4\. Security > 4\.2 Security Technology > Security Operation, Maintenance, and Monitoring
 
 :::
 
@@ -406,7 +417,13 @@
 - [NetworkManager](https://networkmanager.dev/) - A daemon that sits on top of libudev and other Linux kernel interfaces and provides a high-level interface for network configuration
 - [Ubuntu NetPlan](https://netplan.io/) - A network configuration abstraction renderer
 
-### Analysis & Security
+### Time Synchronization
+
+- [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) - A networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks
+- [chrony](https://chrony-project.org/) - A versatile implementation of the Network Time Protocol
+- [pool.ntp.org](https://www.ntppool.org/en/) - A big virtual cluster of timeservers providing reliable easy to use NTP service for millions of clients
+
+### Network Diagnostics & Analysis
 
 - [tcpdump](https://www.tcpdump.org/) - A powerful command-line packet analyzer
 - [wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer
@@ -414,7 +431,7 @@
   - [ncat](https://nmap.org/ncat/) - A feature-packed networking utility which reads and writes data across networks from the command line
 - [traceroute](https://traceroute.sourceforge.net/) - A computer network diagnostic tool for displaying the route and measuring transit delays of packets across an Internet Protocol network
 
-### Proxies & Gateways
+### Proxies, Tunnels & VPNs
 
 - [SOCKS Proxy](https://en.wikipedia.org/wiki/SOCKS) - An Internet protocol that exchanges network packets between a client and server through a proxy server
   - [Dante](https://www.inet.no/dante/) - A SOCKS server and SOCKS client, implementing RFC 1928 and related standards
@@ -423,12 +440,15 @@
 - Tunneling
   - [cloudflared](https://github.com/cloudflare/cloudflared) - The command-line client for Cloudflare Tunnel, a daemon that proxies traffic from the Cloudflare network to your origins
   - 🪙 [ngrok](https://ngrok.com/) - A unified ingress platform that delivers reverse proxy, API gateway, and secure tunnels to expose local applications to the internet
+- Mesh VPN
+  - 🪙 [Tailscale](https://tailscale.com/) - A Zero Trust identity-based connectivity platform that replaces your legacy VPN, SASE, and PAM and connects remote teams, multi-cloud environments, CI/CD pipelines, Edge & IoT devices, and AI workloads
 
 ## File Sharing & Remote Access
 
 :::note[Relevant DSS-P Skills]
 
 - 3\. Technology > 3\.1 Software Development > Cloud Infrastructure Utilization
+- 4\. Security > 4\.2 Security Technology > Secure Design, Development, and Construction
 
 :::
 
@@ -452,5 +472,3 @@
   - [x11vnc](https://github.com/LibVNC/x11vnc) - A VNC server for X11
   - [TightVNC](https://www.tightvnc.com/) - A free remote desktop application
 - [Mosh](https://mosh.org/) - A replacement for interactive SSH terminals
-- Mesh VPN
-  - 🪙 [Tailscale](https://tailscale.com/) - A Zero Trust identity-based connectivity platform that replaces your legacy VPN, SASE, and PAM and connects remote teams, multi-cloud environments, CI/CD pipelines, Edge & IoT devices, and AI workloads

@@ -262,37 +262,49 @@ section06: AI, Machine Learning & LLM
 section07: Fundamental Developer Skills
   # Software Development Methods
     # Agile Development
+    # Test-Driven & Behavior-Driven Development
     # Lean Development
-    # DevOps & Engineering Productivity
-    # Release Automation
-    # Release Conventions & Standards
+    # DevOps Culture & Practices
   # The Open Ecosystem
-    # Open Source
+    # Open Source Licensing
+    # Public Package Registries
     # Open Data
-    # Community & Governance
+    # Open Source Foundations
+    # Standards Bodies & Community Governance
   # Shell & Terminal
     # Bash & Other Shells
-    # Shell Utilities
+    # Shell Productivity Tools
+    # Shell Frameworks & Prompts
     # Terminal Emulators
-    # Terminal Utilities
-    # Linux or Unix-like environments on Windows
+    # Terminal Multiplexers & Console File Managers
+    # Unix-like Environments on Windows
   # Version Control System
+    # Git Fundamentals
+    # Git Clients, UIs & Libraries
+    # Git Hooks & Repository Maintenance
+    # Commit Conventions & Release Automation
     # Git Hosting Services
-    # Branching Models
-    # Code Review
-  # Integrated Development Environment (IDE)
+    # Branching Models & Code Review
+  # Editors & IDEs
+    # Desktop & Cloud IDEs
+    # Vim & Modal Editors
+    # Emacs
     # Language Servers
   # Code Quality & Refactoring
-    # Analysis Platform
-    # Formatters
-    # Linters
-    # Coding style guides
-  # Developer AI & Productivity
-    # AI Productivity Tools
-    # Development Agents
-    # Supporting Tools & Infrastructure
+    # Code Quality Concepts & Metrics
+    # Code Analysis & Coverage Platforms
+    # Linters & Formatters
+    # Coding Style Guides & Conventions
+  # AI-Assisted Development
+    # LLM Command-Line Tools
+    # AI Coding Assistants & AI-native IDEs
+    # CLI Coding Agents
+    # Autonomous & Desktop Coding Agents
+    # Coding Agent Platforms & Benchmarks
+    # Context Engineering Tools
 section08: OS & Network Basics
   # Core OS Concepts
+    # Computer Architecture
     # Process Management
     # Inter-Process Communication (IPC)
     # Memory Management
@@ -301,35 +313,38 @@ section08: OS & Network Basics
     # Link Layer (L2)
     # Internet Layer (L3)
     # Transport Layer (L4)
-    # Network Architectures
+    # Network Host Configuration
   # Domain Name System (DNS)
     # Domain Registration & Lookup
     # Server & Resolver Implementations
     # Client Tools
+    # Managed DNS Hosting
   # Email System
     # Mailbox Formats
     # Server Software (MTA/MDA)
-    # Client Software & Utilities
-    # Spam Test and Reputation
+    # Mail Clients (MUA)
+    # SMTP Testing & Sending Tools
+    # Email Deliverability
   # Unix-like Operating Systems
+    # Linux Kernel Subsystems
     # Linux Distributions
     # BSD Distributions
-    # System Services & Auth
+    # Init & System Services
   # Machine Virtualization
-    # Type-1 Hypervisors
-    # Type-2 Hypervisors
-    # CPU Emulators
-    # Computer Hardware
+    # Bare-Metal Hypervisors
+    # Hosted Hypervisors & Emulators
   # Linux Host Administration
     # Core Utilities
+    # User & Privilege Management
+    # Logging & Job Scheduling
     # Process & System Monitoring
-    # Time Synchronization
     # Modern CLI Alternatives
     # Package Management Tools
   # Linux Network Administration
     # Configuration & Management
-    # Analysis & Security
-    # Proxies & Gateways
+    # Time Synchronization
+    # Network Diagnostics & Analysis
+    # Proxies, Tunnels & VPNs
   # File Sharing & Remote Access
     # File Servers and Protocols
     # Remote Access Servers and Protocols

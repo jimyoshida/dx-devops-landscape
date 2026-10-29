@@ -167,6 +167,7 @@
 - ツール
   - [GNU Gzip](https://www.gnu.org/software/gzip/) - 人気のあるデータ圧縮プログラムです
   - [GNU tar](https://www.gnu.org/software/tar/) - tar アーカイブの作成や、その他さまざまな操作を行う機能を提供するプログラムです
+  - [GNU sharutils](https://www.gnu.org/software/sharutils/) - シェルアーカイブを作成・展開するためのユーティリティ一式です
   - [Info-Zip](https://sourceforge.net/projects/infozip/) - ZIP アーカイブを扱うためのオープンソースソフトウェア一式です
   - [P7ZIP](https://p7zip.sourceforge.net/) - POSIX システム向けの 7za.exe の移植版です
 - ライブラリ

@@ -4,6 +4,7 @@
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > コンピュータサイエンス
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
 
 :::
@@ -14,13 +15,26 @@
 - [Environment variable](https://en.wikipedia.org/wiki/Environment_variable) - 通常はオペレーティングシステムやマイクロサービスに組み込まれた機能を通じて、プログラムの外部で値が設定される名前付き変数です
 - [POSIX standard](https://en.wikipedia.org/wiki/POSIX) - オペレーティングシステム間の互換性を維持するために IEEE Computer Society が規定した標準規格群です
 
+### コンピュータアーキテクチャ
+
+- 処理装置
+  - [Central processing unit (CPU)](https://en.wikipedia.org/wiki/Central_processing_unit) - 算術・論理・制御・入出力操作を実行することでプログラム命令を処理する、コンピュータの主要なプロセッサです
+  - [Graphics processing unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit) - グラフィックスレンダリングと並列コンピューティングタスクの高速化のために設計された特殊な電子回路で、3D グラフィックス、AI/ML ワークロード、動画処理に広く使用されています
+  - [Neural processing unit (NPU)](https://en.wikipedia.org/wiki/Neural_processing_unit) - ニューラルネットワークとコンピュータビジョンタスクを効率的に実行することで、人工知能と機械学習アプリケーションを高速化するために設計された特殊なハードウェアです
+- CPU アーキテクチャ
+  - [x86-64](https://en.wikipedia.org/wiki/X86-64) - x86 命令セットの 64 ビット版です
+  - [ARM64](https://en.wikipedia.org/wiki/AArch64) - ARM アーキテクチャファミリーの 64 ビット拡張です
+- CPU 拡張機能
+  - [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions) - 人工知能と機械学習のワークロードを高速化するために行列演算を行うよう設計された、Intel のマイクロプロセッサ向け x86 命令セットアーキテクチャの拡張です
+- [Interrupt](https://en.wikipedia.org/wiki/Interrupt) - イベントを適時に処理できるように、プロセッサに現在実行中のコードを中断させる要求です
+
 ### プロセス管理
 
 - [Process](https://en.wikipedia.org/wiki/Process_(computing)) - 1 つ以上のスレッドによって実行されているコンピュータプログラムのインスタンスです
   - [Thread](https://en.wikipedia.org/wiki/Thread_(computing)) - スケジューラによって独立に管理できる、プログラムされた命令列の最小単位です
+    - [Pthreads](https://en.wikipedia.org/wiki/Pthreads) - プログラミング言語から独立して存在する実行モデルであり、並行実行モデルでもあります
   - [Scheduling](https://en.wikipedia.org/wiki/Scheduling_(computing)) - タスクを実行するためにリソースを割り当てる行為です
   - [Context switch](https://en.wikipedia.org/wiki/Context_switch) - 後で復元して実行を再開できるように、プロセスまたはスレッドの状態を保存する処理です
-  - [Interrupt](https://en.wikipedia.org/wiki/Interrupt) - イベントを適時に処理できるように、プロセッサに現在実行中のコードを中断させる要求です
 
 ### プロセス間通信 (IPC)
 
@@ -38,7 +52,7 @@
   - [Page fault](https://en.wikipedia.org/wiki/Page_fault) - 実行中のプログラムが、メモリ管理ユニットによってプロセスの仮想アドレス空間に現在マッピングされていないメモリページにアクセスした際に、コンピュータハードウェアが発生させる例外の一種です
   - [Resident set size (RSS)](https://en.wikipedia.org/wiki/Resident_set_size) - プロセスが占有するメモリのうち、メインメモリに保持されている部分です
   - [Working set size (WSS)](https://en.wikipedia.org/wiki/Working_set_size) - プロセスの仮想アドレス空間内のページのうち、現在メインメモリに常駐しているものの集合です
-- [Page cache](https://en.wikipedia.org/wiki/Cache_(computing)) - 将来のデータ要求をより高速に処理できるように、データを保存するハードウェアまたはソフトウェアコンポーネントです
+- [Page cache](https://en.wikipedia.org/wiki/Page_cache) - ハードディスクドライブやソリッドステートドライブなどの二次記憶装置に由来するページのための透過的なキャッシュです
 
 ### ストレージ管理
 
@@ -60,11 +74,14 @@
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > コンピュータサイエンス
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
 
 :::
 
 - [The OSI Model](https://en.wikipedia.org/wiki/OSI_model) - システム間相互接続を目的とした標準規格開発の連携のための共通基盤を提供する概念モデルです
+- [The Internet](https://en.wikipedia.org/wiki/Internet) - ネットワークやデバイス間の通信にインターネットプロトコルスイートを使用する、相互接続されたコンピュータネットワークの世界的なシステムです
+- [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) - 参加者が集中管理システムに頼ることなく、直接リソースを共有する分散コンピューティングまたはネットワーキングアーキテクチャです
 
 ### リンク層 (L2)
 
@@ -75,19 +92,15 @@
 
 ### インターネット層 (L3)
 
-- [The Internet](https://en.wikipedia.org/wiki/Internet) - ネットワークやデバイス間の通信にインターネットプロトコルスイートを使用する、相互接続されたコンピュータネットワークの世界的なシステムです
 - [IP](https://en.wikipedia.org/wiki/Internet_Protocol) - インターネットプロトコルスイートにおけるネットワーク層の通信プロトコルです
-  - [Link-local address](https://en.wikipedia.org/wiki/Link-local_address) - ホストが接続されているネットワークセグメントまたはブロードキャストドメイン内の通信でのみ有効なネットワークアドレスです
   - [IP-multicast](https://en.wikipedia.org/wiki/IP_multicast) - 単一の送信で興味を持つ受信者グループにインターネットプロトコルデータグラムを送信する方式です
+  - [IPv4](https://en.wikipedia.org/wiki/IPv4) - 独立した仕様として策定された、インターネットプロトコルの最初のバージョンです
+    - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) - インターネットプロトコルスイートにおける補助プロトコルです
+    - [NAT](https://en.wikipedia.org/wiki/Network_address_translation) - トラフィックルーティングデバイスを通過中のパケットの IP ヘッダー内のネットワークアドレス情報を変更することで、ある IP アドレス空間を別の空間にマッピングする手法です
   - [IPv6](https://en.wikipedia.org/wiki/IPv6) - ネットワーク上のコンピュータに識別・所在システムを提供し、インターネット上でトラフィックを経路制御する通信プロトコルであるインターネットプロトコルの最新版です
     - [Unique local address](https://en.wikipedia.org/wiki/Unique_local_address) - アドレスブロック fc00::/7 内の IPv6 アドレスです
-  - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) - インターネットプロトコルスイートにおける補助プロトコルです
-  - [ICMPv6](https://en.wikipedia.org/wiki/ICMPv6) - インターネットプロトコルバージョン 6 向けの Internet Control Message Protocol の実装です
-  - [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) - ネットワークに接続されたデバイスに IP アドレスやその他の通信パラメータを自動的に割り当てるために、インターネットプロトコルネットワーク上で使用されるネットワーク管理プロトコルです
-  - [DHCPv6](https://en.wikipedia.org/wiki/DHCPv6) - IPv6 ネットワークで動作するために必要な IP アドレス、IP プレフィックス、その他の設定データを、インターネットプロトコルバージョン 6 ホストに設定するためのネットワークプロトコルです
-  - [NAT](https://en.wikipedia.org/wiki/Network_address_translation) - トラフィックルーティングデバイスを通過中のパケットの IP ヘッダー内のネットワークアドレス情報を変更することで、ある IP アドレス空間を別の空間にマッピングする手法です
-  - [NAT64](https://en.wikipedia.org/wiki/NAT64) - IPv6 ホストと IPv4 ホスト間の通信を仲介する IPv6 移行メカニズムです
-  - [NDP](https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol) - インターネットプロトコルバージョン 6 で使用される、インターネットプロトコルスイート内のプロトコルです
+    - [ICMPv6](https://en.wikipedia.org/wiki/ICMPv6) - インターネットプロトコルバージョン 6 向けの Internet Control Message Protocol の実装です
+    - [NAT64](https://en.wikipedia.org/wiki/NAT64) - IPv6 ホストと IPv4 ホスト間の通信を仲介する IPv6 移行メカニズムです
 - ルーティング
   - [Routing table](https://en.wikipedia.org/wiki/Routing_table) - 特定のネットワーク宛先への経路を列挙した、ルーターまたはネットワークホストに保存されるデータテーブルです
   - [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) - IP アドレスの割り当てと IP ルーティングのための手法です
@@ -100,14 +113,18 @@
 - [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) - インターネットプロトコルスイートの中核をなすメンバーです
 - [QUIC](https://quicwg.org/) - UDP ベースの、ストリーム多重化された暗号化トランスポートプロトコルです
 
-### ネットワークアーキテクチャ
+### ネットワークホスト設定
 
-- [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) - 参加者が集中管理システムに頼ることなく、直接リソースを共有する分散コンピューティングまたはネットワーキングアーキテクチャです
+- [Link-local address](https://en.wikipedia.org/wiki/Link-local_address) - ホストが接続されているネットワークセグメントまたはブロードキャストドメイン内の通信でのみ有効なネットワークアドレスです
+- [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) - ネットワークに接続されたデバイスに IP アドレスやその他の通信パラメータを自動的に割り当てるために、インターネットプロトコルネットワーク上で使用されるネットワーク管理プロトコルです
+- [DHCPv6](https://en.wikipedia.org/wiki/DHCPv6) - IPv6 ネットワークで動作するために必要な IP アドレス、IP プレフィックス、その他の設定データを、インターネットプロトコルバージョン 6 ホストに設定するためのネットワークプロトコルです
+- [NDP](https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol) - インターネットプロトコルバージョン 6 で使用される、インターネットプロトコルスイート内のプロトコルです
 
 ## ドメインネームシステム (DNS)
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > Webアプリケーション基本技術
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
 
 :::
@@ -127,7 +144,6 @@
 - [BIND (dnsutils)](https://www.isc.org/bind/) - 非常に柔軟でフル機能を備えた DNS システムです
 - [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) - 軽量で設定が容易な DNS フォワーダー、DHCP、ルーターアドバタイズメントサーバーです
 - [CoreDNS](https://coredns.io/) - プラグインを連鎖させる DNS サーバーです
-- [systemd-resolved](https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html) - ローカルアプリケーションにネットワーク名前解決を提供するシステムサービスです
 - mDNS の実装
   - [Avahi](https://www.avahi.org/) - mDNS/DNS-SD プロトコルスイートを介して、ローカルネットワーク上でのサービス発見を容易にするシステムです
   - [Bonjour](https://developer.apple.com/bonjour/) - ゼロコンフィグレーションネットワーキングの Apple による実装です
@@ -139,16 +155,19 @@
   - [nslookup](https://linux.die.net/man/1/nslookup) - インターネットドメインネームサーバーに問い合わせるプログラムです
 - [Doggo](https://doggo.mrkaran.dev/docs/) - Go で書かれた、モダンなコマンドライン DNS クライアント (dig のようなもの) です
 
-- マネージド DNS サービス
-  - 💲 [Amazon Route53](https://aws.amazon.com/route53/) - 高可用性でスケーラブルなクラウド Domain Name System Web サービスです
-    - [cli53](https://github.com/barnybug/cli53) - BIND 形式でのインポート・エクスポートと、Route 53 ドメインのシンプルなコマンドライン管理を提供する Amazon Route 53 用コマンドラインツールです
-  - 💲 [Google Cloud DNS](https://cloud.google.com/dns/) - コスト効率よくドメイン名をグローバル DNS に公開する、高性能でレジリエントなグローバル Domain Name System サービスです
+### マネージド DNS ホスティング
+
+- 💲 [Amazon Route53](https://aws.amazon.com/route53/) - 高可用性でスケーラブルなクラウド Domain Name System Web サービスです
+  - [cli53](https://github.com/barnybug/cli53) - BIND 形式でのインポート・エクスポートと、Route 53 ドメインのシンプルなコマンドライン管理を提供する Amazon Route 53 用コマンドラインツールです
+- 💲 [Google Cloud DNS](https://cloud.google.com/dns/) - コスト効率よくドメイン名をグローバル DNS に公開する、高性能でレジリエントなグローバル Domain Name System サービスです
 
 ## メールシステム
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > バックエンドシステム開発
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > サービス活用
 
 :::
 
@@ -163,42 +182,42 @@
 
 ### メールボックス形式
 
-- Unix Mbox
-- Maildir
+- [Mbox](https://en.wikipedia.org/wiki/Mbox) - 電子メールメッセージの集合を保持するために使用される、関連するファイル形式のファミリーの総称です
+- [Maildir](https://en.wikipedia.org/wiki/Maildir) - 電子メールメッセージをデータベースではなくファイルシステム上に保存する一般的な方式です
 
 ### サーバーソフトウェア (MTA/MDA)
 
 - [Postfix](https://www.postfix.org/) - 広く使われている Sendmail プログラムの代替として IBM の研究部門で誕生したメールサーバーです
 - [Maddy Mail Server](https://github.com/foxcpp/maddy) - メールサービスを運用するために必要なすべての機能を実装した、オールインワンのメールサーバーです
-- テスト用サーバー
-  - [Mailpit](https://mailpit.axllent.org/) - 小型で高速、低メモリ、依存関係ゼロのマルチプラットフォームな、開発者向けメールテストツール兼 API です
-- IMAP
+- IMAP/POP3 サーバー (MDA)
   - [Cyrus IMAP](https://www.cyrusimap.org/) - 小規模から大規模の企業環境での使用向けに設計された、高いスケーラビリティを持つエンタープライズメールシステムです
   - [Dovecot](https://www.dovecot.org/) - Linux/UNIX 系システム向けのオープンソース IMAP・POP3 メールサーバーです
 
-### クライアントソフトウェアとユーティリティ
+### メールクライアント (MUA)
 
-- TUI クライアントとユーティリティ
+- TUI クライアント
   - [mailutils](https://mailutils.org/) - 電子メールを扱うためのライブラリとユーティリティのセットです
     - [mail command](https://mailutils.org/manual/html_section/mail.html) - メールを送受信するコマンドです
   - [Himalaya](https://github.com/pimalaya/himalaya) - Rust で構築された CLI アプリケーションで、IMAP、Maildir、SMTP、OAuth 2.0、PGP 暗号化をサポートし、シェルコマンドを通じてメールを操作できます
   - [Mutt](http://www.mutt.org/) - Unix オペレーティングシステム上で電子メールを読み書きするための、小さいながら非常に強力なテキストベースのプログラムです
-  - [swaks](http://www.jetmore.org/john/code/swaks/) - 機能豊富で柔軟、スクリプト可能なトランザクション指向の SMTP テストツールです
-  - [msmtp](https://marlam.de/msmtp/) - 配送のためにメールを SMTP サーバーへ送信する SMTP クライアントで、メールクライアント向けの sendmail 代替として設定できるように設計されています
   - [Pop](https://github.com/charmbracelet/pop) - ターミナルからメールを送信するためのライブラリです
-  - [GNU sharutils](https://www.gnu.org/software/sharutils/) - シェルアーカイブを作成・展開するためのユーティリティ一式です
-- ライブラリ
-  - [go-mail](https://github.com/wneessen/go-mail/wiki) - シンプルに使えて機能豊富な、Go 向けメールライブラリです
 - GUI クライアント
   - [Thunderbird](https://www.thunderbird.net/en-US/) - セットアップとカスタマイズが容易な無料のメールアプリケーションです
   - [Sylpheed](https://sylpheed.sraoss.jp/en/) - シンプルで軽量ながら機能豊富、使いやすい電子メールクライアントです
+- メールライブラリ
+  - [go-mail](https://github.com/wneessen/go-mail/wiki) - シンプルに使えて機能豊富な、Go 向けメールライブラリです
 
-### スパムテストとレピュテーション
+### SMTP テスト・送信ツール
 
+- [swaks](http://www.jetmore.org/john/code/swaks/) - 機能豊富で柔軟、スクリプト可能なトランザクション指向の SMTP テストツールです
+- [msmtp](https://marlam.de/msmtp/) - 配送のためにメールを SMTP サーバーへ送信する SMTP クライアントで、メールクライアント向けの sendmail 代替として設定できるように設計されています
+- [Mailpit](https://mailpit.axllent.org/) - 小型で高速、低メモリ、依存関係ゼロのマルチプラットフォームな、開発者向けメールテストツール兼 API です
 - 🪙 [mail-tester](https://www.mail-tester.com/) - スパム、不正な形式のコンテンツ、メールサーバー設定の問題についてメールをテストできる無料のオンラインサービスです
-- [Spamhaus Project](https://www.spamhaus.org/) - スパムおよび関連するサイバー脅威を追跡する非営利組織です
 
-- クラウドサービス
+### メール到達性
+
+- [Spamhaus Project](https://www.spamhaus.org/) - スパムおよび関連するサイバー脅威を追跡する非営利組織です
+- メール配信サービス
   - 💲 [Amazon SES](https://aws.amazon.com/ses/) - 開発者が任意のアプリケーション内からメールを送信できる、コスト効率が良く柔軟でスケーラブルなメールサービスです
   - 💲 [SendGrid](https://www.twilio.com/en-us/sendgrid) - 大規模なトランザクションメールおよびマーケティングメールの信頼性の高い配信を提供する、クラウドベースのメール配信プラットフォームです
 
@@ -206,29 +225,31 @@
 
 :::note[Relevant DSS-P Skills]
 
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > コンピュータサイエンス
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
 
 :::
 
 - [The Linux Kernel](https://www.kernel.org/) - Linux オペレーティングシステムの主要コンポーネントであり、コンピュータのハードウェアとプロセスの間の中核的なインターフェースです
-  - スレッド
-    - [Pthreads](https://en.wikipedia.org/wiki/Pthreads) - プログラミング言語から独立して存在する実行モデルであり、並行実行モデルでもあります
-  - ファイルシステム
-    - [Ext4](https://en.wikipedia.org/wiki/Ext4) - 多くの主要な Linux ディストリビューションのデフォルトファイルシステムです
-    - [XFS](https://en.wikipedia.org/wiki/XFS) - Silicon Graphics, Inc が開発した、高性能なジャーナリングファイルシステムです
-    - [Btrfs](https://en.wikipedia.org/wiki/Btrfs) - スナップショット、RAID、自己修復などの高度な機能を備えた、Linux 向けの copy-on-write ファイルシステムです
-    - [UnionFS](https://en.wikipedia.org/wiki/UnionFS) - 他のファイルシステムに対する union mount を実装する、Linux、FreeBSD、NetBSD 向けのファイルシステムサービスです
-    - [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) - Linux 向けの union mount ファイルシステム実装です
-    - [proc.5](https://man7.org/linux/man-pages/man5/proc.5.html) - カーネルのデータ構造へのインターフェースを提供する仮想ファイルシステムです
-    - [sysfs.5](https://man7.org/linux/man-pages/man5/sysfs.5.html) - さまざまなカーネルサブシステム、ハードウェアデバイス、関連するデバイスドライバに関する情報をエクスポートする仮想ファイルシステムです
-  - コンテナサポート
-    - [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html) - プロセスを階層的なグループに編成し、さまざまな種類のリソースの使用量を制限・監視できるようにする Linux カーネルの機能です
-    - [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html) - グローバルなシステムリソースをラップする抽象化であり、名前空間内のプロセスからはそのグローバルリソースの独立したインスタンスを持っているかのように見せます
-    - [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html) - Linux カーネルのコンテインメント機能に対するユーザースペースインターフェースです
-    - [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html) - 他のプロセスの名前空間内でプログラムを実行するコマンドです
-  - [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - ユーザースペースプログラムがファイルシステムを Linux カーネルにエクスポートするためのインターフェースです
-    - [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - Amazon S3 バケットをローカルファイルシステムとしてマウントできる FUSE ファイルシステムです
-  - [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - 特権的なコンテキストでサンドボックス化されたプログラムを実行できる、Linux カーネルに起源を持つ革新的な技術です
+
+### Linux カーネルサブシステム
+
+- ファイルシステム
+  - [Ext4](https://en.wikipedia.org/wiki/Ext4) - 多くの主要な Linux ディストリビューションのデフォルトファイルシステムです
+  - [XFS](https://en.wikipedia.org/wiki/XFS) - Silicon Graphics, Inc が開発した、高性能なジャーナリングファイルシステムです
+  - [Btrfs](https://en.wikipedia.org/wiki/Btrfs) - スナップショット、RAID、自己修復などの高度な機能を備えた、Linux 向けの copy-on-write ファイルシステムです
+  - [UnionFS](https://en.wikipedia.org/wiki/UnionFS) - 他のファイルシステムに対する union mount を実装する、Linux、FreeBSD、NetBSD 向けのファイルシステムサービスです
+  - [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) - Linux 向けの union mount ファイルシステム実装です
+  - [proc.5](https://man7.org/linux/man-pages/man5/proc.5.html) - カーネルのデータ構造へのインターフェースを提供する仮想ファイルシステムです
+  - [sysfs.5](https://man7.org/linux/man-pages/man5/sysfs.5.html) - さまざまなカーネルサブシステム、ハードウェアデバイス、関連するデバイスドライバに関する情報をエクスポートする仮想ファイルシステムです
+- コンテナサポート
+  - [cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html) - プロセスを階層的なグループに編成し、さまざまな種類のリソースの使用量を制限・監視できるようにする Linux カーネルの機能です
+  - [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html) - グローバルなシステムリソースをラップする抽象化であり、名前空間内のプロセスからはそのグローバルリソースの独立したインスタンスを持っているかのように見せます
+  - [lxc/rootfs](https://man7.org/linux/man-pages/man7/lxc.7.html) - Linux カーネルのコンテインメント機能に対するユーザースペースインターフェースです
+  - [nsenter](https://www.man7.org/linux/man-pages/man1/nsenter.1.html) - 他のプロセスの名前空間内でプログラムを実行するコマンドです
+- [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) - ユーザースペースプログラムがファイルシステムを Linux カーネルにエクスポートするためのインターフェースです
+  - [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) - Amazon S3 バケットをローカルファイルシステムとしてマウントできる FUSE ファイルシステムです
+- [eBPF (Extended Berkeley Packet Filter)](https://ebpf.io/) - 特権的なコンテキストでサンドボックス化されたプログラムを実行できる、Linux カーネルに起源を持つ革新的な技術です
 
 ### Linux ディストリビューション
 
@@ -255,7 +276,7 @@
 - [NetBSD](https://www.netbsd.org/) - フリーで高速、安全、高い移植性を備えた Unix 系のオープンソースオペレーティングシステムです
 - [OpenBSD](https://www.openbsd.org/) - 極めて高いセキュリティと暗号技術を重視した、NetBSD のフォークとしてのフリーでオープンソースな Unix 系オペレーティングシステムです
 
-### システムサービスと認証
+### init とシステムサービス
 
 - [Systemd](https://www.freedesktop.org/wiki/Software/systemd/) - Linux オペレーティングシステム向けのシステムおよびサービスマネージャーです
   - [journald](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#) - ログデータを収集し保存するシステムサービスです
@@ -263,7 +284,6 @@
   - [networkd](https://www.freedesktop.org/software/systemd/man/latest/systemd-networkd.html#) - ネットワークを管理するシステムサービスです
   - [resolved](https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.html#) - ローカルアプリケーションにネットワーク名前解決を提供するシステムサービスです
   - [timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.html#) - ローカルシステムクロックをリモートの Network Time Protocol サーバーと同期するために使用できるシステムサービスです
-- [linux-pam](https://github.com/linux-pam/linux-pam) - Linux システム内のアプリケーションとサービスの認証タスクを処理するライブラリ群です
 
 ## マシン仮想化
 
@@ -276,39 +296,26 @@
 - [Virtualization](https://en.wikipedia.org/wiki/Virtualization) - 仮想コンピュータハードウェアプラットフォーム、ストレージデバイス、コンピュータネットワークリソースなど、何かの仮想版を作成する行為です
 - [libvirt](https://libvirt.org/) - 仮想化プラットフォームを管理するためのツールキットです
 
-### Type-1 ハイパーバイザー
+### ベアメタルハイパーバイザー
 
 - [KVM](https://www.linux-kvm.org/page/Main_Page) - 仮想化拡張機能を備えた x86 ハードウェア上の Linux 向けの完全仮想化ソリューションです
 - [Hyper-V](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview) - Microsoft のハードウェア仮想化製品です
 - 🔒 [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - エンタープライズ仮想化向けの完全なオープンソースサーバー管理プラットフォームです
+- ハードウェア支援
+  - [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization) - x86/x86-64 CPU 上でハードウェア支援による仮想化機能を利用することです
 
-### Type-2 ハイパーバイザー
+### ホスト型ハイパーバイザーとエミュレーター
 
 - [VirtualBox](https://www.virtualbox.org/) - 企業利用にも家庭利用にも適した、強力な x86・AMD64/Intel64 仮想化製品です
 - [QEMU](https://www.qemu.org/) - 汎用のオープンソースマシンエミュレーター兼仮想化ソフトウェアです
-
-### CPU エミュレーター
-
-- [QEMU](https://www.qemu.org/) - 汎用のオープンソースマシンエミュレーター兼仮想化ソフトウェアです
-
-### コンピュータハードウェア
-
-- 処理装置
-  - [Central processing unit (CPU)](https://en.wikipedia.org/wiki/Central_processing_unit) - 算術・論理・制御・入出力操作を実行することでプログラム命令を処理する、コンピュータの主要なプロセッサです
-  - [Graphics processing unit (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_unit) - グラフィックスレンダリングと並列コンピューティングタスクの高速化のために設計された特殊な電子回路で、3D グラフィックス、AI/ML ワークロード、動画処理に広く使用されています
-  - [Neural processing unit (NPU)](https://en.wikipedia.org/wiki/Neural_processing_unit) - ニューラルネットワークとコンピュータビジョンタスクを効率的に実行することで、人工知能と機械学習アプリケーションを高速化するために設計された特殊なハードウェアです
-- CPU アーキテクチャ
-  - [x86-64](https://en.wikipedia.org/wiki/X86-64) - x86 命令セットの 64 ビット版です
-  - [ARM64](https://en.wikipedia.org/wiki/AArch64) - ARM アーキテクチャファミリーの 64 ビット拡張です
-- CPU 拡張機能
-  - [x86 virtualization](https://en.wikipedia.org/wiki/X86_virtualization)
-  - [Intel AMX](https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions)
 
 ## Linux ホスト管理
 
 :::note[Relevant DSS-P Skills]
 
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
+- 3\. テクノロジー > 3\.1 ソフトウェア開発 > SREプロセス
+- 4\. セキュリティ > 4\.2 セキュリティ技術 > セキュリティ運用・保守・監視
 
 :::
 
@@ -319,16 +326,20 @@
   - [lsns](https://man7.org/linux/man-pages/man8/lsns.8.html) - 現在アクセス可能なすべての名前空間、または指定した名前空間の情報を一覧表示するコマンドです
   - [swapon](https://man7.org/linux/man-pages/man8/swapon.8.html) - ページングとスワッピングを行うデバイスを指定するために使用されるコマンドです
 - [rsync](https://rsync.samba.org/) - 高速な増分ファイル転送を提供するオープンソースユーティリティです
+
+### ユーザーと権限の管理
+
 - [sudo](https://www.sudo.ws/) - システム管理者が特定のユーザーに root または他のユーザーとしていくつかのコマンドを実行する権限を委任するためのものです
 - [shadow-utils](https://github.com/shadow-maint/shadow) - UNIX パスワードファイルをシャドウパスワード形式に変換するために必要なプログラムと、ユーザーおよびグループアカウントを管理するプログラムを含みます
   - [useradd](https://man7.org/linux/man-pages/man8/useradd.8.html) - ユーザーを追加するための低レベルユーティリティです
-- [jc](https://kellyjonbrazil.github.io/jc/docs/) - 一般的なコマンドラインツールやファイル形式の出力を JSON または Dictionary に変換する CLI ツール兼 Python ライブラリです
-- [aha](https://github.com/theZiz/aha) - Ansi HTML Adapter です
-  - [NO_COLOR](https://no-color.org/) - コマンドラインソフトウェアで ANSI カラーを無効化するための環境変数です
+- [linux-pam](https://github.com/linux-pam/linux-pam) - Linux システム内のアプリケーションとサービスの認証タスクを処理するライブラリ群です
+
+### ロギングとジョブスケジューリング
+
+- [Syslog](https://en.wikipedia.org/wiki/Syslog) - メッセージロギングのための標準です
+- [logrotate](https://github.com/logrotate/logrotate) - ログファイルの自動ローテーション、圧縮、削除、メール送信を可能にします
 - [Vixie Cron](https://github.com/vixie/cron) - POSIX Cron のオープンソース実装です
   - [Crontab.guru](https://crontab.guru/) - cron のスケジュール式のための、素早くシンプルなエディタです
-- [logrotate](https://github.com/logrotate/logrotate) - ログファイルの自動ローテーション、圧縮、削除、メール送信を可能にします
-- [Syslog](https://en.wikipedia.org/wiki/Syslog) - メッセージロギングのための標準です
 
 ### プロセスとシステムの監視
 
@@ -350,12 +361,11 @@
   - [Monit](https://mmonit.com/monit/) - Unix システムを管理・監視するための小さなオープンソースユーティリティです
   - [atop](https://github.com/Atoptool/atop#atop) - Linux 向けの ASCII フルスクリーンパフォーマンスモニターです
   - [smem](https://www.selenic.com/smem/) - Linux システムにおけるメモリ使用状況について多様なレポートを生成できるツールです
-
-### 時刻同期
-
-- [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) - パケット交換方式で遅延が可変のデータネットワーク越しに、コンピュータシステム間でクロックを同期するためのネットワーキングプロトコルです
-- [chrony](https://chrony-project.org/) - Network Time Protocol の汎用的な実装です
-- [pool.ntp.org](https://www.ntppool.org/en/) - 何百万ものクライアントに信頼性が高く使いやすい NTP サービスを提供する、タイムサーバーの大規模な仮想クラスタです
+- モダンなモニター
+  - [procs](https://github.com/dalance/procs) - Rust で書かれた ps のモダンな代替です
+  - [htop](https://htop.dev/) - Unix システム向けの対話的なプロセスビューアです
+  - [btop++](https://github.com/aristocratos/btop) - Linux、macOS、FreeBSD 向けのリソースモニターです
+  - [glances](https://nicolargo.github.io/glances/) - curses または Web ベースのインターフェースを通じて大量の監視情報を提示することを目指す、クロスプラットフォームな監視ツールです
 
 ### モダンな CLI 代替ツール
 
@@ -367,31 +377,32 @@
 - [dust](https://github.com/bootandy/dust) - Rust で書かれた、より直感的な du のバージョンです
 - [dua](https://github.com/byron/dua-cli) - ディスク容量の使用状況を確認し、不要なデータを高速に削除するツールです
 - [duf](https://github.com/muesli/duf) - より優れた 'df' の代替です
-- [procs](https://github.com/dalance/procs) - Rust で書かれた ps のモダンな代替です
-- [htop](https://htop.dev/) - Unix システム向けの対話的なプロセスビューアです
-- [btop++](https://github.com/aristocratos/btop) - Linux、macOS、FreeBSD 向けのリソースモニターです
-- [glances](https://nicolargo.github.io/glances/) - curses または Web ベースのインターフェースを通じて大量の監視情報を提示することを目指す、クロスプラットフォームな監視ツールです
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) - メンテナンスが継続されている、機能豊富で性能を重視した、neofetch に似たシステム情報ツールです
 
 ### パッケージ管理ツール
 
-- [dpkg](https://salsa.debian.org/dpkg-team/dpkg) - Debian の基本パッケージ管理システムです
-  - [apt](https://salsa.debian.org/apt-team/apt) - Ubuntu、Debian、および関連する Linux ディストリビューションで deb パッケージのインストール、更新、削除などの管理を行うコマンドラインユーティリティです
-- [Pacman](https://pacman.archlinux.page/) - Linux でソフトウェアパッケージを管理するユーティリティです
-  - [Yay](https://github.com/Jguer/yay) - Go で書かれた AUR ヘルパーです
-- [dnf](https://github.com/rpm-software-management/dnf) - yum の次世代版です
-- [Homebrew](https://brew.sh/) - macOS (または Linux) に欠けていたパッケージマネージャーです
-- [pipx](https://pipx.pypa.io/stable/) - 分離された環境で Python アプリケーションをインストール・実行するツールです
-- [Flatpak](https://flatpak.org/) - Linux 上でサンドボックス化されたデスクトップアプリケーションを構築・配布・実行するためのシステムです
-- [Snapcraft](https://snapcraft.io/) - Linux カーネルを使用するオペレーティングシステム向けに Canonical が開発した、ソフトウェアのパッケージングとデプロイのシステムです
-- [arkade](https://github.com/alexellis/arkade) - お気に入りの DevOps CLI をダウンロードしたり、Kubernetes クラスタに helm チャートをインストールしたりできる、ポータブルなマーケットプレイスです
-- [Plaza](https://github.com/StaszeKrk/plaza) - pacman、AUR、apt、dnf、Flatpak にまたがってパッケージを検索・インストール・管理できる、カスタマイズ可能で装飾可能なターミナル UI です
+- ディストリビューションのパッケージマネージャー
+  - [dpkg](https://salsa.debian.org/dpkg-team/dpkg) - Debian の基本パッケージ管理システムです
+    - [apt](https://salsa.debian.org/apt-team/apt) - Ubuntu、Debian、および関連する Linux ディストリビューションで deb パッケージのインストール、更新、削除などの管理を行うコマンドラインユーティリティです
+  - [Pacman](https://pacman.archlinux.page/) - Linux でソフトウェアパッケージを管理するユーティリティです
+    - [Yay](https://github.com/Jguer/yay) - Go で書かれた AUR ヘルパーです
+  - [dnf](https://github.com/rpm-software-management/dnf) - yum の次世代版です
+- サンドボックス型アプリ形式
+  - [Flatpak](https://flatpak.org/) - Linux 上でサンドボックス化されたデスクトップアプリケーションを構築・配布・実行するためのシステムです
+  - [Snapcraft](https://snapcraft.io/) - Linux カーネルを使用するオペレーティングシステム向けに Canonical が開発した、ソフトウェアのパッケージングとデプロイのシステムです
+- クロスプラットフォームなインストーラー
+  - [Homebrew](https://brew.sh/) - macOS (または Linux) に欠けていたパッケージマネージャーです
+  - [pipx](https://pipx.pypa.io/stable/) - 分離された環境で Python アプリケーションをインストール・実行するツールです
+  - [arkade](https://github.com/alexellis/arkade) - お気に入りの DevOps CLI をダウンロードしたり、Kubernetes クラスタに helm チャートをインストールしたりできる、ポータブルなマーケットプレイスです
+- パッケージマネージャーのフロントエンド
+  - [Plaza](https://github.com/StaszeKrk/plaza) - pacman、AUR、apt、dnf、Flatpak にまたがってパッケージを検索・インストール・管理できる、カスタマイズ可能で装飾可能なターミナル UI です
 
 ## Linux ネットワーク管理
 
 :::note[Relevant DSS-P Skills]
 
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
+- 4\. セキュリティ > 4\.2 セキュリティ技術 > セキュリティ運用・保守・監視
 
 :::
 
@@ -406,7 +417,13 @@
 - [NetworkManager](https://networkmanager.dev/) - libudev やその他の Linux カーネルインターフェースの上に位置し、ネットワーク設定のための高レベルインターフェースを提供するデーモンです
 - [Ubuntu NetPlan](https://netplan.io/) - ネットワーク設定の抽象化レンダラーです
 
-### 分析とセキュリティ
+### 時刻同期
+
+- [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) - パケット交換方式で遅延が可変のデータネットワーク越しに、コンピュータシステム間でクロックを同期するためのネットワーキングプロトコルです
+- [chrony](https://chrony-project.org/) - Network Time Protocol の汎用的な実装です
+- [pool.ntp.org](https://www.ntppool.org/en/) - 何百万ものクライアントに信頼性が高く使いやすい NTP サービスを提供する、タイムサーバーの大規模な仮想クラスタです
+
+### ネットワーク診断と分析
 
 - [tcpdump](https://www.tcpdump.org/) - 強力なコマンドラインパケットアナライザーです
 - [wireshark](https://www.wireshark.org/) - 世界で最も定評あるネットワークプロトコルアナライザーです
@@ -414,7 +431,7 @@
   - [ncat](https://nmap.org/ncat/) - コマンドラインからネットワーク越しにデータを読み書きする、機能満載のネットワーキングユーティリティです
 - [traceroute](https://traceroute.sourceforge.net/) - インターネットプロトコルネットワーク越しのパケットの経路を表示し、通過遅延を測定するコンピュータネットワーク診断ツールです
 
-### プロキシとゲートウェイ
+### プロキシ、トンネル、VPN
 
 - [SOCKS Proxy](https://en.wikipedia.org/wiki/SOCKS) - プロキシサーバーを介してクライアントとサーバー間でネットワークパケットを交換するインターネットプロトコルです
   - [Dante](https://www.inet.no/dante/) - RFC 1928 および関連標準を実装した SOCKS サーバー兼 SOCKS クライアントです
@@ -423,12 +440,15 @@
 - トンネリング
   - [cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare ネットワークからオリジンへトラフィックをプロキシするデーモンである Cloudflare Tunnel のコマンドラインクライアントです
   - 🪙 [ngrok](https://ngrok.com/) - ローカルアプリケーションをインターネットに公開するために、リバースプロキシ、API ゲートウェイ、セキュアなトンネルを提供する統合イングレスプラットフォームです
+- メッシュ VPN
+  - 🪙 [Tailscale](https://tailscale.com/) - レガシーな VPN、SASE、PAM を置き換え、リモートチーム、マルチクラウド環境、CI/CD パイプライン、エッジ・IoT デバイス、AI ワークロードを接続する、ID ベースのゼロトラスト接続プラットフォームです
 
 ## ファイル共有とリモートアクセス
 
 :::note[Relevant DSS-P Skills]
 
 - 3\. テクノロジー > 3\.1 ソフトウェア開発 > クラウドインフラ活用
+- 4\. セキュリティ > 4\.2 セキュリティ技術 > セキュア設計・開発・構築
 
 :::
 
@@ -452,5 +472,3 @@
   - [x11vnc](https://github.com/LibVNC/x11vnc) - X11 向けの VNC サーバーです
   - [TightVNC](https://www.tightvnc.com/) - 無料のリモートデスクトップアプリケーションです
 - [Mosh](https://mosh.org/) - 対話的な SSH ターミナルの代替です
-- メッシュ VPN
-  - 🪙 [Tailscale](https://tailscale.com/) - レガシーな VPN、SASE、PAM を置き換え、リモートチーム、マルチクラウド環境、CI/CD パイプライン、エッジ・IoT デバイス、AI ワークロードを接続する、ID ベースのゼロトラスト接続プラットフォームです
