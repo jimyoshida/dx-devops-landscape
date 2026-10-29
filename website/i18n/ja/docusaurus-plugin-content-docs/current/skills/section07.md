@@ -250,12 +250,21 @@
   - [ranger](https://github.com/ranger/ranger) - コンソール向けの VIM に着想を得たファイルマネージャーです
   - [superfile](https://superfile.netlify.app/) - 非常に洗練されたモダンなターミナルファイルマネージャーです
 
-### Windows 上の Unix 系環境
+### Windows 開発者環境
 
 - [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - 別の仮想マシンやデュアルブートを必要とせずに、Windows マシン上で GNU/Linux 環境を実行できるようにする Windows の機能です
   - [WSLg](https://github.com/microsoft/wslg) - 完全に統合されたデスクトップ体験の中で、Windows 上で Linux GUI アプリケーション (X11 と Wayland) を実行するサポートを可能にするプロジェクトです
 - [Git for Windows](https://gitforwindows.org/) - Git SCM の全機能セットを Windows にもたらす、軽量なネイティブツール群です
 - [MSYS2](https://www.msys2.org/) - ネイティブな Windows ソフトウェアのビルド、インストール、実行のための使いやすい環境を提供するツールとライブラリのコレクションです
+- パッケージ管理と運用管理
+  - 🔒 [Chocolatey](https://chocolatey.org) - Windows 向けのパッケージマネージャーです
+  - [Scoop](https://scoop.sh/) - Windows 向けのコマンドラインインストーラーです
+  - [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/) - Windows 上でアプリケーションの検索、インストール、アップグレード、削除、設定を可能にするコマンドラインツールです
+  - [gsudo](https://gerardog.github.io/gsudo/) - オリジナルの Sudo と似たユーザー体験を持つ、Windows 向けの Sudo です
+- 生産性と自動化
+  - [AutoHotKey](https://www.autohotkey.com/) - ユーザーが小規模から複雑なものまでスクリプトを簡単に作成できる、Windows 向けの無料オープンソーススクリプト言語です
+  - [Clavier+](https://gryder.org/software/clavier-plus/) - キーボードショートカットでアクションをトリガーできるようにします
+  - [WinSSHTerm](https://winsshterm.blogspot.com/) - PuTTY、WinSCP、VcXsrv を組み合わせた、Windows 向けのタブ対応 SSH ソリューションです
 
 ## バージョン管理システム
 

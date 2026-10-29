@@ -12,37 +12,41 @@
 
 - [Orthogonality and DRY principle](https://www.artima.com/intv/dry.html) - システム内のあらゆる知識は単一の、曖昧さのない、権威ある表現を持たなければならないという原則です
 - [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) - コンピュータプログラムを個別のセクションに分離するための設計原則です
+- [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - モジュール内の要素がどの程度まとまっているかの度合いです
+- [Coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) - ソフトウェアモジュール間の相互依存の度合いであり、2 つのルーチンやモジュールがどの程度密接に結びついているか、およびモジュール間の関係の強さを測る尺度です
 - [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) - ソフトウェアコンポーネントに対して形式的で正確かつ検証可能なインターフェース仕様を規定する、ソフトウェア設計のアプローチです
+  - [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - コード内のある地点で、述語 (ブール値を返す関数) が常に真であることが期待されるという表明です
 - [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) - ソフトウェア、特にオブジェクト指向プログラムを開発するための設計ガイドラインです
-- [Hyrum's Law](https://www.hyrumslaw.com/) - 暗黙のインターフェースの法則であり、API の利用者が十分な数に達すると、システムの観測可能なすべての振る舞いに誰かが依存するようになるというものです
 - [SOLID - The principle of OOD](https://en.wikipedia.org/wiki/SOLID) - オブジェクト指向設計をより理解しやすく、柔軟で保守しやすいものにすることを意図した、5 つの設計原則の頭字語です
   - Single responsibility
   - Open–closed
   - Liskov substitution
   - Interface segregation
   - Dependency inversion
-- [The Reactive Manifesto](https://www.reactivemanifesto.org/) - アプリケーションが応答性、耐障害性、弾力性を持ちメッセージ駆動であることを目指す、システムアーキテクチャに対する首尾一貫したアプローチです
 - [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - ソフトウェア開発に対する文化的規範と哲学的アプローチの集合です
 - [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) - ほとんどのシステムは複雑にするよりもシンプルに保つ方がうまく機能するとする設計原則です
+
+### ソフトウェア工学の法則
+
+- [Hyrum's Law](https://www.hyrumslaw.com/) - 暗黙のインターフェースの法則であり、API の利用者が十分な数に達すると、システムの観測可能なすべての振る舞いに誰かが依存するようになるというものです
 - [Wirth's law](https://en.wikipedia.org/wiki/Wirth%27s_law) - ソフトウェアはハードウェアが高速化する以上に急速に低速化しているとするコンピュータ性能に関する格言です
-
-### 設計のベストプラクティス
-
-- [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - リソースのライフサイクルをオブジェクトの寿命に結びつけるプログラミングイディオムです
+- [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - 組織は自らのコミュニケーション構造を反映したシステムを設計するという格言です
 - [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html) - 最適化の努力をどこに向けるべきかについての一連のルールであり、計測とデータ構造の重要性を強調するものです
 - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - コンピュータプログラムを書くための 19 の指導原則を集めたもので、Python プログラミング言語の設計に影響を与えたものです
-- [The twelve-factor app](https://12factor.net/) - 現代的なクラウドプラットフォームでの展開に適した Software-as-a-Service アプリケーションを構築するための方法論です
 
 ### デザインパターン
 
 - [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) - ソフトウェア設計において特定の文脈内で頻繁に発生する問題に対する、一般的で再利用可能な解決策です
-- [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - オブジェクト指向システムにおけるクラスの責務の構造化を助ける、ソフトウェア設計・分析で使用されるアーキテクチャパターンです
-- [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - データストアの読み取り操作と更新操作を分離するパターンです
-- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - アプリケーションの状態に対するすべての変更を不変のイベント列として保存するパターンです
-- [Circuit Breaker Pattern](https://martinfowler.com/bliki/CircuitBreaker.html) - 分散システムにおける連鎖的な障害を防ぐための設計パターンです
-- [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - メソッドチェーンに基づいてオブジェクト指向 API を設計する手法であり、ソースコードの可読性を通常の文章に近づけることを目標としています
-- [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - 関連するプログラムロジックを 3 つの相互接続された要素に分割する、ユーザーインターフェース開発によく使われるソフトウェア設計パターンです
-- [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - オブジェクトや関数が依存する他のオブジェクトや関数を受け取る設計パターンです
+- アーキテクチャパターン
+  - [Model-view-controller pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - 関連するプログラムロジックを 3 つの相互接続された要素に分割する、ユーザーインターフェース開発によく使われるソフトウェア設計パターンです
+  - [Entity–control–boundary](https://en.wikipedia.org/wiki/Entity%E2%80%93control%E2%80%93boundary) - オブジェクト指向システムにおけるクラスの責務の構造化を助ける、ソフトウェア設計・分析で使用されるアーキテクチャパターンです
+- オブジェクト指向 API パターン
+  - [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) - メソッドチェーンに基づいてオブジェクト指向 API を設計する手法であり、ソースコードの可読性を通常の文章に近づけることを目標としています
+  - [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) - オブジェクトや関数が依存する他のオブジェクトや関数を受け取る設計パターンです
+- 分散システムパターン
+  - [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation) - データストアの読み取り操作と更新操作を分離するパターンです
+  - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - アプリケーションの状態に対するすべての変更を不変のイベント列として保存するパターンです
+  - [Circuit Breaker Pattern](https://martinfowler.com/bliki/CircuitBreaker.html) - 分散システムにおける連鎖的な障害を防ぐための設計パターンです
 
 ### アーキテクチャスタイル
 
@@ -51,6 +55,8 @@
 - [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) - イベントの生成、検知、消費、およびそれへの反応を促進するソフトウェアアーキテクチャパラダイムです
 - [Resource-oriented architecture](https://en.wikipedia.org/wiki/Resource-oriented_architecture) - リソースのネットワークという形でソフトウェアを設計・開発するための、ソフトウェアアーキテクチャおよびプログラミングパラダイムのスタイルです
 - [Background processing](https://en.wikipedia.org/wiki/Background_process) - メインアプリケーションの応答性を維持しながら、バックグラウンドでタスクを実行することです
+- [The Reactive Manifesto](https://www.reactivemanifesto.org/) - アプリケーションが応答性、耐障害性、弾力性を持ちメッセージ駆動であることを目指す、システムアーキテクチャに対する首尾一貫したアプローチです
+- [The twelve-factor app](https://12factor.net/) - 現代的なクラウドプラットフォームでの展開に適した Software-as-a-Service アプリケーションを構築するための方法論です
 
 ### アーキテクチャ記述
 
@@ -60,11 +66,15 @@
     - [The C4 model](https://c4model.com/) - 学びやすく開発者に優しい、ソフトウェアアーキテクチャ図の作成アプローチです
     - [UML](https://www.omg.org/spec/UML/About-UML/) - ソフトウェア集約型システムの成果物を可視化、仕様化、構築、文書化するためのグラフィカル言語です
     - [Flowchart](https://en.wikipedia.org/wiki/Flowchart) - ワークフローやプロセスを表現する図の一種です
-  - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - 組織は自らのコミュニケーション構造を反映したシステムを設計するという格言です
 - 関連標準
   - [ISO/IEC/IEEE 42010 (Architecture description)](https://en.wikipedia.org/wiki/ISO/IEC_42010) - システムおよびソフトウェアのアーキテクチャ記述に関する国際標準規格です
+- アーキテクチャ決定記録
+  - [Architectural Decision Records (ADRs)](https://adr.github.io/) - 行われた重要なアーキテクチャ上の決定を、その背景と結果とともに記録する文書です
+    - [MADR (Markdown Architectural Decision Records)](https://adr.github.io/madr/) - アーキテクチャ上の決定を Markdown で記録するための簡潔なテンプレートであり、決定を書き留めてバージョン管理することをできるだけ容易にするものです
+    - [adr-tools](https://github.com/npryce/adr-tools) - アーキテクチャ決定記録の管理を助けるコマンドラインツールです
+    - [Log4brains](https://github.com/thomvaill/log4brains) - 開発者が IDE から直接決定を記録し、静的サイトとして公開できるようにする、アーキテクチャ知識ベースです
 
-### ドメイン駆動設計 (DDD)
+### ドメインモデリング
 
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) - そのドメインの専門家からの入力に従って、ドメインに一致するようにソフトウェアをモデル化することに重点を置いた、主要なソフトウェア設計アプローチです
   - [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) - 開発者とユーザーの間で共通かつ厳密な言語を構築する実践です
@@ -73,8 +83,6 @@
   - [Use case](https://en.wikipedia.org/wiki/Use_case) - 目標を達成するために、役割 (Unified Modeling Language ではアクターと呼ばれる) とシステムとの間の相互作用を定義する、一連の行動またはイベントステップの一覧です
 - [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - 1 つ、複数、またはすべての議論領域を構成する概念、データ、実体間のカテゴリ、性質、関係を表現し、形式的に命名・定義したものです
   - [Semantic network](https://en.wikipedia.org/wiki/Semantic_network) - ネットワーク内の概念間の意味的関係を表現するナレッジベースです
-    - [WordNet](https://wordnet.princeton.edu/) - 英語の大規模な語彙データベースです
-- [Database design](https://en.wikipedia.org/wiki/Database_design) - データベースモデルに従ったデータの編成です
 
 ## コアプログラミング概念
 
@@ -84,7 +92,7 @@
 
 :::
 
-### 言語の仕組みと実行
+### 構文と式
 
 - [Source code](https://en.wikipedia.org/wiki/Source_code) - 通常はプレーンテキストとして、人間が読めるプログラミング言語を使って書かれた、コメントを含む場合もあるコードの集合です
 - [Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)) - 実行すべき何らかの動作を表現する、命令型プログラミング言語の構文単位です
@@ -96,6 +104,11 @@
 - [Constant](https://en.wikipedia.org/wiki/Constant_(computer_programming)) - プログラムの通常の実行中に変更できない値です
 - [Variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) - 値と呼ばれる既知または未知の量の情報を含む、シンボリックな名前と対応付けられた抽象的な記憶場所です
 - [Scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) - コンピュータプログラム内で、名前とエンティティの束縛 (名前束縛) が有効となる領域です
+- [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - プログラムがコンピュータのメモリや他の記憶装置内の特定のデータに間接的にアクセスできるようにする値です
+  - [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - ポインタや参照が有効なオブジェクトを参照していないことを示すために保存された値です
+
+### 型システム
+
 - [Data type](https://en.wikipedia.org/wiki/Data_type) - 通常は可能な値の集合と許される操作によって指定される、データ値の集合または分類です
   - [Primitives](https://en.wikipedia.org/wiki/Primitive_data_type) - プログラミング言語が基本的な構成要素として提供する、他のデータ型を用いずに定義されるデータ型です
   - [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system) - データ型の互換性と同等性が明示的な宣言や型名によって決定される、型システムの主要な分類の 1 つです
@@ -104,15 +117,15 @@
   - [Union type](https://en.wikipedia.org/wiki/Union_type) - そのインスタンスに格納できる複数の許容されたプリミティブ型を指定するデータ型定義です
   - [Type variance](https://en.wikipedia.org/wiki/Type_variance) - 複合型のサブタイプとその構成要素のサブタイプとの間の関係です
   - [Type safety](https://en.wikipedia.org/wiki/Type_safety) - プログラミング言語が型エラーをどの程度抑止または防止するかの度合いです
-- [Reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) - プログラムがコンピュータのメモリや他の記憶装置内の特定のデータに間接的にアクセスできるようにする値です
-  - [Null pointer](https://en.wikipedia.org/wiki/Null_pointer) - ポインタや参照が有効なオブジェクトを参照していないことを示すために保存された値です
+- [Generic Programming](https://en.wikipedia.org/wiki/Generic_programming) - 必要に応じて後からインスタンス化される、後で指定される型を用いてアルゴリズムを記述するプログラミングスタイルです
 
-### メモリ管理
+### 関数と状態
 
-- [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - リソースへの参照、ポインタ、ハンドルの数を保持するプログラミング技法です
-- [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - コレクタがもはや使用されていないオブジェクトが占有するメモリの回収を試みる、自動メモリ管理の一形態です
-- [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - ポインタを模倣しつつ、自動メモリ管理や境界チェックなどの追加機能を提供する抽象データ型です
-- [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - メモリアクセスを扱う際に、様々なソフトウェアのバグやセキュリティ脆弱性から保護されている状態です
+- [State](https://en.wikipedia.org/wiki/State_(computer_science)) - ある瞬間において、コンピュータプログラムまたはシステムがアクセスできる、保存された情報です
+- [Function](https://en.wikipedia.org/wiki/Function_(computer_programming)) - 特定のタスクを実行する、1 つの単位としてまとめられたプログラム命令の並びです
+  - [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - 入力として与えられるデータの一部を参照するために、サブルーチンや関数で使用される特別な種類の変数です
+  - [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - 識別子に束縛されていない関数定義です
+- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object) - 作成後に状態を変更できないオブジェクトです
 
 ### 制御フロー構造
 
@@ -120,23 +133,14 @@
 - [Continuation](https://en.wikipedia.org/wiki/Continuation) - プログラムの計算処理の、ある時点以降の残りを表すデータ構造です
   - [call-with-current-continuation](https://en.wikipedia.org/wiki/Call-with-current-continuation) - 特に Scheme プログラミング言語において継続を捕捉し呼び出すために使用される、制御フロー演算子です
 - [Exception handling](https://en.wikipedia.org/wiki/Exception_handling_(programming)) - プログラムの実行中に発生する例外への対応処理です
-- [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) - ある時点で有限個の状態のうちのちょうど 1 つを取り得る抽象機械を表現する、計算の数学的モデルです
 
-### 基礎的な技法と特性
+### メモリとリソースの管理
 
-- [State](https://en.wikipedia.org/wiki/State_(computer_science)) - ある瞬間において、コンピュータプログラムまたはシステムがアクセスできる、保存された情報です
-- [Function](https://en.wikipedia.org/wiki/Function_(computer_programming)) - 特定のタスクを実行する、1 つの単位としてまとめられたプログラム命令の並びです
-  - [Parameter](https://en.wikipedia.org/wiki/Parameter_(computer_programming)) - 入力として与えられるデータの一部を参照するために、サブルーチンや関数で使用される特別な種類の変数です
-  - [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) - 識別子に束縛されていない関数定義です
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object) - 作成後に状態を変更できないオブジェクトです
-- [Generic Programming](https://en.wikipedia.org/wiki/Generic_programming) - 必要に応じて後からインスタンス化される、後で指定される型を用いてアルゴリズムを記述するプログラミングスタイルです
-- [Assertion](https://en.wikipedia.org/wiki/Assertion_(software_development)) - コード内のある地点で、述語 (ブール値を返す関数) が常に真であることが期待されるという表明です
-- [Autovivification](https://en.wikipedia.org/wiki/Autovivification) - 新しい変数やデータ構造が初めて使用される際に必要に応じて自動的に作成されることです
-
-### モジュール構造と組織化
-
-- [Cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) - モジュール内の要素がどの程度まとまっているかの度合いです
-- [Coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) - ソフトウェアモジュール間の相互依存の度合いであり、2 つのルーチンやモジュールがどの程度密接に結びついているか、およびモジュール間の関係の強さを測る尺度です
+- [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization) - リソースのライフサイクルをオブジェクトの寿命に結びつけるプログラミングイディオムです
+- [Reference counting](https://en.wikipedia.org/wiki/Reference_counting) - リソースへの参照、ポインタ、ハンドルの数を保持するプログラミング技法です
+- [Garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) - コレクタがもはや使用されていないオブジェクトが占有するメモリの回収を試みる、自動メモリ管理の一形態です
+- [Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer) - ポインタを模倣しつつ、自動メモリ管理や境界チェックなどの追加機能を提供する抽象データ型です
+- [Memory safety](https://en.wikipedia.org/wiki/Memory_safety) - メモリアクセスを扱う際に、様々なソフトウェアのバグやセキュリティ脆弱性から保護されている状態です
 
 ## プログラミングパラダイム
 
@@ -175,7 +179,7 @@
   - [Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) - プログラム断片 (関数) を組み合わせ、その戻り値を追加の計算を伴う型でラップする構造を持つ、ソフトウェア設計パターンです
   - [Currying](https://en.wikipedia.org/wiki/Currying) - 複数の引数を取る関数を、それぞれが単一の引数を取る関数の並びに変換する技法です
 
-### リアクティブプログラミングとその他
+### リアクティブプログラミングとアスペクト指向プログラミング
 
 - [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - データストリームと変化の伝播を扱う宣言型プログラミングパラダイムです
   - [Functional Reactive Programming (FRP)](https://en.wikipedia.org/wiki/Functional_reactive_programming) - 関数型プログラミングの構成要素を用いたリアクティブプログラミングのためのプログラミングパラダイムです
@@ -294,6 +298,7 @@
       - [Reference](https://perldoc.perl.org/perlreftut#Making-References) - 他のデータを「指し示す」スカラーデータ型です
     - [Quote-like operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#Simpler-Quote-Like-Operators) - 一連の汎用的な引用演算子です
     - [I/O operators](https://metacpan.org/dist/perl/view/pod/perlop.pod#I%2FO-Operators) - ファイルハンドルからの読み取りなど、入出力操作に使用される演算子です
+    - [Autovivification](https://en.wikipedia.org/wiki/Autovivification) - 新しい変数やデータ構造が初めて使用される際に必要に応じて自動的に作成されることです
 - [Tcl](https://www.tcl-lang.org/) - 幅広い用途に使用される動的プログラミング言語とグラフィカルユーザーインターフェースツールキットです
   - [Event-driven by design](https://wiki.tcl-lang.org/page/event+loop) - GUI とネットワーキングに最適な組み込みのイベントループです
 - [Lua](https://www.lua.org/) - 強力で効率的、軽量かつ組み込み可能なスクリプト言語です
@@ -307,14 +312,20 @@
 :::
 
 - [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing) - 複数の計算を逐次的にではなく並行して実行する計算の形態です
-  - [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - 実行を中断・再開できるようにすることで、非プリエンプティブなマルチタスクのためにサブルーチンを一般化したコンピュータプログラムの構成要素です
-  - [Async/await](https://en.wikipedia.org/wiki/Async/await) - 非同期でノンブロッキングな関数を、通常の同期的な関数と似た方法で構造化できるようにする構文的機能です
-  - [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises) - プログラムの実行を同期させるために使用される構造体であり、最初は未知である結果のプロキシを表現します
-  - [Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming)) - 並行システムにおいて複数のスレッドによる共通リソースへのアクセスを制御するために使用される変数または抽象データ型です
-  - [Mutex](https://en.wikipedia.org/wiki/Lock_(computer_science)) - 複数の実行スレッドによって状態が同時に変更またはアクセスされることを防ぐ、同期プリミティブです
-  - [Channel](https://en.wikipedia.org/wiki/Channel_(programming)) - メッセージパッシングによるプロセス間通信と同期のためのモデルです
-  - [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - マルチスレッド環境に適用可能なコンピュータコードの性質で、共有データ構造の正しい操作を保証するものです
-  - [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - あるグループのエンティティの各メンバーが、他のメンバーが行動を起こすのを待っているために誰も先に進めなくなる、並行計算における状況です
+
+### 並行処理モデル
+
+- [Coroutine](https://en.wikipedia.org/wiki/Coroutine) - 実行を中断・再開できるようにすることで、非プリエンプティブなマルチタスクのためにサブルーチンを一般化したコンピュータプログラムの構成要素です
+- [Async/await](https://en.wikipedia.org/wiki/Async/await) - 非同期でノンブロッキングな関数を、通常の同期的な関数と似た方法で構造化できるようにする構文的機能です
+- [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises) - プログラムの実行を同期させるために使用される構造体であり、最初は未知である結果のプロキシを表現します
+- [Channel](https://en.wikipedia.org/wiki/Channel_(programming)) - メッセージパッシングによるプロセス間通信と同期のためのモデルです
+
+### 同期とスレッドセーフティ
+
+- [Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming)) - 並行システムにおいて複数のスレッドによる共通リソースへのアクセスを制御するために使用される変数または抽象データ型です
+- [Mutex](https://en.wikipedia.org/wiki/Lock_(computer_science)) - 複数の実行スレッドによって状態が同時に変更またはアクセスされることを防ぐ、同期プリミティブです
+- [Thread safety](https://en.wikipedia.org/wiki/Thread_safety) - マルチスレッド環境に適用可能なコンピュータコードの性質で、共有データ構造の正しい操作を保証するものです
+- [Deadlock](https://en.wikipedia.org/wiki/Deadlock) - あるグループのエンティティの各メンバーが、他のメンバーが行動を起こすのを待っているために誰も先に進めなくなる、並行計算における状況です
 
 ## 言語解析
 
@@ -324,18 +335,22 @@
 
 :::
 
-- 概念
-  - [Formal language](https://en.wikipedia.org/wiki/Formal_language) - 単語、すなわち文字、記号、トークンの有限列の集合です
-    - [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - 形式言語の一部である、与えられたアルファベットからの記号の有限列です
-  - [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar) - 形式言語における文字列の生成規則の集合です
-  - [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) - 形式文法のクラスの包含階層です
-  - [Rewriting](https://en.wikipedia.org/wiki/Rewriting) - 式の部分項を他の項で置き換える手法の幅広い範囲です
-    - [Confluence](https://en.wikipedia.org/wiki/Confluence_(abstract_rewriting)) - 書き換えシステムの性質であり、そのシステム内のどの項が複数の方法で書き換えられて同じ結果に至るかを記述するものです
-  - [Automata theory](https://en.wikipedia.org/wiki/Automata_theory) - 抽象機械とオートマトン、およびそれらを用いて解決できる計算上の問題を研究する分野です
-    - [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) - ある時点で有限個の状態のうちのちょうど 1 つを取り得て、何らかの入力に応じてある状態から別の状態へ遷移する、計算の数学的モデルです
-  - [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis) - テキストを、レキサープログラムによって定義されたカテゴリに属する意味のある字句トークンに変換することです
-  - [Parsing](https://en.wikipedia.org/wiki/Parsing) - 形式文法の規則に従う記号列を部分に分解して解析する処理です
+### 形式言語とオートマトン
+
+- [Formal language](https://en.wikipedia.org/wiki/Formal_language) - 単語、すなわち文字、記号、トークンの有限列の集合です
+  - [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula) - 形式言語の一部である、与えられたアルファベットからの記号の有限列です
+- [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar) - 形式言語における文字列の生成規則の集合です
   - [BNF syntax](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) - 文脈自由文法のための記法技法であり、計算機で使用される言語の構文を記述するためによく使用されます
+- [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) - 形式文法のクラスの包含階層です
+- [Rewriting](https://en.wikipedia.org/wiki/Rewriting) - 式の部分項を他の項で置き換える手法の幅広い範囲です
+  - [Confluence](https://en.wikipedia.org/wiki/Confluence_(abstract_rewriting)) - 書き換えシステムの性質であり、そのシステム内のどの項が複数の方法で書き換えられて同じ結果に至るかを記述するものです
+- [Automata theory](https://en.wikipedia.org/wiki/Automata_theory) - 抽象機械とオートマトン、およびそれらを用いて解決できる計算上の問題を研究する分野です
+  - [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) - ある時点で有限個の状態のうちのちょうど 1 つを取り得て、何らかの入力に応じてある状態から別の状態へ遷移する、計算の数学的モデルです
+
+### 字句解析と構文解析
+
+- [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis) - テキストを、レキサープログラムによって定義されたカテゴリに属する意味のある字句トークンに変換することです
+- [Parsing](https://en.wikipedia.org/wiki/Parsing) - 形式文法の規則に従う記号列を部分に分解して解析する処理です
   - [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - プログラミング言語で書かれたソースコードの抽象的な構文構造を木で表現したものです
 - パーサージェネレーター
   - [ANTLR](https://www.antlr.org/) - 構造化されたテキストやバイナリファイルの読み取り、処理、実行、変換のための強力なパーサジェネレータです
@@ -355,16 +370,14 @@
 
 :::
 
-- 概念
-  - [Compiler](https://en.wikipedia.org/wiki/Compiler) - あるプログラミング言語で書かれたコンピュータコードを別の言語に翻訳するコンピュータプログラムです
-  - [Transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) - あるプログラミング言語で書かれたプログラムのソースコードを入力として受け取り、同じまたは別のプログラミング言語で等価なソースコードを生成する翻訳器の一種です
-    - [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation) - コンパイラや仮想マシンがソースコードを表現するために内部的に使用するデータ構造またはコードです
-  - [Program optimization](https://en.wikipedia.org/wiki/Program_optimization) - ソフトウェアシステムのある側面をより効率的に動作させたり、使用するリソースを削減したりするために変更する過程です
-  - [Machine code](https://en.wikipedia.org/wiki/Machine_code) - コンピュータの中央処理装置 (CPU) が直接実行できる機械語命令で書かれたコンピュータプログラムです
-  - [Cross compiler](https://en.wikipedia.org/wiki/Cross_compiler) - コンパイラが動作しているプラットフォーム以外のプラットフォーム向けに実行可能コードを生成できるコンパイラです
-  - [Linker](https://en.wikipedia.org/wiki/Linker_(computing)) - 1 つ以上のオブジェクトファイルを受け取り、単一の実行可能ファイルに結合するコンピュータシステムプログラムです
+- [Compiler](https://en.wikipedia.org/wiki/Compiler) - あるプログラミング言語で書かれたコンピュータコードを別の言語に翻訳するコンピュータプログラムです
+- [Transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) - あるプログラミング言語で書かれたプログラムのソースコードを入力として受け取り、同じまたは別のプログラミング言語で等価なソースコードを生成する翻訳器の一種です
+  - [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation) - コンパイラや仮想マシンがソースコードを表現するために内部的に使用するデータ構造またはコードです
+- [Program optimization](https://en.wikipedia.org/wiki/Program_optimization) - ソフトウェアシステムのある側面をより効率的に動作させたり、使用するリソースを削減したりするために変更する過程です
+- [Machine code](https://en.wikipedia.org/wiki/Machine_code) - コンピュータの中央処理装置 (CPU) が直接実行できる機械語命令で書かれたコンピュータプログラムです
+- [Cross compiler](https://en.wikipedia.org/wiki/Cross_compiler) - コンパイラが動作しているプラットフォーム以外のプラットフォーム向けに実行可能コードを生成できるコンパイラです
 
-### 主要なコンパイラ基盤
+### コンパイラ基盤
 
 - [LLVM Compiler Infrastructure](https://llvm.org/) - モジュール化され再利用可能なコンパイラおよびツールチェーン技術の集合です
   - [Clang](https://clang.llvm.org/) - LLVM のための C 言語ファミリーフロントエンドです
@@ -372,19 +385,21 @@
 - [gcc](https://www.gnu.org/software/gcc/) - C、C++、Objective-C、Fortran、Ada、Go、D のフロントエンドを含む GNU Compiler Collection です
 - [rustc](https://doc.rust-lang.org/rustc/what-is-rustc.html) - Rust プログラミング言語のコンパイラです
 
-### 個別の翻訳系とビルドツール
+### 言語固有のコンパイラとトランスパイラ
 
-- [MinGW-w64](https://www.mingw-w64.org/) - Windows システム上で GCC コンパイラをサポートするために作られた、元の mingw.org プロジェクトの発展形です
 - [Go build command](https://pkg.go.dev/cmd/go) - Go のソースコードを管理するためのツールです
   - 静的バイナリ実行ファイル
 - [GopherJS](https://github.com/gopherjs/gopherjs) - Go から JavaScript へのコンパイラです
 - [Bunster](https://bunster.netlify.app/) - シェルスクリプトを自己完結型の実行可能プログラムに変換するシェルコンパイラです
 - [Spinel](https://github.com/matz/spinel) - プログラム全体の型推論を行い最適化された C コードを生成することで、Ruby ソースコードをスタンドアロンのネイティブ実行ファイルにコンパイルする Ruby AOT コンパイラです
+- ツールチェーン
+  - [MinGW-w64](https://www.mingw-w64.org/) - Windows システム上で GCC コンパイラをサポートするために作られた、元の mingw.org プロジェクトの発展形です
 
-### リンカ (スタンドアロン)
+### リンカと C ランタイムライブラリ
 
-- [mold](https://github.com/rui314/mold/) - モダンなリンカです
-- ランタイムライブラリ
+- [Linker](https://en.wikipedia.org/wiki/Linker_(computing)) - 1 つ以上のオブジェクトファイルを受け取り、単一の実行可能ファイルに結合するコンピュータシステムプログラムです
+  - [mold](https://github.com/rui314/mold/) - モダンなリンカです
+- C 標準ライブラリ
   - [glibc](https://sourceware.org/glibc/) - GNU システムおよび GNU/Linux システムのコアライブラリを提供する GNU C Library プロジェクトです
   - [musl libc](https://musl.libc.org/) - Linux カーネルをベースとしたオペレーティングシステム向けの C 標準ライブラリです
 
@@ -396,47 +411,49 @@
 
 :::
 
-- 概念
-  - [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - プログラムが書かれた言語のために、コンピュータ上で実行されるプログラムの部分です
-  - [Bytecode](https://en.wikipedia.org/wiki/Bytecode) - ソフトウェアインタプリタによる効率的な実行のために設計された命令セットの一形態です
-  - [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation) - プログラムの実行中にコンパイルを行うことを伴う、コンピュータコードの実行方式です
-  - [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock) - Python オブジェクトへのアクセスを保護し、複数のスレッドが同時に Python バイトコードを実行するのを防ぐミューテックスです
+### 実行モデル
 
-### ランタイム実装
+- [Runtime System](https://en.wikipedia.org/wiki/Runtime_system) - プログラムが書かれた言語のために、コンピュータ上で実行されるプログラムの部分です
+- [Bytecode](https://en.wikipedia.org/wiki/Bytecode) - ソフトウェアインタプリタによる効率的な実行のために設計された命令セットの一形態です
+- [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation) - プログラムの実行中にコンパイルを行うことを伴う、コンピュータコードの実行方式です
 
-- Javascript
-  - [Node.js](https://nodejs.org/) - 無料でオープンソースのクロスプラットフォーム JavaScript ランタイム環境です
-    - [libuv](https://libuv.org/) - 非同期 I/O に重点を置いたマルチプラットフォーム対応サポートライブラリです
-  - [Deno](https://deno.com/) - TypeScript と JavaScript のためのモダンなランタイムです
-    - 🪙 [Deno Deploy](https://deno.com/deploy) - JavaScript、TypeScript、WebAssembly をエッジで実行できる分散型 HTTP サービスです
-    - 💲 [Deno Subhosting](https://deno.com/subhosting) - SaaS プロバイダが V8 アイソレートを使用して信頼できない顧客のコードを大規模に安全に実行するためのプラットフォームです
-  - [Bun](https://bun.sh/) - JavaScript と TypeScript の実行、ビルド、テスト、デバッグのための高速なオールインワンツールキットです
-  - [WinterJS](https://github.com/wasmerio/winterjs) - SpiderMonkey エンジンと Tokio ランタイムを使用して Rust 上に構築された、非常に高速な JavaScript ランタイムです
+### JavaScript ランタイム
+
+- [Node.js](https://nodejs.org/) - 無料でオープンソースのクロスプラットフォーム JavaScript ランタイム環境です
+  - [libuv](https://libuv.org/) - 非同期 I/O に重点を置いたマルチプラットフォーム対応サポートライブラリです
+  - [PM2](https://pm2.keymetrics.io/) - アプリケーションをオンラインに保つ管理を助けるデーモンプロセスマネージャです
+- [Deno](https://deno.com/) - TypeScript と JavaScript のためのモダンなランタイムです
+- [Bun](https://bun.sh/) - JavaScript と TypeScript の実行、ビルド、テスト、デバッグのための高速なオールインワンツールキットです
+- [WinterJS](https://github.com/wasmerio/winterjs) - SpiderMonkey エンジンと Tokio ランタイムを使用して Rust 上に構築された、非常に高速な JavaScript ランタイムです
+
+### スクリプト言語のランタイム
+
 - Python
   - CPython (default)
+    - [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock) - Python オブジェクトへのアクセスを保護し、複数のスレッドが同時に Python バイトコードを実行するのを防ぐミューテックスです
   - [pypy](https://www.pypy.org/) - Python の高速で準拠したオルタナティブ実装です
   - [Pyodide](https://pyodide.org/en/stable/) - WebAssembly をベースとした、ブラウザと Node.js のための Python ディストリビューションです
 - Ruby
   - CRuby (default)
     - [RubyInstaller for Windows](https://rubyinstaller.org/) - Ruby 言語、実行環境、重要なドキュメントなどを含む、自己完結型の Windows 向けインストーラーです
   - [JRuby](https://www.jruby.org/) - Java Virtual Machine 上で動作する Ruby プログラミング言語の実装です
+  - [PyCall](https://github.com/mrkn/pycall.rb) - Ruby から Python の関数を呼び出せるようにする Ruby ライブラリです
 - Perl
   - [Strawberry Perl for Windows](https://strawberryperl.com/) - Perl アプリケーションの実行と開発に必要なものがすべて揃った、MS Windows 向けの Perl 環境です
+
+### マネージドランタイム (JVM と .NET)
+
 - 🪙 [Java SE](https://www.oracle.com/java/technologies/java-se-glance.html) - 現代的なアプリケーション開発のための、最も実績があり信頼性が高く安全な開発プラットフォームです
   - [Java HotSpot VM](https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html) - Oracle Corporation が提供する、デスクトップとサーバー向けの主要な Java Virtual Machine です
   - [JMX API](https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html) - Java Platform の標準的な一部である Java Management Extensions 技術です
   - [JDK tools](https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html) - アプリケーションを作成しビルドするためのコマンドラインツールです
+  - [VisualVM](https://visualvm.github.io/) - オールインワンの Java トラブルシューティングツールです
   - [GraalVM](https://oracle.com/java/graalvm/) - アヘッドオブタイムの Native Image コンパイルを備えた先進的な JDK です
   - [TornadoVM](https://www.tornadovm.org/) - JVM バイトコードを CUDA、OpenCL、Metal に JIT コンパイルし、Java を GPU などのハードウェアアクセラレーター上で実行する OpenJDK および GraalVM 向けのプラグインです
   - [OpenJDK](https://openjdk.org/) - Java Platform, Standard Edition のオープンソース実装を共同開発するための場です
   - [Eclipse Temurin](https://adoptium.net/temurin/) - OpenJDK のオープンソースでエンタープライズ対応かつ TCK 認定済みのビルドです
 - [.NET](https://dotnet.microsoft.com/en-us/) - モダンなアプリと強力なクラウドサービスを構築するための、無料でオープンソースのクロスプラットフォームフレームワークです
   - [CLR](https://learn.microsoft.com/en-us/dotnet/standard/clr) - .NET Framework の仮想マシンコンポーネントです
-
-- ランタイムユーティリティ
-  - [PM2](https://pm2.keymetrics.io/) - アプリケーションをオンラインに保つ管理を助けるデーモンプロセスマネージャです
-  - [PyCall](https://github.com/mrkn/pycall.rb) - Ruby から Python の関数を呼び出せるようにする Ruby ライブラリです
-  - [VisualVM](https://visualvm.github.io/) - オールインワンの Java トラブルシューティングツールです
 
 ## アルゴリズムと計算複雑性
 
@@ -446,50 +463,51 @@
 
 :::
 
-- 概念
-  - [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - 関連するリソースベースの複雑性を持つ計算問題の集合です
-
-- 参考リソース
-  - [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/) - アルゴリズム、アルゴリズム的技法、データ構造、典型的な問題、関連する定義の辞書です
-
-### アルゴリズム
-
 - [Algorithm](https://en.wikipedia.org/wiki/Algorithm) - 特定の種類の問題を解決したり計算を実行したりするために通常使用される、厳密な命令の有限列です
-  - 解析技法
-    - [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis) - 与えられたアルゴリズムの複雑性を分析するための手法です
-    - [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) - 引数が特定の値または無限大に近づくときの関数の極限的な振る舞いを記述する数学的記法です
-  - アルゴリズムパラダイム
-    - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)) - 解が同じ問題のより小さなインスタンスの解に依存する、計算問題を解決する方法です
-    - [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) - アルゴリズム設計パラダイムです
-    - [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) - 複雑な問題をより単純な部分問題の集合に分解することで解決する方法です
-    - [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - いくつかの計算問題に対する解を見つけるための一群のアルゴリズムです
-    - [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) - 各段階で局所的に最適な選択を行うという問題解決のヒューリスティックに従うアルゴリズムパラダイムです
-  - ソートアルゴリズム
-    - [Quicksort](https://en.wikipedia.org/wiki/Quicksort) - インプレースソートアルゴリズムです
-    - [Merge sort](https://en.wikipedia.org/wiki/Merge_sort) - 効率的で汎用的な、比較に基づくソートアルゴリズムです
-    - [Heapsort](https://en.wikipedia.org/wiki/Heapsort) - 比較に基づくソートアルゴリズムです
-  - 探索アルゴリズム
-    - [Binary search](https://en.wikipedia.org/wiki/Binary_search) - ソート済み配列内で目的の値の位置を見つける探索アルゴリズムです
-    - [Interpolation search](https://en.wikipedia.org/wiki/Interpolation_search) - キーに割り当てられた数値によって順序付けられたソート済み配列内でキーを探索するアルゴリズムです
-  - 文字列アルゴリズム
-    - [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) - メインのテキスト文字列 T の中に「単語」W が出現する箇所を探索する文字列検索アルゴリズムです
-    - [Boyer–Moore algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm) - 実用的な文字列検索の文献における標準的なベンチマークとなっている文字列検索アルゴリズムです
-    - [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence) - ある列の集合内のすべての列に共通する最長の部分列を見つける問題です
-  - グラフアルゴリズム
-    - 走査
-      - [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) - 木構造やグラフ構造のデータを走査または探索するアルゴリズムです
-      - [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) - 木構造やグラフ構造のデータを走査または探索するアルゴリズムです
-    - 最短経路
-      - [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - 重み付きグラフ内のノード間の最短経路を見つけるアルゴリズムです
-      - [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm) - 重み付き有向グラフにおいて単一の始点から他のすべての頂点への最短経路を計算するアルゴリズムです
-    - [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree) - 連結で辺に重みが付いた無向グラフのすべての頂点を接続する辺の部分集合です
-      - [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm) - 重み付き無向グラフに対する最小全域木を見つける貪欲アルゴリズムです
-      - [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal's_algorithm) - 森の中の任意の 2 つの木を接続する、可能な限り重みの小さい辺を見つける最小全域木アルゴリズムです
-    - その他
-      - [Tarjan's strongly connected components algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm) - 有向グラフの強連結成分 (SCC) を見つけるためのグラフ理論のアルゴリズムです
-      - [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting) - 有向非巡回グラフ (DAG) の頂点の線形順序付けです
-  - ハッシュアルゴリズム
-    - [Hash function](https://en.wikipedia.org/wiki/Hash_function) - 任意サイズのデータを固定サイズの値に写像するために使用できる任意の関数です
+- [NIST Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/) - アルゴリズム、アルゴリズム的技法、データ構造、典型的な問題、関連する定義の辞書です
+
+### 計算量解析
+
+- [Complexity class](https://en.wikipedia.org/wiki/Complexity_class) - 関連するリソースベースの複雑性を持つ計算問題の集合です
+- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) - 引数が特定の値または無限大に近づくときの関数の極限的な振る舞いを記述する数学的記法です
+- [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis) - 与えられたアルゴリズムの複雑性を分析するための手法です
+
+### アルゴリズム設計パラダイム
+
+- [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)) - 解が同じ問題のより小さなインスタンスの解に依存する、計算問題を解決する方法です
+- [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) - アルゴリズム設計パラダイムです
+- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) - 複雑な問題をより単純な部分問題の集合に分解することで解決する方法です
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - いくつかの計算問題に対する解を見つけるための一群のアルゴリズムです
+- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) - 各段階で局所的に最適な選択を行うという問題解決のヒューリスティックに従うアルゴリズムパラダイムです
+
+### ソート・探索・文字列アルゴリズム
+
+- ソートアルゴリズム
+  - [Quicksort](https://en.wikipedia.org/wiki/Quicksort) - インプレースソートアルゴリズムです
+  - [Merge sort](https://en.wikipedia.org/wiki/Merge_sort) - 効率的で汎用的な、比較に基づくソートアルゴリズムです
+  - [Heapsort](https://en.wikipedia.org/wiki/Heapsort) - 比較に基づくソートアルゴリズムです
+- 探索アルゴリズム
+  - [Binary search](https://en.wikipedia.org/wiki/Binary_search) - ソート済み配列内で目的の値の位置を見つける探索アルゴリズムです
+  - [Interpolation search](https://en.wikipedia.org/wiki/Interpolation_search) - キーに割り当てられた数値によって順序付けられたソート済み配列内でキーを探索するアルゴリズムです
+- 文字列アルゴリズム
+  - [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) - メインのテキスト文字列 T の中に「単語」W が出現する箇所を探索する文字列検索アルゴリズムです
+  - [Boyer–Moore algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm) - 実用的な文字列検索の文献における標準的なベンチマークとなっている文字列検索アルゴリズムです
+  - [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence) - ある列の集合内のすべての列に共通する最長の部分列を見つける問題です
+
+### グラフアルゴリズム
+
+- 走査
+  - [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) - 木構造やグラフ構造のデータを走査または探索するアルゴリズムです
+  - [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) - 木構造やグラフ構造のデータを走査または探索するアルゴリズムです
+- 最短経路
+  - [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - 重み付きグラフ内のノード間の最短経路を見つけるアルゴリズムです
+  - [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm) - 重み付き有向グラフにおいて単一の始点から他のすべての頂点への最短経路を計算するアルゴリズムです
+- [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree) - 連結で辺に重みが付いた無向グラフのすべての頂点を接続する辺の部分集合です
+  - [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm) - 重み付き無向グラフに対する最小全域木を見つける貪欲アルゴリズムです
+  - [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal's_algorithm) - 森の中の任意の 2 つの木を接続する、可能な限り重みの小さい辺を見つける最小全域木アルゴリズムです
+- その他
+  - [Tarjan's strongly connected components algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm) - 有向グラフの強連結成分 (SCC) を見つけるためのグラフ理論のアルゴリズムです
+  - [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting) - 有向非巡回グラフ (DAG) の頂点の線形順序付けです
 
 ### データ構造
 
@@ -509,6 +527,7 @@
     - [Array slicing](https://en.wikipedia.org/wiki/Array_slicing) - 配列から要素の部分集合を抽出し、それを別の配列としてパッケージ化する操作です
     - [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix) - ほとんどの要素がゼロである行列であり、メモリと処理時間を節約するための専用の記憶方式とアルゴリズムを可能にします
   - [Hash table](https://en.wikipedia.org/wiki/Hash_table) - 連想配列という抽象データ型を実装するデータ構造です
+    - [Hash function](https://en.wikipedia.org/wiki/Hash_function) - 任意サイズのデータを固定サイズの値に写像するために使用できる任意の関数です
     - 衝突解決
       - [Cuckoo hashing](https://en.wikipedia.org/wiki/Cuckoo_hashing) - ハッシュテーブル内のキーのハッシュ衝突を解決するためのコンピュータプログラミングの手法です
       - [Linear probing](https://en.wikipedia.org/wiki/Linear_probing) - ハッシュテーブルにおける衝突を解決するためのコンピュータプログラミングの手法です

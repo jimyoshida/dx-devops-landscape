@@ -33,6 +33,7 @@
 
 - [Data model](https://en.wikipedia.org/wiki/Data_model) - An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
   - [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) - An abstract description of interrelated things of interest in a specific domain of knowledge
+- [Database design](https://en.wikipedia.org/wiki/Database_design) - The organization of data according to a database model
 - [Dimensional Modeling](https://en.wikipedia.org/wiki/Dimensional_modeling) - A database design technique used to optimize data warehouses for analytical queries using facts and dimensions
 - [Schema Evolution](https://en.wikipedia.org/wiki/Schema_evolution) - The process of modifying a database schema while maintaining compatibility with existing data and applications
 

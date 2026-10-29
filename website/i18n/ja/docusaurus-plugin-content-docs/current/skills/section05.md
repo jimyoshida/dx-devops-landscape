@@ -33,6 +33,7 @@
 
 - [Data model](https://en.wikipedia.org/wiki/Data_model) - データの要素を編成し、それらの相互関係や実世界のエンティティのプロパティとの関係を標準化する抽象モデルです
   - [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) - 特定の知識領域における関心対象の相互関連するものについての抽象的な記述です
+- [Database design](https://en.wikipedia.org/wiki/Database_design) - データベースモデルに従ったデータの編成です
 - [Dimensional Modeling](https://en.wikipedia.org/wiki/Dimensional_modeling) - ファクトとディメンションを用いて分析クエリ向けにデータウェアハウスを最適化するデータベース設計手法です
 - [Schema Evolution](https://en.wikipedia.org/wiki/Schema_evolution) - 既存のデータやアプリケーションとの互換性を維持しながらデータベーススキーマを変更するプロセスです
 

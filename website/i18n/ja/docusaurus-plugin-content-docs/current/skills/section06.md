@@ -155,6 +155,7 @@
 - [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) - 言葉がどのように形成されるか、および同じ言語の他の言葉との関係の研究です
 - [Syntax](https://en.wikipedia.org/wiki/Syntax) - 言葉と形態素がどのようにして句や文などのより大きな単位を形成するかの研究である言語学的分野です
 - [Semantics](https://en.wikipedia.org/wiki/Semantics) - 言葉がどのように意味を獲得するか、および複雑な表現が構成要素から意味をどのように導出するかを調べる言語的意味の研究です
+  - [WordNet](https://wordnet.princeton.edu/) - 英語の大規模な語彙データベースです
 - [Distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics) - 言語データの大規模サンプルの分布プロパティに基づいて言語アイテム間の意味的類似性を定量化および分類するための理論と方法を開発および研究する研究領域です
 - [Symbol grounding problem](https://en.wikipedia.org/wiki/Symbol_grounding_problem) - 抽象シンボルを、それらが表現する実世界のオブジェクトまたは概念に接続するという課題です
 
@@ -193,9 +194,7 @@
 
 - [OpenCV](https://opencv.org/) - オープンソースのコンピュータビジョンおよび機械学習ソフトウェアライブラリです
   - [GoCV](https://gocv.io/) - OpenCV 4 のバインディングを備えた Go プログラミング言語用のパッケージです
-- [Pillow](https://github.com/python-pillow/Pillow) - 画像処理機能を追加する Python 画像処理ライブラリです
 - [scikit-image](https://scikit-image.org/) - Python での画像処理用のアルゴリズムのコレクションです
-- [ImageMagick](https://imagemagick.org/) - デジタル画像を作成、編集、構成、または変換するためのツールです
 
 ### 物体検出とセグメンテーション
 

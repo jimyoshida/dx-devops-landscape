@@ -277,7 +277,7 @@ section07: Fundamental Developer Skills
     # Shell Frameworks & Prompts
     # Terminal Emulators
     # Terminal Multiplexers & Console File Managers
-    # Unix-like Environments on Windows
+    # Windows Developer Environment
   # Version Control System
     # Git Fundamentals
     # Git Clients, UIs & Libraries
@@ -351,108 +351,115 @@ section08: OS & Network Basics
 section09: Programming Concepts & Paradigms
   # Software Design & Architecture
     # Design Principles
-    # Design Best Practices
+    # Software Engineering Laws
     # Design Patterns
     # Architectural Styles
     # Architecture Description
-    # Domain-Driven Design (DDD)
+    # Domain Modeling
   # Core Programming Concepts
-    # Language Mechanics & Execution
-    # Memory Management
+    # Syntax & Expressions
+    # Type Systems
+    # Functions & State
     # Control Flow Structures
-    # Foundational Techniques & Properties
-    # Module Structure & Organization
+    # Memory & Resource Management
   # Programming Paradigms
     # Object-oriented Programming
     # Functional Programming
-    # Reactive Programming & Others
+    # Reactive & Aspect-oriented Programming
   # Scripting Languages
     # Python
     # JavaScript & TypeScript
     # Ruby
     # Perl & Other Scripting Languages
   # Asynchronous & Concurrency
+    # Concurrency Models
+    # Synchronization & Thread Safety
   # Language Analysis
+    # Formal Languages & Automata
+    # Lexing & Parsing
   # Program Translation
-    # Major Compiler Infrastructures
-    # Specific Translators & Build Tools
-    # Linkers (Standalone)
+    # Compiler Infrastructures
+    # Language-specific Compilers & Transpilers
+    # Linkers & C Runtime Libraries
   # Program Execution
-    # Runtime Implementations
+    # Execution Models
+    # JavaScript Runtimes
+    # Scripting Language Runtimes
+    # Managed Runtimes (JVM & .NET)
   # Algorithm & Computational Complexity
-    # Algorithm
+    # Complexity Analysis
+    # Algorithm Design Paradigms
+    # Sorting, Searching & String Algorithms
+    # Graph Algorithms
     # Data Structures
 section10: Advanced Programming
   # Procedural & Systems Programming
     # Rust Language
     # Go Language
     # C & Other Procedural Languages
-  # Functional & Hybrid Programming
-    # Functional-first & Multi-paradigm Languages
-    # Multi-paradigm & Hybrid Languages
+  # Functional & Managed-Runtime Languages
+    # Functional-first Languages
+    # Managed-Runtime Languages
   # Data & Format Standards
-    # Text Format & Character Code
-    # DateTime Format
+    # Character Encoding
+    # Date & Time Standards
     # Data Exchange Languages
-    # Configuration Languages
+    # Configuration & Expression Languages
   # Text Processing & Manipulation
     # Regular Expression
-    # Text Tools
+    # Stream Editing & Text Comparison
     # Tabular Data
     # Template Engines
-    # Markup & Document Processing
-  # Debugging
-    # Logging
+    # Markdown Processing
+  # Debugging & Logging
+    # Interactive Debuggers
+    # Application Logging
   # Test Frameworks & Tools
-    # Test Frameworks
-    # Assertion Libraries
-    # Code Coverage Tools
-    # Test Supporting Tools
-    # Mutation Testing
+    # Unit Test Frameworks
+    # Test Doubles & Assertions
+    # Test Data Generation
+    # Code Coverage & Mutation Testing
   # Build Automation
     # Monorepo Management
-    # Program Documentation
-  # Package Dependency Management
-  # Virtual Environment
+  # Dependency & Environment Management
+    # Language Package Managers
+    # Runtime Version Managers
 section11: Specialized Development Domains
-  # Business & Productivity Application SDKs
+  # Service Integration SDKs
     # Project & Work Management
     # Collaboration & Communication
-    # Cloud Storage & File Management
-    # Email & Marketing Automation
-    # Payments & Finance
-    # CRM & Customer Support
-    # Enterprise Workspaces
-  # Developer Tools Integration SDKs
-    # Version Control & DevOps
-    # Container & Orchestration
-    # CI/CD & Automation
-  # Computer Graphics & Game Development
-    # 3D Graphics
-    # 2D Graphics
+    # Enterprise Workspaces & Content Platforms
+    # CRM, Marketing & Payments
+    # Git Hosting Platform SDKs
+    # DevOps & Infrastructure Automation SDKs
+  # Computer Graphics & Multimedia
     # Graphics APIs
-  # Binary & Media Processing
-    # Binary Format Tools
-    # Data Serialization
+    # Rendering & Animation Libraries
     # Image & Media Formats
     # Image & Media Processing
+  # Binary Data Processing
+    # Binary Format Tools
+    # Data Serialization
     # Compression & Archiving
   # Document Processing
     # Business Document Formats
+    # Document Conversion & Extraction
     # PDF Processing
     # Office Document Processing
   # CLI/TUI Development
+    # Argument Parsing & CLI Frameworks
+    # Terminal Styling & Output
+    # TUI Frameworks & Interactive Prompts
   # Desktop App Development
-    # Client OS & Environments
     # GUI Systems & Windowing
     # Desktop GUI Toolkits
-    # Desktop App Testing & Automation
-    # Installation & Packaging
+    # Desktop DevOps & Testing
   # Mobile App Development
     # Mobile Platforms & Native SDKs
     # Mobile Cross-Platform Frameworks
     # Mobile DevOps & Testing
-    # Application Services & Features
+    # Push Notifications & Device Integration
+    # Backend-as-a-Service (BaaS)
   # Internet of Things (IoT)
     # IoT Concepts
     # Communication Standards
@@ -463,21 +470,32 @@ section11: Specialized Development Domains
     # Workflow & Integration Automation
     # Web Content & Portal Builders
 section12: Personal Skills
-  # Foundational Thinking & Logic
-    # Logic
-    # Informal Logic
+  # Critical Thinking & Problem Solving
+    # Logical Reasoning
+    # Argumentation & Informal Logic
+    # Cognitive Biases & Heuristics
+    # Problem-Solving & Decision Making
   # Mathematical Logic
-    # Foundational Concepts
+    # Formal Systems & Logical Laws
     # Logical Systems
-    # Branches of Mathematical Logic
-  # Documentation
-    # Architectural Documentation
-    # Lightweight Markup & Writing Styles
-    # Documentation Tooling
+    # Set & Type Theory
+    # Proof, Computability & Model Theory
+    # Formal Methods & Automated Reasoning
+  # Technical Writing
+    # Writing Style Guides
+    # Documentation Linting & Validation
+  # Documentation Toolchain
+    # Lightweight Markup Languages
+    # Diagramming
+    # Typesetting & Document Conversion
+    # API Documentation Generation
   # Interpersonal & Team Leadership
-    # Team Dynamics & Communication
-    # Organizational Behavior
+    # Team Dynamics
+    # Communication & Feedback
+    # Work Motivation
+    # Organizational Design & Culture
     # Leadership Styles
   # Individual Psychology & Performance
-    # Personal Performance
-    # Social Performance
+    # Mental Health & Well-being
+    # Attention & Focus
+    # Social Psychology

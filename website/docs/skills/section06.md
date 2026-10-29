@@ -155,6 +155,7 @@
 - [Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) - The study of words, how they are formed, and their relationship to other words in the same language
 - [Syntax](https://en.wikipedia.org/wiki/Syntax) - A linguistic field that is the study of how words and morphemes combine to form larger units like phrases and sentences
 - [Semantics](https://en.wikipedia.org/wiki/Semantics) - The study of linguistic meaning, examining how words acquire meaning and how complex expressions derive meaning from their constituent parts
+  - [WordNet](https://wordnet.princeton.edu/) - A large lexical database of English
 - [Distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics) - A research area that develops and studies theories and methods for quantifying and categorizing semantic similarities between linguistic items based on their distributional properties in large samples of language data
 - [Symbol grounding problem](https://en.wikipedia.org/wiki/Symbol_grounding_problem) - The challenge of connecting abstract symbols to the real-world objects or concepts they represent
 
@@ -193,9 +194,7 @@
 
 - [OpenCV](https://opencv.org/) - An open source computer vision and machine learning software library
   - [GoCV](https://gocv.io/) - A package for the Go programming language with bindings for OpenCV 4
-- [Pillow](https://github.com/python-pillow/Pillow) - A Python Imaging Library adding image processing capabilities
 - [scikit-image](https://scikit-image.org/) - A collection of algorithms for image processing in Python
-- [ImageMagick](https://imagemagick.org/) - A tool to create, edit, compose, or convert digital images
 
 ### Object Detection & Segmentation
 

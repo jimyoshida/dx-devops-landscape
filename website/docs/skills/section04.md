@@ -482,6 +482,7 @@
   - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - A free implementation of SSH and Telnet for Windows and Unix platforms
   - [ssh-audit](https://github.com/jtesta/ssh-audit) - A tool for SSH server & client configuration auditing
   - [keychain](https://www.funtoo.org/Funtoo:Keychain) - A manager for ssh-agent, typically started from ~/.bash_profile
+  - [Wishlist](https://github.com/charmbracelet/wishlist) - An SSH directory for your private hostkeys and favorite SSH commands
 
 ### Firewalls & Network Protection
 

@@ -354,6 +354,8 @@
 - 🪙 [Vercel Functions](https://vercel.com/docs/functions) - サーバーを管理せずに、トラフィックに応じてスケールする API ルート、Webhook、エージェントのリクエストハンドラーを構築する手段です
   - [Fluid compute](https://vercel.com/docs/fluid-compute) - 最適化された並行処理とコールドスタートの削減によって、サーバーレスの柔軟性とサーバーのような機能を併せ持つ関数の実行モデルです
 - 🪙 [Netlify Functions](https://docs.netlify.com/build/functions/overview/) - 成長に合わせて自動でスケールするインフラの上で、サーバーを管理せずにフルスタックアプリケーションを構築する手段です
+- 🪙 [Deno Deploy](https://deno.com/deploy) - JavaScript、TypeScript、WebAssembly をエッジで実行できる分散型 HTTP サービスです
+  - 💲 [Deno Subhosting](https://deno.com/subhosting) - SaaS プロバイダが V8 アイソレートを使用して信頼できない顧客のコードを大規模に安全に実行するためのプラットフォームです
 
 ### サーバーレス & イベント駆動ランタイム
 

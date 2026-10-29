@@ -354,6 +354,8 @@
 - 🪙 [Vercel Functions](https://vercel.com/docs/functions) - A way to build API routes, webhooks, and agent request handlers that scale with traffic without managing servers
   - [Fluid compute](https://vercel.com/docs/fluid-compute) - An execution model for functions that blends serverless flexibility and server-like capabilities through optimized concurrency and reduced cold starts
 - 🪙 [Netlify Functions](https://docs.netlify.com/build/functions/overview/) - A way to build full-stack applications without having to manage servers, on infrastructure that automatically scales as you grow
+- 🪙 [Deno Deploy](https://deno.com/deploy) - A distributed HTTP service that allows you to run JavaScript, TypeScript, and WebAssembly at the edge
+  - 💲 [Deno Subhosting](https://deno.com/subhosting) - A platform for SaaS providers to securely run untrusted customer code at scale using V8 isolates
 
 ### Serverless & Event-driven Runtimes
 

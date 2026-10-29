@@ -482,6 +482,7 @@
   - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - Windows および Unix プラットフォーム向けの SSH と Telnet の無料実装です
   - [ssh-audit](https://github.com/jtesta/ssh-audit) - SSH サーバーおよびクライアントの設定監査のためのツールです
   - [keychain](https://www.funtoo.org/Funtoo:Keychain) - 通常 ~/.bash_profile から起動される ssh-agent のマネージャーです
+  - [Wishlist](https://github.com/charmbracelet/wishlist) - 秘密の鍵とお気に入りの SSH コマンドをまとめる SSH ディレクトリです
 
 ### ファイアウォールとネットワーク保護
 

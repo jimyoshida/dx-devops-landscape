@@ -250,12 +250,21 @@
   - [ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console
   - [superfile](https://superfile.netlify.app/) - A very fancy and modern terminal file manager
 
-### Unix-like Environments on Windows
+### Windows Developer Environment
 
 - [WSL](https://learn.microsoft.com/en-us/windows/wsl/) - A feature of Windows that enables you to run a GNU/Linux environment on your Windows machine without the need for a separate virtual machine or dual booting
   - [WSLg](https://github.com/microsoft/wslg) - A project that enables support for running Linux GUI applications (X11 and Wayland) on Windows in a fully integrated desktop experience
 - [Git for Windows](https://gitforwindows.org/) - A lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
 - [MSYS2](https://www.msys2.org/) - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
+- Package Management & Administration
+  - 🔒 [Chocolatey](https://chocolatey.org) - The package manager for Windows
+  - [Scoop](https://scoop.sh/) - A command-line installer for Windows
+  - [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/) - A command line tool enabling users to discover, install, upgrade, remove and configure applications on Windows
+  - [gsudo](https://gerardog.github.io/gsudo/) - A Sudo for Windows, with a similar user-experience to the original Sudo
+- Productivity & Automation
+  - [AutoHotKey](https://www.autohotkey.com/) - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
+  - [Clavier+](https://gryder.org/software/clavier-plus/) - A tool that allows you to trigger actions with keyboard shortcuts
+  - [WinSSHTerm](https://winsshterm.blogspot.com/) - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
 
 ## Version Control System
 
